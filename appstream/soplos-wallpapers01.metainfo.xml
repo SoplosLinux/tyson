@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2024 SoplosLinux -->
+<component type="desktop-application">
+  <id>soplos-wallpapers01</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>GPL-3.0</project_license>
+  <name>soplos-wallpapers01</name>
+  <summary>Fondos de pantalla para SopLOS KDE</summary>
+  <description>
+    <p>Fondos de pantalla para SopLOS KDE</p>
+  </description>
+  <categories>
+    <category>Utility</category>
+  </categories>
+  <developer_name>SopLOS <info@soploslinux.com></developer_name>
+  <update_contact>SopLOS <info@soploslinux.com></update_contact>
+  <project_group>SoplosLinux</project_group>
+  <launchable type="desktop-id">soplos-wallpapers01.desktop</launchable>
+  <releases>
+    <release version="1.0.0" date="2025-05-11"/>
+  </releases>
+</component>
