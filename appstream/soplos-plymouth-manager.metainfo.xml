@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.soplos.plymouthmanager.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Soplos Plymouth Manager</name>
+  <name xml:lang="es">Gestor Plymouth Soplos</name>
+  <name xml:lang="fr">Gestionnaire Plymouth Soplos</name>
+  <name xml:lang="pt">Gerenciador Plymouth Soplos</name>
+  <name xml:lang="de">Soplos Plymouth-Manager</name>
+  <name xml:lang="it">Gestore Plymouth Soplos</name>
+  <name xml:lang="ru">Менеджер Plymouth Soplos</name>
+  <name xml:lang="ro">Manager Plymouth Soplos</name>
+  
+  <summary>Plymouth boot splash theme manager for Soplos Linux</summary>
+  <summary xml:lang="es">Gestor de temas de arranque Plymouth para Soplos Linux</summary>
+  <summary xml:lang="fr">Gestionnaire de thèmes de démarrage Plymouth pour Soplos Linux</summary>
+  <summary xml:lang="pt">Gerenciador de temas de inicialização Plymouth para Soplos Linux</summary>
+  <summary xml:lang="de">Plymouth Boot-Splash Theme Manager für Soplos Linux</summary>
+  <summary xml:lang="it">Gestore dei temi di avvio Plymouth per Soplos Linux</summary>
+  <summary xml:lang="ru">Менеджер тем загрузочного экрана Plymouth для Soplos Linux</summary>
+  <summary xml:lang="ro">Manager de teme Plymouth pentru Soplos Linux</summary>
+
+  <description>
+    <p>A simple and intuitive Plymouth theme manager that allows you to preview, install and apply boot splash themes easily.</p>
+    <p xml:lang="es">Un gestor de temas Plymouth simple e intuitivo que te permite previsualizar, instalar y aplicar temas de arranque fácilmente.</p>
+    <p xml:lang="fr">Un gestionnaire de thèmes Plymouth simple et intuitif qui vous permet de prévisualiser, installer et appliquer des thèmes de démarrage facilement.</p>
+    <p xml:lang="pt">Um gerenciador de temas Plymouth simples e intuitivo que permite visualizar, instalar e aplicar temas de inicialização facilmente.</p>
+    <p xml:lang="de">Ein einfacher und intuitiver Plymouth-Theme-Manager, mit dem Sie Boot-Splash-Themes einfach vorschauen, installieren und anwenden können.</p>
+    <p xml:lang="it">Un gestore di temi Plymouth semplice e intuitivo che ti permette di visualizzare, installare e applicare temi di avvio facilmente.</p>
+    <p xml:lang="ru">Простой и интуитивно понятный менеджер тем Plymouth, который позволяет легко просматривать, устанавливать и применять темы загрузочного экрана.</p>
+    <p xml:lang="ro">Un manager de teme Plymouth simplu și intuitiv care vă permite să previzualizați, instalați și aplicați teme de pornire cu ușurință.</p>
+  </description>
+
+  <launchable type="desktop-id">com.soplos.plymouthmanager.desktop</launchable>
+
+  <icon type="stock">soplos-plymouth-manager</icon>
+  <icon type="remote">
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/icons/com.soplos.plymouthmanager.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Available themes list</caption>
+      <caption xml:lang="es">Lista de temas disponibles</caption>
+      <caption xml:lang="fr">Liste des thèmes disponibles</caption>
+      <caption xml:lang="pt">Lista de temas disponíveis</caption>
+      <caption xml:lang="de">Liste verfügbarer Themes</caption>
+      <caption xml:lang="it">Lista dei temi disponibili</caption>
+      <caption xml:lang="ru">Список доступных тем</caption>
+      <caption xml:lang="ro">Lista temelor disponibile</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Theme preview</caption>
+      <caption xml:lang="es">Previsualización del tema</caption>
+      <caption xml:lang="fr">Aperçu du thème</caption>
+      <caption xml:lang="pt">Prévia do tema</caption>
+      <caption xml:lang="de">Theme-Vorschau</caption>
+      <caption xml:lang="it">Anteprima del tema</caption>
+      <caption xml:lang="ru">Предварительный просмотр темы</caption>
+      <caption xml:lang="ro">Previzualizare temă</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Advanced settings</caption>
+      <caption xml:lang="es">Configuración avanzada</caption>
+      <caption xml:lang="fr">Paramètres avancés</caption>
+      <caption xml:lang="pt">Configurações avançadas</caption>
+      <caption xml:lang="de">Erweiterte Einstellungen</caption>
+      <caption xml:lang="it">Impostazioni avanzate</caption>
+      <caption xml:lang="ru">Расширенные настройки</caption>
+      <caption xml:lang="ro">Setări avansate</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-plymouth-manager/screenshots/screenshot3.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soploslinux.com</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
+  <url type="help">https://soploslinux.com</url>
+
+  <developer id="com.soploslinux">
+    <name>Soplos Team</name>
+    <name xml:lang="es">Equipo de Soplos</name>
+    <name xml:lang="fr">Équipe Soplos</name>
+    <name xml:lang="pt">Equipe Soplos</name>
+    <name xml:lang="de">Soplos Team</name>
+    <name xml:lang="it">Team Soplos</name>
+    <name xml:lang="ru">Команда Soplos</name>
+    <name xml:lang="ro">Echipa Soplos</name>
+    <url>https://soploslinux.com</url>
+  </developer>
+
+  <keywords>
+    <keyword>plymouth</keyword>
+    <keyword>boot</keyword>
+    <keyword>splash</keyword>
+    <keyword>theme</keyword>
+    <keyword>themes</keyword>
+    <keyword>boot-splash</keyword>
+    <keyword>customize</keyword>
+    <keyword>soplos</keyword>
+  </keywords>
+
+  <provides>
+    <binary>soplos-plymouth-manager</binary>
+  </provides>
+
+  <releases>
+    <release version="1.0.0" date="2025-05-08">
+      <description>
+        <p>Initial release</p>
+        <p xml:lang="es">Versión inicial</p>
+        <p xml:lang="fr">Version initiale</p>
+        <p xml:lang="pt">Versão inicial</p>
+        <p xml:lang="de">Erste Version</p>
+        <p xml:lang="it">Versione iniziale</p>
+        <p xml:lang="ru">Начальная версия</p>
+        <p xml:lang="ro">Versiune inițială</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1"/>
+
+  <categories>
+    <category>System</category>
+    <category>Settings</category>
+    <category>DesktopSettings</category>
+    <category>Utility</category>
+  </categories>
+</component>
