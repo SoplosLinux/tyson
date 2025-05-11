@@ -1,5 +1,7 @@
+Archive: stable
+Version: 1.0
 Component: main
-Origin: Repositorio APT Oficial de Soplos Linux Tyron
-Label: Repositorio APT Oficial de Soplos Linux Tyron
+Origin: SoplosLinux
+Label: SoplosLinux
 Architecture: amd64
-Description: Repositorio de paquetes APT para Soplos Linux Tyron
+Description: Repositorio de SoplosLinux

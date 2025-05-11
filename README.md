@@ -1,6 +1,6 @@
-# 📦 Repositorio APT Oficial de Soplos Linux Tyson
+# 📦 Repositorio APT oficial de Soplos Linux Tyson
 
-Repositorio de paquetes APT para Soplos Linux Tyson
+Repositorio APT oficial de Soplos Linux Tyron
 
 ## 🛠️ Instalación
 
@@ -33,6 +33,13 @@ Para ver todos los paquetes disponibles:
 ```bash
 apt search tyson
 ```
+
+## 🔗 Links útiles
+
+- [🌐 Sitio web](https://soploslinux.com/)
+- [📚 Documentación](https://soploslinux.com/tyson)
+- [💬 Foro](https://soploslinux.com/foros)
+- [📱 Telegram](https://t.me/+GnlviUOh1rdhM2M0)
 
 ## 🤝 Contribuir
 ¿Encontraste un error o tienes una sugerencia? ¡Abre un issue!
