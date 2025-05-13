@@ -1,4 +1,3 @@
-build-soplos-package.sh	    admin/soplos-release
 etc/debian_version	    admin/soplos-release
 etc/issue	    admin/soplos-release
 etc/issue.net	    admin/soplos-release
