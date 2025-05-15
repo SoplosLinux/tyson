@@ -167,3 +167,4 @@ usr/share/soplos-welcome-live/utils/autostart.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/desktop_detector.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/disable-numlockx.sh	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/numlockx_manager.py	    utils/soplos-welcome-live
+usr/share/soplos-welcome-live/utils/session_manager.py	    utils/soplos-welcome-live
