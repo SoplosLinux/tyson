@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.soplos.grubeditor.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Soplos GRUB Editor</name>
+  <name xml:lang="es">Editor GRUB de Soplos</name>
+  <name xml:lang="fr">Éditeur GRUB Soplos</name>
+  <name xml:lang="pt">Editor GRUB Soplos</name>
+  <name xml:lang="de">Soplos GRUB Editor</name>
+  <name xml:lang="it">Editor GRUB Soplos</name>
+  <name xml:lang="ru">Редактор GRUB Soplos</name>
+  <name xml:lang="ro">Editor GRUB Soplos</name>
+  
+  <summary>GRUB configuration editor for Soplos Linux</summary>
+  <summary xml:lang="es">Editor de configuración GRUB para Soplos Linux</summary>
+  <summary xml:lang="fr">Éditeur de configuration GRUB pour Soplos Linux</summary>
+  <summary xml:lang="pt">Editor de configuração GRUB para Soplos Linux</summary>
+  <summary xml:lang="de">GRUB Konfigurations-Editor für Soplos Linux</summary>
+  <summary xml:lang="it">Editor di configurazione GRUB per Soplos Linux</summary>
+  <summary xml:lang="ru">Редактор конфигурации GRUB для Soplos Linux</summary>
+  <summary xml:lang="ro">Editor de configurare GRUB pentru Soplos Linux</summary>
+
+  <description>
+    <p>A graphical tool to easily configure and customize GRUB bootloader settings in Soplos Linux.</p>
+    <p xml:lang="es">Una herramienta gráfica para configurar y personalizar fácilmente la configuración del gestor de arranque GRUB en Soplos Linux.</p>
+    <p xml:lang="fr">Un outil graphique pour configurer et personnaliser facilement les paramètres du chargeur de démarrage GRUB dans Soplos Linux.</p>
+    <p xml:lang="pt">Uma ferramenta gráfica para configurar e personalizar facilmente as configurações do gerenciador de inicialização GRUB no Soplos Linux.</p>
+    <p xml:lang="de">Ein grafisches Tool zur einfachen Konfiguration und Anpassung der GRUB-Bootloader-Einstellungen in Soplos Linux.</p>
+    <p xml:lang="it">Uno strumento grafico per configurare e personalizzare facilmente le impostazioni del bootloader GRUB in Soplos Linux.</p>
+    <p xml:lang="ru">Графический инструмент для легкой настройки и персонализации загрузчика GRUB в Soplos Linux.</p>
+    <p xml:lang="ro">Un instrument grafic pentru configurarea și personalizarea ușoară a setărilor încărcătorului de sistem GRUB în Soplos Linux.</p>
+  </description>
+
+  <launchable type="desktop-id">com.soplos.grubeditor.desktop</launchable>
+
+  <icon type="stock">soplos-grub-editor</icon>
+  <icon type="remote">
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-grub-editor/icons/com.soplos.grubeditor.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window of GRUB Editor</caption>
+      <caption xml:lang="es">Vista principal del Editor GRUB</caption>
+      <caption xml:lang="fr">Fenêtre principale de l'Éditeur GRUB</caption>
+      <caption xml:lang="pt">Janela principal do Editor GRUB</caption>
+      <caption xml:lang="de">Hauptfenster des GRUB Editors</caption>
+      <caption xml:lang="it">Finestra principale dell'Editor GRUB</caption>
+      <caption xml:lang="ru">Главное окно Редактора GRUB</caption>
+      <caption xml:lang="ro">Fereastra principală a Editorului GRUB</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/screenshots/screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>GRUB theme configuration</caption>
+      <caption xml:lang="es">Configuración de temas GRUB</caption>
+      <caption xml:lang="fr">Configuration des thèmes GRUB</caption>
+      <caption xml:lang="pt">Configuração de temas do GRUB</caption>
+      <caption xml:lang="de">GRUB Theme-Konfiguration</caption>
+      <caption xml:lang="it">Configurazione dei temi GRUB</caption>
+      <caption xml:lang="ru">Настройка тем GRUB</caption>
+      <caption xml:lang="ro">Configurarea temelor GRUB</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/screenshots/screenshot2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Advanced settings</caption>
+      <caption xml:lang="es">Configuración avanzada</caption>
+      <caption xml:lang="fr">Paramètres avancés</caption>
+      <caption xml:lang="pt">Configurações avançadas</caption>
+      <caption xml:lang="de">Erweiterte Einstellungen</caption>
+      <caption xml:lang="it">Impostazioni avanzate</caption>
+      <caption xml:lang="ru">Расширенные настройки</caption>
+      <caption xml:lang="ro">Setări avansate</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/screenshots/screenshot3.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soploslinux.com</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
+  <url type="help">https://soploslinux.com</url>
+
+  <developer id="com.soploslinux">
+    <name>Soplos Team</name>
+    <name xml:lang="es">Equipo de Soplos</name>
+    <name xml:lang="fr">Équipe Soplos</name>
+    <name xml:lang="pt">Equipe Soplos</name>
+    <name xml:lang="de">Soplos Team</name>
+    <name xml:lang="it">Team Soplos</name>
+    <name xml:lang="ru">Команда Soplos</name>
+    <name xml:lang="ro">Echipa Soplos</name>
+    <url>https://soploslinux.com</url>
+  </developer>
+
+  <keywords>
+    <keyword>grub</keyword>
+    <keyword>boot</keyword>
+    <keyword>bootloader</keyword>
+    <keyword>system</keyword>
+    <keyword>configure</keyword>
+    <keyword>settings</keyword>
+    <keyword>customize</keyword>
+    <keyword>soplos</keyword>
+  </keywords>
+
+  <provides>
+    <binary>soplos-grub-editor</binary>
+  </provides>
+
+  <releases>
+    <release version="1.0.0" date="2025-05-08">
+      <description>
+        <p>Initial release</p>
+        <p xml:lang="es">Versión inicial</p>
+        <p xml:lang="fr">Version initiale</p>
+        <p xml:lang="pt">Versão inicial</p>
+        <p xml:lang="de">Erste Version</p>
+        <p xml:lang="it">Versione iniziale</p>
+        <p xml:lang="ru">Начальная версия</p>
+        <p xml:lang="ro">Versiune inițială</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1"/>
+
+  <categories>
+    <category>System</category>
+    <category>Settings</category>
+    <category>Utility</category>
+  </categories>
+</component>
