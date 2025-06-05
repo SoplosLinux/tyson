@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.soplos.welcomelive.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Soplos Welcome Live</name>
+  <name xml:lang="es">Bienvenida a Soplos Live</name>
+  <name xml:lang="fr">Bienvenue sur Soplos Live</name>
+  <name xml:lang="pt">Bem-vindo ao Soplos Live</name>
+  <name xml:lang="de">Willkommen bei Soplos Live</name>
+  <name xml:lang="it">Benvenuto su Soplos Live</name>
+  <name xml:lang="ru">Добро пожаловать в Soplos Live</name>
+  <name xml:lang="ro">Bun venit la Soplos Live</name>
+  
+  <summary>Welcome screen for Soplos Linux Live Environment</summary>
+  <summary xml:lang="es">Pantalla de bienvenida para el entorno Live de Soplos Linux</summary>
+  <summary xml:lang="fr">Écran de bienvenue pour l'environnement Live de Soplos Linux</summary>
+  <summary xml:lang="pt">Tela de boas-vindas para o ambiente Live do Soplos Linux</summary>
+  <summary xml:lang="de">Willkommensbildschirm für die Live-Umgebung von Soplos Linux</summary>
+  <summary xml:lang="it">Schermata di benvenuto per l'ambiente Live di Soplos Linux</summary>
+  <summary xml:lang="ru">Экран приветствия для Live-окружения Soplos Linux</summary>
+  <summary xml:lang="ro">Ecran de întâmpinare pentru mediul Live Soplos Linux</summary>
+
+  <description>
+    <p>A welcome application for Soplos Linux Live Environment that helps users navigate the live system and install Soplos Linux.</p>
+    <p xml:lang="es">Una aplicación de bienvenida para el entorno Live de Soplos Linux que ayuda a los usuarios a navegar por el sistema live e instalar Soplos Linux.</p>
+    <p xml:lang="fr">Une application de bienvenue pour l'environnement Live de Soplos Linux qui aide les utilisateurs à naviguer dans le système live et à installer Soplos Linux.</p>
+    <p xml:lang="pt">Uma aplicação de boas-vindas para o Ambiente Live do Soplos Linux que ajuda os usuários a navegar pelo sistema live e instalar o Soplos Linux.</p>
+    <p xml:lang="de">Eine Willkommens-Anwendung für die Soplos Linux Live-Umgebung, die Benutzern hilft, durch das Live-System zu navigieren und Soplos Linux zu installieren.</p>
+    <p xml:lang="it">Un'applicazione di benvenuto per l'ambiente Live di Soplos Linux che aiuta gli utenti a navigare nel sistema live e installare Soplos Linux.</p>
+    <p xml:lang="ru">Приветственное приложение для Live-окружения Soplos Linux, которое помогает пользователям ориентироваться в live-системе и устанавливать Soplos Linux.</p>
+    <p xml:lang="ro">O aplicație de bun venit pentru mediul Live Soplos Linux care ajută utilizatorii să navigheze în sistemul live și să instaleze Soplos Linux.</p>
+  </description>
+
+  <launchable type="desktop-id">com.soplos.welcomelive.desktop</launchable>
+
+  <icon type="stock">soplos-welcome-live</icon>
+  <icon type="remote">
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-welcome-live/icons/com.soplos.welcomelive.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Live Welcome Screen</caption>
+      <caption xml:lang="es">Pantalla de bienvenida Live</caption>
+      <caption xml:lang="fr">Écran de bienvenue Live</caption>
+      <caption xml:lang="pt">Tela de boas-vindas Live</caption>
+      <caption xml:lang="de">Live-Willkommensbildschirm</caption>
+      <caption xml:lang="it">Schermata di benvenuto Live</caption>
+      <caption xml:lang="ru">Экран приветствия Live</caption>
+      <caption xml:lang="ro">Ecran de întâmpinare Live</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Installation Options</caption>
+      <caption xml:lang="es">Opciones de instalación</caption>
+      <caption xml:lang="fr">Options d'installation</caption>
+      <caption xml:lang="pt">Opções de instalação</caption>
+      <caption xml:lang="de">Installationsoptionen</caption>
+      <caption xml:lang="it">Opzioni di installazione</caption>
+      <caption xml:lang="ru">Параметры установки</caption>
+      <caption xml:lang="ro">Opțiuni de instalare</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Hardware Detection</caption>
+      <caption xml:lang="es">Detección de hardware</caption>
+      <caption xml:lang="fr">Détection du matériel</caption>
+      <caption xml:lang="pt">Detecção de hardware</caption>
+      <caption xml:lang="de">Hardware-Erkennung</caption>
+      <caption xml:lang="it">Rilevamento hardware</caption>
+      <caption xml:lang="ru">Обнаружение оборудования</caption>
+      <caption xml:lang="ro">Detectarea hardware-ului</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome-live/screenshots/screenshot3.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soploslinux.com</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
+  <url type="help">https://soploslinux.com</url>
+
+  <developer id="com.soploslinux">
+    <name>Soplos Team</name>
+    <name xml:lang="es">Equipo de Soplos</name>
+    <name xml:lang="fr">Équipe Soplos</name>
+    <name xml:lang="pt">Equipe Soplos</name>
+    <name xml:lang="de">Soplos Team</name>
+    <name xml:lang="it">Team Soplos</name>
+    <name xml:lang="ru">Команда Soplos</name>
+    <name xml:lang="ro">Echipa Soplos</name>
+    <url>https://soploslinux.com</url>
+  </developer>
+
+  <keywords>
+    <keyword>welcome</keyword>
+    <keyword>live</keyword>
+    <keyword>install</keyword>
+    <keyword>setup</keyword>
+    <keyword>soplos</keyword>
+  </keywords>
+
+  <provides>
+    <binary>soplos-welcome-live</binary>
+  </provides>
+
+  <releases>
+    <release version="1.0" date="2024-01-27">
+      <description>
+        <p>Initial release</p>
+        <p xml:lang="es">Versión inicial</p>
+        <p xml:lang="fr">Version initiale</p>
+        <p xml:lang="pt">Versão inicial</p>
+        <p xml:lang="de">Erste Version</p>
+        <p xml:lang="it">Versione iniziale</p>
+        <p xml:lang="ru">Начальная версия</p>
+        <p xml:lang="ro">Versiune inițială</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1"/>
+
+  <categories>
+    <category>System</category>
+    <category>Settings</category>
+    <category>Utility</category>
+  </categories>
+</component>

@@ -1,7 +1,0 @@
-db/
-conf/
-tmp/
-incoming/
-*.pyc
-__pycache__/
-.DS_Store
