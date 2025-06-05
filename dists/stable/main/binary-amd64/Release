@@ -1,0 +1,7 @@
+Archive: stable
+Version: 1.0
+Component: main
+Origin: SoplosLinux
+Label: SoplosLinux
+Architecture: amd64
+Description: Repositorio de SoplosLinux
