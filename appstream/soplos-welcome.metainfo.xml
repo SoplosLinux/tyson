@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.soplos.welcome.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Soplos Welcome</name>
+  <name xml:lang="es">Bienvenida a Soplos</name>
+  <name xml:lang="fr">Bienvenue sur Soplos</name>
+  <name xml:lang="pt">Bem-vindo ao Soplos</name>
+  <name xml:lang="de">Willkommen bei Soplos</name>
+  <name xml:lang="it">Benvenuto su Soplos</name>
+  <name xml:lang="ru">Добро пожаловать в Soplos</name>
+  <name xml:lang="ro">Bun venit la Soplos</name>
+  
+  <summary>Welcome screen for Soplos Linux</summary>
+  <summary xml:lang="es">Pantalla de bienvenida para Soplos Linux</summary>
+  <summary xml:lang="fr">Écran de bienvenue pour Soplos Linux</summary>
+  <summary xml:lang="pt">Tela de boas-vindas para Soplos Linux</summary>
+  <summary xml:lang="de">Willkommensbildschirm für Soplos Linux</summary>
+  <summary xml:lang="it">Schermata di benvenuto per Soplos Linux</summary>
+  <summary xml:lang="ru">Экран приветствия для Soplos Linux</summary>
+  <summary xml:lang="ro">Ecran de întâmpinare pentru Soplos Linux</summary>
+
+  <description>
+    <p>A welcome application for Soplos Linux that helps new users get started with their system.</p>
+    <p xml:lang="es">Una aplicación de bienvenida para Soplos Linux que ayuda a los nuevos usuarios a comenzar con su sistema.</p>
+    <p xml:lang="fr">Une application de bienvenue pour Soplos Linux qui aide les nouveaux utilisateurs à démarrer avec leur système.</p>
+    <p xml:lang="pt">Um aplicativo de boas-vindas para Soplos Linux que ajuda novos usuários a começar com seu sistema.</p>
+    <p xml:lang="de">Eine Willkommens-Anwendung für Soplos Linux, die neuen Benutzern hilft, mit ihrem System zu beginnen.</p>
+    <p xml:lang="it">Un'applicazione di benvenuto per Soplos Linux che aiuta i nuovi utenti a iniziare con il loro sistema.</p>
+    <p xml:lang="ru">Приветственное приложение для Soplos Linux, которое помогает новым пользователям начать работу с системой.</p>
+    <p xml:lang="ro">O aplicație de bun venit pentru Soplos Linux care ajută noii utilizatori să înceapă cu sistemul lor.</p>
+  </description>
+
+  <launchable type="desktop-id">com.soplos.welcome.desktop</launchable>
+
+  <icon type="stock">soplos-welcome</icon>
+  <icon type="remote">
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyson/refs/heads/main/media/soplos-welcome/icons/com.soplos.welcome.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main welcome screen</caption>
+      <caption xml:lang="es">Pantalla principal de bienvenida</caption>
+      <caption xml:lang="fr">Écran principal de bienvenue</caption>
+      <caption xml:lang="pt">Tela principal de boas-vindas</caption>
+      <caption xml:lang="de">Hauptwillkommensbildschirm</caption>
+      <caption xml:lang="it">Schermata principale di benvenuto</caption>
+      <caption xml:lang="ru">Главный экран приветствия</caption>
+      <caption xml:lang="ro">Ecran principal de întâmpinare</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Initial setup</caption>
+      <caption xml:lang="es">Configuración inicial</caption>
+      <caption xml:lang="fr">Configuration initiale</caption>
+      <caption xml:lang="pt">Configuração inicial</caption>
+      <caption xml:lang="de">Ersteinrichtung</caption>
+      <caption xml:lang="it">Configurazione iniziale</caption>
+      <caption xml:lang="ru">Начальная настройка</caption>
+      <caption xml:lang="ro">Configurare inițială</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Software installation</caption>
+      <caption xml:lang="es">Instalación de software</caption>
+      <caption xml:lang="fr">Installation de logiciels</caption>
+      <caption xml:lang="pt">Instalação de software</caption>
+      <caption xml:lang="de">Software-Installation</caption>
+      <caption xml:lang="it">Installazione software</caption>
+      <caption xml:lang="ru">Установка программного обеспечения</caption>
+      <caption xml:lang="ro">Instalare software</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot3.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>System configuration</caption>
+      <caption xml:lang="es">Configuración del sistema</caption>
+      <caption xml:lang="fr">Configuration du système</caption>
+      <caption xml:lang="pt">Configuração do sistema</caption>
+      <caption xml:lang="de">Systemkonfiguration</caption>
+      <caption xml:lang="it">Configurazione del sistema</caption>
+      <caption xml:lang="ru">Настройка системы</caption>
+      <caption xml:lang="ro">Configurare sistem</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot4.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Desktop customization</caption>
+      <caption xml:lang="es">Personalización del escritorio</caption>
+      <caption xml:lang="fr">Personnalisation du bureau</caption>
+      <caption xml:lang="pt">Personalização da área de trabalho</caption>
+      <caption xml:lang="de">Desktop-Anpassung</caption>
+      <caption xml:lang="it">Personalizzazione del desktop</caption>
+      <caption xml:lang="ru">Настройка рабочего стола</caption>
+      <caption xml:lang="ro">Personalizare desktop</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot5.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>About Soplos Linux</caption>
+      <caption xml:lang="es">Acerca de Soplos Linux</caption>
+      <caption xml:lang="fr">À propos de Soplos Linux</caption>
+      <caption xml:lang="pt">Sobre o Soplos Linux</caption>
+      <caption xml:lang="de">Über Soplos Linux</caption>
+      <caption xml:lang="it">Informazioni su Soplos Linux</caption>
+      <caption xml:lang="ru">О Soplos Linux</caption>
+      <caption xml:lang="ro">Despre Soplos Linux</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-welcome/screenshots/screenshot6.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soploslinux.com</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyson/issues</url>
+  <url type="help">https://soploslinux.com</url>
+
+  <developer id="com.soploslinux">
+    <name>Soplos Team</name>
+    <name xml:lang="es">Equipo de Soplos</name>
+    <name xml:lang="fr">Équipe Soplos</name>
+    <name xml:lang="pt">Equipe Soplos</name>
+    <name xml:lang="de">Soplos Team</name>
+    <name xml:lang="it">Team Soplos</name>
+    <name xml:lang="ru">Команда Soplos</name>
+    <name xml:lang="ro">Echipa Soplos</name>
+    <url>https://soploslinux.com</url>
+  </developer>
+
+  <keywords>
+    <keyword>welcome</keyword>
+    <keyword>start</keyword>
+    <keyword>setup</keyword>
+    <keyword>configuration</keyword>
+    <keyword>soplos</keyword>
+  </keywords>
+
+  <provides>
+    <binary>soplos-welcome</binary>
+  </provides>
+
+  <releases>
+    <release version="1.0.0" date="2025-05-08">
+      <description>
+        <p>Initial release</p>
+        <p xml:lang="es">Versión inicial</p>
+        <p xml:lang="fr">Version initiale</p>
+        <p xml:lang="pt">Versão inicial</p>
+        <p xml:lang="de">Erste Version</p>
+        <p xml:lang="it">Versione iniziale</p>
+        <p xml:lang="ru">Начальная версия</p>
+        <p xml:lang="ro">Versiune inițială</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1"/>
+
+  <categories>
+    <category>Settings</category>
+    <category>System</category>
+    <category>Utility</category>
+  </categories>
+</component>
