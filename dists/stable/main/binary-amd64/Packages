@@ -46,6 +46,20 @@ Essential: yes
 Replaces: base-files
 Conflicts: base-files (<< 13.7)
 
+Package: soplos-repo-selector
+Version: 1.0.0
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, apt, curl, debhelper-compat, gettext, gir1.2-gtk-3.0, gnupg, python3, python3-gi, python3-requests, python3-setuptools
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-repo-selector/soplos-repo-selector_1.0.0_all.deb
+Size: 2338896
+SHA256: d50e6b295fc0b2f2e2e4dcf0136239e7eeb9a46f491b56d27c6b3673b0a3dbe4
+SHA1: 45c5611f448566195f94d497c28090809cf4d56d
+MD5sum: 85b97ec8edeef3e55fd74c8f9ab618b9
+Description: APT Repo Selector
+
 Package: soplos-wallpapers01
 Version: 1.0.0
 Architecture: all
@@ -77,30 +91,30 @@ Description: Fondos de pantalla para SopLOS KDE
  para el sistema operativo Soplos Linux Tyson con entorno KDE.
 
 Package: soplos-welcome
-Version: 1.0.4
+Version: 1.0.05
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-psutil, python3-setuptools, python3-xlib, wget
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome/soplos-welcome_1.0.4_all.deb
-Size: 14981088
-SHA256: eda31341b405ef3b7514c17302e478f0372b1052a39e483324fd78ed024edd9b
-SHA1: 9e37833026cd68d5395ff4337ad7609ab8769ed8
-MD5sum: 5e43a17a7b119733a80521248adf2d9d
+Filename: pool/main/s/soplos-welcome/soplos-welcome_1.0.05_all.deb
+Size: 16978932
+SHA256: f3930aa5bbfc318d7563250e3235b8f95e7e381cf69a7afaf8573f44b7af8084
+SHA1: 850b80b8ed180ec107a2b3cda242f959e9e053bb
+MD5sum: 56ed539441c72e127598377b544f7323
 Description: Welcome to Soplos Linux
 
 Package: soplos-welcome-live
-Version: 1.0.2
+Version: 1.0.3
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-setuptools
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_1.0.2_all.deb
-Size: 521540
-SHA256: 639614998a21ece5c5b88e9914ea5b7105bc89bbc102ec064b94d2285f3bd4bd
-SHA1: 830d4b10978838aff378447f3ef43722e9e46997
-MD5sum: 9837520a73d80030576633870bd4973e
+Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_1.0.3_all.deb
+Size: 521792
+SHA256: 2da558f87bbee2e4d407c5fc95144c821dc13cdf64dff36b4a3212160dba434a
+SHA1: 38262ca965d1ac514b99c86267d2675dccba10b2
+MD5sum: 87d1b97242ec79a585d9d1add220a57e
 Description: Welcome to Soplos Linux Live
 

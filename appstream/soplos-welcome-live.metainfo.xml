@@ -104,7 +104,7 @@
   </provides>
 
   <releases>
-    <release version="1.0" date="2024-01-27">
+    <release version="1.0.3" date="2024-01-27">
       <description>
         <p>Initial release</p>
         <p xml:lang="es">Versión inicial</p>
