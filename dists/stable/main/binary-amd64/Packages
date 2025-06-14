@@ -90,20 +90,6 @@ Description: Fondos de pantalla para SopLOS KDE
  Este paquete contiene una colección de fondos de pantalla 
  para el sistema operativo Soplos Linux Tyson con entorno KDE.
 
-Package: soplos-welcome
-Version: 1.0.5
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-psutil, python3-setuptools, python3-xlib, wget
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-welcome/soplos-welcome_1.0.5_all.deb
-Size: 16979324
-SHA256: b11a50ff7bf6ddeeeaeffbc083928da47ecd8a048ae7aeae79034b37712aabcb
-SHA1: eee876ee89a83fb1520fd734493312d7ff025273
-MD5sum: 40aff37d42312b1647dd41a2785fed56
-Description: Welcome to Soplos Linux
-
 Package: soplos-welcome-live
 Version: 1.0.3
 Architecture: all
