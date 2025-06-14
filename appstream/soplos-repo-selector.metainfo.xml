@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.soplos.reposelector.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Soplos Repo Selector</name>
+  <name xml:lang="es">Selector de Repositorios Soplos</name>
+  <name xml:lang="fr">Sélecteur de dépôts Soplos</name>
+  <name xml:lang="pt">Seletor de Repositórios Soplos</name>
+  <name xml:lang="de">Soplos Repository-Selektor</name>
+  <name xml:lang="it">Selettore Repository Soplos</name>
+  <name xml:lang="ru">Селектор репозиториев Soplos</name>
+  <name xml:lang="ro">Selector de depozite Soplos</name>
+  
+  <summary>Advanced APT repository manager for Debian-based systems</summary>
+  <summary xml:lang="es">Gestor avanzado de repositorios APT para sistemas basados en Debian</summary>
+  <summary xml:lang="fr">Gestionnaire avancé de dépôts APT pour systèmes basés sur Debian</summary>
+  <summary xml:lang="pt">Gerenciador avançado de repositórios APT para sistemas baseados em Debian</summary>
+  <summary xml:lang="de">Erweiterte APT-Repository-Verwaltung für Debian-basierte Systeme</summary>
+  <summary xml:lang="it">Gestore avanzato di repository APT per sistemi basati su Debian</summary>
+  <summary xml:lang="ru">Продвинутый менеджер APT-репозиториев для систем на базе Debian</summary>
+  <summary xml:lang="ro">Manager avansat de depozite APT pentru sisteme bazate pe Debian</summary>
+
+  <description>
+    <p>Soplos Repo Selector is a comprehensive repository management tool designed for Debian-based Linux distributions. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p>
+    <p xml:lang="es">Soplos Repo Selector es una herramienta integral de gestión de repositorios diseñada para distribuciones Linux basadas en Debian. Proporciona una interfaz gráfica intuitiva para gestionar repositorios APT, claves GPG y fuentes de software del sistema con detección automática de tema y soporte multiidioma.</p>
+    <p xml:lang="fr">Soplos Repo Selector est un outil complet de gestion de dépôts conçu pour les distributions Linux basées sur Debian. Il fournit une interface graphique intuitive pour gérer les dépôts APT, les clés GPG et les sources logicielles du système avec détection automatique de thème et support multilingue.</p>
+    <p xml:lang="pt">Soplos Repo Selector é uma ferramenta abrangente de gerenciamento de repositórios projetada para distribuições Linux baseadas em Debian. Fornece uma interface gráfica intuitiva para gerenciar repositórios APT, chaves GPG e fontes de software do sistema com detecção automática de tema e suporte multilíngue.</p>
+    <p xml:lang="de">Soplos Repo Selector ist ein umfassendes Repository-Verwaltungstool für Debian-basierte Linux-Distributionen. Es bietet eine intuitive grafische Benutzeroberfläche für die Verwaltung von APT-Repositories, GPG-Schlüsseln und System-Software-Quellen mit automatischer Theme-Erkennung und mehrsprachiger Unterstützung.</p>
+    <p xml:lang="it">Soplos Repo Selector è uno strumento completo di gestione repository progettato per distribuzioni Linux basate su Debian. Fornisce un'interfaccia grafica intuitiva per gestire repository APT, chiavi GPG e sorgenti software di sistema con rilevamento automatico del tema e supporto multilingue.</p>
+    <p xml:lang="ru">Soplos Repo Selector - это комплексный инструмент управления репозиториями, предназначенный для дистрибутивов Linux на базе Debian. Он предоставляет интуитивный графический интерфейс для управления APT-репозиториями, GPG-ключами и источниками программного обеспечения системы с автоматическим обнаружением темы и многоязычной поддержкой.</p>
+    <p xml:lang="ro">Soplos Repo Selector este un instrument cuprinzător de gestionare a depozitelor proiectat pentru distribuțiile Linux bazate pe Debian. Oferă o interfață grafică intuitivă pentru gestionarea depozitelor APT, cheilor GPG și surselor software de sistem cu detectare automată a temei și suport multilingv.</p>
+
+    <p>Key features include:</p>
+    <p xml:lang="es">Las características principales incluyen:</p>
+    <p xml:lang="fr">Les fonctionnalités clés incluent:</p>
+    <p xml:lang="pt">As principais características incluem:</p>
+    <p xml:lang="de">Hauptmerkmale umfassen:</p>
+    <p xml:lang="it">Le caratteristiche principali includono:</p>
+    <p xml:lang="ru">Ключевые функции включают:</p>
+    <p xml:lang="ro">Caracteristicile principale includ:</p>
+
+    <ul>
+      <li>Complete APT repository management with modern DEB822 format support</li>
+      <li xml:lang="es">Gestión completa de repositorios APT con soporte para formato DEB822 moderno</li>
+      <li xml:lang="fr">Gestion complète des dépôts APT avec support du format DEB822 moderne</li>
+      <li xml:lang="pt">Gerenciamento completo de repositórios APT com suporte ao formato DEB822 moderno</li>
+      <li xml:lang="de">Vollständige APT-Repository-Verwaltung mit moderner DEB822-Format-Unterstützung</li>
+      <li xml:lang="it">Gestione completa dei repository APT con supporto per il formato DEB822 moderno</li>
+      <li xml:lang="ru">Полное управление APT-репозиториями с поддержкой современного формата DEB822</li>
+      <li xml:lang="ro">Gestionarea completă a depozitelor APT cu suport pentru formatul DEB822 modern</li>
+
+      <li>Automatic fastest mirror detection and speed testing</li>
+      <li xml:lang="es">Detección automática de mirrors más rápidos y pruebas de velocidad</li>
+      <li xml:lang="fr">Détection automatique des miroirs les plus rapides et tests de vitesse</li>
+      <li xml:lang="pt">Detecção automática de espelhos mais rápidos e testes de velocidade</li>
+      <li xml:lang="de">Automatische Erkennung der schnellsten Spiegel und Geschwindigkeitstests</li>
+      <li xml:lang="it">Rilevamento automatico dei mirror più veloci e test di velocità</li>
+      <li xml:lang="ru">Автоматическое обнаружение самых быстрых зеркал и тестирование скорости</li>
+      <li xml:lang="ro">Detectarea automată a oglinzilor cele mai rapide și teste de viteză</li>
+
+      <li>GPG key management with import and download capabilities</li>
+      <li xml:lang="es">Gestión de claves GPG con capacidades de importación y descarga</li>
+      <li xml:lang="fr">Gestion des clés GPG avec capacités d'importation et de téléchargement</li>
+      <li xml:lang="pt">Gerenciamento de chaves GPG com capacidades de importação e download</li>
+      <li xml:lang="de">GPG-Schlüsselverwaltung mit Import- und Download-Funktionen</li>
+      <li xml:lang="it">Gestione delle chiavi GPG con capacità di importazione e download</li>
+      <li xml:lang="ru">Управление GPG-ключами с возможностями импорта и загрузки</li>
+      <li xml:lang="ro">Gestionarea cheilor GPG cu capacități de import și descărcare</li>
+
+      <li>Automatic dark/light theme detection for KDE and GNOME</li>
+      <li xml:lang="es">Detección automática de tema oscuro/claro para KDE y GNOME</li>
+      <li xml:lang="fr">Détection automatique du thème sombre/clair pour KDE et GNOME</li>
+      <li xml:lang="pt">Detecção automática de tema escuro/claro para KDE e GNOME</li>
+      <li xml:lang="de">Automatische Erkennung dunkler/heller Themen für KDE und GNOME</li>
+      <li xml:lang="it">Rilevamento automatico del tema scuro/chiaro per KDE e GNOME</li>
+      <li xml:lang="ru">Автоматическое обнаружение тёмной/светлой темы для KDE и GNOME</li>
+      <li xml:lang="ro">Detectarea automată a temei întunecate/deschise pentru KDE și GNOME</li>
+
+      <li>Multi-language support (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+      <li xml:lang="es">Soporte multiidioma (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+      <li xml:lang="fr">Support multilingue (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+      <li xml:lang="pt">Suporte multilíngue (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+      <li xml:lang="de">Mehrsprachige Unterstützung (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+      <li xml:lang="it">Supporto multilingue (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+      <li xml:lang="ru">Многоязычная поддержка (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+      <li xml:lang="ro">Suport multilingv (ES, EN, FR, PT, DE, IT, RU, RO)</li>
+
+      <li>Wayland and X11 compatibility with proper session detection</li>
+      <li xml:lang="es">Compatibilidad con Wayland y X11 con detección adecuada de sesión</li>
+      <li xml:lang="fr">Compatibilité Wayland et X11 avec détection de session appropriée</li>
+      <li xml:lang="pt">Compatibilidade com Wayland e X11 com detecção adequada de sessão</li>
+      <li xml:lang="de">Wayland- und X11-Kompatibilität mit ordnungsgemäßer Sitzungserkennung</li>
+      <li xml:lang="it">Compatibilità Wayland e X11 con rilevamento di sessione appropriato</li>
+      <li xml:lang="ru">Совместимость с Wayland и X11 с правильным обнаружением сеанса</li>
+      <li xml:lang="ro">Compatibilitate Wayland și X11 cu detectarea adecvată a sesiunii</li>
+
+      <li>Predefined repository templates for popular software</li>
+      <li xml:lang="es">Plantillas de repositorio predefinidas para software popular</li>
+      <li xml:lang="fr">Modèles de dépôts prédéfinis pour les logiciels populaires</li>
+      <li xml:lang="pt">Modelos de repositório predefinidos para software popular</li>
+      <li xml:lang="de">Vordefinierte Repository-Vorlagen für beliebte Software</li>
+      <li xml:lang="it">Modelli di repository predefiniti per software popolari</li>
+      <li xml:lang="ru">Предопределённые шаблоны репозиториев для популярного ПО</li>
+      <li xml:lang="ro">Șabloane de depozit predefinite pentru software popular</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">com.soplos.reposelector.desktop</launchable>
+
+  <icon type="stock">com.soplos.reposelector</icon>
+  <icon type="remote">
+    <url>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/assets/icons/com.soplos.reposelector.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main repository management interface with automatic theme detection</caption>
+      <caption xml:lang="es">Interfaz principal de gestión de repositorios con detección automática de tema</caption>
+      <caption xml:lang="fr">Interface principale de gestion des dépôts avec détection automatique de thème</caption>
+      <caption xml:lang="pt">Interface principal de gerenciamento de repositórios com detecção automática de tema</caption>
+      <caption xml:lang="de">Hauptschnittstelle für Repository-Verwaltung mit automatischer Theme-Erkennung</caption>
+      <caption xml:lang="it">Interfaccia principale di gestione repository con rilevamento automatico del tema</caption>
+      <caption xml:lang="ru">Основной интерфейс управления репозиториями с автоматическим обнаружением темы</caption>
+      <caption xml:lang="ro">Interfața principală de gestionare a depozitelor cu detectare automată a temei</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/main-interface.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Repository speed testing and optimization</caption>
+      <caption xml:lang="es">Prueba de velocidad y optimización de repositorios</caption>
+      <caption xml:lang="fr">Test de vitesse et optimisation des dépôts</caption>
+      <caption xml:lang="pt">Teste de velocidade e otimização de repositórios</caption>
+      <caption xml:lang="de">Repository-Geschwindigkeitstest und -Optimierung</caption>
+      <caption xml:lang="it">Test di velocità e ottimizzazione dei repository</caption>
+      <caption xml:lang="ru">Тестирование скорости и оптимизация репозиториев</caption>
+      <caption xml:lang="ro">Testarea vitezei și optimizarea depozitelor</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/speed-test.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>GPG key management interface</caption>
+      <caption xml:lang="es">Interfaz de gestión de claves GPG</caption>
+      <caption xml:lang="fr">Interface de gestion des clés GPG</caption>
+      <caption xml:lang="pt">Interface de gerenciamento de chaves GPG</caption>
+      <caption xml:lang="de">GPG-Schlüsselverwaltungsschnittstelle</caption>
+      <caption xml:lang="it">Interfaccia di gestione delle chiavi GPG</caption>
+      <caption xml:lang="ru">Интерфейс управления GPG-ключами</caption>
+      <caption xml:lang="ro">Interfața de gestionare a cheilor GPG</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/screenshots/gpg-management.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soploslinux.com</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-repo-selector/issues</url>
+  <url type="help">https://soploslinux.com/docs/repo-selector</url>
+  <url type="donation">https://paypal.me/soploslinux</url>
+
+  <developer id="com.soploslinux">
+    <name>Soplos Linux Team</name>
+    <name xml:lang="es">Equipo de Soplos Linux</name>
+    <name xml:lang="fr">Équipe Soplos Linux</name>
+    <name xml:lang="pt">Equipe Soplos Linux</name>
+    <name xml:lang="de">Soplos Linux Team</name>
+    <name xml:lang="it">Team Soplos Linux</name>
+    <name xml:lang="ru">Команда Soplos Linux</name>
+    <name xml:lang="ro">Echipa Soplos Linux</name>
+    <url>https://soploslinux.com</url>
+  </developer>
+
+  <keywords>
+    <keyword>repository</keyword>
+    <keyword>apt</keyword>
+    <keyword>sources</keyword>
+    <keyword>debian</keyword>
+    <keyword>soplos</keyword>
+    <keyword>package</keyword>
+    <keyword>manager</keyword>
+    <keyword>gpg</keyword>
+    <keyword>theme</keyword>
+    <keyword>wayland</keyword>
+  </keywords>
+
+  <provides>
+    <binary>soplos-repo-selector</binary>
+  </provides>
+
+  <releases>
+    <release version="1.0.2" date="2025-01-15">
+      <description>
+        <p>Automatic theme detection and interface improvements</p>
+        <p xml:lang="es">Detección automática de tema y mejoras de interfaz</p>
+        <p xml:lang="fr">Détection automatique de thème et améliorations d'interface</p>
+        <p xml:lang="pt">Detecção automática de tema e melhorias de interface</p>
+        <p xml:lang="de">Automatische Theme-Erkennung und Interface-Verbesserungen</p>
+        <p xml:lang="it">Rilevamento automatico del tema e miglioramenti dell'interfaccia</p>
+        <p xml:lang="ru">Автоматическое обнаружение темы и улучшения интерфейса</p>
+        <p xml:lang="ro">Detectarea automată a temei și îmbunătățiri ale interfeței</p>
+        <ul>
+          <li>Automatic dark/light theme detection for KDE and GNOME</li>
+          <li xml:lang="es">Detección automática de tema oscuro/claro para KDE y GNOME</li>
+          <li xml:lang="fr">Détection automatique du thème sombre/clair pour KDE et GNOME</li>
+          <li xml:lang="pt">Detecção automática de tema escuro/claro para KDE e GNOME</li>
+          <li xml:lang="de">Automatische Erkennung dunkler/heller Themen für KDE und GNOME</li>
+          <li xml:lang="it">Rilevamento automatico del tema scuro/chiaro per KDE e GNOME</li>
+          <li xml:lang="ru">Автоматическое обнаружение тёмной/светлой темы для KDE и GNOME</li>
+          <li xml:lang="ro">Detectarea automată a temei întunecate/deschise pentru KDE și GNOME</li>
+          <li>Improved Wayland compositor support</li>
+          <li xml:lang="es">Soporte mejorado pentru compositors Wayland</li>
+          <li xml:lang="fr">Support amélioré pour les compositeurs Wayland</li>
+          <li xml:lang="pt">Suporte aprimorado para compositores Wayland</li>
+          <li xml:lang="de">Verbesserte Unterstützung für Wayland-Compositoren</li>
+          <li xml:lang="it">Supporto migliorato per i compositori Wayland</li>
+          <li xml:lang="ru">Улучшенная поддержка композиторов Wayland</li>
+          <li xml:lang="ro">Suport îmbunătățit pentru compozitorii Wayland</li>
+          <li>Fixed theme inconsistencies with Soplos orange accents</li>
+          <li xml:lang="es">Corregidas inconsistencias de tema con acentos naranjas de Soplos</li>
+          <li xml:lang="fr">Correction des incohérences de thème avec les accents orange Soplos</li>
+          <li xml:lang="pt">Corrigidas inconsistências de tema com acentos laranja Soplos</li>
+          <li xml:lang="de">Behobene Theme-Inkonsistenzen mit Soplos-Orange-Akzenten</li>
+          <li xml:lang="it">Corrette le incoerenze del tema con gli accenti arancioni Soplos</li>
+          <li xml:lang="ru">Исправлены несоответствия темы с оранжевыми акцентами Soplos</li>
+          <li xml:lang="ro">Corecte inconsecvențele temei cu accentele portocalii Soplos</li>
+          <li>Enhanced startup performance and initialization</li>
+          <li xml:lang="es">Rendimiento de inicio e inicialización mejorados</li>
+          <li xml:lang="fr">Performance de démarrage et initialisation améliorées</li>
+          <li xml:lang="pt">Desempenho de inicialização e inicialização aprimorados</li>
+          <li xml:lang="de">Verbesserte Startleistung und Initialisierung</li>
+          <li xml:lang="it">Prestazioni di avvio e inizializzazione migliorate</li>
+          <li xml:lang="ru">Улучшенная производительность запуска и инициализации</li>
+          <li xml:lang="ro">Performanța de pornire și inițializarea îmbunătățite</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.1" date="2025-01-10">
+      <description>
+        <p>Multi-language support and advanced features</p>
+        <p xml:lang="es">Soporte multiidioma y características avanzadas</p>
+        <p xml:lang="fr">Support multilingue et fonctionnalités avancées</p>
+        <p xml:lang="pt">Suporte multilíngue e recursos avançados</p>
+        <p xml:lang="de">Mehrsprachige Unterstützung und erweiterte Funktionen</p>
+        <p xml:lang="it">Supporto multilingue e funzionalità avanzate</p>
+        <p xml:lang="ru">Многоязычная поддержка и расширенные функции</p>
+        <p xml:lang="ro">Suport multilingv și funcții avansate</p>
+      </description>
+    </release>
+    <release version="1.0.0" date="2025-01-05">
+      <description>
+        <p>Initial release with core repository management features</p>
+        <p xml:lang="es">Lanzamiento inicial con características básicas de gestión de repositorios</p>
+        <p xml:lang="fr">Version initiale avec fonctionnalités de base de gestion des dépôts</p>
+        <p xml:lang="pt">Lançamento inicial com recursos básicos de gerenciamento de repositórios</p>
+        <p xml:lang="de">Erste Version mit grundlegenden Repository-Verwaltungsfunktionen</p>
+        <p xml:lang="it">Rilascio iniziale con funzionalità di base per la gestione dei repository</p>
+        <p xml:lang="ru">Первый выпуск с основными функциями управления репозиториями</p>
+        <p xml:lang="ro">Lansarea inițială cu funcții de bază de gestionare a depozitelor</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1"/>
+
+  <categories>
+    <category>Settings</category>
+    <category>System</category>
+    <category>PackageManager</category>
+    <category>Utility</category>
+  </categories>
+</component>
