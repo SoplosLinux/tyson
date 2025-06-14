@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.soplos.reposelector.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Soplos Repository Selector</name>
+  <name xml:lang="es">Selector de Repositorios Soplos</name>
+  <name xml:lang="fr">Sélecteur de Dépôts Soplos</name>
+  <name xml:lang="pt">Seletor de Repositórios Soplos</name>
+  <name xml:lang="de">Soplos Repository-Auswahl</name>
+  <name xml:lang="it">Selettore Repository Soplos</name>
+  <name xml:lang="ru">Селектор репозиториев Soplos</name>
+  <name xml:lang="ro">Selector Depozite Soplos</name>
+  
+  <summary>Repository manager for Soplos Linux</summary>
+  <summary xml:lang="es">Gestor de repositorios para Soplos Linux</summary>
+  <summary xml:lang="fr">Gestionnaire de dépôts pour Soplos Linux</summary>
+  <summary xml:lang="pt">Gerenciador de repositórios para Soplos Linux</summary>
+  <summary xml:lang="de">Repository-Manager für Soplos Linux</summary>
+  <summary xml:lang="it">Gestore repository per Soplos Linux</summary>
+  <summary xml:lang="ru">Менеджер репозиториев для Soplos Linux</summary>
+  <summary xml:lang="ro">Manager de depozite pentru Soplos Linux</summary>
+
+  <description>
+    <p>A graphical tool to manage APT repositories in Debian-based systems, with features to find the fastest mirrors and manage GPG keys.</p>
+    <p xml:lang="es">Una herramienta gráfica para gestionar los repositorios APT en sistemas basados en Debian, con funciones para encontrar los servidores más rápidos y gestionar claves GPG.</p>
+    <p xml:lang="fr">Un outil graphique pour gérer les dépôts APT dans les systèmes basés sur Debian, avec des fonctionnalités pour trouver les miroirs les plus rapides et gérer les clés GPG.</p>
+    <p xml:lang="pt">Uma ferramenta gráfica para gerenciar repositórios APT em sistemas baseados em Debian, com recursos para encontrar os mirrors mais rápidos e gerenciar chaves GPG.</p>
+    <p xml:lang="de">Ein grafisches Tool zur Verwaltung von APT-Repositories in Debian-basierten Systemen, mit Funktionen zum Auffinden der schnellsten Spiegelserver und zur Verwaltung von GPG-Schlüsseln.</p>
+    <p xml:lang="it">Uno strumento grafico per gestire i repository APT nei sistemi basati su Debian, con funzionalità per trovare i mirror più veloci e gestire le chiavi GPG.</p>
+    <p xml:lang="ru">Графический инструмент для управления репозиториями APT в системах на базе Debian, с функциями поиска самых быстрых зеркал и управления ключами GPG.</p>
+    <p xml:lang="ro">Un instrument grafic pentru gestionarea depozitelor APT în sistemele bazate pe Debian, cu funcții pentru găsirea celor mai rapide servere mirror și gestionarea cheilor GPG.</p>
+  </description>
+
+  <launchable type="desktop-id">com.soplos.reposelector.desktop</launchable>
+
+  <icon type="stock">com.soplos.reposelector</icon>
+  <icon type="remote">
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/refs/heads/main/media/soplos-repo-selector/icons/com.soplos.reposelector.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window of Soplos Repository Selector</caption>
+      <caption xml:lang="es">Ventana principal del Selector de Repositorios Soplos</caption>
+      <caption xml:lang="fr">Fenêtre principale du Sélecteur de Dépôts Soplos</caption>
+      <caption xml:lang="pt">Janela principal do Seletor de Repositórios Soplos</caption>
+      <caption xml:lang="de">Hauptfenster von Soplos Repository-Auswahl</caption>
+      <caption xml:lang="it">Finestra principale di Selettore Repository Soplos</caption>
+      <caption xml:lang="ru">Главное окно Селектора репозиториев Soplos</caption>
+      <caption xml:lang="ro">Fereastra principală Selector Depozite Soplos</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-selector/screenshots/screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Finding fastest repositories</caption>
+      <caption xml:lang="es">Búsqueda de repositorios más rápidos</caption>
+      <caption xml:lang="fr">Recherche des dépôts les plus rapides</caption>
+      <caption xml:lang="pt">Encontrando repositórios mais rápidos</caption>
+      <caption xml:lang="de">Suche nach den schnellsten Repositories</caption>
+      <caption xml:lang="it">Ricerca dei repository più veloci</caption>
+      <caption xml:lang="ru">Поиск самых быстрых репозиториев</caption>
+      <caption xml:lang="ro">Găsirea celor mai rapide depozite</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-selector/screenshots/screenshot2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>GPG keys management</caption>
+      <caption xml:lang="es">Gestión de claves GPG</caption>
+      <caption xml:lang="fr">Gestion des clés GPG</caption>
+      <caption xml:lang="pt">Gerenciamento de chaves GPG</caption>
+      <caption xml:lang="de">Verwaltung von GPG-Schlüsseln</caption>
+      <caption xml:lang="it">Gestione delle chiavi GPG</caption>
+      <caption xml:lang="ru">Управление ключами GPG</caption>
+      <caption xml:lang="ro">Gestionarea cheilor GPG</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-selector/screenshots/screenshot3.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Adding and editing repositories</caption>
+      <caption xml:lang="es">Añadir y editar repositorios</caption>
+      <caption xml:lang="fr">Ajout et édition de dépôts</caption>
+      <caption xml:lang="pt">Adicionando e editando repositórios</caption>
+      <caption xml:lang="de">Hinzufügen und Bearbeiten von Repositories</caption>
+      <caption xml:lang="it">Aggiunta e modifica di repository</caption>
+      <caption xml:lang="ru">Добавление и редактирование репозиториев</caption>
+      <caption xml:lang="ro">Adăugarea și editarea depozitelor</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-selector/screenshots/screenshot4.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soploslinux.com</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyron/issues</url>
+  <url type="help">https://soploslinux.com</url>
+
+  <developer id="com.soploslinux">
+    <name>Soplos Team</name>
+    <name xml:lang="es">Equipo de Soplos</name>
+    <name xml:lang="fr">Équipe Soplos</name>
+    <name xml:lang="pt">Equipe Soplos</name>
+    <name xml:lang="de">Soplos Team</name>
+    <name xml:lang="it">Team Soplos</name>
+    <name xml:lang="ru">Команда Soplos</name>
+    <name xml:lang="ro">Echipa Soplos</name>
+    <url>https://soploslinux.com</url>
+  </developer>
+
+  <keywords>
+    <keyword>repository</keyword>
+    <keyword>sources</keyword>
+    <keyword>apt</keyword>
+    <keyword>debian</keyword>
+    <keyword>soplos</keyword>
+    <keyword>packages</keyword>
+    <keyword>software</keyword>
+  </keywords>
+
+  <provides>
+    <binary>soplos-repo-selector</binary>
+  </provides>
+
+  <releases>
+    <release version="1.0.0" date="2025-05-08">
+      <description>
+        <p>Initial release</p>
+        <p xml:lang="es">Versión inicial</p>
+        <p xml:lang="fr">Version initiale</p>
+        <p xml:lang="pt">Versão inicial</p>
+        <p xml:lang="de">Erste Version</p>
+        <p xml:lang="it">Versione iniziale</p>
+        <p xml:lang="ru">Начальная версия</p>
+        <p xml:lang="ro">Versiune inițială</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1"/>
+
+  <categories>
+    <category>Settings</category>
+    <category>System</category>
+    <category>PackageManager</category>
+    <category>Utility</category>
+  </categories>
+</component>
