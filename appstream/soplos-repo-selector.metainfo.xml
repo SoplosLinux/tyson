@@ -12,24 +12,24 @@
   <name xml:lang="ru">Селектор репозиториев Soplos</name>
   <name xml:lang="ro">Selector Depozite Soplos</name>
   
-  <summary>Repository manager for Soplos Linux</summary>
-  <summary xml:lang="es">Gestor de repositorios para Soplos Linux</summary>
-  <summary xml:lang="fr">Gestionnaire de dépôts pour Soplos Linux</summary>
-  <summary xml:lang="pt">Gerenciador de repositórios para Soplos Linux</summary>
-  <summary xml:lang="de">Repository-Manager für Soplos Linux</summary>
-  <summary xml:lang="it">Gestore repository per Soplos Linux</summary>
-  <summary xml:lang="ru">Менеджер репозиториев для Soplos Linux</summary>
-  <summary xml:lang="ro">Manager de depozite pentru Soplos Linux</summary>
+  <summary>Advanced repository manager with speed testing for Debian-based systems</summary>
+  <summary xml:lang="es">Gestor avanzado de repositorios con pruebas de velocidad para sistemas basados en Debian</summary>
+  <summary xml:lang="fr">Gestionnaire avancé de dépôts avec tests de vitesse pour les systèmes basés sur Debian</summary>
+  <summary xml:lang="pt">Gerenciador avançado de repositórios com testes de velocidade para sistemas baseados em Debian</summary>
+  <summary xml:lang="de">Erweiterte Repository-Verwaltung mit Geschwindigkeitstests für Debian-basierte Systeme</summary>
+  <summary xml:lang="it">Gestore avanzato di repository con test di velocità per sistemi basati su Debian</summary>
+  <summary xml:lang="ru">Продвинутый менеджер репозиториев с тестами скорости для систем на базе Debian</summary>
+  <summary xml:lang="ro">Manager avansat de depozite cu teste de viteză pentru sistemele bazate pe Debian</summary>
 
   <description>
-    <p>A graphical tool to manage APT repositories in Debian-based systems, with features to find the fastest mirrors and manage GPG keys.</p>
-    <p xml:lang="es">Una herramienta gráfica para gestionar los repositorios APT en sistemas basados en Debian, con funciones para encontrar los servidores más rápidos y gestionar claves GPG.</p>
-    <p xml:lang="fr">Un outil graphique pour gérer les dépôts APT dans les systèmes basés sur Debian, avec des fonctionnalités pour trouver les miroirs les plus rapides et gérer les clés GPG.</p>
-    <p xml:lang="pt">Uma ferramenta gráfica para gerenciar repositórios APT em sistemas baseados em Debian, com recursos para encontrar os mirrors mais rápidos e gerenciar chaves GPG.</p>
-    <p xml:lang="de">Ein grafisches Tool zur Verwaltung von APT-Repositories in Debian-basierten Systemen, mit Funktionen zum Auffinden der schnellsten Spiegelserver und zur Verwaltung von GPG-Schlüsseln.</p>
-    <p xml:lang="it">Uno strumento grafico per gestire i repository APT nei sistemi basati su Debian, con funzionalità per trovare i mirror più veloci e gestire le chiavi GPG.</p>
-    <p xml:lang="ru">Графический инструмент для управления репозиториями APT в системах на базе Debian, с функциями поиска самых быстрых зеркал и управления ключами GPG.</p>
-    <p xml:lang="ro">Un instrument grafic pentru gestionarea depozitelor APT în sistemele bazate pe Debian, cu funcții pentru găsirea celor mai rapide servere mirror și gestionarea cheilor GPG.</p>
+    <p>A comprehensive graphical tool to manage APT repositories in Debian-based systems, featuring real download speed testing to find the fastest mirrors, predefined configuration templates, geographical filtering, and complete GPG key management.</p>
+    <p xml:lang="es">Una herramienta gráfica integral para gestionar repositorios APT en sistemas basados en Debian, con pruebas reales de velocidad de descarga para encontrar los mirrors más rápidos, plantillas de configuración predefinidas, filtrado geográfico y gestión completa de claves GPG.</p>
+    <p xml:lang="fr">Un outil graphique complet pour gérer les dépôts APT dans les systèmes basés sur Debian, avec des tests de vitesse de téléchargement réels pour trouver les miroirs les plus rapides, des modèles de configuration prédéfinis, un filtrage géographique et une gestion complète des clés GPG.</p>
+    <p xml:lang="pt">Uma ferramenta gráfica abrangente para gerenciar repositórios APT em sistemas baseados em Debian, com testes reais de velocidade de download para encontrar os mirrors mais rápidos, modelos de configuração predefinidos, filtragem geográfica e gerenciamento completo de chaves GPG.</p>
+    <p xml:lang="de">Ein umfassendes grafisches Tool zur Verwaltung von APT-Repositories in Debian-basierten Systemen, mit echten Download-Geschwindigkeitstests zum Auffinden der schnellsten Spiegelserver, vordefinierten Konfigurationsvorlagen, geografischer Filterung und vollständiger GPG-Schlüsselverwaltung.</p>
+    <p xml:lang="it">Uno strumento grafico completo per gestire i repository APT nei sistemi basati su Debian, con test reali di velocità di download per trovare i mirror più veloci, modelli di configurazione predefiniti, filtro geografico e gestione completa delle chiavi GPG.</p>
+    <p xml:lang="ru">Комплексный графический инструмент для управления репозиториями APT в системах на базе Debian, с реальными тестами скорости загрузки для поиска самых быстрых зеркал, предопределенными шаблонами конфигурации, географической фильтрацией и полным управлением ключами GPG.</p>
+    <p xml:lang="ro">Un instrument grafic complet pentru gestionarea depozitelor APT în sistemele bazate pe Debian, cu teste reale de viteză de descărcare pentru găsirea celor mai rapide servere mirror, șabloane de configurare predefinite, filtrare geografică și gestionare completă a cheilor GPG.</p>
   </description>
 
   <launchable type="desktop-id">com.soplos.reposelector.desktop</launchable>
@@ -52,14 +52,14 @@
       <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-selector/screenshots/screenshot1.png</image>
     </screenshot>
     <screenshot>
-      <caption>Finding fastest repositories</caption>
-      <caption xml:lang="es">Búsqueda de repositorios más rápidos</caption>
-      <caption xml:lang="fr">Recherche des dépôts les plus rapides</caption>
-      <caption xml:lang="pt">Encontrando repositórios mais rápidos</caption>
-      <caption xml:lang="de">Suche nach den schnellsten Repositories</caption>
-      <caption xml:lang="it">Ricerca dei repository più veloci</caption>
-      <caption xml:lang="ru">Поиск самых быстрых репозиториев</caption>
-      <caption xml:lang="ro">Găsirea celor mai rapide depozite</caption>
+      <caption>Real download speed testing to find fastest repositories</caption>
+      <caption xml:lang="es">Pruebas reales de velocidad de descarga para encontrar los repositorios más rápidos</caption>
+      <caption xml:lang="fr">Tests réels de vitesse de téléchargement pour trouver les dépôts les plus rapides</caption>
+      <caption xml:lang="pt">Testes reais de velocidade de download para encontrar os repositórios mais rápidos</caption>
+      <caption xml:lang="de">Echte Download-Geschwindigkeitstests zum Auffinden der schnellsten Repositories</caption>
+      <caption xml:lang="it">Test reali di velocità di download per trovare i repository più veloci</caption>
+      <caption xml:lang="ru">Реальные тесты скорости загрузки для поиска самых быстрых репозиториев</caption>
+      <caption xml:lang="ro">Teste reale de viteză de descărcare pentru găsirea celor mai rapide depozite</caption>
       <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-selector/screenshots/screenshot2.png</image>
     </screenshot>
     <screenshot>
@@ -74,14 +74,14 @@
       <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-selector/screenshots/screenshot3.png</image>
     </screenshot>
     <screenshot>
-      <caption>Adding and editing repositories</caption>
-      <caption xml:lang="es">Añadir y editar repositorios</caption>
-      <caption xml:lang="fr">Ajout et édition de dépôts</caption>
-      <caption xml:lang="pt">Adicionando e editando repositórios</caption>
-      <caption xml:lang="de">Hinzufügen und Bearbeiten von Repositories</caption>
-      <caption xml:lang="it">Aggiunta e modifica di repository</caption>
-      <caption xml:lang="ru">Добавление и редактирование репозиториев</caption>
-      <caption xml:lang="ro">Adăugarea și editarea depozitelor</caption>
+      <caption>Adding and editing repositories with predefined templates</caption>
+      <caption xml:lang="es">Añadiendo y editando repositorios con plantillas predefinidas</caption>
+      <caption xml:lang="fr">Ajout et édition de dépôts avec des modèles prédéfinis</caption>
+      <caption xml:lang="pt">Adicionando e editando repositórios com modelos predefinidos</caption>
+      <caption xml:lang="de">Hinzufügen und Bearbeiten von Repositories mit vordefinierten Vorlagen</caption>
+      <caption xml:lang="it">Aggiunta e modifica di repository con modelli predefiniti</caption>
+      <caption xml:lang="ru">Добавление и редактирование репозиториев с предопределенными шаблонами</caption>
+      <caption xml:lang="ro">Adăugarea și editarea depozitelor cu șabloane predefinite</caption>
       <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-selector/screenshots/screenshot4.png</image>
     </screenshot>
   </screenshots>
@@ -110,6 +110,9 @@
     <keyword>soplos</keyword>
     <keyword>packages</keyword>
     <keyword>software</keyword>
+    <keyword>speed</keyword>
+    <keyword>mirror</keyword>
+    <keyword>fastest</keyword>
   </keywords>
 
   <provides>
@@ -119,14 +122,14 @@
   <releases>
     <release version="1.0.0" date="2025-05-08">
       <description>
-        <p>Initial release</p>
-        <p xml:lang="es">Versión inicial</p>
-        <p xml:lang="fr">Version initiale</p>
-        <p xml:lang="pt">Versão inicial</p>
-        <p xml:lang="de">Erste Version</p>
-        <p xml:lang="it">Versione iniziale</p>
-        <p xml:lang="ru">Начальная версия</p>
-        <p xml:lang="ro">Versiune inițială</p>
+        <p>Initial release with advanced speed testing capabilities</p>
+        <p xml:lang="es">Versión inicial con capacidades avanzadas de pruebas de velocidad</p>
+        <p xml:lang="fr">Version initiale avec des capacités avancées de test de vitesse</p>
+        <p xml:lang="pt">Versão inicial com capacidades avançadas de teste de velocidade</p>
+        <p xml:lang="de">Erste Version mit erweiterten Geschwindigkeitstest-Funktionen</p>
+        <p xml:lang="it">Versione iniziale con capacità avanzate di test di velocità</p>
+        <p xml:lang="ru">Начальная версия с продвинутыми возможностями тестирования скорости</p>
+        <p xml:lang="ro">Versiune inițială cu capacități avansate de testare a vitezei</p>
       </description>
     </release>
   </releases>
