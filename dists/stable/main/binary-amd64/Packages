@@ -46,20 +46,6 @@ Essential: yes
 Replaces: base-files
 Conflicts: base-files (<< 13.7)
 
-Package: soplos-repo-selector
-Version: 1.0.3
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, apt, curl, debhelper-compat, gettext, gir1.2-gtk-3.0, gnupg, python3, python3-gi, python3-requests, python3-setuptools
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-repo-selector/soplos-repo-selector_1.0.3_all.deb
-Size: 2344268
-SHA256: 0cc16304040c712f89ee2885a971d599c75eae6cec5fba9fab5bba067fcd96c7
-SHA1: 2c299055146fc4a52da7f13c1b3a5a23c85de4d2
-MD5sum: f020d9f57dec616259f5016f85a85348
-Description: APT Repo Selector
-
 Package: soplos-wallpapers01
 Version: 1.0.0
 Architecture: all
