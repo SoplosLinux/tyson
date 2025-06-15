@@ -105,6 +105,7 @@ usr/share/pixmaps/com.soplos.reposelector.png	    utils/soplos-repo-selector
 usr/share/pixmaps/com.soplos.welcome.png	    utils/soplos-welcome
 usr/share/pixmaps/com.soplos.welcomelive.png	    utils/soplos-welcome-live
 usr/share/soplos-grub-editor/.git	    utils/soplos-grub-editor
+usr/share/soplos-grub-editor/CHANGELOG.md	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/LICENSE	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/README.md	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/__init__.py	    utils/soplos-grub-editor
@@ -125,7 +126,17 @@ usr/share/soplos-grub-editor/config/grub_config.py	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/debian/com.soplos.grubeditor.metainfo.xml	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/debian/control	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/debian/soplos-grub-editor	    utils/soplos-grub-editor
+usr/share/soplos-grub-editor/translations/__init__.py	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/translations/strings.py	    utils/soplos-grub-editor
+usr/share/soplos-grub-editor/translations/locales/__init__.py	    utils/soplos-grub-editor
+usr/share/soplos-grub-editor/translations/locales/de.py	    utils/soplos-grub-editor
+usr/share/soplos-grub-editor/translations/locales/en.py	    utils/soplos-grub-editor
+usr/share/soplos-grub-editor/translations/locales/es.py	    utils/soplos-grub-editor
+usr/share/soplos-grub-editor/translations/locales/fr.py	    utils/soplos-grub-editor
+usr/share/soplos-grub-editor/translations/locales/it.py	    utils/soplos-grub-editor
+usr/share/soplos-grub-editor/translations/locales/pt.py	    utils/soplos-grub-editor
+usr/share/soplos-grub-editor/translations/locales/ro.py	    utils/soplos-grub-editor
+usr/share/soplos-grub-editor/translations/locales/ru.py	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/ui/__init__.py	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/ui/appearance_tab.py	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/ui/entries_tab.py	    utils/soplos-grub-editor
