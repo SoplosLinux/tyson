@@ -1,15 +1,15 @@
 Package: soplos-grub-editor
-Version: 1.0.4
+Version: 1.0.5
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-polkit-1.0, grub2-common | grub2, imagemagick, pkexec, polkitd, python3-all, python3-cairo, python3-dbus, python3-gi, python3-pil, python3-polib, python3-setuptools, python3-xlib
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_1.0.4_all.deb
-Size: 389408
-SHA256: bd7eddf8c07c5814fd6979fbe8479457886dcb6a301e577b345d36ed8f39ec76
-SHA1: 83e4b17640a7ec48b8e4827a2fd2f5f69cc1164c
-MD5sum: 2ef91ffa800c4af4b4a103d7fc1f851d
+Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_1.0.5_all.deb
+Size: 390036
+SHA256: a73dcae0376a11dd7f3f66ae5651d1558d159dce010bf82d1206cbd40d2df4aa
+SHA1: 9729d2ddf4e83759eb46105b1a5e1943e9663e42
+MD5sum: 5886436e37f21e626d5d7fac8840fdcd
 Description: Graphical GRUB Editor
 
 Package: soplos-plymouth-manager
