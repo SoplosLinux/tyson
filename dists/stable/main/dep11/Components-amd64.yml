@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20251225T002656
+Time: 20260102T155828
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -266,6 +266,28 @@ Developer:
 Provides:
   - soplos-repo-selector
 Releases:
+  - version: 2.0.1
+    date: '2026-01-02'
+    type: stable
+    description:
+      es: 'Versión 2.0.1: reescritura completa del test de velocidad con mediciones
+        reales y barras de progreso dinámicas.'
+      en: 'Version 2.0.1: complete speed test rewrite with real measurements and dynamic
+        progress bars.'
+      fr: 'Version 2.0.1 : réécriture complète du test de vitesse avec des mesures
+        réelles et des barres de progression dynamiques.'
+      pt: 'Versão 2.0.1: reescrita completa do teste de velocidade com medições reais
+        e barras de progresso dinâmicas.'
+      de: |-
+        Version 2.0.1: Vollständige Neufassung des Geschwindigkeitstests mit realen Messungen und dynamischen Fortschrittsbalken.
+      it: 'Versione 2.0.1: riscrittura completa del test di velocità con misurazioni
+        reali e barre di avanzamento dinamiche.'
+      ru: 'Версия 2.0.1: полная переработка теста скорости с реальными измерениями
+        и динамическими индикаторами прогресса.'
+      ro: 'Versiunea 2.0.1: rescrierea completă a testului de viteză cu măsurători
+        reale și bare de progres dinamice.'
+      C: 'Version 2.0.1: complete speed test rewrite with real measurements and dynamic
+        progress bars.'
   - version: 2.0.0
     date: '2025-12-10'
     type: stable
@@ -559,6 +581,11 @@ Url:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.0.1
+    date: '2025-12-27'
+    type: stable
+    description:
+      C: 'NVIDIA Driver Improvements for RTX 40/50 series:'
   - version: 2.0.0
     date: '2025-12-06'
     type: stable

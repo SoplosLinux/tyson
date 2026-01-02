@@ -299,6 +299,76 @@
   </provides>
 
   <releases>
+    <release version="2.0.1" date="2026-01-02">
+      <description>
+        <p xml:lang="es">Versión 2.0.1: reescritura completa del test de velocidad con mediciones reales y barras de progreso dinámicas.</p>
+        <p xml:lang="en">Version 2.0.1: complete speed test rewrite with real measurements and dynamic progress bars.</p>
+        <p xml:lang="fr">Version 2.0.1 : réécriture complète du test de vitesse avec des mesures réelles et des barres de progression dynamiques.</p>
+        <p xml:lang="pt">Versão 2.0.1: reescrita completa do teste de velocidade com medições reais e barras de progresso dinâmicas.</p>
+        <p xml:lang="de">Version 2.0.1: Vollständige Neufassung des Geschwindigkeitstests mit realen Messungen und dynamischen Fortschrittsbalken.</p>
+        <p xml:lang="it">Versione 2.0.1: riscrittura completa del test di velocità con misurazioni reali e barre di avanzamento dinamiche.</p>
+        <p xml:lang="ru">Версия 2.0.1: полная переработка теста скорости с реальными измерениями и динамическими индикаторами прогресса.</p>
+        <p xml:lang="ro">Versiunea 2.0.1: rescrierea completă a testului de viteză cu măsurători reale și bare de progres dinamice.</p>
+        <ul>
+          <li xml:lang="en">Speed test now uses real TCP latency measurement via socket connections.</li>
+          <li xml:lang="es">El test de velocidad ahora usa medición real de latencia TCP mediante conexiones socket.</li>
+          <li xml:lang="fr">Le test de vitesse utilise maintenant une mesure de latence TCP réelle via des connexions socket.</li>
+          <li xml:lang="pt">O teste de velocidade agora usa medição real de latência TCP via conexões socket.</li>
+          <li xml:lang="de">Der Geschwindigkeitstest verwendet jetzt echte TCP-Latenzmessung über Socket-Verbindungen.</li>
+          <li xml:lang="it">Il test di velocità ora utilizza la misurazione della latenza TCP reale tramite connessioni socket.</li>
+          <li xml:lang="ru">Тест скорости теперь использует реальное измерение задержки TCP через сокетные соединения.</li>
+          <li xml:lang="ro">Testul de viteză folosește acum măsurarea reală a latenței TCP prin conexiuni socket.</li>
+          <li xml:lang="en">Larger downloads (2-10MB) for accurate speed calculation over 3+ seconds.</li>
+          <li xml:lang="es">Descargas más grandes (2-10MB) para cálculo preciso de velocidad durante 3+ segundos.</li>
+          <li xml:lang="fr">Téléchargements plus importants (2-10 Mo) pour un calcul précis de la vitesse sur 3+ secondes.</li>
+          <li xml:lang="pt">Downloads maiores (2-10MB) para cálculo preciso de velocidade durante 3+ segundos.</li>
+          <li xml:lang="de">Größere Downloads (2-10MB) für genaue Geschwindigkeitsberechnung über 3+ Sekunden.</li>
+          <li xml:lang="it">Download più grandi (2-10MB) per un calcolo accurato della velocità su 3+ secondi.</li>
+          <li xml:lang="ru">Более крупные загрузки (2-10 МБ) для точного расчёта скорости за 3+ секунды.</li>
+          <li xml:lang="ro">Descărcări mai mari (2-10MB) pentru calculul precis al vitezei pe 3+ secunde.</li>
+          <li xml:lang="en">Dynamic progress bars animate in real-time during speed tests.</li>
+          <li xml:lang="es">Las barras de progreso dinámicas se animan en tiempo real durante las pruebas de velocidad.</li>
+          <li xml:lang="fr">Les barres de progression dynamiques s'animent en temps réel pendant les tests de vitesse.</li>
+          <li xml:lang="pt">As barras de progresso dinâmicas animam em tempo real durante os testes de velocidade.</li>
+          <li xml:lang="de">Dynamische Fortschrittsbalken animieren in Echtzeit während der Geschwindigkeitstests.</li>
+          <li xml:lang="it">Le barre di avanzamento dinamiche si animano in tempo reale durante i test di velocità.</li>
+          <li xml:lang="ru">Динамические индикаторы прогресса анимируются в реальном времени во время тестов скорости.</li>
+          <li xml:lang="ro">Barele de progres dinamice se animează în timp real în timpul testelor de viteză.</li>
+          <li xml:lang="en">Increased parallelism from 3 to 6 workers for faster testing.</li>
+          <li xml:lang="es">Aumentado el paralelismo de 3 a 6 workers para pruebas más rápidas.</li>
+          <li xml:lang="fr">Parallélisme augmenté de 3 à 6 workers pour des tests plus rapides.</li>
+          <li xml:lang="pt">Paralelismo aumentado de 3 para 6 workers para testes mais rápidos.</li>
+          <li xml:lang="de">Parallelität von 3 auf 6 Worker erhöht für schnellere Tests.</li>
+          <li xml:lang="it">Parallelismo aumentato da 3 a 6 worker per test più veloci.</li>
+          <li xml:lang="ru">Увеличен параллелизм с 3 до 6 воркеров для более быстрого тестирования.</li>
+          <li xml:lang="ro">Paralelism crescut de la 3 la 6 workeri pentru testare mai rapidă.</li>
+          <li xml:lang="en">Sources Generator now detects real system state instead of hardcoded defaults.</li>
+          <li xml:lang="es">El Generador de Sources ahora detecta el estado real del sistema en lugar de valores predeterminados.</li>
+          <li xml:lang="fr">Le Générateur de Sources détecte maintenant l'état réel du système au lieu de valeurs par défaut.</li>
+          <li xml:lang="pt">O Gerador de Sources agora detecta o estado real do sistema em vez de padrões codificados.</li>
+          <li xml:lang="de">Der Sources Generator erkennt jetzt den tatsächlichen Systemstatus anstelle von Standardwerten.</li>
+          <li xml:lang="it">Il Generatore di Sources ora rileva lo stato reale del sistema invece dei valori predefiniti.</li>
+          <li xml:lang="ru">Генератор Sources теперь определяет реальное состояние системы вместо значений по умолчанию.</li>
+          <li xml:lang="ro">Generatorul de Sources detectează acum starea reală a sistemului în loc de valori implicite.</li>
+          <li xml:lang="en">Fixed backports file removal when disabled.</li>
+          <li xml:lang="es">Corregida la eliminación del archivo de backports cuando está desactivado.</li>
+          <li xml:lang="fr">Correction de la suppression du fichier backports lorsqu'il est désactivé.</li>
+          <li xml:lang="pt">Corrigida a remoção do arquivo de backports quando desativado.</li>
+          <li xml:lang="de">Behebung der Backports-Dateientfernung bei Deaktivierung.</li>
+          <li xml:lang="it">Corretta la rimozione del file backports quando disabilitato.</li>
+          <li xml:lang="ru">Исправлено удаление файла backports при отключении.</li>
+          <li xml:lang="ro">Corectată eliminarea fișierului backports când este dezactivat.</li>
+          <li xml:lang="en">Fixed translation function error in file manager.</li>
+          <li xml:lang="es">Corregido error de función de traducción en el gestor de archivos.</li>
+          <li xml:lang="fr">Correction de l'erreur de fonction de traduction dans le gestionnaire de fichiers.</li>
+          <li xml:lang="pt">Corrigido erro de função de tradução no gerenciador de arquivos.</li>
+          <li xml:lang="de">Übersetzungsfunktionsfehler im Dateimanager behoben.</li>
+          <li xml:lang="it">Corretto errore della funzione di traduzione nel gestore file.</li>
+          <li xml:lang="ru">Исправлена ошибка функции перевода в файловом менеджере.</li>
+          <li xml:lang="ro">Corectată eroarea funcției de traducere în managerul de fișiere.</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.0.0" date="2025-12-10">
       <description>
         <p xml:lang="es">Lanzamiento 2.0.0: rediseño de la interfaz, mejoras de rendimiento y mayor compatibilidad.</p>
