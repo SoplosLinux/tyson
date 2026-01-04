@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260103T070546
+Time: 20260104T132402
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -563,6 +563,11 @@ Url:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.0.2
+    date: '2026-01-04'
+    type: stable
+    description:
+      C: 'Security enhancements and Grub BTRFS integration:'
   - version: 2.0.1
     date: '2025-12-27'
     type: stable

@@ -142,7 +142,81 @@
   <developer_name>Sergi Perich</developer_name>
 
   <releases>
-    <release version="2.0.1" date="2025-12-27">
+     <release version="2.0.2" date="2026-01-04">
+       <description>
+         <p>Security enhancements and Grub BTRFS integration:</p>
+         <ul>
+           <li>NEW: Added Grub BTRFS management to Security Tab (Backups section)</li>
+           <li>Feature automatically detects BTRFS filesystem</li>
+           <li>Enables booting from BTRFS snapshots in GRUB menu</li>
+           <li>Updated translations for all supported languages</li>
+         </ul>
+       </description>
+       <description xml:lang="es">
+         <p>Mejoras de seguridad e integración de Grub BTRFS:</p>
+         <ul>
+           <li>NUEVO: Añadida gestión de Grub BTRFS a la pestaña de Seguridad (Sección Copias de Seguridad)</li>
+           <li>La función detecta automáticamente el sistema de archivos BTRFS</li>
+           <li>Habilita el arranque desde snapshots BTRFS en el menú GRUB</li>
+           <li>Traducciones actualizadas para todos los idiomas soportados</li>
+         </ul>
+       </description>
+       <description xml:lang="fr">
+         <p>Améliorations de la sécurité et intégration de Grub BTRFS :</p>
+         <ul>
+           <li>NOUVEAU : Ajout de la gestion Grub BTRFS à l'onglet Sécurité (section Sauvegardes)</li>
+           <li>La fonctionnalité détecte automatiquement le système de fichiers BTRFS</li>
+           <li>Permet le démarrage depuis des instantanés BTRFS dans le menu GRUB</li>
+           <li>Mise à jour des traductions pour toutes les langues supportées</li>
+         </ul>
+       </description>
+       <description xml:lang="de">
+         <p>Sicherheitsverbesserungen und Grub BTRFS Integration:</p>
+         <ul>
+           <li>NEU: Grub BTRFS Verwaltung zum Sicherheits-Tab hinzugefügt (Abschnitt Datensicherung)</li>
+           <li>Funktion erkennt automatisch BTRFS-Dateisystem</li>
+           <li>Ermöglicht das Booten von BTRFS-Schnappschüssen im GRUB-Menü</li>
+           <li>Aktualisierte Übersetzungen für alle unterstützten Sprachen</li>
+         </ul>
+       </description>
+       <description xml:lang="pt">
+         <p>Melhorias de segurança e integração do Grub BTRFS:</p>
+         <ul>
+           <li>NOVO: Adicionada gestão do Grub BTRFS à aba Segurança (seção de Backups)</li>
+           <li>A funcionalidade detecta automaticamente o sistema de arquivos BTRFS</li>
+           <li>Permite inicializar a partir de snapshots BTRFS no menu GRUB</li>
+           <li>Traduções atualizadas para todos os idiomas suportados</li>
+         </ul>
+       </description>
+       <description xml:lang="it">
+         <p>Miglioramenti della sicurezza e integrazione Grub BTRFS:</p>
+         <ul>
+           <li>NUOVO: Aggiunta gestione Grub BTRFS alla scheda Sicurezza (sezione Backup)</li>
+           <li>La funzione rileva automaticamente il file system BTRFS</li>
+           <li>Abilita l'avvio da istantanee BTRFS nel menu GRUB</li>
+           <li>Traduzioni aggiornate per tutte le lingue supportate</li>
+         </ul>
+       </description>
+       <description xml:lang="ru">
+         <p>Улучшения безопасности и интеграция Grub BTRFS:</p>
+         <ul>
+           <li>НОВОЕ: Добавлено управление Grub BTRFS на вкладку Безопасность (раздел Резервное копирование)</li>
+           <li>Функция автоматически определяет файловую систему BTRFS</li>
+           <li>Позволяет загружаться со снимков BTRFS в меню GRUB</li>
+           <li>Обновлены переводы для всех поддерживаемых языков</li>
+         </ul>
+       </description>
+       <description xml:lang="ro">
+         <p>Îmbunătățiri de securitate și integrare Grub BTRFS:</p>
+         <ul>
+           <li>NOU: Adăugată gestionarea Grub BTRFS în fila Securitate (secțiunea Backup)</li>
+           <li>Funcția detectează automat sistemul de fișiere BTRFS</li>
+           <li>Permite bootarea din instantanee BTRFS în meniul GRUB</li>
+           <li>Traduceri actualizate pentru toate limbile acceptate</li>
+         </ul>
+       </description>
+     </release>
+     <release version="2.0.1" date="2025-12-27">
       <description>
         <p>Hybrid Graphics Support and NVIDIA Installation Improvements:</p>
         <ul>

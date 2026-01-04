@@ -31,6 +31,30 @@ Description: Custom Fastfetch configuration for SopLOS
  This package provides a custom Fastfetch configuration and branding
  for SopLOS Linux, applied to both new and existing users.
 
+Package: grub-btrfs
+Version: 1.0.1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 126
+Depends: btrfs-progs, grub-common, bash (>= 4.0), inotify-tools, gawk
+Homepage: https://github.com/Antynea/grub-btrfs
+Priority: optional
+Section: admin
+Filename: pool/main/g/grub-btrfs/grub-btrfs_1.0.1_all.deb
+Size: 37072
+SHA256: e96041b9e56b9f2e3246777d26e4a645f70be183744357ef519415618a82a366
+SHA1: 9e01a2fb323dd11e8b9d8a605e62fceeb4995175
+MD5sum: 6f8f648ab68870539b9493c766271ca5
+Description: Include btrfs snapshots in GRUB menu
+ grub-btrfs improves the grub bootloader by adding a btrfs snapshots sub-menu,
+ allowing the user to boot into snapshots.
+ .
+ It supports manual snapshots as well as snapper, timeshift, and yabsnap created
+ snapshots.
+ .
+ This package includes the grub-btrfsd daemon which automatically updates the
+ grub menu when snapshots are created or deleted.
+
 Package: msi-keyboard-gui
 Version: 1.0.9
 Architecture: all
@@ -272,17 +296,17 @@ Description: Fondos de pantalla para SopLOS
  para el sistema operativo Soplos Linux Tyron.
 
 Package: soplos-welcome
-Version: 2.0.1
+Version: 2.0.2
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools, python3-xlib, wget
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome/soplos-welcome_2.0.1_all.deb
-Size: 45546796
-SHA256: fa4d6a871ac17b89b3fbfd7fe2ca8f69b5114c3017866d21d88a96004a0df884
-SHA1: 7e1ad536fe662c0a515a3faafd377e0b61c1dc06
-MD5sum: b99496e7d47d14d6c800fa0c4bc0ad42
+Filename: pool/main/s/soplos-welcome/soplos-welcome_2.0.2_all.deb
+Size: 45549384
+SHA256: b20632b83146e42affcb77d8902d18993d2855655dc7a9c81b36e7a0c462bae5
+SHA1: 48e7168e4792a88d7eb129819db4de0e03a2f543
+MD5sum: 309b1e52dbc12e480467efe5dfba1868
 Description: The world's most advanced welcome application for Linux
 
 Package: soplos-welcome-live

@@ -16,7 +16,10 @@ etc/lsb-release	    admin/soplos-release
 etc/modules	    base/soplos-modules
 etc/apt/sources.list.d/tyson.list	    admin/soplos-release
 etc/default/grub	    misc/soplos-grub-theme
+etc/default/grub-btrfs/config	    admin/grub-btrfs
+etc/grub.d/41_snapshots-btrfs	    admin/grub-btrfs
 etc/skel/.config/fastfetch/config.jsonc	    utils/fastfetch-soplos
+usr/bin/grub-btrfsd	    admin/grub-btrfs
 usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
 usr/bin/soplos-grub-editor	    utils/soplos-grub-editor
 usr/bin/soplos-plymouth-manager	    utils/soplos-plymouth-manager
@@ -24,6 +27,7 @@ usr/bin/soplos-repo-selector	    utils/soplos-repo-selector
 usr/bin/soplos-welcome	    utils/soplos-welcome
 usr/bin/soplos-welcome-live	    utils/soplos-welcome-live
 usr/lib/os-release	    admin/soplos-release
+usr/lib/systemd/system/grub-btrfsd.service	    admin/grub-btrfs
 usr/share/applications/com.soplos.grubeditor.desktop	    utils/soplos-grub-editor
 usr/share/applications/com.soplos.msi-keyboard.desktop	    utils/msi-keyboard-gui
 usr/share/applications/com.soplos.plymouthmanager.desktop	    utils/soplos-plymouth-manager
@@ -79,6 +83,10 @@ usr/share/color-schemes/Soplos-Modern-Dark.colors	    misc/soplos-plasma-modern-
 usr/share/color-schemes/Soplos-Modern-Light.colors	    misc/soplos-plasma-modern-white-themes
 usr/share/color-schemes/SoplosClassicDark.colors	    misc/soplos-color-scheme
 usr/share/color-schemes/SoplosClassicLight.colors	    misc/soplos-color-scheme
+usr/share/doc/grub-btrfs/README.md.gz	    admin/grub-btrfs
+usr/share/doc/grub-btrfs/changelog.gz	    admin/grub-btrfs
+usr/share/doc/grub-btrfs/copyright	    admin/grub-btrfs
+usr/share/doc/grub-btrfs/initramfs-overlayfs.md	    admin/grub-btrfs
 usr/share/icons/hicolor/128x128/apps/com.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/128x128/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/128x128/apps/com.soplos.plymouthmanager.png	    utils/soplos-plymouth-manager
@@ -130,6 +138,9 @@ usr/share/icons/hicolor/64x64/apps/logo.png	    utils/soplos-repo-selector
 usr/share/icons/hicolor/64x64/apps/org.soplos.reposelector.png	    utils/soplos-repo-selector
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/licenses/grub-btrfs/LICENSE	    admin/grub-btrfs
+usr/share/man/man8/grub-btrfs.8.gz	    admin/grub-btrfs
+usr/share/man/man8/grub-btrfsd.8.gz	    admin/grub-btrfs
 usr/share/metainfo/com.soplos.grubeditor.metainfo.xml	    utils/soplos-grub-editor
 usr/share/metainfo/com.soplos.msi-keyboard.metainfo.xml	    utils/msi-keyboard-gui
 usr/share/metainfo/com.soplos.plymouthmanager.metainfo.xml	    utils/soplos-plymouth-manager
