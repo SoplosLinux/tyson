@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="operating-system">
+  <id>org.soploslinux.soplos</id>
+  <name>Soplos Linux</name>
+  <summary>GNU/Linux distribution focused on usability and modern desktop experience</summary>
+  <description>
+    <p>Soplos Linux is a modern, user-friendly GNU/Linux distribution with a focus on simplicity, performance, and a great out-of-the-box experience.</p>
+  </description>
+  <url type="homepage">https://soplos.org</url>
+  <developer_name>Sergi Perich</developer_name>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <releases>
+    <release version="1.0.3" date="2026-01-04"/>
+  </releases>
+</component>
