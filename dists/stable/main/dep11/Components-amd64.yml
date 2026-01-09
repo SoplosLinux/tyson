@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260109T204010
+Time: 20260109T204032
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -266,6 +266,23 @@ Developer:
 Provides:
   - soplos-repo-selector
 Releases:
+  - version: 2.0.2
+    date: '2026-01-09'
+    type: stable
+    description:
+      C: 'Documentation release: added manual page and Debian copyright file.'
+      es: 'Release de documentación: añadida página de manual y archivo copyright
+        de Debian.'
+      fr: 'Version de documentation: ajout de la page de manuel et du fichier copyright
+        Debian.'
+      pt: 'Lançamento de documentação: adicionada página de manual e arquivo copyright
+        Debian.'
+      de: 'Dokumentations-Release: Handbuchseite und Debian-Copyright-Datei hinzugefügt.'
+      it: 'Rilascio documentazione: aggiunta pagina di manuale e file copyright Debian.'
+      ru: 'Релиз документации: добавлена страница руководства и файл авторских прав
+        Debian.'
+      ro: 'Versiune documentație: adăugată pagina de manual și fișierul copyright
+        Debian.'
   - version: 2.0.1
     date: '2026-01-02'
     type: stable

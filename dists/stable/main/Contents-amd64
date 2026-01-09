@@ -91,6 +91,7 @@ usr/share/doc/grub-btrfs/README.md.gz	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/changelog.gz	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/copyright	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/initramfs-overlayfs.md	    admin/grub-btrfs
+usr/share/doc/soplos-repo-selector/copyright	    utils/soplos-repo-selector
 usr/share/doc/soplos-welcome/copyright	    utils/soplos-welcome
 usr/share/doc/soplos-welcome-live/copyright	    utils/soplos-welcome-live
 usr/share/icons/hicolor/128x128/apps/com.soplos.grubeditor.png	    utils/soplos-grub-editor
@@ -145,6 +146,7 @@ usr/share/icons/hicolor/64x64/apps/org.soplos.reposelector.png	    utils/soplos-
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
 usr/share/licenses/grub-btrfs/LICENSE	    admin/grub-btrfs
+usr/share/man/man1/soplos-repo-selector.1.gz	    utils/soplos-repo-selector
 usr/share/man/man1/soplos-welcome-live.1.gz	    utils/soplos-welcome-live
 usr/share/man/man1/soplos-welcome.1.gz	    utils/soplos-welcome
 usr/share/man/man8/grub-btrfs.8.gz	    admin/grub-btrfs
@@ -1107,9 +1109,11 @@ usr/share/soplos-repo-selector/core/environment.py	    utils/soplos-repo-selecto
 usr/share/soplos-repo-selector/core/i18n_manager.py	    utils/soplos-repo-selector
 usr/share/soplos-repo-selector/core/theme_manager.py	    utils/soplos-repo-selector
 usr/share/soplos-repo-selector/debian/control	    utils/soplos-repo-selector
+usr/share/soplos-repo-selector/debian/copyright	    utils/soplos-repo-selector
 usr/share/soplos-repo-selector/debian/org.soplos.reposelector.desktop	    utils/soplos-repo-selector
 usr/share/soplos-repo-selector/debian/org.soplos.reposelector.metainfo.xml	    utils/soplos-repo-selector
 usr/share/soplos-repo-selector/debian/soplos-repo-selector	    utils/soplos-repo-selector
+usr/share/soplos-repo-selector/docs/soplos-repo-selector.1	    utils/soplos-repo-selector
 usr/share/soplos-repo-selector/locale/soplos-repo-selector.pot	    utils/soplos-repo-selector
 usr/share/soplos-repo-selector/locale/de/LC_MESSAGES/soplos-repo-selector.mo	    utils/soplos-repo-selector
 usr/share/soplos-repo-selector/locale/de/LC_MESSAGES/soplos-repo-selector.po	    utils/soplos-repo-selector
