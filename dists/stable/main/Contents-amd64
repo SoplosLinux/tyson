@@ -9,12 +9,7 @@ boot/grub/themes/soploslinux/icons/memtest.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/os.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/recovery.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/uefi.png	    misc/soplos-grub-theme
-etc/debian_version	    admin/soplos-release
-etc/issue	    admin/soplos-release
-etc/issue.net	    admin/soplos-release
-etc/lsb-release	    admin/soplos-release
 etc/modules	    base/soplos-modules
-etc/apt/sources.list.d/boro.list	    admin/soplos-release
 etc/default/grub	    misc/soplos-grub-theme
 etc/default/grub-btrfs/config	    admin/grub-btrfs
 etc/grub.d/41_snapshots-btrfs	    admin/grub-btrfs
@@ -26,7 +21,6 @@ usr/bin/soplos-plymouth-manager	    utils/soplos-plymouth-manager
 usr/bin/soplos-repo-selector	    utils/soplos-repo-selector
 usr/bin/soplos-welcome	    utils/soplos-welcome
 usr/bin/soplos-welcome-live	    utils/soplos-welcome-live
-usr/lib/os-release	    admin/soplos-release
 usr/lib/systemd/system/grub-btrfsd.service	    admin/grub-btrfs
 usr/share/applications/com.soplos.grubeditor.desktop	    utils/soplos-grub-editor
 usr/share/applications/com.soplos.msi-keyboard.desktop	    utils/msi-keyboard-gui
@@ -96,7 +90,6 @@ usr/share/icons/hicolor/128x128/apps/logo.png	    utils/soplos-repo-selector
 usr/share/icons/hicolor/128x128/apps/org.soplos.reposelector.png	    utils/soplos-repo-selector
 usr/share/icons/hicolor/128x128/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/128x128/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
-usr/share/icons/hicolor/128x128/apps/soplos-logo.png	    admin/soplos-release
 usr/share/icons/hicolor/16x16/apps/com.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/16x16/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/16x16/apps/com.soplos.plymouthmanager.png	    utils/soplos-plymouth-manager
@@ -141,7 +134,6 @@ usr/share/icons/hicolor/64x64/apps/logo.png	    utils/soplos-repo-selector
 usr/share/icons/hicolor/64x64/apps/org.soplos.reposelector.png	    utils/soplos-repo-selector
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
-usr/share/keyrings/boro.gpg	    admin/soplos-release
 usr/share/licenses/grub-btrfs/LICENSE	    admin/grub-btrfs
 usr/share/man/man1/soplos-welcome-live.1.gz	    utils/soplos-welcome-live
 usr/share/man/man1/soplos-welcome.1.gz	    utils/soplos-welcome
@@ -153,7 +145,6 @@ usr/share/metainfo/com.soplos.plymouthmanager.metainfo.xml	    utils/soplos-plym
 usr/share/metainfo/org.soplos.reposelector.metainfo.xml	    utils/soplos-repo-selector
 usr/share/metainfo/org.soplos.welcome.metainfo.xml	    utils/soplos-welcome
 usr/share/metainfo/org.soplos.welcomelive.metainfo.xml	    utils/soplos-welcome-live
-usr/share/metainfo/org.soploslinux.soplos.metainfo.xml	    admin/soplos-release
 usr/share/msi-keyboard-gui/LICENSE	    utils/msi-keyboard-gui
 usr/share/msi-keyboard-gui/README.md	    utils/msi-keyboard-gui
 usr/share/msi-keyboard-gui/changelog	    utils/msi-keyboard-gui
