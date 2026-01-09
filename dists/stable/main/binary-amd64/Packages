@@ -216,25 +216,23 @@ Description: Soplos Plymouth theme.
  Build date: 2025-12-20
 
 Package: soplos-release
-Version: 0.1.2
+Version: 0.2.0
 Architecture: all
 Maintainer: Sergi Perich
-Priority: required
-Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.1.2_all.deb
-Size: 3288
-SHA256: 04d157aa2362e898a18d60b4c877f839b5b609a2497d6d1b496953d388a8b79d
-SHA1: 6d385b531b0d9184ab004d51ddba663cbce5af9e
-MD5sum: d6ac9f2df39e501fda92d235a7157c52
-Description: Soplos Linux release information (internal system package)
- This package contains release information and version files for Soplos Linux.
- It is essential for operating system identification.
- .
- This is an internal system package and does not provide any user interface.
- This release corresponds to Soplos Linux Tyson Beta 1.
 Essential: yes
 Replaces: base-files
-Recommends: branding-soplos, soplos-grub-theme, soplos-plasma-classic-black-theme, soplos-plasma-classic-white-theme, soplos-plasma-modern-black-themes, soplos-plasma-modern-white-themes, soplos-plymouth-theme, soplos-wallpapers01, soplos-wallpapers02, fastfetch-soplos, soplos-color-scheme
+Priority: required
+Section: admin
+Filename: pool/main/s/soplos-release/soplos-release_0.2.0_all.deb
+Size: 134080
+SHA256: 3db04200230087feae6fb8e801ef65f5495cb1ef54de0c3e4a9cfc8739d62eb9
+SHA1: 456625f8119361d13064a8ef3219f0efea708af5
+MD5sum: 6fb40720d76fcf139ec25c457e99496b
+Description: Soplos Linux release information
+ This package contains release information and version files for Soplos Linux.
+ It is essential for operating system identification.
+ This is an internal system package and does not provide any user interface.
+ This release corresponds to Soplos Linux Boro Alpha 1.
 
 Package: soplos-repo-selector
 Version: 2.0.1
@@ -296,30 +294,30 @@ Description: Fondos de pantalla para SopLOS
  para el sistema operativo Soplos Linux Tyron.
 
 Package: soplos-welcome
-Version: 2.0.2
+Version: 2.0.3
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools, python3-xlib, wget
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome/soplos-welcome_2.0.2_all.deb
-Size: 45536604
-SHA256: 722c110f013a59c80d8836e0baaf4af6d3ab4ee2ca3fd0b99e2b5c4ed57ab61c
-SHA1: 906bbfbf4a098cd5ae9db168294d25d290d4dee3
-MD5sum: b96aa82e0c504fd0842d52a4fc8d8e8a
+Filename: pool/main/s/soplos-welcome/soplos-welcome_2.0.3_all.deb
+Size: 45539876
+SHA256: b0420f9d37d3f7330f2f6aa0105bb61456a19580c42bb2e708e97d7239aa1bb1
+SHA1: 04473dfcb00f5935a1642c2cd47cb391d5d8ef41
+MD5sum: 34a2d48adbb3d71b663a70d7b9b967c9
 Description: The world's most advanced welcome application for Linux
 
 Package: soplos-welcome-live
-Version: 2.0.0
+Version: 2.0.1
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, locales, python3-all, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools, x11-xkb-utils
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_2.0.0_all.deb
-Size: 1233252
-SHA256: ffbca0290fb2d87d7c714092c73963e94efb6a9a48a239a3be6f37566530693a
-SHA1: 95c79e1910d0b4c5c43948194a4ad2e0b82beaeb
-MD5sum: fae8355bad4130fc71a3d714b699f4a9
+Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_2.0.1_all.deb
+Size: 1246600
+SHA256: c5214d26458a3f9d1a066145df395d6215af1e9d86a08da6537f1a4dc1e89dc0
+SHA1: aa3a8d8d04419c17d340d245656bbf3a1bcb0b66
+MD5sum: d0d35d7220811919cacd427fcec2a7b5
 Description: Welcome application for Soplos Linux Live with CHROOT recovery and BTRFS support
 

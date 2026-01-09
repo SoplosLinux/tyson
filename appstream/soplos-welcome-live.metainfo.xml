@@ -166,6 +166,18 @@
   </translation>
 
   <releases>
+    <release version="2.0.1" date="2026-01-09">
+      <description>
+        <p>Documentation release: added manual page and Debian copyright file.</p>
+        <p xml:lang="es">Release de documentación: añadida página de manual y archivo copyright de Debian.</p>
+        <p xml:lang="fr">Version de documentation: ajout de la page de manuel et du fichier copyright Debian.</p>
+        <p xml:lang="pt">Lançamento de documentação: adicionada página de manual e arquivo copyright Debian.</p>
+        <p xml:lang="de">Dokumentations-Release: Handbuchseite und Debian-Copyright-Datei hinzugefügt.</p>
+        <p xml:lang="it">Rilascio documentazione: aggiunta pagina di manuale e file copyright Debian.</p>
+        <p xml:lang="ru">Релиз документации: добавлена страница руководства и файл авторских прав Debian.</p>
+        <p xml:lang="ro">Versiune documentație: adăugată pagina de manual și fișierul copyright Debian.</p>
+      </description>
+    </release>
     <release version="2.0.0" date="2025-12-07">
       <description>
         <p>Major rewrite with modern architecture:</p>

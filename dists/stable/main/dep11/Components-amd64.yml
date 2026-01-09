@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260104T203323
+Time: 20260109T203937
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -563,6 +563,23 @@ Url:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.0.3
+    date: '2026-01-09'
+    type: stable
+    description:
+      C: 'Documentation release: added manual page and Debian copyright file.'
+      es: 'Release de documentación: añadida página de manual y archivo copyright
+        de Debian.'
+      fr: 'Version de documentation: ajout de la page de manuel et du fichier copyright
+        Debian.'
+      pt: 'Lançamento de documentação: adicionada página de manual e arquivo copyright
+        Debian.'
+      de: 'Dokumentations-Release: Handbuchseite und Debian-Copyright-Datei hinzugefügt.'
+      it: 'Rilascio documentazione: aggiunta pagina di manuale e file copyright Debian.'
+      ru: 'Релиз документации: добавлена страница руководства и файл авторских прав
+        Debian.'
+      ro: 'Versiune documentație: adăugată pagina de manual și fișierul copyright
+        Debian.'
   - version: 2.0.2
     date: '2026-01-04'
     type: stable
@@ -770,6 +787,23 @@ Developer:
 Provides:
   - soplos-welcome-live
 Releases:
+  - version: 2.0.1
+    date: '2026-01-09'
+    type: stable
+    description:
+      C: 'Documentation release: added manual page and Debian copyright file.'
+      es: 'Release de documentación: añadida página de manual y archivo copyright
+        de Debian.'
+      fr: 'Version de documentation: ajout de la page de manuel et du fichier copyright
+        Debian.'
+      pt: 'Lançamento de documentação: adicionada página de manual e arquivo copyright
+        Debian.'
+      de: 'Dokumentations-Release: Handbuchseite und Debian-Copyright-Datei hinzugefügt.'
+      it: 'Rilascio documentazione: aggiunta pagina di manuale e file copyright Debian.'
+      ru: 'Релиз документации: добавлена страница руководства и файл авторских прав
+        Debian.'
+      ro: 'Versiune documentație: adăugată pagina de manual și fișierul copyright
+        Debian.'
   - version: 2.0.0
     date: '2025-12-07'
     type: stable
