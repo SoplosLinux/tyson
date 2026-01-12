@@ -98,6 +98,21 @@ SHA1: 68576f0ad276a866eaf6d39668bfae5946c9a386
 MD5sum: 5d62cc8759cbc5474fd8fa9dd9ff5413
 Description: Advanced GRUB configuration editor with complete internationalization
 
+Package: soplos-grub-theme
+Version: 0.0.3
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.3_all.deb
+Size: 2118892
+SHA256: 4637c67d142c990d5a4704f38f097e23e64173ec8414a19d156dcfc117e27b32
+SHA1: 986b2aa2889472e29b865dea0b43db7bf13133c7
+MD5sum: 4f77c9ce79a939bc0f349e7df47245b3
+Description: GRUB theme package for Soplos Linux Tyson.
+ This package provides the official GRUB theme and related assets for Soplos Linux Tyson.
+ Build date: 2026-01-12
+
 Package: soplos-modules
 Version: 0.0.1
 Architecture: all
