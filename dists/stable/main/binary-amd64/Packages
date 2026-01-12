@@ -84,6 +84,35 @@ Description: Color schemes comunes para los temas Soplos KDE Plasma 6.
  Este paquete instala los archivos de color necesarios para los temas Soplos Classic y Modern en KDE Plasma 6.
  Build date: 2025-08-01
 
+Package: soplos-grub-editor
+Version: 2.0.0
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-polkit-1.0, grub2-common | grub2, imagemagick, pkexec, polkitd, python3-all, python3-cairo, python3-dbus, python3-gi, python3-pil, python3-polib, python3-setuptools, python3-xlib
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_2.0.0_all.deb
+Size: 1197384
+SHA256: a3fb0de6d0c9c76c2bb89e37a0fd3787edb58ede60e2f98ea212663576d914a5
+SHA1: 68576f0ad276a866eaf6d39668bfae5946c9a386
+MD5sum: 5d62cc8759cbc5474fd8fa9dd9ff5413
+Description: Advanced GRUB configuration editor with complete internationalization
+
+Package: soplos-grub-theme
+Version: 0.0.3
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.3_all.deb
+Size: 2118748
+SHA256: 19cb03e1c0af4c23a424818ac2cbcd81ceb2912e0996e5b959596f03c46f5471
+SHA1: 1bc40072688f1e90192fbcdb296007aed916954a
+MD5sum: cc1a2608938afed7879763216af38a48
+Description: GRUB theme package for Soplos Linux Tyson.
+ This package provides the official GRUB theme and related assets for Soplos Linux Tyson.
+ Build date: 2026-01-12
+
 Package: soplos-modules
 Version: 0.0.1
 Architecture: all
