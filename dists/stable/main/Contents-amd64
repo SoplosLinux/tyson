@@ -4,10 +4,11 @@ boot/grub/themes/soploslinux/theme.txt	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/fonts/Ubuntu-B_12.pf2	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/fonts/Ubuntu-B_16.pf2	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/fonts/Ubuntu-B_20.pf2	    misc/soplos-grub-theme
+boot/grub/themes/soploslinux/fonts/Ubuntu-B_24.pf2	    misc/soplos-grub-theme
+boot/grub/themes/soploslinux/fonts/Ubuntu-B_32.pf2	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/install.png	    misc/soplos-grub-theme
-boot/grub/themes/soploslinux/icons/memtest.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/os.png	    misc/soplos-grub-theme
-boot/grub/themes/soploslinux/icons/recovery.png	    misc/soplos-grub-theme
+boot/grub/themes/soploslinux/icons/soplos.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/uefi.png	    misc/soplos-grub-theme
 etc/debian_version	    admin/soplos-release
 etc/issue	    admin/soplos-release
