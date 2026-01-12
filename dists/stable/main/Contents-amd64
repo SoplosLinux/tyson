@@ -26,6 +26,7 @@ etc/default/grub-btrfs/config	    admin/grub-btrfs
 etc/dracut.conf.d/i18n.conf	    admin/soplos-release
 etc/dracut.conf.d/local.conf	    admin/soplos-release
 etc/dracut.conf.d/soplos.conf	    admin/soplos-release
+etc/grub.d/05_soplos_theme	    misc/soplos-grub-theme
 etc/grub.d/41_snapshots-btrfs	    admin/grub-btrfs
 etc/skel/.config/fastfetch/config.jsonc	    utils/fastfetch-soplos
 usr/bin/grub-btrfsd	    admin/grub-btrfs
