@@ -85,16 +85,16 @@ Description: Color schemes comunes para los temas Soplos KDE Plasma 6.
  Build date: 2025-08-01
 
 Package: soplos-grub-theme
-Version: 0.0.2
+Version: 0.0.3
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.2_all.deb
-Size: 2150348
-SHA256: 2334726901f3ac50446bba95a2a1695f364d806352e9b3c187c85b49dd61b3a6
-SHA1: 94cbd6d812657c3e57e37dfa27abf3050c69fce5
-MD5sum: b0dfce7bb3f44992bf8e6f32e99b0698
+Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.3_all.deb
+Size: 2118768
+SHA256: c86ed5b58e5b31b2649c6004aa60f211a88bd031dfe38c36bb023966b2f19567
+SHA1: d4e406ba7baa11c01d66872ec0b9b9ce57f48b59
+MD5sum: 504f0d151015b419d58869e656996cf0
 Description: GRUB theme package for Soplos Linux Tyson.
  This package provides the official GRUB theme and related assets for Soplos Linux Tyson.
  Build date: 2026-01-12
