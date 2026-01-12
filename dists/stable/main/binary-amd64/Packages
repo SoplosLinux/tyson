@@ -84,6 +84,20 @@ Description: Color schemes comunes para los temas Soplos KDE Plasma 6.
  Este paquete instala los archivos de color necesarios para los temas Soplos Classic y Modern en KDE Plasma 6.
  Build date: 2025-08-01
 
+Package: soplos-grub-editor
+Version: 2.0.0
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-polkit-1.0, grub2-common | grub2, imagemagick, pkexec, polkitd, python3-all, python3-cairo, python3-dbus, python3-gi, python3-pil, python3-polib, python3-setuptools, python3-xlib
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_2.0.0_all.deb
+Size: 1197436
+SHA256: 4ac653ffdc95a0deaba670190043f2c8945bbc0a5f3008da84205432ced1995f
+SHA1: 423ec164742816c31da8a59c410335bf1ce2cccf
+MD5sum: 73df67609c7e6f999ba25a604c26b99a
+Description: Advanced GRUB configuration editor with complete internationalization
+
 Package: soplos-modules
 Version: 0.0.1
 Architecture: all

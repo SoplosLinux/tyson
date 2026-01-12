@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260112T173920
+Time: 20260112T173926
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1533,4 +1533,270 @@ Releases:
       it: Rilascio iniziale
       ru: Первый выпуск
       ro: Lansare inițială
+Component: main
+---
+Type: desktop-application
+ID: org.soplos.grubeditor
+ProjectLicense: GPL-3.0-or-later
+Package: soplos-grub-editor
+Name:
+  C: Soplos GRUB Editor
+  es: Editor GRUB de Soplos
+  fr: Éditeur GRUB Soplos
+  pt: Editor GRUB Soplos
+  de: Soplos GRUB Editor
+  it: Editor GRUB Soplos
+  ru: Редактор GRUB Soplos
+  ro: Editor GRUB Soplos
+Summary:
+  C: Advanced GRUB configuration editor with complete internationalization
+  es: Editor avanzado de configuración GRUB con internacionalización completa
+  fr: Éditeur de configuration GRUB avancé avec internationalisation complète
+  pt: Editor avançado de configuração GRUB com internacionalização completa
+  de: Erweiterte GRUB-Konfigurationseditor mit vollständiger Internationalisierung
+  it: Editor avanzato di configurazione GRUB con internazionalizzazione completa
+  ru: Расширенный редактор конфигурации GRUB с полной интернационализацией
+  ro: Editor avansat de configurare GRUB cu internaționalizare completă
+Description:
+  C: |-
+    <p>Soplos GRUB Editor is a comprehensive graphical tool for configuring and customizing the GRUB2 bootloader.
+    With complete internationalization support for 8 languages, it provides an intuitive interface for managing
+    boot settings, themes, fonts, and custom entries.</p><p>Key Features:</p>
+  es: |-
+    <p>Soplos GRUB Editor es una herramienta gráfica integral para configurar y personalizar el gestor de arranque GRUB2.
+    Con soporte completo de internacionalización para 8 idiomas, proporciona una interfaz intuitiva para gestionar
+    configuraciones de arranque, temas, fuentes y entradas personalizadas.</p>
+  fr: |-
+    <p>Soplos GRUB Editor est un outil graphique complet pour configurer et personnaliser le chargeur de démarrage GRUB2.
+    Avec un support complet d'internationalisation pour 8 langues, il fournit une interface intuitive pour gérer
+    les paramètres de démarrage, les thèmes, les polices et les entrées personnalisées.</p>
+  pt: |-
+    <p>Soplos GRUB Editor é uma ferramenta gráfica abrangente para configurar e personalizar o gerenciador de inicialização GRUB2.
+    Com suporte completo de internacionalização para 8 idiomas, fornece uma interface intuitiva para gerenciar
+    configurações de inicialização, temas, fontes e entradas personalizadas.</p>
+  de: |-
+    <p>Soplos GRUB Editor ist ein umfassendes grafisches Tool zur Konfiguration und Anpassung des GRUB2-Bootloaders.
+    Mit vollständiger Internationalisierungsunterstützung für 8 Sprachen bietet es eine intuitive Benutzeroberfläche
+    zur Verwaltung von Boot-Einstellungen, Themes, Schriftarten und benutzerdefinierten Einträgen.</p>
+  it: |-
+    <p>Soplos GRUB Editor è uno strumento grafico completo per configurare e personalizzare il bootloader GRUB2.
+    Con supporto completo per l'internazionalizzazione in 8 lingue, fornisce un'interfaccia intuitiva per gestire
+    impostazioni di avvio, temi, font ed entrate personalizzate.</p>
+  ru: |-
+    <p>Soplos GRUB Editor - это комплексный графический инструмент для настройки и персонализации загрузчика GRUB2.
+    С полной поддержкой интернационализации для 8 языков, он предоставляет интуитивный интерфейс для управления
+    настройками загрузки, темами, шрифтами и пользовательскими записями.</p>
+  ro: |-
+    <p>Soplos GRUB Editor este un instrument grafic cuprinzător pentru configurarea și personalizarea încărcătorului de sistem GRUB2.
+    Cu suport complet de internaționalizare pentru 8 limbi, oferă o interfață intuitivă pentru gestionarea
+    setărilor de pornire, temelor, fonturilor și intrărilor personalizate.</p>
+Keywords:
+  C:
+    - grub
+    - bootloader
+    - boot
+    - system
+    - configure
+    - settings
+    - customize
+    - theme
+    - soplos
+  es:
+    - arranque
+    - configurar
+    - tema
+  fr:
+    - démarrage
+    - configurer
+    - thème
+  pt:
+    - inicialização
+    - configurar
+    - tema
+  de:
+    - start
+    - konfiguration
+    - thema
+  it:
+    - avvio
+    - configurare
+    - tema
+  ru:
+    - загрузка
+    - настройка
+    - тема
+  ro:
+    - pornire
+    - configurare
+    - temă
+Categories:
+  - System
+  - Settings
+  - Utility
+Icon:
+  cached:
+    - name: org.soplos.grubeditor.png
+      width: 48
+      height: 48
+    - name: org.soplos.grubeditor.png
+      width: 64
+      height: 64
+    - name: org.soplos.grubeditor.png
+      width: 128
+      height: 128
+  remote:
+    - url: soplos-grub-editor/icons/48x48/org.soplos.grubeditor.png
+      width: 48
+      height: 48
+    - url: soplos-grub-editor/icons/64x64/org.soplos.grubeditor.png
+      width: 64
+      height: 64
+    - url: soplos-grub-editor/icons/128x128/org.soplos.grubeditor.png
+      width: 128
+      height: 128
+Screenshots:
+  - default: true
+    caption:
+      C: General configuration
+      es: Configuración general
+      fr: Configuration générale
+      pt: Configuração geral
+      de: Allgemeine Konfiguration
+      it: Configurazione generale
+      ru: Общая конфигурация
+      ro: Configurare generală
+    source-image:
+      url: soplos-grub-editor/screenshots/screenshot1.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Boot entries
+      es: Entradas de arranque
+      fr: Entrées de démarrage
+      pt: Entradas de inicialização
+      de: Boot-Einträge
+      it: Voci di avvio
+      ru: Записи загрузки
+      ro: Intrări de pornire
+    source-image:
+      url: soplos-grub-editor/screenshots/screenshot2.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Theme, background and color selector
+      es: Selector de temas, fondos y colores
+      fr: Sélecteur de thèmes, arrière-plans et couleurs
+      pt: Seletor de temas, fundos e cores
+      de: Themen-, Hintergrund- und Farbauswahl
+      it: Selettore di temi, sfondi e colori
+      ru: Селектор тем, фонов и цветов
+      ro: Selector de teme, fundaluri și culori
+    source-image:
+      url: soplos-grub-editor/screenshots/screenshot3.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Typographic font converter
+      es: Conversor de fuentes tipográficas
+      fr: Convertisseur de polices typographiques
+      pt: Conversor de fontes tipográficas
+      de: Typografische Schriftarten-Konverter
+      it: Convertitore di caratteri tipografici
+      ru: Конвертер типографических шрифтов
+      ro: Convertor de fonturi tipografice
+    source-image:
+      url: soplos-grub-editor/screenshots/screenshot4.png
+      width: 1920
+      height: 1080
+      type: image/png
+Launchable:
+  desktop-id:
+    - org.soplos.grubeditor.desktop
+Url:
+  homepage: https://soplos.org
+  bugtracker: https://github.com/SoplosLinux/soplos-grub-editor/issues
+  donation: https://paypal.me/isubdes
+  contact: https://soplos.org/forums
+  vcs-browser: https://github.com/SoplosLinux/tyron
+Developer:
+  id: org.soploslinux
+  name:
+    C: Soplos Team
+  url: https://soplos.org
+Provides:
+  - soplos-grub-editor
+Releases:
+  - version: 2.0.0
+    date: '2026-01-10'
+    type: stable
+    description:
+      C: |-
+        Major Release - Complete Rewrite. Complete Internationalization (8 languages). Smart theme detection, GRUB theme manager, new resolutions, refined UI and improved desktop detection.
+      es: |-
+        Versión Mayor - Reescritura Completa. Internacionalización Completa (8 idiomas). Detección inteligente de temas, gestor de temas GRUB, nuevas resoluciones, interfaz refinada y detección de escritorio mejorada.
+      en: |-
+        Major Release - Complete Rewrite. Complete Internationalization (8 languages). Smart theme detection, GRUB theme manager, new resolutions, refined UI and improved desktop detection.
+      fr: |-
+        Version Majeure - Réécriture Complète. Internationalisation Complète (8 langues). Détection intelligente de thème, gestionnaire de thèmes GRUB, nouvelles résolutions, interface raffinée et détection de bureau améliorée.
+      pt: |-
+        Versão Maior - Reescrita Completa. Internacionalização Completa (8 idiomas). Detecção inteligente de temas, gerenciador de temas GRUB, novas resoluções, interface refinada e detecção de desktop aprimorada.
+      de: |-
+        Hauptversion - Komplette Neuschreibung. Vollständige Internationalisierung (8 Sprachen). Intelligente Themenerkennung, GRUB-Themenmanager, neue Auflösungen, verfeinerte Benutzeroberfläche und verbesserte Desktoperkennung.
+      it: |-
+        Versione Principale - Riscrittura Completa. Internazionalizzazione Completa (8 lingue). Rilevamento intelligente del tema, gestore temi GRUB, nuove risoluzioni, interfaccia raffinata e rilevamento desktop migliorato.
+      ru: |-
+        Основная версия - Полная переработка. Полная интернационализация (8 языков). Умное определение темы, менеджер тем GRUB, новые разрешения, улучшенный интерфейс и определение рабочего стола.
+      ro: |-
+        Versiune Majoră - Rescriere Completă. Internaționalizare Completă (8 limbi). Detectare inteligentă a temei, manager de teme GRUB, rezoluții noi, interfață rafinată și detectare desktop îmbunătățită.
+  - version: 1.0.4
+    date: '2025-07-27'
+    type: stable
+    description:
+      C: Program icon changed.
+      es: Cambio de icono del programa.
+      en: Program icon changed.
+      fr: Changement de l'icône du programme.
+      pt: Alteração do ícone do programa.
+      de: Programmicon geändert.
+      it: Cambiata l'icona del programma.
+      ru: Изменена иконка программы.
+      ro: Schimbare a pictogramei programului.
+  - version: 1.0.3
+    date: '2025-07-18'
+    type: stable
+    description:
+      C: Metainfo update for AppStream/DEP-11 compliance.
+      es: Actualización de metainfo para cumplir con AppStream/DEP-11.
+      en: Metainfo update for AppStream/DEP-11 compliance.
+      fr: Mise à jour du metainfo pour la conformité AppStream/DEP-11.
+      pt: Atualização do metainfo para conformidade AppStream/DEP-11.
+      de: Metainfo-Aktualisierung für AppStream/DEP-11-Konformität.
+      it: Aggiornamento del metainfo per la conformità AppStream/DEP-11.
+      ru: Обновление метаинформации для соответствия AppStream/DEP-11.
+      ro: Actualizare metainfo pentru conformitate AppStream/DEP-11.
+  - version: 1.0.2
+    date: '2025-06-15'
+    type: stable
+    description:
+      C: Complete internationalization update with 8 languages
+      es: Actualización completa de internacionalización con 8 idiomas
+      fr: Mise à jour complète d'internationalisation avec 8 langues
+      pt: Atualização completa de internacionalização com 8 idiomas
+      de: Vollständige Internationalisierung mit 8 Sprachen
+      it: Aggiornamento completo di internazionalizzazione con 8 lingue
+      ru: Полное обновление интернационализации с 8 языками
+      ro: Actualizare completă de internaționalizare cu 8 limbi
+  - version: 1.0.1
+    date: '2025-06-14'
+    type: stable
+    description:
+      C: Font management improvements and bug fixes
+  - version: 1.0.0
+    date: '2025-06-13'
+    type: stable
+    description:
+      C: Initial stable release
 Component: main

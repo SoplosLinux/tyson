@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.soplos.grubeditor</id>
+  <pkgname>soplos-grub-editor</pkgname>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <project_group>org.soploslinux</project_group>
+  
+  <name>Soplos GRUB Editor</name>
+  <name xml:lang="es">Editor GRUB de Soplos</name>
+  <name xml:lang="fr">Éditeur GRUB Soplos</name>
+  <name xml:lang="pt">Editor GRUB Soplos</name>
+  <name xml:lang="de">Soplos GRUB Editor</name>
+  <name xml:lang="it">Editor GRUB Soplos</name>
+  <name xml:lang="ru">Редактор GRUB Soplos</name>
+  <name xml:lang="ro">Editor GRUB Soplos</name>
+
+  <summary>Advanced GRUB configuration editor with complete internationalization</summary>
+  <summary xml:lang="es">Editor avanzado de configuración GRUB con internacionalización completa</summary>
+  <summary xml:lang="fr">Éditeur de configuration GRUB avancé avec internationalisation complète</summary>
+  <summary xml:lang="pt">Editor avançado de configuração GRUB com internacionalização completa</summary>
+  <summary xml:lang="de">Erweiterte GRUB-Konfigurationseditor mit vollständiger Internationalisierung</summary>
+  <summary xml:lang="it">Editor avanzato di configurazione GRUB con internazionalizzazione completa</summary>
+  <summary xml:lang="ru">Расширенный редактор конфигурации GRUB с полной интернационализацией</summary>
+  <summary xml:lang="ro">Editor avansat de configurare GRUB cu internaționalizare completă</summary>
+
+  <description>
+    <p>
+      Soplos GRUB Editor is a comprehensive graphical tool for configuring and customizing the GRUB2 bootloader. 
+      With complete internationalization support for 8 languages, it provides an intuitive interface for managing 
+      boot settings, themes, fonts, and custom entries.
+    </p>
+    <p xml:lang="es">
+      Soplos GRUB Editor es una herramienta gráfica integral para configurar y personalizar el gestor de arranque GRUB2. 
+      Con soporte completo de internacionalización para 8 idiomas, proporciona una interfaz intuitiva para gestionar 
+      configuraciones de arranque, temas, fuentes y entradas personalizadas.
+    </p>
+    <p xml:lang="fr">
+      Soplos GRUB Editor est un outil graphique complet pour configurer et personnaliser le chargeur de démarrage GRUB2. 
+      Avec un support complet d'internationalisation pour 8 langues, il fournit une interface intuitive pour gérer 
+      les paramètres de démarrage, les thèmes, les polices et les entrées personnalisées.
+    </p>
+    <p xml:lang="pt">
+      Soplos GRUB Editor é uma ferramenta gráfica abrangente para configurar e personalizar o gerenciador de inicialização GRUB2. 
+      Com suporte completo de internacionalização para 8 idiomas, fornece uma interface intuitiva para gerenciar 
+      configurações de inicialização, temas, fontes e entradas personalizadas.
+    </p>
+    <p xml:lang="de">
+      Soplos GRUB Editor ist ein umfassendes grafisches Tool zur Konfiguration und Anpassung des GRUB2-Bootloaders. 
+      Mit vollständiger Internationalisierungsunterstützung für 8 Sprachen bietet es eine intuitive Benutzeroberfläche 
+      zur Verwaltung von Boot-Einstellungen, Themes, Schriftarten und benutzerdefinierten Einträgen.
+    </p>
+    <p xml:lang="it">
+      Soplos GRUB Editor è uno strumento grafico completo per configurare e personalizzare il bootloader GRUB2. 
+      Con supporto completo per l'internazionalizzazione in 8 lingue, fornisce un'interfaccia intuitiva per gestire 
+      impostazioni di avvio, temi, font ed entrate personalizzate.
+    </p>
+    <p xml:lang="ru">
+      Soplos GRUB Editor - это комплексный графический инструмент для настройки и персонализации загрузчика GRUB2. 
+      С полной поддержкой интернационализации для 8 языков, он предоставляет интуитивный интерфейс для управления 
+      настройками загрузки, темами, шрифтами и пользовательскими записями.
+    </p>
+    <p xml:lang="ro">
+      Soplos GRUB Editor este un instrument grafic cuprinzător pentru configurarea și personalizarea încărcătorului de sistem GRUB2. 
+      Cu suport complet de internaționalizare pentru 8 limbi, oferă o interfață intuitivă pentru gestionarea 
+      setărilor de pornire, temelor, fonturilor și intrărilor personalizate.
+    </p>
+
+    <p>Key Features:</p>
+    <ul>
+      <li>Complete internationalization - 8 languages supported</li>
+      <li>Intuitive GTK3 interface with keyboard shortcuts</li>
+      <li>Theme management and installation</li>
+      <li>Custom font conversion and application</li>
+      <li>Background image configuration</li>
+      <li>Custom boot entry management</li>
+      <li>Advanced kernel parameter configuration</li>
+      <li>Automatic backup and restore functionality</li>
+      <li>Safe update-grub integration</li>
+      <li>Multi-OS detection support</li>
+    </ul>
+  </description>
+
+  <categories>
+    <category>System</category>
+    <category>Settings</category>
+    <category>Utility</category>
+  </categories>
+
+  <requires>
+    <display_length compare="ge">800</display_length>
+    <internet>offline-only</internet>
+    <memory compare="ge">256</memory>
+  </requires>
+
+  <keywords>
+    <keyword>grub</keyword>
+    <keyword>bootloader</keyword>
+    <keyword>boot</keyword>
+    <keyword>system</keyword>
+    <keyword>configure</keyword>
+    <keyword>settings</keyword>
+    <keyword>customize</keyword>
+    <keyword>theme</keyword>
+    <keyword>soplos</keyword>
+    <keyword xml:lang="es">arranque</keyword>
+    <keyword xml:lang="es">configurar</keyword>
+    <keyword xml:lang="es">tema</keyword>
+    <keyword xml:lang="fr">démarrage</keyword>
+    <keyword xml:lang="fr">configurer</keyword>
+    <keyword xml:lang="fr">thème</keyword>
+    <keyword xml:lang="pt">inicialização</keyword>
+    <keyword xml:lang="pt">configurar</keyword>
+    <keyword xml:lang="pt">tema</keyword>
+    <keyword xml:lang="de">start</keyword>
+    <keyword xml:lang="de">konfiguration</keyword>
+    <keyword xml:lang="de">thema</keyword>
+    <keyword xml:lang="it">avvio</keyword>
+    <keyword xml:lang="it">configurare</keyword>
+    <keyword xml:lang="it">tema</keyword>
+    <keyword xml:lang="ru">загрузка</keyword>
+    <keyword xml:lang="ru">настройка</keyword>
+    <keyword xml:lang="ru">тема</keyword>
+    <keyword xml:lang="ro">pornire</keyword>
+    <keyword xml:lang="ro">configurare</keyword>
+    <keyword xml:lang="ro">temă</keyword>
+  </keywords>
+
+  <translation type="gettext">
+    <locale>es</locale>
+    <locale>en</locale>
+    <locale>fr</locale>
+    <locale>pt</locale>
+    <locale>de</locale>
+    <locale>it</locale>
+    <locale>ru</locale>
+    <locale>ro</locale>
+  </translation>
+
+  <launchable type="desktop-id">org.soplos.grubeditor.desktop</launchable>
+
+  <icon type="stock">org.soplos.grubeditor</icon>
+  <icon type="remote" width="128" height="128">
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/icons/org.soplos.grubeditor.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>General configuration</caption>
+      <caption xml:lang="es">Configuración general</caption>
+      <caption xml:lang="fr">Configuration générale</caption>
+      <caption xml:lang="pt">Configuração geral</caption>
+      <caption xml:lang="de">Allgemeine Konfiguration</caption>
+      <caption xml:lang="it">Configurazione generale</caption>
+      <caption xml:lang="ru">Общая конфигурация</caption>
+      <caption xml:lang="ro">Configurare generală</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/screenshots/screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Boot entries</caption>
+      <caption xml:lang="es">Entradas de arranque</caption>
+      <caption xml:lang="fr">Entrées de démarrage</caption>
+      <caption xml:lang="pt">Entradas de inicialização</caption>
+      <caption xml:lang="de">Boot-Einträge</caption>
+      <caption xml:lang="it">Voci di avvio</caption>
+      <caption xml:lang="ru">Записи загрузки</caption>
+      <caption xml:lang="ro">Intrări de pornire</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/screenshots/screenshot2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Theme, background and color selector</caption>
+      <caption xml:lang="es">Selector de temas, fondos y colores</caption>
+      <caption xml:lang="fr">Sélecteur de thèmes, arrière-plans et couleurs</caption>
+      <caption xml:lang="pt">Seletor de temas, fundos e cores</caption>
+      <caption xml:lang="de">Themen-, Hintergrund- und Farbauswahl</caption>
+      <caption xml:lang="it">Selettore di temi, sfondi e colori</caption>
+      <caption xml:lang="ru">Селектор тем, фонов и цветов</caption>
+      <caption xml:lang="ro">Selector de teme, fundaluri și culori</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/screenshots/screenshot3.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Typographic font converter</caption>
+      <caption xml:lang="es">Conversor de fuentes tipográficas</caption>
+      <caption xml:lang="fr">Convertisseur de polices typographiques</caption>
+      <caption xml:lang="pt">Conversor de fontes tipográficas</caption>
+      <caption xml:lang="de">Typografische Schriftarten-Konverter</caption>
+      <caption xml:lang="it">Convertitore di caratteri tipografici</caption>
+      <caption xml:lang="ru">Конвертер типографических шрифтов</caption>
+      <caption xml:lang="ro">Convertor de fonturi tipografice</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/screenshots/screenshot4.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-grub-editor/issues</url>
+  <url type="donation">https://paypal.me/isubdes</url>
+  <url type="contact">https://soplos.org/forums</url>
+  <url type="vcs-browser">https://github.com/SoplosLinux/tyron</url>
+
+  <developer id="org.soploslinux">
+    <name>Sergi Perich</name>
+    <name xml:lang="en">Sergi Perich</name>
+    <name xml:lang="es">Sergi Perich</name>
+    <name xml:lang="fr">Sergi Perich</name>
+    <name xml:lang="pt">Sergi Perich</name>
+    <name xml:lang="de">Sergi Perich</name>
+    <name xml:lang="it">Sergi Perich</name>
+    <name xml:lang="ru">Серги Перич</name>
+    <name xml:lang="ro">Sergi Perich</name>
+    <url type="homepage">https://soplos.org</url>
+  </developer>
+
+  <provides>
+    <binary>soplos-grub-editor</binary>
+  </provides>
+
+  <releases>
+    <release version="2.0.0" date="2026-01-10">
+      <description>
+        <p>Major Release - Complete Rewrite. Complete Internationalization (8 languages). Smart theme detection, GRUB theme manager, new resolutions, refined UI and improved desktop detection.</p>
+        <p xml:lang="es">Versión Mayor - Reescritura Completa. Internacionalización Completa (8 idiomas). Detección inteligente de temas, gestor de temas GRUB, nuevas resoluciones, interfaz refinada y detección de escritorio mejorada.</p>
+        <p xml:lang="en">Major Release - Complete Rewrite. Complete Internationalization (8 languages). Smart theme detection, GRUB theme manager, new resolutions, refined UI and improved desktop detection.</p>
+        <p xml:lang="fr">Version Majeure - Réécriture Complète. Internationalisation Complète (8 langues). Détection intelligente de thème, gestionnaire de thèmes GRUB, nouvelles résolutions, interface raffinée et détection de bureau améliorée.</p>
+        <p xml:lang="pt">Versão Maior - Reescrita Completa. Internacionalização Completa (8 idiomas). Detecção inteligente de temas, gerenciador de temas GRUB, novas resoluções, interface refinada e detecção de desktop aprimorada.</p>
+        <p xml:lang="de">Hauptversion - Komplette Neuschreibung. Vollständige Internationalisierung (8 Sprachen). Intelligente Themenerkennung, GRUB-Themenmanager, neue Auflösungen, verfeinerte Benutzeroberfläche und verbesserte Desktoperkennung.</p>
+        <p xml:lang="it">Versione Principale - Riscrittura Completa. Internazionalizzazione Completa (8 lingue). Rilevamento intelligente del tema, gestore temi GRUB, nuove risoluzioni, interfaccia raffinata e rilevamento desktop migliorato.</p>
+        <p xml:lang="ru">Основная версия - Полная переработка. Полная интернационализация (8 языков). Умное определение темы, менеджер тем GRUB, новые разрешения, улучшенный интерфейс и определение рабочего стола.</p>
+        <p xml:lang="ro">Versiune Majoră - Rescriere Completă. Internaționalizare Completă (8 limbi). Detectare inteligentă a temei, manager de teme GRUB, rezoluții noi, interfață rafinată și detectare desktop îmbunătățită.</p>
+        <ul>
+          <li>Smart light/dark theme detection (GNOME, KDE, XFCE)</li>
+          <li>Improved desktop &amp; environment detection</li>
+          <li>Refined UI layout with compact view</li>
+          <li>GRUB theme installer and remover</li>
+          <li>Expanded resolution support (16:9, 16:10, 4:3, 4K)</li>
+          <li>UUID control option</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.4" date="2025-07-27">
+      <description>
+        <p>Program icon changed.</p>
+        <p xml:lang="es">Cambio de icono del programa.</p>
+        <p xml:lang="en">Program icon changed.</p>
+        <p xml:lang="fr">Changement de l'icône du programme.</p>
+        <p xml:lang="pt">Alteração do ícone do programa.</p>
+        <p xml:lang="de">Programmicon geändert.</p>
+        <p xml:lang="it">Cambiata l'icona del programma.</p>
+        <p xml:lang="ru">Изменена иконка программы.</p>
+        <p xml:lang="ro">Schimbare a pictogramei programului.</p>
+      </description>
+    </release>
+    <release version="1.0.3" date="2025-07-18">
+      <description>
+        <p>Metainfo updated for AppStream/DEP-11 compliance.</p>
+        <p xml:lang="es">Actualización de metainfo para cumplir con AppStream/DEP-11.</p>
+        <p xml:lang="en">Metainfo update for AppStream/DEP-11 compliance.</p>
+        <p xml:lang="fr">Mise à jour du metainfo pour la conformité AppStream/DEP-11.</p>
+        <p xml:lang="pt">Atualização do metainfo para conformidade AppStream/DEP-11.</p>
+        <p xml:lang="de">Metainfo-Aktualisierung für AppStream/DEP-11-Konformität.</p>
+        <p xml:lang="it">Aggiornamento del metainfo per la conformità AppStream/DEP-11.</p>
+        <p xml:lang="ru">Обновление метаинформации для соответствия AppStream/DEP-11.</p>
+        <p xml:lang="ro">Actualizare metainfo pentru conformitate AppStream/DEP-11.</p>
+        <ul>
+          <li>Renombrado de screenshots a screenshot1.png, screenshot2.png, etc.</li>
+          <li>Mejoras menores de documentación y metadatos.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2" date="2025-06-15">
+      <description>
+        <p>Complete internationalization update with 8 languages</p>
+        <p xml:lang="es">Actualización completa de internacionalización con 8 idiomas</p>
+        <p xml:lang="fr">Mise à jour complète d'internationalisation avec 8 langues</p>
+        <p xml:lang="pt">Atualização completa de internacionalização com 8 idiomas</p>
+        <p xml:lang="de">Vollständige Internationalisierung mit 8 Sprachen</p>
+        <p xml:lang="it">Aggiornamento completo di internazionalizzazione con 8 lingue</p>
+        <p xml:lang="ru">Полное обновление интернационализации с 8 языками</p>
+        <p xml:lang="ro">Actualizare completă de internaționalizare cu 8 limbi</p>
+        <ul>
+          <li>100% internationalization coverage</li>
+          <li>8 languages fully supported: es, en, fr, pt, de, it, ru, ro</li>
+          <li>Dynamic language loading system</li>
+          <li>Robust fallback mechanism</li>
+          <li>Improved translation management</li>
+          <li>Enhanced error messages</li>
+          <li>Better keyboard shortcuts</li>
+          <li>Optimized file structure</li>
+        </ul>
+      </description>
+      <url>https://github.com/SoplosLinux/soplos-grub-editor/releases/tag/v1.0.2</url>
+    </release>
+    <release version="1.0.1" date="2025-06-14">
+      <description>
+        <p>Font management improvements and bug fixes</p>
+        <ul>
+          <li>Enhanced font conversion system</li>
+          <li>Better error handling</li>
+          <li>Improved theme installation</li>
+          <li>UI responsiveness fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.0" date="2025-06-13">
+      <description>
+        <p>Initial stable release</p>
+        <ul>
+          <li>Complete GRUB configuration management</li>
+          <li>Theme and font support</li>
+          <li>Custom boot entries</li>
+          <li>Background configuration</li>
+          <li>Multi-language support (initial)</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+  </content_rating>
+
+</component>
