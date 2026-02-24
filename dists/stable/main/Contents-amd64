@@ -1208,6 +1208,7 @@ usr/share/soplos-welcome/assets/icons/developer/sublime-text.png	    utils/soplo
 usr/share/soplos-welcome/assets/icons/developer/vscode.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/developer/vscodium.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/developer/zed.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/gaming/ES-DE.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/bottles.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/chiaki.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/gamemode.png	    utils/soplos-welcome
@@ -1221,9 +1222,11 @@ usr/share/soplos-welcome/assets/icons/gaming/playonlinux.png	    utils/soplos-we
 usr/share/soplos-welcome/assets/icons/gaming/prism.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/r2modman.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/retroarch.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/gaming/sober.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/steam.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/vinegar.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/wine.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/graphics/affinity.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/blender.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/darktable.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/gimp.png	    utils/soplos-welcome

@@ -142,6 +142,112 @@
   <developer_name>Sergi Perich</developer_name>
 
   <releases>
+     <release version="2.0.4" date="2026-02-24">
+       <description>
+         <p>Gaming, Kernels and Security improvements:</p>
+         <ul>
+           <li>NEW: EmulationStation-DE added as AppImage in Gaming and Recommended tabs</li>
+           <li>NEW: Sober (Roblox) launcher added to Gaming tab</li>
+           <li>Internationalized all 14 gaming launcher descriptions with 8-language support</li>
+           <li>Fixed launcher alignment with uniform height and consistent layout</li>
+           <li>"Kernels" tab name kept untranslated as a universal technical term</li>
+           <li>Rewritten Clean Old Kernels with smart classification and confirmation dialog</li>
+           <li>Stacer converted from broken .deb to stable AppImage installation</li>
+           <li>Added new translations for kernel cleanup dialogs in all 8 languages</li>
+         </ul>
+       </description>
+       <description xml:lang="es">
+         <p>Mejoras en Gaming, Kernels y Seguridad:</p>
+         <ul>
+           <li>NUEVO: EmulationStation-DE añadido como AppImage en las pestañas Gaming y Recomendado</li>
+           <li>NUEVO: Launcher Sober (Roblox) añadido a la pestaña Gaming</li>
+           <li>Internacionalizadas las 14 descripciones de launchers gaming con soporte en 8 idiomas</li>
+           <li>Corregida alineación de launchers con altura uniforme y diseño consistente</li>
+           <li>Nombre de pestaña "Kernels" mantenido sin traducir como término técnico universal</li>
+           <li>Reescrita la limpieza de kernels antiguos con clasificación inteligente y diálogo de confirmación</li>
+           <li>Stacer convertido de instalación .deb rota a AppImage estable</li>
+           <li>Añadidas nuevas traducciones para diálogos de limpieza de kernels en 8 idiomas</li>
+         </ul>
+       </description>
+       <description xml:lang="fr">
+         <p>Améliorations Gaming, Kernels et Sécurité :</p>
+         <ul>
+           <li>NOUVEAU : EmulationStation-DE ajouté comme AppImage dans les onglets Gaming et Recommandé</li>
+           <li>NOUVEAU : Lanceur Sober (Roblox) ajouté à l'onglet Gaming</li>
+           <li>Internationalisé les 14 descriptions de lanceurs gaming avec support 8 langues</li>
+           <li>Alignement des lanceurs corrigé avec hauteur uniforme et mise en page cohérente</li>
+           <li>Nom de l'onglet "Kernels" conservé sans traduction comme terme technique universel</li>
+           <li>Nettoyage des anciens noyaux réécrit avec classification intelligente et dialogue de confirmation</li>
+           <li>Stacer converti d'une installation .deb défaillante à une installation AppImage stable</li>
+           <li>Ajout de nouvelles traductions pour les dialogues de nettoyage de noyaux en 8 langues</li>
+         </ul>
+       </description>
+       <description xml:lang="de">
+         <p>Gaming-, Kernel- und Sicherheitsverbesserungen:</p>
+         <ul>
+           <li>NEU: EmulationStation-DE als AppImage in Gaming- und Empfohlen-Tabs hinzugefügt</li>
+           <li>NEU: Sober (Roblox) Launcher zum Gaming-Tab hinzugefügt</li>
+           <li>Alle 14 Gaming-Launcher-Beschreibungen internationalisiert mit 8-Sprachen-Unterstützung</li>
+           <li>Launcher-Ausrichtung korrigiert mit einheitlicher Höhe und konsistentem Layout</li>
+           <li>Tab-Name "Kernels" unübersetzt beibehalten als universeller technischer Begriff</li>
+           <li>Alte Kernel bereinigen komplett neu geschrieben mit intelligenter Klassifizierung und Bestätigungsdialog</li>
+           <li>Stacer von defekter .deb-Installation zu stabiler AppImage-Installation konvertiert</li>
+           <li>Neue Übersetzungen für Kernel-Bereinigungsdialoge in 8 Sprachen hinzugefügt</li>
+         </ul>
+       </description>
+       <description xml:lang="pt">
+         <p>Melhorias em Gaming, Kernels e Segurança:</p>
+         <ul>
+           <li>NOVO: EmulationStation-DE adicionado como AppImage nas abas Gaming e Recomendado</li>
+           <li>NOVO: Launcher Sober (Roblox) adicionado à aba Gaming</li>
+           <li>Internacionalizadas as 14 descrições de launchers gaming com suporte a 8 idiomas</li>
+           <li>Alinhamento dos launchers corrigido com altura uniforme e layout consistente</li>
+           <li>Nome da aba "Kernels" mantido sem tradução como termo técnico universal</li>
+           <li>Limpeza de kernels antigos reescrita com classificação inteligente e diálogo de confirmação</li>
+           <li>Stacer convertido de instalação .deb quebrada para AppImage estável</li>
+           <li>Adicionadas novas traduções para diálogos de limpeza de kernels em 8 idiomas</li>
+         </ul>
+       </description>
+       <description xml:lang="it">
+         <p>Miglioramenti Gaming, Kernel e Sicurezza:</p>
+         <ul>
+           <li>NUOVO: EmulationStation-DE aggiunto come AppImage nelle schede Gaming e Consigliati</li>
+           <li>NUOVO: Launcher Sober (Roblox) aggiunto alla scheda Gaming</li>
+           <li>Internazionalizzate tutte le 14 descrizioni dei launcher gaming con supporto 8 lingue</li>
+           <li>Allineamento dei launcher corretto con altezza uniforme e layout coerente</li>
+           <li>Nome della scheda "Kernels" mantenuto senza traduzione come termine tecnico universale</li>
+           <li>Pulizia vecchi kernel riscritta con classificazione intelligente e dialogo di conferma</li>
+           <li>Stacer convertito da installazione .deb difettosa ad AppImage stabile</li>
+           <li>Aggiunte nuove traduzioni per i dialoghi di pulizia kernel in 8 lingue</li>
+         </ul>
+       </description>
+       <description xml:lang="ru">
+         <p>Улучшения Gaming, Kernel и Безопасности:</p>
+         <ul>
+           <li>НОВОЕ: EmulationStation-DE добавлен как AppImage во вкладки Gaming и Рекомендуемое</li>
+           <li>НОВОЕ: Лаунчер Sober (Roblox) добавлен во вкладку Gaming</li>
+           <li>Интернационализированы все 14 описаний игровых лаунчеров с поддержкой 8 языков</li>
+           <li>Исправлено выравнивание лаунчеров с единой высотой и согласованным макетом</li>
+           <li>Название вкладки "Kernels" оставлено без перевода как универсальный технический термин</li>
+           <li>Очистка старых ядер полностью переписана с умной классификацией и диалогом подтверждения</li>
+           <li>Stacer преобразован из сломанной установки .deb в стабильный AppImage</li>
+           <li>Добавлены новые переводы для диалогов очистки ядер на 8 языках</li>
+         </ul>
+       </description>
+       <description xml:lang="ro">
+         <p>Îmbunătățiri Gaming, Kernel și Securitate:</p>
+         <ul>
+           <li>NOU: EmulationStation-DE adăugat ca AppImage în filele Gaming și Recomandat</li>
+           <li>NOU: Launcher Sober (Roblox) adăugat în fila Gaming</li>
+           <li>Internaționalizate toate cele 14 descrieri ale launcherelor gaming cu suport pentru 8 limbi</li>
+           <li>Alinierea launcherelor corectată cu înălțime uniformă și aspect consistent</li>
+           <li>Numele filei "Kernels" menținut netradus ca termen tehnic universal</li>
+           <li>Curățarea kernelurilor vechi rescrisă cu clasificare inteligentă și dialog de confirmare</li>
+           <li>Stacer convertit de la instalare .deb defectă la AppImage stabil</li>
+           <li>Adăugate traduceri noi pentru dialogurile de curățare kernel în 8 limbi</li>
+         </ul>
+       </description>
+     </release>
      <release version="2.0.3" date="2026-01-09">
        <description>
          <p>Documentation release: added manual page and Debian copyright file.</p>
