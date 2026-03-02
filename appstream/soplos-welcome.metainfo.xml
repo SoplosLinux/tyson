@@ -142,6 +142,56 @@
   <developer_name>Sergi Perich</developer_name>
 
   <releases>
+     <release version="2.0.5" date="2026-03-02">
+       <description>
+         <p>Bug fixes for batch installation:</p>
+         <ul>
+           <li>Fixed an issue in the Recommended tab where selecting multiple custom script applications (like ES-DE and Affinity) caused selection collisions.</li>
+         </ul>
+       </description>
+       <description xml:lang="es">
+         <p>Corrección de errores en la instalación por lotes:</p>
+         <ul>
+           <li>Corregido un problema en la pestaña Recomendados donde seleccionar múltiples aplicaciones con scripts personalizados (como ES-DE y Affinity) causaba colisiones en la selección.</li>
+         </ul>
+       </description>
+       <description xml:lang="fr">
+         <p>Correction de bugs pour l'installation par lots :</p>
+         <ul>
+           <li>Correction d'un problème dans l'onglet Recommandé où la sélection de plusieurs applications de scripts personnalisés (comme ES-DE et Affinity) provoquait des collisions de sélection.</li>
+         </ul>
+       </description>
+       <description xml:lang="de">
+         <p>Fehlerbehebungen für die Stapelinstallation:</p>
+         <ul>
+           <li>Ein Problem auf der Registerkarte "Empfohlen" wurde behoben, bei dem die Auswahl mehrerer benutzerdefinierter Skriptanwendungen (wie ES-DE und Affinity) zu Auswahlkollisionen führte.</li>
+         </ul>
+       </description>
+       <description xml:lang="pt">
+         <p>Correções de bugs para instalação em lote:</p>
+         <ul>
+           <li>Corrigido um problema na guia Recomendado onde a seleção de vários aplicativos de script personalizados (como ES-DE e Affinity) causava colisões de seleção.</li>
+         </ul>
+       </description>
+       <description xml:lang="it">
+         <p>Correzioni di bug per l'installazione batch:</p>
+         <ul>
+           <li>Risolto un problema nella scheda Consigliati in cui la selezione di più applicazioni di script personalizzate (come ES-DE e Affinity) causava collisioni di selezione.</li>
+         </ul>
+       </description>
+       <description xml:lang="ru">
+         <p>Исправления ошибок для пакетной установки:</p>
+         <ul>
+           <li>Исправлена проблема на вкладке «Рекомендуемое», из-за которой выбор нескольких приложений с пользовательскими скриптами (например, ES-DE и Affinity) приводил к коллизиям выбора.</li>
+         </ul>
+       </description>
+       <description xml:lang="ro">
+         <p>Remedieri de erori pentru instalarea în lot:</p>
+         <ul>
+           <li>S-a rezolvat o problemă în fila Recomandat în care selectarea mai multor aplicații de script personalizate (cum ar fi ES-DE și Affinity) cauza coliziuni de selecție.</li>
+         </ul>
+       </description>
+     </release>
      <release version="2.0.4" date="2026-02-24">
        <description>
          <p>Gaming, Kernels and Security improvements:</p>
