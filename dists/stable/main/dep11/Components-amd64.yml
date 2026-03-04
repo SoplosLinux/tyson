@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260304T140645
+Time: 20260304T143006
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1809,90 +1809,4 @@ Releases:
     type: stable
     description:
       C: Initial stable release
-Component: main
----
-Type: desktop-application
-ID: org.soplos.webappmanager
-ProjectLicense: GPL-3.0+
-Package: soplos-webapp-manager
-Name:
-  C: WebApp Manager
-Summary:
-  C: Create and manage isolated Web Applications
-  es: Crea y gestiona Aplicaciones Web aisladas
-  fr: Créer et gérer des applications Web isolées
-  de: Isolierte Webanwendungen erstellen und verwalten
-  it: Crea e gestisci applicazioni web isolate
-  pt: Criar e gerir aplicações Web isoladas
-  ru: Создание и управление изолированными веб-приложениями
-  ro: Creați și gestionați aplicații Web izolate
-Description:
-  C: |-
-    <p>Soplos WebApp Manager allows you to run websites as native desktop applications.
-    It creates isolated browsing environments (SSBs) to ensure your webapps can't interact
-    with the cookies or tabs from your main browsing sessions, increasing productivity and privacy.</p><p>Features:</p>
-Categories:
-  - System
-  - Utility
-Icon:
-  cached:
-    - name: org.soplos.webappmanager.png
-      width: 48
-      height: 48
-    - name: org.soplos.webappmanager.png
-      width: 64
-      height: 64
-    - name: org.soplos.webappmanager.png
-      width: 128
-      height: 128
-  remote:
-    - url: soplos-webapp-manager/icons/48x48/org.soplos.webappmanager.png
-      width: 48
-      height: 48
-    - url: soplos-webapp-manager/icons/64x64/org.soplos.webappmanager.png
-      width: 64
-      height: 64
-    - url: soplos-webapp-manager/icons/128x128/org.soplos.webappmanager.png
-      width: 128
-      height: 128
-Screenshots:
-  - default: true
-    caption:
-      C: Main dashboard showing installed WebApps
-      es: Panel principal mostrando las WebApps instaladas
-    source-image:
-      url: soplos-webapp-manager/screenshots/screenshot1.png
-      width: 1920
-      height: 1080
-      type: image/png
-  - caption:
-      C: WebApp creation dialog with browser selection
-      es: Diálogo de creación de WebApp con selección de navegador
-    source-image:
-      url: soplos-webapp-manager/screenshots/screenshot2.png
-      width: 1920
-      height: 1080
-      type: image/png
-  - caption:
-      C: Web App window natively integrated into the system
-      es: Ventana de Web App integrada nativamente en el sistema
-    source-image:
-      url: soplos-webapp-manager/screenshots/screenshot3.png
-      width: 1920
-      height: 1080
-      type: image/png
-Launchable:
-  desktop-id:
-    - org.soplos.webappmanager.desktop
-Url:
-  homepage: https://soplos.org
-  bugtracker: https://github.com/SoplosLinux/soplos-webapp-manager/issues
-Provides:
-  - soplos-webapp-manager
-Releases:
-  - version: 1.0.0
-    date: '2026-03-04'
-    type: stable
-    description:
-      C: Initial release of Soplos WebApp Manager.
 Component: main
