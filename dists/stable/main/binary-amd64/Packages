@@ -295,20 +295,6 @@ Description: Fondos de pantalla para SopLOS
  Este paquete contiene una colección de fondos de pantalla 
  para el sistema operativo Soplos Linux Tyron.
 
-Package: soplos-webapp-manager
-Version: 1.0.0
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-gi-cairo, python3-setuptools
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-webapp-manager/soplos-webapp-manager_1.0.0_all.deb
-Size: 505200
-SHA256: 75dfa3ec8c86f1937b2bd33b12809064dd7ac2fa2fc609850e656479d9a33958
-SHA1: e6bd363d8ddb5da418933ab362c57a900deb7bb5
-MD5sum: f1de68b276aee6e97e189e1d787f6bef
-Description: Create and manage isolated Web Applications
-
 Package: soplos-welcome
 Version: 2.0.5
 Architecture: all
