@@ -142,6 +142,80 @@
   <developer_name>Sergi Perich</developer_name>
 
   <releases>
+     <release version="2.0.6" date="2026-03-04">
+       <description>
+         <p>New features and kernel cleanup fix:</p>
+         <ul>
+           <li>NEW: Utilities section in Recommended tab (Soplos WebApp Manager, Flatseal, Gear Lever)</li>
+           <li>NEW: ProtonUp-Qt added to Gaming tab launchers</li>
+           <li>Fixed kernel cleanup: version-aware sorting, branch preservation (Main, Liquorix, XanMod), deep apt purge with header removal</li>
+           <li>Updated translations in all 8 languages</li>
+         </ul>
+       </description>
+       <description xml:lang="es">
+         <p>Nuevas funciones y corrección de limpieza de kernels:</p>
+         <ul>
+           <li>NUEVO: Sección Utilidades en pestaña Recomendados (Soplos WebApp Manager, Flatseal, Gear Lever)</li>
+           <li>NUEVO: ProtonUp-Qt añadido a los lanzadores en la pestaña Gaming</li>
+           <li>Corregida la limpieza de kernels: ordenación por versión real, preservación de ramas (Principal, Liquorix, XanMod), purga profunda con cabeceras incluidas</li>
+           <li>Traducciones actualizadas en los 8 idiomas</li>
+         </ul>
+       </description>
+       <description xml:lang="fr">
+         <p>Nouvelles fonctionnalités et correction du nettoyage des noyaux :</p>
+         <ul>
+           <li>NOUVEAU : Section Utilitaires dans l'onglet Recommandé (Soplos WebApp Manager, Flatseal, Gear Lever)</li>
+           <li>NOUVEAU : ProtonUp-Qt ajouté aux lanceurs de l'onglet Gaming</li>
+           <li>Correction du nettoyage des noyaux : tri par version réelle, préservation des branches (Principal, Liquorix, XanMod), purge profonde avec suppression des en-têtes</li>
+           <li>Traductions mises à jour dans les 8 langues</li>
+         </ul>
+       </description>
+       <description xml:lang="de">
+         <p>Neue Funktionen und Korrektur der Kernel-Bereinigung:</p>
+         <ul>
+           <li>NEU: Abschnitt Dienstprogramme im Tab Empfohlen (Soplos WebApp Manager, Flatseal, Gear Lever)</li>
+           <li>NEU: ProtonUp-Qt zu Gaming-Tab-Launchern hinzugefügt</li>
+           <li>Kernel-Bereinigung korrigiert: versionsbasierte Sortierung, Branch-Erhaltung (Standard, Liquorix, XanMod), tiefe Bereinigung mit Header-Entfernung</li>
+           <li>Übersetzungen in allen 8 Sprachen aktualisiert</li>
+         </ul>
+       </description>
+       <description xml:lang="pt">
+         <p>Novas funcionalidades e correção da limpeza de kernels:</p>
+         <ul>
+           <li>NOVO: Secção Utilitários no separador Recomendados (Soplos WebApp Manager, Flatseal, Gear Lever)</li>
+           <li>NOVO: ProtonUp-Qt adicionado aos lançadores do separador Gaming</li>
+           <li>Corrigida a limpeza de kernels: ordenação por versão real, preservação de ramos (Principal, Liquorix, XanMod), purga profunda com remoção de cabeçalhos</li>
+           <li>Traduções atualizadas nos 8 idiomas</li>
+         </ul>
+       </description>
+       <description xml:lang="it">
+         <p>Nuove funzionalità e correzione della pulizia dei kernel:</p>
+         <ul>
+           <li>NUOVO: Sezione Utilità nella scheda Consigliati (Soplos WebApp Manager, Flatseal, Gear Lever)</li>
+           <li>NUOVO: ProtonUp-Qt aggiunto ai launcher della scheda Gaming</li>
+           <li>Corretta la pulizia dei kernel: ordinamento per versione reale, preservazione dei rami (Principale, Liquorix, XanMod), eliminazione profonda con rimozione degli header</li>
+           <li>Traduzioni aggiornate in tutte e 8 le lingue</li>
+         </ul>
+       </description>
+       <description xml:lang="ru">
+         <p>Новые функции и исправление очистки ядер:</p>
+         <ul>
+           <li>НОВОЕ: Раздел «Утилиты» во вкладке «Рекомендуемое» (Soplos WebApp Manager, Flatseal, Gear Lever)</li>
+           <li>НОВОЕ: ProtonUp-Qt добавлен в список лаунчеров вкладки Gaming</li>
+           <li>Исправлена очистка ядер: сортировка по реальной версии, сохранение веток (Основная, Liquorix, XanMod), глубокая очистка с удалением заголовков</li>
+           <li>Переводы обновлены на всех 8 языках</li>
+         </ul>
+       </description>
+       <description xml:lang="ro">
+         <p>Funcții noi și corectare a curățării kernel-urilor:</p>
+         <ul>
+           <li>NOU: Secțiunea Utilitare în fila Recomandat (Soplos WebApp Manager, Flatseal, Gear Lever)</li>
+           <li>NOU: ProtonUp-Qt adăugat la lansatoarele filei Gaming</li>
+           <li>Corectată curățarea kernel-urilor: sortare după versiunea reală, păstrarea ramurilor (Principal, Liquorix, XanMod), curățare profundă cu eliminarea header-elor</li>
+           <li>Traduceri actualizate în toate cele 8 limbi</li>
+         </ul>
+       </description>
+     </release>
      <release version="2.0.5" date="2026-03-02">
        <description>
          <p>Bug fixes for batch installation:</p>
