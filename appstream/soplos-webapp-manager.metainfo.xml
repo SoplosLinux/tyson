@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.soplos.webappmanager</id>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>WebApp Manager</name>
+  <summary>Create and manage isolated Web Applications</summary>
+  <summary xml:lang="es">Crea y gestiona Aplicaciones Web aisladas</summary>
+  <summary xml:lang="fr">Créer et gérer des applications Web isolées</summary>
+  <summary xml:lang="de">Isolierte Webanwendungen erstellen und verwalten</summary>
+  <summary xml:lang="it">Crea e gestisci applicazioni web isolate</summary>
+  <summary xml:lang="pt">Criar e gerir aplicações Web isoladas</summary>
+  <summary xml:lang="ru">Создание и управление изолированными веб-приложениями</summary>
+  <summary xml:lang="ro">Creați și gestionați aplicații Web izolate</summary>
+  
+  <description>
+    <p>
+      Soplos WebApp Manager allows you to run websites as native desktop applications. 
+      It creates isolated browsing environments (SSBs) to ensure your webapps can't interact 
+      with the cookies or tabs from your main browsing sessions, increasing productivity and privacy.
+    </p>
+    <p>
+      Features:
+    </p>
+    <ul>
+      <li>Supports multiple browsers out-of-the-box (Firefox, Chrome, Brave, Epiphany, Vivaldi, etc).</li>
+      <li>Smart Flatpak compatibility tracking.</li>
+      <li>Auto-download of high quality 128px favicons directly from DuckDuckGo.</li>
+      <li>Automatic Dark/Light theme GTK+ 3 integration.</li>
+      <li>Custom userChrome.css injection for pristine native-like Firefox instances.</li>
+    </ul>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-webapp-manager/main/assets/screenshots/screenshot1.png</image>
+      <caption>Main dashboard showing installed WebApps</caption>
+      <caption xml:lang="es">Panel principal mostrando las WebApps instaladas</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-webapp-manager/main/assets/screenshots/screenshot2.png</image>
+      <caption>WebApp creation dialog with browser selection</caption>
+      <caption xml:lang="es">Diálogo de creación de WebApp con selección de navegador</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-webapp-manager/main/assets/screenshots/screenshot3.png</image>
+      <caption>Web App window natively integrated into the system</caption>
+      <caption xml:lang="es">Ventana de Web App integrada nativamente en el sistema</caption>
+    </screenshot>
+  </screenshots>
+
+  <launchable type="desktop-id">org.soplos.webappmanager.desktop</launchable>
+  
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-webapp-manager/issues</url>
+  <project_group>Soplos Linux</project_group>
+  <developer_name>Sergi Perich</developer_name>
+
+  <provides>
+    <binary>soplos-webapp-manager</binary>
+  </provides>
+  
+  <categories>
+    <category>System</category>
+    <category>Utility</category>
+  </categories>
+
+  <releases>
+    <release version="1.0.0" date="2026-03-04">
+      <description>
+        <p>Initial release of Soplos WebApp Manager.</p>
+        <ul>
+          <li>Initial framework implementation for managing SSBs.</li>
+          <li>Full integration with GTK3 and XDG themes.</li>
+          <li>Auto favicon loading via urllib.</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>
