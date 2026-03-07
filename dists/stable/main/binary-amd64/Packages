@@ -85,33 +85,33 @@ Description: Color schemes comunes para los temas Soplos KDE Plasma 6.
  Build date: 2025-08-01
 
 Package: soplos-grub-editor
-Version: 2.0.0
+Version: 2.0.1
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-polkit-1.0, grub2-common | grub2, imagemagick, pkexec, polkitd, python3-all, python3-cairo, python3-dbus, python3-gi, python3-pil, python3-polib, python3-setuptools, python3-xlib
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_2.0.0_all.deb
-Size: 1197436
-SHA256: 4ac653ffdc95a0deaba670190043f2c8945bbc0a5f3008da84205432ced1995f
-SHA1: 423ec164742816c31da8a59c410335bf1ce2cccf
-MD5sum: 73df67609c7e6f999ba25a604c26b99a
+Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_2.0.1_all.deb
+Size: 1198704
+SHA256: cae269e64ab689abbd7c1069c432acb43c1797fb31abf26761a98767eaba9a24
+SHA1: 6817e30d64d7637baeb5bad9c4372d3f9a0a446a
+MD5sum: 7c8d4449166dc5d36bb02b80e8e7c72c
 Description: Advanced GRUB configuration editor with complete internationalization
 
 Package: soplos-grub-theme
-Version: 0.0.4
+Version: 0.0.5
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.4_all.deb
-Size: 2120676
-SHA256: 71a33afc313423988b76b83c00e5b7880ca16e159da30b8ba3d906f58c6fa68d
-SHA1: 5cb289c01e70f946262c7385f555c8d12df2f187
-MD5sum: 3225bc5a88eb5d0f65da52d0a308576d
+Filename: pool/main/s/soplos-grub-theme/soplos-grub-theme_0.0.5_all.deb
+Size: 2120808
+SHA256: f64f3d77cdf326f1b1c2170bcece4d69b2ce6fa631332c39978f868df222a64f
+SHA1: dc861a81097a02080b2281fda08bc183590851a5
+MD5sum: a37c429a8f42bc1056368103fd42a60a
 Description: GRUB theme package for Soplos Linux Tyson.
  This package provides the official GRUB theme and related assets for Soplos Linux Tyson.
- Build date: 2026-01-12
+ Build date: 2026-03-07
 
 Package: soplos-modules
 Version: 0.0.1

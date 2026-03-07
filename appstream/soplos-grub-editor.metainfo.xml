@@ -215,6 +215,23 @@
   </provides>
 
   <releases>
+    <release version="2.0.1" date="2026-03-07">
+      <description>
+        <p>Fixes for GRUB boot failures, cache conflicts, and UX improvements for timeout settings.</p>
+        <p xml:lang="es">Correcciones para fallos de arranque de GRUB, conflictos de caché y mejoras de experiencia de usuario para el tiempo de espera (timeout).</p>
+        <p xml:lang="fr">Corrections de pannes de démarrage GRUB, de conflits de cache et améliorations de l'expérience utilisateur pour les paramètres de délai.</p>
+        <p xml:lang="pt">Correções para falhas de inicialização do GRUB, conflitos de cache e melhorias de UX para configurações de tempo limite.</p>
+        <p xml:lang="de">Korrekturen für GRUB-Startfehler, Cache-Konflikte und UX-Verbesserungen für Timeout-Einstellungen.</p>
+        <p xml:lang="it">Correzioni per errori di avvio di GRUB, conflitti di cache e miglioramenti dell'esperienza utente per le impostazioni di timeout.</p>
+        <p xml:lang="ru">Исправления сбоев загрузки GRUB, конфликтов кэша и улучшения UX для настроек времени ожидания.</p>
+        <p xml:lang="ro">Remedieri pentru erorile de pornire GRUB, conflictele cache și îmbunătățiri UX pentru setările timeout.</p>
+        <ul>
+          <li><strong>Robust Theme Management</strong>: Reliably disables Debian and Soplos script defaults.</li>
+          <li><strong>Cache Cleanup</strong>: Prevents "invalid argument" crashes deleting stale `.background_cache` files.</li>
+          <li><strong>Smart UI</strong>: Auto-disables "Show boot menu" when Timeout is 0.</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.0.0" date="2026-01-10">
       <description>
         <p>Major Release - Complete Rewrite. Complete Internationalization (8 languages). Smart theme detection, GRUB theme manager, new resolutions, refined UI and improved desktop detection.</p>

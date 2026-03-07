@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260305T125502
+Time: 20260307T024452
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1744,6 +1744,26 @@ Developer:
 Provides:
   - soplos-grub-editor
 Releases:
+  - version: 2.0.1
+    date: '2026-03-07'
+    type: stable
+    description:
+      C: Fixes for GRUB boot failures, cache conflicts, and UX improvements for timeout
+        settings.
+      es: |-
+        Correcciones para fallos de arranque de GRUB, conflictos de caché y mejoras de experiencia de usuario para el tiempo de espera (timeout).
+      fr: |-
+        Corrections de pannes de démarrage GRUB, de conflits de cache et améliorations de l'expérience utilisateur pour les paramètres de délai.
+      pt: Correções para falhas de inicialização do GRUB, conflitos de cache e melhorias
+        de UX para configurações de tempo limite.
+      de: Korrekturen für GRUB-Startfehler, Cache-Konflikte und UX-Verbesserungen
+        für Timeout-Einstellungen.
+      it: |-
+        Correzioni per errori di avvio di GRUB, conflitti di cache e miglioramenti dell'esperienza utente per le impostazioni di timeout.
+      ru: Исправления сбоев загрузки GRUB, конфликтов кэша и улучшения UX для настроек
+        времени ожидания.
+      ro: Remedieri pentru erorile de pornire GRUB, conflictele cache și îmbunătățiri
+        UX pentru setările timeout.
   - version: 2.0.0
     date: '2026-01-10'
     type: stable
