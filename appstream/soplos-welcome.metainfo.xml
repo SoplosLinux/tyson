@@ -142,6 +142,56 @@
   <developer_name>Sergi Perich</developer_name>
 
   <releases>
+     <release version="2.0.6-2" date="2026-03-07">
+       <description>
+         <p>Bug fixes for Gaming wallpapers:</p>
+         <ul>
+           <li>Fixed an issue in the Gaming tab where installing gaming wallpapers on GNOME (Boro) would duplicate existing Soplos wallpapers in the background settings.</li>
+         </ul>
+       </description>
+       <description xml:lang="es">
+         <p>Corrección de errores para fondos de pantalla Gaming:</p>
+         <ul>
+           <li>Solucionado un problema en la pestaña Gaming donde instalar fondos gaming en GNOME (Boro) duplicaba los fondos existentes de Soplos en la configuración de fondos.</li>
+         </ul>
+       </description>
+       <description xml:lang="fr">
+         <p>Correction de bugs pour les fonds d'écran Gaming :</p>
+         <ul>
+           <li>Correction d'un problème dans l'onglet Gaming où l'installation de modèles gaming sur GNOME (Boro) dupliquait les fonds existants de Soplos dans les paramètres d'arrière-plan.</li>
+         </ul>
+       </description>
+       <description xml:lang="de">
+         <p>Fehlerbehebungen für Gaming-Hintergrundbilder:</p>
+         <ul>
+           <li>Ein Problem auf dem Gaming-Tab wurde behoben, bei dem die Installation von Gaming-Hintergrundbildern unter GNOME (Boro) bestehende Soplos-Hintergrundbilder in den Hintergrundeinstellungen duplizierte.</li>
+         </ul>
+       </description>
+       <description xml:lang="pt">
+         <p>Correções de bugs para papéis de parede Gaming:</p>
+         <ul>
+           <li>Corrigido um problema na guia Gaming onde a instalação de papéis de parede gaming no GNOME (Boro) duplicava os papéis de parede existentes do Soplos nas configurações de plano de fundo.</li>
+         </ul>
+       </description>
+       <description xml:lang="it">
+         <p>Correzioni di bug per gli sfondi Gaming:</p>
+         <ul>
+           <li>Risolto un problema nella scheda Gaming in cui l'installazione di sfondi gaming su GNOME (Boro) duplicava gli sfondi esistenti di Soplos nelle impostazioni dello sfondo.</li>
+         </ul>
+       </description>
+       <description xml:lang="ru">
+         <p>Исправления ошибок для обоев Gaming:</p>
+         <ul>
+           <li>Исправлена проблема на вкладке Gaming, из-за которой установка игровых обоев в GNOME (Boro) дублировала существующие обои Soplos в настройках фона.</li>
+         </ul>
+       </description>
+       <description xml:lang="ro">
+         <p>Remedieri de erori pentru imaginile de fundal Gaming:</p>
+         <ul>
+           <li>S-a rezolvat o problemă în fila Gaming, unde instalarea imaginilor de fundal gaming pe GNOME (Boro) duplica imaginile de fundal existente Soplos în setările de fundal.</li>
+         </ul>
+       </description>
+     </release>
      <release version="2.0.6" date="2026-03-04">
        <description>
          <p>New features and kernel cleanup fix:</p>
