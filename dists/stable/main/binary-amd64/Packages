@@ -216,16 +216,16 @@ Description: Soplos Plymouth theme.
  Build date: 2025-12-20
 
 Package: soplos-release
-Version: 0.1.7
+Version: 0.1.7-2
 Architecture: all
 Maintainer: Sergi Perich
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.1.7_all.deb
-Size: 3488
-SHA256: 08ee1e4c7fe61f764503630f07ed5e2d0845d690087b31709dc66d71413532b7
-SHA1: dcc570001b2ec5600ce5a749fa32945c77a9eb3a
-MD5sum: fb974f002e831908429a23ec4d57ec59
+Filename: pool/main/s/soplos-release/soplos-release_0.1.7-2_all.deb
+Size: 3444
+SHA256: 89f97486035e25ec4a7bd7407ac134afcb456bbe8887ebbecae28eabfbc84557
+SHA1: 4279a0cf63408d7f564e37fc43ab767805aae19f
+MD5sum: 5531d18a88ecd3ed217cbe823c2b3e0f
 Description: Soplos Linux release information (internal system package)
  This package contains release information and version files for Soplos Linux.
  It is essential for operating system identification.
