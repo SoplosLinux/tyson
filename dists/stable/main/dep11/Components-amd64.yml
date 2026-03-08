@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260307T161631
+Time: 20260308T031200
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -580,6 +580,11 @@ Url:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.0.6-3
+    date: '2026-03-08'
+    type: stable
+    description:
+      C: 'Critical permission fixes for AppImages:'
   - version: 2.0.6-2
     date: '2026-03-07'
     type: stable

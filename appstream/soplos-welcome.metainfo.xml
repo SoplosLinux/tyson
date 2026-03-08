@@ -142,6 +142,56 @@
   <developer_name>Sergi Perich</developer_name>
 
   <releases>
+     <release version="2.0.6-3" date="2026-03-08">
+       <description>
+         <p>Critical permission fixes for AppImages:</p>
+         <ul>
+           <li>Fixed an issue where installing AppImages (Affinity Suite, ES-DE, Stacer) with root privileges would cause permission errors when creating Web Apps. AppImages are now safely installed in the user's home directory.</li>
+         </ul>
+       </description>
+       <description xml:lang="es">
+         <p>Correcciones críticas de permisos para AppImages:</p>
+         <ul>
+           <li>Solucionado un problema donde instalar AppImages (Affinity Suite, ES-DE, Stacer) con privilegios de administrador causaba errores de permisos al crear aplicaciones web. Los AppImages ahora se instalan de forma segura en el directorio del usuario.</li>
+         </ul>
+       </description>
+       <description xml:lang="fr">
+         <p>Corrections critiques de permissions pour les AppImages :</p>
+         <ul>
+           <li>Correction d'un problème où l'installation d'AppImages avec des privilèges root provoquait des erreurs de permission lors de la création d'applications web.</li>
+         </ul>
+       </description>
+       <description xml:lang="de">
+         <p>Kritische Berechtigungsfehlerbehebungen für AppImages:</p>
+         <ul>
+           <li>Ein Problem wurde behoben, bei dem die Installation von AppImages mit Root-Rechten zu Berechtigungsfehlern bei der Erstellung von Web-Apps führte.</li>
+         </ul>
+       </description>
+       <description xml:lang="pt">
+         <p>Correções críticas de permissões para AppImages:</p>
+         <ul>
+           <li>Corrigido um problema onde a instalação de AppImages com privilégios de root causava erros de permissão ao criar Web Apps.</li>
+         </ul>
+       </description>
+       <description xml:lang="it">
+         <p>Correzioni critiche dei permessi per le AppImage:</p>
+         <ul>
+           <li>Risolto un problema in cui l'installazione di AppImage con privilegi di root causava errori di autorizzazione durante la creazione di app web.</li>
+         </ul>
+       </description>
+       <description xml:lang="ru">
+         <p>Критические исправления разрешений для AppImages:</p>
+         <ul>
+           <li>Исправлена проблема, из-за которой установка AppImages с правами root вызывала ошибки разрешений при создании веб-приложений.</li>
+         </ul>
+       </description>
+       <description xml:lang="ro">
+         <p>Remedieri critice de permisiuni pentru AppImages:</p>
+         <ul>
+           <li>S-a rezolvat o problemă în care instalarea AppImages cu privilegii root provoca erori de permisiune la crearea aplicațiilor web.</li>
+         </ul>
+       </description>
+     </release>
      <release version="2.0.6-2" date="2026-03-07">
        <description>
          <p>Bug fixes for Gaming wallpapers:</p>
