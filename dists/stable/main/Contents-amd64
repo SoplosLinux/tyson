@@ -1030,6 +1030,7 @@ usr/share/plymouth/themes/soplos/005.png	    misc/soplos-plymouth-theme
 usr/share/plymouth/themes/soplos/README.md	    misc/soplos-plymouth-theme
 usr/share/plymouth/themes/soplos/soplos.plymouth	    misc/soplos-plymouth-theme
 usr/share/plymouth/themes/soplos/soplos.script	    misc/soplos-plymouth-theme
+usr/share/polkit-1/rules.d/10-soplos-packagekit.rules	    admin/soplos-release
 usr/share/soplos-grub-editor/CHANGELOG.md	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/LICENSE	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/README.md	    utils/soplos-grub-editor
