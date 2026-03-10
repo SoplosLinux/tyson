@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260310T161114
+Time: 20260310T202041
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -266,6 +266,25 @@ Developer:
 Provides:
   - soplos-repo-selector
 Releases:
+  - version: 2.0.2-1
+    date: '2026-03-10'
+    type: stable
+    description:
+      en: Fixed repository detection for mirrors and optimized password requests.
+      es: Corregida la detección de repositorios en mirrors y optimización de peticiones
+        de contraseña.
+      fr: Correction de la détection des dépôts pour los miroirs et optimización des
+        demandes de mot de passe.
+      pt: Correção da detecção de repositórios para espelhos e otimização de solicitações
+        de senha.
+      de: Repository-Erkennung für Spiegel korrigiert und Passwortanfragen optimiert.
+      it: Corretto il rilevamento dei repository per i mirror e ottimizzate las richieste
+        de password.
+      ru: Исправлено обнаружение репозиториев для зеркал и оптимизированы запросы
+        пароля.
+      ro: S-a corectat detectarea depozitelor pentru oglinzi și s-au optimizat solicitările
+        de parolă.
+      C: Fixed repository detection for mirrors and optimized password requests.
   - version: 2.0.2
     date: '2026-01-09'
     type: stable

@@ -299,6 +299,18 @@
   </provides>
 
   <releases>
+    <release version="2.0.2-1" date="2026-03-10">
+      <description>
+        <p xml:lang="en">Fixed repository detection for mirrors and optimized password requests.</p>
+        <p xml:lang="es">Corregida la detección de repositorios en mirrors y optimización de peticiones de contraseña.</p>
+        <p xml:lang="fr">Correction de la détection des dépôts pour los miroirs et optimización des demandes de mot de passe.</p>
+        <p xml:lang="pt">Correção da detecção de repositórios para espelhos e otimização de solicitações de senha.</p>
+        <p xml:lang="de">Repository-Erkennung für Spiegel korrigiert und Passwortanfragen optimiert.</p>
+        <p xml:lang="it">Corretto il rilevamento dei repository per i mirror e ottimizzate las richieste de password.</p>
+        <p xml:lang="ru">Исправлено обнаружение репозиториев для зеркал и оптимизированы запросы пароля.</p>
+        <p xml:lang="ro">S-a corectat detectarea depozitelor pentru oglinzi și s-au optimizat solicitările de parolă.</p>
+      </description>
+    </release>
     <release version="2.0.2" date="2026-01-09">
       <description>
         <p>Documentation release: added manual page and Debian copyright file.</p>
