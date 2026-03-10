@@ -1192,6 +1192,7 @@ usr/share/soplos-webapp-manager/assets/icons/64x64/org.soplos.webappmanager.png	
 usr/share/soplos-webapp-manager/assets/screenshots/screenshot1.png	    utils/soplos-webapp-manager
 usr/share/soplos-webapp-manager/assets/screenshots/screenshot2.png	    utils/soplos-webapp-manager
 usr/share/soplos-webapp-manager/assets/screenshots/screenshot3.png	    utils/soplos-webapp-manager
+usr/share/soplos-webapp-manager/config/constants.py	    utils/soplos-webapp-manager
 usr/share/soplos-webapp-manager/core/__init__.py	    utils/soplos-webapp-manager
 usr/share/soplos-webapp-manager/core/browser_manager.py	    utils/soplos-webapp-manager
 usr/share/soplos-webapp-manager/core/webapp_manager.py	    utils/soplos-webapp-manager
@@ -1230,6 +1231,7 @@ usr/share/soplos-webapp-manager/ui/__init__.py	    utils/soplos-webapp-manager
 usr/share/soplos-webapp-manager/ui/main_window.py	    utils/soplos-webapp-manager
 usr/share/soplos-webapp-manager/ui/dialogs/__init__.py	    utils/soplos-webapp-manager
 usr/share/soplos-webapp-manager/ui/dialogs/add_webapp_dialog.py	    utils/soplos-webapp-manager
+usr/share/soplos-webapp-manager/utils/environment.py	    utils/soplos-webapp-manager
 usr/share/soplos-webapp-manager/utils/favicon.py	    utils/soplos-webapp-manager
 usr/share/soplos-welcome/CHANGELOG.md	    utils/soplos-welcome
 usr/share/soplos-welcome/LICENSE	    utils/soplos-welcome

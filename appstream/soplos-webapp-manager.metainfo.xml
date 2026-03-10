@@ -188,6 +188,55 @@
   </categories>
 
   <releases>
+    <release version="1.0.0-1" date="2026-03-10">
+      <description>
+        <p>Standardized Soplos UI with official footer and environment detection. Added Incognito mode and expanded browser flags help.</p>
+        <p xml:lang="es">UI de Soplos estandarizada con footer oficial y detección de entorno. Añadido modo incógnito y ayuda de parámetros de navegación ampliada.</p>
+        <p xml:lang="fr">Interface Soplos standardisée avec footer officiel et détection d'environnement. Ajout du mode incognito et aide aux paramètres de navigation étendue.</p>
+        <p xml:lang="de">Standardisierte Soplos-Benutzeroberfläche mit offizieller Fußzeile und Umgebungserkennung. Inkognito-Modus hinzugefügt und erweiterte Hilfe für Browser-Parameter.</p>
+        <p xml:lang="it">Interfaccia Soplos standardizzata con footer ufficiale e rilevamento dell'ambiente. Aggiunta modalità in incognito e guida ai parametri del browser espansa.</p>
+        <p xml:lang="pt">Interface Soplos padronizada com rodapé oficial e deteção de ambiente. Adicionado modo de navegação anônima e ajuda de parâmetros de navegador expandida.</p>
+        <p xml:lang="ro">Interfață Soplos standardizată cu subsol oficial și detectarea mediului. S-a adăugat modul incognito și ajutor extins pentru parametrii browserului.</p>
+        <p xml:lang="ru">Стандартизированный интерфейс Soplos с официальным футером и определением окружения. Добавлен режим инкогнито и расширенная справка по параметрам браузера.</p>
+        <ul>
+          <li>Official Soplos footer with system info and app version.</li>
+          <li xml:lang="es">Footer oficial de Soplos con info del sistema y versión de la app.</li>
+          <li xml:lang="fr">Footer officiel de Soplos avec info système et version de l'application.</li>
+          <li xml:lang="de">Offizielle Soplos-Fußzeile mit Systeminfo und App-Version.</li>
+          <li xml:lang="it">Footer ufficiale di Soplos con info di sistema e versione dell'app.</li>
+          <li xml:lang="pt">Rodapé oficial da Soplos com info do sistema e versão da aplicação.</li>
+          <li xml:lang="ro">Subsol oficial Soplos cu informații despre sistem și versiunea aplicației.</li>
+          <li xml:lang="ru">Официальный футер Soplos с информацией о системе и версии приложения.</li>
+          
+          <li>Real-time desktop environment and display protocol detection.</li>
+          <li xml:lang="es">Detección en tiempo real del escritorio y protocolo de pantalla.</li>
+          <li xml:lang="fr">Détection en temps réel de l'environnement de bureau et du protocole d'affichage.</li>
+          <li xml:lang="de">Echtzeit-Erkennung von Desktop-Umgebung und Display-Protokoll.</li>
+          <li xml:lang="it">Rilevamento in tempo reale dell'ambiente desktop e del protocollo di visualizzazione.</li>
+          <li xml:lang="pt">Deteção em tempo real de ambiente de desktop e protocolo de exibição.</li>
+          <li xml:lang="ro">Detectarea în timp real a mediului de desktop și a protocolului de afișare.</li>
+          <li xml:lang="ru">Определение окружения рабочего стола и протокола отображения в реальном времени.</li>
+
+          <li>Incognito mode support for isolated private sessions.</li>
+          <li xml:lang="es">Soporte para modo incógnito en sesiones privadas aisladas.</li>
+          <li xml:lang="fr">Prise en charge du mode incognito pour les sessions privées isolées.</li>
+          <li xml:lang="de">Unterstützung des Inkognito-Modus für isolierte private Sitzungen.</li>
+          <li xml:lang="it">Supporto per la modalità in incognito per sessioni private isolate.</li>
+          <li xml:lang="pt">Suporte para modo de navegação anônima para sessões privadas isoladas.</li>
+          <li xml:lang="ro">Suport pentru modul incognito pentru sesiuni private izolate.</li>
+          <li xml:lang="ru">Поддержка режима инкогнито для изолированных приватных сессий.</li>
+
+          <li>Enhanced browser flags help dialog with key parameters guide.</li>
+          <li xml:lang="es">Diálogo de ayuda de parámetros de navegador mejorado con guía de parámetros clave.</li>
+          <li xml:lang="fr">Dialogue d'aide aux paramètres du navigateur amélioré avec guide des paramètres clés.</li>
+          <li xml:lang="de">Verbesserter Hilfe-Dialog für Browser-Parameter mit Leitfaden für Schlüsselparameter.</li>
+          <li xml:lang="it">Finestra di aiuto ai parametri del browser migliorata con guida ai parametri chiave.</li>
+          <li xml:lang="pt">Diálogo de ajuda de parâmetros de navegador aprimorado com guia de parâmetros principais.</li>
+          <li xml:lang="ro">Dialog de ajutor pentru parametrii browserului îmbunătățit cu ghid de parametri cheie.</li>
+          <li xml:lang="ru">Улучшенный диалог справки по параметрам браузера с руководством по ключевым параметрам.</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0" date="2026-03-04">
       <description>
         <p>Initial release with advanced management features.</p>
