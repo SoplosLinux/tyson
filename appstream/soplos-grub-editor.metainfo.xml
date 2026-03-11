@@ -212,9 +212,69 @@
 
   <provides>
     <binary>soplos-grub-editor</binary>
+    <size type="download">1203488</size>
+    <size type="installed">1631961</size>
   </provides>
 
   <releases>
+    <release version="2.0.2" date="2026-03-11">
+      <description>
+        <p>Support for hierarchical submenus, option to enable/disable them (GRUB_DISABLE_SUBMENU), silent update on startup and visual optimizations.</p>
+        <p xml:lang="es">Soporte para submenús jerárquicos, opción para activarlos/desactivarlos (GRUB_DISABLE_SUBMENU), actualización silenciosa al inicio y optimizaciones visuales.</p>
+        <p xml:lang="fr">Support des sous-menus hiérarchiques, option pour les activer/désactiver (GRUB_DISABLE_SUBMENU), mise à jour silencieuse au démarrage et optimisations visuelles.</p>
+        <p xml:lang="pt">Suporte para submenus hierárquicos, opção para ativá-los/desativá-los (GRUB_DISABLE_SUBMENU), atualização silenciosa na inicialização e otimizações visuais.</p>
+        <p xml:lang="de">Unterstützung für hierarchische Untermenüs, Option zum Aktivieren/Deaktivieren (GRUB_DISABLE_SUBMENU), stille Aktualisierung beim Start und visuelle Optimierungen.</p>
+        <p xml:lang="it">Supporto per sottomenu gerarchici, opzione per abilitarli/disabilitarli (GRUB_DISABLE_SUBMENU), aggiornamento silenzioso all'avvio e ottimizzazioni visuali.</p>
+        <p xml:lang="ru">Поддержка иерархических подменю, возможность их включения/отключения (GRUB_DISABLE_SUBMENU), тихое обновление при запуске и визуальные оптимизации.</p>
+        <p xml:lang="ro">Suport pentru submeniuri ierarhice, opțiune pentru activarea/dezactivarea acestora (GRUB_DISABLE_SUBMENU), actualizare silențioasă la pornire și optimizări vizuale.</p>
+        <ul>
+          <li>Full parsing of GRUB submenus</li>
+          <li xml:lang="es">Análisis completo de submenús de GRUB</li>
+          <li xml:lang="fr">Analyse complète des sous-menus GRUB</li>
+          <li xml:lang="pt">Análise completa de submenus do GRUB</li>
+          <li xml:lang="de">Vollständige Analyse von GRUB-Untermenüs</li>
+          <li xml:lang="it">Analisi completa dei sottomenu GRUB</li>
+          <li xml:lang="ru">Полный анализ подменю GRUB</li>
+          <li xml:lang="ro">Analiză completă a submeniurilor GRUB</li>
+
+          <li>Option to enable/disable submenus (GRUB_DISABLE_SUBMENU)</li>
+          <li xml:lang="es">Opción para activar/desactivar submenús (GRUB_DISABLE_SUBMENU)</li>
+          <li xml:lang="fr">Option pour activer/désactiver les sous-menus (GRUB_DISABLE_SUBMENU)</li>
+          <li xml:lang="pt">Opção para ativar/desativar submenus (GRUB_DISABLE_SUBMENU)</li>
+          <li xml:lang="de">Option zum Aktivieren/Deaktivieren von Untermenüs (GRUB_DISABLE_SUBMENU)</li>
+          <li xml:lang="it">Opzione per abilitare/disabilitare i sottomenu (GRUB_DISABLE_SUBMENU)</li>
+          <li xml:lang="ru">Возможность включения/отключения подменю (GRUB_DISABLE_SUBMENU)</li>
+          <li xml:lang="ro">Opțiune pentru activarea/dezactivarea submeniurilor (GRUB_DISABLE_SUBMENU)</li>
+
+          <li>Silent update-grub on application launch</li>
+          <li xml:lang="es">Ejecución silenciosa de update-grub al inicio</li>
+          <li xml:lang="fr">Mise à jour silencieuse de update-grub au démarrage</li>
+          <li xml:lang="pt">Execução silenciosa do update-grub na inicialização</li>
+          <li xml:lang="de">Stille Ausführung von update-grub beim Start</li>
+          <li xml:lang="it">Esecuzione silenziosa di update-grub all'avvio</li>
+          <li xml:lang="ru">Тихое обновление update-grub при запуске</li>
+          <li xml:lang="ro">Actualizare silențioasă update-grub la pornire</li>
+
+          <li>Compact UI for boot entries table</li>
+          <li xml:lang="es">Interfaz compacta para la tabla de entradas de arranque</li>
+          <li xml:lang="fr">Interface compacte pour le tableau des entrées de démarrage</li>
+          <li xml:lang="pt">Interface compacta para a tabela de entradas de inicialização</li>
+          <li xml:lang="de">Kompakte Benutzeroberfläche für die Boot-Eintragstabelle</li>
+          <li xml:lang="it">Interfaccia compatta per la tabella delle voci di avvio</li>
+          <li xml:lang="ru">Компактный интерфейс для таблицы записей загрузки</li>
+          <li xml:lang="ro">Interfață compactă pentru tabelul intrărilor de pornire</li>
+
+          <li>Hierarchical path display in selectors</li>
+          <li xml:lang="es">Visualización de rutas jerárquicas en los selectores</li>
+          <li xml:lang="fr">Affichage des chemins hiérarchiques dans les sélecteurs</li>
+          <li xml:lang="pt">Exibição de caminhos hierárquicos nos seletores</li>
+          <li xml:lang="de">Hierarchische Pfadanzeige in Selektoren</li>
+          <li xml:lang="it">Visualizzazione gerarchica dei percorsi nei selettori</li>
+          <li xml:lang="ru">Иерархическое отображение путей в селекторах</li>
+          <li xml:lang="ro">Afișare ierarhică a căilor în selectoare</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.0.1" date="2026-03-07">
       <description>
         <p>Fixes for GRUB boot failures, cache conflicts, and UX improvements for timeout settings.</p>
@@ -226,9 +286,32 @@
         <p xml:lang="ru">Исправления сбоев загрузки GRUB, конфликтов кэша и улучшения UX для настроек времени ожидания.</p>
         <p xml:lang="ro">Remedieri pentru erorile de pornire GRUB, conflictele cache și îmbunătățiri UX pentru setările timeout.</p>
         <ul>
-          <li><strong>Robust Theme Management</strong>: Reliably disables Debian and Soplos script defaults.</li>
-          <li><strong>Cache Cleanup</strong>: Prevents "invalid argument" crashes deleting stale `.background_cache` files.</li>
-          <li><strong>Smart UI</strong>: Auto-disables "Show boot menu" when Timeout is 0.</li>
+          <li><em>Robust Theme Management</em>: Reliably disables Debian and Soplos script defaults.</li>
+          <li xml:lang="es"><em>Gestión de temas robusta</em>: Desactiva de forma fiable los scripts predeterminados de Debian y Soplos.</li>
+          <li xml:lang="fr"><em>Gestion robuste des thèmes</em>: Désactive de manière fiable les scripts par défaut de Debian et Soplos.</li>
+          <li xml:lang="pt"><em>Gerenciamento robusto de temas</em>: Desativa de forma confiável os padrões de script Debian e Soplos.</li>
+          <li xml:lang="de"><em>Robuste Themenverwaltung</em>: Deaktiviert zuverlässig die Standard-Skripte von Debian und Soplos.</li>
+          <li xml:lang="it"><em>Gestione robusta dei temi</em>: Disabilita in modo affidabile i valori predefiniti degli script Debian e Soplos.</li>
+          <li xml:lang="ru"><em>Надежное управление темами</em>: Надежно отключает скрипты Debian и Soplos по умолчанию.</li>
+          <li xml:lang="ro"><em>Gestionare robustă a temelor</em>: Dezactivează în mod fiabil scripturile implicite Debian și Soplos.</li>
+
+          <li><em>Cache Cleanup</em>: Prevents "invalid argument" crashes deleting stale `.background_cache` files.</li>
+          <li xml:lang="es"><em>Limpieza de caché</em>: Evita cierres por "invalid argument" eliminando archivos `.background_cache` obsoletos.</li>
+          <li xml:lang="fr"><em>Nettoyage du cache</em>: Prévient les plantages "argument invalide" lors de la suppression des fichiers `.background_cache` obsolètes.</li>
+          <li xml:lang="pt"><em>Limpeza de cache</em>: Evita falhas de "argumento inválido" ao excluir arquivos `.background_cache` obsoletos.</li>
+          <li xml:lang="de"><em>Cache-Bereinigung</em>: Verhindert Abstürze durch "ungültiges Argument" beim Löschen veralteter `.background_cache`-Dateien.</li>
+          <li xml:lang="it"><em>Pulizia della cache</em>: Previene i crash "argomento non valido" eliminando i file `.background_cache` obsoleti.</li>
+          <li xml:lang="ru"><em>Очистка кэша</em>: Предотвращает сбои "неверный аргумент" при удалении устаревших файлов `.background_cache`.</li>
+          <li xml:lang="ro"><em>Curățare cache</em>: Previne erorile de tip "argument invalid" la ștergerea fișierelor `.background_cache` vechi.</li>
+
+          <li><em>Smart UI</em>: Auto-disables "Show boot menu" when Timeout is 0.</li>
+          <li xml:lang="es"><em>Interfaz inteligente</em>: Desactiva automáticamente "Mostrar menú de arranque" cuando el tiempo de espera es 0.</li>
+          <li xml:lang="fr"><em>Interface intelligente</em>: Désactive automatiquement "Afficher le menu de démarrage" lorsque le délai est de 0.</li>
+          <li xml:lang="pt"><em>Interface inteligente</em>: Desativa automaticamente "Mostrar menu de inicialização" quando o tempo limite é 0.</li>
+          <li xml:lang="de"><em>Intelligente Benutzeroberfläche</em>: Deaktiviert automatisch "Boot-Menü anzeigen", wenn der Timeout 0 ist.</li>
+          <li xml:lang="it"><em>Interfaccia intelligente</em>: Disabilita automaticamente "Mostra menu di avvio" quando il Timeout è 0.</li>
+          <li xml:lang="ru"><em>Умный интерфейс</em>: Автоматически отключает "Показать меню загрузки", когда таймаут равен 0.</li>
+          <li xml:lang="ro"><em>Interfață inteligentă</em>: Dezactivează automat "Afișare meniu de pornire" când Timeout este 0.</li>
         </ul>
       </description>
     </release>
@@ -245,11 +328,58 @@
         <p xml:lang="ro">Versiune Majoră - Rescriere Completă. Internaționalizare Completă (8 limbi). Detectare inteligentă a temei, manager de teme GRUB, rezoluții noi, interfață rafinată și detectare desktop îmbunătățită.</p>
         <ul>
           <li>Smart light/dark theme detection (GNOME, KDE, XFCE)</li>
+          <li xml:lang="es">Detección inteligente de temas claros/oscuros (GNOME, KDE, XFCE)</li>
+          <li xml:lang="fr">Détection intelligente des thèmes clairs/sombres (GNOME, KDE, XFCE)</li>
+          <li xml:lang="pt">Detecção inteligente de temas claros/escuros (GNOME, KDE, XFCE)</li>
+          <li xml:lang="de">Intelligente Erkennung von hellen/dunklen Themen (GNOME, KDE, XFCE)</li>
+          <li xml:lang="it">Rilevamento intelligente del tema chiaro/scuro (GNOME, KDE, XFCE)</li>
+          <li xml:lang="ru">Интеллектуальное определение светлых/темных тем (GNOME, KDE, XFCE)</li>
+          <li xml:lang="ro">Detectare inteligentă a temelor deschise/întunecate (GNOME, KDE, XFCE)</li>
+
           <li>Improved desktop &amp; environment detection</li>
+          <li xml:lang="es">Detección mejorada de escritorio y entorno</li>
+          <li xml:lang="fr">Détection améliorée du bureau et de l'environnement</li>
+          <li xml:lang="pt">Detecção aprimorada de desktop e ambiente</li>
+          <li xml:lang="de">Verbesserte Desktop- und Umgebungserkennung</li>
+          <li xml:lang="it">Rilevamento migliorato di desktop e ambiente</li>
+          <li xml:lang="ru">Улучшенное определение рабочего стола и среды</li>
+          <li xml:lang="ro">Detectare îmbunătățită a desktopului și a mediului</li>
+
           <li>Refined UI layout with compact view</li>
+          <li xml:lang="es">Diseño de interfaz de usuario refinado con vista compacta</li>
+          <li xml:lang="fr">Disposition de l'interface utilisateur raffinée avec vue compacte</li>
+          <li xml:lang="pt">Layout de UI refinado com visualização compacta</li>
+          <li xml:lang="de">Verfeinertes UI-Layout mit kompakter Ansicht</li>
+          <li xml:lang="it">Layout UI raffinato con vista compatta</li>
+          <li xml:lang="ru">Улучшенный макет пользовательского интерфейса с компактным видом</li>
+          <li xml:lang="ro">Aspect UI rafinat cu vizualizare compactă</li>
+
           <li>GRUB theme installer and remover</li>
+          <li xml:lang="es">Instalador y desinstalador de temas GRUB</li>
+          <li xml:lang="fr">Installateur et désinstallateur de thèmes GRUB</li>
+          <li xml:lang="pt">Instalador e removedor de temas GRUB</li>
+          <li xml:lang="de">GRUB-Themen-Installer und -Entferner</li>
+          <li xml:lang="it">Installatore e rimozione di temi GRUB</li>
+          <li xml:lang="ru">Установщик и удаление тем GRUB</li>
+          <li xml:lang="ro">Instalator și eliminator de teme GRUB</li>
+
           <li>Expanded resolution support (16:9, 16:10, 4:3, 4K)</li>
+          <li xml:lang="es">Soporte de resolución expandido (16:9, 16:10, 4:3, 4K)</li>
+          <li xml:lang="fr">Prise en charge étendue des résolutions (16:9, 16:10, 4:3, 4K)</li>
+          <li xml:lang="pt">Suporte de resolução expandido (16:9, 16:10, 4:3, 4K)</li>
+          <li xml:lang="de">Erweiterte Auflösungsunterstützung (16:9, 16:10, 4:3, 4K)</li>
+          <li xml:lang="it">Supporto risoluzione esteso (16:9, 16:10, 4:3, 4K)</li>
+          <li xml:lang="ru">Расширенная поддержка разрешений (16:9, 16:10, 4:3, 4K)</li>
+          <li xml:lang="ro">Suport extins pentru rezoluții (16:9, 16:10, 4:3, 4K)</li>
+
           <li>UUID control option</li>
+          <li xml:lang="es">Opción de control UUID</li>
+          <li xml:lang="fr">Option de contrôle UUID</li>
+          <li xml:lang="pt">Opção de controle UUID</li>
+          <li xml:lang="de">UUID-Kontrolloption</li>
+          <li xml:lang="it">Opzione di controllo UUID</li>
+          <li xml:lang="ru">Опция управления UUID</li>
+          <li xml:lang="ro">Opțiune de control UUID</li>
         </ul>
       </description>
     </release>

@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260310T202041
+Time: 20260311T014248
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1773,6 +1773,26 @@ Developer:
 Provides:
   - soplos-grub-editor
 Releases:
+  - version: 2.0.2
+    date: '2026-03-11'
+    type: stable
+    description:
+      C: |-
+        Support for hierarchical submenus, option to enable/disable them (GRUB_DISABLE_SUBMENU), silent update on startup and visual optimizations.
+      es: |-
+        Soporte para submenús jerárquicos, opción para activarlos/desactivarlos (GRUB_DISABLE_SUBMENU), actualización silenciosa al inicio y optimizaciones visuales.
+      fr: |-
+        Support des sous-menus hiérarchiques, option pour les activer/désactiver (GRUB_DISABLE_SUBMENU), mise à jour silencieuse au démarrage et optimisations visuelles.
+      pt: |-
+        Suporte para submenus hierárquicos, opção para ativá-los/desativá-los (GRUB_DISABLE_SUBMENU), atualização silenciosa na inicialização e otimizações visuais.
+      de: |-
+        Unterstützung für hierarchische Untermenüs, Option zum Aktivieren/Deaktivieren (GRUB_DISABLE_SUBMENU), stille Aktualisierung beim Start und visuelle Optimierungen.
+      it: |-
+        Supporto per sottomenu gerarchici, opzione per abilitarli/disabilitarli (GRUB_DISABLE_SUBMENU), aggiornamento silenzioso all'avvio e ottimizzazioni visuali.
+      ru: |-
+        Поддержка иерархических подменю, возможность их включения/отключения (GRUB_DISABLE_SUBMENU), тихое обновление при запуске и визуальные оптимизации.
+      ro: |-
+        Suport pentru submeniuri ierarhice, opțiune pentru activarea/dezactivarea acestora (GRUB_DISABLE_SUBMENU), actualizare silențioasă la pornire și optimizări vizuale.
   - version: 2.0.1
     date: '2026-03-07'
     type: stable
