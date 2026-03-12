@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260312T092149
+Time: 20260312T170138
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -266,6 +266,28 @@ Developer:
 Provides:
   - soplos-repo-selector
 Releases:
+  - version: 2.0.2-2
+    date: '2026-03-12'
+    type: stable
+    description:
+      en: Fixed duplicated components in DEB822 sources files and improved repository
+        list UI.
+      es: Corregida la duplicación de componentes en archivos sources DEB822 y mejorada
+        la interfaz de lista de repositorios.
+      fr: |-
+        Correction de la duplication des composants dans les fichiers sources DEB822 et amélioration de l'interface de la liste des dépôts.
+      pt: Corrigida a duplicação de componentes em arquivos sources DEB822 e melhorada
+        a interface da lista de repositórios.
+      de: Duplizierte Komponenten in DEB822-Quelldateien behoben und die Repository-Listendarstellung
+        verbessert.
+      it: Corretta la duplicazione dei componenti nei file sources DEB822 e migliorata
+        l'interfaccia dell'elenco repository.
+      ru: Исправлено дублирование компонентов в файлах sources DEB822 и улучшен интерфейс
+        списка репозиториев.
+      ro: Corectată duplicarea componentelor în fișierele sources DEB822 și îmbunătățită
+        interfața listei de depozite.
+      C: Fixed duplicated components in DEB822 sources files and improved repository
+        list UI.
   - version: 2.0.2-1
     date: '2026-03-10'
     type: stable

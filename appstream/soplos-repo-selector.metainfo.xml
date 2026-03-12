@@ -299,6 +299,18 @@
   </provides>
 
   <releases>
+    <release version="2.0.2-2" date="2026-03-12">
+      <description>
+        <p xml:lang="en">Fixed duplicated components in DEB822 sources files and improved repository list UI.</p>
+        <p xml:lang="es">Corregida la duplicación de componentes en archivos sources DEB822 y mejorada la interfaz de lista de repositorios.</p>
+        <p xml:lang="fr">Correction de la duplication des composants dans les fichiers sources DEB822 et amélioration de l'interface de la liste des dépôts.</p>
+        <p xml:lang="pt">Corrigida a duplicação de componentes em arquivos sources DEB822 e melhorada a interface da lista de repositórios.</p>
+        <p xml:lang="de">Duplizierte Komponenten in DEB822-Quelldateien behoben und die Repository-Listendarstellung verbessert.</p>
+        <p xml:lang="it">Corretta la duplicazione dei componenti nei file sources DEB822 e migliorata l'interfaccia dell'elenco repository.</p>
+        <p xml:lang="ru">Исправлено дублирование компонентов в файлах sources DEB822 и улучшен интерфейс списка репозиториев.</p>
+        <p xml:lang="ro">Corectată duplicarea componentelor în fișierele sources DEB822 și îmbunătățită interfața listei de depozite.</p>
+      </description>
+    </release>
     <release version="2.0.2-1" date="2026-03-10">
       <description>
         <p xml:lang="en">Fixed repository detection for mirrors and optimized password requests.</p>
