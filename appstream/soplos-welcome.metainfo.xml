@@ -142,7 +142,65 @@
   <developer_name>Sergi Perich</developer_name>
 
   <releases>
-     <release version="2.0.7" date="2026-03-11">
+      <release version="2.0.7-1" date="2026-03-12">
+        <description>
+          <p>NVIDIA Driver improvements and robustness fixes:</p>
+          <ul>
+            <li>Improved official NVIDIA repository installation logic for Debian 12/13</li>
+            <li>New robust keyring management using the official cuda-keyring package</li>
+          </ul>
+        </description>
+        <description xml:lang="es">
+          <p>Mejoras de drivers NVIDIA y correcciones de robustez:</p>
+          <ul>
+            <li>Lógica de instalación de repositorios oficiales de NVIDIA mejorada para Debian 12/13</li>
+            <li>Nueva gestión robusta de llaveros usando el paquete oficial cuda-keyring</li>
+          </ul>
+        </description>
+        <description xml:lang="fr">
+          <p>Améliorations des pilotes NVIDIA et corrections de robustesse :</p>
+          <ul>
+            <li>Logique d'installation des dépôts officiels NVIDIA améliorée pour Debian 12/13</li>
+            <li>Nouvelle gestion robuste des porte-clés utilisant le paquet officiel cuda-keyring</li>
+          </ul>
+        </description>
+        <description xml:lang="de">
+          <p>NVIDIA-Treiberverbesserungen und Robustheitsfixe:</p>
+          <ul>
+            <li>Verbesserte Installationslogik für offizielle NVIDIA-Repositories für Debian 12/13</li>
+            <li>Neue robuste Schlüsselring-Verwaltung mit dem offiziellen cuda-keyring-Paket</li>
+          </ul>
+        </description>
+        <description xml:lang="pt">
+          <p>Melhorias nos drivers NVIDIA e correções de robustez:</p>
+          <ul>
+            <li>Lógica de instalação de repositórios oficiais NVIDIA melhorada para Debian 12/13</li>
+            <li>Nova gestão robusta de porta-chaves usando o pacote oficial cuda-keyring</li>
+          </ul>
+        </description>
+        <description xml:lang="it">
+          <p>Miglioramenti dei driver NVIDIA e correzioni di robustezza:</p>
+          <ul>
+            <li>Logica di installazione dei repository ufficiali NVIDIA migliorata per Debian 12/13</li>
+            <li>Nuova gestione robusta dei portachiavi utilizzando il pacchetto ufficiale cuda-keyring</li>
+          </ul>
+        </description>
+        <description xml:lang="ru">
+          <p>Улучшения драйверов NVIDIA и исправления надежности:</p>
+          <ul>
+            <li>Улучшена логика установки официальных репозиториев NVIDIA для Debian 12/13</li>
+            <li>Новое надежное управление ключами с использованием официального пакета cuda-keyring</li>
+          </ul>
+        </description>
+        <description xml:lang="ro">
+          <p>Îmbunătățiri ale driverelor NVIDIA și remedieri de robustețe:</p>
+          <ul>
+            <li>Logica de instalare a depozitelor oficiale NVIDIA îmbunătățită pentru Debian 12/13</li>
+            <li>Nouă gestionare robustă a brelocurilor folosind pachetul oficial cuda-keyring</li>
+          </ul>
+        </description>
+      </release>
+      <release version="2.0.7" date="2026-03-11">
        <description>
          <p>NVIDIA Legacy Drivers overhaul and translation updates:</p>
          <ul>
