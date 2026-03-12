@@ -142,6 +142,88 @@
   <developer_name>Sergi Perich</developer_name>
 
   <releases>
+     <release version="2.0.7" date="2026-03-11">
+       <description>
+         <p>NVIDIA Legacy Drivers overhaul and translation updates:</p>
+         <ul>
+           <li>Legacy NVIDIA drivers (340, 390, 470) now install via APT from Debian Sid instead of .run files</li>
+           <li>New two-step dialog guides users to enable Debian Sid via Soplos Repo Selector before installation</li>
+           <li>Automatic Repo Selector launch with wait dialog for safe repository management</li>
+           <li>Updated hardware detector with correct APT package names for legacy drivers</li>
+           <li>Added 4 new translation strings for legacy driver dialogs in all 8 languages</li>
+         </ul>
+       </description>
+       <description xml:lang="es">
+         <p>Revisión de drivers NVIDIA Legacy y actualizaciones de traducción:</p>
+         <ul>
+           <li>Los drivers NVIDIA legacy (340, 390, 470) ahora se instalan vía APT desde Debian Sid en lugar de archivos .run</li>
+           <li>Nuevo diálogo en dos pasos que guía al usuario a habilitar Debian Sid vía Soplos Repo Selector antes de la instalación</li>
+           <li>Lanzamiento automático de Repo Selector con diálogo de espera para gestión segura de repositorios</li>
+           <li>Detector de hardware actualizado con nombres de paquetes APT correctos para drivers legacy</li>
+           <li>Añadidas 4 nuevas cadenas de traducción para diálogos de drivers legacy en los 8 idiomas</li>
+         </ul>
+       </description>
+       <description xml:lang="fr">
+         <p>Refonte des pilotes NVIDIA Legacy et mises à jour de traduction :</p>
+         <ul>
+           <li>Les pilotes NVIDIA legacy (340, 390, 470) s'installent désormais via APT depuis Debian Sid au lieu de fichiers .run</li>
+           <li>Nouveau dialogue en deux étapes guidant l'utilisateur pour activer Debian Sid via Soplos Repo Selector avant l'installation</li>
+           <li>Lancement automatique de Repo Selector avec dialogue d'attente pour une gestion sécurisée des dépôts</li>
+           <li>Détecteur matériel mis à jour avec les noms de paquets APT corrects pour les pilotes legacy</li>
+           <li>Ajout de 4 nouvelles chaînes de traduction pour les dialogues de pilotes legacy dans les 8 langues</li>
+         </ul>
+       </description>
+       <description xml:lang="de">
+         <p>Überarbeitung der NVIDIA Legacy-Treiber und Übersetzungsaktualisierungen:</p>
+         <ul>
+           <li>Legacy-NVIDIA-Treiber (340, 390, 470) werden jetzt über APT aus Debian Sid anstelle von .run-Dateien installiert</li>
+           <li>Neuer zweistufiger Dialog führt Benutzer zur Aktivierung von Debian Sid über den Soplos Repo Selector vor der Installation</li>
+           <li>Automatischer Start des Repo Selectors mit Wartedialog für sichere Repository-Verwaltung</li>
+           <li>Hardware-Erkennung mit korrekten APT-Paketnamen für Legacy-Treiber aktualisiert</li>
+           <li>4 neue Übersetzungszeichenfolgen für Legacy-Treiber-Dialoge in allen 8 Sprachen hinzugefügt</li>
+         </ul>
+       </description>
+       <description xml:lang="pt">
+         <p>Revisão dos drivers NVIDIA Legacy e atualizações de tradução:</p>
+         <ul>
+           <li>Os drivers NVIDIA legacy (340, 390, 470) agora instalam via APT a partir do Debian Sid em vez de ficheiros .run</li>
+           <li>Novo diálogo em duas etapas guia o utilizador a ativar o Debian Sid via Soplos Repo Selector antes da instalação</li>
+           <li>Lançamento automático do Repo Selector com diálogo de espera para gestão segura de repositórios</li>
+           <li>Detetor de hardware atualizado com nomes de pacotes APT corretos para drivers legacy</li>
+           <li>Adicionadas 4 novas cadeias de tradução para diálogos de drivers legacy nos 8 idiomas</li>
+         </ul>
+       </description>
+       <description xml:lang="it">
+         <p>Revisione dei driver NVIDIA Legacy e aggiornamenti delle traduzioni:</p>
+         <ul>
+           <li>I driver NVIDIA legacy (340, 390, 470) ora si installano tramite APT da Debian Sid anziché da file .run</li>
+           <li>Nuovo dialogo in due passaggi guida l'utente ad abilitare Debian Sid tramite Soplos Repo Selector prima dell'installazione</li>
+           <li>Avvio automatico di Repo Selector con finestra di attesa per la gestione sicura dei repository</li>
+           <li>Rilevatore hardware aggiornato con i nomi corretti dei pacchetti APT per i driver legacy</li>
+           <li>Aggiunte 4 nuove stringhe di traduzione per i dialoghi dei driver legacy in tutte le 8 lingue</li>
+         </ul>
+       </description>
+       <description xml:lang="ru">
+         <p>Переработка устаревших драйверов NVIDIA и обновления переводов:</p>
+         <ul>
+           <li>Устаревшие драйверы NVIDIA (340, 390, 470) теперь устанавливаются через APT из Debian Sid вместо файлов .run</li>
+           <li>Новый двухэтапный диалог направляет пользователя для включения Debian Sid через Soplos Repo Selector перед установкой</li>
+           <li>Автоматический запуск Repo Selector с диалогом ожидания для безопасного управления репозиториями</li>
+           <li>Обновлён детектор оборудования с правильными именами пакетов APT для устаревших драйверов</li>
+           <li>Добавлены 4 новые строки перевода для диалогов устаревших драйверов на всех 8 языках</li>
+         </ul>
+       </description>
+       <description xml:lang="ro">
+         <p>Revizuirea driverelor NVIDIA Legacy și actualizări de traduceri:</p>
+         <ul>
+           <li>Driverele NVIDIA legacy (340, 390, 470) se instalează acum prin APT din Debian Sid în loc de fișiere .run</li>
+           <li>Un nou dialog în doi pași ghidează utilizatorul să activeze Debian Sid prin Soplos Repo Selector înainte de instalare</li>
+           <li>Lansare automată a Repo Selector cu dialog de așteptare pentru gestionarea sigură a depozitelor</li>
+           <li>Detectorul de hardware actualizat cu numele corecte ale pachetelor APT pentru driverele legacy</li>
+           <li>Adăugate 4 noi șiruri de traducere pentru dialogurile driverelor legacy în toate cele 8 limbi</li>
+         </ul>
+       </description>
+     </release>
      <release version="2.0.6-3" date="2026-03-08">
        <description>
          <p>Critical permission fixes for AppImages:</p>

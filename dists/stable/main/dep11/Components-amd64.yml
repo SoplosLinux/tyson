@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260311T014248
+Time: 20260312T092102
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -535,22 +535,40 @@ Categories:
   - Utility
 Icon:
   cached:
-    - name: org.soplos.welcome.png
+    - name: slide1.png
       width: 48
       height: 48
     - name: org.soplos.welcome.png
+      width: 48
+      height: 48
+    - name: slide1.png
       width: 64
       height: 64
+    - name: org.soplos.welcome.png
+      width: 64
+      height: 64
+    - name: slide1.png
+      width: 128
+      height: 128
     - name: org.soplos.welcome.png
       width: 128
       height: 128
   remote:
+    - url: soplos-welcome/icons/48x48/slide1.png
+      width: 48
+      height: 48
     - url: soplos-welcome/icons/48x48/org.soplos.welcome.png
       width: 48
       height: 48
+    - url: soplos-welcome/icons/64x64/slide1.png
+      width: 64
+      height: 64
     - url: soplos-welcome/icons/64x64/org.soplos.welcome.png
       width: 64
       height: 64
+    - url: soplos-welcome/icons/128x128/slide1.png
+      width: 128
+      height: 128
     - url: soplos-welcome/icons/128x128/org.soplos.welcome.png
       width: 128
       height: 128
@@ -599,6 +617,11 @@ Url:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.0.7
+    date: '2026-03-11'
+    type: stable
+    description:
+      C: 'NVIDIA Legacy Drivers overhaul and translation updates:'
   - version: 2.0.6-3
     date: '2026-03-08'
     type: stable
