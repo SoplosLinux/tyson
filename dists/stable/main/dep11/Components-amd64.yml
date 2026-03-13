@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260313T122920
+Time: 20260313T145418
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -266,6 +266,28 @@ Developer:
 Provides:
   - soplos-repo-selector
 Releases:
+  - version: 2.0.2-3
+    date: '2026-03-13'
+    type: stable
+    description:
+      en: |-
+        Integrated repository search, DEB822 modernization with automatic backups, unified privilege management, and complete manual internationalization across 8 languages.
+      es: |-
+        Búsqueda integrada de repositorios, modernización a DEB822 con backups automáticos, gestión unificada de privilegios e internacionalización manual completa en 8 idiomas.
+      fr: |-
+        Recherche de dépôts intégrée, modernisation en DEB822 avec sauvegardes automatiques, gestion unifiée des privilèges et internationalisation manuelle complète en 8 langues.
+      pt: |-
+        Pesquisa integrada de repositórios, modernização para DEB822 com backups automáticos, gestão unitária de privilégios e internacionalização manual completa em 8 idiomas.
+      de: |-
+        Integrierte Repository-Suche, DEB822-Modernisierung mit automatischen Backups, einheitliche Rechteverwaltung und vollständige manuelle Internationalisierung in 8 Sprachen.
+      it: |-
+        Ricerca integrata dei repository, modernizzazione in DEB822 con backup automatici, gestione unificata dei privilegi e internazionalizzazione manuale completa in 8 lingue.
+      ru: |-
+        Интегрированный поиск репозиториев, модернизация в DEB822 с автоматическим резервным копированием, унифицированное управление привилегиями и полная ручная интернационализация на 8 языках.
+      ro: |-
+        Căutare integrată a depozitelor, modernizare la DEB822 cu copii de rezervă automate, gestionarea unificată a privilegiilor și internaționalizare manuală completă în 8 limbi.
+      C: |-
+        Integrated repository search, DEB822 modernization with automatic backups, unified privilege management, and complete manual internationalization across 8 languages.
   - version: 2.0.2-2
     date: '2026-03-12'
     type: stable
