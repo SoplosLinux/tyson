@@ -142,6 +142,88 @@
   <developer_name>Sergi Perich</developer_name>
 
   <releases>
+      <release version="2.0.7-2" date="2026-03-13">
+        <description>
+          <p>NVIDIA Driver logic fixes and improved installation workflow:</p>
+          <ul>
+            <li>Corrected hardware detection mapping for MacBook Kepler GPUs (650M/750M)</li>
+            <li>Improved detection patterns for NVIDIA MX and legacy GT series GPUs</li>
+            <li>New confirmation dialogs for all NVIDIA installation paths</li>
+            <li>Implemented pre-installation driver cleanup (apt purge) to prevent conflicts</li>
+            <li>Updated translations: Added new confirmation strings in all 8 supported languages</li>
+          </ul>
+        </description>
+        <description xml:lang="es">
+          <p>Correcciones de lógica de drivers NVIDIA y flujo de instalación mejorado:</p>
+          <ul>
+            <li>Mapeo de detección corregido para GPUs Kepler de MacBook (650M/750M)</li>
+            <li>Patrones de detección mejorados para series NVIDIA MX y GT antiguas</li>
+            <li>Nuevos diálogos de confirmación para todas las rutas de instalación de NVIDIA</li>
+            <li>Implementada limpieza previa (apt purge) para evitar conflictos entre drivers</li>
+            <li>Traducciones actualizadas: Nuevas cadenas de confirmación en los 8 idiomas</li>
+          </ul>
+        </description>
+        <description xml:lang="fr">
+          <p>Corrections logiques NVIDIA et flux d'installation amélioré :</p>
+          <ul>
+            <li>Cartographie de détection corrigée pour les GPU MacBook Kepler (650M/750M)</li>
+            <li>Modèles de détection améliorés pour les séries NVIDIA MX et GT héritées</li>
+            <li>Nouveaux dialogues de confirmation pour tous les chemins d'installation NVIDIA</li>
+            <li>Nettoyage pré-installation (apt purge) pour éviter les conflits de pilotes</li>
+            <li>Traductions mises à jour : Nouvelles chaînes de confirmation dans les 8 langues</li>
+          </ul>
+        </description>
+        <description xml:lang="de">
+          <p>NVIDIA-Treiber-Logikfixe und verbesserter Installations-Workflow:</p>
+          <ul>
+            <li>Korrigiertes Hardware-Erkennungsmapping für MacBook Kepler GPUs (650M/750M)</li>
+            <li>Verbesserte Erkennungsmuster für NVIDIA MX- und Legacy-GT-Serien GPUs</li>
+            <li>Neue Bestätigungsdialoge für alle NVIDIA-Installationspfade</li>
+            <li>Pre-Installation Driver Cleanup (apt purge) zur Vermeidung von Konflikten</li>
+            <li>Übersetzungen aktualisiert: Neue Bestätigungsstrings in allen 8 Sprachen</li>
+          </ul>
+        </description>
+        <description xml:lang="pt">
+          <p>Correções lógicas de drivers NVIDIA e fluxo de instalação melhorado:</p>
+          <ul>
+            <li>Mapeamento de deteção de hardware corrigido para GPUs MacBook Kepler (650M/750M)</li>
+            <li>Padrões de deteção melhorados para GPUs NVIDIA das séries MX e GT legacy</li>
+            <li>Novos diálogos de confirmação para todos os caminhos de instalação NVIDIA</li>
+            <li>Limpeza pré-instalação (apt purge) para evitar conflitos de controladores</li>
+            <li>Traduções atualizadas: Novas cadeias de confirmação nos 8 idiomas</li>
+          </ul>
+        </description>
+        <description xml:lang="it">
+          <p>Correzioni logiche driver NVIDIA e workflow di installazione migliorato:</p>
+          <ul>
+            <li>Mappatura rilevamento hardware corretta per le GPU MacBook Kepler (650M/750M)</li>
+            <li>Pattern di rilevamento migliorati per le GPU NVIDIA serie MX e GT legacy</li>
+            <li>Nuovi dialoghi di conferma per tutti i percorsi di installazione NVIDIA</li>
+            <li>Pulizia driver pre-installazione (apt purge) per prevenire conflitti</li>
+            <li>Traduzioni aggiornate: Nuove stringhe di conferma in tutte le 8 lingue</li>
+          </ul>
+        </description>
+        <description xml:lang="ru">
+          <p>Исправления логики драйверов NVIDIA и улучшенный рабочий процесс установки:</p>
+          <ul>
+            <li>Исправлено сопоставление оборудования для ноутбуков MacBook с GPU Kepler (650M/750M)</li>
+            <li>Улучшены шаблоны обнаружения для GPU NVIDIA серий MX и устаревших GT</li>
+            <li>Новые диалоги подтверждения для всех путей установки NVIDIA</li>
+            <li>Очистка перед установкой (apt purge) для предотвращения конфликтов драйверов</li>
+            <li>Обновлены переводы: добавлены строки подтверждения на всех 8 языках</li>
+          </ul>
+        </description>
+        <description xml:lang="ro">
+          <p>Remedieri logice NVIDIA și flux de lucru îmbunătățit pentru instalare:</p>
+          <ul>
+            <li>Mapare de detecție hardware corectată pentru GPU-urile MacBook Kepler (650M/750M)</li>
+            <li>Modele de detecție îmbunătățite pentru GPU-urile NVIDIA din seriile MX și GT legacy</li>
+            <li>Noi dialoguri de confirmare pentru toate căile de instalare NVIDIA</li>
+            <li>Curățare drivere pre-instalare (apt purge) pentru a preveni conflictele</li>
+            <li>Traduceri actualizate: Noi șiruri de confirmare în toate cele 8 limbi acceptate</li>
+          </ul>
+        </description>
+      </release>
       <release version="2.0.7-1" date="2026-03-12">
         <description>
           <p>NVIDIA Driver improvements and robustness fixes:</p>

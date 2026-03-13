@@ -310,17 +310,17 @@ MD5sum: 4cfec52c417663e9ece54f2093a762bc
 Description: Create and manage isolated Web Applications
 
 Package: soplos-welcome
-Version: 2.0.7-1
+Version: 2.0.7-2
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools, python3-xlib, wget
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome/soplos-welcome_2.0.7-1_all.deb
-Size: 45471712
-SHA256: 38cd05df929ea54b6a445ab1e97f18c9be63f4f70ab7cdbce9a335482f241a33
-SHA1: 1ecb4ae43ae10b57c65de03c2e93118e694d32fe
-MD5sum: 728da66b73de5ba29d68a0c7f7550fc2
+Filename: pool/main/s/soplos-welcome/soplos-welcome_2.0.7-2_all.deb
+Size: 45476456
+SHA256: 0a387424f6b917f9362d9666b15fcf5828c46204f40ca057dadf6790a9492221
+SHA1: 22bac8981189846ddfcac005c6c88dd908e8b203
+MD5sum: 7d36443ebdc59c196eae8480a580dc15
 Description: The world's most advanced welcome application for Linux
 
 Package: soplos-welcome-live

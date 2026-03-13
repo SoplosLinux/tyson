@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260312T175640
+Time: 20260313T122920
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -639,6 +639,11 @@ Url:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.0.7-2
+    date: '2026-03-13'
+    type: stable
+    description:
+      C: 'NVIDIA Driver logic fixes and improved installation workflow:'
   - version: 2.0.7-1
     date: '2026-03-12'
     type: stable
