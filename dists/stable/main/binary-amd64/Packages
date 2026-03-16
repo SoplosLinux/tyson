@@ -69,6 +69,48 @@ SHA1: 3e63bed9ecfc5340816eaf0f5d90f16c8663e98e
 MD5sum: 2830d0681c6260c58225ee9c440dedc4
 Description: Configure MSI keyboard RGB lighting
 
+Package: nvidia-kernel-dkms
+Source: nvidia-graphics-drivers
+Version: 550.163.01-5
+Architecture: amd64
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Installed-Size: 71183
+Pre-Depends: nvidia-installer-cleanup
+Depends: firmware-nvidia-gsp (= 550.163.01) | firmware-nvidia-gsp-550.163.01, nvidia-kernel-support--v1, dkms (>= 3.0.11)
+Recommends: nvidia-driver (>= 550.163.01) | libcuda1 (>= 550.163.01)
+Provides: nvidia-kernel-550.163.01, nvidia-kernel-dkms-any (= 550.163.01)
+Multi-Arch: foreign
+Homepage: https://www.nvidia.com
+Priority: optional
+Section: non-free/kernel
+Filename: pool/main/n/nvidia-graphics-drivers/nvidia-kernel-dkms_550.163.01-5_amd64.deb
+Size: 41667064
+SHA256: 7b14a2f3f6380e4d758d3f754d663cc33504a09461b55d0802077047e463ed41
+SHA1: d638adab48130d0c82d677b9fb753d3f9a0773a6
+MD5sum: 166f280fa82ac3162ef2a906ef8beb93
+Description: NVIDIA binary kernel module DKMS source
+ This package builds the NVIDIA binary kernel modules needed by
+ nvidia-driver, using DKMS.
+ Provided that you have the kernel header packages installed, the kernel
+ module will be built for your running kernel and automatically rebuilt for
+ any new kernel headers that are installed.
+ .
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
+ for graphics cards using NVIDIA chip sets.
+ .
+ This version only supports GeForce, NVS, Quadro, RTX, Tesla, ... GPUs based on
+ the Maxwell, Pascal, Volta, Turing, Ampere, Ada, Hopper or newer architectures.
+ Look at the legacy driver or Tesla driver packages for older cards.
+ .
+ See /usr/share/doc/nvidia-kernel-dkms/README.txt.gz
+ for a complete list of supported GPUs and PCI IDs.
+ .
+ Building the kernel modules has been tested up to Linux 6.19.
+ .
+ Note: The new 'non-free-firmware' archive area has to be enabled in apt's
+ sources.list(.d/) in order to install firmware-nvidia-gsp.
+
 Package: soplos-color-scheme
 Version: 0.0.1
 Architecture: all
