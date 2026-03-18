@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260316T190109
+Time: 20260318T140418
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -985,12 +985,11 @@ Releases:
 Component: main
 ---
 Type: desktop-application
-ID: com.soplos.plymouthmanager.desktop
+ID: org.soplos.plymouthmanager
 ProjectLicense: GPL-3.0+
 Package: soplos-plymouth-manager
 Name:
   C: Soplos Plymouth Manager
-  en: Soplos Plymouth Manager
   es: Gestor Plymouth Soplos
   fr: Gestionnaire Plymouth Soplos
   pt: Gerenciador Plymouth Soplos
@@ -999,7 +998,6 @@ Name:
   ru: Менеджер Plymouth Soplos
   ro: Manager Plymouth Soplos
 Summary:
-  en: Plymouth boot splash theme manager for Soplos Linux
   C: Plymouth boot splash theme manager for Soplos Linux
   es: Gestor de temas de arranque Plymouth para Soplos Linux
   fr: Gestionnaire de thèmes de démarrage Plymouth pour Soplos Linux
@@ -1009,24 +1007,22 @@ Summary:
   ru: Менеджер тем загрузочного экрана Plymouth для Soplos Linux
   ro: Manager de teme Plymouth pentru Soplos Linux
 Description:
-  en: |-
-    <p>A simple and intuitive Plymouth theme manager that allows you to preview, install and apply boot splash themes easily. Features automatic system theme detection and improved Wayland support.</p>
   C: |-
-    <p>A simple and intuitive Plymouth theme manager that allows you to preview, install and apply boot splash themes easily. Features automatic system theme detection and improved Wayland support.</p>
+    <p>A simple and intuitive Plymouth theme manager that allows you to preview, install, and apply boot splash themes easily. Fully compatible with X11 and Wayland environments.</p>
   es: |-
-    <p>Un gestor de temas Plymouth simple e intuitivo que te permite previsualizar, instalar y aplicar temas de arranque fácilmente. Incluye detección automática de temas del sistema y soporte mejorado para Wayland.</p>
+    <p>Un gestor de temas Plymouth simple e intuitivo que te permite previsualizar, instalar y aplicar temas de arranque fácilmente. Totalmente compatible con entornos X11 y Wayland.</p>
   fr: |-
-    <p>Un gestionnaire de thèmes Plymouth simple et intuitif qui vous permet de prévisualiser, installer et appliquer des thèmes de démarrage facilement. Comprend la détection automatique des thèmes système et un support amélioré pour Wayland.</p>
+    <p>Un gestionnaire de thèmes Plymouth simple et intuitif qui vous permet de prévisualiser, installer et appliquer des thèmes de démarrage facilement.</p>
   pt: |-
-    <p>Um gerenciador de temas Plymouth simples e intuitivo que permite visualizar, instalar e aplicar temas de inicialização facilmente. Inclui detecção automática de temas do sistema e suporte aprimorado para Wayland.</p>
+    <p>Um gerenciador de temas Plymouth simples e intuitivo que permite visualizar, instalar e aplicar temas de inicialização facilmente.</p>
   de: |-
-    <p>Ein einfacher und intuitiver Plymouth-Theme-Manager, mit dem Sie Boot-Splash-Themes einfach vorschauen, installieren und anwenden können. Beinhaltet automatische Systemtheme-Erkennung und verbesserte Wayland-Unterstützung.</p>
+    <p>Ein einfacher und intuitiver Plymouth-Theme-Manager, mit dem Sie Boot-Splash-Themes einfach vorschauen, installieren und anwenden können.</p>
   it: |-
-    <p>Un gestore di temi Plymouth semplice e intuitivo che ti permette di visualizzare, installare e applicare temi di avvio facilmente. Include rilevamento automatico dei temi di sistema e supporto migliorato per Wayland.</p>
+    <p>Un gestore di temi Plymouth semplice e intuitivo che ti permette di visualizzare, installare e applicare temi di avvio facilmente.</p>
   ru: |-
-    <p>Простой и интуитивно понятный менеджер тем Plymouth, который позволяет легко просматривать, устанавливать и применять темы загрузочного экрана. Включает автоматическое определение системных тем и улучшенную поддержку Wayland.</p>
+    <p>Простой и интуитивно понятный менеджер тем Plymouth, который позволяет легко просматривать, устанавливать и применять темы загрузочного экрана.</p>
   ro: |-
-    <p>Un manager de teme Plymouth simplu și intuitiv care vă permite să previzualizați, instalați și aplicați teme de pornire cu ușurință. Include detectarea automată a temelor sistemului și suport îmbunătățit pentru Wayland.</p>
+    <p>Un manager de teme Plymouth simplu și intuitiv care vă permite să previzualizați, instalați și aplicați teme de pornire cu ușurință.</p>
 Keywords:
   C:
     - plymouth
@@ -1037,51 +1033,46 @@ Keywords:
     - boot-splash
     - customize
     - soplos
-    - wayland
-    - kde
   es:
+    - plymouth
     - arranque
     - tema
     - temas
     - personalizar
-    - splash
-    - gestor
   fr:
+    - plymouth
     - démarrage
     - thème
-    - thèmes
     - personnaliser
-    - splash
   pt:
+    - plymouth
     - inicialização
     - tema
     - temas
     - personalizar
-    - splash
   de:
+    - plymouth
     - start
     - thema
-    - themen
     - anpassen
-    - splash
   it:
+    - plymouth
     - avvio
     - tema
     - temi
     - personalizzare
-    - splash
   ru:
+    - plymouth
     - загрузка
     - тема
     - темы
-    - настроить
-    - сплэш
+    - настройка
   ro:
+    - plymouth
     - pornire
     - temă
     - teme
     - personalizare
-    - splash
 Categories:
   - System
   - Settings
@@ -1092,181 +1083,147 @@ Icon:
     - name: com.soplos.plymouthmanager.png
       width: 48
       height: 48
+    - name: org.soplos.plymouthmanager.png
+      width: 48
+      height: 48
     - name: com.soplos.plymouthmanager.png
       width: 64
       height: 64
+    - name: org.soplos.plymouthmanager.png
+      width: 64
+      height: 64
     - name: com.soplos.plymouthmanager.png
+      width: 128
+      height: 128
+    - name: org.soplos.plymouthmanager.png
       width: 128
       height: 128
   remote:
     - url: soplos-plymouth-manager/icons/48x48/com.soplos.plymouthmanager.png
       width: 48
       height: 48
+    - url: soplos-plymouth-manager/icons/48x48/org.soplos.plymouthmanager.png
+      width: 48
+      height: 48
     - url: soplos-plymouth-manager/icons/64x64/com.soplos.plymouthmanager.png
+      width: 64
+      height: 64
+    - url: soplos-plymouth-manager/icons/64x64/org.soplos.plymouthmanager.png
       width: 64
       height: 64
     - url: soplos-plymouth-manager/icons/128x128/com.soplos.plymouthmanager.png
       width: 128
       height: 128
+    - url: soplos-plymouth-manager/icons/128x128/org.soplos.plymouthmanager.png
+      width: 128
+      height: 128
 Screenshots:
   - default: true
     caption:
-      C: Available themes list
-      en: Available themes list
-      es: Lista de temas disponibles
-      fr: Liste des thèmes disponibles
-      pt: Lista de temas disponíveis
-      de: Liste verfügbarer Themes
-      it: Lista dei temi disponibili
-      ru: Список доступных тем
-      ro: Lista temelor disponibile
+      C: Interface and theme selector
+      es: Interfaz y selector de temas
+      fr: Interface et sélecteur de thèmes
+      pt: Interface e seletor de temas
+      de: Benutzeroberfläche und Themenauswahl
+      it: Interfaccia e selettore di temi
+      ru: Интерфейс и селектор тем
+      ro: Interfață și selector de teme
     source-image:
       url: soplos-plymouth-manager/screenshots/screenshot1.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Theme preview
-      en: Theme preview
-      es: Previsualización del tema
-      fr: Aperçu du thème
-      pt: Prévia do tema
-      de: Theme-Vorschau
-      it: Anteprima del tema
-      ru: Предварительный просмотр темы
-      ro: Previzualizare temă
+      C: Applying and previewing theme
+      es: Aplicando y previsualizando tema
+      fr: Application et aperçu du thème
+      pt: Aplicando e visualizando tema
+      de: Theme anwenden und vorschauen
+      it: Applicazione e anteprima del tema
+      ru: Применение и просмотр темы
+      ro: Aplicarea și previzualizarea temei
     source-image:
       url: soplos-plymouth-manager/screenshots/screenshot2.png
       width: 1920
       height: 1080
       type: image/png
-  - caption:
-      C: Advanced settings
-      en: Advanced settings
-      es: Configuración avanzada
-      fr: Paramètres avancés
-      pt: Configurações avançadas
-      de: Erweiterte Einstellungen
-      it: Impostazioni avanzate
-      ru: Расширенные настройки
-      ro: Setări avansate
-    source-image:
-      url: soplos-plymouth-manager/screenshots/screenshot3.png
-      width: 1920
-      height: 1080
-      type: image/png
 Launchable:
   desktop-id:
-    - com.soplos.plymouthmanager.desktop
+    - org.soplos.plymouthmanager.desktop
 Url:
-  homepage: https://soploslinux.com/tyson
-  bugtracker: https://github.com/SoplosLinux/tyson/issues
+  homepage: https://soplos.org/
+  bugtracker: https://github.com/SoplosLinux/soplos-plymouth-manager/issues
+  help: https://soplos.org/wiki
   donation: https://www.paypal.com/paypalme/isubdes
-  contact: https://soploslinux.com/foros/
+  contact: https://soplos.org/
 Developer:
-  id: com.soploslinux
+  id: org.soplos
   name:
     C: Soplos Team
-  url: https://soploslinux.com
+  url: https://soplos.org/
 Provides:
   - soplos-plymouth-manager
 Releases:
-  - version: 1.0.6
+  - version: 2.0.0
+    date: '2026-03-18'
+    type: stable
+    description:
+      C: |-
+        Version 2.0.0 - Complete modular architecture refactor with dynamic theme detection (no hardcoded lists), robust installer for nested archives, enhanced progress reporting, and full Wayland support. Includes unified environment sensing, robust KDE dark theme detection, unified single-password prompts for TTY, advanced GNOME and KDE previews (Wayland/TTY), and standard-compliant logging.
+      es: |-
+        Versión 2.0.0 - Refactorización modular completa con detección dinámica de temas (sin listas fijas), instalador robusto para archivos anidados, reporte de progreso mejorado y soporte total para Wayland. Incluye detección unificada de entorno, detección robusta del tema oscuro en KDE, prompts de una sola contraseña para TTY, vistas previas avanzadas en GNOME y KDE (Wayland/TTY) y registro de logs estandarizado.
+      fr: |-
+        Version 2.0.0 - Refonte modulaire complète avec détection dynamique des thèmes (pas de listes codées en dur), installateur robuste pour les archives imbriquées, rapport de progression amélioré et support Wayland complet. Comprend la détection d'environnement unifiée, une détection robuste du thème sombre KDE, des invites à mot de passe unique pour TTY, des aperçus GNOME et KDE avancés (Wayland/TTY) et des journaux conformes.
+      pt: |-
+        Versão 2.0.0 - Refatoração modular completa com detecção dinâmica de temas (sem listas fixas), instalador robusto para arquivos aninhados, relatório de progresso aprimorado e suporte total para Wayland. Inclui detecção de ambiente unificada, detecção robusta do tema escuro do KDE, prompts de senha única para TTY, visualizações avançadas do GNOME e KDE (Wayland/TTY) e logs padronizados.
+      de: |-
+        Version 2.0.0 - Vollständige modulare Refaktorierung mit dynamischer Themenerkennung (keine hardcodierten Listen), robuster Installer für verschachtelte Archive, verbesserte Fortschrittsanzeige und volle Wayland-Unterstützung. Enthält eine einheitliche Umgebungserkennung, robuste KDE-Dark-Theme-Erkennung, einheitliche Passwortabfragen für TTY, erweiterte GNOME- und KDE-Vorschauen (Wayland/TTY) und eine standardkonforme Protokollierung.
+      it: |-
+        Versione 2.0.0 - Refactoring modulare completo con rilevamento dinamico dei temi (senza liste fisse), installatore robusto per archivi nidificati, report di avanzamento migliorato e supporto Wayland completo. Include il rilevamento dell'ambiente unificato, il rilevamento robusto del tema scuro KDE, prompt a password singola per TTY, anteprime GNOME e KDE avanzate (Wayland/TTY) e log conformi agli standard.
+      ru: |-
+        Версия 2.0.0 - Полный модульный рефакторинг с динамическим обнаружением тем (без захардкорженных списков), надежным установщиком для вложенных архивов, улучшенным отображением прогресса и полной поддержкой Wayland. Включает унифицированное обнаружение среды, надежное определение темной темы KDE, единые запросы пароля для TTY, расширенные превью GNOME и KDE (Wayland/TTY) и стандартные логи.
+      ro: |-
+        Versiunea 2.0.0 - Refactorizare modulară completă cu detecție dinamică a temelor (fără liste fixe), instalator robust pentru arhive imbricate, raportare îmbunătățită a progresului și suport complet pentru Wayland. Include detecția unificată a mediului, detecția robustă a temei întunecate KDE, solicitări cu o singură parolă pentru TTY, previzualizări GNOME și KDE avansate (Wayland/TTY) și jurnalizare standardizată.
+  - version: 1.0.4
     date: '2025-07-27'
     type: stable
     description:
       C: Program icon changed.
-      en: Program icon changed.
       es: Cambio de icono del programa.
-      fr: Changement d'icône du programme.
+      en: Program icon changed.
+      fr: Changement de l'icône du programme.
       pt: Alteração do ícone do programa.
       de: Programmicon geändert.
-      it: Cambio dell'icona del programma.
+      it: Cambiata l'icona del programma.
       ru: Изменена иконка программы.
-      ro: Schimbare pictogramă program.
-  - version: 1.0.5
-    date: '2025-07-16'
-    type: stable
-    description:
-      C: Metainfo correction finalized for AppStream/DEP-11 compliance. Program icons
-        implemented in 48x48, 64x64 and 128x128.
-      en: Metainfo correction finalized for AppStream/DEP-11 compliance. Program icons
-        implemented in 48x48, 64x64 and 128x128.
-      es: |-
-        Finalización de la corrección del metainfo para cumplir estándar AppStream/DEP-11. Implementados iconos del programa en 48x48, 64x64 y 128x128.
-      fr: |-
-        Correction finale du metainfo pour conformité AppStream/DEP-11. Icônes du programme implémentées en 48x48, 64x64 et 128x128.
-      pt: |-
-        Correção final do metainfo para conformidade AppStream/DEP-11. Ícones do programa implementados em 48x48, 64x64 e 128x128.
-      de: |-
-        Abschluss der Korrektur des Metainfo für AppStream/DEP-11-Konformität. Programmsymbole in 48x48, 64x64 und 128x128 implementiert.
-      it: |-
-        Correzione finale del metainfo per la conformità AppStream/DEP-11. Icone del programma implementate in 48x48, 64x64 e 128x128.
-      ru: |-
-        Завершена корректировка метаинформации для соответствия AppStream/DEP-11. Значки программы реализованы в 48x48, 64x64 и 128x128.
-  - version: 1.0.4
-    date: '2025-07-15'
-    type: stable
-    description:
-      C: Metainfo finalized for AppStream/DEP-11 and added different icon sizes (stock
-        and remote).
-      en: Metainfo finalized for AppStream/DEP-11 and added different icon sizes (stock
-        and remote).
-      es: Finalización del metainfo para AppStream/DEP-11 y añadidos diferentes tamaños
-        del icono (stock y remoto).
-      fr: Finalisation du metainfo pour AppStream/DEP-11 et ajout de différentes tailles
-        d'icônes (stock et distant).
-      pt: Finalização do metainfo para AppStream/DEP-11 e adicionados diferentes tamanhos
-        de ícone (stock e remoto).
-      de: Abschluss des Metainfo für AppStream/DEP-11 und Hinzufügen verschiedener
-        Symbolgrößen (Stock und Remote).
-      it: Finalizzazione del metainfo per AppStream/DEP-11 e aggiunta di diverse dimensioni
-        di icone (stock e remoto).
-      ru: Завершение метаинформации для AppStream/DEP-11 и добавление различных размеров
-        значков (локальных и удалённых).
-      ro: Finalizarea metainfo pentru AppStream/DEP-11 și adăugarea diferitelor dimensiuni
-        de pictograme (locale și remote).
+      ro: S-a schimbat pictograma programului.
   - version: 1.0.3
-    date: '2025-07-14'
+    date: '2025-07-18'
     type: stable
     description:
-      C: Final metainfo corrections for proper appearance in software centers (AppStream/Discover/GNOME
-        Software)
-      en: Final metainfo corrections for proper appearance in software centers (AppStream/Discover/GNOME
-        Software)
+      C: |-
+        Metainfo update for AppStream/DEP-11 compliance. Renamed screenshots to screenshot1.png, screenshot2.png, etc. Minor documentation and metadata improvements.
       es: |-
-        Correcciones finales en el metainfo para garantizar la aparición en centros de software (AppStream/Discover/GNOME Software)
+        Actualización de metainfo para cumplir con AppStream/DEP-11. Renombrado de screenshots a screenshot1.png, screenshot2.png, etc. Mejoras menores de documentación y metadatos.
+      en: |-
+        Metainfo update for AppStream/DEP-11 compliance. Renamed screenshots to screenshot1.png, screenshot2.png, etc. Minor documentation and metadata improvements.
       fr: |-
-        Corrections finales du metainfo pour garantir l'apparition dans les centres logiciels (AppStream/Discover/GNOME Software)
-      pt: Correções finales no metainfo para garantir a aparição em centros de software
-        (AppStream/Discover/GNOME Software)
-      de: Abschließende Metainfo-Korrekturen für die Anzeige in Software-Centern (AppStream/Discover/GNOME
-        Software)
-      it: Correzioni finali del metainfo per garantire la visualizzazione nei centri
-        software (AppStream/Discover/GNOME Software)
-      ru: Финальные исправления метаинформации для отображения в центрах ПО (AppStream/Discover/GNOME
-        Software)
-      ro: Corecții finale la metainfo pentru apariția corectă în centrele software
-        (AppStream/Discover/GNOME Software)
-  - version: 1.0.1
-    date: '2025-01-15'
-    type: stable
-    description:
-      C: System theme detection and Wayland improvements
-      en: System theme detection and Wayland improvements
-      es: Detección de temas del sistema y mejoras para Wayland
-      fr: Détection des thèmes système et améliorations Wayland
-      pt: Detecção de temas do sistema e melhorias do Wayland
-      de: Systemtheme-Erkennung und Wayland-Verbesserungen
-      it: Rilevamento temi di sistema e miglioramenti Wayland
-      ru: Определение системных тем и улучшения Wayland
-      ro: Detectarea temelor sistemului și îmbunătățiri Wayland
+        Mise à jour du metainfo pour la conformité AppStream/DEP-11. Renommage des captures d'écran en screenshot1.png, screenshot2.png, etc. Améliorations mineures de la documentation et des métadonnées.
+      pt: |-
+        Atualização do metainfo para conformidade AppStream/DEP-11. Renomeação de screenshots para screenshot1.png, screenshot2.png, etc. Melhorias menores na documentação e metadados.
+      de: |-
+        Metainfo-Aktualisierung für AppStream/DEP-11-Konformität. Screenshots umbenannt in screenshot1.png, screenshot2.png, etc. Kleinere Verbesserungen an Dokumentation und Metadaten.
+      it: |-
+        Aggiornamento del metainfo per la conformità AppStream/DEP-11. Rinominati screenshot in screenshot1.png, screenshot2.png, etc. Miglioramenti minori alla documentazione e ai metadati.
+      ru: |-
+        Обновление метаинформации для соответствия AppStream/DEP-11. Скриншоты переименованы в screenshot1.png, screenshot2.png и т.д. Незначительные улучшения документации и метаданных.
+      ro: |-
+        Actualizare metainfo pentru conformitate AppStream/DEP-11. Capturile de ecran redenumite în screenshot1.png, screenshot2.png, etc. Îmbunătățiri minore ale documentației și metadatelor.
   - version: 1.0.0
     date: '2025-05-08'
     type: stable
     description:
       C: Initial release
-      en: Initial release
       es: Versión inicial
       fr: Version initiale
       pt: Versão inicial
