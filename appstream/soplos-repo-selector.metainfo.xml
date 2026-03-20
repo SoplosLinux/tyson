@@ -16,26 +16,26 @@
   <name xml:lang="ru">Селектор репозиториев Soplos</name>
   <name xml:lang="ro">Selector de depozite Soplos</name>
 
-  <summary xml:lang="en">Advanced APT repository manager for Debian-based systems</summary>
-  <summary>Advanced APT repository manager for Debian-based systems</summary>
-  <summary xml:lang="es">Gestor avanzado de repositorios APT para sistemas basados en Debian</summary>
-  <summary xml:lang="fr">Gestionnaire avancé de dépôts APT pour systèmes basés sur Debian</summary>
-  <summary xml:lang="pt">Gerenciador avançado de repositórios APT para sistemas baseados em Debian</summary>
-  <summary xml:lang="de">Erweiterte APT-Repository-Verwaltung für Debian-basierte Systeme</summary>
-  <summary xml:lang="it">Gestore avanzato di repository APT per sistemi basati su Debian</summary>
-  <summary xml:lang="ru">Продвинутый менеджер APT-репозиториев для систем на базе Debian</summary>
-  <summary xml:lang="ro">Manager avansat de depozite APT pentru sisteme bazate pe Debian</summary>
+  <summary xml:lang="en">Advanced APT repository manager for Soplos Linux</summary>
+  <summary>Advanced APT repository manager for Soplos Linux</summary>
+  <summary xml:lang="es">Gestor avanzado de repositorios APT para Soplos Linux</summary>
+  <summary xml:lang="fr">Gestionnaire avancé de dépôts APT pour Soplos Linux</summary>
+  <summary xml:lang="pt">Gerenciador avançado de repositórios APT para Soplos Linux</summary>
+  <summary xml:lang="de">Erweiterte APT-Repository-Verwaltung für Soplos Linux</summary>
+  <summary xml:lang="it">Gestore avanzato di repository APT per Soplos Linux</summary>
+  <summary xml:lang="ru">Продвинутый менеджер APT-репозиториев для Soplos Linux</summary>
+  <summary xml:lang="ro">Manager avansat de depozite APT pentru Soplos Linux</summary>
 
   <description>
-    <p xml:lang="en">Soplos Repo Selector is a comprehensive repository management tool designed for Debian-based Linux distributions. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p>
-    <p>Soplos Repo Selector is a comprehensive repository management tool designed for Debian-based Linux distributions. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p>
-    <p xml:lang="es">Soplos Repo Selector es una herramienta integral de gestión de repositorios diseñada para distribuciones Linux basadas en Debian. Proporciona una interfaz gráfica intuitiva para gestionar repositorios APT, claves GPG y fuentes de software del sistema con detección automática de tema y soporte multiidioma.</p>
-    <p xml:lang="fr">Soplos Repo Selector est un outil complet de gestion de dépôts conçu pour les distributions Linux basées sur Debian. Il fournit une interface graphique intuitive pour gérer les dépôts APT, les clés GPG et les sources logicielles du système avec détection automatique de thème et support multilingue.</p>
-    <p xml:lang="pt">Soplos Repo Selector é uma ferramenta abrangente de gerenciamento de repositórios projetada para distribuições Linux baseadas em Debian. Fornece uma interface gráfica intuitiva para gerenciar repositórios APT, chaves GPG e fontes de software do sistema com detecção automática de tema e suporte multilíngue.</p>
-    <p xml:lang="de">Soplos Repo Selector ist ein umfassendes Repository-Verwaltungstool für Debian-basierte Linux-Distributionen. Es bietet eine intuitive grafische Benutzeroberfläche für die Verwaltung von APT-Repositories, GPG-Schlüsseln und System-Software-Quellen mit automatischer Theme-Erkennung und mehrsprachiger Unterstützung.</p>
-    <p xml:lang="it">Soplos Repo Selector è uno strumento completo di gestione repository progettato per distribuzioni Linux basate su Debian. Fornisce un'interfaccia grafica intuitiva per gestire repository APT, chiavi GPG e sorgenti software di sistema con rilevamento automatico del tema e supporto multilingue.</p>
-    <p xml:lang="ru">Soplos Repo Selector - это комплексный инструмент управления репозиториями, предназначенный для дистрибутивов Linux на базе Debian. Он предоставляет интуитивный графический интерфейс для управления APT-репозиториями, GPG-ключами и источниками программного обеспечения системы с автоматическим обнаружением темы и многоязычной поддержкой.</p>
-    <p xml:lang="ro">Soplos Repo Selector este un instrument cuprinzător de gestionare a depozitelor proiectat pentru distribuțiile Linux bazate pe Debian. Oferă o interfață grafică intuitivă pentru gestionarea depozitelor APT, cheilor GPG și surselor software de sistem cu detectare automată a temei și suport multilingv.</p>
+    <p xml:lang="en">Soplos Repo Selector is a comprehensive repository management tool designed for Soplos Linux. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p>
+    <p>Soplos Repo Selector is a comprehensive repository management tool designed for Soplos Linux. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p>
+    <p xml:lang="es">Soplos Repo Selector es una herramienta integral de gestión de repositorios diseñada para Soplos Linux. Proporciona una interfaz gráfica intuitiva para gestionar repositorios APT, claves GPG y fuentes de software del sistema con detección automática de tema y soporte multiidioma.</p>
+    <p xml:lang="fr">Soplos Repo Selector est un outil complet de gestion de dépôts conçu pour Soplos Linux. Il fournit une interface graphique intuitive pour gérer les dépôts APT, les clés GPG et les sources logicielles du système avec détection automatique de thème et support multilingue.</p>
+    <p xml:lang="pt">Soplos Repo Selector é uma ferramenta abrangente de gerenciamento de repositórios projetada para o Soplos Linux. Fornece uma interface gráfica intuitiva para gerenciar repositórios APT, chaves GPG e fontes de software do sistema com detecção automática de tema e suporte multilíngue.</p>
+    <p xml:lang="de">Soplos Repo Selector ist ein umfassendes Repository-Verwaltungstool für Soplos Linux. Es bietet eine intuitive grafische Benutzeroberfläche für die Verwaltung von APT-Repositories, GPG-Schlüsseln und System-Software-Quellen mit automatischer Theme-Erkennung und mehrsprachiger Unterstützung.</p>
+    <p xml:lang="it">Soplos Repo Selector è uno strumento completo di gestione repository progettato per Soplos Linux. Fornisce un'interfaccia grafica intuitiva per gestire repository APT, chiavi GPG e sorgenti software di sistema con rilevamento automatico del tema e supporto multilingue.</p>
+    <p xml:lang="ru">Soplos Repo Selector — комплексный инструмент управления репозиториями, разработанный для Soplos Linux. Предоставляет интуитивный графический интерфейс для управления APT-репозиториями, GPG-ключами и источниками программного обеспечения системы с автоматическим обнаружением темы и многоязычной поддержкой.</p>
+    <p xml:lang="ro">Soplos Repo Selector este un instrument cuprinzător de gestionare a depozitelor proiectat pentru Soplos Linux. Oferă o interfață grafică intuitivă pentru gestionarea depozitelor APT, cheilor GPG și surselor software de sistem cu detectare automată a temei și suport multilingv.</p>
     <p>Includes the following features:</p>
     <p xml:lang="en">Includes the following features:</p>
     <p xml:lang="es">Las características principales incluyen:</p>
@@ -239,14 +239,14 @@
 
   <screenshots>
     <screenshot type="default">
-      <caption>Gestor de Repositorios Debian</caption>
-      <caption xml:lang="es">Gestor de Repositorios Debian</caption>
-      <caption xml:lang="fr">Gestionnaire de dépôts Debian</caption>
-      <caption xml:lang="pt">Gerenciador de Repositórios Debian</caption>
-      <caption xml:lang="de">Debian-Repository-Manager</caption>
-      <caption xml:lang="it">Gestore dei repository Debian</caption>
-      <caption xml:lang="ru">Менеджер репозиториев Debian</caption>
-      <caption xml:lang="ro">Manager de depozite Debian</caption>
+      <caption>Gestor de Repositorios Soplos</caption>
+      <caption xml:lang="es">Gestor de Repositorios Soplos</caption>
+      <caption xml:lang="fr">Gestionnaire de dépôts Soplos</caption>
+      <caption xml:lang="pt">Gerenciador de Repositórios Soplos</caption>
+      <caption xml:lang="de">Soplos Repository-Manager</caption>
+      <caption xml:lang="it">Gestore dei repository Soplos</caption>
+      <caption xml:lang="ru">Менеджер репозиториев Soplos</caption>
+      <caption xml:lang="ro">Manager de depozite Soplos</caption>
       <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot1.png</image>
     </screenshot>
     <screenshot type="normal">
@@ -299,6 +299,30 @@
   </provides>
 
   <releases>
+    <release version="2.0.2-5" date="2026-03-20">
+      <description>
+        <p xml:lang="en">Standardized the About dialog across XFCE, GNOME, and KDE: dark background, button heights, and pill button styling are now identical to all other Soplos apps. App icon standardized to 48×48 pixels. Removed gtk-application-prefer-dark-theme setting that caused subtle color differences.</p>
+        <p xml:lang="es">Estandarizado el diálogo Acerca de en XFCE, GNOME y KDE: fondo oscuro, alturas de botones y estilo de botones píldora son ahora idénticos a las demás aplicaciones Soplos. Icono de la aplicación estandarizado a 48×48 píxeles. Eliminado el parámetro gtk-application-prefer-dark-theme que causaba diferencias de color sutiles.</p>
+        <p xml:lang="fr">Standardisation du dialogue À propos sous XFCE, GNOME et KDE : fond sombre, hauteurs des boutons et style des boutons pilule sont désormais identiques aux autres applications Soplos. Icône standardisée à 48×48 pixels. Suppression du paramètre gtk-application-prefer-dark-theme qui causait de légères différences de couleur.</p>
+        <p xml:lang="pt">Padronizado o diálogo Sobre no XFCE, GNOME e KDE: fundo escuro, alturas de botões e estilo de botões pílula são agora idênticos às demais aplicações Soplos. Ícone padronizado para 48×48 pixels. Removida a configuração gtk-application-prefer-dark-theme que causava diferenças de cor sutis.</p>
+        <p xml:lang="de">Standardisierter Über-Dialog unter XFCE, GNOME und KDE: dunkler Hintergrund, Schaltflächenhöhen und Pill-Button-Stil sind jetzt identisch mit anderen Soplos-Apps. App-Symbol auf 48×48 Pixel standardisiert. Einstellung gtk-application-prefer-dark-theme entfernt, die subtile Farbunterschiede verursachte.</p>
+        <p xml:lang="it">Finestra Info standardizzata su XFCE, GNOME e KDE: sfondo scuro, altezze dei pulsanti e stile dei pulsanti pill sono ora identici alle altre app Soplos. Icona standardizzata a 48×48 pixel. Rimossa l'impostazione gtk-application-prefer-dark-theme che causava differenze di colore.</p>
+        <p xml:lang="ru">Диалог «О программе» стандартизирован в XFCE, GNOME и KDE: тёмный фон, высота кнопок и стиль кнопок-таблеток теперь идентичны другим приложениям Soplos. Значок стандартизирован до 48×48 пикселей. Удалена настройка gtk-application-prefer-dark-theme, вызывавшая незначительные различия цветов.</p>
+        <p xml:lang="ro">Dialogul Despre standardizat în XFCE, GNOME și KDE: fundal întunecat, înălțimi ale butoanelor și stilul butoanelor pill sunt acum identice cu alte aplicații Soplos. Pictogramă standardizată la 48×48 pixeli. Eliminată setarea gtk-application-prefer-dark-theme care cauza diferențe de culoare.</p>
+      </description>
+    </release>
+    <release version="2.0.2-4" date="2026-03-20">
+      <description>
+        <p xml:lang="en">Added Ctrl+Shift+Tab reverse tab navigation, F1 About dialog, GNOME application menu About action, and GPG key search across all standard directories. Fixed HeaderBar CSS on GNOME, double repository reads on startup, bare except clauses, and removed dead code.</p>
+        <p xml:lang="es">Añadida navegación inversa con Ctrl+Shift+Tab, diálogo Acerca de con F1, acción Acerca de del menú GNOME y búsqueda de clave GPG en todos los directorios estándar. Corregido el CSS del HeaderBar en GNOME, la doble lectura de repositorios al inicio, excepciones desnudas y eliminado código muerto.</p>
+        <p xml:lang="fr">Ajout de la navigation inverse Ctrl+Shift+Tab, du dialogue À propos avec F1, de l'action À propos du menu GNOME et de la recherche de clé GPG dans tous les répertoires standard. Correction du CSS HeaderBar sur GNOME, des lectures doubles de dépôts au démarrage, des clauses except nues et suppression du code mort.</p>
+        <p xml:lang="pt">Adicionada navegação inversa Ctrl+Shift+Tab, diálogo Sobre com F1, ação Sobre do menu GNOME e busca de chave GPG em todos os diretórios padrão. Corrigido CSS do HeaderBar no GNOME, leituras duplas de repositórios na inicialização, cláusulas except sem tipo e removido código morto.</p>
+        <p xml:lang="de">Hinzugefügt: umgekehrte Tab-Navigation Strg+Umschalt+Tab, Über-Dialog mit F1, GNOME-Menü-Über-Aktion und GPG-Schlüsselsuche in allen Standardverzeichnissen. Behoben: HeaderBar-CSS auf GNOME, doppeltes Lesen von Repositories beim Start, nackte except-Klauseln und toter Code entfernt.</p>
+        <p xml:lang="it">Aggiunta navigazione inversa Ctrl+Shift+Tab, finestra Info con F1, azione Info del menu GNOME e ricerca chiave GPG in tutte le directory standard. Corretti CSS HeaderBar su GNOME, doppia lettura dei repository all'avvio, clausole except nude e rimosso codice morto.</p>
+        <p xml:lang="ru">Добавлена обратная навигация Ctrl+Shift+Tab, диалог «О программе» по F1, действие «О программе» в меню GNOME и поиск GPG-ключей во всех стандартных директориях. Исправлены CSS HeaderBar в GNOME, двойное чтение репозиториев при запуске, голые except-клаузулы и удалён мёртвый код.</p>
+        <p xml:lang="ro">Adăugată navigare inversă Ctrl+Shift+Tab, dialog Despre cu F1, acțiunea Despre din meniul GNOME și căutarea cheii GPG în toate directoarele standard. Corectate CSS HeaderBar pe GNOME, citiri duble ale depozitelor la pornire, clauze except goale și eliminat codul mort.</p>
+      </description>
+    </release>
     <release version="2.0.2-3" date="2026-03-13">
       <description>
         <p xml:lang="en">Integrated repository search, DEB822 modernization with automatic backups, unified privilege management, and complete manual internationalization across 8 languages.</p>

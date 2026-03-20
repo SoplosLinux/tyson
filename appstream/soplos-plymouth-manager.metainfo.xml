@@ -159,6 +159,30 @@
   </provides>
 
   <releases>
+    <release version="2.0.0-2" date="2026-03-20">
+      <description>
+        <p xml:lang="en">Fixed About dialog credits panel on KDE: the credits area now displays with an opaque dark background instead of being transparent. App icon standardized to 48×48 pixels.</p>
+        <p xml:lang="es">Corregido el panel de créditos del diálogo Acerca de en KDE: el área de créditos ahora se muestra con fondo oscuro opaco en lugar de ser transparente. Icono estandarizado a 48×48 píxeles.</p>
+        <p xml:lang="fr">Correction du panneau de crédits du dialogue À propos sous KDE : la zone de crédits s'affiche maintenant avec un fond sombre opaque au lieu d'être transparente. Icône standardisée à 48×48 pixels.</p>
+        <p xml:lang="pt">Corrigido o painel de créditos do diálogo Sobre no KDE: a área de créditos agora é exibida com fundo escuro opaco em vez de ser transparente. Ícone padronizado para 48×48 pixels.</p>
+        <p xml:lang="de">Korrektur des Kredit-Panels im Über-Dialog unter KDE: Der Kredit-Bereich wird jetzt mit opakem dunklem Hintergrund dargestellt, anstatt transparent zu sein. App-Symbol auf 48×48 Pixel standardisiert.</p>
+        <p xml:lang="it">Corretto il pannello crediti della finestra Info su KDE: l'area dei crediti ora mostra uno sfondo scuro opaco invece di essere trasparente. Icona standardizzata a 48×48 pixel.</p>
+        <p xml:lang="ru">Исправлена панель авторов в диалоге «О программе» в KDE: область авторов теперь отображается с непрозрачным тёмным фоном вместо прозрачного. Значок стандартизирован до 48×48 пикселей.</p>
+        <p xml:lang="ro">Corectat panoul de credite din dialogul Despre pe KDE: zona de credite se afișează acum cu fundal întunecat opac în loc să fie transparentă. Pictogramă standardizată la 48×48 pixeli.</p>
+      </description>
+    </release>
+    <release version="2.0.0-1" date="2026-03-20">
+      <description>
+        <p xml:lang="en">Added F1 About dialog. Fixed HeaderBar CSS on GNOME so CSD window controls are no longer affected by the global button rule. Removed version subtitle from the HeaderBar.</p>
+        <p xml:lang="es">Añadido diálogo Acerca de con F1. Corregido el CSS del HeaderBar en GNOME para que los controles CSD no sean afectados por la regla global de botones. Eliminado el subtítulo de versión del HeaderBar.</p>
+        <p xml:lang="fr">Ajout du dialogue À propos avec F1. Correction du CSS HeaderBar sur GNOME pour que les contrôles CSD ne soient plus affectés par la règle globale des boutons. Suppression du sous-titre de version du HeaderBar.</p>
+        <p xml:lang="pt">Adicionado diálogo Sobre com F1. Corrigido CSS do HeaderBar no GNOME para que os controles CSD não sejam afetados pela regra global de botões. Removido o subtítulo de versão do HeaderBar.</p>
+        <p xml:lang="de">Über-Dialog mit F1 hinzugefügt. HeaderBar-CSS auf GNOME korrigiert, damit CSD-Fenstersteuerelemente nicht mehr von der globalen Schaltflächenregel betroffen sind. Versions-Untertitel aus der HeaderBar entfernt.</p>
+        <p xml:lang="it">Aggiunta finestra Info con F1. Corretto CSS HeaderBar su GNOME in modo che i controlli CSD non siano più influenzati dalla regola globale dei pulsanti. Rimosso il sottotitolo di versione dall'HeaderBar.</p>
+        <p xml:lang="ru">Добавлен диалог «О программе» по F1. Исправлен CSS HeaderBar в GNOME, чтобы элементы управления CSD больше не зависели от глобального правила кнопок. Убран подзаголовок версии из HeaderBar.</p>
+        <p xml:lang="ro">Adăugat dialog Despre cu F1. Corectat CSS HeaderBar pe GNOME pentru ca elementele de control CSD să nu mai fie afectate de regula globală a butoanelor. Eliminat subtitlul versiunii din HeaderBar.</p>
+      </description>
+    </release>
     <release version="2.0.0" date="2026-03-18">
       <description>
         <p>Version 2.0.0 - Complete modular architecture refactor with dynamic theme detection (no hardcoded lists), robust installer for nested archives, enhanced progress reporting, and full Wayland support. Includes unified environment sensing, robust KDE dark theme detection, unified single-password prompts for TTY, advanced GNOME and KDE previews (Wayland/TTY), and standard-compliant logging.</p>

@@ -180,6 +180,18 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.0-2" date="2026-03-20">
+      <description>
+        <p>Fixed About dialog credits panel on KDE: the credits area now displays with an opaque dark background and square corners instead of transparent or rounded-corner artifacts. App icon standardized to 48×48 pixels.</p>
+        <p xml:lang="es">Corregido el panel de créditos del diálogo Acerca de en KDE: el área de créditos ahora se muestra con fondo oscuro opaco y esquinas rectas en lugar de artefactos transparentes o con esquinas redondeadas. Icono estandarizado a 48×48 píxeles.</p>
+        <p xml:lang="fr">Correction du panneau de crédits du dialogue À propos sous KDE : la zone de crédits s'affiche maintenant avec un fond sombre opaque et des coins carrés au lieu d'artefacts transparents ou arrondis. Icône standardisée à 48×48 pixels.</p>
+        <p xml:lang="pt">Corrigido o painel de créditos do diálogo Sobre no KDE: a área de créditos agora é exibida com fundo escuro opaco e cantos retos em vez de artefatos transparentes ou com cantos arredondados. Ícone padronizado para 48×48 pixels.</p>
+        <p xml:lang="de">Korrektur des Kredit-Panels im Über-Dialog unter KDE: Der Kredit-Bereich wird jetzt mit opakem dunklem Hintergrund und eckigen Ecken dargestellt statt transparenter oder gerundeter Artefakte. App-Symbol auf 48×48 Pixel standardisiert.</p>
+        <p xml:lang="it">Corretto il pannello crediti della finestra Info su KDE: l'area dei crediti ora mostra uno sfondo scuro opaco e angoli quadrati invece di artefatti trasparenti o con angoli arrotondati. Icona standardizzata a 48×48 pixel.</p>
+        <p xml:lang="ru">Исправлена панель авторов в диалоге «О программе» в KDE: область авторов теперь отображается с непрозрачным тёмным фоном и прямыми углами вместо прозрачных или скруглённых артефактов. Значок стандартизирован до 48×48 пикселей.</p>
+        <p xml:lang="ro">Corectat panoul de credite din dialogul Despre pe KDE: zona de credite se afișează acum cu fundal întunecat opac și colțuri drepte în loc de artefacte transparente sau cu colțuri rotunjite. Pictogramă standardizată la 48×48 pixeli.</p>
+      </description>
+    </release>
     <release version="1.0.0-1" date="2026-03-20">
       <description>
         <p>Initial release of Soplos Sys Cleaner.</p>
