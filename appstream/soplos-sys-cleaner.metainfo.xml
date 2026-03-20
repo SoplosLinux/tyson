@@ -180,7 +180,7 @@
   </screenshots>
 
   <releases>
-    <release version="1.0.0" date="2026-03-20">
+    <release version="1.0.0-1" date="2026-03-20">
       <description>
         <p>Initial release of Soplos Sys Cleaner.</p>
         <p xml:lang="es">Lanzamiento inicial de Soplos Sys Cleaner.</p>
@@ -382,6 +382,46 @@
           <li xml:lang="ru">Улучшено: fmt_size() вынесена в utils/constants.py, устранено дублирование в 6 файлах</li>
           <li xml:lang="ru">Улучшено: удалены дублирующиеся константы и неиспользуемые функции</li>
           <li xml:lang="ru">Улучшено: строки карточек обзора полностью переводимы на все 8 языков</li>
+
+          <li>Added Ctrl+Tab / Ctrl+Shift+Tab shortcuts to cycle between tabs</li>
+          <li>Added F1 shortcut to open the About dialog</li>
+          <li>Fixed: GNOME HeaderBar now displays with correct dark background</li>
+          <li>Fixed: GNOME CSD window controls no longer affected by global button CSS</li>
+
+          <li xml:lang="es">Añadidos atajos Ctrl+Tab / Ctrl+Shift+Tab para cambiar de pestaña</li>
+          <li xml:lang="es">Añadido atajo F1 para abrir el diálogo Acerca de</li>
+          <li xml:lang="es">Corregido: el HeaderBar en GNOME ahora muestra el fondo oscuro correcto</li>
+          <li xml:lang="es">Corregido: los controles CSD de GNOME ya no se ven afectados por el CSS global de botones</li>
+
+          <li xml:lang="fr">Ajout des raccourcis Ctrl+Tab / Ctrl+Shift+Tab pour naviguer entre les onglets</li>
+          <li xml:lang="fr">Ajout du raccourci F1 pour ouvrir la boîte de dialogue À propos</li>
+          <li xml:lang="fr">Corrigé : la HeaderBar sous GNOME affiche désormais le fond sombre correct</li>
+          <li xml:lang="fr">Corrigé : les contrôles CSD de GNOME ne sont plus affectés par le CSS global des boutons</li>
+
+          <li xml:lang="de">Tastaturkürzel Strg+Tab / Strg+Umschalt+Tab zum Wechseln zwischen Registerkarten hinzugefügt</li>
+          <li xml:lang="de">Tastaturkürzel F1 zum Öffnen des Über-Dialogs hinzugefügt</li>
+          <li xml:lang="de">Behoben: Die HeaderBar unter GNOME zeigt jetzt den korrekten dunklen Hintergrund</li>
+          <li xml:lang="de">Behoben: GNOME-CSD-Steuerelemente werden nicht mehr durch das globale Button-CSS beeinflusst</li>
+
+          <li xml:lang="pt">Adicionados atalhos Ctrl+Tab / Ctrl+Shift+Tab para navegar entre separadores</li>
+          <li xml:lang="pt">Adicionado atalho F1 para abrir o diálogo Sobre</li>
+          <li xml:lang="pt">Corrigido: a HeaderBar no GNOME apresenta agora o fundo escuro correto</li>
+          <li xml:lang="pt">Corrigido: os controlos CSD do GNOME já não são afetados pelo CSS global de botões</li>
+
+          <li xml:lang="it">Aggiunte scorciatoie Ctrl+Tab / Ctrl+Shift+Tab per navigare tra le schede</li>
+          <li xml:lang="it">Aggiunta scorciatoia F1 per aprire la finestra Info</li>
+          <li xml:lang="it">Corretto: la HeaderBar su GNOME ora mostra lo sfondo scuro corretto</li>
+          <li xml:lang="it">Corretto: i controlli CSD di GNOME non sono più influenzati dal CSS globale dei pulsanti</li>
+
+          <li xml:lang="ro">Adăugate comenzi rapide Ctrl+Tab / Ctrl+Shift+Tab pentru navigarea între file</li>
+          <li xml:lang="ro">Adăugată comanda rapidă F1 pentru deschiderea dialogului Despre</li>
+          <li xml:lang="ro">Rezolvat: HeaderBar-ul în GNOME afișează acum fundalul întunecat corect</li>
+          <li xml:lang="ro">Rezolvat: controalele CSD GNOME nu mai sunt afectate de CSS-ul global al butoanelor</li>
+
+          <li xml:lang="ru">Добавлены сочетания клавиш Ctrl+Tab / Ctrl+Shift+Tab для переключения между вкладками</li>
+          <li xml:lang="ru">Добавлено сочетание F1 для открытия диалога «О программе»</li>
+          <li xml:lang="ru">Исправлено: HeaderBar в GNOME теперь отображает правильный тёмный фон</li>
+          <li xml:lang="ru">Исправлено: элементы управления CSD GNOME больше не затронуты глобальным CSS кнопок</li>
         </ul>
       </description>
     </release>
