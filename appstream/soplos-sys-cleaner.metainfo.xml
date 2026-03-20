@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.soplos.sys-cleaner</id>
+  <pkgname>soplos-sys-cleaner</pkgname>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <project_group>org.soplos</project_group>
+  
+  <name>Soplos Sys Cleaner</name>
+  <name xml:lang="es">Soplos Limpiador del Sistema</name>
+  <name xml:lang="fr">Nettoyeur du système Soplos</name>
+  <name xml:lang="de">Soplos Systemreiniger</name>
+  <name xml:lang="pt">Soplos Limpador de Sistema</name>
+  <name xml:lang="it">Soplos Pulitore di Sistema</name>
+  <name xml:lang="ro">Curățătorul sistemului Soplos</name>
+  <name xml:lang="ru">Очиститель системы Soplos</name>
+
+  <summary>System cleaner and optimizer for Soplos Linux</summary>
+  <summary xml:lang="es">Limpiador y optimizador de sistema para Soplos Linux</summary>
+  <summary xml:lang="fr">Nettoyeur et optimiseur de système pour Soplos Linux</summary>
+  <summary xml:lang="de">Systemreiniger und Optimierer für Soplos Linux</summary>
+  <summary xml:lang="pt">Limpador e otimizador de sistema para Soplos Linux</summary>
+  <summary xml:lang="it">Pulitore e ottimizzatore di sistema per Soplos Linux</summary>
+  <summary xml:lang="ro">Curățător și optimizator de sistem pentru Soplos Linux</summary>
+  <summary xml:lang="ru">Очистка и оптимизация системы для Soplos Linux</summary>
+
+  <description>
+    <p>Soplos Sys Cleaner is an advanced system maintenance tool for Soplos Linux distributions. It safely removes unnecessary files, clears cache, uninstalls old kernels, and optimizes the system.</p>
+    <p xml:lang="es">Soplos Sys Cleaner es una herramienta avanzada de mantenimiento del sistema para distribuciones Soplos Linux. Elimina de forma segura archivos innecesarios, borra la caché, desinstala núcleos antiguos y optimiza el sistema.</p>
+    <p xml:lang="fr">Soplos Sys Cleaner est un outil de maintenance système avancé pour les distributions Linux Soplos. Il supprime en toute sécurité les fichiers inutiles, vide le cache, désinstalle les anciens noyaux et optimise le système.</p>
+    <p xml:lang="de">Soplos Sys Cleaner ist ein fortschrittliches Systemwartungstool für Soplos Linux-Distributionen. Es entfernt sicher unnötige Dateien, leert den Cache, deinstalliert alte Kernel und optimiert das System.</p>
+    <p xml:lang="pt">O Soplos Sys Cleaner é uma ferramenta avançada de manutenção do sistema para distribuições Soplos Linux. Ele remove com segurança arquivos desnecessários, limpa o cache, desinstala kernels antigos e otimiza o sistema.</p>
+    <p xml:lang="it">Soplos Sys Cleaner è uno strumento avanzato di manutenzione del sistema per le distribuzioni Linux Soplos. Rimuove in modo sicuro i file non necessari, cancella la cache, disinstalla i vecchi kernel e ottimizza il sistema.</p>
+    <p xml:lang="ro">Soplos Sys Cleaner este un instrument avansat de întreținere a sistemului pentru distribuțiile Linux Soplos. Elimină în siguranță fișierele inutile, golește memoria cache, dezinstalează vechile nuclee și optimizează sistemul.</p>
+    <p xml:lang="ru">Soplos Sys Cleaner — это усовершенствованный инструмент обслуживания системы для дистрибутивов Soplos Linux. Он безопасно удаляет ненужные файлы, очищает кэш, удаляет старые ядра и оптимизирует систему.</p>
+  </description>
+
+  <categories>
+    <category>Settings</category>
+    <category>System</category>
+    <category>Utility</category>
+    <category>GTK</category>
+  </categories>
+
+  <requires>
+    <display_length compare="ge">800</display_length>
+    <memory compare="ge">512</memory>
+  </requires>
+
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </recommends>
+
+  <keywords>
+    <keyword>cleaner</keyword>
+    <keyword>system</keyword>
+    <keyword>maintenance</keyword>
+    <keyword>soplos</keyword>
+    <keyword>optimizer</keyword>
+    <keyword xml:lang="es">limpiador</keyword>
+    <keyword xml:lang="es">sistema</keyword>
+    <keyword xml:lang="es">mantenimiento</keyword>
+    <keyword xml:lang="es">optimizador</keyword>
+    <keyword xml:lang="fr">nettoyeur</keyword>
+    <keyword xml:lang="fr">système</keyword>
+    <keyword xml:lang="fr">maintenance</keyword>
+    <keyword xml:lang="fr">optimiseur</keyword>
+    <keyword xml:lang="de">reiniger</keyword>
+    <keyword xml:lang="de">system</keyword>
+    <keyword xml:lang="de">wartung</keyword>
+    <keyword xml:lang="de">optimierer</keyword>
+    <keyword xml:lang="pt">limpador</keyword>
+    <keyword xml:lang="pt">sistema</keyword>
+    <keyword xml:lang="pt">manutenção</keyword>
+    <keyword xml:lang="pt">otimizador</keyword>
+    <keyword xml:lang="it">pulitore</keyword>
+    <keyword xml:lang="it">sistema</keyword>
+    <keyword xml:lang="it">manutenzione</keyword>
+    <keyword xml:lang="it">ottimizzatore</keyword>
+    <keyword xml:lang="ro">curățător</keyword>
+    <keyword xml:lang="ro">sistem</keyword>
+    <keyword xml:lang="ro">întreținere</keyword>
+    <keyword xml:lang="ro">optimizator</keyword>
+    <keyword xml:lang="ru">очиститель</keyword>
+    <keyword xml:lang="ru">система</keyword>
+    <keyword xml:lang="ru">обслуживание</keyword>
+    <keyword xml:lang="ru">оптимизатор</keyword>
+  </keywords>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot1.png</image>
+      <caption>Welcome screen and system analyzer</caption>
+      <caption xml:lang="es">Pantalla inicial y analizador del sistema</caption>
+      <caption xml:lang="fr">Écran de bienvenue et analyseur système</caption>
+      <caption xml:lang="de">Willkommensbildschirm und Systemanalysator</caption>
+      <caption xml:lang="pt">Ecrã de boas-vindas e analisador de sistema</caption>
+      <caption xml:lang="it">Schermata di benvenuto e analizzatore di sistema</caption>
+      <caption xml:lang="ro">Ecran de bun venit și analizor de sistem</caption>
+      <caption xml:lang="ru">Экран приветствия и анализатор системы</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot2.png</image>
+      <caption>Scan results summary</caption>
+      <caption xml:lang="es">Resumen de resultados del escaneo</caption>
+      <caption xml:lang="fr">Résumé des résultats d'analyse</caption>
+      <caption xml:lang="de">Zusammenfassung der Scan-Ergebnisse</caption>
+      <caption xml:lang="pt">Resumo dos resultados da verificação</caption>
+      <caption xml:lang="it">Riepilogo dei risultati della scansione</caption>
+      <caption xml:lang="ro">Rezumatul rezultatelor scanării</caption>
+      <caption xml:lang="ru">Сводка результатов сканирования</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot3.png</image>
+      <caption>Unnecessary GPU drivers selection</caption>
+      <caption xml:lang="es">Selección de drivers de GPU innecesarios</caption>
+      <caption xml:lang="fr">Sélection des pilotes GPU inutiles</caption>
+      <caption xml:lang="de">Auswahl unnötiger GPU-Treiber</caption>
+      <caption xml:lang="pt">Seleção de drivers de GPU desnecessários</caption>
+      <caption xml:lang="it">Selezione dei driver GPU non necessari</caption>
+      <caption xml:lang="ro">Selecția driverelor GPU inutile</caption>
+      <caption xml:lang="ru">Выбор ненужных драйверов GPU</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot4.png</image>
+      <caption>Removable firmware families</caption>
+      <caption xml:lang="es">Familias de firmware extraíbles</caption>
+      <caption xml:lang="fr">Familles de micrologiciels amovibles</caption>
+      <caption xml:lang="de">Entfernbare Firmware-Familien</caption>
+      <caption xml:lang="pt">Famílias de firmware removíveis</caption>
+      <caption xml:lang="it">Famiglie di firmware rimovibili</caption>
+      <caption xml:lang="ro">Familii de firmware detașabile</caption>
+      <caption xml:lang="ru">Съёмные семейства микропрограмм</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot5.png</image>
+      <caption>Installed kernels management</caption>
+      <caption xml:lang="es">Gestión de kernels instalados</caption>
+      <caption xml:lang="fr">Gestion des noyaux installés</caption>
+      <caption xml:lang="de">Verwaltung installierter Kernel</caption>
+      <caption xml:lang="pt">Gestão de kernels instalados</caption>
+      <caption xml:lang="it">Gestione dei kernel installati</caption>
+      <caption xml:lang="ro">Gestionarea nucleelor instalate</caption>
+      <caption xml:lang="ru">Управление установленными ядрами</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot6.png</image>
+      <caption>Languages and documentation cleanup</caption>
+      <caption xml:lang="es">Limpieza de idiomas y documentación</caption>
+      <caption xml:lang="fr">Nettoyage des langues et de la documentation</caption>
+      <caption xml:lang="de">Bereinigung von Sprachen und Dokumentation</caption>
+      <caption xml:lang="pt">Limpeza de idiomas e documentação</caption>
+      <caption xml:lang="it">Pulizia di lingue e documentazione</caption>
+      <caption xml:lang="ro">Curățarea limbilor și documentației</caption>
+      <caption xml:lang="ru">Очистка языков и документации</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot7.png</image>
+      <caption>APT cache and orphaned packages cleanup</caption>
+      <caption xml:lang="es">Limpieza de caché de APT y paquetes huérfanos</caption>
+      <caption xml:lang="fr">Nettoyage du cache APT et des paquets orphelins</caption>
+      <caption xml:lang="de">Bereinigung von APT-Cache und verwaisten Paketen</caption>
+      <caption xml:lang="pt">Limpeza de cache APT e pacotes órfãos</caption>
+      <caption xml:lang="it">Pulizia della cache APT e dei pacchetti orfani</caption>
+      <caption xml:lang="ro">Curățarea memoriei cache APT și a pachetelor orfane</caption>
+      <caption xml:lang="ru">Очистка кэша APT и потерянных пакетов</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot8.png</image>
+      <caption>Temporary files cleanup planner</caption>
+      <caption xml:lang="es">Limpieza de archivos temporales</caption>
+      <caption xml:lang="fr">Planificateur de nettoyage des fichiers temporaires</caption>
+      <caption xml:lang="de">Planer für die Bereinigung temporärer Dateien</caption>
+      <caption xml:lang="pt">Planeador de limpeza de ficheiros temporários</caption>
+      <caption xml:lang="it">Pianificatore per la pulizia dei file temporanei</caption>
+      <caption xml:lang="ro">Planificator pentru curățarea fișierelor temporare</caption>
+      <caption xml:lang="ru">Планировщик очистки временных файлов</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="1.0.0" date="2026-03-20">
+      <description>
+        <p>Initial release of Soplos Sys Cleaner.</p>
+        <p xml:lang="es">Lanzamiento inicial de Soplos Sys Cleaner.</p>
+        <p xml:lang="fr">Sortie initiale de Soplos Sys Cleaner.</p>
+        <p xml:lang="de">Erste Version von Soplos Sys Cleaner.</p>
+        <p xml:lang="pt">Lançamento inicial do Soplos Sys Cleaner.</p>
+        <p xml:lang="it">Rilascio iniziale di Soplos Sys Cleaner.</p>
+        <p xml:lang="ro">Versiunea inițială a Soplos Sys Cleaner.</p>
+        <p xml:lang="ru">Первоначальный выпуск Soplos Sys Cleaner.</p>
+        <ul>
+          <li>Advanced GPU drivers and firmware cleanup tailored for Soplos Linux</li>
+          <li>Old kernel removal with direct initramfs integration (dracut.conf.d/soplos.conf)</li>
+          <li>System cache and temporary files cleaning</li>
+          <li>Recursive __pycache__ cleaning support</li>
+          <li>New intelligent cleanup tab for locales and translations</li>
+          <li>Professional HeaderBar matching WebApp Manager</li>
+          <li>Extended hardware monitoring (Temperature, GPU, Disk)</li>
+          <li>Native UI fitting the Soplos v2.0 standard across all desktop environments</li>
+          <li>Available in 8 languages</li>
+
+          <li xml:lang="es">Limpieza avanzada de drivers GPU y firmware adaptada para Soplos Linux</li>
+          <li xml:lang="es">Eliminación de kernels antiguos con integración directa en initramfs (dracut.conf.d/soplos.conf)</li>
+          <li xml:lang="es">Limpieza de caché del sistema y archivos temporales</li>
+          <li xml:lang="es">Soporte para limpieza recursiva de __pycache__</li>
+          <li xml:lang="es">Nueva pestaña de limpieza inteligente para locales y traducciones</li>
+          <li xml:lang="es">HeaderBar profesional a juego con WebApp Manager</li>
+          <li xml:lang="es">Monitoreo de hardware extendido (Temperatura, GPU, Disco)</li>
+          <li xml:lang="es">Interfaz nativa adaptada al estándar v2.0 de Soplos en todos los entornos de escritorio</li>
+          <li xml:lang="es">Disponible en 8 idiomas</li>
+
+          <li xml:lang="fr">Nettoyage avancé des pilotes GPU et micrologiciels adapté pour Soplos Linux</li>
+          <li xml:lang="fr">Suppression d'anciens noyaux avec intégration directe dans initramfs (dracut.conf.d/soplos.conf)</li>
+          <li xml:lang="fr">Nettoyage du cache système et des fichiers temporaires</li>
+          <li xml:lang="fr">Support de nettoyage récursif __pycache__</li>
+          <li xml:lang="fr">Nouvel onglet de nettoyage intelligent des locales et des traductions</li>
+          <li xml:lang="fr">HeaderBar professionnelle assortie à WebApp Manager</li>
+          <li xml:lang="fr">Surveillance matérielle étendue (Température, GPU, Disque)</li>
+          <li xml:lang="fr">Interface utilisateur native adaptée à la norme Soplos v2.0 dans tous les environnements de bureau</li>
+          <li xml:lang="fr">Disponible en 8 langues</li>
+
+          <li xml:lang="de">Erweiterte Bereinigung von GPU-Treibern und Firmware, maßgeschneidert für Soplos Linux</li>
+          <li xml:lang="de">Entfernung alter Kernel mit direkter initramfs-Integration (dracut.conf.d/soplos.conf)</li>
+          <li xml:lang="de">Bereinigung von System-Cache und temporären Dateien</li>
+          <li xml:lang="de">Unterstützung für rekursive __pycache__-Bereinigung</li>
+          <li xml:lang="de">Neue intelligente Registerkarte zur Bereinigung von Gebietsschemata und Übersetzungen</li>
+          <li xml:lang="de">Professionelle HeaderBar passend zum WebApp Manager</li>
+          <li xml:lang="de">Erweiterte Hardware-Überwachung (Temperatur, GPU, Festplatte)</li>
+          <li xml:lang="de">Native Benutzeroberfläche nach dem Soplos v2.0-Standard in allen Desktop-Umgebungen</li>
+          <li xml:lang="de">Verfügbar in 8 Sprachen</li>
+
+          <li xml:lang="pt">Limpeza avançada de drivers GPU e firmware adaptada para o Soplos Linux</li>
+          <li xml:lang="pt">Remoção de kernels antigos com integração direta no initramfs (dracut.conf.d/soplos.conf)</li>
+          <li xml:lang="pt">Limpeza de cache do sistema e ficheiros temporários</li>
+          <li xml:lang="pt">Suporte para limpeza recursiva de __pycache__</li>
+          <li xml:lang="pt">Nova aba de limpeza inteligente para idiomas e traduções</li>
+          <li xml:lang="pt">HeaderBar profissional combinando com o WebApp Manager</li>
+          <li xml:lang="pt">Monitoramento de hardware estendido (Temperatura, GPU, Disco)</li>
+          <li xml:lang="pt">Interface nativa adaptada ao padrão v2.0 do Soplos em todos os ambientes de trabalho</li>
+          <li xml:lang="pt">Disponível em 8 idiomas</li>
+
+          <li xml:lang="it">Pulizia avanzata di driver GPU e firmware adattata per Soplos Linux</li>
+          <li xml:lang="it">Rimozione di vecchi kernel con integrazione diretta in initramfs (dracut.conf.d/soplos.conf)</li>
+          <li xml:lang="it">Pulizia della cache di sistema e dei file temporanei</li>
+          <li xml:lang="it">Supporto per la pulizia ricorsiva di __pycache__</li>
+          <li xml:lang="it">Nuova scheda di pulizia intelligente per impostazioni locali e traduzioni</li>
+          <li xml:lang="it">HeaderBar professionale abbinata a WebApp Manager</li>
+          <li xml:lang="it">Monitoraggio hardware esteso (Temperatura, GPU, Disco)</li>
+          <li xml:lang="it">Interfaccia nativa adattata allo standard v2.0 di Soplos in tutti gli ambienti desktop</li>
+          <li xml:lang="it">Disponibile in 8 lingue</li>
+
+          <li xml:lang="ro">Curățare avansată a driverelor GPU și a firmware-ului adaptată pentru Soplos Linux</li>
+          <li xml:lang="ro">Eliminarea kernel-urilor vechi cu integrare directă în initramfs (dracut.conf.d/soplos.conf)</li>
+          <li xml:lang="ro">Curățarea cache-ului sistemului și a fișierelor temporare</li>
+          <li xml:lang="ro">Suport pentru curățarea recursivă __pycache__</li>
+          <li xml:lang="ro">Filă nouă de curățare inteligentă pentru localizări și traduceri</li>
+          <li xml:lang="ro">HeaderBar profesional asortat cu WebApp Manager</li>
+          <li xml:lang="ro">Monitorizare hardware extinsă (Temperatură, GPU, Disc)</li>
+          <li xml:lang="ro">Interfață nativă adaptată la standardul v2.0 Soplos în toate mediile desktop</li>
+          <li xml:lang="ro">Disponibil în 8 limbi</li>
+
+          <li xml:lang="ru">Расширенная очистка драйверов GPU и прошивок, адаптированная для Soplos Linux</li>
+          <li xml:lang="ru">Удаление старых ядер с прямой интеграцией в initramfs (dracut.conf.d/soplos.conf)</li>
+          <li xml:lang="ru">Очистка системного кэша и временных файлов</li>
+          <li xml:lang="ru">Рекурсивная очистка __pycache__</li>
+          <li xml:lang="ru">Новая вкладка интеллектуальной очистки локалей и переводов</li>
+          <li xml:lang="ru">Профессиональный заголовок (HeaderBar), как в WebApp Manager</li>
+          <li xml:lang="ru">Расширенный мониторинг оборудования (Температура, GPU, Диск)</li>
+          <li xml:lang="ru">Нативный интерфейс по стандарту Soplos v2.0 для всех рабочих сред</li>
+          <li xml:lang="ru">Доступно на 8 языках</li>
+
+          <li>Added keyboard shortcuts: Ctrl+W to close, Ctrl+R to rescan, Ctrl+1–7 for tab navigation</li>
+          <li>Scan icon in Overview tab enlarged to 128px for better visibility</li>
+          <li>Fixed: action buttons now re-enable after failed or cancelled operations</li>
+          <li>Fixed: progress bar now closes after kernel cleanup completes</li>
+          <li>Fixed: translatable strings in GPU Drivers and Firmware tabs corrected to English</li>
+          <li>Fixed: socket files and symlinks excluded from Temp Files scanner</li>
+          <li>Fixed: temp file deletion uses pkexec fallback for root-owned files</li>
+          <li>Fixed: APT Cache scanner now includes package lists size</li>
+          <li>Fixed: Languages tab uses lazy loading to prevent post-scan UI freeze</li>
+          <li>Fixed: system usage metrics timer moved to background thread</li>
+          <li>Improved: fmt_size() consolidated in utils/constants.py, eliminating duplication across 6 files</li>
+          <li>Improved: duplicate constants and unused functions removed</li>
+          <li>Improved: Overview card strings fully translatable in all 8 languages</li>
+
+          <li xml:lang="es">Atajos de teclado añadidos: Ctrl+W para cerrar, Ctrl+R para reescanear, Ctrl+1–7 para navegar entre pestañas</li>
+          <li xml:lang="es">Icono de escaneo en la pestaña General ampliado a 128px para mayor visibilidad</li>
+          <li xml:lang="es">Corregido: los botones de acción se reactivan tras operaciones fallidas o canceladas</li>
+          <li xml:lang="es">Corregido: la barra de progreso se cierra tras completar la limpieza de kernels</li>
+          <li xml:lang="es">Corregido: textos traducibles en las pestañas de Drivers GPU y Firmware corregidos a inglés</li>
+          <li xml:lang="es">Corregido: archivos de socket y enlaces simbólicos excluidos del escáner de archivos temporales</li>
+          <li xml:lang="es">Corregido: eliminación de temporales usa pkexec para archivos de root</li>
+          <li xml:lang="es">Corregido: la caché APT ahora incluye el tamaño de las listas de paquetes</li>
+          <li xml:lang="es">Corregido: pestaña Idiomas usa carga diferida para evitar el freeze post-escaneo</li>
+          <li xml:lang="es">Corregido: métricas del sistema movidas a hilo en segundo plano</li>
+          <li xml:lang="es">Mejorado: fmt_size() consolidada en utils/constants.py, eliminando duplicación en 6 archivos</li>
+          <li xml:lang="es">Mejorado: constantes duplicadas y funciones sin uso eliminadas</li>
+          <li xml:lang="es">Mejorado: cadenas de las tarjetas del Resumen totalmente traducibles en los 8 idiomas</li>
+
+          <li xml:lang="fr">Raccourcis clavier ajoutés : Ctrl+W pour fermer, Ctrl+R pour relancer l'analyse, Ctrl+1–7 pour naviguer entre les onglets</li>
+          <li xml:lang="fr">Icône d'analyse dans l'onglet Aperçu agrandie à 128px pour une meilleure visibilité</li>
+          <li xml:lang="fr">Corrigé : les boutons d'action se réactivent après des opérations échouées ou annulées</li>
+          <li xml:lang="fr">Corrigé : la barre de progression se ferme après la fin du nettoyage du noyau</li>
+          <li xml:lang="fr">Corrigé : les chaînes traduisibles dans les onglets Pilotes GPU et Micrologiciel corrigées en anglais</li>
+          <li xml:lang="fr">Corrigé : fichiers socket et liens symboliques exclus du scanner de fichiers temporaires</li>
+          <li xml:lang="fr">Corrigé : suppression des temporaires utilise pkexec pour les fichiers root</li>
+          <li xml:lang="fr">Corrigé : le cache APT inclut désormais la taille des listes de paquets</li>
+          <li xml:lang="fr">Corrigé : l'onglet Langues utilise le chargement différé pour éviter le gel post-analyse</li>
+          <li xml:lang="fr">Corrigé : métriques système déplacées dans un thread d'arrière-plan</li>
+          <li xml:lang="fr">Amélioré : fmt_size() consolidée dans utils/constants.py, supprimant la duplication dans 6 fichiers</li>
+          <li xml:lang="fr">Amélioré : constantes dupliquées et fonctions inutilisées supprimées</li>
+          <li xml:lang="fr">Amélioré : chaînes des cartes de la vue d'ensemble entièrement traduisibles dans les 8 langues</li>
+
+          <li xml:lang="de">Tastaturkürzel hinzugefügt: Strg+W zum Schließen, Strg+R zum erneuten Scannen, Strg+1–7 zur Tab-Navigation</li>
+          <li xml:lang="de">Scan-Symbol auf der Übersicht-Registerkarte auf 128px vergrößert für bessere Sichtbarkeit</li>
+          <li xml:lang="de">Behoben: Aktionsschaltflächen werden nach fehlgeschlagenen oder abgebrochenen Vorgängen wieder aktiviert</li>
+          <li xml:lang="de">Behoben: Die Fortschrittsleiste schließt sich nach abgeschlossener Kernel-Bereinigung</li>
+          <li xml:lang="de">Behoben: Übersetzbare Zeichenfolgen in GPU-Treiber- und Firmware-Registerkarten auf Englisch korrigiert</li>
+          <li xml:lang="de">Behoben: Socket-Dateien und Symlinks vom Temp-Scanner ausgeschlossen</li>
+          <li xml:lang="de">Behoben: Temp-Löschung nutzt pkexec-Fallback für Root-Dateien</li>
+          <li xml:lang="de">Behoben: APT-Cache-Scanner enthält jetzt die Größe der Paketlisten</li>
+          <li xml:lang="de">Behoben: Sprachen-Registerkarte verwendet Lazy Loading zur Vermeidung von UI-Hänger nach dem Scan</li>
+          <li xml:lang="de">Behoben: Systemmetriken in Hintergrund-Thread verschoben</li>
+          <li xml:lang="de">Verbessert: fmt_size() in utils/constants.py konsolidiert, Duplizierung in 6 Dateien beseitigt</li>
+          <li xml:lang="de">Verbessert: Doppelte Konstanten und ungenutzte Funktionen entfernt</li>
+          <li xml:lang="de">Verbessert: Übersichtskarten-Strings in allen 8 Sprachen vollständig übersetzbar</li>
+
+          <li xml:lang="pt">Atalhos de teclado adicionados: Ctrl+W para fechar, Ctrl+R para reescanear, Ctrl+1–7 para navegar entre separadores</li>
+          <li xml:lang="pt">Ícone de análise no separador Visão Geral aumentado para 128px para maior visibilidade</li>
+          <li xml:lang="pt">Corrigido: os botões de ação voltam a ficar ativos após operações falhadas ou canceladas</li>
+          <li xml:lang="pt">Corrigido: a barra de progresso fecha após a conclusão da limpeza de kernels</li>
+          <li xml:lang="pt">Corrigido: textos traduzíveis nos separadores Drivers GPU e Firmware corrigidos para inglês</li>
+          <li xml:lang="pt">Corrigido: ficheiros socket e links simbólicos excluídos do scanner de ficheiros temporários</li>
+          <li xml:lang="pt">Corrigido: eliminação de temporários usa pkexec para ficheiros root</li>
+          <li xml:lang="pt">Corrigido: cache APT inclui agora o tamanho das listas de pacotes</li>
+          <li xml:lang="pt">Corrigido: separador Idiomas usa carregamento diferido para evitar freeze pós-análise</li>
+          <li xml:lang="pt">Corrigido: métricas do sistema movidas para thread em segundo plano</li>
+          <li xml:lang="pt">Melhorado: fmt_size() consolidada em utils/constants.py, eliminando duplicação em 6 ficheiros</li>
+          <li xml:lang="pt">Melhorado: constantes duplicadas e funções sem uso removidas</li>
+          <li xml:lang="pt">Melhorado: strings dos cartões da visão geral totalmente traduzíveis nos 8 idiomas</li>
+
+          <li xml:lang="it">Scorciatoie da tastiera aggiunte: Ctrl+W per chiudere, Ctrl+R per ripetere la scansione, Ctrl+1–7 per navigare tra le schede</li>
+          <li xml:lang="it">Icona di scansione nella scheda Panoramica ingrandita a 128px per una migliore visibilità</li>
+          <li xml:lang="it">Corretto: i pulsanti di azione si riattivano dopo operazioni non riuscite o annullate</li>
+          <li xml:lang="it">Corretto: la barra di avanzamento si chiude al termine della pulizia del kernel</li>
+          <li xml:lang="it">Corretto: le stringhe traducibili nelle schede Driver GPU e Firmware corrette in inglese</li>
+          <li xml:lang="it">Corretto: file socket e link simbolici esclusi dallo scanner dei file temporanei</li>
+          <li xml:lang="it">Corretto: eliminazione temporanei usa pkexec per file di root</li>
+          <li xml:lang="it">Corretto: cache APT include ora la dimensione delle liste pacchetti</li>
+          <li xml:lang="it">Corretto: scheda Lingue usa caricamento lazy per evitare freeze post-scansione</li>
+          <li xml:lang="it">Corretto: metriche di sistema spostate in thread in background</li>
+          <li xml:lang="it">Migliorato: fmt_size() consolidata in utils/constants.py, eliminando la duplicazione in 6 file</li>
+          <li xml:lang="it">Migliorato: costanti duplicate e funzioni inutilizzate rimosse</li>
+          <li xml:lang="it">Migliorato: stringhe delle schede panoramica completamente traducibili in tutte le 8 lingue</li>
+
+          <li xml:lang="ro">Comenzi rapide adăugate: Ctrl+W pentru închidere, Ctrl+R pentru rescanare, Ctrl+1–7 pentru navigarea între file</li>
+          <li xml:lang="ro">Pictograma de scanare din fila Prezentare generală mărită la 128px pentru o mai bună vizibilitate</li>
+          <li xml:lang="ro">Rezolvat: butoanele de acțiune se reactivează după operațiuni eșuate sau anulate</li>
+          <li xml:lang="ro">Rezolvat: bara de progres se închide după finalizarea curățării kernel-ului</li>
+          <li xml:lang="ro">Rezolvat: șirurile traductibile din filele Drivere GPU și Firmware corectate în engleză</li>
+          <li xml:lang="ro">Rezolvat: fișierele socket și legăturile simbolice excluse din scanerul de fișiere temporare</li>
+          <li xml:lang="ro">Rezolvat: ștergerea temporarelor folosește pkexec pentru fișierele root</li>
+          <li xml:lang="ro">Rezolvat: cache-ul APT include acum dimensiunea listelor de pachete</li>
+          <li xml:lang="ro">Rezolvat: fila Limbi folosește încărcare leneșă pentru a preveni înghețarea după scanare</li>
+          <li xml:lang="ro">Rezolvat: metricile sistemului mutate într-un fir de fundal</li>
+          <li xml:lang="ro">Îmbunătățit: fmt_size() consolidată în utils/constants.py, eliminând duplicarea în 6 fișiere</li>
+          <li xml:lang="ro">Îmbunătățit: constante duplicate și funcții neutilizate eliminate</li>
+          <li xml:lang="ro">Îmbunătățit: șirurile cardurilor din prezentarea generală complet traductibile în toate cele 8 limbi</li>
+
+          <li xml:lang="ru">Добавлены сочетания клавиш: Ctrl+W — закрыть, Ctrl+R — повторить сканирование, Ctrl+1–7 — навигация по вкладкам</li>
+          <li xml:lang="ru">Значок сканирования на вкладке «Обзор» увеличен до 128px для лучшей видимости</li>
+          <li xml:lang="ru">Исправлено: кнопки действий снова активируются после неудачных или отменённых операций</li>
+          <li xml:lang="ru">Исправлено: полоса прогресса закрывается после завершения очистки ядер</li>
+          <li xml:lang="ru">Исправлено: переводимые строки во вкладках «Драйверы GPU» и «Прошивки» исправлены на английский</li>
+          <li xml:lang="ru">Исправлено: файлы сокетов и символические ссылки исключены из сканера временных файлов</li>
+          <li xml:lang="ru">Исправлено: удаление временных файлов использует pkexec для файлов root</li>
+          <li xml:lang="ru">Исправлено: сканер кэша APT теперь учитывает размер списков пакетов</li>
+          <li xml:lang="ru">Исправлено: вкладка «Языки» использует отложенную загрузку для предотвращения зависания после сканирования</li>
+          <li xml:lang="ru">Исправлено: метрики системы перенесены в фоновый поток</li>
+          <li xml:lang="ru">Улучшено: fmt_size() вынесена в utils/constants.py, устранено дублирование в 6 файлах</li>
+          <li xml:lang="ru">Улучшено: удалены дублирующиеся константы и неиспользуемые функции</li>
+          <li xml:lang="ru">Улучшено: строки карточек обзора полностью переводимы на все 8 языков</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+</component>

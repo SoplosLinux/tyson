@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260318T140418
+Time: 20260320T055039
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1231,6 +1231,242 @@ Releases:
       it: Versione iniziale
       ru: Начальная версия
       ro: Versiune inițială
+Component: main
+---
+Type: desktop-application
+ID: org.soplos.sys-cleaner
+ProjectLicense: GPL-3.0+
+Package: soplos-sys-cleaner
+Name:
+  C: Soplos Sys Cleaner
+  es: Soplos Limpiador del Sistema
+  fr: Nettoyeur du système Soplos
+  de: Soplos Systemreiniger
+  pt: Soplos Limpador de Sistema
+  it: Soplos Pulitore di Sistema
+  ro: Curățătorul sistemului Soplos
+  ru: Очиститель системы Soplos
+Summary:
+  C: System cleaner and optimizer for Soplos Linux
+  es: Limpiador y optimizador de sistema para Soplos Linux
+  fr: Nettoyeur et optimiseur de système pour Soplos Linux
+  de: Systemreiniger und Optimierer für Soplos Linux
+  pt: Limpador e otimizador de sistema para Soplos Linux
+  it: Pulitore e ottimizzatore di sistema per Soplos Linux
+  ro: Curățător și optimizator de sistem pentru Soplos Linux
+  ru: Очистка и оптимизация системы для Soplos Linux
+Description:
+  C: |-
+    <p>Soplos Sys Cleaner is an advanced system maintenance tool for Soplos Linux distributions. It safely removes unnecessary files, clears cache, uninstalls old kernels, and optimizes the system.</p>
+  es: |-
+    <p>Soplos Sys Cleaner es una herramienta avanzada de mantenimiento del sistema para distribuciones Soplos Linux. Elimina de forma segura archivos innecesarios, borra la caché, desinstala núcleos antiguos y optimiza el sistema.</p>
+  fr: |-
+    <p>Soplos Sys Cleaner est un outil de maintenance système avancé pour les distributions Linux Soplos. Il supprime en toute sécurité les fichiers inutiles, vide le cache, désinstalle les anciens noyaux et optimise le système.</p>
+  de: |-
+    <p>Soplos Sys Cleaner ist ein fortschrittliches Systemwartungstool für Soplos Linux-Distributionen. Es entfernt sicher unnötige Dateien, leert den Cache, deinstalliert alte Kernel und optimiert das System.</p>
+  pt: |-
+    <p>O Soplos Sys Cleaner é uma ferramenta avançada de manutenção do sistema para distribuições Soplos Linux. Ele remove com segurança arquivos desnecessários, limpa o cache, desinstala kernels antigos e otimiza o sistema.</p>
+  it: |-
+    <p>Soplos Sys Cleaner è uno strumento avanzato di manutenzione del sistema per le distribuzioni Linux Soplos. Rimuove in modo sicuro i file non necessari, cancella la cache, disinstalla i vecchi kernel e ottimizza il sistema.</p>
+  ro: |-
+    <p>Soplos Sys Cleaner este un instrument avansat de întreținere a sistemului pentru distribuțiile Linux Soplos. Elimină în siguranță fișierele inutile, golește memoria cache, dezinstalează vechile nuclee și optimizează sistemul.</p>
+  ru: |-
+    <p>Soplos Sys Cleaner — это усовершенствованный инструмент обслуживания системы для дистрибутивов Soplos Linux. Он безопасно удаляет ненужные файлы, очищает кэш, удаляет старые ядра и оптимизирует систему.</p>
+Keywords:
+  C:
+    - cleaner
+    - system
+    - maintenance
+    - soplos
+    - optimizer
+  es:
+    - limpiador
+    - sistema
+    - mantenimiento
+    - optimizador
+  fr:
+    - nettoyeur
+    - système
+    - maintenance
+    - optimiseur
+  de:
+    - reiniger
+    - system
+    - wartung
+    - optimierer
+  pt:
+    - limpador
+    - sistema
+    - manutenção
+    - otimizador
+  it:
+    - pulitore
+    - sistema
+    - manutenzione
+    - ottimizzatore
+  ro:
+    - curățător
+    - sistem
+    - întreținere
+    - optimizator
+  ru:
+    - очиститель
+    - система
+    - обслуживание
+    - оптимизатор
+Categories:
+  - Settings
+  - System
+  - Utility
+  - GTK
+Icon:
+  cached:
+    - name: org.soplos.sys-cleaner.png
+      width: 48
+      height: 48
+    - name: org.soplos.sys-cleaner.png
+      width: 64
+      height: 64
+    - name: org.soplos.sys-cleaner.png
+      width: 128
+      height: 128
+  remote:
+    - url: soplos-sys-cleaner/icons/48x48/org.soplos.sys-cleaner.png
+      width: 48
+      height: 48
+    - url: soplos-sys-cleaner/icons/64x64/org.soplos.sys-cleaner.png
+      width: 64
+      height: 64
+    - url: soplos-sys-cleaner/icons/128x128/org.soplos.sys-cleaner.png
+      width: 128
+      height: 128
+Screenshots:
+  - default: true
+    caption:
+      C: Welcome screen and system analyzer
+      es: Pantalla inicial y analizador del sistema
+      fr: Écran de bienvenue et analyseur système
+      de: Willkommensbildschirm und Systemanalysator
+      pt: Ecrã de boas-vindas e analisador de sistema
+      it: Schermata di benvenuto e analizzatore di sistema
+      ro: Ecran de bun venit și analizor de sistem
+      ru: Экран приветствия и анализатор системы
+    source-image:
+      url: soplos-sys-cleaner/screenshots/screenshot1.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Scan results summary
+      es: Resumen de resultados del escaneo
+      fr: Résumé des résultats d'analyse
+      de: Zusammenfassung der Scan-Ergebnisse
+      pt: Resumo dos resultados da verificação
+      it: Riepilogo dei risultati della scansione
+      ro: Rezumatul rezultatelor scanării
+      ru: Сводка результатов сканирования
+    source-image:
+      url: soplos-sys-cleaner/screenshots/screenshot2.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Unnecessary GPU drivers selection
+      es: Selección de drivers de GPU innecesarios
+      fr: Sélection des pilotes GPU inutiles
+      de: Auswahl unnötiger GPU-Treiber
+      pt: Seleção de drivers de GPU desnecessários
+      it: Selezione dei driver GPU non necessari
+      ro: Selecția driverelor GPU inutile
+      ru: Выбор ненужных драйверов GPU
+    source-image:
+      url: soplos-sys-cleaner/screenshots/screenshot3.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Removable firmware families
+      es: Familias de firmware extraíbles
+      fr: Familles de micrologiciels amovibles
+      de: Entfernbare Firmware-Familien
+      pt: Famílias de firmware removíveis
+      it: Famiglie di firmware rimovibili
+      ro: Familii de firmware detașabile
+      ru: Съёмные семейства микропрограмм
+    source-image:
+      url: soplos-sys-cleaner/screenshots/screenshot4.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Installed kernels management
+      es: Gestión de kernels instalados
+      fr: Gestion des noyaux installés
+      de: Verwaltung installierter Kernel
+      pt: Gestão de kernels instalados
+      it: Gestione dei kernel installati
+      ro: Gestionarea nucleelor instalate
+      ru: Управление установленными ядрами
+    source-image:
+      url: soplos-sys-cleaner/screenshots/screenshot5.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Languages and documentation cleanup
+      es: Limpieza de idiomas y documentación
+      fr: Nettoyage des langues et de la documentation
+      de: Bereinigung von Sprachen und Dokumentation
+      pt: Limpeza de idiomas e documentação
+      it: Pulizia di lingue e documentazione
+      ro: Curățarea limbilor și documentației
+      ru: Очистка языков и документации
+    source-image:
+      url: soplos-sys-cleaner/screenshots/screenshot6.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: APT cache and orphaned packages cleanup
+      es: Limpieza de caché de APT y paquetes huérfanos
+      fr: Nettoyage du cache APT et des paquets orphelins
+      de: Bereinigung von APT-Cache und verwaisten Paketen
+      pt: Limpeza de cache APT e pacotes órfãos
+      it: Pulizia della cache APT e dei pacchetti orfani
+      ro: Curățarea memoriei cache APT și a pachetelor orfane
+      ru: Очистка кэша APT и потерянных пакетов
+    source-image:
+      url: soplos-sys-cleaner/screenshots/screenshot7.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Temporary files cleanup planner
+      es: Limpieza de archivos temporales
+      fr: Planificateur de nettoyage des fichiers temporaires
+      de: Planer für die Bereinigung temporärer Dateien
+      pt: Planeador de limpeza de ficheiros temporários
+      it: Pianificatore per la pulizia dei file temporanei
+      ro: Planificator pentru curățarea fișierelor temporare
+      ru: Планировщик очистки временных файлов
+    source-image:
+      url: soplos-sys-cleaner/screenshots/screenshot8.png
+      width: 1920
+      height: 1080
+      type: image/png
+Releases:
+  - version: 1.0.0
+    date: '2026-03-20'
+    type: stable
+    description:
+      C: Initial release of Soplos Sys Cleaner.
+      es: Lanzamiento inicial de Soplos Sys Cleaner.
+      fr: Sortie initiale de Soplos Sys Cleaner.
+      de: Erste Version von Soplos Sys Cleaner.
+      pt: Lançamento inicial do Soplos Sys Cleaner.
+      it: Rilascio iniziale di Soplos Sys Cleaner.
+      ro: Versiunea inițială a Soplos Sys Cleaner.
+      ru: Первоначальный выпуск Soplos Sys Cleaner.
 Component: main
 ---
 Type: desktop-application
