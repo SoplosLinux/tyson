@@ -217,6 +217,64 @@
   </provides>
 
   <releases>
+    <release version="2.0.2-1" date="2026-03-21">
+      <description>
+        <p>About dialog, F1 shortcut, CSS architecture refactor, icon renaming and minor fixes.</p>
+        <p xml:lang="es">Diálogo Acerca de, atajo F1, refactorización CSS, renombrado de iconos y correcciones menores.</p>
+        <p xml:lang="fr">Dialogue À propos, raccourci F1, refactorisation CSS, renommage des icônes et corrections mineures.</p>
+        <p xml:lang="pt">Diálogo Sobre, atalho F1, refatoração CSS, renomeação de ícones e pequenas correções.</p>
+        <p xml:lang="de">Über-Dialog, F1-Tastenkürzel, CSS-Refactoring, Umbenennung von Icons und kleinere Korrekturen.</p>
+        <p xml:lang="it">Finestra di dialogo Informazioni, scorciatoia F1, refactoring CSS, rinominazione icone e correzioni minori.</p>
+        <p xml:lang="ru">Диалог «О программе», горячая клавиша F1, рефакторинг CSS, переименование иконок и незначительные исправления.</p>
+        <p xml:lang="ro">Dialog Despre, scurtătură F1, refactorizare CSS, redenumire icoane și corecții minore.</p>
+        <ul>
+          <li>F1 shortcut and GNOME menu About action open the About dialog</li>
+          <li xml:lang="es">El atajo F1 y la acción Acerca de del menú GNOME abren el diálogo Acerca de</li>
+          <li xml:lang="fr">Le raccourci F1 et l'action À propos du menu GNOME ouvrent le dialogue À propos</li>
+          <li xml:lang="pt">O atalho F1 e a ação Sobre do menu GNOME abrem o diálogo Sobre</li>
+          <li xml:lang="de">F1-Tastenkürzel und GNOME-Menü-Aktion „Über" öffnen den Über-Dialog</li>
+          <li xml:lang="it">La scorciatoia F1 e l'azione Informazioni del menu GNOME aprono il dialogo Informazioni</li>
+          <li xml:lang="ru">Горячая клавиша F1 и действие «О программе» в меню GNOME открывают диалог «О программе»</li>
+          <li xml:lang="ro">Scurtătura F1 și acțiunea Despre din meniul GNOME deschid dialogul Despre</li>
+
+          <li>Ctrl+Shift+Tab to navigate to previous tab</li>
+          <li xml:lang="es">Ctrl+Mayús+Tab para navegar a la pestaña anterior</li>
+          <li xml:lang="fr">Ctrl+Maj+Tab pour naviguer vers l'onglet précédent</li>
+          <li xml:lang="pt">Ctrl+Shift+Tab para navegar para a aba anterior</li>
+          <li xml:lang="de">Strg+Umschalt+Tab zum Navigieren zur vorherigen Registerkarte</li>
+          <li xml:lang="it">Ctrl+Maiusc+Tab per navigare alla scheda precedente</li>
+          <li xml:lang="ru">Ctrl+Shift+Tab для перехода к предыдущей вкладке</li>
+          <li xml:lang="ro">Ctrl+Shift+Tab pentru navigarea la tab-ul anterior</li>
+
+          <li>Notebook tab labels no longer appear orange in inactive tabs</li>
+          <li xml:lang="es">Las etiquetas de las pestañas del notebook ya no aparecen en naranja en pestañas inactivas</li>
+          <li xml:lang="fr">Les étiquettes des onglets du notebook n'apparaissent plus en orange dans les onglets inactifs</li>
+          <li xml:lang="pt">Os rótulos das abas do notebook não aparecem mais em laranja nas abas inativas</li>
+          <li xml:lang="de">Notebook-Tab-Labels erscheinen nicht mehr orange in inaktiven Tabs</li>
+          <li xml:lang="it">Le etichette delle schede del notebook non appaiono più arancioni nelle schede inattive</li>
+          <li xml:lang="ru">Метки вкладок notebook больше не отображаются оранжевыми в неактивных вкладках</li>
+          <li xml:lang="ro">Etichetele tab-urilor notebook nu mai apar portocalii în tab-urile inactive</li>
+
+          <li>CSS split into base.css (structural) and dark/light.css (color variables only)</li>
+          <li xml:lang="es">CSS dividido en base.css (estructural) y dark/light.css (solo variables de color)</li>
+          <li xml:lang="fr">CSS divisé en base.css (structurel) et dark/light.css (variables de couleur uniquement)</li>
+          <li xml:lang="pt">CSS dividido em base.css (estrutural) e dark/light.css (apenas variáveis de cor)</li>
+          <li xml:lang="de">CSS aufgeteilt in base.css (strukturell) und dark/light.css (nur Farbvariablen)</li>
+          <li xml:lang="it">CSS diviso in base.css (strutturale) e dark/light.css (solo variabili colore)</li>
+          <li xml:lang="ru">CSS разделён на base.css (структурный) и dark/light.css (только переменные цвета)</li>
+          <li xml:lang="ro">CSS împărțit în base.css (structural) și dark/light.css (doar variabile de culoare)</li>
+
+          <li>Icon files renamed from com.soplos to org.soplos for naming consistency</li>
+          <li xml:lang="es">Archivos de iconos renombrados de com.soplos a org.soplos para coherencia de nomenclatura</li>
+          <li xml:lang="fr">Fichiers d'icônes renommés de com.soplos à org.soplos pour la cohérence des noms</li>
+          <li xml:lang="pt">Arquivos de ícones renomeados de com.soplos para org.soplos para consistência de nomenclatura</li>
+          <li xml:lang="de">Icon-Dateien von com.soplos in org.soplos umbenannt für Namenskonsistenz</li>
+          <li xml:lang="it">File icone rinominati da com.soplos a org.soplos per coerenza di denominazione</li>
+          <li xml:lang="ru">Файлы иконок переименованы с com.soplos на org.soplos для единообразия именования</li>
+          <li xml:lang="ro">Fișierele de icoane redenumite de la com.soplos la org.soplos pentru coerența denumirii</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.0.2" date="2026-03-11">
       <description>
         <p>Support for hierarchical submenus, option to enable/disable them (GRUB_DISABLE_SUBMENU), silent update on startup and visual optimizations.</p>

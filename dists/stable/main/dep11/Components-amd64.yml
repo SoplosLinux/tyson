@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260321T112128
+Time: 20260321T121549
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -2151,6 +2151,26 @@ Developer:
 Provides:
   - soplos-grub-editor
 Releases:
+  - version: 2.0.2-1
+    date: '2026-03-21'
+    type: stable
+    description:
+      C: About dialog, F1 shortcut, CSS architecture refactor, icon renaming and minor
+        fixes.
+      es: Diálogo Acerca de, atajo F1, refactorización CSS, renombrado de iconos y
+        correcciones menores.
+      fr: Dialogue À propos, raccourci F1, refactorisation CSS, renommage des icônes
+        et corrections mineures.
+      pt: Diálogo Sobre, atalho F1, refatoração CSS, renomeação de ícones e pequenas
+        correções.
+      de: Über-Dialog, F1-Tastenkürzel, CSS-Refactoring, Umbenennung von Icons und
+        kleinere Korrekturen.
+      it: Finestra di dialogo Informazioni, scorciatoia F1, refactoring CSS, rinominazione
+        icone e correzioni minori.
+      ru: Диалог «О программе», горячая клавиша F1, рефакторинг CSS, переименование
+        иконок и незначительные исправления.
+      ro: Dialog Despre, scurtătură F1, refactorizare CSS, redenumire icoane și corecții
+        minore.
   - version: 2.0.2
     date: '2026-03-11'
     type: stable

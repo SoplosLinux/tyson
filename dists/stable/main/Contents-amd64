@@ -108,7 +108,6 @@ usr/share/doc/soplos-sys-cleaner/copyright	    utils/soplos-sys-cleaner
 usr/share/doc/soplos-webapp-manager/copyright	    utils/soplos-webapp-manager
 usr/share/doc/soplos-welcome/copyright	    utils/soplos-welcome
 usr/share/doc/soplos-welcome-live/copyright	    utils/soplos-welcome-live
-usr/share/icons/hicolor/128x128/apps/com.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/128x128/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/128x128/apps/org.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/128x128/apps/org.soplos.plymouthmanager.png	    utils/soplos-plymouth-manager
@@ -158,7 +157,6 @@ usr/share/icons/hicolor/32x32/apps/org.soplos.sys-cleaner.png	    utils/soplos-s
 usr/share/icons/hicolor/32x32/apps/org.soplos.webappmanager.png	    utils/soplos-webapp-manager
 usr/share/icons/hicolor/32x32/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
 usr/share/icons/hicolor/32x32/apps/slide1.png	    utils/soplos-welcome
-usr/share/icons/hicolor/48x48/apps/com.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/48x48/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/48x48/apps/org.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/48x48/apps/org.soplos.plymouthmanager.png	    utils/soplos-plymouth-manager
@@ -168,7 +166,6 @@ usr/share/icons/hicolor/48x48/apps/org.soplos.webappmanager.png	    utils/soplos
 usr/share/icons/hicolor/48x48/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/48x48/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
 usr/share/icons/hicolor/48x48/apps/slide1.png	    utils/soplos-welcome
-usr/share/icons/hicolor/64x64/apps/com.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/64x64/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/64x64/apps/org.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/icons/hicolor/64x64/apps/org.soplos.plymouthmanager.png	    utils/soplos-plymouth-manager
@@ -1056,9 +1053,9 @@ usr/share/soplos-grub-editor/setup.py	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/assets/org.soplos.grubeditor.desktop	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/assets/icons/org.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/assets/icons/soplos-logo.png	    utils/soplos-grub-editor
-usr/share/soplos-grub-editor/assets/icons/128x128/com.soplos.grubeditor.png	    utils/soplos-grub-editor
-usr/share/soplos-grub-editor/assets/icons/48x48/com.soplos.grubeditor.png	    utils/soplos-grub-editor
-usr/share/soplos-grub-editor/assets/icons/64x64/com.soplos.grubeditor.png	    utils/soplos-grub-editor
+usr/share/soplos-grub-editor/assets/icons/128x128/org.soplos.grubeditor.png	    utils/soplos-grub-editor
+usr/share/soplos-grub-editor/assets/icons/48x48/org.soplos.grubeditor.png	    utils/soplos-grub-editor
+usr/share/soplos-grub-editor/assets/icons/64x64/org.soplos.grubeditor.png	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/assets/screenshots/screenshot1.png	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/assets/screenshots/screenshot2.png	    utils/soplos-grub-editor
 usr/share/soplos-grub-editor/assets/screenshots/screenshot3.png	    utils/soplos-grub-editor
