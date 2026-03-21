@@ -166,6 +166,18 @@
   </translation>
 
   <releases>
+    <release version="2.0.1-1" date="2026-03-21">
+      <description>
+        <p>Added About dialog and code quality improvements.</p>
+        <p xml:lang="es">Añadido diálogo Acerca de y mejoras de calidad de código.</p>
+        <p xml:lang="fr">Ajout de la boîte de dialogue À propos et améliorations de la qualité du code.</p>
+        <p xml:lang="pt">Adicionado diálogo Sobre e melhorias de qualidade de código.</p>
+        <p xml:lang="de">Info-Dialog hinzugefügt und Code-Qualitätsverbesserungen.</p>
+        <p xml:lang="it">Aggiunta finestra di dialogo Informazioni e miglioramenti della qualità del codice.</p>
+        <p xml:lang="ru">Добавлено диалоговое окно «О программе» и улучшения качества кода.</p>
+        <p xml:lang="ro">Adăugat dialogul Despre și îmbunătățiri ale calității codului.</p>
+      </description>
+    </release>
     <release version="2.0.1" date="2026-01-09">
       <description>
         <p>Documentation release: added manual page and Debian copyright file.</p>

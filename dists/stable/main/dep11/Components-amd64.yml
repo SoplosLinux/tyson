@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260321T122507
+Time: 20260321T182809
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -969,6 +969,20 @@ Developer:
 Provides:
   - soplos-welcome-live
 Releases:
+  - version: 2.0.1-1
+    date: '2026-03-21'
+    type: stable
+    description:
+      C: Added About dialog and code quality improvements.
+      es: Añadido diálogo Acerca de y mejoras de calidad de código.
+      fr: Ajout de la boîte de dialogue À propos et améliorations de la qualité du
+        code.
+      pt: Adicionado diálogo Sobre e melhorias de qualidade de código.
+      de: Info-Dialog hinzugefügt und Code-Qualitätsverbesserungen.
+      it: Aggiunta finestra di dialogo Informazioni e miglioramenti della qualità
+        del codice.
+      ru: Добавлено диалоговое окно «О программе» и улучшения качества кода.
+      ro: Adăugat dialogul Despre și îmbunătățiri ale calității codului.
   - version: 2.0.1
     date: '2026-01-09'
     type: stable

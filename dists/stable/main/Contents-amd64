@@ -1536,7 +1536,6 @@ usr/share/soplos-welcome-live/LICENSE	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/README.md	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/main.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/setup.py	    utils/soplos-welcome-live
-usr/share/soplos-welcome-live/test.pot	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/assets/icons/org.soplos.welcomelive.png	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/assets/icons/soplos-logo.png	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/assets/icons/128x128/org.soplos.welcomelive.png	    utils/soplos-welcome-live
