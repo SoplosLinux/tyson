@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.soplos.appimagemanager</id>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Soplos AppImage Manager</name>
+  <name xml:lang="es">Gestor de AppImage de Soplos</name>
+  <name xml:lang="fr">Gestionnaire AppImage Soplos</name>
+  <name xml:lang="de">Soplos AppImage-Verwaltung</name>
+  <name xml:lang="it">Gestore AppImage Soplos</name>
+  <name xml:lang="pt">Gestor de AppImage Soplos</name>
+  <name xml:lang="ru">Менеджер AppImage Soplos</name>
+  <name xml:lang="ro">Manager AppImage Soplos</name>
+
+  <summary>Manage AppImage applications on Soplos Linux</summary>
+  <summary xml:lang="es">Gestiona aplicaciones AppImage en Soplos Linux</summary>
+  <summary xml:lang="fr">Gérez les applications AppImage sur Soplos Linux</summary>
+  <summary xml:lang="de">Verwalten Sie AppImage-Anwendungen unter Soplos Linux</summary>
+  <summary xml:lang="it">Gestisci le applicazioni AppImage su Soplos Linux</summary>
+  <summary xml:lang="pt">Gerencie aplicativos AppImage no Soplos Linux</summary>
+  <summary xml:lang="ru">Управляйте приложениями AppImage в Soplos Linux</summary>
+  <summary xml:lang="ro">Gestionați aplicațiile AppImage pe Soplos Linux</summary>
+
+  <description>
+    <p>Soplos AppImage Manager lets you easily integrate AppImage applications into your Soplos Linux desktop. Select any AppImage file, and the manager will move it to your ~/AppImages folder, extract its icon and metadata, and create a desktop entry so the app appears in your application menu.</p>
+    <p xml:lang="es">Soplos AppImage Manager le permite integrar fácilmente aplicaciones AppImage en su escritorio Soplos Linux. Seleccione cualquier archivo AppImage y el gestor lo moverá a su carpeta ~/AppImages, extraerá su icono y metadatos, y creará una entrada de escritorio para que la aplicación aparezca en su menú de aplicaciones.</p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-appimage-manager/screenshots/screenshot1.png</image>
+      <caption>Empty state showing the welcome screen</caption>
+      <caption xml:lang="es">Estado vacío mostrando la pantalla de bienvenida</caption>
+      <caption xml:lang="fr">État vide affichant l'écran d'accueil</caption>
+      <caption xml:lang="de">Leerer Zustand mit dem Willkommensbildschirm</caption>
+      <caption xml:lang="it">Stato vuoto con la schermata di benvenuto</caption>
+      <caption xml:lang="pt">Estado vazio com o ecrã de boas-vindas</caption>
+      <caption xml:lang="ru">Пустое состояние с экраном приветствия</caption>
+      <caption xml:lang="ro">Stare goală cu ecranul de bun venit</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-appimage-manager/screenshots/screenshot2.png</image>
+      <caption>AppImage detected and ready to integrate</caption>
+      <caption xml:lang="es">AppImage detectado y listo para integrar</caption>
+      <caption xml:lang="fr">AppImage détecté et prêt à être intégré</caption>
+      <caption xml:lang="de">AppImage erkannt und bereit zur Integration</caption>
+      <caption xml:lang="it">AppImage rilevato e pronto per l'integrazione</caption>
+      <caption xml:lang="pt">AppImage detetado e pronto para integrar</caption>
+      <caption xml:lang="ru">AppImage обнаружен и готов к интеграции</caption>
+      <caption xml:lang="ro">AppImage detectat și gata de integrare</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-appimage-manager/screenshots/screenshot3.png</image>
+      <caption>List with integrated and non-integrated AppImages</caption>
+      <caption xml:lang="es">Lista con AppImages integrados y sin integrar</caption>
+      <caption xml:lang="fr">Liste avec AppImages intégrés et non intégrés</caption>
+      <caption xml:lang="de">Liste mit integrierten und nicht integrierten AppImages</caption>
+      <caption xml:lang="it">Elenco con AppImages integrati e non integrati</caption>
+      <caption xml:lang="pt">Lista com AppImages integrados e não integrados</caption>
+      <caption xml:lang="ru">Список с интегрированными и неинтегрированными AppImages</caption>
+      <caption xml:lang="ro">Listă cu AppImages integrate și neintegrate</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-appimage-manager/screenshots/screenshot4.png</image>
+      <caption>Fully integrated AppImages with icons and controls</caption>
+      <caption xml:lang="es">AppImages totalmente integrados con iconos y controles</caption>
+      <caption xml:lang="fr">AppImages entièrement intégrés avec icônes et contrôles</caption>
+      <caption xml:lang="de">Vollständig integrierte AppImages mit Symbolen und Steuerelementen</caption>
+      <caption xml:lang="it">AppImages completamente integrati con icone e controlli</caption>
+      <caption xml:lang="pt">AppImages totalmente integrados com ícones e controlos</caption>
+      <caption xml:lang="ru">Полностью интегрированные AppImages с иконками и элементами управления</caption>
+      <caption xml:lang="ro">AppImages complet integrate cu pictograme și controale</caption>
+    </screenshot>
+  </screenshots>
+
+  <launchable type="desktop-id">org.soplos.appimagemanager.desktop</launchable>
+
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-appimage-manager/issues</url>
+
+  <provides>
+    <binary>soplos-appimage-manager</binary>
+  </provides>
+
+  <releases>
+    <release version="1.0.0" date="2026-03-22">
+      <description>
+        <p>Initial release of Soplos AppImage Manager. Add AppImages via file chooser or drag and drop, integrate manually placed AppImages with one click, auto-refresh via file monitor, update URL detection from embedded AppImage binary, and full internationalisation in 8 languages.</p>
+        <p xml:lang="es">Lanzamiento inicial del Gestor de AppImage de Soplos. Añade AppImages mediante selector de archivos o arrastrar y soltar, integra AppImages colocados manualmente con un clic, refresco automático mediante monitor de archivos, detección de URL de actualización desde el binario AppImage, e internacionalización completa en 8 idiomas.</p>
+        <p xml:lang="fr">Version initiale du Gestionnaire AppImage Soplos. Ajoutez des AppImages via le sélecteur de fichiers ou le glisser-déposer, intégrez les AppImages placés manuellement en un clic, actualisation automatique via le moniteur de fichiers, détection d'URL de mise à jour depuis le binaire AppImage, et internationalisation complète en 8 langues.</p>
+        <p xml:lang="de">Erstveröffentlichung des Soplos AppImage-Managers. AppImages per Dateiauswahl oder Drag-and-Drop hinzufügen, manuell platzierte AppImages mit einem Klick integrieren, automatische Aktualisierung über den Dateimonitor, Update-URL-Erkennung aus dem AppImage-Binary und vollständige Internationalisierung in 8 Sprachen.</p>
+        <p xml:lang="it">Versione iniziale del Gestore AppImage Soplos. Aggiungi AppImages tramite selettore file o trascinamento, integra AppImages posizionati manualmente con un clic, aggiornamento automatico tramite monitor file, rilevamento URL di aggiornamento dal binario AppImage e internazionalizzazione completa in 8 lingue.</p>
+        <p xml:lang="pt">Lançamento inicial do Gestor de AppImage Soplos. Adicione AppImages através do seletor de ficheiros ou arrastar e largar, integre AppImages colocados manualmente com um clique, atualização automática via monitor de ficheiros, deteção de URL de atualização a partir do binário AppImage e internacionalização completa em 8 idiomas.</p>
+        <p xml:lang="ru">Первый выпуск Менеджера AppImage Soplos. Добавляйте AppImages через диалог выбора файлов или перетаскивание, интегрируйте вручную размещённые AppImages одним кликом, автообновление через файловый монитор, определение URL обновления из бинарного файла AppImage и полная интернационализация на 8 языках.</p>
+        <p xml:lang="ro">Lansarea inițială a Managerului AppImage Soplos. Adăugați AppImages prin selectorul de fișiere sau prin glisare și plasare, integrați AppImages plasate manual cu un singur clic, reîmprospătare automată prin monitorul de fișiere, detectarea URL-ului de actualizare din binarul AppImage și internaționalizare completă în 8 limbi.</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1"/>
+</component>
