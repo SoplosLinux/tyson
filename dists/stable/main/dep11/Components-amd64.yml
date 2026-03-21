@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260321T121549
+Time: 20260321T122507
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -2415,6 +2415,22 @@ Url:
 Provides:
   - soplos-webapp-manager
 Releases:
+  - version: 1.0.0-2
+    date: '2026-03-21'
+    type: stable
+    description:
+      C: About dialog added with F1 shortcut and GNOME application menu action.
+      es: Diálogo Acerca de añadido con atajo F1 y acción en el menú de aplicación
+        GNOME.
+      fr: Dialogue À propos ajouté avec raccourci F1 et action dans le menu application
+        GNOME.
+      de: Über-Dialog hinzugefügt mit F1-Tastenkürzel und GNOME-Anwendungsmenü-Aktion.
+      it: Finestra di dialogo Informazioni aggiunta con scorciatoia F1 e azione nel
+        menu applicazione GNOME.
+      pt: Diálogo Sobre adicionado com atalho F1 e ação no menu de aplicação GNOME.
+      ru: Добавлен диалог «О программе» с горячей клавишей F1 и действием в меню приложения
+        GNOME.
+      ro: Dialog Despre adăugat cu scurtătură F1 și acțiune în meniul aplicației GNOME.
   - version: 1.0.0-1
     date: '2026-03-10'
     type: stable

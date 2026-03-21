@@ -188,6 +188,18 @@
   </categories>
 
   <releases>
+    <release version="1.0.0-2" date="2026-03-21">
+      <description>
+        <p>About dialog added with F1 shortcut and GNOME application menu action.</p>
+        <p xml:lang="es">Diálogo Acerca de añadido con atajo F1 y acción en el menú de aplicación GNOME.</p>
+        <p xml:lang="fr">Dialogue À propos ajouté avec raccourci F1 et action dans le menu application GNOME.</p>
+        <p xml:lang="de">Über-Dialog hinzugefügt mit F1-Tastenkürzel und GNOME-Anwendungsmenü-Aktion.</p>
+        <p xml:lang="it">Finestra di dialogo Informazioni aggiunta con scorciatoia F1 e azione nel menu applicazione GNOME.</p>
+        <p xml:lang="pt">Diálogo Sobre adicionado com atalho F1 e ação no menu de aplicação GNOME.</p>
+        <p xml:lang="ru">Добавлен диалог «О программе» с горячей клавишей F1 и действием в меню приложения GNOME.</p>
+        <p xml:lang="ro">Dialog Despre adăugat cu scurtătură F1 și acțiune în meniul aplicației GNOME.</p>
+      </description>
+    </release>
     <release version="1.0.0-1" date="2026-03-10">
       <description>
         <p>Standardized Soplos UI with official footer and environment detection. Added Incognito mode and expanded browser flags help.</p>
