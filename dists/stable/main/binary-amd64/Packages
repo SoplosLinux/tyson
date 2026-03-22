@@ -70,17 +70,17 @@ MD5sum: 2830d0681c6260c58225ee9c440dedc4
 Description: Configure MSI keyboard RGB lighting
 
 Package: soplos-appimage-manager
-Version: 1.0.0
+Version: 1.0.0-1
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-gi-cairo, python3-setuptools
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-appimage-manager/soplos-appimage-manager_1.0.0_all.deb
-Size: 532300
-SHA256: d028caebb3e69eb7193121610158d6fd6d5ea46c3351f402ae2d15d5cc74d6dc
-SHA1: 7b11bb49ee9455728f6ff77fad336934935602ed
-MD5sum: f2853341bc31806e00988e542bb498db
+Filename: pool/main/s/soplos-appimage-manager/soplos-appimage-manager_1.0.0-1_all.deb
+Size: 532824
+SHA256: 4be997e25bf0405df2c6b27dcdf185de8d2c3f1b829f976283496b6fcd593d17
+SHA1: 202400ccdab903d85735c321c5a556990717925f
+MD5sum: 0b2d06e087dfb18f25b0fc18b61722fb
 Description: Manage AppImage applications on Soplos Linux
 
 Package: soplos-color-scheme
@@ -324,17 +324,17 @@ Description: Fondos de pantalla para SopLOS
  para el sistema operativo Soplos Linux Tyron.
 
 Package: soplos-webapp-manager
-Version: 1.0.0-2
+Version: 1.0.0-3
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-gi-cairo, python3-setuptools
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-webapp-manager/soplos-webapp-manager_1.0.0-2_all.deb
-Size: 526304
-SHA256: 72ff3b2ac76257ee4e89616230e3428b3163e875048c2425b3d0cf0825a344b2
-SHA1: 46608eb803070f8c101c80c8879471276a754b35
-MD5sum: 318edd36c0d62a686ad3a4aac152b79c
+Filename: pool/main/s/soplos-webapp-manager/soplos-webapp-manager_1.0.0-3_all.deb
+Size: 526824
+SHA256: 94a040f0cb1e0a5b86ee20ace159c0899834428dc7248a00112227a12059a494
+SHA1: 698cdb5c04b11a5973e00e5e717af14413cb7334
+MD5sum: 50ba656a382ad410707285c0c619f593
 Description: Create and manage isolated Web Applications
 
 Package: soplos-welcome

@@ -188,6 +188,18 @@
   </categories>
 
   <releases>
+    <release version="1.0.0-3" date="2026-03-22">
+      <description>
+        <p>Fixed background color inconsistency in the main window.</p>
+        <p xml:lang="es">Corregida la inconsistencia del color de fondo en la ventana principal.</p>
+        <p xml:lang="fr">Correction de l'incohérence de couleur de fond dans la fenêtre principale.</p>
+        <p xml:lang="de">Inkonsistenz der Hintergrundfarbe im Hauptfenster behoben.</p>
+        <p xml:lang="it">Corretta l'incongruenza del colore di sfondo nella finestra principale.</p>
+        <p xml:lang="pt">Corrigida a inconsistência da cor de fundo na janela principal.</p>
+        <p xml:lang="ru">Исправлена несоответствие цвета фона в главном окне.</p>
+        <p xml:lang="ro">Corectată inconsistența culorii de fundal în fereastra principală.</p>
+      </description>
+    </release>
     <release version="1.0.0-2" date="2026-03-21">
       <description>
         <p>About dialog added with F1 shortcut and GNOME application menu action.</p>

@@ -83,6 +83,18 @@
   </provides>
 
   <releases>
+    <release version="1.0.0-1" date="2026-03-22">
+      <description>
+        <p>Fixed background color inconsistency in the main window.</p>
+        <p xml:lang="es">Corregida la inconsistencia del color de fondo en la ventana principal.</p>
+        <p xml:lang="fr">Correction de l'incohérence de couleur de fond dans la fenêtre principale.</p>
+        <p xml:lang="de">Inkonsistenz der Hintergrundfarbe im Hauptfenster behoben.</p>
+        <p xml:lang="it">Corretta l'incongruenza del colore di sfondo nella finestra principale.</p>
+        <p xml:lang="pt">Corrigida a inconsistência da cor de fundo na janela principal.</p>
+        <p xml:lang="ru">Исправлена несоответствие цвета фона в главном окне.</p>
+        <p xml:lang="ro">Corectată inconsistența culorii de fundal în fereastra principală.</p>
+      </description>
+    </release>
     <release version="1.0.0" date="2026-03-22">
       <description>
         <p>Initial release of Soplos AppImage Manager. Add AppImages via file chooser or drag and drop, integrate manually placed AppImages with one click, auto-refresh via file monitor, update URL detection from embedded AppImage binary, and full internationalisation in 8 languages.</p>
