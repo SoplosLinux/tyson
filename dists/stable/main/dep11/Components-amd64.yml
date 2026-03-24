@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260322T200753
+Time: 20260324T123108
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -705,6 +705,11 @@ Url:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.0.7-3
+    date: '2026-03-24'
+    type: stable
+    description:
+      C: 'NVIDIA 580 fix, hardware detection improvements, new tools and Flatpak updates:'
   - version: 2.0.7-2
     date: '2026-03-13'
     type: stable

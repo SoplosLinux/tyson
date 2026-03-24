@@ -1508,6 +1508,7 @@ usr/share/soplos-welcome/assets/icons/soplos/soplos-plymouth-manager.png	    uti
 usr/share/soplos-welcome/assets/icons/soplos/soplos-theme-manager.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/utilities/flatseal.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/utilities/gear-lever.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/utilities/soplos-appimage-manager.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/utilities/soplos-webapps-manager.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/screenshots/screenshot01.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/screenshots/screenshot02.png	    utils/soplos-welcome

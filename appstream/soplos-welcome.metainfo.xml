@@ -142,6 +142,104 @@
   <developer_name>Sergi Perich</developer_name>
 
   <releases>
+      <release version="2.0.7-3" date="2026-03-24">
+        <description>
+          <p>NVIDIA 580 fix, hardware detection improvements, new tools and Flatpak updates:</p>
+          <ul>
+            <li>NVIDIA 580: fixed SHA1/sqv rejection using trusted=yes repo, version pinning and --allow-downgrades</li>
+            <li>Hardware detector: GTX 16xx/MX550/MX450 → driver 590; Maxwell GTX 9xx/8xx → driver 580</li>
+            <li>Security tab: added Soplos Sys Cleaner to the Cleaning section</li>
+            <li>Recommended tab: added Soplos AppImage Manager to Utilities</li>
+            <li>OBS Studio and HandBrake switched to Flatpak; Lutris switched to Flatpak in Recommended and Gaming tabs</li>
+            <li>New AppImage badge for AppImage-based packages; official badge now only shown for APT packages</li>
+            <li>Updated translations in all 8 languages with 4 new strings</li>
+          </ul>
+        </description>
+        <description xml:lang="es">
+          <p>Corrección NVIDIA 580, mejoras en la detección de hardware, nuevas herramientas y actualizaciones Flatpak:</p>
+          <ul>
+            <li>NVIDIA 580: solucionado el rechazo SHA1/sqv usando repo trusted=yes, pinning de versión y --allow-downgrades</li>
+            <li>Detector de hardware: GTX 16xx/MX550/MX450 → driver 590; Maxwell GTX 9xx/8xx → driver 580</li>
+            <li>Pestaña Seguridad: añadido Soplos Sys Cleaner en la sección de Limpieza</li>
+            <li>Pestaña Recomendados: añadido Soplos AppImage Manager en Utilidades</li>
+            <li>OBS Studio y HandBrake cambiados a Flatpak; Lutris a Flatpak en Recomendados y Gaming</li>
+            <li>Nuevo badge AppImage para paquetes instalados como AppImage; badge oficial solo en paquetes APT</li>
+            <li>Traducciones actualizadas en los 8 idiomas con 4 nuevas cadenas</li>
+          </ul>
+        </description>
+        <description xml:lang="fr">
+          <p>Correction NVIDIA 580, améliorations de la détection matérielle, nouveaux outils et mises à jour Flatpak :</p>
+          <ul>
+            <li>NVIDIA 580 : rejet SHA1/sqv corrigé avec repo trusted=yes, épinglage de version et --allow-downgrades</li>
+            <li>Détecteur matériel : GTX 16xx/MX550/MX450 → pilote 590 ; Maxwell GTX 9xx/8xx → pilote 580</li>
+            <li>Onglet Sécurité : ajout de Soplos Sys Cleaner dans la section Nettoyage</li>
+            <li>Onglet Recommandés : ajout de Soplos AppImage Manager dans Utilitaires</li>
+            <li>OBS Studio et HandBrake passés en Flatpak ; Lutris en Flatpak dans Recommandés et Gaming</li>
+            <li>Nouveau badge AppImage pour les paquets AppImage ; badge officiel uniquement pour les paquets APT</li>
+            <li>Traductions mises à jour dans les 8 langues avec 4 nouvelles chaînes</li>
+          </ul>
+        </description>
+        <description xml:lang="de">
+          <p>NVIDIA-580-Fix, verbesserte Hardware-Erkennung, neue Tools und Flatpak-Updates:</p>
+          <ul>
+            <li>NVIDIA 580: SHA1/sqv-Ablehnung mit trusted=yes-Repo, Versions-Pinning und --allow-downgrades behoben</li>
+            <li>Hardware-Erkennung: GTX 16xx/MX550/MX450 → Treiber 590; Maxwell GTX 9xx/8xx → Treiber 580</li>
+            <li>Sicherheits-Tab: Soplos Sys Cleaner im Bereich Bereinigung hinzugefügt</li>
+            <li>Empfehlungs-Tab: Soplos AppImage Manager in Dienstprogramme hinzugefügt</li>
+            <li>OBS Studio und HandBrake auf Flatpak umgestellt; Lutris auf Flatpak in Empfehlungen und Gaming</li>
+            <li>Neues AppImage-Badge für AppImage-Pakete; offizielles Badge nur für APT-Pakete</li>
+            <li>Übersetzungen in allen 8 Sprachen mit 4 neuen Strings aktualisiert</li>
+          </ul>
+        </description>
+        <description xml:lang="pt">
+          <p>Correção NVIDIA 580, melhorias na deteção de hardware, novas ferramentas e atualizações Flatpak:</p>
+          <ul>
+            <li>NVIDIA 580: rejeição SHA1/sqv corrigida com repo trusted=yes, fixação de versão e --allow-downgrades</li>
+            <li>Detetor de hardware: GTX 16xx/MX550/MX450 → driver 590; Maxwell GTX 9xx/8xx → driver 580</li>
+            <li>Aba Segurança: Soplos Sys Cleaner adicionado na secção de Limpeza</li>
+            <li>Aba Recomendados: Soplos AppImage Manager adicionado em Utilitários</li>
+            <li>OBS Studio e HandBrake mudados para Flatpak; Lutris para Flatpak em Recomendados e Gaming</li>
+            <li>Novo badge AppImage para pacotes AppImage; badge oficial apenas para pacotes APT</li>
+            <li>Traduções atualizadas nos 8 idiomas com 4 novas cadeias</li>
+          </ul>
+        </description>
+        <description xml:lang="it">
+          <p>Fix NVIDIA 580, miglioramenti al rilevamento hardware, nuovi strumenti e aggiornamenti Flatpak:</p>
+          <ul>
+            <li>NVIDIA 580: rifiuto SHA1/sqv risolto con repo trusted=yes, pinning versione e --allow-downgrades</li>
+            <li>Rilevatore hardware: GTX 16xx/MX550/MX450 → driver 590; Maxwell GTX 9xx/8xx → driver 580</li>
+            <li>Scheda Sicurezza: Soplos Sys Cleaner aggiunto nella sezione Pulizia</li>
+            <li>Scheda Raccomandati: Soplos AppImage Manager aggiunto in Utilità</li>
+            <li>OBS Studio e HandBrake passati a Flatpak; Lutris a Flatpak in Raccomandati e Gaming</li>
+            <li>Nuovo badge AppImage per i pacchetti AppImage; badge ufficiale solo per i pacchetti APT</li>
+            <li>Traduzioni aggiornate in tutte le 8 lingue con 4 nuove stringhe</li>
+          </ul>
+        </description>
+        <description xml:lang="ru">
+          <p>Исправление NVIDIA 580, улучшения определения оборудования, новые инструменты и обновления Flatpak:</p>
+          <ul>
+            <li>NVIDIA 580: устранено отклонение SHA1/sqv с помощью trusted=yes репозитория, закрепления версии и --allow-downgrades</li>
+            <li>Определение оборудования: GTX 16xx/MX550/MX450 → драйвер 590; Maxwell GTX 9xx/8xx → драйвер 580</li>
+            <li>Вкладка Безопасность: добавлен Soplos Sys Cleaner в раздел Очистка</li>
+            <li>Вкладка Рекомендуемые: добавлен Soplos AppImage Manager в Утилиты</li>
+            <li>OBS Studio и HandBrake переведены на Flatpak; Lutris на Flatpak в Рекомендуемых и Gaming</li>
+            <li>Новый значок AppImage для пакетов AppImage; официальный значок только для пакетов APT</li>
+            <li>Переводы обновлены на всех 8 языках с 4 новыми строками</li>
+          </ul>
+        </description>
+        <description xml:lang="ro">
+          <p>Remediere NVIDIA 580, îmbunătățiri detecție hardware, noi instrumente și actualizări Flatpak:</p>
+          <ul>
+            <li>NVIDIA 580: respingerea SHA1/sqv rezolvată cu repo trusted=yes, fixarea versiunii și --allow-downgrades</li>
+            <li>Detector hardware: GTX 16xx/MX550/MX450 → driver 590; Maxwell GTX 9xx/8xx → driver 580</li>
+            <li>Fila Securitate: Soplos Sys Cleaner adăugat în secțiunea Curățare</li>
+            <li>Fila Recomandate: Soplos AppImage Manager adăugat în Utilitare</li>
+            <li>OBS Studio și HandBrake trecute la Flatpak; Lutris la Flatpak în Recomandate și Gaming</li>
+            <li>Nou insignă AppImage pentru pachetele AppImage; insigna oficială doar pentru pachetele APT</li>
+            <li>Traduceri actualizate în toate cele 8 limbi cu 4 șiruri noi</li>
+          </ul>
+        </description>
+      </release>
       <release version="2.0.7-2" date="2026-03-13">
         <description>
           <p>NVIDIA Driver logic fixes and improved installation workflow:</p>
