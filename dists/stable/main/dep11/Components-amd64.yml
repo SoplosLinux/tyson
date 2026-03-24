@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260324T123108
+Time: 20260324T134011
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -266,6 +266,28 @@ Developer:
 Provides:
   - soplos-repo-selector
 Releases:
+  - version: 2.0.2-6
+    date: '2026-03-24'
+    type: stable
+    description:
+      en: |-
+        Fixed refresh button always returning stale cached data. Repositories tab now refreshes immediately after generating new sources. Each suite now gets its own independent .sources file for individual toggle control per suite.
+      es: |-
+        Corregido el botón de refrescar que devolvía datos cacheados. La pestaña Repositorios ahora se actualiza inmediatamente tras generar fuentes. Cada suite tiene ahora su propio archivo .sources independiente para control individual por suite.
+      fr: |-
+        Correction du bouton Actualiser. L'onglet Dépôts se rafraîchit immédiatement après la génération. Chaque suite dispose désormais de son propre fichier .sources indépendant pour un contrôle individuel par suite.
+      pt: |-
+        Corrigido o botão Atualizar. A aba Repositórios atualiza imediatamente após gerar fontes. Cada suite tem agora o seu próprio ficheiro .sources independente para controlo individual por suite.
+      de: |-
+        Aktualisieren-Schaltfläche behoben. Repositories-Tab aktualisiert sich sofort nach der Generierung. Jede Suite erhält nun eine eigene unabhängige .sources-Datei für individuelle Suite-Steuerung.
+      it: |-
+        Corretto il pulsante Aggiorna. La scheda Archivi si aggiorna immediatamente dopo la generazione. Ogni suite ora ha il proprio file .sources indipendente per il controllo individuale per suite.
+      ru: |-
+        Исправлена кнопка обновления. Вкладка Репозитории обновляется сразу после генерации. Каждый suite теперь имеет собственный независимый файл .sources для индивидуального управления.
+      ro: |-
+        Remediat butonul Reîmprospătare. Fila Depozite se actualizează imediat după generare. Fiecare suite are acum propriul fișier .sources independent pentru control individual pe suite.
+      C: |-
+        Fixed refresh button always returning stale cached data. Repositories tab now refreshes immediately after generating new sources. Each suite now gets its own independent .sources file for individual toggle control per suite.
   - version: 2.0.2-5
     date: '2026-03-20'
     type: stable

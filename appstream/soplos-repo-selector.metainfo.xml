@@ -299,6 +299,18 @@
   </provides>
 
   <releases>
+    <release version="2.0.2-6" date="2026-03-24">
+      <description>
+        <p xml:lang="en">Fixed refresh button always returning stale cached data. Repositories tab now refreshes immediately after generating new sources. Each suite now gets its own independent .sources file for individual toggle control per suite.</p>
+        <p xml:lang="es">Corregido el botón de refrescar que devolvía datos cacheados. La pestaña Repositorios ahora se actualiza inmediatamente tras generar fuentes. Cada suite tiene ahora su propio archivo .sources independiente para control individual por suite.</p>
+        <p xml:lang="fr">Correction du bouton Actualiser. L'onglet Dépôts se rafraîchit immédiatement après la génération. Chaque suite dispose désormais de son propre fichier .sources indépendant pour un contrôle individuel par suite.</p>
+        <p xml:lang="pt">Corrigido o botão Atualizar. A aba Repositórios atualiza imediatamente após gerar fontes. Cada suite tem agora o seu próprio ficheiro .sources independente para controlo individual por suite.</p>
+        <p xml:lang="de">Aktualisieren-Schaltfläche behoben. Repositories-Tab aktualisiert sich sofort nach der Generierung. Jede Suite erhält nun eine eigene unabhängige .sources-Datei für individuelle Suite-Steuerung.</p>
+        <p xml:lang="it">Corretto il pulsante Aggiorna. La scheda Archivi si aggiorna immediatamente dopo la generazione. Ogni suite ora ha il proprio file .sources indipendente per il controllo individuale per suite.</p>
+        <p xml:lang="ru">Исправлена кнопка обновления. Вкладка Репозитории обновляется сразу после генерации. Каждый suite теперь имеет собственный независимый файл .sources для индивидуального управления.</p>
+        <p xml:lang="ro">Remediat butonul Reîmprospătare. Fila Depozite se actualizează imediat după generare. Fiecare suite are acum propriul fișier .sources independent pentru control individual pe suite.</p>
+      </description>
+    </release>
     <release version="2.0.2-5" date="2026-03-20">
       <description>
         <p xml:lang="en">Standardized the About dialog across XFCE, GNOME, and KDE: dark background, button heights, and pill button styling are now identical to all other Soplos apps. App icon standardized to 48×48 pixels. Removed gtk-application-prefer-dark-theme setting that caused subtle color differences.</p>

@@ -251,17 +251,17 @@ Replaces: base-files
 Recommends: branding-soplos, soplos-grub-theme, soplos-plasma-classic-black-theme, soplos-plasma-classic-white-theme, soplos-plasma-modern-black-themes, soplos-plasma-modern-white-themes, soplos-plymouth-theme, soplos-wallpapers01, soplos-wallpapers02, fastfetch-soplos, soplos-color-scheme
 
 Package: soplos-repo-selector
-Version: 2.0.2-5
+Version: 2.0.2-6
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-apt, python3-gi, python3-gi-cairo, python3-pillow, python3-psutil, python3-setuptools, python3-xdg, wget
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-repo-selector/soplos-repo-selector_2.0.2-5_all.deb
-Size: 1196976
-SHA256: fd3aaf600292ccf3cb93509840fd4f78f7b845c58562643244525847212b4286
-SHA1: cf37fe4c906cd89ddc1155b53d30486c6fa49ee6
-MD5sum: 75cac94bc88ce349cc5f18dd25dc56f3
+Filename: pool/main/s/soplos-repo-selector/soplos-repo-selector_2.0.2-6_all.deb
+Size: 1198120
+SHA256: 8833fc3aca9e6bba52d7d6fded9425bf70605bf6f927bdd6910529b40becd72b
+SHA1: 2e51080dd18c16e9a74a0a6c74868956dbce8eef
+MD5sum: d1d8e95ae06d9257d7d7648eddeee78c
 Description: Advanced APT repository manager for Soplos Linux
 
 Package: soplos-sys-cleaner
