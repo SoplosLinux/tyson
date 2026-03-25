@@ -35,6 +35,15 @@
     <p xml:lang="ru">Soplos Sys Cleaner — это усовершенствованный инструмент обслуживания системы для дистрибутивов Soplos Linux. Он безопасно удаляет ненужные файлы, очищает кэш, удаляет старые ядра и оптимизирует систему.</p>
   </description>
 
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-sys-cleaner/issues</url>
+
+  <launchable type="desktop-id">org.soplos.sys-cleaner.desktop</launchable>
+
+  <developer_name>Sergi Perich</developer_name>
+
+  <content_rating type="oars-1.1" />
+
   <categories>
     <category>Settings</category>
     <category>System</category>
@@ -180,6 +189,67 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.1" date="2026-03-25">
+      <description>
+        <p>Major update introducing Dual-Layer Scanning (User vs Root modes) to eliminate password prompts on startup.</p>
+        <p xml:lang="es">Actualización mayor que introduce el Escaneo de Doble Capa (Usuario vs Root) para eliminar peticiones de contraseña al inicio.</p>
+        <p xml:lang="fr">Mise à jour majeure introduisant l'Analyse à Double Couche (Utilisateur vs Root) pour éliminer les invites de mot de passe au démarrage.</p>
+        <p xml:lang="de">Wichtiges Update mit Zweischicht-Scan (Benutzer- vs. Root-Modus) zur Vermeidung von Passwortabfragen beim Start.</p>
+        <p xml:lang="pt">Grande atualização introduzindo a Verificação de Dupla Camada (modos de Utilizador vs Root) para eliminar pedidos de palavra-passe no arranque.</p>
+        <p xml:lang="it">Importante aggiornamento che introduce la Scansione a Doppio Strato (Utente vs Root) per eliminare le richieste di password all'avvio.</p>
+        <p xml:lang="ro">Actualizare majoră care introduce scanarea pe Două Niveluri (Utilizator vs Root) pentru eliminarea solicitărilor de parolă la pornire.</p>
+        <p xml:lang="ru">Крупное обновление, представляющее Двухслойное Сканирование (режимы Пользователя и Root) для устранения запросов пароля при запуске.</p>
+        <ul>
+          <li>Added Flatpak unused runtimes cleaning</li>
+          <li>Added specific User Cache and Trash cleanup tabs working without root privileges</li>
+          <li>Dynamic UI tabs that reveal critical system features only after explicit root authorization</li>
+          <li>Fixed repeated pkexec password prompts when refreshing UI after cleanup tasks</li>
+          <li>Fixed Kernels tab appearing empty due to data mapping errors</li>
+
+          <li xml:lang="es">Añadida limpieza de runtimes Flatpak sin uso</li>
+          <li xml:lang="es">Añadidas pestañas específicas de Caché de Usuario y Papelera que funcionan sin privilegios de administrador</li>
+          <li xml:lang="es">Pestañas de interfaz dinámicas que revelan funciones críticas del sistema solo tras autorización root explícita</li>
+          <li xml:lang="es">Corregidas las peticiones repetidas de contraseña (pkexec) al refrescar la interfaz tras la limpieza</li>
+          <li xml:lang="es">Corregida la pestaña de Kernels que aparecía vacía debido a errores de mapeo de datos</li>
+
+          <li xml:lang="fr">Ajout du nettoyage des environnements d'exécution Flatpak inutilisés</li>
+          <li xml:lang="fr">Ajout d'onglets spécifiques pour le nettoyage du cache utilisateur et de la corbeille fonctionnant sans privilèges administration</li>
+          <li xml:lang="fr">Onglets d'interface dynamiques révélant les fonctions système critiques uniquement après autorisation root explicite</li>
+          <li xml:lang="fr">Correction des invites de mot de passe répétées lors de l'actualisation de l'interface après nettoyage</li>
+          <li xml:lang="fr">Correction de l'onglet Noyaux apparaissant vide en raison d'erreurs de mappage de données</li>
+
+          <li xml:lang="de">Bereinigung ungenutzter Flatpak-Runtimes hinzugefügt</li>
+          <li xml:lang="de">Spezifische Tabs für Benutzer-Cache und Papierkorb hinzugefügt, die ohne Root-Rechte funktionieren</li>
+          <li xml:lang="de">Dynamische UI-Tabs, die kritische Systemfunktionen erst nach expliziter Root-Autorisierung anzeigen</li>
+          <li xml:lang="de">Wiederholte Passwortabfragen nach der UI-Aktualisierung behoben</li>
+          <li xml:lang="de">Leerer Kernel-Tab aufgrund von Datenzuordnungsfehlern behoben</li>
+
+          <li xml:lang="pt">Adicionada limpeza de runtimes Flatpak não utilizados</li>
+          <li xml:lang="pt">Adicionadas abas específicas para limpeza de Cache de Utilizador e Lixeira a funcionar sem privilégios de administrador</li>
+          <li xml:lang="pt">Abas dinâmicas que revelam funcionalidades críticas do sistema apenas após autorização explícita de root</li>
+          <li xml:lang="pt">Corrigidos pedidos repetidos de palavra-passe ao atualizar a interface após as tarefas de limpeza</li>
+          <li xml:lang="pt">Corrigida a aba Kernels que aparecia vazia devido a erros de mapeamento de dados</li>
+
+          <li xml:lang="it">Aggiunta pulizia dei runtime Flatpak non utilizzati</li>
+          <li xml:lang="it">Aggiunte schede specifiche per la pulizia della Cache Utente e del Cestino funzionanti senza privilegi di root</li>
+          <li xml:lang="it">Schede dinamiche che rivelano funzionalità critiche del sistema solo dopo l'autorizzazione esplicita di root</li>
+          <li xml:lang="it">Corrette le richieste ripetute di password durante l'aggiornamento dell'interfaccia dopo la pulizia</li>
+          <li xml:lang="it">Corretta la scheda Kernel che appariva vuota a causa di errori di mappatura dei dati</li>
+
+          <li xml:lang="ro">Curățare Flatpak pentru a elimina formatele neutilizate</li>
+          <li xml:lang="ro">File specifice pentru curățarea memoriei Cache a utilizatorului și a Coșului de gunoi, care funcționează fără privilegii de root</li>
+          <li xml:lang="ro">File dinamice care dezvăluie funcționalități critice ale sistemului doar după autorizare root explicită</li>
+          <li xml:lang="ro">Corectate solicitările repetate de parolă la actualizarea interfeței după curățare</li>
+          <li xml:lang="ro">Fila Nucleelor (Kernels) apărea goală din cauza unor erori de mapare a datelor – rezolvat</li>
+
+          <li xml:lang="ru">Добавлена очистка неиспользуемых сред выполнения Flatpak</li>
+          <li xml:lang="ru">Добавлены вкладки очистки кэша пользователя и корзины, работающие без прав root</li>
+          <li xml:lang="ru">Динамические вкладки интерфейса, отображающие системные функции только после явной авторизации root</li>
+          <li xml:lang="ru">Исправлены повторяющиеся запросы пароля при обновлении интерфейса после задач очистки</li>
+          <li xml:lang="ru">Исправлена вкладка "Ядра", отображавшаяся пустой из-за ошибок сопоставления данных</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0-2" date="2026-03-20">
       <description>
         <p>Fixed About dialog credits panel on KDE: the credits area now displays with an opaque dark background and square corners instead of transparent or rounded-corner artifacts. App icon standardized to 48×48 pixels.</p>
