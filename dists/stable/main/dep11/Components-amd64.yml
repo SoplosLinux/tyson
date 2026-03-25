@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260325T013946
+Time: 20260325T033747
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1732,7 +1732,33 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
+Launchable:
+  desktop-id:
+    - org.soplos.sys-cleaner.desktop
+Url:
+  homepage: https://soplos.org
+  bugtracker: https://github.com/SoplosLinux/soplos-sys-cleaner/issues
 Releases:
+  - version: 1.0.1
+    date: '2026-03-25'
+    type: stable
+    description:
+      C: Major update introducing Dual-Layer Scanning (User vs Root modes) to eliminate
+        password prompts on startup.
+      es: |-
+        Actualización mayor que introduce el Escaneo de Doble Capa (Usuario vs Root) para eliminar peticiones de contraseña al inicio.
+      fr: |-
+        Mise à jour majeure introduisant l'Analyse à Double Couche (Utilisateur vs Root) pour éliminer les invites de mot de passe au démarrage.
+      de: Wichtiges Update mit Zweischicht-Scan (Benutzer- vs. Root-Modus) zur Vermeidung
+        von Passwortabfragen beim Start.
+      pt: |-
+        Grande atualização introduzindo a Verificação de Dupla Camada (modos de Utilizador vs Root) para eliminar pedidos de palavra-passe no arranque.
+      it: |-
+        Importante aggiornamento che introduce la Scansione a Doppio Strato (Utente vs Root) per eliminare le richieste di password all'avvio.
+      ro: |-
+        Actualizare majoră care introduce scanarea pe Două Niveluri (Utilizator vs Root) pentru eliminarea solicitărilor de parolă la pornire.
+      ru: |-
+        Крупное обновление, представляющее Двухслойное Сканирование (режимы Пользователя и Root) для устранения запросов пароля при запуске.
   - version: 1.0.0-2
     date: '2026-03-20'
     type: stable
