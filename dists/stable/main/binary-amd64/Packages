@@ -278,21 +278,6 @@ SHA1: ea42e47e675e2dc51c75069bb865995e21907d44
 MD5sum: e008eb24e903d03ecf26825606d0dfa3
 Description: System cleaner and optimizer for Soplos Linux
 
-Package: soplos-wallpapers01
-Version: 0.0.1
-Architecture: all
-Maintainer: SopLOS <info@soploslinux.com>
-Priority: optional
-Section: x11
-Filename: pool/main/s/soplos-wallpapers01/soplos-wallpapers01_0.0.1_all.deb
-Size: 34258712
-SHA256: de1b14e1e7c7985f03cbd3df3943e08b3b3931a2798d1d0fc83ccbde57364cac
-SHA1: 0ed56c7530ae03877191055ced5effcf9219b665
-MD5sum: 5981661af383d6a6ebb52e7043818e00
-Description: Fondos de pantalla para SopLOS
- Este paquete contiene una colección de fondos de pantalla 
- para el sistema operativo Soplos Linux Tyron.
-
 Package: soplos-webapp-manager
 Version: 1.0.0-3
 Architecture: all
