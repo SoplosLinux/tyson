@@ -81,12 +81,10 @@ usr/share/branding-soplos/soplos/show.qml	    misc/branding-soplos
 usr/share/branding-soplos/soplos/slide1.png	    misc/branding-soplos
 usr/share/branding-soplos/soplos/soplos-logo.png	    misc/branding-soplos
 usr/share/branding-soplos/soplos/welcome.png	    misc/branding-soplos
-usr/share/color-schemes/Soplos-Classic-Dark.colors	    misc/soplos-plasma-classic-black-theme
-usr/share/color-schemes/Soplos-Classic-Light.colors	    misc/soplos-plasma-classic-white-theme
-usr/share/color-schemes/Soplos-Modern-Dark.colors	    misc/soplos-plasma-modern-black-themes
-usr/share/color-schemes/Soplos-Modern-Light.colors	    misc/soplos-plasma-modern-white-themes
-usr/share/color-schemes/SoplosClassicDark.colors	    misc/soplos-color-scheme
-usr/share/color-schemes/SoplosClassicLight.colors	    misc/soplos-color-scheme
+usr/share/color-schemes/SoplosClassicDark.colors	    misc/soplos-color-scheme,misc/soplos-plasma-classic-black-theme
+usr/share/color-schemes/SoplosClassicLight.colors	    misc/soplos-color-scheme,misc/soplos-plasma-classic-white-theme
+usr/share/color-schemes/SoplosModernDark.colors	    misc/soplos-plasma-modern-black-themes
+usr/share/color-schemes/SoplosModernLight.colors	    misc/soplos-plasma-modern-white-themes
 usr/share/doc/grub-btrfs/README.md.gz	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/changelog.gz	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/copyright	    admin/grub-btrfs

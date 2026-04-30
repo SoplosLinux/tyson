@@ -141,64 +141,64 @@ MD5sum: e369a2155cf0522ff891a1a2531f7104
 Description: Módulos adicionales para Soplos. Contiene scripts
 
 Package: soplos-plasma-classic-black-theme
-Version: 0.0.2
+Version: 0.0.3
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-plasma-classic-black-theme/soplos-plasma-classic-black-theme_0.0.2_all.deb
-Size: 4420664
-SHA256: 53b88c0eb93d7b1525b01752f2d63e324bd3e01f5d83ccb5f42132b41553f514
-SHA1: ab60ab16a9ce8dd8c4637fde3f739b195cb7e9bd
-MD5sum: 30c1f7a51970875d480c5e843cff7f0a
+Filename: pool/main/s/soplos-plasma-classic-black-theme/soplos-plasma-classic-black-theme_0.0.3_all.deb
+Size: 4420660
+SHA256: 410ed470e4bffef1826a77c40d4ed1e87e0b6398de1c6aa391e3e1a6fe4f2008
+SHA1: 2ceb1e608c7dc59777f5573569b9e3af8ced8c1e
+MD5sum: da1bdd593011ee11beb53882b299e6f5
 Description: Soplos Classic Black global theme for KDE Plasma 6.
  This package provides the Soplos Classic Black global theme for KDE Plasma 6, including color schemes, desktop theme, and look-and-feel configuration.
- Build date: 2025-09-06
+ Build date: 2026-04-30
 
 Package: soplos-plasma-classic-white-theme
-Version: 0.0.2
+Version: 0.0.3
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-plasma-classic-white-theme/soplos-plasma-classic-white-theme_0.0.2_all.deb
-Size: 4502540
-SHA256: e939a70f6ab571453bbfc021fc28bd2fe142d34405b59593241f094460dc987e
-SHA1: 6d12f2ab42aa40f3f0888d867786804a5135bb59
-MD5sum: 2468ad1d66a4b817c2f82cd2c30447fb
+Filename: pool/main/s/soplos-plasma-classic-white-theme/soplos-plasma-classic-white-theme_0.0.3_all.deb
+Size: 4502544
+SHA256: 52312bc2583d1afa49d9070519cb0772411e5bdc0941fc54c37751541f549143
+SHA1: ca0464b9379a5ed9b76e30e0e545041659c5c7d4
+MD5sum: b3198dc0295c13134baa45dd2ddcc935
 Description: Soplos Classic White global theme for KDE Plasma 6.
  This package provides the Soplos Classic White global theme for KDE Plasma 6, including color schemes, desktop theme, and look-and-feel configuration.
- Build date: 2025-09-06
+ Build date: 2026-04-30
 
 Package: soplos-plasma-modern-black-themes
-Version: 0.0.2
+Version: 0.0.3
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-plasma-modern-black-themes/soplos-plasma-modern-black-themes_0.0.2_all.deb
-Size: 4764324
-SHA256: ee9a73bbb8eb737c821a29304487a625436538d988db5831e6043c00ea0933e3
-SHA1: e5f917d2e41d32e08e057358e3ac97c77d0f6a79
-MD5sum: fa51599b492e7696233b218035418673
+Filename: pool/main/s/soplos-plasma-modern-black-themes/soplos-plasma-modern-black-themes_0.0.3_all.deb
+Size: 4764264
+SHA256: ee5c88e5eb3521b0670d19241a1a78c03c8e1848c88ab7adc490afe2dfd5e2fa
+SHA1: 362fac87f5885ccb1ef9bf3c86c9c1fba19987c7
+MD5sum: d950fecfb65d9e2318975731336abbf3
 Description: Soplos Modern Black global theme for KDE Plasma 6.
  This package provides the Soplos Modern Black global theme for KDE Plasma 6, including color schemes, desktop theme, and look-and-feel configuration.
- Build date: 2025-09-06
+ Build date: 2026-04-30
 
 Package: soplos-plasma-modern-white-themes
-Version: 0.0.2
+Version: 0.0.3
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-plasma-modern-white-themes/soplos-plasma-modern-white-themes_0.0.2_all.deb
-Size: 4843232
-SHA256: 08bffcd7b5e655603d38c650d627323bd20d3b0852e186e56bfaaa516af6e3d8
-SHA1: db822c37627e752bb237580db560c8a37e7d2558
-MD5sum: 000e835353bc7afd561747107b2b8038
+Filename: pool/main/s/soplos-plasma-modern-white-themes/soplos-plasma-modern-white-themes_0.0.3_all.deb
+Size: 4843208
+SHA256: d9ce84c6d3bd6001d6fa15efd3eb9bfe28701d40c74d9bc9b5a118b932c1d2c1
+SHA1: 3dabd9ef4968eb9f31e7595f2d21f8242b02f934
+MD5sum: e6da900d99a577167701016a9ac3fd49
 Description: Soplos Modern White global theme for KDE Plasma 6.
  This package provides the Soplos Modern White global theme for KDE Plasma 6, including color schemes, desktop theme, and look-and-feel configuration.
- Build date: 2025-09-06
+ Build date: 2026-04-30
 
 Package: soplos-plymouth-manager
 Version: 2.0.0-2
