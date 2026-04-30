@@ -230,16 +230,16 @@ Description: Soplos Plymouth theme.
  Build date: 2025-12-20
 
 Package: soplos-release
-Version: 0.1.7-6
+Version: 0.1.7-7
 Architecture: all
 Maintainer: Sergi Perich
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.1.7-6_all.deb
-Size: 4036
-SHA256: 51068718f83bd7f64aad1091847badc29c4bdff45d5ff6f700fd2f636ead081c
-SHA1: deefc4a61b2d1b2d96e4d1403de040c044fc4fb6
-MD5sum: 671ca09dbff3f36e2c28edf8ad1395a5
+Filename: pool/main/s/soplos-release/soplos-release_0.1.7-7_all.deb
+Size: 4092
+SHA256: a47f83d8be9dc5cb9dcf2646a163e8a7769a50c067823fdd85a9be71167062a4
+SHA1: 3468aa9c30f5d944238b4c13033b7c3b618219f9
+MD5sum: 505db72c029c7f15bc34e786db632bb8
 Description: Soplos Linux release information (internal system package)
  This package contains release information and version files for Soplos Linux.
  It is essential for operating system identification.
@@ -279,31 +279,35 @@ MD5sum: e008eb24e903d03ecf26825606d0dfa3
 Description: System cleaner and optimizer for Soplos Linux
 
 Package: soplos-wallpapers01
-Version: 0.0.2
+Version: 1.0.1
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
+Replaces: soplos-wallpapers-01
+Conflicts: soplos-wallpapers-01
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-wallpapers01/soplos-wallpapers01_0.0.2_all.deb
-Size: 34258388
-SHA256: 89cd05e30c664140bab2a797054c359ebfe37afe299d0656fc9e9c437d4bce63
-SHA1: dee33a5f82cbc17f9641310b019b5f0d24542a04
-MD5sum: 2e44a41bace09c1e6796e10876701461
+Filename: pool/main/s/soplos-wallpapers01/soplos-wallpapers01_1.0.1_all.deb
+Size: 34258416
+SHA256: 2d7184175f580c4cb62c454fc17fd4a819e6ab6573dfd3461c8dc61be0e80b83
+SHA1: 3f42965b2e3c7703df2fe0dd029fc6da00ff6863
+MD5sum: 07ad7b55c69011d3f19e8cc447fceda8
 Description: Soplos Wallpapers Pack 01.
  This package provides the Soplos Wallpapers Pack 01, including a collection of high quality wallpapers for Soplos Linux.
  Build date: 2025-07-27
 
 Package: soplos-wallpapers02
-Version: 0.0.2
+Version: 1.0.1
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
+Replaces: soplos-wallpapers-02
+Conflicts: soplos-wallpapers-02
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-wallpapers02/soplos-wallpapers02_0.0.2_all.deb
-Size: 32269796
-SHA256: 89d237684b45c6c54c1c45c986a6ae8a0895a57ad36b5679cd724972d6ac54a8
-SHA1: 263f214c709f835e14086e7d5e8096086baf945e
-MD5sum: 7bcda9f82bb92c243f95aa38afb49045
+Filename: pool/main/s/soplos-wallpapers02/soplos-wallpapers02_1.0.1_all.deb
+Size: 32269824
+SHA256: 02e718cbfb58a8a0402f33bf7de677583c2e377b064f0ebd6c5f38f186827d7c
+SHA1: 11167c0ba69046504d4df8a0f30e92bdba044e4b
+MD5sum: 5b035c3d3f156968957edc50730966af
 Description: Soplos Wallpapers Pack 02.
  This package provides the Soplos Wallpapers Pack 02, including a collection of high quality wallpapers for Soplos Linux.
  Build date: 2025-07-27
