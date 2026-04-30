@@ -83,21 +83,6 @@ SHA1: 202400ccdab903d85735c321c5a556990717925f
 MD5sum: 0b2d06e087dfb18f25b0fc18b61722fb
 Description: Manage AppImage applications on Soplos Linux
 
-Package: soplos-color-scheme
-Version: 0.0.1
-Architecture: all
-Maintainer: Sergi Perich <info@soploslinux.com>
-Priority: optional
-Section: misc
-Filename: pool/main/s/soplos-color-scheme/soplos-color-scheme_0.0.1_all.deb
-Size: 1202676
-SHA256: 97e94ddca8b8c379dc582c35a91003dffd517f884b068c25ca622d4417e3f125
-SHA1: 904e5768808748932093725de7a238d441b23404
-MD5sum: ea80a3db33e65cd4e48edd04d9e5bf8b
-Description: Color schemes comunes para los temas Soplos KDE Plasma 6.
- Este paquete instala los archivos de color necesarios para los temas Soplos Classic y Modern en KDE Plasma 6.
- Build date: 2025-08-01
-
 Package: soplos-grub-editor
 Version: 2.0.2-1
 Architecture: all
