@@ -278,21 +278,6 @@ SHA1: ea42e47e675e2dc51c75069bb865995e21907d44
 MD5sum: e008eb24e903d03ecf26825606d0dfa3
 Description: System cleaner and optimizer for Soplos Linux
 
-Package: soplos-wallpapers-02
-Version: 0.0.1
-Architecture: all
-Maintainer: Sergi Perich <info@soploslinux.com>
-Priority: optional
-Section: misc
-Filename: pool/main/s/soplos-wallpapers-02/soplos-wallpapers-02_0.0.1_all.deb
-Size: 32269576
-SHA256: 2d9191427a52ce09175a12507e3f656249790c25cbdcdc863dc332c4542ca2bc
-SHA1: baba7f77a8534ed2b6d3938a76f8afebe45da5f2
-MD5sum: 8a6ad9f6962412cd42ec27ee394afa8f
-Description: Soplos Wallpapers Pack 02.
- This package provides the Soplos Wallpapers Pack 02, including a collection of high quality wallpapers for Soplos Linux.
- Build date: 2025-07-27
-
 Package: soplos-wallpapers01
 Version: 0.0.2
 Architecture: all
