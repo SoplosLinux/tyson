@@ -112,19 +112,6 @@ Description: GRUB theme package for Soplos Linux Tyson.
  This package provides the official GRUB theme and related assets for Soplos Linux Tyson.
  Build date: 2026-03-07
 
-Package: soplos-modules
-Version: 0.0.1
-Architecture: all
-Maintainer: Tu Nombre <tu@email.com>
-Priority: optional
-Section: base
-Filename: pool/main/s/soplos-modules/soplos-modules_0.0.1_all.deb
-Size: 1016
-SHA256: 545636ecafc994a661ddb994c84495eb8eabfe825f183810276c7b6090f06386
-SHA1: 03b50ff07f2e0cd8cadcaf2dc13d45aafbee86cc
-MD5sum: e369a2155cf0522ff891a1a2531f7104
-Description: Módulos adicionales para Soplos. Contiene scripts
-
 Package: soplos-plasma-classic-black-theme
 Version: 0.0.3-1
 Architecture: all

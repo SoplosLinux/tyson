@@ -18,7 +18,6 @@ etc/debian_version	    admin/soplos-release
 etc/issue	    admin/soplos-release
 etc/issue.net	    admin/soplos-release
 etc/lsb-release	    admin/soplos-release
-etc/modules	    base/soplos-modules
 etc/motd	    admin/soplos-release
 etc/apt/sources.list.d/tyson.sources	    admin/soplos-release
 etc/default/grub	    misc/soplos-grub-theme
