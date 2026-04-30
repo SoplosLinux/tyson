@@ -55,6 +55,63 @@ Description: Include btrfs snapshots in GRUB menu
  This package includes the grub-btrfsd daemon which automatically updates the
  grub menu when snapshots are created or deleted.
 
+Package: linux-headers-7.0.3-soplos
+Source: linux-upstream
+Version: 1
+Architecture: amd64
+Maintainer: soplos <soplos@soplos-vmware201>
+Installed-Size: 57824
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-headers-7.0.3-soplos_1_amd64.deb
+Size: 9699380
+SHA256: b5816fe5550197b90d85952839ad328f9344adccb23b6ef1d23f2f68495c9c8e
+SHA1: 50ab154dc555e2ea11703c859299aa187be47c2c
+MD5sum: e086c0f3a1fd429d9c4eee2e6feaf35e
+Description: Linux kernel headers for 7.0.3-soplos on amd64
+ This package provides kernel header files for 7.0.3-soplos on amd64
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-7.0.3-soplos
+Source: linux-upstream
+Version: 1
+Architecture: amd64
+Maintainer: soplos <soplos@soplos-vmware201>
+Installed-Size: 105668
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: kernel
+Filename: pool/main/l/linux-upstream/linux-image-7.0.3-soplos_1_amd64.deb
+Size: 92547124
+SHA256: 6a4d10aca20c19573d6591ce0a50f4916f877e34fade0fb6855157e87026bc15
+SHA1: f7a855b2a9220a7cc7e132d6b8f5aa5c891c2f08
+MD5sum: d782e4e2251760bcdb0139bd02d76e83
+Description: Linux kernel, version 7.0.3-soplos
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 7.0.3-soplos.
+
+Package: linux-libc-dev
+Source: linux-upstream
+Version: 1
+Architecture: amd64
+Maintainer: soplos <soplos@soplos-vmware201>
+Installed-Size: 7690
+Provides: linux-kernel-headers
+Multi-Arch: same
+Homepage: https://www.kernel.org/
+Priority: optional
+Section: devel
+Filename: pool/main/l/linux-upstream/linux-libc-dev_1_amd64.deb
+Size: 1490776
+SHA256: 41f17f718dda8acb7f024627e8b636032433d741ef5c77730315e1cb89896277
+SHA1: 22f6cf88bb5c74bd1dd620554a1f7840e502dc4d
+MD5sum: 1e50e78fb2dbdc4e19f7fda0aab60cf1
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
 Package: msi-keyboard-gui
 Version: 1.0.9
 Architecture: all
