@@ -14,18 +14,9 @@ boot/grub/themes/soploslinux/icons/recovery.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/soplos.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/submenu.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/uefi.png	    misc/soplos-grub-theme
-etc/debian_version	    admin/soplos-release
-etc/issue	    admin/soplos-release
-etc/issue.net	    admin/soplos-release
-etc/lsb-release	    admin/soplos-release
 etc/modules	    base/soplos-modules
-etc/motd	    admin/soplos-release
-etc/apt/sources.list.d/tyson.sources	    admin/soplos-release
 etc/default/grub	    misc/soplos-grub-theme
 etc/default/grub-btrfs/config	    admin/grub-btrfs
-etc/dracut.conf.d/i18n.conf	    admin/soplos-release
-etc/dracut.conf.d/local.conf	    admin/soplos-release
-etc/dracut.conf.d/soplos.conf	    admin/soplos-release
 etc/grub.d/05_soplos_theme	    misc/soplos-grub-theme
 etc/grub.d/41_snapshots-btrfs	    admin/grub-btrfs
 etc/skel/.config/fastfetch/config.jsonc	    utils/fastfetch-soplos
@@ -39,7 +30,6 @@ usr/bin/soplos-sys-cleaner	    utils/soplos-sys-cleaner
 usr/bin/soplos-webapp-manager	    utils/soplos-webapp-manager
 usr/bin/soplos-welcome	    utils/soplos-welcome
 usr/bin/soplos-welcome-live	    utils/soplos-welcome-live
-usr/lib/os-release	    admin/soplos-release
 usr/lib/systemd/system/grub-btrfsd.service	    admin/grub-btrfs
 usr/share/applications/com.soplos.msi-keyboard.desktop	    utils/msi-keyboard-gui
 usr/share/applications/org.soplos.appimagemanager.desktop	    utils/soplos-appimage-manager
@@ -193,7 +183,6 @@ usr/share/metainfo/org.soplos.sys-cleaner.metainfo.xml	    utils/soplos-sys-clea
 usr/share/metainfo/org.soplos.webappmanager.metainfo.xml	    utils/soplos-webapp-manager
 usr/share/metainfo/org.soplos.welcome.metainfo.xml	    utils/soplos-welcome
 usr/share/metainfo/org.soplos.welcomelive.metainfo.xml	    utils/soplos-welcome-live
-usr/share/metainfo/org.soploslinux.soplos.metainfo.xml	    admin/soplos-release
 usr/share/msi-keyboard-gui/LICENSE	    utils/msi-keyboard-gui
 usr/share/msi-keyboard-gui/README.md	    utils/msi-keyboard-gui
 usr/share/msi-keyboard-gui/changelog	    utils/msi-keyboard-gui
@@ -1044,7 +1033,6 @@ usr/share/plymouth/themes/soplos/005.png	    misc/soplos-plymouth-theme
 usr/share/plymouth/themes/soplos/README.md	    misc/soplos-plymouth-theme
 usr/share/plymouth/themes/soplos/soplos.plymouth	    misc/soplos-plymouth-theme
 usr/share/plymouth/themes/soplos/soplos.script	    misc/soplos-plymouth-theme
-usr/share/polkit-1/rules.d/10-soplos-packagekit.rules	    admin/soplos-release
 usr/share/soplos-appimage-manager/CHANGELOG.md	    utils/soplos-appimage-manager
 usr/share/soplos-appimage-manager/LICENSE	    utils/soplos-appimage-manager
 usr/share/soplos-appimage-manager/README.md	    utils/soplos-appimage-manager
