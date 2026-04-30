@@ -308,6 +308,36 @@ Description: Soplos Wallpapers Pack 02.
  This package provides the Soplos Wallpapers Pack 02, including a collection of high quality wallpapers for Soplos Linux.
  Build date: 2025-07-27
 
+Package: soplos-wallpapers01
+Version: 0.0.2
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-wallpapers01/soplos-wallpapers01_0.0.2_all.deb
+Size: 34258388
+SHA256: 89cd05e30c664140bab2a797054c359ebfe37afe299d0656fc9e9c437d4bce63
+SHA1: dee33a5f82cbc17f9641310b019b5f0d24542a04
+MD5sum: 2e44a41bace09c1e6796e10876701461
+Description: Soplos Wallpapers Pack 01.
+ This package provides the Soplos Wallpapers Pack 01, including a collection of high quality wallpapers for Soplos Linux.
+ Build date: 2025-07-27
+
+Package: soplos-wallpapers02
+Version: 0.0.2
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-wallpapers02/soplos-wallpapers02_0.0.2_all.deb
+Size: 32269796
+SHA256: 89d237684b45c6c54c1c45c986a6ae8a0895a57ad36b5679cd724972d6ac54a8
+SHA1: 263f214c709f835e14086e7d5e8096086baf945e
+MD5sum: 7bcda9f82bb92c243f95aa38afb49045
+Description: Soplos Wallpapers Pack 02.
+ This package provides the Soplos Wallpapers Pack 02, including a collection of high quality wallpapers for Soplos Linux.
+ Build date: 2025-07-27
+
 Package: soplos-webapp-manager
 Version: 1.0.0-3
 Architecture: all
