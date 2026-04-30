@@ -1,16 +1,16 @@
 Package: branding-soplos
-Version: 0.0.1
+Version: 0.0.3
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Replaces: soplos-release (<= 0.0.11)
 Conflicts: soplos-release (<= 0.0.11)
 Priority: optional
 Section: misc
-Filename: pool/main/b/branding-soplos/branding-soplos_0.0.1_all.deb
-Size: 13852696
-SHA256: ebd541fd7fe55caee62b4d52823212d850d866c9590856f7639a314463716beb
-SHA1: 1f970b95434d686ac02afd4f34add6fa2bff5a21
-MD5sum: bc130a48c0e9e29601336d7f74a78cd9
+Filename: pool/main/b/branding-soplos/branding-soplos_0.0.3_all.deb
+Size: 13981864
+SHA256: 1b4c38e4a6c7bb5d2b2ef5a020bcfc009071d3e73a362ab48737d161307b5960
+SHA1: 9f72fbfd90dfa93e1caa07468a53cc4494a3998b
+MD5sum: 7f7a7a3f14f5b80e9c62abe32c8117e7
 Description: Branding package for Soplos Linux Tyson.
  This package provides the official branding (logos, themes, etc.) for Soplos Linux Tyson.
  Build date: 2025-07-27
