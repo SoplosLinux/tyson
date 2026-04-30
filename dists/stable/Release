@@ -3,7 +3,7 @@ Label: SoplosLinux
 Suite: stable
 Codename: stable
 Version: 1.0
-Date: Thu, 30 Apr 2026 15:01:07 UTC
+Date: Thu, 30 Apr 2026 15:02:39 UTC
 Architectures: amd64
 Components: main
 Description: Repositorio de SoplosLinux

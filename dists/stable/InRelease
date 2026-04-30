@@ -6,7 +6,7 @@ Label: SoplosLinux
 Suite: stable
 Codename: stable
 Version: 1.0
-Date: Thu, 30 Apr 2026 15:01:07 UTC
+Date: Thu, 30 Apr 2026 15:02:39 UTC
 Architectures: amd64
 Components: main
 Description: Repositorio de SoplosLinux
@@ -30,17 +30,17 @@ SHA256:
  cfd32fb52bfc1345a4b75df1b4c5e786f988686e8d237172b06b72301e55bf64 10125 main/Contents-amd64.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEGfD0EIDZtAmGkhEmiEVBnx3uS2QFAmnzbrMACgkQiEVBnx3u
-S2RbPg//bASgqq8pjOu+vMX9UzOZVqZkZBf/LxGklhC1W0fAj0GTWsxCbSiVoqqJ
-CoiUoTrHOLW9uy2+XckhprqNQIGPIcTLhH+PKAvNaR82fPrXLP0M8CkRAYz9TQba
-/gScxx6rprotXW2AJBf9rItQ2pX6FK0DQ85PzdCHbbGRHWkN5AWOL1i5eeZ6IjA0
-hBuC/Lll/XTXa1qsutxeRkKskA1TyVudGe6hugSk3ljymnMd5eRmHpBTGziA3oDf
-p/UE34vsqug7jyGBUuiEk5hH4PL7l9bfHbXOIGwrPy0hXqmg0HB6Nl5VdOWgkla2
-JK+dOIa8OgDwokH+NNrOb0AieJ5E/0v8N0ZI52NTduWYdRK2t9JRqHVrtTnioqYw
-Ji+m0lcp3Xf5DR00/W2DHRMpYeSZPYfH3InF7lPK5lKsTeuNwt2BQVDxZm6lkL9t
-itbx4NeK+bLOwzwafkXB7ErhOViEJCtztbHLum72REWy9ZISNy7lTX13ceNU1E/E
-7QyEhtaoM6muargOyFvyn3CVTtZ/mdkUEiqpgH9eErgWCEh6vYK3zBhqWrz9thGS
-bghUK+XDBTlrAxQO/89vBOZkdmduQ6orXkr8uZnVwIHfYlHKTsMLTRHmADRQlAP+
-k9ZYpVKkUSmt5h3Xw4e4M6GDlAbweOBtWuhVHWgeiJcQSIOp6/c=
-=c+9X
+iQIzBAEBCgAdFiEEGfD0EIDZtAmGkhEmiEVBnx3uS2QFAmnzbw8ACgkQiEVBnx3u
+S2RF4xAAlaRy080kOWqdQ6nDfFJwpnCmvNnlTssksAf9ar+SuhjJxkQY/Xku4Ofw
+8yyic9GFnOZVbPU89CTxzJyc456IuV6Xhnw731TAv1wZtWogcsKgidjHkJUalnuB
+OQr4TdmVQMiEKFJ/QWplOrgtFvb7fEeQvZxHJBTCy+SBvi6XRyFbKsvO2Jt2HEIy
+2u5RtwMGQD9F2EgJFXtp/3JJnh6O+XJJw2qvcLR3NWs4u4c51yalP0i0f11F2ksd
+uQoK8Dd8UrcujfIbUNQJliPk3qt2mcIUZWatMC8KD4keZDz2yhwAe+tEY4eua3rx
+Uoavs3FPu/aulzHi5mVjWqnqXCkGR9YGpBQZ7DU5ZledHqAXduL9bM69ljdX2Z/D
+7+odIMlWKsIjrtJhT1yrQGe9dm/VmFI+7NE/h1E3qMpXJZ4X9j6L2DwAgSgEtK2a
+pjGjjTUHN90wPVuGsWtL/HFMR0D+/q2CGqNpFvBlt6R+07FPdQjE9jHz9l6NjqaO
+vpzo+QBthTn7ggqNofvJL0zo7BT/YQtCiLjtO4QirPGafnCXSXFVrn/NLvvY99Uc
+EgmGHWl0bM2DrZ62jNkr1bdni46u6g6o0kofIGQS7msxN5EQuejtdTh6HpUfzfnk
+/z2rNmrVCOBjp2BgX5ES1Ehoz22y537tW0OkqoamEaNuCCBKmzo=
+=0+2f
 -----END PGP SIGNATURE-----
