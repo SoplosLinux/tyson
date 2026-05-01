@@ -55,24 +55,6 @@ Description: Include btrfs snapshots in GRUB menu
  This package includes the grub-btrfsd daemon which automatically updates the
  grub menu when snapshots are created or deleted.
 
-Package: linux-image-7.0.3-soplos
-Source: linux-upstream
-Version: 1
-Architecture: amd64
-Maintainer: soplos <soplos@soplos-vmware201>
-Installed-Size: 105668
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-image-7.0.3-soplos_1_amd64.deb
-Size: 92547124
-SHA256: 6a4d10aca20c19573d6591ce0a50f4916f877e34fade0fb6855157e87026bc15
-SHA1: f7a855b2a9220a7cc7e132d6b8f5aa5c891c2f08
-MD5sum: d782e4e2251760bcdb0139bd02d76e83
-Description: Linux kernel, version 7.0.3-soplos
- This package contains the Linux kernel, modules and corresponding other
- files, version: 7.0.3-soplos.
-
 Package: msi-keyboard-gui
 Version: 1.0.9
 Architecture: all
