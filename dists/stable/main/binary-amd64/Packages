@@ -55,25 +55,6 @@ Description: Include btrfs snapshots in GRUB menu
  This package includes the grub-btrfsd daemon which automatically updates the
  grub menu when snapshots are created or deleted.
 
-Package: linux-headers-7.0.3-soplos
-Source: linux-upstream
-Version: 1
-Architecture: amd64
-Maintainer: soplos <soplos@soplos-vmware201>
-Installed-Size: 57824
-Homepage: https://www.kernel.org/
-Priority: optional
-Section: kernel
-Filename: pool/main/l/linux-upstream/linux-headers-7.0.3-soplos_1_amd64.deb
-Size: 9699380
-SHA256: b5816fe5550197b90d85952839ad328f9344adccb23b6ef1d23f2f68495c9c8e
-SHA1: 50ab154dc555e2ea11703c859299aa187be47c2c
-MD5sum: e086c0f3a1fd429d9c4eee2e6feaf35e
-Description: Linux kernel headers for 7.0.3-soplos on amd64
- This package provides kernel header files for 7.0.3-soplos on amd64
- .
- This is useful for people who need to build external modules
-
 Package: linux-image-7.0.3-soplos
 Source: linux-upstream
 Version: 1
