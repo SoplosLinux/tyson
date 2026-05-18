@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260518T142802
+Time: 20260518T152205
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -2296,8 +2296,30 @@ Developer:
 Provides:
   - soplos-plymouth-manager
 Releases:
+  - version: 2.0.0-4
+    date: '2026-05-18'
+    type: stable
+    description:
+      en: |-
+        Documentation-only release: version history corrected across the release page, CHANGELOG, README and metainfo. All timestamps updated to match the forensic audit of the official package archive.
+      es: |-
+        Publicación solo de documentación: historial de versiones corregido en la página de lanzamientos, CHANGELOG, README y metainfo. Todas las fechas actualizadas para coincidir con la auditoría forense del archivo oficial de paquetes.
+      fr: |-
+        Version documentation uniquement : historique des versions corrigé dans la page des versions, CHANGELOG, README et metainfo. Toutes les dates mises à jour pour correspondre à l'audit forensique de l'archive officielle des paquets.
+      pt: |-
+        Versão apenas de documentação: histórico de versões corrigido na página de lançamentos, CHANGELOG, README e metainfo. Todas as datas atualizadas para corresponder à auditoria forense do arquivo oficial de pacotes.
+      de: |-
+        Nur-Dokumentations-Release: Versionshistorie auf der Releases-Seite, im CHANGELOG, README und Metainfo korrigiert. Alle Zeitstempel entsprechend der forensischen Prüfung des offiziellen Paketarchivs aktualisiert.
+      it: |-
+        Versione solo documentazione: cronologia delle versioni corretta nella pagina delle versioni, CHANGELOG, README e metainfo. Tutti i timestamp aggiornati per corrispondere all'audit forense dell'archivio ufficiale dei pacchetti.
+      ru: |-
+        Только документационный выпуск: история версий исправлена на странице релизов, в CHANGELOG, README и metainfo. Все временные метки обновлены в соответствии с криминалистической проверкой официального архива пакетов.
+      ro: |-
+        Lansare doar de documentație: istoricul versiunilor corectat în pagina de lansări, CHANGELOG, README și metainfo. Toate marcajele temporale actualizate pentru a corespunde auditului criminalistic al arhivei oficiale de pachete.
+      C: |-
+        Documentation-only release: version history corrected across the release page, CHANGELOG, README and metainfo. All timestamps updated to match the forensic audit of the official package archive.
   - version: 2.0.0-3
-    date: '2026-04-30'
+    date: '2026-05-16'
     type: stable
     description:
       en: Simplified the footer UI text to match the modern Soplos standard layout.
@@ -2317,7 +2339,7 @@ Releases:
         standard modern Soplos.
       C: Simplified the footer UI text to match the modern Soplos standard layout.
   - version: 2.0.0-2
-    date: '2026-03-20'
+    date: '2026-04-21'
     type: stable
     description:
       en: |-
@@ -2381,7 +2403,7 @@ Releases:
       ro: |-
         Versiunea 2.0.0 - Refactorizare modulară completă cu detecție dinamică a temelor (fără liste fixe), instalator robust pentru arhive imbricate, raportare îmbunătățită a progresului și suport complet pentru Wayland. Include detecția unificată a mediului, detecția robustă a temei întunecate KDE, solicitări cu o singură parolă pentru TTY, previzualizări GNOME și KDE avansate (Wayland/TTY) și jurnalizare standardizată.
   - version: 1.0.4
-    date: '2025-07-27'
+    date: '2025-05-07'
     type: stable
     description:
       C: Program icon changed.
@@ -2394,7 +2416,7 @@ Releases:
       ru: Изменена иконка программы.
       ro: S-a schimbat pictograma programului.
   - version: 1.0.3
-    date: '2025-07-18'
+    date: '2025-05-06'
     type: stable
     description:
       C: |-

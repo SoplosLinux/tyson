@@ -191,17 +191,17 @@ Description: Soplos Modern White global theme for KDE Plasma 6.
  Build date: 2026-04-30
 
 Package: soplos-plymouth-manager
-Version: 2.0.0-3
+Version: 2.0.0-4
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, plymouth, plymouth-x11, polkit | policykit-1-gnome | policykit-1, procps, python3-all, python3-dbus, python3-gi, python3-pil | python3-pillow, python3-psutil, python3-setuptools, python3-xdg, scrot | imagemagick, tar, unzip, x11-utils, xdotool, xserver-xephyr, xterm
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_2.0.0-3_all.deb
-Size: 960780
-SHA256: 77c8eace9647b8e3d7116bfcb08ed4227d031de5602ff11030db982380e5cd2b
-SHA1: 2f7c2222b72e73bc67ef5d9f17bfce06f9eff7dc
-MD5sum: 971baf2d6209a7c8a96df5d0b099efde
+Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_2.0.0-4_all.deb
+Size: 961484
+SHA256: bae315b01ae3d11a6127c573a61428fde37109bc28d2711dc18edfc6957109fd
+SHA1: a3583f7de5f8fdf4d9e0b42d2f41fc0eedfe36d4
+MD5sum: 7aad61032797715e6ea1589adde10ebf
 Description: Plymouth boot splash theme manager for Soplos Linux
 
 Package: soplos-plymouth-theme

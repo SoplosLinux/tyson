@@ -159,7 +159,19 @@
   </provides>
 
   <releases>
-    <release version="2.0.0-3" date="2026-04-30">
+    <release version="2.0.0-4" date="2026-05-18">
+      <description>
+        <p xml:lang="en">Documentation-only release: version history corrected across the release page, CHANGELOG, README and metainfo. All timestamps updated to match the forensic audit of the official package archive.</p>
+        <p xml:lang="es">Publicación solo de documentación: historial de versiones corregido en la página de lanzamientos, CHANGELOG, README y metainfo. Todas las fechas actualizadas para coincidir con la auditoría forense del archivo oficial de paquetes.</p>
+        <p xml:lang="fr">Version documentation uniquement : historique des versions corrigé dans la page des versions, CHANGELOG, README et metainfo. Toutes les dates mises à jour pour correspondre à l'audit forensique de l'archive officielle des paquets.</p>
+        <p xml:lang="pt">Versão apenas de documentação: histórico de versões corrigido na página de lançamentos, CHANGELOG, README e metainfo. Todas as datas atualizadas para corresponder à auditoria forense do arquivo oficial de pacotes.</p>
+        <p xml:lang="de">Nur-Dokumentations-Release: Versionshistorie auf der Releases-Seite, im CHANGELOG, README und Metainfo korrigiert. Alle Zeitstempel entsprechend der forensischen Prüfung des offiziellen Paketarchivs aktualisiert.</p>
+        <p xml:lang="it">Versione solo documentazione: cronologia delle versioni corretta nella pagina delle versioni, CHANGELOG, README e metainfo. Tutti i timestamp aggiornati per corrispondere all'audit forense dell'archivio ufficiale dei pacchetti.</p>
+        <p xml:lang="ru">Только документационный выпуск: история версий исправлена на странице релизов, в CHANGELOG, README и metainfo. Все временные метки обновлены в соответствии с криминалистической проверкой официального архива пакетов.</p>
+        <p xml:lang="ro">Lansare doar de documentație: istoricul versiunilor corectat în pagina de lansări, CHANGELOG, README și metainfo. Toate marcajele temporale actualizate pentru a corespunde auditului criminalistic al arhivei oficiale de pachete.</p>
+      </description>
+    </release>
+    <release version="2.0.0-3" date="2026-05-16">
       <description>
         <p xml:lang="en">Simplified the footer UI text to match the modern Soplos standard layout.</p>
         <p xml:lang="es">Se ha simplificado el texto de la barra de estado para coincidir con el diseño estándar de Soplos.</p>
@@ -171,7 +183,7 @@
         <p xml:lang="ro">Textul barei de stare a fost simplificat pentru a se potrivi cu aspectul standard modern Soplos.</p>
       </description>
     </release>
-    <release version="2.0.0-2" date="2026-03-20">
+    <release version="2.0.0-2" date="2026-04-21">
       <description>
         <p xml:lang="en">Fixed About dialog credits panel on KDE: the credits area now displays with an opaque dark background instead of being transparent. App icon standardized to 48×48 pixels.</p>
         <p xml:lang="es">Corregido el panel de créditos del diálogo Acerca de en KDE: el área de créditos ahora se muestra con fondo oscuro opaco en lugar de ser transparente. Icono estandarizado a 48×48 píxeles.</p>
@@ -207,7 +219,7 @@
         <p xml:lang="ro">Versiunea 2.0.0 - Refactorizare modulară completă cu detecție dinamică a temelor (fără liste fixe), instalator robust pentru arhive imbricate, raportare îmbunătățită a progresului și suport complet pentru Wayland. Include detecția unificată a mediului, detecția robustă a temei întunecate KDE, solicitări cu o singură parolă pentru TTY, previzualizări GNOME și KDE avansate (Wayland/TTY) și jurnalizare standardizată.</p>
       </description>
     </release>
-    <release version="1.0.4" date="2025-07-27">
+    <release version="1.0.4" date="2025-05-07">
       <description>
         <p>Cambio de icono del programa.</p>
         <p xml:lang="es">Cambio de icono del programa.</p>
@@ -220,7 +232,7 @@
         <p xml:lang="ro">S-a schimbat pictograma programului.</p>
       </description>
     </release>
-    <release version="1.0.3" date="2025-07-18">
+    <release version="1.0.3" date="2025-05-06">
       <description>
         <p>Actualización de metainfo para cumplir con AppStream/DEP-11. Renombrado de screenshots a screenshot1.png, screenshot2.png, etc. Mejoras menores de documentación y metadatos.</p>
         <p xml:lang="es">Actualización de metainfo para cumplir con AppStream/DEP-11. Renombrado de screenshots a screenshot1.png, screenshot2.png, etc. Mejoras menores de documentación y metadatos.</p>
