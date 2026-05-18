@@ -188,6 +188,38 @@
   </categories>
 
   <releases>
+    <release version="1.0.0-4" date="2026-04-30">
+      <description>
+        <p>Simplified the footer UI text to match the modern Soplos standard layout. Added icon persistence and fixed theme support.</p>
+        <p xml:lang="en">Simplified the footer UI text to match the modern Soplos standard layout. Added icon persistence and fixed theme support.</p>
+        <p xml:lang="es">Se ha simplificado el texto de la barra de estado. Añadida persistencia de iconos y soporte corregido para el tema claro/oscuro del sistema.</p>
+        <p xml:lang="fr">Le texte de la barre d'état a été simplifié. Ajout de la persistance des icônes et correction de la prise en charge du thème clair/sombre du système.</p>
+        <p xml:lang="pt">O texto da barra de status foi simplificado. Adicionada persistência de ícones e suporte corrigido para o tema claro/escuro do sistema.</p>
+        <p xml:lang="de">Der Text der Statusleiste wurde vereinfacht. Symbolpersistenz hinzugefügt und Unterstützung für helles/dunkles Systemdesign korrigiert.</p>
+        <p xml:lang="it">Il testo della barra di stato è stato semplificato. Aggiunta la persistenza delle icone e corretto il supporto per il tema chiaro/scuro del sistema.</p>
+        <p xml:lang="ru">Текст строки состояния был упрощен. Добавлено сохранение значков и исправлена поддержка светлой/темной темы системы.</p>
+        <p xml:lang="ro">Textul barei de stare a fost simplificat. S-a adăugat persistența pictogramelor și s-a corectat suportul pentru tema deschisă/închisă a sistemului.</p>
+        <ul>
+          <li>WebApp icons are now saved permanently in the local data folder instead of the cache folder.</li>
+          <li xml:lang="es">Los iconos de las WebApps se guardan de forma permanente en la carpeta local de datos en lugar de la caché.</li>
+          <li xml:lang="fr">Les icônes WebApp sont désormais enregistrées de manière permanente dans le dossier de données local au lieu du cache.</li>
+          <li xml:lang="de">WebApp-Symbole werden nun dauerhaft im lokalen Datenordner anstatt im Cache gespeichert.</li>
+          <li xml:lang="it">Le icone delle WebApp vengono ora salvate in modo permanente nella cartella dati locale anziché nella cache.</li>
+          <li xml:lang="pt">Os ícones dos WebApps agora são salvos permanentemente na pasta de dados local em vez do cache.</li>
+          <li xml:lang="ro">Pictogramele WebApp sunt acum salvate permanent în folderul de date local în loc de memoria cache.</li>
+          <li xml:lang="ru">Значки WebApp теперь сохраняются постоянно в локальной папке данных, а не в кеше.</li>
+          
+          <li>The application now correctly respects the system's light or dark GTK theme preference.</li>
+          <li xml:lang="es">La aplicación ahora respeta correctamente la preferencia del tema GTK claro u oscuro del sistema.</li>
+          <li xml:lang="fr">L'application respecte désormais correctement la préférence de thème clair ou sombre du système.</li>
+          <li xml:lang="de">Die Anwendung respektiert nun korrekt die Systemeinstellung für ein helles oder dunkles GTK-Design.</li>
+          <li xml:lang="it">L'applicazione ora rispetta correttamente la preferenza per il tema GTK chiaro o scuro del sistema.</li>
+          <li xml:lang="pt">O aplicativo agora respeita corretamente a preferência do tema claro ou escuro do sistema.</li>
+          <li xml:lang="ro">Aplicația respectă acum în mod corect preferința de temă deschisă sau închisă a sistemului.</li>
+          <li xml:lang="ru">Теперь приложение корректно учитывает системные настройки светлой или темной темы GTK.</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0-3" date="2026-03-22">
       <description>
         <p>Fixed background color inconsistency in the main window.</p>

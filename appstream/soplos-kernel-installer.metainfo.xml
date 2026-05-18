@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.soplos.kernel-installer</id>
+  <pkgname>soplos-kernel-installer</pkgname>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <project_group>org.soplos</project_group>
+
+  <name>Soplos Kernel Installer</name>
+  <name xml:lang="de">Soplos Kernel-Installer</name>
+  <name xml:lang="es">Instalador de Kernel Soplos</name>
+  <name xml:lang="fr">Installateur de Kernel Soplos</name>
+  <name xml:lang="it">Installatore Kernel Soplos</name>
+  <name xml:lang="pt">Instalador de Kernel Soplos</name>
+  <name xml:lang="ro">Instalator Kernel Soplos</name>
+  <name xml:lang="ru">Установщик ядра Soplos</name>
+
+  <summary>Advanced graphical kernel manager for Soplos Linux</summary>
+  <summary xml:lang="de">Erweiterter grafischer Kernel-Manager für Soplos Linux</summary>
+  <summary xml:lang="es">Gestor gráfico avanzado de kernels para Soplos Linux</summary>
+  <summary xml:lang="fr">Gestionnaire graphique avancé de noyaux pour Soplos Linux</summary>
+  <summary xml:lang="it">Gestore grafico avanzato del kernel per Soplos Linux</summary>
+  <summary xml:lang="pt">Gerenciador gráfico avançado de kernels para Soplos Linux</summary>
+  <summary xml:lang="ro">Manager grafic avansat de nuclee pentru Soplos Linux</summary>
+  <summary xml:lang="ru">Продвинутый графический менеджер ядер для Soplos Linux</summary>
+
+  <description>
+    <p>
+      Soplos Kernel Installer is a comprehensive graphical tool for downloading, patching, compiling and installing custom Linux kernels from kernel.org. 
+      It provides an intuitive interface for managing kernel versions, patches, and configurations with complete internationalization support for 8 languages.
+    </p>
+    <p xml:lang="de">
+      Soplos Kernel-Installer ist ein umfassendes grafisches Tool zur Konfiguration und Anpassung des GRUB2-Bootloaders. 
+      Mit vollständiger Internationalisierungsunterstützung für 8 Sprachen bietet es eine intuitive Benutzeroberfläche für die Verwaltung von Boot-Einstellungen, Themes, Schriftarten und benutzerdefinierten Einträgen.
+    </p>
+    <p xml:lang="es">
+      Soplos Kernel Installer es una herramienta gráfica integral para descargar, parchear, compilar e instalar kernels Linux personalizados desde kernel.org. 
+      Con soporte completo de internacionalización para 8 idiomas, proporciona una interfaz intuitiva para gestionar versiones de kernel, parches y configuraciones.
+    </p>
+    <p xml:lang="fr">
+      Soplos Kernel Installer est un outil graphique complet pour télécharger, patcher, compiler et installer des noyaux Linux personnalisés à partir de kernel.org. 
+      Avec un support complet d'internationalisation pour 8 langues, il fournit une interface intuitive pour gérer les versions de noyau, les patchs et les configurations.
+    </p>
+    <p xml:lang="it">
+      Soplos Kernel Installer è uno strumento grafico completo per scaricare, applicare patch, compilare e installare kernel Linux personalizzati da kernel.org. 
+      Con supporto completo di internazionalizzazione per 8 lingue, fornisce un'interfaccia intuitiva per gestire versioni del kernel, patch e configurazioni.
+    </p>
+    <p xml:lang="pt">
+      Soplos Kernel Installer é uma ferramenta gráfica abrangente para baixar, aplicar patches, compilar e instalar kernels Linux personalizados a partir do kernel.org. 
+      Com suporte completo de internacionalização para 8 idiomas, fornece uma interface intuitiva para gerenciar versões de kernel, patches e configurações.
+    </p>
+    <p xml:lang="ro">
+      Soplos Kernel Installer este un instrument grafic complet pentru descărcarea, aplicarea de patch-uri, compilarea și instalarea nucleelor Linux personalizate de pe kernel.org. 
+      Cu suport complet de internaționalizare pentru 8 limbi, oferă o interfață intuitivă pentru gestionarea versiunilor de nucleu, patch-urilor și configurațiilor.
+    </p>
+    <p xml:lang="ru">
+      Soplos Kernel Installer — это комплексный графический инструмент для загрузки, патчинга, компиляции и установки пользовательских ядер Linux с сайта kernel.org. 
+      С полным поддержкой интернационализации для 8 языков, он предоставляет интуитивный интерфейс для управления версиями ядра, патчами и конфигурациями.
+    </p>
+  </description>
+
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-kernel-installer/issues</url>
+
+  <launchable type="desktop-id">org.soplos.kernel-installer.desktop</launchable>
+
+  <developer_name>Sergi Perich</developer_name>
+
+  <content_rating type="oars-1.1" />
+
+  <categories>
+    <category>Settings</category>
+    <category>System</category>
+    <category>Utility</category>
+    <category>GTK</category>
+  </categories>
+
+  <requires>
+    <display_length compare="ge">800</display_length>
+    <memory compare="ge">1024</memory>
+  </requires>
+
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </recommends>
+
+  <keywords>
+    <keyword>kernel</keyword>
+    <keyword>installer</keyword>
+    <keyword>manager</keyword>
+    <keyword>compilation</keyword>
+    <keyword>patch</keyword>
+    <keyword>soplos</keyword>
+    <keyword xml:lang="es">kernel</keyword>
+    <keyword xml:lang="es">instalador</keyword>
+    <keyword xml:lang="es">gestor</keyword>
+    <keyword xml:lang="es">compilación</keyword>
+    <keyword xml:lang="es">parche</keyword>
+    <keyword xml:lang="fr">noyau</keyword>
+    <keyword xml:lang="fr">installateur</keyword>
+    <keyword xml:lang="fr">gestionnaire</keyword>
+    <keyword xml:lang="fr">compilation</keyword>
+    <keyword xml:lang="fr">patch</keyword>
+    <keyword xml:lang="de">kernel</keyword>
+    <keyword xml:lang="de">installer</keyword>
+    <keyword xml:lang="de">manager</keyword>
+    <keyword xml:lang="de">kompilierung</keyword>
+    <keyword xml:lang="de">patch</keyword>
+    <keyword xml:lang="pt">kernel</keyword>
+    <keyword xml:lang="pt">instalador</keyword>
+    <keyword xml:lang="pt">gerenciador</keyword>
+    <keyword xml:lang="pt">compilação</keyword>
+    <keyword xml:lang="pt">patch</keyword>
+    <keyword xml:lang="it">kernel</keyword>
+    <keyword xml:lang="it">installatore</keyword>
+    <keyword xml:lang="it">gestore</keyword>
+    <keyword xml:lang="it">compilazione</keyword>
+    <keyword xml:lang="it">patch</keyword>
+    <keyword xml:lang="ro">kernel</keyword>
+    <keyword xml:lang="ro">instalator</keyword>
+    <keyword xml:lang="ro">manager</keyword>
+    <keyword xml:lang="ro">compilare</keyword>
+    <keyword xml:lang="ro">patch</keyword>
+    <keyword xml:lang="ru">ядро</keyword>
+    <keyword xml:lang="ru">установщик</keyword>
+    <keyword xml:lang="ru">менеджер</keyword>
+    <keyword xml:lang="ru">компиляция</keyword>
+    <keyword xml:lang="ru">патч</keyword>
+  </keywords>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-kernel-installer/screenshots/screenshot01.png</image>
+      <caption>Main interface with kernel selection and featured channels</caption>
+      <caption xml:lang="es">Interfaz principal con selección de kernel y canales destacados</caption>
+      <caption xml:lang="fr">Interface principale avec sélection du noyau et canaux en vedette</caption>
+      <caption xml:lang="de">Hauptoberfläche mit Kernelauswahl und Top-Kanälen</caption>
+      <caption xml:lang="pt">Interface principal com seleção de kernel e canais em destaque</caption>
+      <caption xml:lang="it">Interfaccia principale con selezione del kernel e canali in primo piano</caption>
+      <caption xml:lang="ro">Interfața principală cu selecția nucleului și canale recomandate</caption>
+      <caption xml:lang="ru">Главный интерфейс с выбором ядра и избранными каналами</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-kernel-installer/screenshots/screenshot02.png</image>
+      <caption>Installation progress with integrated UI feedback</caption>
+      <caption xml:lang="es">Progreso de instalación con respuesta visual integrada</caption>
+      <caption xml:lang="fr">Progression de l'installation avec retour visuel intégré</caption>
+      <caption xml:lang="de">Installationsfortschritt mit integriertem UI-Feedback</caption>
+      <caption xml:lang="pt">Progresso da instalação com feedback visual integrado</caption>
+      <caption xml:lang="it">Avanzamento dell'installazione con feedback visivo integrato</caption>
+      <caption xml:lang="ro">Progresul instalării cu feedback vizual integrat</caption>
+      <caption xml:lang="ru">Прогресс установки с интегрированной обратной связью</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-kernel-installer/screenshots/screenshot03.png</image>
+      <caption>Real-time compilation window with detailed logs</caption>
+      <caption xml:lang="es">Ventana de compilación en tiempo real con registros detallados</caption>
+      <caption xml:lang="fr">Fenêtre de compilation en temps réel avec journaux détaillés</caption>
+      <caption xml:lang="de">Echtzeit-Kompilierungsfenster mit detaillierten Protokollen</caption>
+      <caption xml:lang="pt">Janela de compilação em tempo real com logs detalhados</caption>
+      <caption xml:lang="it">Finestra di compilazione in tempo reale con log dettagliati</caption>
+      <caption xml:lang="ro">Fereastra de compilare în timp real cu jurnale detaliate</caption>
+      <caption xml:lang="ru">Окно компиляции в реальном времени с подробными логами</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="1.0.0" date="2026-04-05">
+      <description>
+        <p>Initial release of Soplos Kernel Installer with comprehensive kernel management features including PREEMPT_RT integration, source reuse, and Secure Boot support.</p>
+        <p xml:lang="es">Lanzamiento inicial del Instalador de Kernel Soplos con funciones completas de gestión de kernels, incluyendo integración de PREEMPT_RT, reutilización de código fuente y soporte para Secure Boot.</p>
+        <p xml:lang="fr">Sortie initiale de l'Installateur de Kernel Soplos avec des fonctionnalités complètes de gestion des noyaux, y compris l'intégration de PREEMPT_RT, la réutilisation du code source et le support Secure Boot.</p>
+        <p xml:lang="de">Erstveröffentlichung des Soplos Kernel-Installers mit umfassenden Kernel-Verwaltungsfunktionen, einschließlich PREEMPT_RT-Integration, Quellcode-Wiederverwendung und Secure Boot-Unterstützung.</p>
+        <p xml:lang="pt">Lançamento inicial do Instalador de Kernel Soplos com recursos abrangentes de gerenciamento de kernel, incluindo integração PREEMPT_RT, reutilização de código-fonte e suporte a Secure Boot.</p>
+        <p xml:lang="it">Rilascio iniziale dell'Installatore Kernel Soplos con funzionalità complete di gestione del kernel, inclusa l'integrazione PREEMPT_RT, il riutilizzo del sorgente e il supporto Secure Boot.</p>
+        <p xml:lang="ro">Versiunea inițială a Instalatorului de Kernel Soplos cu funcții complete de gestionare a nucleelor, inclusiv integrarea PREEMPT_RT, reutilizarea sursei și suportul Secure Boot.</p>
+        <p xml:lang="ru">Первоначальный выпуск Установщика ядра Soplos с комплексными функциями управления ядрами, включая интеграцию PREEMPT_RT, повторное использование исходного кода и поддержку Secure Boot.</p>
+        <ul>
+          <li>Download kernels from stable, LTS, RC and Soplos featured channels</li>
+          <li>BORE, PREEMPT_RT, Zen and NTSYNC patch support from original sources</li>
+          <li>Gaming, Audio/Video, Minimal and Hardware Optimized profiles</li>
+          <li>Source reuse for faster recompilation with patch conflict detection</li>
+          <li>Expandable installation history with automatic kernel tagging</li>
+          <li>Secure Boot MOK signing with NVIDIA DKMS support</li>
+          <li>Automatic NVIDIA VMA API patch for kernel 7.0+ compatibility</li>
+          <li>DKMS MOK key enrollment prompt after installation when NVIDIA GPU detected — fixes NVENC and CUDA with Secure Boot</li>
+          <li>Option to save compiled .deb packages before build directory cleanup</li>
+          <li>MOK key storage path shown in key management dialog</li>
+          <li>Fixed all kernel profile compilation bugs (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li>Fixed GPU detection to avoid false positives from AMD CPU lines</li>
+          <li>Build directory cleanup checkbox now works correctly</li>
+          <li>EOL kernels from kernel.org now shown as "(EOL)" with a warning — previously hidden from the list</li>
+          <li>Mainline kernels (e.g. 7.0) no longer incorrectly shown as "(latest)"</li>
+          <li>Complete internationalization for 8 languages</li>
+          <li>Fixed MOK password shell injection — password safely escaped with shlex.quote()</li>
+          <li>Fixed install button allowing duplicate builds — now disabled on first click</li>
+          <li>Custom kernel name validated against allowed characters before install</li>
+          <li>remove_kernel() validates release string before building shell commands</li>
+          <li>Hidden "Soplos Stock" profile (Ctrl+Shift+D) for distributing vanilla kernels across all Soplos distributions</li>
+          <li>MOK dialog now explains the DKMS automatic rebuild cycle on each new kernel install</li>
+          <li>Second make olddefconfig pass after profile options — prevents interactive config prompts mid-build</li>
+          <li>9 missing i18n strings completed in all 8 languages</li>
+
+          <li xml:lang="es">Descarga kernels de canales stable, LTS, RC y Soplos featured</li>
+          <li xml:lang="es">Soporte de parches BORE, PREEMPT_RT, Zen y NTSYNC desde fuentes originales</li>
+          <li xml:lang="es">Perfiles optimizados para Gaming, Audio/Video, Oficina y Hardware</li>
+          <li xml:lang="es">Reutilización de fuentes para compilación rápida con detección de conflictos</li>
+          <li xml:lang="es">Historial de instalación expandible con etiquetado automático de kernels</li>
+          <li xml:lang="es">Firma MOK de Secure Boot con soporte para NVIDIA DKMS</li>
+          <li xml:lang="es">Parche VMA automático de NVIDIA para compatibilidad con kernel 7.0+</li>
+          <li xml:lang="es">Enroll automático de clave DKMS MOK tras instalación con GPU NVIDIA — soluciona NVENC y CUDA con Secure Boot</li>
+          <li xml:lang="es">Opción para guardar los paquetes .deb compilados antes de limpiar el directorio de build</li>
+          <li xml:lang="es">Ruta de almacenamiento de claves MOK visible en el diálogo de gestión</li>
+          <li xml:lang="es">Corregidos todos los bugs de compilación de perfiles de kernel (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li xml:lang="es">Corregida la detección de GPU para evitar falsos positivos por líneas de CPU AMD</li>
+          <li xml:lang="es">El checkbox de limpieza del directorio de build ahora funciona correctamente</li>
+          <li xml:lang="es">Los kernels EOL de kernel.org ahora aparecen como "(EOL)" con aviso — antes no se mostraban</li>
+          <li xml:lang="es">Los kernels mainline (p.ej. 7.0) ya no se muestran incorrectamente como "(último)"</li>
+          <li xml:lang="es">Internacionalización completa para 8 idiomas</li>
+          <li xml:lang="es">Inyección de contraseña MOK corregida — contraseña escapada de forma segura</li>
+          <li xml:lang="es">El botón de instalación se desactiva al primer clic para evitar builds duplicados</li>
+          <li xml:lang="es">El nombre del kernel se valida antes de instalar</li>
+          <li xml:lang="es">Perfil oculto "Soplos Stock" (Ctrl+Mayús+D) para distribuir kernels vanilla en todas las distribuciones Soplos</li>
+          <li xml:lang="es">El diálogo MOK explica ahora el ciclo de reconstrucción automática de DKMS en cada nuevo kernel</li>
+          <li xml:lang="es">Segunda pasada de make olddefconfig tras aplicar opciones de perfil — evita prompts interactivos durante el build</li>
+          <li xml:lang="es">9 cadenas i18n faltantes completadas en los 8 idiomas</li>
+
+          <li xml:lang="fr">Téléchargez des noyaux à partir des canaux stable, LTS, RC et Soplos</li>
+          <li xml:lang="fr">Support des patchs BORE, PREEMPT_RT, Zen et NTSYNC à partir des sources originales</li>
+          <li xml:lang="fr">Profils optimisés pour le jeu, l'audio/vidéo, le bureau et le matériel</li>
+          <li xml:lang="fr">Réutilisation des sources pour une recompilation plus rapide avec détection des conflits</li>
+          <li xml:lang="fr">Historique d'installation extensible avec étiquetage automatique des noyaux</li>
+          <li xml:lang="fr">Signature Secure Boot MOK avec support NVIDIA DKMS</li>
+          <li xml:lang="fr">Patch VMA automatique NVIDIA pour la compatibilité avec le noyau 7.0+</li>
+          <li xml:lang="fr">Enrôlement automatique de la clé DKMS MOK après installation avec GPU NVIDIA — corrige NVENC et CUDA avec Secure Boot</li>
+          <li xml:lang="fr">Option pour sauvegarder les paquets .deb compilés avant la suppression du répertoire de build</li>
+          <li xml:lang="fr">Chemin de stockage des clés MOK visible dans le dialogue de gestion</li>
+          <li xml:lang="fr">Correction de tous les bugs de compilation des profils noyau (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li xml:lang="fr">Détection GPU corrigée pour éviter les faux positifs des lignes CPU AMD</li>
+          <li xml:lang="fr">La case à cocher de nettoyage du répertoire de build fonctionne désormais correctement</li>
+          <li xml:lang="fr">Les noyaux EOL de kernel.org s'affichent désormais en "(EOL)" avec un avertissement — auparavant masqués</li>
+          <li xml:lang="fr">Les noyaux mainline (ex. 7.0) ne s'affichent plus incorrectement comme "(dernier)"</li>
+          <li xml:lang="fr">Internationalisation complète pour 8 langues</li>
+          <li xml:lang="fr">Injection de mot de passe MOK corrigée — mot de passe échappé de manière sécurisée</li>
+          <li xml:lang="fr">Le bouton d'installation est désactivé au premier clic pour éviter les builds en double</li>
+          <li xml:lang="fr">Le nom du noyau est validé avant l'installation</li>
+          <li xml:lang="fr">Profil caché "Soplos Stock" (Ctrl+Maj+D) pour distribuer des noyaux vanilla sur toutes les distributions Soplos</li>
+          <li xml:lang="fr">Le dialogue MOK explique désormais le cycle de reconstruction automatique DKMS à chaque nouveau noyau</li>
+          <li xml:lang="fr">Deuxième passe make olddefconfig après les options de profil — évite les prompts interactifs pendant le build</li>
+          <li xml:lang="fr">9 chaînes i18n manquantes complétées dans les 8 langues</li>
+
+          <li xml:lang="de">Kernel von stabilen, LTS, RC und Soplos Featured-Kanälen herunterladen</li>
+          <li xml:lang="de">BORE-, PREEMPT_RT-, Zen- und NTSYNC-Patch-Unterstützung von Originalquellen</li>
+          <li xml:lang="de">Gaming-, Audio/Video-, Minimal- und Hardware-optimierte Profile</li>
+          <li xml:lang="de">Quellcode-Wiederverwendung für schnellere Rekompilierung mit Patch-Konflikterkennung</li>
+          <li xml:lang="de">Erweiterbarer Installationsverlauf mit automatischer Kernel-Kennzeichnung</li>
+          <li xml:lang="de">Secure Boot MOK-Signierung mit NVIDIA DKMS-Unterstützung</li>
+          <li xml:lang="de">Automatischer NVIDIA VMA-Patch für Kernel 7.0+-Kompatibilität</li>
+          <li xml:lang="de">Automatische DKMS MOK-Schlüsselregistrierung nach der Installation mit NVIDIA GPU — behebt NVENC und CUDA mit Secure Boot</li>
+          <li xml:lang="de">Option zum Speichern kompilierter .deb-Pakete vor der Build-Verzeichnisbereinigung</li>
+          <li xml:lang="de">MOK-Schlüssel-Speicherpfad im Schlüsselverwaltungsdialog sichtbar</li>
+          <li xml:lang="de">Alle Kernel-Profil-Kompilierungsfehler behoben (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li xml:lang="de">GPU-Erkennung korrigiert, um Falschmeldungen durch AMD-CPU-Zeilen zu vermeiden</li>
+          <li xml:lang="de">Kontrollkästchen zur Build-Verzeichnisbereinigung funktioniert jetzt korrekt</li>
+          <li xml:lang="de">EOL-Kernel von kernel.org werden jetzt als "(EOL)" mit Warnung angezeigt — vorher ausgeblendet</li>
+          <li xml:lang="de">Mainline-Kernel (z.B. 7.0) werden nicht mehr fälschlicherweise als "(neueste)" angezeigt</li>
+          <li xml:lang="de">Vollständige Internationalisierung für 8 Sprachen</li>
+          <li xml:lang="de">MOK-Passwort-Injektion behoben — Passwort wird sicher maskiert</li>
+          <li xml:lang="de">Installationsschaltfläche beim ersten Klick deaktiviert, um doppelte Builds zu verhindern</li>
+          <li xml:lang="de">Kernel-Name wird vor der Installation validiert</li>
+          <li xml:lang="de">Verstecktes "Soplos Stock"-Profil (Strg+Umsch+D) zur Verteilung von Vanilla-Kerneln auf allen Soplos-Distributionen</li>
+          <li xml:lang="de">MOK-Dialog erklärt jetzt den automatischen DKMS-Neuerstellungszyklus bei jedem neuen Kernel</li>
+          <li xml:lang="de">Zweiter make olddefconfig-Durchlauf nach Profiloptionen — verhindert interaktive Eingabeaufforderungen während des Builds</li>
+          <li xml:lang="de">9 fehlende i18n-Strings in allen 8 Sprachen vervollständigt</li>
+
+          <li xml:lang="pt">Baixe kernels de canais estáveis, LTS, RC e destaques Soplos</li>
+          <li xml:lang="pt">Suporte a patches BORE, PREEMPT_RT, Zen e NTSYNC de fontes originais</li>
+          <li xml:lang="pt">Perfis para Gaming, Áudio/Vídeo, Escritório e Otimizado para Hardware</li>
+          <li xml:lang="pt">Reutilização de fontes para recompilação rápida com detecção de conflitos</li>
+          <li xml:lang="pt">Histórico de instalação expansível com marcação automática de kernel</li>
+          <li xml:lang="pt">Assinatura Secure Boot MOK com suporte NVIDIA DKMS</li>
+          <li xml:lang="pt">Patch VMA automático da NVIDIA para compatibilidade com kernel 7.0+</li>
+          <li xml:lang="pt">Enroll automático da chave DKMS MOK após instalação com GPU NVIDIA — corrige NVENC e CUDA com Secure Boot</li>
+          <li xml:lang="pt">Opção para salvar pacotes .deb compilados antes de limpar o diretório de build</li>
+          <li xml:lang="pt">Caminho de armazenamento das chaves MOK visível no diálogo de gestão</li>
+          <li xml:lang="pt">Corrigidos todos os bugs de compilação de perfis de kernel (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li xml:lang="pt">Detecção de GPU corrigida para evitar falsos positivos de linhas de CPU AMD</li>
+          <li xml:lang="pt">A caixa de seleção de limpeza do diretório de build agora funciona corretamente</li>
+          <li xml:lang="pt">Kernels EOL do kernel.org agora aparecem como "(EOL)" com aviso — antes estavam ocultos</li>
+          <li xml:lang="pt">Kernels mainline (ex. 7.0) não são mais exibidos incorretamente como "(mais recente)"</li>
+          <li xml:lang="pt">Internacionalização completa para 8 idiomas</li>
+          <li xml:lang="pt">Injeção de senha MOK corrigida — senha escapada de forma segura</li>
+          <li xml:lang="pt">Botão de instalação desativado no primeiro clique para evitar builds duplicados</li>
+          <li xml:lang="pt">Nome do kernel validado antes de instalar</li>
+          <li xml:lang="pt">Perfil oculto "Soplos Stock" (Ctrl+Shift+D) para distribuir kernels vanilla em todas as distribuições Soplos</li>
+          <li xml:lang="pt">Diálogo MOK agora explica o ciclo de reconstrução automática do DKMS a cada novo kernel</li>
+          <li xml:lang="pt">Segunda passagem de make olddefconfig após opções de perfil — evita prompts interativos durante o build</li>
+          <li xml:lang="pt">9 strings i18n ausentes completadas nos 8 idiomas</li>
+
+          <li xml:lang="it">Scarica i kernel dai canali stable, LTS, RC e Soplos</li>
+          <li xml:lang="it">Supporto patch BORE, PREEMPT_RT, Zen e NTSYNC dalle fonti originali</li>
+          <li xml:lang="it">Profili Gaming, Audio/Video, Minimal e Hardware Optimized</li>
+          <li xml:lang="it">Riutilizzo dei sorgenti per una ricompilazione più veloce con rilevamento dei conflitti</li>
+          <li xml:lang="it">Cronologia di installazione espandibile con tagging automatico del kernel</li>
+          <li xml:lang="it">Firma MOK di Secure Boot con supporto NVIDIA DKMS</li>
+          <li xml:lang="it">Patch VMA automatica NVIDIA per la compatibilità con kernel 7.0+</li>
+          <li xml:lang="it">Registrazione automatica della chiave DKMS MOK dopo l'installazione con GPU NVIDIA — risolve NVENC e CUDA con Secure Boot</li>
+          <li xml:lang="it">Opzione per salvare i pacchetti .deb compilati prima della pulizia della directory di build</li>
+          <li xml:lang="it">Percorso di archiviazione delle chiavi MOK visibile nella finestra di gestione</li>
+          <li xml:lang="it">Corretti tutti i bug di compilazione dei profili kernel (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li xml:lang="it">Rilevamento GPU corretto per evitare falsi positivi dalle righe CPU AMD</li>
+          <li xml:lang="it">La casella di controllo per la pulizia della directory di build ora funziona correttamente</li>
+          <li xml:lang="it">I kernel EOL di kernel.org ora mostrano "(EOL)" con avviso — prima erano nascosti</li>
+          <li xml:lang="it">I kernel mainline (es. 7.0) non vengono più visualizzati erroneamente come "(ultimo)"</li>
+          <li xml:lang="it">Internazionalizzazione completa per 8 lingue</li>
+          <li xml:lang="it">Iniezione password MOK corretta — password mascherata in modo sicuro</li>
+          <li xml:lang="it">Il pulsante di installazione è disabilitato al primo clic per evitare build duplicate</li>
+          <li xml:lang="it">Il nome del kernel viene validato prima dell'installazione</li>
+          <li xml:lang="it">Profilo nascosto "Soplos Stock" (Ctrl+Maiusc+D) per distribuire kernel vanilla su tutte le distribuzioni Soplos</li>
+          <li xml:lang="it">Il dialogo MOK spiega ora il ciclo di ricostruzione automatica DKMS ad ogni nuovo kernel</li>
+          <li xml:lang="it">Seconda passata make olddefconfig dopo le opzioni di profilo — evita prompt interattivi durante il build</li>
+          <li xml:lang="it">9 stringhe i18n mancanti completate in tutti gli 8 idiomi</li>
+
+          <li xml:lang="ro">Descărcați nuclee de pe canalele stable, LTS, RC și Soplos</li>
+          <li xml:lang="ro">Suport de patch-uri BORE, PREEMPT_RT, Zen și NTSYNC din surse originale</li>
+          <li xml:lang="ro">Profiluri pentru Jocuri, Audio/Video, Minimal și Optimizat pentru Hardware</li>
+          <li xml:lang="ro">Reutilizarea sursei pentru recompilare mai rapidă cu detectarea conflictelor</li>
+          <li xml:lang="ro">Istoric de instalare extensibil cu etichetare automată a nucleului</li>
+          <li xml:lang="ro">Semnătura Secure Boot MOK cu suport NVIDIA DKMS</li>
+          <li xml:lang="ro">Patch VMA automat NVIDIA pentru compatibilitate cu nucleul 7.0+</li>
+          <li xml:lang="ro">Înregistrare automată a cheii DKMS MOK după instalare cu GPU NVIDIA — rezolvă NVENC și CUDA cu Secure Boot</li>
+          <li xml:lang="ro">Opțiune pentru salvarea pachetelor .deb compilate înainte de ștergerea directorului de build</li>
+          <li xml:lang="ro">Calea de stocare a cheilor MOK vizibilă în dialogul de gestionare</li>
+          <li xml:lang="ro">Corectate toate erorile de compilare a profilurilor de nucleu (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li xml:lang="ro">Detectarea GPU corectată pentru a evita fals pozitivele din liniile CPU AMD</li>
+          <li xml:lang="ro">Bifa de curățare a directorului de build funcționează acum corect</li>
+          <li xml:lang="ro">Nucleele EOL de pe kernel.org apar acum ca "(EOL)" cu avertisment — anterior erau ascunse</li>
+          <li xml:lang="ro">Nucleele mainline (ex. 7.0) nu mai sunt afișate incorect ca "(cele mai recente)"</li>
+          <li xml:lang="ro">Internaționalizare completă pentru 8 limbi</li>
+          <li xml:lang="ro">Injecția parolei MOK corectată — parola mascată în siguranță</li>
+          <li xml:lang="ro">Butonul de instalare dezactivat la primul clic pentru a evita build-uri duplicate</li>
+          <li xml:lang="ro">Numele nucleului validat înainte de instalare</li>
+          <li xml:lang="ro">Profil ascuns "Soplos Stock" (Ctrl+Shift+D) pentru distribuirea nucleelor vanilla pe toate distribuțiile Soplos</li>
+          <li xml:lang="ro">Dialogul MOK explică acum ciclul de reconstruire automată DKMS la fiecare nucleu nou</li>
+          <li xml:lang="ro">A doua trecere make olddefconfig după opțiunile de profil — previne prompt-urile interactive în timpul build-ului</li>
+          <li xml:lang="ro">9 șiruri i18n lipsă completate în toate cele 8 limbi</li>
+
+          <li xml:lang="ru">Загрузка ядер из стабильных, LTS, RC и избранных каналов Soplos</li>
+          <li xml:lang="ru">Поддержка патчей BORE, PREEMPT_RT, Zen и NTSYNC из оригинальных источников</li>
+          <li xml:lang="ru">Профили для игр, Аудио/Видео, Минимальный и Оптимизированный для оборудования</li>
+          <li xml:lang="ru">Повторное использование исходников для быстрой компиляции с обнаружением конфликтов</li>
+          <li xml:lang="ru">Расширяемая история установки с автоматической маркировкой ядер</li>
+          <li xml:lang="ru">Подпись Secure Boot MOK с поддержкой NVIDIA DKMS</li>
+          <li xml:lang="ru">Автоматический патч VMA NVIDIA для совместимости с ядром 7.0+</li>
+          <li xml:lang="ru">Автоматическая регистрация ключа DKMS MOK после установки с GPU NVIDIA — исправляет NVENC и CUDA с Secure Boot</li>
+          <li xml:lang="ru">Возможность сохранить скомпилированные пакеты .deb перед очисткой директории сборки</li>
+          <li xml:lang="ru">Путь хранения ключей MOK отображается в диалоге управления ключами</li>
+          <li xml:lang="ru">Исправлены все ошибки компиляции профилей ядра (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li xml:lang="ru">Исправлено определение GPU для устранения ложных срабатываний от строк CPU AMD</li>
+          <li xml:lang="ru">Флажок очистки директории сборки теперь работает корректно</li>
+          <li xml:lang="ru">Ядра EOL с kernel.org теперь отображаются как "(EOL)" с предупреждением — ранее были скрыты</li>
+          <li xml:lang="ru">Ядра mainline (напр. 7.0) больше не отображаются ошибочно как "(последнее)"</li>
+          <li xml:lang="ru">Полная интернационализация на 8 языков</li>
+          <li xml:lang="ru">Исправлена инъекция пароля MOK — пароль безопасно экранируется</li>
+          <li xml:lang="ru">Кнопка установки отключается при первом нажатии во избежание дублирующих сборок</li>
+          <li xml:lang="ru">Имя ядра проверяется перед установкой</li>
+          <li xml:lang="ru">Скрытый профиль "Soplos Stock" (Ctrl+Shift+D) для распространения ванильных ядер во всех дистрибутивах Soplos</li>
+          <li xml:lang="ru">Диалог MOK теперь объясняет цикл автоматической пересборки DKMS при каждом новом ядре</li>
+          <li xml:lang="ru">Второй проход make olddefconfig после применения опций профиля — предотвращает интерактивные запросы во время сборки</li>
+          <li xml:lang="ru">9 недостающих строк i18n дополнены во всех 8 языках</li>
+
+          <li>Soplos Kernels tab — install pre-built Stock, Gaming (BORE+NTSYNC) and Real-Time (PREEMPT_RT) kernels from the official repository without compilation</li>
+          <li>Tabbed interface with Build Kernel and Soplos Kernels tabs</li>
+          <li>Persistent build history in ~/.local/share/soplos-kernel-installer/ — survives build directory cleanup</li>
+          <li>Clean compiled package naming — version no longer duplicated in filename</li>
+          <li>Fixed MOK signed kernel detection — now also physically verifies vmlinuz files</li>
+          <li>Fixed STOCK profile package naming — trailing dash removed when suffix is empty</li>
+          <li>Fixed Soplos Kernels detection via /boot filesystem check — works regardless of removal method</li>
+          <li>Fixed kernel history list refresh after Soplos Kernels tab actions</li>
+
+          <li xml:lang="es">Pestaña Soplos Kernels — instala kernels Stock, Gaming (BORE+NTSYNC) y Real-Time (PREEMPT_RT) desde el repositorio oficial sin compilar</li>
+          <li xml:lang="es">Interfaz con pestañas: Build Kernel y Soplos Kernels</li>
+          <li xml:lang="es">Historial persistente en ~/.local/share/soplos-kernel-installer/ — sobrevive a la limpieza del directorio de build</li>
+          <li xml:lang="es">Nombres de paquetes compilados limpios — la versión ya no aparece duplicada en el nombre de archivo</li>
+          <li xml:lang="es">Corrección en la detección de kernels firmados MOK — ahora verifica físicamente los archivos vmlinuz</li>
+          <li xml:lang="es">Corrección en el perfil STOCK — eliminado guion sobrante cuando el sufijo está vacío</li>
+          <li xml:lang="es">Detección de kernels Soplos mediante comprobación en /boot — funciona independientemente del método de desinstalación</li>
+          <li xml:lang="es">El historial de kernels se actualiza tras las acciones en la pestaña Soplos Kernels</li>
+
+          <li xml:lang="fr">Onglet Soplos Kernels — installe des noyaux Stock, Gaming (BORE+NTSYNC) et Real-Time (PREEMPT_RT) depuis le dépôt officiel sans compilation</li>
+          <li xml:lang="fr">Interface avec onglets : Build Kernel et Soplos Kernels</li>
+          <li xml:lang="fr">Historique persistant dans ~/.local/share/soplos-kernel-installer/ — survit au nettoyage du répertoire de build</li>
+          <li xml:lang="fr">Noms de paquets compilés propres — la version n'est plus dupliquée dans le nom de fichier</li>
+          <li xml:lang="fr">Correction de la détection des noyaux signés MOK — vérifie désormais physiquement les fichiers vmlinuz</li>
+          <li xml:lang="fr">Correction du profil STOCK — tiret superflu supprimé quand le suffixe est vide</li>
+          <li xml:lang="fr">Détection des noyaux Soplos via /boot — fonctionne quelle que soit la méthode de désinstallation</li>
+          <li xml:lang="fr">La liste de l'historique se rafraîchit après les actions dans l'onglet Soplos Kernels</li>
+
+          <li xml:lang="de">Soplos Kernels-Tab — installiert vorkompilierte Stock-, Gaming- (BORE+NTSYNC) und Real-Time-Kernel (PREEMPT_RT) aus dem offiziellen Repository ohne Kompilierung</li>
+          <li xml:lang="de">Tab-Oberfläche: Build Kernel und Soplos Kernels</li>
+          <li xml:lang="de">Persistenter Verlauf in ~/.local/share/soplos-kernel-installer/ — übersteht die Build-Verzeichnisbereinigung</li>
+          <li xml:lang="de">Saubere Paketnamen — die Version wird im Dateinamen nicht mehr dupliziert</li>
+          <li xml:lang="de">Korrektur der MOK-signierten Kernel-Erkennung — prüft jetzt physisch die vmlinuz-Dateien</li>
+          <li xml:lang="de">Korrektur des STOCK-Profils — überflüssiger Bindestrich bei leerem Suffix entfernt</li>
+          <li xml:lang="de">Soplos-Kernel-Erkennung über /boot — funktioniert unabhängig von der Deinstallationsmethode</li>
+          <li xml:lang="de">Kernel-Verlauf wird nach Aktionen im Soplos Kernels-Tab aktualisiert</li>
+
+          <li xml:lang="pt">Aba Soplos Kernels — instala kernels Stock, Gaming (BORE+NTSYNC) e Real-Time (PREEMPT_RT) do repositório oficial sem compilação</li>
+          <li xml:lang="pt">Interface com abas: Build Kernel e Soplos Kernels</li>
+          <li xml:lang="pt">Histórico persistente em ~/.local/share/soplos-kernel-installer/ — sobrevive à limpeza do diretório de build</li>
+          <li xml:lang="pt">Nomes de pacotes compilados limpos — a versão não aparece mais duplicada no nome do arquivo</li>
+          <li xml:lang="pt">Correção na detecção de kernels assinados MOK — agora verifica fisicamente os arquivos vmlinuz</li>
+          <li xml:lang="pt">Correção no perfil STOCK — hífen desnecessário removido quando o sufixo está vazio</li>
+          <li xml:lang="pt">Detecção de kernels Soplos via /boot — funciona independentemente do método de remoção</li>
+          <li xml:lang="pt">O histórico de kernels é atualizado após ações na aba Soplos Kernels</li>
+
+          <li xml:lang="it">Scheda Soplos Kernels — installa kernel Stock, Gaming (BORE+NTSYNC) e Real-Time (PREEMPT_RT) dal repository ufficiale senza compilazione</li>
+          <li xml:lang="it">Interfaccia a schede: Build Kernel e Soplos Kernels</li>
+          <li xml:lang="it">Cronologia persistente in ~/.local/share/soplos-kernel-installer/ — sopravvive alla pulizia della directory di build</li>
+          <li xml:lang="it">Nomi dei pacchetti compilati puliti — la versione non viene più duplicata nel nome del file</li>
+          <li xml:lang="it">Correzione del rilevamento dei kernel firmati MOK — ora verifica fisicamente i file vmlinuz</li>
+          <li xml:lang="it">Correzione del profilo STOCK — trattino superfluo rimosso quando il suffisso è vuoto</li>
+          <li xml:lang="it">Rilevamento dei kernel Soplos tramite /boot — funziona indipendentemente dal metodo di rimozione</li>
+          <li xml:lang="it">La cronologia dei kernel si aggiorna dopo le azioni nella scheda Soplos Kernels</li>
+
+          <li xml:lang="ro">Fila Soplos Kernels — instalează nuclee Stock, Gaming (BORE+NTSYNC) și Real-Time (PREEMPT_RT) din depozitul oficial fără compilare</li>
+          <li xml:lang="ro">Interfață cu file: Build Kernel și Soplos Kernels</li>
+          <li xml:lang="ro">Istoric persistent în ~/.local/share/soplos-kernel-installer/ — supraviețuiește curățării directorului de build</li>
+          <li xml:lang="ro">Nume de pachete compilate curate — versiunea nu mai apare duplicată în numele fișierului</li>
+          <li xml:lang="ro">Corectarea detectării nucleelor semnate MOK — verifică acum fizic fișierele vmlinuz</li>
+          <li xml:lang="ro">Corectarea profilului STOCK — linia de unire inutilă eliminată când sufixul este gol</li>
+          <li xml:lang="ro">Detectarea nucleelor Soplos prin /boot — funcționează indiferent de metoda de dezinstalare</li>
+          <li xml:lang="ro">Lista istoricului de nuclee se actualizează după acțiunile din fila Soplos Kernels</li>
+
+          <li xml:lang="ru">Вкладка Soplos Kernels — установка готовых ядер Stock, Gaming (BORE+NTSYNC) и Real-Time (PREEMPT_RT) из официального репозитория без компиляции</li>
+          <li xml:lang="ru">Интерфейс с вкладками: Build Kernel и Soplos Kernels</li>
+          <li xml:lang="ru">Постоянная история в ~/.local/share/soplos-kernel-installer/ — сохраняется после очистки директории сборки</li>
+          <li xml:lang="ru">Чистые имена скомпилированных пакетов — версия больше не дублируется в имени файла</li>
+          <li xml:lang="ru">Исправлено определение ядер с подписью MOK — теперь физически проверяет файлы vmlinuz</li>
+          <li xml:lang="ru">Исправлен профиль STOCK — лишний дефис убран при пустом суффиксе</li>
+          <li xml:lang="ru">Определение ядер Soplos через /boot — работает независимо от способа удаления</li>
+          <li xml:lang="ru">Список истории ядер обновляется после действий во вкладке Soplos Kernels</li>
+
+          <li>Dynamic Kernel List: Soplos Kernels tab reads available packages from apt-cache at runtime — new packages in the repository appear automatically</li>
+          <li>Refresh button in Soplos Kernels tab forces apt-get update and reloads the kernel list</li>
+          <li>Stock profile post-build: creates metapackage .deb and prompts to save all packages (image + headers + metapackage) to a folder — does not install the kernel</li>
+          <li>New pre-built kernel variants: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming renamed to linux-soplos-bore)</li>
+          <li>Fixed: kernel release now read from include/config/kernel.release in the source tree — correctly handles patch-injected version suffixes (e.g. zen1 from the Zen patch)</li>
+
+          <li xml:lang="es">Lista dinámica de kernels: la pestaña Soplos Kernels lee los paquetes disponibles de apt-cache en tiempo de ejecución — los nuevos paquetes del repositorio aparecen automáticamente</li>
+          <li xml:lang="es">El botón Actualizar de la pestaña Soplos Kernels fuerza apt-get update y recarga la lista de kernels</li>
+          <li xml:lang="es">Post-compilación con perfil Stock: crea el metapaquete .deb y ofrece guardar todos los paquetes (imagen + cabeceras + metapaquete) sin instalar el kernel</li>
+          <li xml:lang="es">Nuevas variantes de kernel precompilado: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming renombrado a linux-soplos-bore)</li>
+          <li xml:lang="es">Corregido: el nombre de release del kernel se lee ahora de include/config/kernel.release — maneja correctamente los sufijos de versión inyectados por parches (p.ej. zen1 del parche Zen)</li>
+
+          <li xml:lang="fr">Liste dynamique des noyaux: l'onglet Soplos Kernels lit les paquets disponibles depuis apt-cache à l'exécution — les nouveaux paquets du dépôt apparaissent automatiquement</li>
+          <li xml:lang="fr">Le bouton Actualiser de l'onglet Soplos Kernels force apt-get update et recharge la liste des noyaux</li>
+          <li xml:lang="fr">Post-compilation avec le profil Stock: crée le métapaquet .deb et propose de sauvegarder tous les paquets (image + en-têtes + métapaquet) sans installer le noyau</li>
+          <li xml:lang="fr">Nouvelles variantes de noyau précompilé: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming renommé en linux-soplos-bore)</li>
+          <li xml:lang="fr">Corrigé: le nom de release du noyau est maintenant lu depuis include/config/kernel.release — gère correctement les suffixes de version injectés par les patchs (ex. zen1 du patch Zen)</li>
+
+          <li xml:lang="de">Dynamische Kernel-Liste: Der Soplos Kernels-Tab liest verfügbare Pakete zur Laufzeit aus apt-cache — neue Pakete im Repository erscheinen automatisch</li>
+          <li xml:lang="de">Die Schaltfläche Aktualisieren im Soplos Kernels-Tab erzwingt apt-get update und lädt die Kernel-Liste neu</li>
+          <li xml:lang="de">Post-Build mit Stock-Profil: erstellt das Metapaket .deb und bietet an, alle Pakete (Image + Headers + Metapaket) in einem Ordner zu speichern — ohne den Kernel zu installieren</li>
+          <li xml:lang="de">Neue vorkompilierte Kernel-Varianten: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming in linux-soplos-bore umbenannt)</li>
+          <li xml:lang="de">Behoben: Kernel-Release-Name wird jetzt aus include/config/kernel.release gelesen — verarbeitet korrekt durch Patches injizierte Versionssuffixe (z.B. zen1 vom Zen-Patch)</li>
+
+          <li xml:lang="pt">Lista dinâmica de kernels: a aba Soplos Kernels lê os pacotes disponíveis do apt-cache em tempo de execução — novos pacotes no repositório aparecem automaticamente</li>
+          <li xml:lang="pt">O botão Atualizar da aba Soplos Kernels força apt-get update e recarrega a lista de kernels</li>
+          <li xml:lang="pt">Pós-build com o perfil Stock: cria o metapacote .deb e oferece salvar todos os pacotes (imagem + headers + metapacote) sem instalar o kernel</li>
+          <li xml:lang="pt">Novas variantes de kernel pré-compilado: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming renomeado para linux-soplos-bore)</li>
+          <li xml:lang="pt">Corrigido: o nome de release do kernel agora é lido de include/config/kernel.release — trata corretamente os sufixos de versão injetados por patches (ex. zen1 do patch Zen)</li>
+
+          <li xml:lang="it">Lista dinamica dei kernel: la scheda Soplos Kernels legge i pacchetti disponibili da apt-cache in fase di esecuzione — i nuovi pacchetti nel repository appaiono automaticamente</li>
+          <li xml:lang="it">Il pulsante Aggiorna nella scheda Soplos Kernels forza apt-get update e ricarica la lista dei kernel</li>
+          <li xml:lang="it">Post-build con il profilo Stock: crea il metapacchetto .deb e offre di salvare tutti i pacchetti (immagine + headers + metapacchetto) senza installare il kernel</li>
+          <li xml:lang="it">Nuove varianti di kernel precompilato: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming rinominato in linux-soplos-bore)</li>
+          <li xml:lang="it">Corretto: il nome di release del kernel viene ora letto da include/config/kernel.release — gestisce correttamente i suffissi di versione iniettati dai patch (es. zen1 dal patch Zen)</li>
+
+          <li xml:lang="ro">Listă dinamică de nuclee: fila Soplos Kernels citește pachetele disponibile din apt-cache la execuție — pachetele noi din depozit apar automat</li>
+          <li xml:lang="ro">Butonul Actualizare din fila Soplos Kernels forțează apt-get update și reîncarcă lista de nuclee</li>
+          <li xml:lang="ro">Post-compilare cu profilul Stock: creează metapachetul .deb și oferă salvarea tuturor pachetelor (imagine + antete + metapaket) fără a instala nucleul</li>
+          <li xml:lang="ro">Noi variante de nuclee precompilate: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming redenumit în linux-soplos-bore)</li>
+          <li xml:lang="ro">Corectat: numele de release al nucleului se citește acum din include/config/kernel.release — gestionează corect sufixele de versiune injectate de patch-uri (ex. zen1 de la patch-ul Zen)</li>
+
+          <li xml:lang="ru">Динамический список ядер: вкладка Soplos Kernels читает доступные пакеты из apt-cache в режиме реального времени — новые пакеты в репозитории появляются автоматически</li>
+          <li xml:lang="ru">Кнопка Обновить во вкладке Soplos Kernels запускает apt-get update и перезагружает список ядер</li>
+          <li xml:lang="ru">Пост-сборка с профилем Stock: создаёт метапакет .deb и предлагает сохранить все пакеты (образ + заголовки + метапакет) без установки ядра</li>
+          <li xml:lang="ru">Новые варианты готовых ядер: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming переименован в linux-soplos-bore)</li>
+          <li xml:lang="ru">Исправлено: имя релиза ядра теперь читается из include/config/kernel.release — корректно обрабатывает суффиксы версий, добавленные патчами (напр. zen1 от патча Zen)</li>
+
+          <li>Ctrl+Tab / Ctrl+Shift+Tab keyboard shortcuts to switch between tabs</li>
+          <li>Version number displayed next to each kernel name in the Soplos Kernels tab</li>
+          <li>Update button in Soplos Kernels tab — appears when a newer version is available in the repository, upgrades the metapackage and purges old kernel image and headers automatically</li>
+          <li>Fixed: Stock post-build package discovery now correctly handles patch-injected version suffixes (e.g. zen1 from the Zen patch) — image and headers are found reliably</li>
+          <li>Fixed: After updating a Soplos kernel, old image and headers packages for the same variant are purged without manual intervention</li>
+
+          <li xml:lang="es">Atajos de teclado Ctrl+Tab / Ctrl+Shift+Tab para cambiar de pestaña</li>
+          <li xml:lang="es">Versión disponible visible junto al nombre de cada kernel en la pestaña Soplos Kernels</li>
+          <li xml:lang="es">Botón Update en la pestaña Soplos Kernels — aparece cuando hay una versión más nueva en el repositorio, actualiza el metapaquete y purga automáticamente la imagen y cabeceras antiguas</li>
+          <li xml:lang="es">Corregido: la búsqueda de paquetes post-compilación Stock ahora maneja correctamente los sufijos de versión inyectados por parches (p.ej. zen1 del parche Zen)</li>
+          <li xml:lang="es">Corregido: tras actualizar un kernel Soplos, los paquetes de imagen y cabeceras del kernel anterior se purgan sin intervención manual</li>
+
+          <li xml:lang="fr">Raccourcis clavier Ctrl+Tab / Ctrl+Shift+Tab pour changer d'onglet</li>
+          <li xml:lang="fr">Version disponible affichée à côté du nom de chaque noyau dans l'onglet Soplos Kernels</li>
+          <li xml:lang="fr">Bouton Update dans l'onglet Soplos Kernels — apparaît quand une version plus récente est disponible dans le dépôt, met à jour le métapaquet et purge automatiquement l'ancienne image et les en-têtes</li>
+          <li xml:lang="fr">Corrigé: la recherche de paquets post-compilation Stock gère correctement les suffixes de version injectés par les patchs (ex. zen1 du patch Zen)</li>
+          <li xml:lang="fr">Corrigé: après la mise à jour d'un noyau Soplos, les anciens paquets image et en-têtes du même variant sont purgés sans intervention manuelle</li>
+
+          <li xml:lang="de">Tastenkürzel Ctrl+Tab / Ctrl+Shift+Tab zum Wechseln zwischen Tabs</li>
+          <li xml:lang="de">Verfügbare Version neben dem Namen jedes Kernels im Soplos Kernels-Tab angezeigt</li>
+          <li xml:lang="de">Update-Schaltfläche im Soplos Kernels-Tab — erscheint, wenn eine neuere Version im Repository verfügbar ist; aktualisiert das Metapaket und entfernt automatisch alte Kernel-Image und -Header</li>
+          <li xml:lang="de">Behoben: Die Paketsuche nach einem Stock-Build verarbeitet jetzt korrekt durch Patches injizierte Versionssuffixe (z.B. zen1 vom Zen-Patch)</li>
+          <li xml:lang="de">Behoben: Nach der Aktualisierung eines Soplos-Kernels werden alte Image- und Header-Pakete desselben Typs ohne manuelle Eingriffe bereinigt</li>
+
+          <li xml:lang="pt">Atalhos de teclado Ctrl+Tab / Ctrl+Shift+Tab para alternar entre abas</li>
+          <li xml:lang="pt">Versão disponível exibida ao lado do nome de cada kernel na aba Soplos Kernels</li>
+          <li xml:lang="pt">Botão Update na aba Soplos Kernels — aparece quando uma versão mais recente está disponível no repositório, atualiza o metapacote e purga automaticamente a imagem e headers antigos</li>
+          <li xml:lang="pt">Corrigido: a busca de pacotes pós-compilação Stock agora lida corretamente com sufixos de versão injetados por patches (ex. zen1 do patch Zen)</li>
+          <li xml:lang="pt">Corrigido: após atualizar um kernel Soplos, os pacotes de imagem e headers antigos do mesmo tipo são purgados sem intervenção manual</li>
+
+          <li xml:lang="it">Scorciatoie da tastiera Ctrl+Tab / Ctrl+Shift+Tab per passare tra le schede</li>
+          <li xml:lang="it">Versione disponibile visualizzata accanto al nome di ogni kernel nella scheda Soplos Kernels</li>
+          <li xml:lang="it">Pulsante Update nella scheda Soplos Kernels — appare quando è disponibile una versione più recente nel repository, aggiorna il metapacchetto e rimuove automaticamente immagine e header precedenti</li>
+          <li xml:lang="it">Corretto: la ricerca di pacchetti post-compilazione Stock ora gestisce correttamente i suffissi di versione iniettati dai patch (es. zen1 dal patch Zen)</li>
+          <li xml:lang="it">Corretto: dopo l'aggiornamento di un kernel Soplos, i vecchi pacchetti immagine e header dello stesso tipo vengono purgati senza intervento manuale</li>
+
+          <li xml:lang="ro">Scurtături de tastatură Ctrl+Tab / Ctrl+Shift+Tab pentru a comuta între file</li>
+          <li xml:lang="ro">Versiunea disponibilă afișată lângă numele fiecărui nucleu în fila Soplos Kernels</li>
+          <li xml:lang="ro">Buton Update în fila Soplos Kernels — apare când o versiune mai nouă este disponibilă în depozit, actualizează metapachetul și purgează automat imaginea și antetele vechi</li>
+          <li xml:lang="ro">Corectat: căutarea pachetelor post-compilare Stock gestionează acum corect sufixele de versiune injectate de patch-uri (ex. zen1 de la patch-ul Zen)</li>
+          <li xml:lang="ro">Corectat: după actualizarea unui nucleu Soplos, pachetele vechi de imagine și antete ale aceluiași tip sunt șterse fără intervenție manuală</li>
+
+          <li xml:lang="ru">Горячие клавиши Ctrl+Tab / Ctrl+Shift+Tab для переключения между вкладками</li>
+          <li xml:lang="ru">Доступная версия отображается рядом с названием каждого ядра во вкладке Soplos Kernels</li>
+          <li xml:lang="ru">Кнопка Update во вкладке Soplos Kernels — появляется, когда в репозитории доступна более новая версия; обновляет метапакет и автоматически удаляет старые образ и заголовки ядра</li>
+          <li xml:lang="ru">Исправлено: поиск пакетов после сборки Stock теперь корректно обрабатывает суффиксы версий, добавленные патчами (напр. zen1 от патча Zen)</li>
+          <li xml:lang="ru">Исправлено: после обновления ядра Soplos старые пакеты образа и заголовков того же типа удаляются без ручного вмешательства</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1"/>
+</component>

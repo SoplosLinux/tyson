@@ -70,31 +70,31 @@ MD5sum: 2830d0681c6260c58225ee9c440dedc4
 Description: Configure MSI keyboard RGB lighting
 
 Package: soplos-appimage-manager
-Version: 1.0.0-1
+Version: 1.0.1
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-gi-cairo, python3-setuptools
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-appimage-manager/soplos-appimage-manager_1.0.0-1_all.deb
-Size: 532824
-SHA256: 4be997e25bf0405df2c6b27dcdf185de8d2c3f1b829f976283496b6fcd593d17
-SHA1: 202400ccdab903d85735c321c5a556990717925f
-MD5sum: 0b2d06e087dfb18f25b0fc18b61722fb
+Filename: pool/main/s/soplos-appimage-manager/soplos-appimage-manager_1.0.1_all.deb
+Size: 658684
+SHA256: 68c290a2ee0d58d6c501b4486f74f6a4c94887dedffb011301f29fe86f9e80fa
+SHA1: 70049d01af41eaebf750921c0f7210ea3c9d4b03
+MD5sum: 40550941ff4f92ad5b49876cb5f0e761
 Description: Manage AppImage applications on Soplos Linux
 
 Package: soplos-grub-editor
-Version: 2.0.2-1
+Version: 2.0.2-2
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-polkit-1.0, grub2-common | grub2, imagemagick, pkexec, polkitd, python3-all, python3-cairo, python3-dbus, python3-gi, python3-pil, python3-polib, python3-setuptools, python3-xlib
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_2.0.2-1_all.deb
-Size: 1172976
-SHA256: b2130e14788590552824af48be7f1c10a5e95345ce81fb155b6076ba771b5513
-SHA1: 5e8f7bd5f541da3a82c5816abd51e4dfd644f026
-MD5sum: 7dfc6f929b152fa2b8377f749a2e2845
+Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_2.0.2-2_all.deb
+Size: 1183460
+SHA256: c3aa92ff9906a7d774f67ab884461956da329308eb1c1e0e6f89a9ef04a3c6e8
+SHA1: cf38d9d8349c7e45934efcc8604f80d41d209210
+MD5sum: 65875d1bf727f69d9f1c72006f2f4d3c
 Description: Advanced GRUB configuration editor with complete internationalization
 
 Package: soplos-grub-theme
@@ -111,6 +111,20 @@ MD5sum: a37c429a8f42bc1056368103fd42a60a
 Description: GRUB theme package for Soplos Linux Tyson.
  This package provides the official GRUB theme and related assets for Soplos Linux Tyson.
  Build date: 2026-03-07
+
+Package: soplos-kernel-installer
+Version: 1.0.0
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, bc, binutils, bison, build-essential, coreutils, cpio, curl, debhelper-compat, dkms, dracut, fakeroot, flex, g++, gettext, gir1.2-gtk-3.0, git, grub-common, kmod, libelf-dev, libncurses-dev, libssl-dev, linux-libc-dev, mokutil, pahole | dwarves, patch, pkg-config, pkgconf, python3, python3-gi, python3-gi-cairo, python3-setuptools, rsync, sbsigntool, tar, wget, xz-utils, zstd
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-kernel-installer/soplos-kernel-installer_1.0.0_all.deb
+Size: 775976
+SHA256: 4713ff453678dfc9688a9edb20698458a7ae523a5db57f99df4121cbcc938755
+SHA1: f7c8bd38c8a29c49dabacf8c217c20865255b15b
+MD5sum: 70f895af1ef365fab852a65d19d2a141
+Description: Advanced graphical kernel manager for Soplos Linux
 
 Package: soplos-plasma-classic-black-theme
 Version: 0.0.3-1
@@ -177,17 +191,17 @@ Description: Soplos Modern White global theme for KDE Plasma 6.
  Build date: 2026-04-30
 
 Package: soplos-plymouth-manager
-Version: 2.0.0-2
+Version: 2.0.0-3
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, plymouth, plymouth-x11, polkit | policykit-1-gnome | policykit-1, procps, python3-all, python3-dbus, python3-gi, python3-pil | python3-pillow, python3-psutil, python3-setuptools, python3-xdg, scrot | imagemagick, tar, unzip, x11-utils, xdotool, xserver-xephyr, xterm
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_2.0.0-2_all.deb
-Size: 950296
-SHA256: a0d42b47d795003f77d9438bf6d9dd386b1de4affc7b83517cb4a4805b954b92
-SHA1: 7e8c9a06fb291855fe0837742fd37875c97dcf03
-MD5sum: db02f6d7c5606798a5e7a55887977c07
+Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_2.0.0-3_all.deb
+Size: 960780
+SHA256: 77c8eace9647b8e3d7116bfcb08ed4227d031de5602ff11030db982380e5cd2b
+SHA1: 2f7c2222b72e73bc67ef5d9f17bfce06f9eff7dc
+MD5sum: 971baf2d6209a7c8a96df5d0b099efde
 Description: Plymouth boot splash theme manager for Soplos Linux
 
 Package: soplos-plymouth-theme
@@ -227,31 +241,31 @@ Replaces: base-files
 Recommends: branding-soplos, soplos-grub-theme, soplos-plasma-classic-black-theme, soplos-plasma-classic-white-theme, soplos-plasma-modern-black-themes, soplos-plasma-modern-white-themes, soplos-plymouth-theme, soplos-wallpapers01, soplos-wallpapers02, fastfetch-soplos
 
 Package: soplos-repo-selector
-Version: 2.0.2-6
+Version: 2.0.2-7
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-apt, python3-gi, python3-gi-cairo, python3-pillow, python3-psutil, python3-setuptools, python3-xdg, wget
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-repo-selector/soplos-repo-selector_2.0.2-6_all.deb
-Size: 1198120
-SHA256: 8833fc3aca9e6bba52d7d6fded9425bf70605bf6f927bdd6910529b40becd72b
-SHA1: 2e51080dd18c16e9a74a0a6c74868956dbce8eef
-MD5sum: d1d8e95ae06d9257d7d7648eddeee78c
+Filename: pool/main/s/soplos-repo-selector/soplos-repo-selector_2.0.2-7_all.deb
+Size: 1198356
+SHA256: 415b5b6d3f0b58992d65add3d9e597201d3e01f7545d39f78db2478e276f0876
+SHA1: 56beb4932b0f2fbffe88153046f058b70f7e5083
+MD5sum: b1c5eb2f12dce05c3d91bf9a4856a4a8
 Description: Advanced APT repository manager for Soplos Linux
 
 Package: soplos-sys-cleaner
-Version: 1.0.1
+Version: 1.0.2-1
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-sys-cleaner/soplos-sys-cleaner_1.0.1_all.deb
-Size: 906012
-SHA256: 04c99b051be7f18e03a13f0225fd2ce85208563042f295fb3e11c19c2fb682e7
-SHA1: ea42e47e675e2dc51c75069bb865995e21907d44
-MD5sum: e008eb24e903d03ecf26825606d0dfa3
+Filename: pool/main/s/soplos-sys-cleaner/soplos-sys-cleaner_1.0.2-1_all.deb
+Size: 1094072
+SHA256: d7f119ef4f51f5fd55be8b9efeebea9e347fcea2f89408eca88c60d11647c0a8
+SHA1: c0c7f9388b699e3f97a9d7b38912229974ba30ed
+MD5sum: b48e32757e62be22e292ef21e0d2f2f1
 Description: System cleaner and optimizer for Soplos Linux
 
 Package: soplos-wallpapers01
@@ -289,44 +303,44 @@ Description: Soplos Wallpapers Pack 02.
  Build date: 2025-07-27
 
 Package: soplos-webapp-manager
-Version: 1.0.0-3
+Version: 1.0.0-4
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-gi-cairo, python3-setuptools
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-webapp-manager/soplos-webapp-manager_1.0.0-3_all.deb
-Size: 526824
-SHA256: 94a040f0cb1e0a5b86ee20ace159c0899834428dc7248a00112227a12059a494
-SHA1: 698cdb5c04b11a5973e00e5e717af14413cb7334
-MD5sum: 50ba656a382ad410707285c0c619f593
+Filename: pool/main/s/soplos-webapp-manager/soplos-webapp-manager_1.0.0-4_all.deb
+Size: 542268
+SHA256: 3d3ca04c97da0b7810c19f0456f54ca4808fd57d4245b0ac83cccd440b30c968
+SHA1: ec2b84a12944874462dfdfc2f6d52d6ec18b09ee
+MD5sum: e6a1f353a5f083130be4cf1f02a90457
 Description: Create and manage isolated Web Applications
 
 Package: soplos-welcome
-Version: 2.0.7-3
+Version: 2.0.8-3
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools, python3-xlib, wget
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome/soplos-welcome_2.0.7-3_all.deb
-Size: 45807756
-SHA256: d5ce8032bb39fb6d25792bff826088c9cf5d14af0aa3d271d83630e9c1aef5b2
-SHA1: 2e070bab40c59e0a3758b388f7fb6d9f54de58ff
-MD5sum: 11f24d985fad9b475d986e2fcbdccd5b
+Filename: pool/main/s/soplos-welcome/soplos-welcome_2.0.8-3_all.deb
+Size: 49233712
+SHA256: 36557c66b74f49a70bd686cc531c425490c1e63e8eb3b6048a895c4be075a6d9
+SHA1: fb7e89aac620da68488a31d4e8cb545beb75c2c8
+MD5sum: 368d047a2c22299e3751ce88e35f4877
 Description: The world's most advanced welcome application for Linux
 
 Package: soplos-welcome-live
-Version: 2.0.1-1
+Version: 2.0.2
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, locales, python3-all, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools, x11-xkb-utils
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_2.0.1-1_all.deb
-Size: 1245292
-SHA256: 401216f9053622121a3662d4ad30386bb268e2790cb0cd78c76b8adaac7fbd7e
-SHA1: 6a31ae80c2bfc68351170fdbf265ec9978b13b51
-MD5sum: f993554df8245e7f3ada4933cf85cf7e
+Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_2.0.2_all.deb
+Size: 1257352
+SHA256: 9a96f226a9611fa60aa42d27069297f8c7b80d7a6c973472d1775bbe37b705fd
+SHA1: 6ff1662f264c8ab42604776b15eac8f22ba990bc
+MD5sum: ff719a9968c920a95ced7349f9efc8c7
 Description: Welcome application for Soplos Linux Live with CHROOT recovery and BTRFS support
 

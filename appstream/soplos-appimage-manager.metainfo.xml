@@ -71,6 +71,50 @@
       <caption xml:lang="ru">Полностью интегрированные AppImages с иконками и элементами управления</caption>
       <caption xml:lang="ro">AppImages complet integrate cu pictograme și controale</caption>
     </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-appimage-manager/screenshots/screenshot5.png</image>
+      <caption>Properties dialog — edit name, version, description and update URL</caption>
+      <caption xml:lang="es">Diálogo de propiedades — edita nombre, versión, descripción y URL de actualización</caption>
+      <caption xml:lang="fr">Boîte de dialogue Propriétés — modifiez le nom, la version, la description et l'URL de mise à jour</caption>
+      <caption xml:lang="de">Eigenschaften-Dialog — Name, Version, Beschreibung und Update-URL bearbeiten</caption>
+      <caption xml:lang="it">Finestra Proprietà — modifica nome, versione, descrizione e URL di aggiornamento</caption>
+      <caption xml:lang="pt">Diálogo de Propriedades — edite nome, versão, descrição e URL de atualização</caption>
+      <caption xml:lang="ru">Диалог свойств — редактирование имени, версии, описания и URL обновления</caption>
+      <caption xml:lang="ro">Dialogul Proprietăți — editați numele, versiunea, descrierea și URL-ul de actualizare</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-appimage-manager/screenshots/screenshot6.png</image>
+      <caption>Checking for updates via GitHub, GitLab, Codeberg or direct URL</caption>
+      <caption xml:lang="es">Buscando actualizaciones mediante GitHub, GitLab, Codeberg o URL directa</caption>
+      <caption xml:lang="fr">Recherche de mises à jour via GitHub, GitLab, Codeberg ou URL directe</caption>
+      <caption xml:lang="de">Nach Updates suchen über GitHub, GitLab, Codeberg oder direkte URL</caption>
+      <caption xml:lang="it">Ricerca aggiornamenti tramite GitHub, GitLab, Codeberg o URL diretto</caption>
+      <caption xml:lang="pt">A verificar atualizações via GitHub, GitLab, Codeberg ou URL direta</caption>
+      <caption xml:lang="ru">Проверка обновлений через GitHub, GitLab, Codeberg или прямой URL</caption>
+      <caption xml:lang="ro">Verificarea actualizărilor prin GitHub, GitLab, Codeberg sau URL direct</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-appimage-manager/screenshots/screenshot7.png</image>
+      <caption>Check All Updates — inspect and update all AppImages at once</caption>
+      <caption xml:lang="es">Comprobar todas las actualizaciones — revisa y actualiza todos los AppImages a la vez</caption>
+      <caption xml:lang="fr">Vérifier toutes les mises à jour — inspectez et mettez à jour tous les AppImages en une fois</caption>
+      <caption xml:lang="de">Alle Updates prüfen — alle AppImages auf einmal prüfen und aktualisieren</caption>
+      <caption xml:lang="it">Controlla tutti gli aggiornamenti — verifica e aggiorna tutti gli AppImages in una volta</caption>
+      <caption xml:lang="pt">Verificar todas as atualizações — inspecione e atualize todos os AppImages de uma vez</caption>
+      <caption xml:lang="ru">Проверить все обновления — проверка и обновление всех AppImages сразу</caption>
+      <caption xml:lang="ro">Verificare toate actualizările — inspectați și actualizați toate AppImages dintr-o dată</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-appimage-manager/screenshots/screenshot8.png</image>
+      <caption>Update available — download and install the new version in one click</caption>
+      <caption xml:lang="es">Actualización disponible — descarga e instala la nueva versión con un clic</caption>
+      <caption xml:lang="fr">Mise à jour disponible — téléchargez et installez la nouvelle version en un clic</caption>
+      <caption xml:lang="de">Update verfügbar — neue Version mit einem Klick herunterladen und installieren</caption>
+      <caption xml:lang="it">Aggiornamento disponibile — scarica e installa la nuova versione in un clic</caption>
+      <caption xml:lang="pt">Atualização disponível — transfira e instale a nova versão com um clique</caption>
+      <caption xml:lang="ru">Доступно обновление — загрузите и установите новую версию одним кликом</caption>
+      <caption xml:lang="ro">Actualizare disponibilă — descărcați și instalați noua versiune cu un singur clic</caption>
+    </screenshot>
   </screenshots>
 
   <launchable type="desktop-id">org.soplos.appimagemanager.desktop</launchable>
@@ -83,6 +127,18 @@
   </provides>
 
   <releases>
+    <release version="1.0.1" date="2026-03-30">
+      <description>
+        <p>Added Properties dialog to view and edit each AppImage's name, version, description, categories and update URL. New Run as root toggle in Properties launches any AppImage with pkexec, showing a PolicyKit authentication dialog on launch. Automatic update checking via GitHub, GitLab and Codeberg release APIs, direct URL comparison, or embedded appimageupdatetool info. New Check All Updates button in the header bar replaces Refresh and lets you inspect and update all AppImages at once. Improved icon extraction and full translation coverage across all 8 languages. The application now seamlessly respects the system's light or dark GTK theme preference.</p>
+        <p xml:lang="es">Añadido diálogo de Propiedades para ver y editar nombre, versión, descripción, categorías y URL de actualización de cada AppImage. Nuevo interruptor Ejecutar como root en Propiedades lanza cualquier AppImage con pkexec mostrando un diálogo de autenticación de PolicyKit al iniciarlo. Comprobación automática de actualizaciones mediante las APIs de GitHub, GitLab y Codeberg, comparación de URL directa o información de appimageupdatetool integrada. Nuevo botón Comprobar todas las actualizaciones en la barra de cabecera que sustituye a Actualizar y permite revisar y actualizar todos los AppImages a la vez. Mejora en la extracción de iconos y cobertura de traducción completa en los 8 idiomas. La aplicación ahora respeta perfectamente la preferencia de tema GTK claro u oscuro del sistema.</p>
+        <p xml:lang="fr">Ajout de la boîte de dialogue Propriétés pour afficher et modifier le nom, la version, la description, les catégories et l'URL de mise à jour de chaque AppImage. Nouveau bouton Exécuter en tant que root dans Propriétés pour lancer n'importe quel AppImage avec pkexec, affichant une boîte de dialogue d'authentification PolicyKit au lancement. Vérification automatique des mises à jour via les API GitHub, GitLab et Codeberg, comparaison d'URL directe ou informations appimageupdatetool intégrées. Nouveau bouton Vérifier toutes les mises à jour dans la barre d'en-tête, remplaçant Actualiser, pour inspecter et mettre à jour tous les AppImages en une fois. Extraction d'icônes améliorée et couverture de traduction complète dans les 8 langues. L'application respecte désormais parfaitement la préférence de thème GTK clair ou sombre du système.</p>
+        <p xml:lang="de">Eigenschaften-Dialog hinzugefügt, um Name, Version, Beschreibung, Kategorien und Update-URL jedes AppImage anzuzeigen und zu bearbeiten. Neue Umschaltoption Als Root ausführen in den Eigenschaften startet jeden AppImage mit pkexec und zeigt beim Start einen PolicyKit-Authentifizierungsdialog an. Automatische Update-Prüfung über GitHub-, GitLab- und Codeberg-Release-APIs, direkte URL-Vergleich oder eingebettete appimageupdatetool-Informationen. Neue Schaltfläche Alle Updates prüfen in der Kopfleiste ersetzt Aktualisieren und ermöglicht die Prüfung und Aktualisierung aller AppImages auf einmal. Verbesserte Icon-Extraktion und vollständige Übersetzungsabdeckung in allen 8 Sprachen. Die Anwendung respektiert nun nahtlos die Einstellung für das helle oder dunkle GTK-Design des Systems.</p>
+        <p xml:lang="it">Aggiunta la finestra Proprietà per visualizzare e modificare nome, versione, descrizione, categorie e URL di aggiornamento di ogni AppImage. Nuovo interruttore Esegui come root in Proprietà per avviare qualsiasi AppImage con pkexec, mostrando una finestra di autenticazione PolicyKit all'avvio. Verifica automatica degli aggiornamenti tramite le API di GitHub, GitLab e Codeberg, confronto URL diretto o informazioni appimageupdatetool integrate. Nuovo pulsante Controlla tutti gli aggiornamenti nella barra dell'intestazione che sostituisce Aggiorna e consente di ispezionare e aggiornare tutti gli AppImages in una volta. Estrazione icone migliorata e copertura di traduzione completa in tutte e 8 le lingue. L'applicazione rispetta ora perfettamente la preferenza per il tema GTK chiaro o scuro del sistema.</p>
+        <p xml:lang="pt">Adicionado diálogo de Propriedades para ver e editar o nome, versão, descrição, categorias e URL de atualização de cada AppImage. Novo interruptor Executar como root em Propriedades para lançar qualquer AppImage com pkexec, mostrando um diálogo de autenticação PolicyKit ao iniciar. Verificação automática de atualizações através das APIs do GitHub, GitLab e Codeberg, comparação de URL direta ou informações appimageupdatetool integradas. Novo botão Verificar todas as atualizações na barra de cabeçalho substitui Atualizar e permite inspecionar e atualizar todos os AppImages de uma vez. Extração de ícones melhorada e cobertura de tradução completa em todos os 8 idiomas. A aplicação agora respeita perfeitamente a preferência do tema GTK claro ou escuro do sistema.</p>
+        <p xml:lang="ru">Добавлен диалог Свойства для просмотра и редактирования имени, версии, описания, категорий и URL обновления каждого AppImage. Новый переключатель Запустить от имени root в Свойствах запускает любой AppImage через pkexec, отображая диалог аутентификации PolicyKit при запуске. Автоматическая проверка обновлений через API GitHub, GitLab и Codeberg, сравнение прямых URL или встроенную информацию appimageupdatetool. Новая кнопка Проверить все обновления в заголовке заменяет Обновить и позволяет проверять и обновлять все AppImages сразу. Улучшено извлечение иконок и обеспечено полное покрытие перевода на все 8 языков. Теперь приложение полностью учитывает системные настройки светлой или темной темы GTK.</p>
+        <p xml:lang="ro">Adăugat dialogul Proprietăți pentru a vizualiza și edita numele, versiunea, descrierea, categoriile și URL-ul de actualizare al fiecărui AppImage. Noul comutator Rulează ca root din Proprietăți lansează orice AppImage cu pkexec, afișând un dialog de autentificare PolicyKit la pornire. Verificare automată a actualizărilor prin API-urile GitHub, GitLab și Codeberg, compararea URL-urilor directe sau informații appimageupdatetool integrate. Noul buton Verificare toate actualizările din bara de antet înlocuiește Reîmprospătare și permite inspectarea și actualizarea tuturor AppImages dintr-o dată. Extracție îmbunătățită a pictogramelor și acoperire completă a traducerilor în toate cele 8 limbi. Aplicația respectă acum perfect preferința de temă GTK deschisă sau închisă a sistemului.</p>
+      </description>
+    </release>
     <release version="1.0.0-1" date="2026-03-22">
       <description>
         <p>Fixed background color inconsistency in the main window.</p>

@@ -159,6 +159,18 @@
   </provides>
 
   <releases>
+    <release version="2.0.0-3" date="2026-04-30">
+      <description>
+        <p xml:lang="en">Simplified the footer UI text to match the modern Soplos standard layout.</p>
+        <p xml:lang="es">Se ha simplificado el texto de la barra de estado para coincidir con el diseño estándar de Soplos.</p>
+        <p xml:lang="fr">Le texte de la barre d'état a été simplifié pour correspondre à la disposition standard moderne de Soplos.</p>
+        <p xml:lang="pt">O texto da barra de status foi simplificado para corresponder ao layout padrão moderno do Soplos.</p>
+        <p xml:lang="de">Der Text der Statusleiste wurde vereinfacht, um dem modernen Soplos-Standardlayout zu entsprechen.</p>
+        <p xml:lang="it">Il testo della barra di stato è stato semplificato per corrispondere al layout standard moderno di Soplos.</p>
+        <p xml:lang="ru">Текст строки состояния был упрощен, чтобы соответствовать современному стандартному макету Soplos.</p>
+        <p xml:lang="ro">Textul barei de stare a fost simplificat pentru a se potrivi cu aspectul standard modern Soplos.</p>
+      </description>
+    </release>
     <release version="2.0.0-2" date="2026-03-20">
       <description>
         <p xml:lang="en">Fixed About dialog credits panel on KDE: the credits area now displays with an opaque dark background instead of being transparent. App icon standardized to 48×48 pixels.</p>

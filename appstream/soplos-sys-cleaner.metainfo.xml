@@ -98,97 +98,359 @@
   </keywords>
 
   <screenshots>
+    <!-- User mode screenshots (01–06) -->
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot1.png</image>
-      <caption>Welcome screen and system analyzer</caption>
-      <caption xml:lang="es">Pantalla inicial y analizador del sistema</caption>
-      <caption xml:lang="fr">Écran de bienvenue et analyseur système</caption>
-      <caption xml:lang="de">Willkommensbildschirm und Systemanalysator</caption>
-      <caption xml:lang="pt">Ecrã de boas-vindas e analisador de sistema</caption>
-      <caption xml:lang="it">Schermata di benvenuto e analizzatore di sistema</caption>
-      <caption xml:lang="ro">Ecran de bun venit și analizor de sistem</caption>
-      <caption xml:lang="ru">Экран приветствия и анализатор системы</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot01.png</image>
+      <caption>User mode overview with system summary</caption>
+      <caption xml:lang="es">Resumen en modo usuario con datos del sistema</caption>
+      <caption xml:lang="fr">Vue d'ensemble en mode utilisateur avec résumé système</caption>
+      <caption xml:lang="de">Benutzermodusübersicht mit Systemzusammenfassung</caption>
+      <caption xml:lang="pt">Visão geral em modo utilizador com resumo do sistema</caption>
+      <caption xml:lang="it">Panoramica in modalità utente con riepilogo del sistema</caption>
+      <caption xml:lang="ro">Prezentare generală în modul utilizator cu rezumatul sistemului</caption>
+      <caption xml:lang="ru">Обзор в режиме пользователя с сводкой системы</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot2.png</image>
-      <caption>Scan results summary</caption>
-      <caption xml:lang="es">Resumen de resultados del escaneo</caption>
-      <caption xml:lang="fr">Résumé des résultats d'analyse</caption>
-      <caption xml:lang="de">Zusammenfassung der Scan-Ergebnisse</caption>
-      <caption xml:lang="pt">Resumo dos resultados da verificação</caption>
-      <caption xml:lang="it">Riepilogo dei risultati della scansione</caption>
-      <caption xml:lang="ro">Rezumatul rezultatelor scanării</caption>
-      <caption xml:lang="ru">Сводка результатов сканирования</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot02.png</image>
+      <caption>Installed apps manager with search and selective uninstall</caption>
+      <caption xml:lang="es">Gestor de apps instaladas con búsqueda y desinstalación selectiva</caption>
+      <caption xml:lang="fr">Gestionnaire d'applications installées avec recherche et désinstallation sélective</caption>
+      <caption xml:lang="de">Manager für installierte Apps mit Suche und selektiver Deinstallation</caption>
+      <caption xml:lang="pt">Gestor de apps instaladas com pesquisa e desinstalação seletiva</caption>
+      <caption xml:lang="it">Gestore app installate con ricerca e disinstallazione selettiva</caption>
+      <caption xml:lang="ro">Manager aplicații instalate cu căutare și dezinstalare selectivă</caption>
+      <caption xml:lang="ru">Менеджер установленных приложений с поиском и выборочным удалением</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot3.png</image>
-      <caption>Unnecessary GPU drivers selection</caption>
-      <caption xml:lang="es">Selección de drivers de GPU innecesarios</caption>
-      <caption xml:lang="fr">Sélection des pilotes GPU inutiles</caption>
-      <caption xml:lang="de">Auswahl unnötiger GPU-Treiber</caption>
-      <caption xml:lang="pt">Seleção de drivers de GPU desnecessários</caption>
-      <caption xml:lang="it">Selezione dei driver GPU non necessari</caption>
-      <caption xml:lang="ro">Selecția driverelor GPU inutile</caption>
-      <caption xml:lang="ru">Выбор ненужных драйверов GPU</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot03.png</image>
+      <caption>Flatpak unused runtimes cleanup</caption>
+      <caption xml:lang="es">Limpieza de runtimes de Flatpak no usados</caption>
+      <caption xml:lang="fr">Nettoyage des runtimes Flatpak inutilisés</caption>
+      <caption xml:lang="de">Bereinigung ungenutzter Flatpak-Laufzeitumgebungen</caption>
+      <caption xml:lang="pt">Limpeza de runtimes Flatpak não utilizados</caption>
+      <caption xml:lang="it">Pulizia dei runtime Flatpak inutilizzati</caption>
+      <caption xml:lang="ro">Curățarea runtime-urilor Flatpak neutilizate</caption>
+      <caption xml:lang="ru">Очистка неиспользуемых сред выполнения Flatpak</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot4.png</image>
-      <caption>Removable firmware families</caption>
-      <caption xml:lang="es">Familias de firmware extraíbles</caption>
-      <caption xml:lang="fr">Familles de micrologiciels amovibles</caption>
-      <caption xml:lang="de">Entfernbare Firmware-Familien</caption>
-      <caption xml:lang="pt">Famílias de firmware removíveis</caption>
-      <caption xml:lang="it">Famiglie di firmware rimovibili</caption>
-      <caption xml:lang="ro">Familii de firmware detașabile</caption>
-      <caption xml:lang="ru">Съёмные семейства микропрограмм</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot04.png</image>
+      <caption>Snap old revisions removal</caption>
+      <caption xml:lang="es">Eliminación de revisiones antiguas de Snap</caption>
+      <caption xml:lang="fr">Suppression des anciennes révisions Snap</caption>
+      <caption xml:lang="de">Entfernung alter Snap-Revisionen</caption>
+      <caption xml:lang="pt">Remoção de revisões antigas de Snap</caption>
+      <caption xml:lang="it">Rimozione delle revisioni vecchie di Snap</caption>
+      <caption xml:lang="ro">Eliminarea reviziilor vechi Snap</caption>
+      <caption xml:lang="ru">Удаление старых ревизий Snap</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot5.png</image>
-      <caption>Installed kernels management</caption>
-      <caption xml:lang="es">Gestión de kernels instalados</caption>
-      <caption xml:lang="fr">Gestion des noyaux installés</caption>
-      <caption xml:lang="de">Verwaltung installierter Kernel</caption>
-      <caption xml:lang="pt">Gestão de kernels instalados</caption>
-      <caption xml:lang="it">Gestione dei kernel installati</caption>
-      <caption xml:lang="ro">Gestionarea nucleelor instalate</caption>
-      <caption xml:lang="ru">Управление установленными ядрами</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot05.png</image>
+      <caption>User cache cleanup by application folder</caption>
+      <caption xml:lang="es">Limpieza de caché de usuario por carpeta de aplicación</caption>
+      <caption xml:lang="fr">Nettoyage du cache utilisateur par dossier d'application</caption>
+      <caption xml:lang="de">Benutzer-Cache-Bereinigung nach Anwendungsordner</caption>
+      <caption xml:lang="pt">Limpeza da cache do utilizador por pasta de aplicação</caption>
+      <caption xml:lang="it">Pulizia della cache utente per cartella applicazione</caption>
+      <caption xml:lang="ro">Curățarea cache-ului utilizatorului pe folder de aplicație</caption>
+      <caption xml:lang="ru">Очистка кэша пользователя по папкам приложений</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot6.png</image>
-      <caption>Languages and documentation cleanup</caption>
-      <caption xml:lang="es">Limpieza de idiomas y documentación</caption>
-      <caption xml:lang="fr">Nettoyage des langues et de la documentation</caption>
-      <caption xml:lang="de">Bereinigung von Sprachen und Dokumentation</caption>
-      <caption xml:lang="pt">Limpeza de idiomas e documentação</caption>
-      <caption xml:lang="it">Pulizia di lingue e documentazione</caption>
-      <caption xml:lang="ro">Curățarea limbilor și documentației</caption>
-      <caption xml:lang="ru">Очистка языков и документации</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot06.png</image>
+      <caption>User trash management</caption>
+      <caption xml:lang="es">Gestión de la papelera del usuario</caption>
+      <caption xml:lang="fr">Gestion de la corbeille utilisateur</caption>
+      <caption xml:lang="de">Verwaltung des Benutzer-Papierkorbs</caption>
+      <caption xml:lang="pt">Gestão da reciclagem do utilizador</caption>
+      <caption xml:lang="it">Gestione del cestino utente</caption>
+      <caption xml:lang="ro">Gestionarea coșului de gunoi al utilizatorului</caption>
+      <caption xml:lang="ru">Управление корзиной пользователя</caption>
+    </screenshot>
+    <!-- Administrator mode screenshots (07–14) -->
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot07.png</image>
+      <caption>Administrator mode overview with full scan results</caption>
+      <caption xml:lang="es">Resumen en modo administrador con resultados completos del escaneo</caption>
+      <caption xml:lang="fr">Vue d'ensemble en mode administrateur avec résultats complets</caption>
+      <caption xml:lang="de">Administratormodusübersicht mit vollständigen Scan-Ergebnissen</caption>
+      <caption xml:lang="pt">Visão geral em modo administrador com resultados completos</caption>
+      <caption xml:lang="it">Panoramica in modalità amministratore con risultati completi</caption>
+      <caption xml:lang="ro">Prezentare generală în modul administrator cu rezultate complete</caption>
+      <caption xml:lang="ru">Обзор в режиме администратора с полными результатами сканирования</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot7.png</image>
-      <caption>APT cache and orphaned packages cleanup</caption>
-      <caption xml:lang="es">Limpieza de caché de APT y paquetes huérfanos</caption>
-      <caption xml:lang="fr">Nettoyage du cache APT et des paquets orphelins</caption>
-      <caption xml:lang="de">Bereinigung von APT-Cache und verwaisten Paketen</caption>
-      <caption xml:lang="pt">Limpeza de cache APT e pacotes órfãos</caption>
-      <caption xml:lang="it">Pulizia della cache APT e dei pacchetti orfani</caption>
-      <caption xml:lang="ro">Curățarea memoriei cache APT și a pachetelor orfane</caption>
-      <caption xml:lang="ru">Очистка кэша APT и потерянных пакетов</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot08.png</image>
+      <caption>GPU drivers cleanup with hardware protection</caption>
+      <caption xml:lang="es">Limpieza de drivers GPU con protección de hardware</caption>
+      <caption xml:lang="fr">Nettoyage des pilotes GPU avec protection matérielle</caption>
+      <caption xml:lang="de">GPU-Treiber-Bereinigung mit Hardwareschutz</caption>
+      <caption xml:lang="pt">Limpeza de drivers GPU com proteção de hardware</caption>
+      <caption xml:lang="it">Pulizia dei driver GPU con protezione hardware</caption>
+      <caption xml:lang="ro">Curățarea driverelor GPU cu protecție hardware</caption>
+      <caption xml:lang="ru">Очистка драйверов GPU с защитой оборудования</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot8.png</image>
-      <caption>Temporary files cleanup planner</caption>
-      <caption xml:lang="es">Limpieza de archivos temporales</caption>
-      <caption xml:lang="fr">Planificateur de nettoyage des fichiers temporaires</caption>
-      <caption xml:lang="de">Planer für die Bereinigung temporärer Dateien</caption>
-      <caption xml:lang="pt">Planeador de limpeza de ficheiros temporários</caption>
-      <caption xml:lang="it">Pianificatore per la pulizia dei file temporanei</caption>
-      <caption xml:lang="ro">Planificator pentru curățarea fișierelor temporare</caption>
-      <caption xml:lang="ru">Планировщик очистки временных файлов</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot09.png</image>
+      <caption>Removable firmware families with disk usage</caption>
+      <caption xml:lang="es">Familias de firmware extraíbles con uso de disco</caption>
+      <caption xml:lang="fr">Familles de micrologiciels amovibles avec utilisation du disque</caption>
+      <caption xml:lang="de">Entfernbare Firmware-Familien mit Festplattennutzung</caption>
+      <caption xml:lang="pt">Famílias de firmware removíveis com uso de disco</caption>
+      <caption xml:lang="it">Famiglie di firmware rimovibili con utilizzo del disco</caption>
+      <caption xml:lang="ro">Familii de firmware detașabile cu utilizarea discului</caption>
+      <caption xml:lang="ru">Съёмные семейства прошивок с использованием диска</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot10.png</image>
+      <caption>Installed kernels management and removal</caption>
+      <caption xml:lang="es">Gestión y eliminación de kernels instalados</caption>
+      <caption xml:lang="fr">Gestion et suppression des noyaux installés</caption>
+      <caption xml:lang="de">Verwaltung und Entfernung installierter Kernel</caption>
+      <caption xml:lang="pt">Gestão e remoção de kernels instalados</caption>
+      <caption xml:lang="it">Gestione e rimozione dei kernel installati</caption>
+      <caption xml:lang="ro">Gestionarea și eliminarea nucleelor instalate</caption>
+      <caption xml:lang="ru">Управление и удаление установленных ядер</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot11.png</image>
+      <caption>Languages and documentation cleanup with locale protection</caption>
+      <caption xml:lang="es">Limpieza de idiomas y documentación con protección de locale</caption>
+      <caption xml:lang="fr">Nettoyage des langues et de la documentation avec protection des paramètres régionaux</caption>
+      <caption xml:lang="de">Bereinigung von Sprachen und Dokumentation mit Locale-Schutz</caption>
+      <caption xml:lang="pt">Limpeza de idiomas e documentação com proteção de locale</caption>
+      <caption xml:lang="it">Pulizia di lingue e documentazione con protezione delle impostazioni locali</caption>
+      <caption xml:lang="ro">Curățarea limbilor și documentației cu protecția setărilor locale</caption>
+      <caption xml:lang="ru">Очистка языков и документации с защитой локали</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot12.png</image>
+      <caption>APT cache selective .deb file removal</caption>
+      <caption xml:lang="es">Eliminación selectiva de archivos .deb de la caché APT</caption>
+      <caption xml:lang="fr">Suppression sélective de fichiers .deb du cache APT</caption>
+      <caption xml:lang="de">Selektive Entfernung von .deb-Dateien aus dem APT-Cache</caption>
+      <caption xml:lang="pt">Remoção seletiva de ficheiros .deb da cache APT</caption>
+      <caption xml:lang="it">Rimozione selettiva di file .deb dalla cache APT</caption>
+      <caption xml:lang="ro">Eliminarea selectivă a fișierelor .deb din memoria cache APT</caption>
+      <caption xml:lang="ru">Выборочное удаление файлов .deb из кэша APT</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot13.png</image>
+      <caption>Temporary files scanner and cleanup</caption>
+      <caption xml:lang="es">Escáner y limpieza de archivos temporales</caption>
+      <caption xml:lang="fr">Analyseur et nettoyage des fichiers temporaires</caption>
+      <caption xml:lang="de">Scanner und Bereinigung temporärer Dateien</caption>
+      <caption xml:lang="pt">Scanner e limpeza de ficheiros temporários</caption>
+      <caption xml:lang="it">Scanner e pulizia dei file temporanei</caption>
+      <caption xml:lang="ro">Scanner și curățarea fișierelor temporare</caption>
+      <caption xml:lang="ru">Сканер и очистка временных файлов</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot14.png</image>
+      <caption>System logs viewer and cleanup</caption>
+      <caption xml:lang="es">Visor y limpieza de registros del sistema</caption>
+      <caption xml:lang="fr">Visionneuse et nettoyage des journaux système</caption>
+      <caption xml:lang="de">System-Log-Viewer und Bereinigung</caption>
+      <caption xml:lang="pt">Visualizador e limpeza dos registos do sistema</caption>
+      <caption xml:lang="it">Visualizzatore e pulizia dei log di sistema</caption>
+      <caption xml:lang="ro">Vizualizator și curățarea jurnalelor de sistem</caption>
+      <caption xml:lang="ru">Просмотрщик и очистка системных журналов</caption>
     </screenshot>
   </screenshots>
 
   <releases>
+    <release version="1.0.2-1" date="2026-04-17">
+      <description>
+        <p>Bug fix and improvement release: Snap tab redesigned with full uninstall support, improved VM guest detection for all hypervisors, kernel removal now properly regenerates initramfs and updates GRUB, and all apt-get commands replaced with apt.</p>
+        <p xml:lang="es">Versión de correcciones y mejoras: pestaña Snap rediseñada con desinstalación completa, detección mejorada de VM guest para todos los hipervisores, la eliminación de kernels regenera el initramfs y actualiza GRUB correctamente, y se reemplazó apt-get por apt.</p>
+        <p xml:lang="fr">Version de corrections et améliorations : onglet Snap repensé avec désinstallation complète, détection améliorée des VM invitées pour tous les hyperviseurs, la suppression de noyaux régénère maintenant l'initramfs et met à jour GRUB, et toutes les commandes apt-get remplacées par apt.</p>
+        <p xml:lang="de">Fehlerbehebungs- und Verbesserungsversion: Snap-Tab mit vollständiger Deinstallationsunterstützung neu gestaltet, verbesserte Gast-VM-Erkennung für alle Hypervisoren, Kernel-Entfernung generiert jetzt Initramfs neu und aktualisiert GRUB, und alle apt-get-Befehle durch apt ersetzt.</p>
+        <p xml:lang="pt">Versão de correções e melhorias: separador Snap redesenhado com suporte de desinstalação completa, deteção melhorada de VM convidada para todos os hipervisores, a remoção de kernels agora regenera o initramfs e atualiza o GRUB, e todos os comandos apt-get substituídos por apt.</p>
+        <p xml:lang="it">Versione di correzioni e miglioramenti: scheda Snap riprogettata con supporto per la disinstallazione completa, rilevamento migliorato della VM ospite per tutti gli hypervisor, la rimozione del kernel ora rigenera l'initramfs e aggiorna GRUB, e tutti i comandi apt-get sostituiti con apt.</p>
+        <p xml:lang="ro">Versiune de remedieri și îmbunătățiri: fila Snap reproiectată cu suport complet de dezinstalare, detectare îmbunătățită a VM-ului invitat pentru toți hipervizoarele, eliminarea kernelului regenerează acum initramfs și actualizează GRUB, și toate comenzile apt-get înlocuite cu apt.</p>
+        <p xml:lang="ru">Версия с исправлениями и улучшениями: вкладка Snap переработана с поддержкой полного удаления, улучшенное обнаружение гостевых ВМ для всех гипервизоров, удаление ядра теперь правильно перегенерирует initramfs и обновляет GRUB, все команды apt-get заменены на apt.</p>
+        <ul>
+          <li>Snap tab redesigned: two sections (installed snaps with --purge uninstall + old revisions), matching Flatpak tab design</li>
+          <li>VM guest detection via systemd-detect-virt: KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels and more</li>
+          <li>Added Red Hat/Virtio PCI vendor 1af4 to hardware map for QEMU/KVM guest recognition</li>
+          <li>Fixed: kernel removal now runs dracut -f and update-grub after apt purge</li>
+          <li>Fixed: all apt-get replaced with apt throughout the root helper</li>
+          <li>Fixed: 27 untranslated strings added to all 8 language dictionaries</li>
+
+          <li xml:lang="es">Pestaña Snap rediseñada: dos secciones (snaps instalados con desinstalación --purge + revisiones antiguas), igual que Flatpak</li>
+          <li xml:lang="es">Detección de VM guest via systemd-detect-virt: KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels y más</li>
+          <li xml:lang="es">Añadido vendor PCI Red Hat/Virtio 1af4 al mapa de hardware para reconocer guests QEMU/KVM</li>
+          <li xml:lang="es">Corregido: la eliminación de kernels ahora ejecuta dracut -f y update-grub tras apt purge</li>
+          <li xml:lang="es">Corregido: apt-get reemplazado por apt en todo el helper de root</li>
+          <li xml:lang="es">Corregido: 27 strings sin traducir añadidos a los 8 diccionarios de idioma</li>
+
+          <li xml:lang="fr">Onglet Snap repensé : deux sections (snaps installés avec désinstallation --purge + anciennes révisions), identique à l'onglet Flatpak</li>
+          <li xml:lang="fr">Détection VM invitée via systemd-detect-virt : KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels et plus</li>
+          <li xml:lang="fr">Ajout du vendeur PCI Red Hat/Virtio 1af4 à la carte matérielle pour la reconnaissance des invités QEMU/KVM</li>
+          <li xml:lang="fr">Corrigé : la suppression du noyau exécute maintenant dracut -f et update-grub après apt purge</li>
+          <li xml:lang="fr">Corrigé : apt-get remplacé par apt dans tout le helper root</li>
+          <li xml:lang="fr">Corrigé : 27 chaînes non traduites ajoutées aux 8 dictionnaires de langues</li>
+
+          <li xml:lang="de">Snap-Tab neu gestaltet: zwei Bereiche (installierte Snaps mit --purge-Deinstallation + alte Revisionen), passend zum Flatpak-Tab</li>
+          <li xml:lang="de">Gast-VM-Erkennung via systemd-detect-virt: KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels und mehr</li>
+          <li xml:lang="de">Red Hat/Virtio PCI-Anbieter 1af4 zur Hardware-Karte für QEMU/KVM-Gast-Erkennung hinzugefügt</li>
+          <li xml:lang="de">Behoben: Kernel-Entfernung führt jetzt dracut -f und update-grub nach apt purge aus</li>
+          <li xml:lang="de">Behoben: apt-get durch apt im gesamten Root-Helper ersetzt</li>
+          <li xml:lang="de">Behoben: 27 nicht übersetzte Zeichenketten zu allen 8 Sprachwörterbüchern hinzugefügt</li>
+
+          <li xml:lang="pt">Separador Snap redesenhado: duas secções (snaps instalados com desinstalação --purge + revisões antigas), igual ao separador Flatpak</li>
+          <li xml:lang="pt">Deteção de VM convidada via systemd-detect-virt: KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels e mais</li>
+          <li xml:lang="pt">Adicionado fornecedor PCI Red Hat/Virtio 1af4 ao mapa de hardware para reconhecimento de convidados QEMU/KVM</li>
+          <li xml:lang="pt">Corrigido: a remoção do kernel agora executa dracut -f e update-grub após apt purge</li>
+          <li xml:lang="pt">Corrigido: apt-get substituído por apt em todo o helper root</li>
+          <li xml:lang="pt">Corrigido: 27 strings não traduzidas adicionadas aos 8 dicionários de idiomas</li>
+
+          <li xml:lang="it">Scheda Snap riprogettata: due sezioni (snap installati con disinstallazione --purge + vecchie revisioni), uguale alla scheda Flatpak</li>
+          <li xml:lang="it">Rilevamento VM ospite via systemd-detect-virt: KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels e altro</li>
+          <li xml:lang="it">Aggiunto fornitore PCI Red Hat/Virtio 1af4 alla mappa hardware per il riconoscimento degli ospiti QEMU/KVM</li>
+          <li xml:lang="it">Corretto: la rimozione del kernel esegue ora dracut -f e update-grub dopo apt purge</li>
+          <li xml:lang="it">Corretto: apt-get sostituito con apt in tutto l'helper root</li>
+          <li xml:lang="it">Corretto: 27 stringhe non tradotte aggiunte a tutti gli 8 dizionari delle lingue</li>
+
+          <li xml:lang="ro">Fila Snap reproiectată: două secțiuni (snap-uri instalate cu dezinstalare --purge + revizii vechi), similar cu fila Flatpak</li>
+          <li xml:lang="ro">Detectarea VM invitat via systemd-detect-virt: KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels și altele</li>
+          <li xml:lang="ro">Adăugat furnizor PCI Red Hat/Virtio 1af4 la harta hardware pentru recunoașterea oaspeților QEMU/KVM</li>
+          <li xml:lang="ro">Rezolvat: eliminarea kernelului execută acum dracut -f și update-grub după apt purge</li>
+          <li xml:lang="ro">Rezolvat: apt-get înlocuit cu apt în tot helperul root</li>
+          <li xml:lang="ro">Rezolvat: 27 de șiruri netraduse adăugate la toate cele 8 dicționare de limbi</li>
+
+          <li xml:lang="ru">Вкладка Snap переработана: два раздела (установленные snaps с удалением --purge + старые ревизии), аналогично вкладке Flatpak</li>
+          <li xml:lang="ru">Обнаружение гостевой ВМ через systemd-detect-virt: KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels и другие</li>
+          <li xml:lang="ru">Добавлен PCI-вендор Red Hat/Virtio 1af4 в карту оборудования для распознавания гостей QEMU/KVM</li>
+          <li xml:lang="ru">Исправлено: удаление ядра теперь выполняет dracut -f и update-grub после apt purge</li>
+          <li xml:lang="ru">Исправлено: apt-get заменён на apt во всём root helper</li>
+          <li xml:lang="ru">Исправлено: 27 непереведённых строк добавлено во все 8 языковых словарей</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2" date="2026-03-29">
+      <description>
+        <p>Major feature update: Installed Apps tab, Snap support, firmware sizes, selective APT cache cleanup, auto-scan on launch, GPU/KVM firmware protection and overview improvements.</p>
+        <p xml:lang="es">Actualización mayor: pestaña de Apps instaladas, soporte Snap, tamaños de firmware, limpieza selectiva de caché APT, escaneo automático al inicio, protección de firmware GPU/KVM y mejoras en el resumen.</p>
+        <p xml:lang="fr">Mise à jour majeure : onglet Applications installées, support Snap, tailles des firmwares, nettoyage sélectif du cache APT, analyse automatique au démarrage, protection des firmwares GPU/KVM et améliorations de l'aperçu.</p>
+        <p xml:lang="de">Großes Funktionsupdate: Tab für installierte Apps, Snap-Unterstützung, Firmware-Größen, selektive APT-Cache-Bereinigung, automatischer Scan beim Start, GPU/KVM-Firmware-Schutz und Übersichtsverbesserungen.</p>
+        <p xml:lang="pt">Atualização maior: separador de Apps instaladas, suporte a Snap, tamanhos de firmware, limpeza seletiva da cache APT, análise automática ao iniciar, proteção de firmware GPU/KVM e melhorias no resumo.</p>
+        <p xml:lang="it">Aggiornamento importante: scheda App installate, supporto Snap, dimensioni firmware, pulizia selettiva della cache APT, scansione automatica all'avvio, protezione firmware GPU/KVM e miglioramenti alla panoramica.</p>
+        <p xml:lang="ro">Actualizare majoră: filă Aplicații instalate, suport Snap, dimensiuni firmware, curățare selectivă a cache-ului APT, scanare automată la pornire, protecție firmware GPU/KVM și îmbunătățiri ale rezumatului.</p>
+        <p xml:lang="ru">Крупное обновление: вкладка установленных приложений, поддержка Snap, размеры прошивок, выборочная очистка кэша APT, автосканирование при запуске, защита прошивок GPU/KVM и улучшения обзора.</p>
+        <ul>
+          <li>Added Installed Apps tab with search and selective uninstall</li>
+          <li>Added Snap old revisions tab in user mode, consistent with Flatpak</li>
+          <li>Firmware families now show disk usage in the Firmwares tab</li>
+          <li>APT Cache tab now lists individual .deb files for selective removal</li>
+          <li>User-mode scan starts automatically on launch</li>
+          <li>Fixed AMD/GPU and KVM/VMware/VirtualBox firmware and driver protection</li>
+          <li>Overview cards now follow tab order in both user and root modes</li>
+          <li>Added Select all docs button in Languages tab</li>
+          <li>Fixed: Flatpak tab redesigned with two sections — installed apps and unused runtimes</li>
+          <li>Fixed: Flatpak sizes now read actual disk usage; previously always showed 0 B</li>
+          <li>Fixed: Flatpak unused runtime detection now delegates to flatpak's own logic</li>
+          <li>Fixed: Firmware and kernel packages no longer appear in the Installed Apps tab</li>
+          <li>Fixed: Progress bar no longer stuck at 100% after scan completion</li>
+
+          <li xml:lang="es">Añadida pestaña de Apps instaladas con búsqueda y desinstalación selectiva</li>
+          <li xml:lang="es">Añadida pestaña de revisiones antiguas de Snap en modo usuario, coherente con Flatpak</li>
+          <li xml:lang="es">Las familias de firmware ahora muestran su uso de disco en la pestaña Firmwares</li>
+          <li xml:lang="es">La pestaña Caché APT ahora lista los archivos .deb individuales para eliminación selectiva</li>
+          <li xml:lang="es">El escaneo en modo usuario ahora se inicia automáticamente al abrir la aplicación</li>
+          <li xml:lang="es">Corregida la protección de firmware y drivers de AMD/GPU y KVM/VMware/VirtualBox</li>
+          <li xml:lang="es">Las tarjetas del resumen ahora siguen el orden de las pestañas en modo usuario y root</li>
+          <li xml:lang="es">Añadido botón de seleccionar toda la documentación en la pestaña de Idiomas</li>
+          <li xml:lang="es">Corregido: la pestaña Flatpak rediseñada con dos secciones — apps instaladas y runtimes sin uso</li>
+          <li xml:lang="es">Corregido: los tamaños en Flatpak ahora muestran el uso real de disco; antes mostraban 0 B</li>
+          <li xml:lang="es">Corregido: la detección de runtimes sin uso delega en la lógica interna de flatpak</li>
+          <li xml:lang="es">Corregido: los paquetes de firmware y kernel ya no aparecen en la pestaña Apps instaladas</li>
+          <li xml:lang="es">Corregido: la barra de progreso ya no se queda fija al 100% tras el escaneo</li>
+
+          <li xml:lang="fr">Ajout d'un onglet Applications installées avec recherche et désinstallation sélective</li>
+          <li xml:lang="fr">Ajout d'un onglet révisions Snap anciennes en mode utilisateur, cohérent avec Flatpak</li>
+          <li xml:lang="fr">Les familles de firmware affichent désormais leur espace disque dans l'onglet Firmwares</li>
+          <li xml:lang="fr">L'onglet Cache APT liste maintenant les fichiers .deb individuels pour une suppression sélective</li>
+          <li xml:lang="fr">L'analyse en mode utilisateur démarre automatiquement au lancement</li>
+          <li xml:lang="fr">Correction de la protection des firmwares et pilotes AMD/GPU et KVM/VMware/VirtualBox</li>
+          <li xml:lang="fr">Les cartes de l'aperçu suivent désormais l'ordre des onglets en mode utilisateur et root</li>
+          <li xml:lang="fr">Ajout d'un bouton pour sélectionner toute la documentation dans l'onglet Langues</li>
+          <li xml:lang="fr">Corrigé : onglet Flatpak repensé avec deux sections — apps installées et runtimes inutilisés</li>
+          <li xml:lang="fr">Corrigé : les tailles Flatpak affichent désormais l'espace disque réel ; auparavant toujours 0 o</li>
+          <li xml:lang="fr">Corrigé : la détection des runtimes inutilisés délègue à la logique interne de flatpak</li>
+          <li xml:lang="fr">Corrigé : les paquets firmware et kernel n'apparaissent plus dans l'onglet Apps installées</li>
+          <li xml:lang="fr">Corrigé : la barre de progression ne reste plus bloquée à 100 % après l'analyse</li>
+
+          <li xml:lang="de">Tab für installierte Apps mit Suche und selektiver Deinstallation hinzugefügt</li>
+          <li xml:lang="de">Tab für alte Snap-Revisionen im Benutzermodus hinzugefügt, konsistent mit Flatpak</li>
+          <li xml:lang="de">Firmware-Familien zeigen jetzt ihre Festplattennutzung im Firmwares-Tab</li>
+          <li xml:lang="de">APT-Cache-Tab listet jetzt einzelne .deb-Dateien zur selektiven Löschung auf</li>
+          <li xml:lang="de">Der Benutzermodus-Scan startet beim Start automatisch</li>
+          <li xml:lang="de">Firmware- und Treiberschutz für AMD/GPU und KVM/VMware/VirtualBox korrigiert</li>
+          <li xml:lang="de">Übersichtskarten folgen jetzt der Tab-Reihenfolge im Benutzer- und Root-Modus</li>
+          <li xml:lang="de">Schaltfläche zur Auswahl aller Dokumentation im Sprachen-Tab hinzugefügt</li>
+          <li xml:lang="de">Behoben: Flatpak-Tab neu gestaltet mit zwei Bereichen — installierte Apps und ungenutzte Runtimes</li>
+          <li xml:lang="de">Behoben: Flatpak-Größen zeigen jetzt echte Festplattennutzung; zuvor immer 0 B angezeigt</li>
+          <li xml:lang="de">Behoben: Erkennung ungenutzter Runtimes delegiert an flatpaks eigene Logik</li>
+          <li xml:lang="de">Behoben: Firmware- und Kernel-Pakete erscheinen nicht mehr im Tab Installierte Apps</li>
+          <li xml:lang="de">Behoben: Fortschrittsbalken bleibt nach dem Scan nicht mehr bei 100% stehen</li>
+
+          <li xml:lang="pt">Adicionado separador de Apps instaladas com pesquisa e desinstalação seletiva</li>
+          <li xml:lang="pt">Adicionado separador de revisões antigas do Snap no modo utilizador, coerente com o Flatpak</li>
+          <li xml:lang="pt">As famílias de firmware mostram agora o uso de disco no separador Firmwares</li>
+          <li xml:lang="pt">O separador Cache APT lista agora ficheiros .deb individuais para remoção seletiva</li>
+          <li xml:lang="pt">A análise em modo utilizador inicia automaticamente ao abrir a aplicação</li>
+          <li xml:lang="pt">Corrigida a proteção de firmware e drivers AMD/GPU e KVM/VMware/VirtualBox</li>
+          <li xml:lang="pt">Os cartões do resumo seguem agora a ordem dos separadores nos modos utilizador e root</li>
+          <li xml:lang="pt">Adicionado botão para selecionar toda a documentação no separador de Idiomas</li>
+          <li xml:lang="pt">Corrigido: separador Flatpak redesenhado com duas secções — apps instaladas e runtimes não utilizados</li>
+          <li xml:lang="pt">Corrigido: os tamanhos Flatpak mostram agora o uso real de disco; antes mostravam sempre 0 B</li>
+          <li xml:lang="pt">Corrigido: a deteção de runtimes não utilizados delega na lógica interna do flatpak</li>
+          <li xml:lang="pt">Corrigido: pacotes de firmware e kernel já não aparecem no separador Apps instaladas</li>
+          <li xml:lang="pt">Corrigido: a barra de progresso já não fica presa a 100% após a análise</li>
+
+          <li xml:lang="it">Aggiunta scheda App installate con ricerca e disinstallazione selettiva</li>
+          <li xml:lang="it">Aggiunta scheda revisioni Snap precedenti in modalità utente, coerente con Flatpak</li>
+          <li xml:lang="it">Le famiglie di firmware mostrano ora l'utilizzo del disco nella scheda Firmware</li>
+          <li xml:lang="it">La scheda Cache APT elenca ora i singoli file .deb per la rimozione selettiva</li>
+          <li xml:lang="it">La scansione in modalità utente si avvia automaticamente all'apertura</li>
+          <li xml:lang="it">Corretta la protezione di firmware e driver AMD/GPU e KVM/VMware/VirtualBox</li>
+          <li xml:lang="it">Le schede del riepilogo seguono ora l'ordine delle schede in modalità utente e root</li>
+          <li xml:lang="it">Aggiunto pulsante per selezionare tutta la documentazione nella scheda Lingue</li>
+          <li xml:lang="it">Corretto: scheda Flatpak riprogettata con due sezioni — app installate e runtime non utilizzati</li>
+          <li xml:lang="it">Corretto: le dimensioni Flatpak mostrano ora l'uso reale del disco; prima mostravano sempre 0 B</li>
+          <li xml:lang="it">Corretto: il rilevamento dei runtime non utilizzati delega alla logica interna di flatpak</li>
+          <li xml:lang="it">Corretto: i pacchetti firmware e kernel non appaiono più nella scheda App installate</li>
+          <li xml:lang="it">Corretto: la barra di avanzamento non rimane più bloccata al 100% dopo la scansione</li>
+
+          <li xml:lang="ro">Adăugat tab Aplicații instalate cu căutare și dezinstalare selectivă</li>
+          <li xml:lang="ro">Adăugat tab cu revizii vechi Snap în modul utilizator, consistent cu Flatpak</li>
+          <li xml:lang="ro">Familiile de firmware afișează acum utilizarea discului în fila Firmware</li>
+          <li xml:lang="ro">Fila Cache APT listează acum fișierele .deb individuale pentru ștergere selectivă</li>
+          <li xml:lang="ro">Scanarea în modul utilizator pornește automat la lansare</li>
+          <li xml:lang="ro">Corectată protecția firmware și driverelor AMD/GPU și KVM/VMware/VirtualBox</li>
+          <li xml:lang="ro">Cardurile din rezumat urmează acum ordinea filelor în modurile utilizator și root</li>
+          <li xml:lang="ro">Adăugat buton pentru selectarea întregii documentații în fila Limbi</li>
+          <li xml:lang="ro">Rezolvat: fila Flatpak reproiectată cu două secțiuni — aplicații instalate și runtime-uri neutilizate</li>
+          <li xml:lang="ro">Rezolvat: dimensiunile Flatpak afișează acum utilizarea reală a discului; anterior afișau întotdeauna 0 B</li>
+          <li xml:lang="ro">Rezolvat: detectarea runtime-urilor neutilizate deleagă la logica internă a flatpak</li>
+          <li xml:lang="ro">Rezolvat: pachetele firmware și kernel nu mai apar în fila Aplicații instalate</li>
+          <li xml:lang="ro">Rezolvat: bara de progres nu mai rămâne blocată la 100% după scanare</li>
+
+          <li xml:lang="ru">Добавлена вкладка установленных приложений с поиском и выборочным удалением</li>
+          <li xml:lang="ru">Добавлена вкладка старых ревизий Snap в режиме пользователя, аналогично Flatpak</li>
+          <li xml:lang="ru">Семейства прошивок теперь отображают занимаемое место на диске во вкладке Прошивки</li>
+          <li xml:lang="ru">Вкладка кэша APT теперь перечисляет отдельные файлы .deb для выборочного удаления</li>
+          <li xml:lang="ru">Сканирование в режиме пользователя запускается автоматически при открытии</li>
+          <li xml:lang="ru">Исправлена защита прошивок и драйверов AMD/GPU и KVM/VMware/VirtualBox</li>
+          <li xml:lang="ru">Карточки обзора теперь следуют порядку вкладок в режимах пользователя и root</li>
+          <li xml:lang="ru">Добавлена кнопка выбора всей документации во вкладке Языки</li>
+          <li xml:lang="ru">Исправлено: вкладка Flatpak переработана с двумя разделами — установленные приложения и неиспользуемые среды</li>
+          <li xml:lang="ru">Исправлено: размеры Flatpak теперь отображают реальное использование диска; ранее всегда показывали 0 Б</li>
+          <li xml:lang="ru">Исправлено: обнаружение неиспользуемых сред делегировано внутренней логике flatpak</li>
+          <li xml:lang="ru">Исправлено: пакеты прошивок и ядер больше не появляются во вкладке Установленные приложения</li>
+          <li xml:lang="ru">Исправлено: индикатор выполнения больше не застревает на 100% после сканирования</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.1" date="2026-03-25">
       <description>
         <p>Major update introducing Dual-Layer Scanning (User vs Root modes) to eliminate password prompts on startup.</p>

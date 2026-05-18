@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260501T114455
+Time: 20260518T133828
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -266,6 +266,26 @@ Developer:
 Provides:
   - soplos-repo-selector
 Releases:
+  - version: 2.0.2-7
+    date: '2026-04-30'
+    type: stable
+    description:
+      C: Simplified the footer UI text to match the modern Soplos standard layout.
+      en: Simplified the footer UI text to match the modern Soplos standard layout.
+      es: Se ha simplificado el texto de la barra de estado para coincidir con el
+        diseño estándar de Soplos.
+      fr: Le texte de la barre d'état a été simplifié pour correspondre à la disposition
+        standard moderne de Soplos.
+      pt: O texto da barra de status foi simplificado para corresponder ao layout
+        padrão moderno do Soplos.
+      de: Der Text der Statusleiste wurde vereinfacht, um dem modernen Soplos-Standardlayout
+        zu entsprechen.
+      it: Il testo della barra di stato è stato semplificato per corrispondere al
+        layout standard moderno di Soplos.
+      ru: Текст строки состояния был упрощен, чтобы соответствовать современному стандартному
+        макету Soplos.
+      ro: Textul barei de stare a fost simplificat pentru a se potrivi cu aspectul
+        standard modern Soplos.
   - version: 2.0.2-6
     date: '2026-03-24'
     type: stable
@@ -570,6 +590,202 @@ Releases:
 Component: main
 ---
 Type: desktop-application
+ID: org.soplos.kernel-installer
+ProjectLicense: GPL-3.0+
+Package: soplos-kernel-installer
+Name:
+  C: Soplos Kernel Installer
+  de: Soplos Kernel-Installer
+  es: Instalador de Kernel Soplos
+  fr: Installateur de Kernel Soplos
+  it: Installatore Kernel Soplos
+  pt: Instalador de Kernel Soplos
+  ro: Instalator Kernel Soplos
+  ru: Установщик ядра Soplos
+Summary:
+  C: Advanced graphical kernel manager for Soplos Linux
+  de: Erweiterter grafischer Kernel-Manager für Soplos Linux
+  es: Gestor gráfico avanzado de kernels para Soplos Linux
+  fr: Gestionnaire graphique avancé de noyaux pour Soplos Linux
+  it: Gestore grafico avanzato del kernel per Soplos Linux
+  pt: Gerenciador gráfico avançado de kernels para Soplos Linux
+  ro: Manager grafic avansat de nuclee pentru Soplos Linux
+  ru: Продвинутый графический менеджер ядер для Soplos Linux
+Description:
+  C: |-
+    <p>Soplos Kernel Installer is a comprehensive graphical tool for downloading, patching, compiling and installing custom Linux kernels from kernel.org.
+    It provides an intuitive interface for managing kernel versions, patches, and configurations with complete internationalization support for 8 languages.</p>
+  de: |-
+    <p>Soplos Kernel-Installer ist ein umfassendes grafisches Tool zur Konfiguration und Anpassung des GRUB2-Bootloaders.
+    Mit vollständiger Internationalisierungsunterstützung für 8 Sprachen bietet es eine intuitive Benutzeroberfläche für die Verwaltung von Boot-Einstellungen, Themes, Schriftarten und benutzerdefinierten Einträgen.</p>
+  es: |-
+    <p>Soplos Kernel Installer es una herramienta gráfica integral para descargar, parchear, compilar e instalar kernels Linux personalizados desde kernel.org.
+    Con soporte completo de internacionalización para 8 idiomas, proporciona una interfaz intuitiva para gestionar versiones de kernel, parches y configuraciones.</p>
+  fr: |-
+    <p>Soplos Kernel Installer est un outil graphique complet pour télécharger, patcher, compiler et installer des noyaux Linux personnalisés à partir de kernel.org.
+    Avec un support complet d'internationalisation pour 8 langues, il fournit une interface intuitive pour gérer les versions de noyau, les patchs et les configurations.</p>
+  it: |-
+    <p>Soplos Kernel Installer è uno strumento grafico completo per scaricare, applicare patch, compilare e installare kernel Linux personalizzati da kernel.org.
+    Con supporto completo di internazionalizzazione per 8 lingue, fornisce un'interfaccia intuitiva per gestire versioni del kernel, patch e configurazioni.</p>
+  pt: |-
+    <p>Soplos Kernel Installer é uma ferramenta gráfica abrangente para baixar, aplicar patches, compilar e instalar kernels Linux personalizados a partir do kernel.org.
+    Com suporte completo de internacionalização para 8 idiomas, fornece uma interface intuitiva para gerenciar versões de kernel, patches e configurações.</p>
+  ro: |-
+    <p>Soplos Kernel Installer este un instrument grafic complet pentru descărcarea, aplicarea de patch-uri, compilarea și instalarea nucleelor Linux personalizate de pe kernel.org.
+    Cu suport complet de internaționalizare pentru 8 limbi, oferă o interfață intuitivă pentru gestionarea versiunilor de nucleu, patch-urilor și configurațiilor.</p>
+  ru: |-
+    <p>Soplos Kernel Installer — это комплексный графический инструмент для загрузки, патчинга, компиляции и установки пользовательских ядер Linux с сайта kernel.org.
+    С полным поддержкой интернационализации для 8 языков, он предоставляет интуитивный интерфейс для управления версиями ядра, патчами и конфигурациями.</p>
+Keywords:
+  C:
+    - kernel
+    - installer
+    - manager
+    - compilation
+    - patch
+    - soplos
+  es:
+    - kernel
+    - instalador
+    - gestor
+    - compilación
+    - parche
+  fr:
+    - noyau
+    - installateur
+    - gestionnaire
+    - compilation
+    - patch
+  de:
+    - kernel
+    - installer
+    - manager
+    - kompilierung
+    - patch
+  pt:
+    - kernel
+    - instalador
+    - gerenciador
+    - compilação
+    - patch
+  it:
+    - kernel
+    - installatore
+    - gestore
+    - compilazione
+    - patch
+  ro:
+    - kernel
+    - instalator
+    - manager
+    - compilare
+    - patch
+  ru:
+    - ядро
+    - установщик
+    - менеджер
+    - компиляция
+    - патч
+Categories:
+  - Settings
+  - System
+  - Utility
+  - GTK
+Icon:
+  cached:
+    - name: org.soplos.kernel-installer.png
+      width: 48
+      height: 48
+    - name: org.soplos.kernel-installer.png
+      width: 64
+      height: 64
+    - name: org.soplos.kernel-installer.png
+      width: 128
+      height: 128
+  remote:
+    - url: soplos-kernel-installer/icons/48x48/org.soplos.kernel-installer.png
+      width: 48
+      height: 48
+    - url: soplos-kernel-installer/icons/64x64/org.soplos.kernel-installer.png
+      width: 64
+      height: 64
+    - url: soplos-kernel-installer/icons/128x128/org.soplos.kernel-installer.png
+      width: 128
+      height: 128
+Screenshots:
+  - default: true
+    caption:
+      C: Main interface with kernel selection and featured channels
+      es: Interfaz principal con selección de kernel y canales destacados
+      fr: Interface principale avec sélection du noyau et canaux en vedette
+      de: Hauptoberfläche mit Kernelauswahl und Top-Kanälen
+      pt: Interface principal com seleção de kernel e canais em destaque
+      it: Interfaccia principale con selezione del kernel e canali in primo piano
+      ro: Interfața principală cu selecția nucleului și canale recomandate
+      ru: Главный интерфейс с выбором ядра и избранными каналами
+    source-image:
+      url: soplos-kernel-installer/screenshots/screenshot01.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Installation progress with integrated UI feedback
+      es: Progreso de instalación con respuesta visual integrada
+      fr: Progression de l'installation avec retour visuel intégré
+      de: Installationsfortschritt mit integriertem UI-Feedback
+      pt: Progresso da instalação com feedback visual integrado
+      it: Avanzamento dell'installazione con feedback visivo integrato
+      ro: Progresul instalării cu feedback vizual integrat
+      ru: Прогресс установки с интегрированной обратной связью
+    source-image:
+      url: soplos-kernel-installer/screenshots/screenshot02.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Real-time compilation window with detailed logs
+      es: Ventana de compilación en tiempo real con registros detallados
+      fr: Fenêtre de compilation en temps réel avec journaux détaillés
+      de: Echtzeit-Kompilierungsfenster mit detaillierten Protokollen
+      pt: Janela de compilação em tempo real com logs detalhados
+      it: Finestra di compilazione in tempo reale con log dettagliati
+      ro: Fereastra de compilare în timp real cu jurnale detaliate
+      ru: Окно компиляции в реальном времени с подробными логами
+    source-image:
+      url: soplos-kernel-installer/screenshots/screenshot03.png
+      width: 1920
+      height: 1080
+      type: image/png
+Launchable:
+  desktop-id:
+    - org.soplos.kernel-installer.desktop
+Url:
+  homepage: https://soplos.org
+  bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
+Releases:
+  - version: 1.0.0
+    date: '2026-04-05'
+    type: stable
+    description:
+      C: |-
+        Initial release of Soplos Kernel Installer with comprehensive kernel management features including PREEMPT_RT integration, source reuse, and Secure Boot support.
+      es: |-
+        Lanzamiento inicial del Instalador de Kernel Soplos con funciones completas de gestión de kernels, incluyendo integración de PREEMPT_RT, reutilización de código fuente y soporte para Secure Boot.
+      fr: |-
+        Sortie initiale de l'Installateur de Kernel Soplos avec des fonctionnalités complètes de gestion des noyaux, y compris l'intégration de PREEMPT_RT, la réutilisation du code source et le support Secure Boot.
+      de: |-
+        Erstveröffentlichung des Soplos Kernel-Installers mit umfassenden Kernel-Verwaltungsfunktionen, einschließlich PREEMPT_RT-Integration, Quellcode-Wiederverwendung und Secure Boot-Unterstützung.
+      pt: |-
+        Lançamento inicial do Instalador de Kernel Soplos com recursos abrangentes de gerenciamento de kernel, incluindo integração PREEMPT_RT, reutilização de código-fonte e suporte a Secure Boot.
+      it: |-
+        Rilascio iniziale dell'Installatore Kernel Soplos con funzionalità complete di gestione del kernel, inclusa l'integrazione PREEMPT_RT, il riutilizzo del sorgente e il supporto Secure Boot.
+      ro: |-
+        Versiunea inițială a Instalatorului de Kernel Soplos cu funcții complete de gestionare a nucleelor, inclusiv integrarea PREEMPT_RT, reutilizarea sursei și suportul Secure Boot.
+      ru: |-
+        Первоначальный выпуск Установщика ядра Soplos с комплексными функциями управления ядрами, включая интеграцию PREEMPT_RT, повторное использование исходного кода и поддержку Secure Boot.
+Component: main
+---
+Type: desktop-application
 ID: org.soplos.welcome
 ProjectLicense: GPL-3.0+
 Package: soplos-welcome
@@ -685,34 +901,186 @@ Icon:
 Screenshots:
   - default: true
     caption:
-      C: Welcome screen with system overview
-      es: Pantalla de bienvenida con resumen del sistema
+      C: Welcome screen with system overview and quick links
+      es: Pantalla de bienvenida con resumen del sistema y enlaces rápidos
+      fr: Écran d'accueil avec aperçu du système et liens rapides
+      pt: Tela de boas-vindas com visão geral do sistema e links rápidos
+      de: Willkommensbildschirm mit Systemübersicht und Schnelllinks
+      it: Schermata di benvenuto con panoramica del sistema e link rapidi
+      ru: Экран приветствия с обзором системы и быстрыми ссылками
+      ro: Ecran de bun venit cu prezentarea sistemului și linkuri rapide
     source-image:
-      url: soplos-welcome/screenshots/screenshot1.png
+      url: soplos-welcome/screenshots/screenshot01.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Intelligent software management center
-      es: Centro de gestión inteligente de software
+      C: Software management with package managers and repositories
+      es: Gestión de software con gestores de paquetes y repositorios
+      fr: Gestion des logiciels avec gestionnaires de paquets et dépôts
+      pt: Gestão de software com gestores de pacotes e repositórios
+      de: Softwareverwaltung mit Paketmanagern und Repositories
+      it: Gestione software con gestori pacchetti e repository
+      ru: Управление ПО с менеджерами пакетов и репозиториями
+      ro: Gestionare software cu manageri de pachete și depozite
     source-image:
-      url: soplos-welcome/screenshots/screenshot3.png
+      url: soplos-welcome/screenshots/screenshot02.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Hardware driver detection and installation
-      es: Detección e instalación de controladores de hardware
+      C: Hardware drivers with NVIDIA graphics and hardware detection
+      es: Controladores de hardware con gráficos NVIDIA y detección de hardware
+      fr: Pilotes matériels avec graphiques NVIDIA et détection du matériel
+      pt: Controladores de hardware com gráficos NVIDIA e deteção de hardware
+      de: Hardwaretreiber mit NVIDIA-Grafik und Hardwareerkennung
+      it: Driver hardware con grafica NVIDIA e rilevamento hardware
+      ru: Драйверы оборудования с графикой NVIDIA и обнаружением оборудования
+      ro: Drivere hardware cu grafică NVIDIA și detectare hardware
     source-image:
-      url: soplos-welcome/screenshots/screenshot4.png
+      url: soplos-welcome/screenshots/screenshot03.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Desktop customization and theming
-      es: Personalización del escritorio y temas
+      C: Additional drivers for AMD, Wi-Fi, printers and virtual machines
+      es: Controladores adicionales para AMD, Wi-Fi, impresoras y máquinas virtuales
+      fr: Pilotes supplémentaires pour AMD, Wi-Fi, imprimantes et machines virtuelles
+      pt: Controladores adicionais para AMD, Wi-Fi, impressoras e máquinas virtuais
+      de: Zusätzliche Treiber für AMD, WLAN, Drucker und virtuelle Maschinen
+      it: Driver aggiuntivi per AMD, Wi-Fi, stampanti e macchine virtuali
+      ru: Дополнительные драйверы для AMD, Wi-Fi, принтеров и виртуальных машин
+      ro: Drivere suplimentare pentru AMD, Wi-Fi, imprimante și mașini virtuale
     source-image:
-      url: soplos-welcome/screenshots/screenshot5.png
+      url: soplos-welcome/screenshots/screenshot04.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Kernel management with system info, microcode and optimized kernels
+      es: Gestión de kernels con información del sistema, microcódigo y kernels optimizados
+      fr: Gestion du noyau avec informations système, microcode et noyaux optimisés
+      pt: Gestão de kernels com informações do sistema, microcódigo e kernels otimizados
+      de: Kernel-Verwaltung mit Systeminformationen, Microcode und optimierten Kerneln
+      it: Gestione kernel con informazioni di sistema, microcodice e kernel ottimizzati
+      ru: Управление ядрами с информацией о системе, микрокодом и оптимизированными
+        ядрами
+      ro: Gestionare kernel cu informații de sistem, microcod și kerneluri optimizate
+    source-image:
+      url: soplos-welcome/screenshots/screenshot05.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Kernel variants and system maintenance tools
+      es: Variantes de kernel y herramientas de mantenimiento del sistema
+      fr: Variantes du noyau et outils de maintenance système
+      pt: Variantes de kernel e ferramentas de manutenção do sistema
+      de: Kernel-Varianten und Systemwartungswerkzeuge
+      it: Varianti del kernel e strumenti di manutenzione del sistema
+      ru: Варианты ядра и инструменты обслуживания системы
+      ro: Variante de kernel și instrumente de întreținere a sistemului
+    source-image:
+      url: soplos-welcome/screenshots/screenshot06.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Security tools with backups, snapshots and firewall
+      es: Herramientas de seguridad con copias de seguridad, instantáneas y cortafuegos
+      fr: Outils de sécurité avec sauvegardes, instantanés et pare-feu
+      pt: Ferramentas de segurança com cópias de segurança, instantâneos e firewall
+      de: Sicherheitstools mit Backups, Snapshots und Firewall
+      it: Strumenti di sicurezza con backup, snapshot e firewall
+      ru: Инструменты безопасности с резервным копированием, снимками и брандмауэром
+      ro: Instrumente de securitate cu copii de siguranță, instantanee și firewall
+    source-image:
+      url: soplos-welcome/screenshots/screenshot07.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: System cleaning and firewall management tools
+      es: Herramientas de limpieza del sistema y gestión de cortafuegos
+      fr: Outils de nettoyage système et gestion du pare-feu
+      pt: Ferramentas de limpeza do sistema e gestão de firewall
+      de: Systembereinigung und Firewall-Verwaltungstools
+      it: Strumenti di pulizia del sistema e gestione firewall
+      ru: Инструменты очистки системы и управления брандмауэром
+      ro: Instrumente de curățare a sistemului și gestionare firewall
+    source-image:
+      url: soplos-welcome/screenshots/screenshot08.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Recommended applications with browsers and communication tools
+      es: Aplicaciones recomendadas con navegadores y herramientas de comunicación
+      fr: Applications recommandées avec navigateurs et outils de communication
+      pt: Aplicações recomendadas com navegadores e ferramentas de comunicação
+      de: Empfohlene Anwendungen mit Browsern und Kommunikationstools
+      it: Applicazioni consigliate con browser e strumenti di comunicazione
+      ru: Рекомендуемые приложения с браузерами и средствами связи
+      ro: Aplicații recomandate cu browsere și instrumente de comunicare
+    source-image:
+      url: soplos-welcome/screenshots/screenshot09.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Desktop customization with Soplos tools and XFCE settings
+      es: Personalización del escritorio con herramientas Soplos y ajustes de XFCE
+      fr: Personnalisation du bureau avec les outils Soplos et les paramètres XFCE
+      pt: Personalização do ambiente de trabalho com ferramentas Soplos e definições
+        XFCE
+      de: Desktop-Anpassung mit Soplos-Tools und XFCE-Einstellungen
+      it: Personalizzazione del desktop con strumenti Soplos e impostazioni XFCE
+      ru: Настройка рабочего стола с инструментами Soplos и параметрами XFCE
+      ro: Personalizare desktop cu instrumente Soplos și setări XFCE
+    source-image:
+      url: soplos-welcome/screenshots/screenshot10.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Gaming center with performance optimizations and launchers
+      es: Centro de juegos con optimizaciones de rendimiento y lanzadores
+      fr: Centre de jeux avec optimisations de performance et lanceurs
+      pt: Centro de jogos com otimizações de desempenho e lançadores
+      de: Gaming-Center mit Leistungsoptimierungen und Launchern
+      it: Centro gaming con ottimizzazioni delle prestazioni e launcher
+      ru: Игровой центр с оптимизацией производительности и лаунчерами
+      ro: Centru de gaming cu optimizări de performanță și lansatoare
+    source-image:
+      url: soplos-welcome/screenshots/screenshot11.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Gaming launchers and emulators catalog
+      es: Catálogo de lanzadores de juegos y emuladores
+      fr: Catalogue de lanceurs de jeux et émulateurs
+      pt: Catálogo de lançadores de jogos e emuladores
+      de: Katalog der Spielstarter und Emulatoren
+      it: Catalogo di launcher di gioco ed emulatori
+      ru: Каталог игровых лаунчеров и эмуляторов
+      ro: Catalog de lansatoare de jocuri și emulatoare
+    source-image:
+      url: soplos-welcome/screenshots/screenshot12.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Gaming customization with wallpapers and RGB theme
+      es: Personalización gaming con fondos de pantalla y tema RGB
+      fr: Personnalisation gaming avec fonds d'écran et thème RGB
+      pt: Personalização gaming com papéis de parede e tema RGB
+      de: Gaming-Anpassung mit Hintergrundbildern und RGB-Theme
+      it: Personalizzazione gaming con sfondi e tema RGB
+      ru: Игровая настройка с обоями и RGB-темой
+      ro: Personalizare gaming cu imagini de fundal și temă RGB
+    source-image:
+      url: soplos-welcome/screenshots/screenshot13.png
       width: 1920
       height: 1080
       type: image/png
@@ -724,9 +1092,34 @@ Url:
   bugtracker: https://github.com/SoplosLinux/soplos-welcome/issues
   help: https://github.com/SoplosLinux/soplos-welcome/wiki
   donation: https://www.paypal.com/paypalme/isubdes
+Developer:
+  id: org.soplos
+  name:
+    C: Soplos Team
+  url: https://soplos.org
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.0.8-3
+    date: '2026-05-18'
+    type: stable
+    description:
+      C: 'Gaming tab optimizations, Lutris Vulkan Fix button, and bug fixes:'
+  - version: 2.0.8-2
+    date: '2026-04-30'
+    type: stable
+    description:
+      C: 'Software tab — Snap Store and Bazaar added; new tools; bug fixes:'
+  - version: 2.0.8-1
+    date: '2026-04-04'
+    type: stable
+    description:
+      C: 'Hybrid graphics fixes:'
+  - version: 2.0.8
+    date: '2026-03-31'
+    type: stable
+    description:
+      C: 'New features, UI fixes, 6 new recommended apps, and code quality improvements:'
   - version: 2.0.7-3
     date: '2026-03-24'
     type: stable
@@ -804,6 +1197,98 @@ Releases:
     type: stable
     description:
       C: 'Major rewrite with modern architecture and enhanced capabilities:'
+  - version: 1.1.5
+    date: '2025-09-08'
+    type: stable
+    description:
+      C: |-
+        Tyson-only release. Updated all welcome tab URL buttons to soplos.org, removed deprecated handler methods, updated Blender icon.
+  - version: 1.1.4
+    date: '2025-09-08'
+    type: stable
+    description:
+      C: Updated Blender icon. Fixed welcome tab link buttons (website, forums, wiki).
+  - version: 1.1.3
+    date: '2025-07-28'
+    type: stable
+    description:
+      C: Updated all translation dictionaries. Fixed several functions in the hardware
+        detector. Updated all program icons.
+  - version: 1.1.2
+    date: '2025-07-27'
+    type: stable
+    description:
+      C: Changed program icon to a new design.
+  - version: 1.1.1
+    date: '2025-07-27'
+    type: stable
+    description:
+      C: |-
+        Fixed office install/uninstall button logic in the Recommended tab. Fixed hardware detector to always return the correct recommended driver for NVIDIA and other hardware.
+  - version: 1.1.0
+    date: '2025-07-25'
+    type: stable
+    description:
+      C: |-
+        Fixed Flatpak/Flathub installation bug: Flatpak applications can now be installed from Flathub without requiring administrator privileges. The Software Center correctly adds Flathub for the current user.
+  - version: 1.0.9
+    date: '2025-07-24'
+    type: stable
+    description:
+      C: Fixed install buttons in the Software Center (now work correctly).
+  - version: 1.0.8
+    date: '2025-07-21'
+    type: stable
+    description:
+      C: |-
+        Improvements in QEMU/KVM integration. Enhanced NVIDIA driver detection and installation. Translation dictionary fragmented into per-language files. Full internationalization with 8 languages. Improved Recommended tab install/uninstall button logic. LibreWolf switched to Flatpak installation.
+  - version: 1.0.7
+    date: '2025-07-18'
+    type: stable
+    description:
+      C: Metainfo updated to comply with AppStream/DEP-11 standard. Minor documentation
+        improvements.
+  - version: 1.0.6
+    date: '2025-05-20'
+    type: stable
+    description:
+      C: |-
+        Software Center improvements: detects installed programs, Midori replaced with Epiphany (GNOME Web), DaVinci Resolve replaced with Shotcut. Driver Center improved with optimized hardware detection.
+  - version: 1.0.5
+    date: '2025-05-08'
+    type: stable
+    description:
+      C: |-
+        Packaging fix: reverted App ID to com.soplos.welcome (dot notation). Packager block removed from main.py. Assets renamed back to com.soplos.welcome convention.
+  - version: 1.0.4
+    date: '2025-05-07'
+    type: stable
+    description:
+      C: |-
+        Packaging fix: autostart updated to copy the system desktop file instead of writing inline content. Desktop file references updated to com.soploswelcome (ID, icon, StartupWMClass).
+  - version: 1.0.3
+    date: '2025-05-06'
+    type: stable
+    description:
+      C: 'Packaging fix: Soplos Packager App ID initialization block injected into
+        main.py for correct window manager integration.'
+  - version: 1.0.2
+    date: '2025-05-05'
+    type: stable
+    description:
+      C: |-
+        Packaging: renamed all assets from com.soplos.welcome to com.soploswelcome (dot removed) — desktop file, icons (all sizes), metainfo and pixmaps. App ID changed accordingly.
+  - version: 1.0.1
+    date: '2025-04-15'
+    type: stable
+    description:
+      C: Fixed website button URL in the welcome tab to use the distro-specific link.
+  - version: 1.0.0
+    date: '2025-04-08'
+    type: stable
+    description:
+      C: |-
+        Initial release. Welcome screen for Soplos Linux with initial system setup, recommended software installation, desktop customization, and access to help resources. Multi-language support (8 languages).
 Component: main
 ---
 Type: desktop-application
@@ -925,58 +1410,77 @@ Icon:
 Screenshots:
   - default: true
     caption:
-      C: Welcome Screen with Language Selection and System Installation
-      es: Pantalla de Bienvenida con Selección de Idioma e Instalación del Sistema
-      fr: Écran d'accueil avec sélection de la langue et installation du système
-      pt: Ecrã de boas-vindas com seleção de idioma e instalação do sistema
-      de: Begrüßungsbildschirm mit Sprachauswahl und Systeminstallation
-      it: Schermata di benvenuto con selezione della lingua e installazione del sistema
-      ru: Экран приветствия с выбором языка и установкой системы
-      ro: Ecran de bun venit cu selecţie de limbă şi instalare a sistemului
+      C: Main window with installation, rescue and hardware info tools
+      es: Ventana principal con herramientas de instalación, rescate e información
+        de hardware
+      fr: Fenêtre principale avec outils d'installation, de secours et d'informations
+        matérielles
+      pt: Janela principal com ferramentas de instalação, recuperação e informações
+        de hardware
+      de: Hauptfenster mit Installations-, Rettungs- und Hardwareinformationswerkzeugen
+      it: Finestra principale con strumenti di installazione, recupero e informazioni
+        hardware
+      ru: Главное окно с инструментами установки, восстановления и сведений об оборудовании
+      ro: Fereastra principală cu instrumente de instalare, recuperare și informații
+        hardware
     source-image:
       url: soplos-welcome-live/screenshots/screenshot1.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Advanced CHROOT Recovery System
-      es: Sistema Avanzado de Recuperación CHROOT
-      fr: Système de récupération CHROOT avancé
-      pt: Sistema de recuperação CHROOT avançado
-      de: Fortschrittliches CHROOT-Wiederherstellungssystem
-      it: Sistema di recupero CHROOT avanzato
-      ru: Продвинутая система восстановления CHROOT
-      ro: Sistem avansat de recuperare CHROOT
+      C: Disk selection for System Rescue
+      es: Selección de disco para Rescate del Sistema
+      fr: Sélection du disque pour le secours système
+      pt: Seleção de disco para Recuperação do Sistema
+      de: Datenträgerauswahl für die Systemwiederherstellung
+      it: Selezione del disco per il recupero del sistema
+      ru: Выбор диска для восстановления системы
+      ro: Selectarea discului pentru recuperarea sistemului
     source-image:
       url: soplos-welcome-live/screenshots/screenshot2.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: BTRFS Subvolume Selection
-      es: Selección de Subvolúmenes BTRFS
-      fr: Sélection de sous-volumes BTRFS
-      pt: Seleção de subvolumes BTRFS
-      de: Auswahl von BTRFS-Subvolumes
-      it: Selezione dei sottovolumi BTRFS
-      ru: Выбор подтомов BTRFS
-      ro: Selectare subvolume BTRFS
+      C: Partition mount point assignment
+      es: Asignación de puntos de montaje a particiones
+      fr: Affectation des points de montage aux partitions
+      pt: Atribuição de pontos de montagem às partições
+      de: Zuordnung von Einhängepunkten zu Partitionen
+      it: Assegnazione dei punti di montaggio alle partizioni
+      ru: Назначение точек монтирования разделам
+      ro: Atribuirea punctelor de montare partițiilor
     source-image:
       url: soplos-welcome-live/screenshots/screenshot3.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Terminal with Active CHROOT Session
-      es: Terminal con Sesión CHROOT Activa
-      fr: Terminal avec session CHROOT active
-      pt: Terminal com sessão CHROOT ativa
-      de: Terminal mit aktiver CHROOT-Sitzung
-      it: Terminal con sessione CHROOT attiva
-      ru: Терминал с активной CHROOT-сессией
-      ro: Terminal cu sesiune CHROOT activă
+      C: Guided Rescue Operations window
+      es: Ventana de Operaciones de Rescate guiadas
+      fr: Fenêtre des opérations de secours guidées
+      pt: Janela de Operações de Recuperação guiadas
+      de: Fenster für geführte Rettungsoperationen
+      it: Finestra delle operazioni di recupero guidate
+      ru: Окно пошаговых операций восстановления
+      ro: Fereastra operațiilor de salvare ghidate
     source-image:
       url: soplos-welcome-live/screenshots/screenshot4.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Interactive CHROOT terminal session
+      es: Sesión de terminal CHROOT interactiva
+      fr: Session de terminal CHROOT interactive
+      pt: Sessão de terminal CHROOT interativa
+      de: Interaktive CHROOT-Terminalsitzung
+      it: Sessione terminale CHROOT interattiva
+      ru: Интерактивная сессия терминала CHROOT
+      ro: Sesiune interactivă de terminal CHROOT
+    source-image:
+      url: soplos-welcome-live/screenshots/screenshot5.png
       width: 1920
       height: 1080
       type: image/png
@@ -996,6 +1500,19 @@ Developer:
 Provides:
   - soplos-welcome-live
 Releases:
+  - version: 2.0.2
+    date: '2026-03-31'
+    type: stable
+    description:
+      C: New features, guided rescue operations and interface improvements.
+      es: Nuevas funciones, operaciones de rescate guiadas y mejoras de interfaz.
+      fr: Nouvelles fonctionnalités, opérations de secours guidées et améliorations
+        de l'interface.
+      pt: Novas funcionalidades, operações de recuperação guiadas e melhorias de interface.
+      de: Neue Funktionen, geführte Rettungsoperationen und Verbesserungen der Benutzeroberfläche.
+      it: Nuove funzionalità, operazioni di recupero guidate e miglioramenti dell'interfaccia.
+      ru: Новые функции, пошаговые операции восстановления и улучшения интерфейса.
+      ro: Funcții noi, operații de salvare ghidate și îmbunătățiri ale interfeței.
   - version: 2.0.1-1
     date: '2026-03-21'
     type: stable
@@ -1047,26 +1564,322 @@ Releases:
         Патч (2025-12-10 - Финал): Завершен полный аудит качества всех переводов (ES, EN, DE, FR, PT, IT, RO, RU), обеспечено 100% покрытие, естественность фраз и лаконичность интерфейса.
       ro: |-
         Patch (2025-12-10 - Final): Finalizată revizuirea calității tuturor traducerilor (ES, EN, DE, FR, PT, IT, RO, RU) asigurând acoperire 100%, formulare naturală și concizie a interfeței.
-  - version: 1.1.2
+  - version: 1.1.6
     date: '2025-11-29'
     type: stable
     description:
-      C: Universal disk detection in CHROOT for all hardware and VM types.
-  - version: 1.1.1
+      C: |-
+        Universal disk detection in CHROOT: removed restrictive lsblk filter; detects all types (MMC, NVMe, USB, loop, etc.). Partition parsing switched to JSON with text fallback. Improved BTRFS subvolume detection.
+      es: |-
+        Detección universal de discos en CHROOT: eliminado el filtro restrictivo de lsblk; detecta todos los tipos (MMC, NVMe, USB, loop, etc.). Análisis de particiones cambiado a JSON con fallback de texto. Mejorada la detección de subvolúmenes BTRFS.
+      fr: |-
+        Détection universelle des disques dans CHROOT : filtre lsblk restrictif supprimé ; détecte tous les types (MMC, NVMe, USB, loop, etc.). Analyse des partitions passée en JSON avec repli texte. Amélioration de la détection des sous-volumes BTRFS.
+      pt: |-
+        Deteção universal de discos em CHROOT: removido o filtro restritivo do lsblk; deteta todos os tipos (MMC, NVMe, USB, loop, etc.). Análise de partições alterada para JSON com fallback de texto. Melhorada a deteção de subvolumes BTRFS.
+      de: |-
+        Universelle Datenträgererkennung in CHROOT: restriktiver lsblk-Filter entfernt; erkennt alle Typen (MMC, NVMe, USB, loop usw.). Partitionsauswertung auf JSON umgestellt mit Text-Fallback. Verbesserte BTRFS-Subvolume-Erkennung.
+      it: |-
+        Rilevamento universale dei dischi in CHROOT: rimosso il filtro restrittivo di lsblk; rileva tutti i tipi (MMC, NVMe, USB, loop, ecc.). Analisi delle partizioni passata a JSON con fallback testo. Rilevamento subvolumi BTRFS migliorato.
+      ru: |-
+        Универсальное обнаружение дисков в CHROOT: убран ограничивающий фильтр lsblk; обнаруживает все типы (MMC, NVMe, USB, loop и др.). Разбор разделов переведён на JSON с текстовым резервом. Улучшено обнаружение подтомов BTRFS.
+      ro: |-
+        Detectare universală a discurilor în CHROOT: eliminat filtrul restrictiv lsblk; detectează toate tipurile (MMC, NVMe, USB, loop etc.). Analiza partițiilor trecută la JSON cu fallback text. Detectare îmbunătățită a subvolumelor BTRFS.
+  - version: 1.1.5
     date: '2025-09-08'
     type: stable
     description:
-      C: Updated welcome tab links.
-  - version: 1.1.0
+      C: Welcome tab URLs updated to soplos.org.
+      es: URLs de la pestaña de bienvenida actualizadas a soplos.org.
+      fr: URLs de l'onglet d'accueil mises à jour vers soplos.org.
+      pt: URLs do separador de boas-vindas atualizadas para soplos.org.
+      de: Willkommens-Tab-URLs auf soplos.org aktualisiert.
+      it: URL della scheda di benvenuto aggiornati a soplos.org.
+      ru: Ссылки вкладки приветствия обновлены на soplos.org.
+      ro: URL-urile filei de bun venit actualizate la soplos.org.
+  - version: 1.1.4
     date: '2025-08-02'
     type: stable
     description:
-      C: Internationalization refactor and BTRFS fixes.
-  - version: 1.0.0
-    date: '2024-01-27'
+      C: Dictionary issues fixed and full i18n completed across all 8 languages. CHROOT
+        function improved for BTRFS subvolumes.
+      es: Problemas del diccionario corregidos e i18n completo en los 8 idiomas. Función
+        CHROOT mejorada para subvolúmenes BTRFS.
+      fr: |-
+        Problèmes de dictionnaire corrigés et i18n complété dans les 8 langues. Fonction CHROOT améliorée pour les sous-volumes BTRFS.
+      pt: Problemas de dicionário corrigidos e i18n completo nos 8 idiomas. Função
+        CHROOT melhorada para subvolumes BTRFS.
+      de: Wörterbuchprobleme behoben und vollständige i18n in 8 Sprachen. CHROOT-Funktion
+        für BTRFS-Subvolumes verbessert.
+      it: |-
+        Problemi del dizionario corretti e i18n completato in tutte le 8 lingue. Funzione CHROOT migliorata per i subvolumi BTRFS.
+      ru: Исправлены проблемы со словарями и завершена полная локализация на 8 языков.
+        Улучшена функция CHROOT для подтомов BTRFS.
+      ro: |-
+        Probleme de dicționar remediate și i18n complet în toate cele 8 limbi. Funcție CHROOT îmbunătățită pentru subvolumele BTRFS.
+  - version: 1.1.3
+    date: '2025-08-02'
     type: stable
     description:
-      C: Initial release with basic welcome interface and CHROOT functionality.
+      C: Program icon updated to new design. Maintainer changed to Sergi Perich.
+      es: Icono del programa actualizado al nuevo diseño. Mantenedor cambiado a Sergi
+        Perich.
+      fr: Icône du programme mise à jour avec le nouveau design. Mainteneur changé
+        en Sergi Perich.
+      pt: Ícone do programa atualizado para o novo design. Mantenedor alterado para
+        Sergi Perich.
+      de: Programmsymbol auf neues Design aktualisiert. Betreuer auf Sergi Perich
+        geändert.
+      it: Icona del programma aggiornata al nuovo design. Manutentore cambiato in
+        Sergi Perich.
+      ru: Иконка программы обновлена до нового дизайна. Сопровождающий изменён на
+        Sergi Perich.
+      ro: Pictograma programului actualizată la noul design. Menținătorul schimbat
+        în Sergi Perich.
+  - version: 1.1.2
+    date: '2025-07-27'
+    type: stable
+    description:
+      C: |-
+        Advanced partition and BTRFS subvolume detection in CHROOT. Full /home mounting support as partition or BTRFS subvolume. Universal disk detection for all hardware and VM types.
+      es: |-
+        Detección avanzada de particiones y subvolúmenes BTRFS en CHROOT. Soporte completo de montaje de /home como partición o subvolumen BTRFS. Detección universal de discos para todo tipo de hardware y VMs.
+      fr: |-
+        Détection avancée des partitions et des sous-volumes BTRFS dans CHROOT. Prise en charge complète du montage de /home en tant que partition ou sous-volume BTRFS. Détection universelle des disques pour tous les matériels et VM.
+      pt: |-
+        Deteção avançada de partições e subvolumes BTRFS em CHROOT. Suporte completo de montagem de /home como partição ou subvolume BTRFS. Deteção universal de discos para todo o hardware e VMs.
+      de: |-
+        Erweiterte Partitions- und BTRFS-Subvolume-Erkennung in CHROOT. Vollständige /home-Einbindungsunterstützung als Partition oder BTRFS-Subvolume. Universelle Datenträgererkennung für alle Hardware- und VM-Typen.
+      it: |-
+        Rilevamento avanzato di partizioni e subvolumi BTRFS in CHROOT. Supporto completo al montaggio di /home come partizione o subvolume BTRFS. Rilevamento universale dei dischi per tutti i tipi di hardware e VM.
+      ru: |-
+        Расширенное обнаружение разделов и подтомов BTRFS в CHROOT. Полная поддержка монтирования /home как раздела или подтома BTRFS. Универсальное обнаружение дисков для любого оборудования и VM.
+      ro: |-
+        Detectare avansată a partițiilor și subvolumelor BTRFS în CHROOT. Suport complet pentru montarea /home ca partiție sau subvolum BTRFS. Detectare universală a discurilor pentru orice hardware și VM.
+  - version: 1.1.1
+    date: '2025-07-18'
+    type: stable
+    description:
+      C: Language detection and startup robustness improvements. Welcome tab URLs
+        updated to soplos.org. Minor translation fixes.
+      es: |-
+        Mejoras en la detección de idioma y robustez al inicio. URLs de la pestaña de bienvenida actualizadas a soplos.org. Correcciones menores de traducción.
+      fr: |-
+        Améliorations de la détection de langue et de la robustesse au démarrage. URLs de l'onglet d'accueil mises à jour vers soplos.org. Corrections mineures de traduction.
+      pt: |-
+        Melhorias na deteção de idioma e robustez no arranque. URLs do separador de boas-vindas atualizadas para soplos.org. Pequenas correções de tradução.
+      de: |-
+        Verbesserungen bei der Spracherkennung und Startrobustheit. Willkommens-Tab-URLs auf soplos.org aktualisiert. Kleinere Übersetzungskorrekturen.
+      it: |-
+        Miglioramenti al rilevamento della lingua e alla robustezza all'avvio. URL della scheda di benvenuto aggiornati a soplos.org. Correzioni minori alle traduzioni.
+      ru: |-
+        Улучшения обнаружения языка и надёжности запуска. Ссылки вкладки приветствия обновлены на soplos.org. Незначительные исправления переводов.
+      ro: |-
+        Îmbunătățiri la detectarea limbii și robustețea la pornire. URL-urile filei de bun venit actualizate la soplos.org. Corecții minore de traducere.
+  - version: 1.1.0
+    date: '2025-07-18'
+    type: stable
+    description:
+      C: |-
+        Complete i18n refactor: translation dictionaries split into 8 separate language files. Metainfo finalized to AppStream/DEP-11 standard. Fixed all known BTRFS subvolume mounting issues in CHROOT.
+      es: |-
+        Refactorización completa de i18n: diccionarios de traducción divididos en 8 archivos de idioma separados. Metainfo finalizado al estándar AppStream/DEP-11. Corregidos todos los problemas conocidos de montaje de subvolúmenes BTRFS en CHROOT.
+      fr: |-
+        Refactorisation complète de l'i18n : dictionnaires de traduction divisés en 8 fichiers de langue distincts. Métainfo finalisé selon la norme AppStream/DEP-11. Tous les problèmes connus de montage des sous-volumes BTRFS dans CHROOT corrigés.
+      pt: |-
+        Refatoração completa do i18n: dicionários de tradução divididos em 8 ficheiros de idioma separados. Metainfo finalizado segundo o padrão AppStream/DEP-11. Corrigidos todos os problemas conhecidos de montagem de subvolumes BTRFS em CHROOT.
+      de: |-
+        Vollständige i18n-Überarbeitung: Übersetzungswörterbücher in 8 separate Sprachdateien aufgeteilt. Metainfo nach AppStream/DEP-11-Standard finalisiert. Alle bekannten BTRFS-Subvolume-Einbindungsprobleme in CHROOT behoben.
+      it: |-
+        Refactoring completo dell'i18n: dizionari di traduzione suddivisi in 8 file di lingua separati. Metainfo finalizzato secondo lo standard AppStream/DEP-11. Corretti tutti i problemi noti di montaggio dei subvolumi BTRFS in CHROOT.
+      ru: |-
+        Полный рефакторинг i18n: словари переводов разделены на 8 отдельных файлов. Метаинформация приведена в соответствие со стандартом AppStream/DEP-11. Исправлены все известные проблемы монтирования подтомов BTRFS в CHROOT.
+      ro: |-
+        Refactorizare completă i18n: dicționarele de traducere împărțite în 8 fișiere de limbă separate. Metainfo finalizat conform standardului AppStream/DEP-11. Toate problemele cunoscute de montare a subvolumelor BTRFS în CHROOT rezolvate.
+  - version: 1.0.9
+    date: '2025-07-15'
+    type: stable
+    description:
+      C: Program icon updated to new design. Metainfo corrections for proper appearance
+        in software centers.
+      es: |-
+        Icono del programa actualizado al nuevo diseño. Correcciones de metainfo para correcta visualización en centros de software.
+      fr: |-
+        Icône du programme mise à jour avec le nouveau design. Corrections des métadonnées pour un affichage correct dans les centres de logiciels.
+      pt: |-
+        Ícone do programa atualizado para o novo design. Correções de metainfo para correta visualização nos centros de software.
+      de: Programmsymbol auf neues Design aktualisiert. Metainfo-Korrekturen für korrekte
+        Darstellung in Software-Centern.
+      it: |-
+        Icona del programma aggiornata al nuovo design. Correzioni al metainfo per la corretta visualizzazione nei centri software.
+      ru: |-
+        Иконка программы обновлена до нового дизайна. Исправления метаинформации для корректного отображения в центрах приложений.
+      ro: Pictograma programului actualizată la noul design. Corecții metainfo pentru
+        afișare corectă în centrele de software.
+  - version: 1.0.8
+    date: '2025-05-08'
+    type: stable
+    description:
+      C: |-
+        Advanced partition and BTRFS subvolume detection in CHROOT. Full /home mounting support. GParted integration and robust filesystem validation.
+      es: |-
+        Detección avanzada de particiones y subvolúmenes BTRFS en CHROOT. Soporte completo de montaje de /home. Integración con GParted y validación robusta del sistema de archivos.
+      fr: |-
+        Détection avancée des partitions et sous-volumes BTRFS dans CHROOT. Prise en charge complète du montage de /home. Intégration de GParted et validation robuste du système de fichiers.
+      pt: |-
+        Deteção avançada de partições e subvolumes BTRFS em CHROOT. Suporte completo de montagem de /home. Integração com GParted e validação robusta do sistema de ficheiros.
+      de: |-
+        Erweiterte Partitions- und BTRFS-Subvolume-Erkennung in CHROOT. Vollständige /home-Einbindungsunterstützung. GParted-Integration und robuste Dateisystemvalidierung.
+      it: |-
+        Rilevamento avanzato di partizioni e subvolumi BTRFS in CHROOT. Supporto completo al montaggio di /home. Integrazione con GParted e robusta validazione del filesystem.
+      ru: |-
+        Расширенное обнаружение разделов и подтомов BTRFS в CHROOT. Полная поддержка монтирования /home. Интеграция GParted и надёжная проверка файловых систем.
+      ro: |-
+        Detectare avansată a partițiilor și subvolumelor BTRFS în CHROOT. Suport complet pentru montarea /home. Integrare GParted și validare robustă a sistemului de fișiere.
+  - version: 1.0.7
+    date: '2025-05-08'
+    type: stable
+    description:
+      C: |-
+        Full BTRFS subvolume support in CHROOT recovery. Dictionary string corrections across all languages. NumLockX removed (not applicable to KDE Plasma).
+      es: |-
+        Soporte completo de subvolúmenes BTRFS en la recuperación CHROOT. Correcciones de cadenas en los diccionarios de todos los idiomas. NumLockX eliminado (no aplica en KDE Plasma).
+      fr: |-
+        Prise en charge complète des sous-volumes BTRFS dans la récupération CHROOT. Corrections de chaînes dans les dictionnaires de toutes les langues. NumLockX supprimé (non applicable à KDE Plasma).
+      pt: |-
+        Suporte completo a subvolumes BTRFS na recuperação CHROOT. Correções de strings nos dicionários de todos os idiomas. NumLockX removido (não aplicável ao KDE Plasma).
+      de: |-
+        Vollständige BTRFS-Subvolume-Unterstützung in der CHROOT-Wiederherstellung. Wörterbuch-String-Korrekturen in allen Sprachen. NumLockX entfernt (nicht auf KDE Plasma anwendbar).
+      it: |-
+        Supporto completo ai subvolumi BTRFS nel recupero CHROOT. Correzioni di stringhe nei dizionari di tutte le lingue. NumLockX rimosso (non applicabile a KDE Plasma).
+      ru: |-
+        Полная поддержка подтомов BTRFS в восстановлении CHROOT. Исправления строк в словарях всех языков. NumLockX удалён (не применимо в KDE Plasma).
+      ro: |-
+        Suport complet pentru subvolumele BTRFS în recuperarea CHROOT. Corecții de șiruri în dicționarele tuturor limbilor. NumLockX eliminat (nu se aplică la KDE Plasma).
+  - version: 1.0.6
+    date: '2025-05-08'
+    type: stable
+    description:
+      C: 'Metainfo updated for AppStream/DEP-11 compliance. AppStream integration:
+        application now visible in KDE Discover.'
+      es: |-
+        Metainfo actualizado para cumplir con AppStream/DEP-11. Integración AppStream: la aplicación ahora es visible en KDE Discover.
+      fr: |-
+        Métadonnées mises à jour pour la conformité AppStream/DEP-11. Intégration AppStream : l'application est maintenant visible dans KDE Discover.
+      pt: |-
+        Metainfo atualizado para conformidade com AppStream/DEP-11. Integração AppStream: a aplicação agora é visível no KDE Discover.
+      de: 'Metainfo für AppStream/DEP-11-Konformität aktualisiert. AppStream-Integration:
+        Anwendung jetzt in KDE Discover sichtbar.'
+      it: |-
+        Metainfo aggiornato per la conformità AppStream/DEP-11. Integrazione AppStream: l'applicazione è ora visibile in KDE Discover.
+      ru: |-
+        Метаинформация обновлена для соответствия AppStream/DEP-11. Интеграция AppStream: приложение теперь отображается в KDE Discover.
+      ro: |-
+        Metainfo actualizat pentru conformitatea AppStream/DEP-11. Integrare AppStream: aplicația este acum vizibilă în KDE Discover.
+  - version: 1.0.5
+    date: '2025-05-07'
+    type: stable
+    description:
+      C: |-
+        Full BTRFS subvolume support in CHROOT recovery. Complete i18n in 8 languages with keyboard mnemonics. Program internationalization completed.
+      es: |-
+        Soporte completo de subvolúmenes BTRFS en la recuperación CHROOT. i18n completo en 8 idiomas con mnemónicos de teclado. Internacionalización del programa completada.
+      fr: |-
+        Prise en charge complète des sous-volumes BTRFS dans la récupération CHROOT. i18n complet en 8 langues avec mnémoniques clavier. Internationalisation du programme complétée.
+      pt: |-
+        Suporte completo a subvolumes BTRFS na recuperação CHROOT. i18n completo em 8 idiomas com mnemónicos de teclado. Internacionalização do programa concluída.
+      de: |-
+        Vollständige BTRFS-Subvolume-Unterstützung in der CHROOT-Wiederherstellung. Vollständige i18n in 8 Sprachen mit Tastaturmnemoniken. Programmübersetzung abgeschlossen.
+      it: |-
+        Supporto completo ai subvolumi BTRFS nel recupero CHROOT. i18n completo in 8 lingue con mnemonici da tastiera. Internazionalizzazione del programma completata.
+      ru: |-
+        Полная поддержка подтомов BTRFS в восстановлении CHROOT. Полная локализация на 8 языков с клавиатурными мнемониками. Интернационализация программы завершена.
+      ro: |-
+        Suport complet pentru subvolumele BTRFS în recuperarea CHROOT. i18n complet în 8 limbi cu mnemonice de tastatură. Internaționalizarea programului finalizată.
+  - version: 1.0.4
+    date: '2025-05-07'
+    type: stable
+    description:
+      C: |-
+        Intelligent partition detection in CHROOT. NumLock management integration. Automatic XDG folder migration on language change. GParted integration. Complete i18n in 8 languages.
+      es: |-
+        Detección inteligente de particiones en CHROOT. Integración de gestión de NumLock. Migración automática de carpetas XDG al cambiar de idioma. Integración con GParted. i18n completo en 8 idiomas.
+      fr: |-
+        Détection intelligente des partitions dans CHROOT. Intégration de la gestion de NumLock. Migration automatique des dossiers XDG lors du changement de langue. Intégration de GParted. i18n complet en 8 langues.
+      pt: |-
+        Deteção inteligente de partições em CHROOT. Integração da gestão de NumLock. Migração automática de pastas XDG ao mudar de idioma. Integração com GParted. i18n completo em 8 idiomas.
+      de: |-
+        Intelligente Partitionserkennung in CHROOT. Integration der NumLock-Verwaltung. Automatische XDG-Ordnermigration beim Sprachwechsel. GParted-Integration. Vollständige i18n in 8 Sprachen.
+      it: |-
+        Rilevamento intelligente delle partizioni in CHROOT. Integrazione della gestione NumLock. Migrazione automatica delle cartelle XDG al cambio di lingua. Integrazione con GParted. i18n completo in 8 lingue.
+      ru: |-
+        Интеллектуальное обнаружение разделов в CHROOT. Интеграция управления NumLock. Автоматическая миграция папок XDG при смене языка. Интеграция GParted. Полная локализация на 8 языков.
+      ro: |-
+        Detectare inteligentă a partițiilor în CHROOT. Integrarea gestionării NumLock. Migrare automată a folderelor XDG la schimbarea limbii. Integrare GParted. i18n complet în 8 limbi.
+  - version: 1.0.3
+    date: '2025-05-06'
+    type: stable
+    description:
+      C: Locale configuration fixes and interface optimizations.
+      es: Correcciones en la configuración de localización y optimizaciones de interfaz.
+      fr: Corrections de la configuration des paramètres régionaux et optimisations
+        de l'interface.
+      pt: Correções na configuração de locale e otimizações de interface.
+      de: Korrekturen der Locale-Konfiguration und Interface-Optimierungen.
+      it: Correzioni alla configurazione della lingua e ottimizzazioni dell'interfaccia.
+      ru: Исправления конфигурации локали и оптимизации интерфейса.
+      ro: Corecții la configurarea localizării și optimizări de interfață.
+  - version: 1.0.2
+    date: '2025-05-05'
+    type: stable
+    description:
+      C: CHROOT operation fixes and general stability improvements. Hardware detection
+        improvements.
+      es: Correcciones en las operaciones CHROOT y mejoras generales de estabilidad.
+        Mejoras en la detección de hardware.
+      fr: Corrections des opérations CHROOT et améliorations générales de la stabilité.
+        Améliorations de la détection matérielle.
+      pt: Correções nas operações CHROOT e melhorias gerais de estabilidade. Melhorias
+        na deteção de hardware.
+      de: Korrekturen bei CHROOT-Operationen und allgemeine Stabilitätsverbesserungen.
+        Verbesserungen bei der Hardware-Erkennung.
+      it: Correzioni alle operazioni CHROOT e miglioramenti generali della stabilità.
+        Miglioramenti al rilevamento hardware.
+      ru: Исправления операций CHROOT и общие улучшения стабильности. Улучшения обнаружения
+        оборудования.
+      ro: Corecții la operațiunile CHROOT și îmbunătățiri generale ale stabilității.
+        Îmbunătățiri la detectarea hardware.
+  - version: 1.0.1
+    date: '2025-05-16'
+    type: stable
+    description:
+      C: User interface improvements and configuration optimizations.
+      es: Mejoras en la interfaz de usuario y optimizaciones de configuración.
+      fr: Améliorations de l'interface utilisateur et optimisations de configuration.
+      pt: Melhorias na interface do utilizador e otimizações de configuração.
+      de: Verbesserungen der Benutzeroberfläche und Konfigurationsoptimierungen.
+      it: Miglioramenti all'interfaccia utente e ottimizzazioni della configurazione.
+      ru: Улучшения пользовательского интерфейса и оптимизации конфигурации.
+      ro: Îmbunătățiri ale interfeței utilizator și optimizări de configurare.
+  - version: 1.0.0
+    date: '2025-05-09'
+    type: stable
+    description:
+      C: |-
+        Initial release with basic welcome interface for Soplos Linux Live, CHROOT functionality for system recovery, and initial multi-language support.
+      es: |-
+        Versión inicial con interfaz de bienvenida básica para Soplos Linux Live, funcionalidad CHROOT para recuperación del sistema y soporte inicial multiidioma.
+      fr: |-
+        Version initiale avec interface d'accueil de base pour Soplos Linux Live, fonctionnalité CHROOT pour la récupération système et support multilingue initial.
+      pt: |-
+        Versão inicial com interface de boas-vindas básica para Soplos Linux Live, funcionalidade CHROOT para recuperação do sistema e suporte multilingue inicial.
+      de: |-
+        Erstversion mit einfacher Willkommensoberfläche für Soplos Linux Live, CHROOT-Funktionalität für die Systemwiederherstellung und grundlegender Mehrsprachenunterstützung.
+      it: |-
+        Versione iniziale con interfaccia di benvenuto di base per Soplos Linux Live, funzionalità CHROOT per il recupero del sistema e supporto multilingue iniziale.
+      ru: |-
+        Первый выпуск с базовым приветственным интерфейсом для Soplos Linux Live, функциональностью CHROOT для восстановления системы и начальной поддержкой нескольких языков.
+      ro: |-
+        Versiunea inițială cu interfața de bun venit de bază pentru Soplos Linux Live, funcționalitate CHROOT pentru recuperarea sistemului și suport inițial multilingv.
 Component: main
 ---
 Type: desktop-application
@@ -1175,6 +1988,71 @@ Screenshots:
       width: 1920
       height: 1080
       type: image/png
+  - caption:
+      C: Properties dialog — edit name, version, description and update URL
+      es: Diálogo de propiedades — edita nombre, versión, descripción y URL de actualización
+      fr: Boîte de dialogue Propriétés — modifiez le nom, la version, la description
+        et l'URL de mise à jour
+      de: Eigenschaften-Dialog — Name, Version, Beschreibung und Update-URL bearbeiten
+      it: Finestra Proprietà — modifica nome, versione, descrizione e URL di aggiornamento
+      pt: Diálogo de Propriedades — edite nome, versão, descrição e URL de atualização
+      ru: Диалог свойств — редактирование имени, версии, описания и URL обновления
+      ro: Dialogul Proprietăți — editați numele, versiunea, descrierea și URL-ul de
+        actualizare
+    source-image:
+      url: soplos-appimage-manager/screenshots/screenshot5.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Checking for updates via GitHub, GitLab, Codeberg or direct URL
+      es: Buscando actualizaciones mediante GitHub, GitLab, Codeberg o URL directa
+      fr: Recherche de mises à jour via GitHub, GitLab, Codeberg ou URL directe
+      de: Nach Updates suchen über GitHub, GitLab, Codeberg oder direkte URL
+      it: Ricerca aggiornamenti tramite GitHub, GitLab, Codeberg o URL diretto
+      pt: A verificar atualizações via GitHub, GitLab, Codeberg ou URL direta
+      ru: Проверка обновлений через GitHub, GitLab, Codeberg или прямой URL
+      ro: Verificarea actualizărilor prin GitHub, GitLab, Codeberg sau URL direct
+    source-image:
+      url: soplos-appimage-manager/screenshots/screenshot6.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Check All Updates — inspect and update all AppImages at once
+      es: Comprobar todas las actualizaciones — revisa y actualiza todos los AppImages
+        a la vez
+      fr: Vérifier toutes les mises à jour — inspectez et mettez à jour tous les AppImages
+        en une fois
+      de: Alle Updates prüfen — alle AppImages auf einmal prüfen und aktualisieren
+      it: Controlla tutti gli aggiornamenti — verifica e aggiorna tutti gli AppImages
+        in una volta
+      pt: Verificar todas as atualizações — inspecione e atualize todos os AppImages
+        de uma vez
+      ru: Проверить все обновления — проверка и обновление всех AppImages сразу
+      ro: Verificare toate actualizările — inspectați și actualizați toate AppImages
+        dintr-o dată
+    source-image:
+      url: soplos-appimage-manager/screenshots/screenshot7.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Update available — download and install the new version in one click
+      es: Actualización disponible — descarga e instala la nueva versión con un clic
+      fr: Mise à jour disponible — téléchargez et installez la nouvelle version en
+        un clic
+      de: Update verfügbar — neue Version mit einem Klick herunterladen und installieren
+      it: Aggiornamento disponibile — scarica e installa la nuova versione in un clic
+      pt: Atualização disponível — transfira e instale a nova versão com um clique
+      ru: Доступно обновление — загрузите и установите новую версию одним кликом
+      ro: Actualizare disponibilă — descărcați și instalați noua versiune cu un singur
+        clic
+    source-image:
+      url: soplos-appimage-manager/screenshots/screenshot8.png
+      width: 1920
+      height: 1080
+      type: image/png
 Launchable:
   desktop-id:
     - org.soplos.appimagemanager.desktop
@@ -1184,6 +2062,26 @@ Url:
 Provides:
   - soplos-appimage-manager
 Releases:
+  - version: 1.0.1
+    date: '2026-03-30'
+    type: stable
+    description:
+      C: |-
+        Added Properties dialog to view and edit each AppImage's name, version, description, categories and update URL. New Run as root toggle in Properties launches any AppImage with pkexec, showing a PolicyKit authentication dialog on launch. Automatic update checking via GitHub, GitLab and Codeberg release APIs, direct URL comparison, or embedded appimageupdatetool info. New Check All Updates button in the header bar replaces Refresh and lets you inspect and update all AppImages at once. Improved icon extraction and full translation coverage across all 8 languages. The application now seamlessly respects the system's light or dark GTK theme preference.
+      es: |-
+        Añadido diálogo de Propiedades para ver y editar nombre, versión, descripción, categorías y URL de actualización de cada AppImage. Nuevo interruptor Ejecutar como root en Propiedades lanza cualquier AppImage con pkexec mostrando un diálogo de autenticación de PolicyKit al iniciarlo. Comprobación automática de actualizaciones mediante las APIs de GitHub, GitLab y Codeberg, comparación de URL directa o información de appimageupdatetool integrada. Nuevo botón Comprobar todas las actualizaciones en la barra de cabecera que sustituye a Actualizar y permite revisar y actualizar todos los AppImages a la vez. Mejora en la extracción de iconos y cobertura de traducción completa en los 8 idiomas. La aplicación ahora respeta perfectamente la preferencia de tema GTK claro u oscuro del sistema.
+      fr: |-
+        Ajout de la boîte de dialogue Propriétés pour afficher et modifier le nom, la version, la description, les catégories et l'URL de mise à jour de chaque AppImage. Nouveau bouton Exécuter en tant que root dans Propriétés pour lancer n'importe quel AppImage avec pkexec, affichant une boîte de dialogue d'authentification PolicyKit au lancement. Vérification automatique des mises à jour via les API GitHub, GitLab et Codeberg, comparaison d'URL directe ou informations appimageupdatetool intégrées. Nouveau bouton Vérifier toutes les mises à jour dans la barre d'en-tête, remplaçant Actualiser, pour inspecter et mettre à jour tous les AppImages en une fois. Extraction d'icônes améliorée et couverture de traduction complète dans les 8 langues. L'application respecte désormais parfaitement la préférence de thème GTK clair ou sombre du système.
+      de: |-
+        Eigenschaften-Dialog hinzugefügt, um Name, Version, Beschreibung, Kategorien und Update-URL jedes AppImage anzuzeigen und zu bearbeiten. Neue Umschaltoption Als Root ausführen in den Eigenschaften startet jeden AppImage mit pkexec und zeigt beim Start einen PolicyKit-Authentifizierungsdialog an. Automatische Update-Prüfung über GitHub-, GitLab- und Codeberg-Release-APIs, direkte URL-Vergleich oder eingebettete appimageupdatetool-Informationen. Neue Schaltfläche Alle Updates prüfen in der Kopfleiste ersetzt Aktualisieren und ermöglicht die Prüfung und Aktualisierung aller AppImages auf einmal. Verbesserte Icon-Extraktion und vollständige Übersetzungsabdeckung in allen 8 Sprachen. Die Anwendung respektiert nun nahtlos die Einstellung für das helle oder dunkle GTK-Design des Systems.
+      it: |-
+        Aggiunta la finestra Proprietà per visualizzare e modificare nome, versione, descrizione, categorie e URL di aggiornamento di ogni AppImage. Nuovo interruttore Esegui come root in Proprietà per avviare qualsiasi AppImage con pkexec, mostrando una finestra di autenticazione PolicyKit all'avvio. Verifica automatica degli aggiornamenti tramite le API di GitHub, GitLab e Codeberg, confronto URL diretto o informazioni appimageupdatetool integrate. Nuovo pulsante Controlla tutti gli aggiornamenti nella barra dell'intestazione che sostituisce Aggiorna e consente di ispezionare e aggiornare tutti gli AppImages in una volta. Estrazione icone migliorata e copertura di traduzione completa in tutte e 8 le lingue. L'applicazione rispetta ora perfettamente la preferenza per il tema GTK chiaro o scuro del sistema.
+      pt: |-
+        Adicionado diálogo de Propriedades para ver e editar o nome, versão, descrição, categorias e URL de atualização de cada AppImage. Novo interruptor Executar como root em Propriedades para lançar qualquer AppImage com pkexec, mostrando um diálogo de autenticação PolicyKit ao iniciar. Verificação automática de atualizações através das APIs do GitHub, GitLab e Codeberg, comparação de URL direta ou informações appimageupdatetool integradas. Novo botão Verificar todas as atualizações na barra de cabeçalho substitui Atualizar e permite inspecionar e atualizar todos os AppImages de uma vez. Extração de ícones melhorada e cobertura de tradução completa em todos os 8 idiomas. A aplicação agora respeita perfeitamente a preferência do tema GTK claro ou escuro do sistema.
+      ru: |-
+        Добавлен диалог Свойства для просмотра и редактирования имени, версии, описания, категорий и URL обновления каждого AppImage. Новый переключатель Запустить от имени root в Свойствах запускает любой AppImage через pkexec, отображая диалог аутентификации PolicyKit при запуске. Автоматическая проверка обновлений через API GitHub, GitLab и Codeberg, сравнение прямых URL или встроенную информацию appimageupdatetool. Новая кнопка Проверить все обновления в заголовке заменяет Обновить и позволяет проверять и обновлять все AppImages сразу. Улучшено извлечение иконок и обеспечено полное покрытие перевода на все 8 языков. Теперь приложение полностью учитывает системные настройки светлой или темной темы GTK.
+      ro: |-
+        Adăugat dialogul Proprietăți pentru a vizualiza și edita numele, versiunea, descrierea, categoriile și URL-ul de actualizare al fiecărui AppImage. Noul comutator Rulează ca root din Proprietăți lansează orice AppImage cu pkexec, afișând un dialog de autentificare PolicyKit la pornire. Verificare automată a actualizărilor prin API-urile GitHub, GitLab și Codeberg, compararea URL-urilor directe sau informații appimageupdatetool integrate. Noul buton Verificare toate actualizările din bara de antet înlocuiește Reîmprospătare și permite inspectarea și actualizarea tuturor AppImages dintr-o dată. Extracție îmbunătățită a pictogramelor și acoperire completă a traducerilor în toate cele 8 limbi. Aplicația respectă acum perfect preferința de temă GTK deschisă sau închisă a sistemului.
   - version: 1.0.0-1
     date: '2026-03-22'
     type: stable
@@ -1398,6 +2296,26 @@ Developer:
 Provides:
   - soplos-plymouth-manager
 Releases:
+  - version: 2.0.0-3
+    date: '2026-04-30'
+    type: stable
+    description:
+      en: Simplified the footer UI text to match the modern Soplos standard layout.
+      es: Se ha simplificado el texto de la barra de estado para coincidir con el
+        diseño estándar de Soplos.
+      fr: Le texte de la barre d'état a été simplifié pour correspondre à la disposition
+        standard moderne de Soplos.
+      pt: O texto da barra de status foi simplificado para corresponder ao layout
+        padrão moderno do Soplos.
+      de: Der Text der Statusleiste wurde vereinfacht, um dem modernen Soplos-Standardlayout
+        zu entsprechen.
+      it: Il testo della barra di stato è stato semplificato per corrispondere al
+        layout standard moderno di Soplos.
+      ru: Текст строки состояния был упрощен, чтобы соответствовать современному стандартному
+        макету Soplos.
+      ro: Textul barei de stare a fost simplificat pentru a se potrivi cu aspectul
+        standard modern Soplos.
+      C: Simplified the footer UI text to match the modern Soplos standard layout.
   - version: 2.0.0-2
     date: '2026-03-20'
     type: stable
@@ -1621,114 +2539,200 @@ Icon:
 Screenshots:
   - default: true
     caption:
-      C: Welcome screen and system analyzer
-      es: Pantalla inicial y analizador del sistema
-      fr: Écran de bienvenue et analyseur système
-      de: Willkommensbildschirm und Systemanalysator
-      pt: Ecrã de boas-vindas e analisador de sistema
-      it: Schermata di benvenuto e analizzatore di sistema
-      ro: Ecran de bun venit și analizor de sistem
-      ru: Экран приветствия и анализатор системы
+      C: User mode overview with system summary
+      es: Resumen en modo usuario con datos del sistema
+      fr: Vue d'ensemble en mode utilisateur avec résumé système
+      de: Benutzermodusübersicht mit Systemzusammenfassung
+      pt: Visão geral em modo utilizador com resumo do sistema
+      it: Panoramica in modalità utente con riepilogo del sistema
+      ro: Prezentare generală în modul utilizator cu rezumatul sistemului
+      ru: Обзор в режиме пользователя с сводкой системы
     source-image:
-      url: soplos-sys-cleaner/screenshots/screenshot1.png
+      url: soplos-sys-cleaner/screenshots/screenshot01.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Scan results summary
-      es: Resumen de resultados del escaneo
-      fr: Résumé des résultats d'analyse
-      de: Zusammenfassung der Scan-Ergebnisse
-      pt: Resumo dos resultados da verificação
-      it: Riepilogo dei risultati della scansione
-      ro: Rezumatul rezultatelor scanării
-      ru: Сводка результатов сканирования
+      C: Installed apps manager with search and selective uninstall
+      es: Gestor de apps instaladas con búsqueda y desinstalación selectiva
+      fr: Gestionnaire d'applications installées avec recherche et désinstallation
+        sélective
+      de: Manager für installierte Apps mit Suche und selektiver Deinstallation
+      pt: Gestor de apps instaladas com pesquisa e desinstalação seletiva
+      it: Gestore app installate con ricerca e disinstallazione selettiva
+      ro: Manager aplicații instalate cu căutare și dezinstalare selectivă
+      ru: Менеджер установленных приложений с поиском и выборочным удалением
     source-image:
-      url: soplos-sys-cleaner/screenshots/screenshot2.png
+      url: soplos-sys-cleaner/screenshots/screenshot02.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Unnecessary GPU drivers selection
-      es: Selección de drivers de GPU innecesarios
-      fr: Sélection des pilotes GPU inutiles
-      de: Auswahl unnötiger GPU-Treiber
-      pt: Seleção de drivers de GPU desnecessários
-      it: Selezione dei driver GPU non necessari
-      ro: Selecția driverelor GPU inutile
-      ru: Выбор ненужных драйверов GPU
+      C: Flatpak unused runtimes cleanup
+      es: Limpieza de runtimes de Flatpak no usados
+      fr: Nettoyage des runtimes Flatpak inutilisés
+      de: Bereinigung ungenutzter Flatpak-Laufzeitumgebungen
+      pt: Limpeza de runtimes Flatpak não utilizados
+      it: Pulizia dei runtime Flatpak inutilizzati
+      ro: Curățarea runtime-urilor Flatpak neutilizate
+      ru: Очистка неиспользуемых сред выполнения Flatpak
     source-image:
-      url: soplos-sys-cleaner/screenshots/screenshot3.png
+      url: soplos-sys-cleaner/screenshots/screenshot03.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Removable firmware families
-      es: Familias de firmware extraíbles
-      fr: Familles de micrologiciels amovibles
-      de: Entfernbare Firmware-Familien
-      pt: Famílias de firmware removíveis
-      it: Famiglie di firmware rimovibili
-      ro: Familii de firmware detașabile
-      ru: Съёмные семейства микропрограмм
+      C: Snap old revisions removal
+      es: Eliminación de revisiones antiguas de Snap
+      fr: Suppression des anciennes révisions Snap
+      de: Entfernung alter Snap-Revisionen
+      pt: Remoção de revisões antigas de Snap
+      it: Rimozione delle revisioni vecchie di Snap
+      ro: Eliminarea reviziilor vechi Snap
+      ru: Удаление старых ревизий Snap
     source-image:
-      url: soplos-sys-cleaner/screenshots/screenshot4.png
+      url: soplos-sys-cleaner/screenshots/screenshot04.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Installed kernels management
-      es: Gestión de kernels instalados
-      fr: Gestion des noyaux installés
-      de: Verwaltung installierter Kernel
-      pt: Gestão de kernels instalados
-      it: Gestione dei kernel installati
-      ro: Gestionarea nucleelor instalate
-      ru: Управление установленными ядрами
+      C: User cache cleanup by application folder
+      es: Limpieza de caché de usuario por carpeta de aplicación
+      fr: Nettoyage du cache utilisateur par dossier d'application
+      de: Benutzer-Cache-Bereinigung nach Anwendungsordner
+      pt: Limpeza da cache do utilizador por pasta de aplicação
+      it: Pulizia della cache utente per cartella applicazione
+      ro: Curățarea cache-ului utilizatorului pe folder de aplicație
+      ru: Очистка кэша пользователя по папкам приложений
     source-image:
-      url: soplos-sys-cleaner/screenshots/screenshot5.png
+      url: soplos-sys-cleaner/screenshots/screenshot05.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Languages and documentation cleanup
-      es: Limpieza de idiomas y documentación
-      fr: Nettoyage des langues et de la documentation
-      de: Bereinigung von Sprachen und Dokumentation
-      pt: Limpeza de idiomas e documentação
-      it: Pulizia di lingue e documentazione
-      ro: Curățarea limbilor și documentației
-      ru: Очистка языков и документации
+      C: User trash management
+      es: Gestión de la papelera del usuario
+      fr: Gestion de la corbeille utilisateur
+      de: Verwaltung des Benutzer-Papierkorbs
+      pt: Gestão da reciclagem do utilizador
+      it: Gestione del cestino utente
+      ro: Gestionarea coșului de gunoi al utilizatorului
+      ru: Управление корзиной пользователя
     source-image:
-      url: soplos-sys-cleaner/screenshots/screenshot6.png
+      url: soplos-sys-cleaner/screenshots/screenshot06.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: APT cache and orphaned packages cleanup
-      es: Limpieza de caché de APT y paquetes huérfanos
-      fr: Nettoyage du cache APT et des paquets orphelins
-      de: Bereinigung von APT-Cache und verwaisten Paketen
-      pt: Limpeza de cache APT e pacotes órfãos
-      it: Pulizia della cache APT e dei pacchetti orfani
-      ro: Curățarea memoriei cache APT și a pachetelor orfane
-      ru: Очистка кэша APT и потерянных пакетов
+      C: Administrator mode overview with full scan results
+      es: Resumen en modo administrador con resultados completos del escaneo
+      fr: Vue d'ensemble en mode administrateur avec résultats complets
+      de: Administratormodusübersicht mit vollständigen Scan-Ergebnissen
+      pt: Visão geral em modo administrador com resultados completos
+      it: Panoramica in modalità amministratore con risultati completi
+      ro: Prezentare generală în modul administrator cu rezultate complete
+      ru: Обзор в режиме администратора с полными результатами сканирования
     source-image:
-      url: soplos-sys-cleaner/screenshots/screenshot7.png
+      url: soplos-sys-cleaner/screenshots/screenshot07.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Temporary files cleanup planner
-      es: Limpieza de archivos temporales
-      fr: Planificateur de nettoyage des fichiers temporaires
-      de: Planer für die Bereinigung temporärer Dateien
-      pt: Planeador de limpeza de ficheiros temporários
-      it: Pianificatore per la pulizia dei file temporanei
-      ro: Planificator pentru curățarea fișierelor temporare
-      ru: Планировщик очистки временных файлов
+      C: GPU drivers cleanup with hardware protection
+      es: Limpieza de drivers GPU con protección de hardware
+      fr: Nettoyage des pilotes GPU avec protection matérielle
+      de: GPU-Treiber-Bereinigung mit Hardwareschutz
+      pt: Limpeza de drivers GPU com proteção de hardware
+      it: Pulizia dei driver GPU con protezione hardware
+      ro: Curățarea driverelor GPU cu protecție hardware
+      ru: Очистка драйверов GPU с защитой оборудования
     source-image:
-      url: soplos-sys-cleaner/screenshots/screenshot8.png
+      url: soplos-sys-cleaner/screenshots/screenshot08.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Removable firmware families with disk usage
+      es: Familias de firmware extraíbles con uso de disco
+      fr: Familles de micrologiciels amovibles avec utilisation du disque
+      de: Entfernbare Firmware-Familien mit Festplattennutzung
+      pt: Famílias de firmware removíveis com uso de disco
+      it: Famiglie di firmware rimovibili con utilizzo del disco
+      ro: Familii de firmware detașabile cu utilizarea discului
+      ru: Съёмные семейства прошивок с использованием диска
+    source-image:
+      url: soplos-sys-cleaner/screenshots/screenshot09.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Installed kernels management and removal
+      es: Gestión y eliminación de kernels instalados
+      fr: Gestion et suppression des noyaux installés
+      de: Verwaltung und Entfernung installierter Kernel
+      pt: Gestão e remoção de kernels instalados
+      it: Gestione e rimozione dei kernel installati
+      ro: Gestionarea și eliminarea nucleelor instalate
+      ru: Управление и удаление установленных ядер
+    source-image:
+      url: soplos-sys-cleaner/screenshots/screenshot10.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Languages and documentation cleanup with locale protection
+      es: Limpieza de idiomas y documentación con protección de locale
+      fr: Nettoyage des langues et de la documentation avec protection des paramètres
+        régionaux
+      de: Bereinigung von Sprachen und Dokumentation mit Locale-Schutz
+      pt: Limpeza de idiomas e documentação com proteção de locale
+      it: Pulizia di lingue e documentazione con protezione delle impostazioni locali
+      ro: Curățarea limbilor și documentației cu protecția setărilor locale
+      ru: Очистка языков и документации с защитой локали
+    source-image:
+      url: soplos-sys-cleaner/screenshots/screenshot11.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: APT cache selective .deb file removal
+      es: Eliminación selectiva de archivos .deb de la caché APT
+      fr: Suppression sélective de fichiers .deb du cache APT
+      de: Selektive Entfernung von .deb-Dateien aus dem APT-Cache
+      pt: Remoção seletiva de ficheiros .deb da cache APT
+      it: Rimozione selettiva di file .deb dalla cache APT
+      ro: Eliminarea selectivă a fișierelor .deb din memoria cache APT
+      ru: Выборочное удаление файлов .deb из кэша APT
+    source-image:
+      url: soplos-sys-cleaner/screenshots/screenshot12.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Temporary files scanner and cleanup
+      es: Escáner y limpieza de archivos temporales
+      fr: Analyseur et nettoyage des fichiers temporaires
+      de: Scanner und Bereinigung temporärer Dateien
+      pt: Scanner e limpeza de ficheiros temporários
+      it: Scanner e pulizia dei file temporanei
+      ro: Scanner și curățarea fișierelor temporare
+      ru: Сканер и очистка временных файлов
+    source-image:
+      url: soplos-sys-cleaner/screenshots/screenshot13.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: System logs viewer and cleanup
+      es: Visor y limpieza de registros del sistema
+      fr: Visionneuse et nettoyage des journaux système
+      de: System-Log-Viewer und Bereinigung
+      pt: Visualizador e limpeza dos registos do sistema
+      it: Visualizzatore e pulizia dei log di sistema
+      ro: Vizualizator și curățarea jurnalelor de sistem
+      ru: Просмотрщик и очистка системных журналов
+    source-image:
+      url: soplos-sys-cleaner/screenshots/screenshot14.png
       width: 1920
       height: 1080
       type: image/png
@@ -1739,6 +2743,46 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-sys-cleaner/issues
 Releases:
+  - version: 1.0.2-1
+    date: '2026-04-17'
+    type: stable
+    description:
+      C: |-
+        Bug fix and improvement release: Snap tab redesigned with full uninstall support, improved VM guest detection for all hypervisors, kernel removal now properly regenerates initramfs and updates GRUB, and all apt-get commands replaced with apt.
+      es: |-
+        Versión de correcciones y mejoras: pestaña Snap rediseñada con desinstalación completa, detección mejorada de VM guest para todos los hipervisores, la eliminación de kernels regenera el initramfs y actualiza GRUB correctamente, y se reemplazó apt-get por apt.
+      fr: |-
+        Version de corrections et améliorations : onglet Snap repensé avec désinstallation complète, détection améliorée des VM invitées pour tous les hyperviseurs, la suppression de noyaux régénère maintenant l'initramfs et met à jour GRUB, et toutes les commandes apt-get remplacées par apt.
+      de: |-
+        Fehlerbehebungs- und Verbesserungsversion: Snap-Tab mit vollständiger Deinstallationsunterstützung neu gestaltet, verbesserte Gast-VM-Erkennung für alle Hypervisoren, Kernel-Entfernung generiert jetzt Initramfs neu und aktualisiert GRUB, und alle apt-get-Befehle durch apt ersetzt.
+      pt: |-
+        Versão de correções e melhorias: separador Snap redesenhado com suporte de desinstalação completa, deteção melhorada de VM convidada para todos os hipervisores, a remoção de kernels agora regenera o initramfs e atualiza o GRUB, e todos os comandos apt-get substituídos por apt.
+      it: |-
+        Versione di correzioni e miglioramenti: scheda Snap riprogettata con supporto per la disinstallazione completa, rilevamento migliorato della VM ospite per tutti gli hypervisor, la rimozione del kernel ora rigenera l'initramfs e aggiorna GRUB, e tutti i comandi apt-get sostituiti con apt.
+      ro: |-
+        Versiune de remedieri și îmbunătățiri: fila Snap reproiectată cu suport complet de dezinstalare, detectare îmbunătățită a VM-ului invitat pentru toți hipervizoarele, eliminarea kernelului regenerează acum initramfs și actualizează GRUB, și toate comenzile apt-get înlocuite cu apt.
+      ru: |-
+        Версия с исправлениями и улучшениями: вкладка Snap переработана с поддержкой полного удаления, улучшенное обнаружение гостевых ВМ для всех гипервизоров, удаление ядра теперь правильно перегенерирует initramfs и обновляет GRUB, все команды apt-get заменены на apt.
+  - version: 1.0.2
+    date: '2026-03-29'
+    type: stable
+    description:
+      C: |-
+        Major feature update: Installed Apps tab, Snap support, firmware sizes, selective APT cache cleanup, auto-scan on launch, GPU/KVM firmware protection and overview improvements.
+      es: |-
+        Actualización mayor: pestaña de Apps instaladas, soporte Snap, tamaños de firmware, limpieza selectiva de caché APT, escaneo automático al inicio, protección de firmware GPU/KVM y mejoras en el resumen.
+      fr: |-
+        Mise à jour majeure : onglet Applications installées, support Snap, tailles des firmwares, nettoyage sélectif du cache APT, analyse automatique au démarrage, protection des firmwares GPU/KVM et améliorations de l'aperçu.
+      de: |-
+        Großes Funktionsupdate: Tab für installierte Apps, Snap-Unterstützung, Firmware-Größen, selektive APT-Cache-Bereinigung, automatischer Scan beim Start, GPU/KVM-Firmware-Schutz und Übersichtsverbesserungen.
+      pt: |-
+        Atualização maior: separador de Apps instaladas, suporte a Snap, tamanhos de firmware, limpeza seletiva da cache APT, análise automática ao iniciar, proteção de firmware GPU/KVM e melhorias no resumo.
+      it: |-
+        Aggiornamento importante: scheda App installate, supporto Snap, dimensioni firmware, pulizia selettiva della cache APT, scansione automatica all'avvio, protezione firmware GPU/KVM e miglioramenti alla panoramica.
+      ro: |-
+        Actualizare majoră: filă Aplicații instalate, suport Snap, dimensiuni firmware, curățare selectivă a cache-ului APT, scanare automată la pornire, protecție firmware GPU/KVM și îmbunătățiri ale rezumatului.
+      ru: |-
+        Крупное обновление: вкладка установленных приложений, поддержка Snap, размеры прошивок, выборочная очистка кэша APT, автосканирование при запуске, защита прошивок GPU/KVM и улучшения обзора.
   - version: 1.0.1
     date: '2026-03-25'
     type: stable
@@ -2367,6 +3411,26 @@ Developer:
 Provides:
   - soplos-grub-editor
 Releases:
+  - version: 2.0.2-2
+    date: '2026-04-30'
+    type: stable
+    description:
+      C: Simplified the footer UI text to match the modern Soplos standard layout.
+      en: Simplified the footer UI text to match the modern Soplos standard layout.
+      es: Se ha simplificado el texto de la barra de estado para coincidir con el
+        diseño estándar de Soplos.
+      fr: Le texte de la barre d'état a été simplifié pour correspondre à la disposition
+        standard moderne de Soplos.
+      pt: O texto da barra de status foi simplificado para corresponder ao layout
+        padrão moderno do Soplos.
+      de: Der Text der Statusleiste wurde vereinfacht, um dem modernen Soplos-Standardlayout
+        zu entsprechen.
+      it: Il testo della barra di stato è stato semplificato per corrispondere al
+        layout standard moderno di Soplos.
+      ru: Текст строки состояния был упрощен, чтобы соответствовать современному стандартному
+        макету Soplos.
+      ro: Textul barei de stare a fost simplificat pentru a se potrivi cu aspectul
+        standard modern Soplos.
   - version: 2.0.2-1
     date: '2026-03-21'
     type: stable
@@ -2631,6 +3695,28 @@ Url:
 Provides:
   - soplos-webapp-manager
 Releases:
+  - version: 1.0.0-4
+    date: '2026-04-30'
+    type: stable
+    description:
+      C: |-
+        Simplified the footer UI text to match the modern Soplos standard layout. Added icon persistence and fixed theme support.
+      en: |-
+        Simplified the footer UI text to match the modern Soplos standard layout. Added icon persistence and fixed theme support.
+      es: |-
+        Se ha simplificado el texto de la barra de estado. Añadida persistencia de iconos y soporte corregido para el tema claro/oscuro del sistema.
+      fr: |-
+        Le texte de la barre d'état a été simplifié. Ajout de la persistance des icônes et correction de la prise en charge du thème clair/sombre du système.
+      pt: |-
+        O texto da barra de status foi simplificado. Adicionada persistência de ícones e suporte corrigido para o tema claro/escuro do sistema.
+      de: |-
+        Der Text der Statusleiste wurde vereinfacht. Symbolpersistenz hinzugefügt und Unterstützung für helles/dunkles Systemdesign korrigiert.
+      it: |-
+        Il testo della barra di stato è stato semplificato. Aggiunta la persistenza delle icone e corretto il supporto per il tema chiaro/scuro del sistema.
+      ru: Текст строки состояния был упрощен. Добавлено сохранение значков и исправлена
+        поддержка светлой/темной темы системы.
+      ro: |-
+        Textul barei de stare a fost simplificat. S-a adăugat persistența pictogramelor și s-a corectat suportul pentru tema deschisă/închisă a sistemului.
   - version: 1.0.0-3
     date: '2026-03-22'
     type: stable

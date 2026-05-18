@@ -103,26 +103,154 @@
     <keyword xml:lang="de">anpassen</keyword>
   </keywords>
 
+  <icon type="stock">org.soplos.welcome</icon>
+  <icon type="remote" width="128" height="128">
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/icons/org.soplos.welcome.png</url>
+  </icon>
+
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot1.png</image>
-      <caption>Welcome screen with system overview</caption>
-      <caption xml:lang="es">Pantalla de bienvenida con resumen del sistema</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot01.png</image>
+      <caption>Welcome screen with system overview and quick links</caption>
+      <caption xml:lang="es">Pantalla de bienvenida con resumen del sistema y enlaces rápidos</caption>
+      <caption xml:lang="fr">Écran d'accueil avec aperçu du système et liens rapides</caption>
+      <caption xml:lang="pt">Tela de boas-vindas com visão geral do sistema e links rápidos</caption>
+      <caption xml:lang="de">Willkommensbildschirm mit Systemübersicht und Schnelllinks</caption>
+      <caption xml:lang="it">Schermata di benvenuto con panoramica del sistema e link rapidi</caption>
+      <caption xml:lang="ru">Экран приветствия с обзором системы и быстрыми ссылками</caption>
+      <caption xml:lang="ro">Ecran de bun venit cu prezentarea sistemului și linkuri rapide</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot3.png</image>
-      <caption>Intelligent software management center</caption>
-      <caption xml:lang="es">Centro de gestión inteligente de software</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot02.png</image>
+      <caption>Software management with package managers and repositories</caption>
+      <caption xml:lang="es">Gestión de software con gestores de paquetes y repositorios</caption>
+      <caption xml:lang="fr">Gestion des logiciels avec gestionnaires de paquets et dépôts</caption>
+      <caption xml:lang="pt">Gestão de software com gestores de pacotes e repositórios</caption>
+      <caption xml:lang="de">Softwareverwaltung mit Paketmanagern und Repositories</caption>
+      <caption xml:lang="it">Gestione software con gestori pacchetti e repository</caption>
+      <caption xml:lang="ru">Управление ПО с менеджерами пакетов и репозиториями</caption>
+      <caption xml:lang="ro">Gestionare software cu manageri de pachete și depozite</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot4.png</image>
-      <caption>Hardware driver detection and installation</caption>
-      <caption xml:lang="es">Detección e instalación de controladores de hardware</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot03.png</image>
+      <caption>Hardware drivers with NVIDIA graphics and hardware detection</caption>
+      <caption xml:lang="es">Controladores de hardware con gráficos NVIDIA y detección de hardware</caption>
+      <caption xml:lang="fr">Pilotes matériels avec graphiques NVIDIA et détection du matériel</caption>
+      <caption xml:lang="pt">Controladores de hardware com gráficos NVIDIA e deteção de hardware</caption>
+      <caption xml:lang="de">Hardwaretreiber mit NVIDIA-Grafik und Hardwareerkennung</caption>
+      <caption xml:lang="it">Driver hardware con grafica NVIDIA e rilevamento hardware</caption>
+      <caption xml:lang="ru">Драйверы оборудования с графикой NVIDIA и обнаружением оборудования</caption>
+      <caption xml:lang="ro">Drivere hardware cu grafică NVIDIA și detectare hardware</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot5.png</image>
-      <caption>Desktop customization and theming</caption>
-      <caption xml:lang="es">Personalización del escritorio y temas</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot04.png</image>
+      <caption>Additional drivers for AMD, Wi-Fi, printers and virtual machines</caption>
+      <caption xml:lang="es">Controladores adicionales para AMD, Wi-Fi, impresoras y máquinas virtuales</caption>
+      <caption xml:lang="fr">Pilotes supplémentaires pour AMD, Wi-Fi, imprimantes et machines virtuelles</caption>
+      <caption xml:lang="pt">Controladores adicionais para AMD, Wi-Fi, impressoras e máquinas virtuais</caption>
+      <caption xml:lang="de">Zusätzliche Treiber für AMD, WLAN, Drucker und virtuelle Maschinen</caption>
+      <caption xml:lang="it">Driver aggiuntivi per AMD, Wi-Fi, stampanti e macchine virtuali</caption>
+      <caption xml:lang="ru">Дополнительные драйверы для AMD, Wi-Fi, принтеров и виртуальных машин</caption>
+      <caption xml:lang="ro">Drivere suplimentare pentru AMD, Wi-Fi, imprimante și mașini virtuale</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot05.png</image>
+      <caption>Kernel management with system info, microcode and optimized kernels</caption>
+      <caption xml:lang="es">Gestión de kernels con información del sistema, microcódigo y kernels optimizados</caption>
+      <caption xml:lang="fr">Gestion du noyau avec informations système, microcode et noyaux optimisés</caption>
+      <caption xml:lang="pt">Gestão de kernels com informações do sistema, microcódigo e kernels otimizados</caption>
+      <caption xml:lang="de">Kernel-Verwaltung mit Systeminformationen, Microcode und optimierten Kerneln</caption>
+      <caption xml:lang="it">Gestione kernel con informazioni di sistema, microcodice e kernel ottimizzati</caption>
+      <caption xml:lang="ru">Управление ядрами с информацией о системе, микрокодом и оптимизированными ядрами</caption>
+      <caption xml:lang="ro">Gestionare kernel cu informații de sistem, microcod și kerneluri optimizate</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot06.png</image>
+      <caption>Kernel variants and system maintenance tools</caption>
+      <caption xml:lang="es">Variantes de kernel y herramientas de mantenimiento del sistema</caption>
+      <caption xml:lang="fr">Variantes du noyau et outils de maintenance système</caption>
+      <caption xml:lang="pt">Variantes de kernel e ferramentas de manutenção do sistema</caption>
+      <caption xml:lang="de">Kernel-Varianten und Systemwartungswerkzeuge</caption>
+      <caption xml:lang="it">Varianti del kernel e strumenti di manutenzione del sistema</caption>
+      <caption xml:lang="ru">Варианты ядра и инструменты обслуживания системы</caption>
+      <caption xml:lang="ro">Variante de kernel și instrumente de întreținere a sistemului</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot07.png</image>
+      <caption>Security tools with backups, snapshots and firewall</caption>
+      <caption xml:lang="es">Herramientas de seguridad con copias de seguridad, instantáneas y cortafuegos</caption>
+      <caption xml:lang="fr">Outils de sécurité avec sauvegardes, instantanés et pare-feu</caption>
+      <caption xml:lang="pt">Ferramentas de segurança com cópias de segurança, instantâneos e firewall</caption>
+      <caption xml:lang="de">Sicherheitstools mit Backups, Snapshots und Firewall</caption>
+      <caption xml:lang="it">Strumenti di sicurezza con backup, snapshot e firewall</caption>
+      <caption xml:lang="ru">Инструменты безопасности с резервным копированием, снимками и брандмауэром</caption>
+      <caption xml:lang="ro">Instrumente de securitate cu copii de siguranță, instantanee și firewall</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot08.png</image>
+      <caption>System cleaning and firewall management tools</caption>
+      <caption xml:lang="es">Herramientas de limpieza del sistema y gestión de cortafuegos</caption>
+      <caption xml:lang="fr">Outils de nettoyage système et gestion du pare-feu</caption>
+      <caption xml:lang="pt">Ferramentas de limpeza do sistema e gestão de firewall</caption>
+      <caption xml:lang="de">Systembereinigung und Firewall-Verwaltungstools</caption>
+      <caption xml:lang="it">Strumenti di pulizia del sistema e gestione firewall</caption>
+      <caption xml:lang="ru">Инструменты очистки системы и управления брандмауэром</caption>
+      <caption xml:lang="ro">Instrumente de curățare a sistemului și gestionare firewall</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot09.png</image>
+      <caption>Recommended applications with browsers and communication tools</caption>
+      <caption xml:lang="es">Aplicaciones recomendadas con navegadores y herramientas de comunicación</caption>
+      <caption xml:lang="fr">Applications recommandées avec navigateurs et outils de communication</caption>
+      <caption xml:lang="pt">Aplicações recomendadas com navegadores e ferramentas de comunicação</caption>
+      <caption xml:lang="de">Empfohlene Anwendungen mit Browsern und Kommunikationstools</caption>
+      <caption xml:lang="it">Applicazioni consigliate con browser e strumenti di comunicazione</caption>
+      <caption xml:lang="ru">Рекомендуемые приложения с браузерами и средствами связи</caption>
+      <caption xml:lang="ro">Aplicații recomandate cu browsere și instrumente de comunicare</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot10.png</image>
+      <caption>Desktop customization with Soplos tools and XFCE settings</caption>
+      <caption xml:lang="es">Personalización del escritorio con herramientas Soplos y ajustes de XFCE</caption>
+      <caption xml:lang="fr">Personnalisation du bureau avec les outils Soplos et les paramètres XFCE</caption>
+      <caption xml:lang="pt">Personalização do ambiente de trabalho com ferramentas Soplos e definições XFCE</caption>
+      <caption xml:lang="de">Desktop-Anpassung mit Soplos-Tools und XFCE-Einstellungen</caption>
+      <caption xml:lang="it">Personalizzazione del desktop con strumenti Soplos e impostazioni XFCE</caption>
+      <caption xml:lang="ru">Настройка рабочего стола с инструментами Soplos и параметрами XFCE</caption>
+      <caption xml:lang="ro">Personalizare desktop cu instrumente Soplos și setări XFCE</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot11.png</image>
+      <caption>Gaming center with performance optimizations and launchers</caption>
+      <caption xml:lang="es">Centro de juegos con optimizaciones de rendimiento y lanzadores</caption>
+      <caption xml:lang="fr">Centre de jeux avec optimisations de performance et lanceurs</caption>
+      <caption xml:lang="pt">Centro de jogos com otimizações de desempenho e lançadores</caption>
+      <caption xml:lang="de">Gaming-Center mit Leistungsoptimierungen und Launchern</caption>
+      <caption xml:lang="it">Centro gaming con ottimizzazioni delle prestazioni e launcher</caption>
+      <caption xml:lang="ru">Игровой центр с оптимизацией производительности и лаунчерами</caption>
+      <caption xml:lang="ro">Centru de gaming cu optimizări de performanță și lansatoare</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot12.png</image>
+      <caption>Gaming launchers and emulators catalog</caption>
+      <caption xml:lang="es">Catálogo de lanzadores de juegos y emuladores</caption>
+      <caption xml:lang="fr">Catalogue de lanceurs de jeux et émulateurs</caption>
+      <caption xml:lang="pt">Catálogo de lançadores de jogos e emuladores</caption>
+      <caption xml:lang="de">Katalog der Spielstarter und Emulatoren</caption>
+      <caption xml:lang="it">Catalogo di launcher di gioco ed emulatori</caption>
+      <caption xml:lang="ru">Каталог игровых лаунчеров и эмуляторов</caption>
+      <caption xml:lang="ro">Catalog de lansatoare de jocuri și emulatoare</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-welcome/screenshots/screenshot13.png</image>
+      <caption>Gaming customization with wallpapers and RGB theme</caption>
+      <caption xml:lang="es">Personalización gaming con fondos de pantalla y tema RGB</caption>
+      <caption xml:lang="fr">Personnalisation gaming avec fonds d'écran et thème RGB</caption>
+      <caption xml:lang="pt">Personalização gaming com papéis de parede e tema RGB</caption>
+      <caption xml:lang="de">Gaming-Anpassung mit Hintergrundbildern und RGB-Theme</caption>
+      <caption xml:lang="it">Personalizzazione gaming con sfondi e tema RGB</caption>
+      <caption xml:lang="ru">Игровая настройка с обоями и RGB-темой</caption>
+      <caption xml:lang="ro">Personalizare gaming cu imagini de fundal și temă RGB</caption>
     </screenshot>
   </screenshots>
 
@@ -139,9 +267,638 @@
   <url type="help">https://github.com/SoplosLinux/soplos-welcome/wiki</url>
   <url type="donation">https://www.paypal.com/paypalme/isubdes</url>
 
-  <developer_name>Sergi Perich</developer_name>
+  <developer id="org.soplos">
+    <name>Sergi Perich</name>
+    <url type="homepage">https://soplos.org</url>
+  </developer>
 
   <releases>
+      <release version="2.0.8-3" date="2026-05-18">
+        <description>
+          <p>Gaming tab optimizations, Lutris Vulkan Fix button, and bug fixes:</p>
+          <ul>
+            <li>Gaming Tab: added RyzenAdj to Optimizations — compiles from source, installs binary and systemd service with AMD thermal limits for mini PCs with proprietary EC firmware</li>
+            <li>Gaming Tab: added Lutris Vulkan Fix manual button — patches gpu.py inside the Lutris Flatpak to fix the broken vulkaninfo path</li>
+            <li>Gaming Tab: removed Ryzen Master Commander (incompatible with proprietary EC firmware — requires NBFC)</li>
+            <li>Gaming Tab: removed automatic Lutris Vulkan patch from post_install_script, replaced by the new manual button</li>
+            <li>Fixed: Ctrl+Shift+Tab backward tab navigation (GTK sends KEY_ISO_Left_Tab, now handled correctly)</li>
+            <li>Translations: added RyzenAdj and Lutris Vulkan Fix strings in all 8 languages</li>
+          </ul>
+        </description>
+        <description xml:lang="es">
+          <p>Optimizaciones en la pestaña Gaming, botón Lutris Vulkan Fix y correcciones:</p>
+          <ul>
+            <li>Pestaña Gaming: añadido RyzenAdj a Optimizaciones — compila desde el código fuente, instala el binario y un servicio systemd con límites térmicos AMD para mini PCs con firmware EC propietario</li>
+            <li>Pestaña Gaming: añadido botón manual Lutris Vulkan Fix — parchea gpu.py dentro del sandbox Flatpak de Lutris para corregir la ruta rota de vulkaninfo</li>
+            <li>Pestaña Gaming: eliminado Ryzen Master Commander (incompatible con firmware EC propietario — requiere NBFC)</li>
+            <li>Pestaña Gaming: eliminado el parche automático de Lutris Vulkan del post_install_script, sustituido por el nuevo botón manual</li>
+            <li>Corregido: navegación hacia atrás con Ctrl+Mayús+Tab (GTK envía KEY_ISO_Left_Tab, ahora gestionado correctamente)</li>
+            <li>Traducciones: añadidas cadenas de RyzenAdj y Lutris Vulkan Fix en los 8 idiomas</li>
+          </ul>
+        </description>
+        <description xml:lang="fr">
+          <p>Optimisations de l'onglet Gaming, bouton Lutris Vulkan Fix et corrections de bogues :</p>
+          <ul>
+            <li>Onglet Gaming : RyzenAdj ajouté aux Optimisations — compile depuis les sources, installe le binaire et un service systemd avec des limites thermiques AMD pour les mini PC avec firmware EC propriétaire</li>
+            <li>Onglet Gaming : bouton manuel Lutris Vulkan Fix ajouté — corrige gpu.py dans le sandbox Flatpak de Lutris pour réparer le chemin vulkaninfo cassé</li>
+            <li>Onglet Gaming : Ryzen Master Commander supprimé (incompatible avec le firmware EC propriétaire — nécessite NBFC)</li>
+            <li>Onglet Gaming : correctif automatique Lutris Vulkan supprimé du post_install_script, remplacé par le nouveau bouton manuel</li>
+            <li>Corrigé : navigation arrière avec Ctrl+Maj+Tab (GTK envoie KEY_ISO_Left_Tab, maintenant géré correctement)</li>
+            <li>Traductions : chaînes RyzenAdj et Lutris Vulkan Fix ajoutées dans les 8 langues</li>
+          </ul>
+        </description>
+        <description xml:lang="de">
+          <p>Gaming-Tab-Optimierungen, Lutris Vulkan Fix-Schaltfläche und Fehlerbehebungen:</p>
+          <ul>
+            <li>Gaming-Tab: RyzenAdj zu Optimierungen hinzugefügt — kompiliert aus dem Quellcode, installiert das Binary und einen systemd-Dienst mit AMD-Thermallimits für Mini-PCs mit proprietärer EC-Firmware</li>
+            <li>Gaming-Tab: Manueller Lutris Vulkan Fix-Button hinzugefügt — patcht gpu.py in der Lutris Flatpak-Sandbox, um den defekten vulkaninfo-Pfad zu beheben</li>
+            <li>Gaming-Tab: Ryzen Master Commander entfernt (inkompatibel mit proprietärer EC-Firmware — erfordert NBFC)</li>
+            <li>Gaming-Tab: Automatischer Lutris Vulkan-Patch aus post_install_script entfernt, durch neuen manuellen Button ersetzt</li>
+            <li>Behoben: Rückwärts-Tab-Navigation mit Strg+Umschalt+Tab (GTK sendet KEY_ISO_Left_Tab, wird jetzt korrekt behandelt)</li>
+            <li>Übersetzungen: RyzenAdj- und Lutris Vulkan Fix-Strings in allen 8 Sprachen hinzugefügt</li>
+          </ul>
+        </description>
+        <description xml:lang="pt">
+          <p>Otimizações da aba Gaming, botão Lutris Vulkan Fix e correções de erros:</p>
+          <ul>
+            <li>Aba Gaming: RyzenAdj adicionado às Otimizações — compila a partir do código-fonte, instala o binário e um serviço systemd com limites térmicos AMD para mini PCs com firmware EC proprietário</li>
+            <li>Aba Gaming: botão manual Lutris Vulkan Fix adicionado — aplica patch no gpu.py dentro do sandbox Flatpak do Lutris para corrigir o caminho vulkaninfo quebrado</li>
+            <li>Aba Gaming: Ryzen Master Commander removido (incompatível com firmware EC proprietário — requer NBFC)</li>
+            <li>Aba Gaming: patch automático Lutris Vulkan removido do post_install_script, substituído pelo novo botão manual</li>
+            <li>Corrigido: navegação para trás com Ctrl+Shift+Tab (GTK envia KEY_ISO_Left_Tab, agora tratado corretamente)</li>
+            <li>Traduções: strings de RyzenAdj e Lutris Vulkan Fix adicionadas em todos os 8 idiomas</li>
+          </ul>
+        </description>
+        <description xml:lang="it">
+          <p>Ottimizzazioni della scheda Gaming, pulsante Lutris Vulkan Fix e correzioni di bug:</p>
+          <ul>
+            <li>Scheda Gaming: RyzenAdj aggiunto alle Ottimizzazioni — compila dal codice sorgente, installa il binario e un servizio systemd con limiti termici AMD per mini PC con firmware EC proprietario</li>
+            <li>Scheda Gaming: pulsante manuale Lutris Vulkan Fix aggiunto — applica patch a gpu.py nel sandbox Flatpak di Lutris per correggere il percorso vulkaninfo non funzionante</li>
+            <li>Scheda Gaming: Ryzen Master Commander rimosso (incompatibile con il firmware EC proprietario — richiede NBFC)</li>
+            <li>Scheda Gaming: patch automatica Lutris Vulkan rimossa dal post_install_script, sostituita dal nuovo pulsante manuale</li>
+            <li>Corretto: navigazione all'indietro con Ctrl+Maiusc+Tab (GTK invia KEY_ISO_Left_Tab, ora gestito correttamente)</li>
+            <li>Traduzioni: stringhe RyzenAdj e Lutris Vulkan Fix aggiunte in tutte le 8 lingue</li>
+          </ul>
+        </description>
+        <description xml:lang="ru">
+          <p>Оптимизации вкладки Gaming, кнопка Lutris Vulkan Fix и исправления ошибок:</p>
+          <ul>
+            <li>Вкладка Gaming: RyzenAdj добавлен в Оптимизации — компилируется из исходного кода, устанавливает бинарный файл и службу systemd с тепловыми ограничениями AMD для мини-ПК с проприетарной прошивкой EC</li>
+            <li>Вкладка Gaming: добавлена ручная кнопка Lutris Vulkan Fix — патчит gpu.py внутри Flatpak-среды Lutris для исправления неверного пути vulkaninfo</li>
+            <li>Вкладка Gaming: Ryzen Master Commander удалён (несовместим с проприетарной прошивкой EC — требует NBFC)</li>
+            <li>Вкладка Gaming: автоматический патч Lutris Vulkan удалён из post_install_script, заменён новой ручной кнопкой</li>
+            <li>Исправлено: навигация назад по вкладкам с Ctrl+Shift+Tab (GTK отправляет KEY_ISO_Left_Tab, теперь обрабатывается корректно)</li>
+            <li>Переводы: строки RyzenAdj и Lutris Vulkan Fix добавлены на все 8 языков</li>
+          </ul>
+        </description>
+        <description xml:lang="ro">
+          <p>Optimizări în fila Gaming, buton Lutris Vulkan Fix și remedieri de erori:</p>
+          <ul>
+            <li>Fila Gaming: RyzenAdj adăugat la Optimizări — compilat din sursă, instalează binarul și un serviciu systemd cu limite termice AMD pentru mini PC-uri cu firmware EC proprietar</li>
+            <li>Fila Gaming: buton manual Lutris Vulkan Fix adăugat — aplică patch la gpu.py în sandbox-ul Flatpak al Lutris pentru a corecta calea vulkaninfo defectă</li>
+            <li>Fila Gaming: Ryzen Master Commander eliminat (incompatibil cu firmware-ul EC proprietar — necesită NBFC)</li>
+            <li>Fila Gaming: patch-ul automat Lutris Vulkan eliminat din post_install_script, înlocuit de noul buton manual</li>
+            <li>Remediat: navigarea înapoi cu Ctrl+Shift+Tab (GTK trimite KEY_ISO_Left_Tab, acum gestionat corect)</li>
+            <li>Traduceri: șiruri RyzenAdj și Lutris Vulkan Fix adăugate în toate cele 8 limbi</li>
+          </ul>
+        </description>
+      </release>
+      <release version="2.0.8-2" date="2026-04-30">
+        <description>
+          <p>Software tab — Snap Store and Bazaar added; new tools; bug fixes:</p>
+          <ul>
+            <li>Added Snap Store and Bazaar to all three DEs (XFCE, GNOME, KDE/Plasma) in a 4-column x 2-row grid layout</li>
+            <li>Security Tab: added Surfshark and Mozilla VPN as Flatpak entries in the VPN section</li>
+            <li>Gaming Tab: added CPU Power tool to control the CPU frequency governor (linux-cpupower + cpupower-gui)</li>
+            <li>Recommended Tab: added Calligra and Collabora Office as Flatpak entries in the Office section</li>
+            <li>Footer: removed "Ready" status prefix — now shows only DE and display protocol</li>
+            <li>Dependency check dialog: clicking Snap Store without snapd, or Bazaar without flatpak, offers to install the missing runtime first</li>
+            <li>Fixed: Snap Store and Bazaar buttons now correctly show "Uninstall" when already installed — snap install/remove now uses pkexec and no longer fails silently as a regular user</li>
+            <li>Fixed: program no longer hangs after installing Bazaar — flatpak install now uses --user --noninteractive flags</li>
+            <li>Fixed GLib.idle_add callback loop: on_complete lambda no longer returns the timer source ID as a truthy value</li>
+            <li>Translations: added new strings for all new features in all 8 languages</li>
+            <li>Customization Tab: Docklike launcher removed from XFCE tools (functionality now integrated into Soplos Theme Manager)</li>
+          </ul>
+        </description>
+        <description xml:lang="es">
+          <p>Pestaña Software — Snap Store y Bazaar añadidos; nuevas herramientas; correcciones de errores:</p>
+          <ul>
+            <li>Añadidos Snap Store y Bazaar a los tres entornos de escritorio (XFCE, GNOME, KDE/Plasma) en una cuadrícula de 4 columnas x 2 filas</li>
+            <li>Pestaña Seguridad: añadidos Surfshark y Mozilla VPN como aplicaciones Flatpak en la sección VPN</li>
+            <li>Pestaña Gaming: añadida herramienta CPU Power para controlar el gobernador de frecuencia de CPU (linux-cpupower + cpupower-gui)</li>
+            <li>Pestaña Recomendados: añadidos Calligra y Collabora Office como aplicaciones Flatpak en la sección Ofimática</li>
+            <li>Pie de página: eliminado el prefijo "Listo" — ahora solo muestra el entorno de escritorio y el protocolo de pantalla</li>
+            <li>Diálogo de dependencias: si se pulsa Snap Store sin snapd instalado, o Bazaar sin flatpak, se ofrece instalar el runtime necesario primero</li>
+            <li>Corregido: los botones de Snap Store y Bazaar ahora muestran correctamente "Desinstalar" cuando ya están instalados — snap install/remove ahora usa pkexec y ya no falla silenciosamente como usuario normal</li>
+            <li>Corregido: el programa ya no se cuelga al instalar Bazaar — flatpak install ahora usa los flags --user --noninteractive</li>
+            <li>Corregido el bucle de callback GLib.idle_add: el lambda on_complete ya no devuelve el source ID del timer como valor verdadero</li>
+            <li>Traducciones: añadidas nuevas cadenas para todas las funcionalidades nuevas en los 8 idiomas</li>
+            <li>Pestaña Personalización: se ha eliminado el lanzador Docklike de las herramientas XFCE (ahora su funcionalidad está integrada en Soplos Theme Manager)</li>
+          </ul>
+        </description>
+        <description xml:lang="fr">
+          <p>Onglet Logiciels — Snap Store et Bazaar ajoutés ; nouveaux outils ; corrections de bogues :</p>
+          <ul>
+            <li>Snap Store et Bazaar ajoutés aux trois environnements de bureau (XFCE, GNOME, KDE/Plasma) dans une grille 4 colonnes x 2 lignes</li>
+            <li>Onglet Sécurité : Surfshark et Mozilla VPN ajoutés comme applications Flatpak dans la section VPN</li>
+            <li>Onglet Gaming : outil CPU Power ajouté pour contrôler le gouverneur de fréquence CPU (linux-cpupower + cpupower-gui)</li>
+            <li>Onglet Recommandés : Calligra et Collabora Office ajoutés comme applications Flatpak dans la section Bureautique</li>
+            <li>Pied de page : préfixe "Prêt" supprimé — affiche désormais uniquement l'environnement de bureau et le protocole d'affichage</li>
+            <li>Boîte de dialogue de dépendances : cliquer sur Snap Store sans snapd, ou Bazaar sans flatpak, propose d'installer d'abord le runtime manquant</li>
+            <li>Corrigé : les boutons Snap Store et Bazaar affichent désormais correctement "Désinstaller" quand déjà installés — snap install/remove utilise maintenant pkexec et ne plante plus silencieusement pour les utilisateurs normaux</li>
+            <li>Corrigé : le programme ne se bloque plus après l'installation de Bazaar — flatpak install utilise maintenant les options --user --noninteractive</li>
+            <li>Corrigé la boucle de rappel GLib.idle_add : le lambda on_complete ne retourne plus l'ID source du minuteur comme valeur véridique</li>
+            <li>Traductions : nouvelles chaînes ajoutées pour toutes les nouvelles fonctionnalités dans les 8 langues</li>
+            <li>Onglet Personnalisation : le lanceur Docklike a été retiré des outils XFCE (fonctionnalité désormais intégrée au Soplos Theme Manager)</li>
+          </ul>
+        </description>
+        <description xml:lang="de">
+          <p>Software-Tab — Snap Store und Bazaar hinzugefügt; neue Werkzeuge; Fehlerbehebungen:</p>
+          <ul>
+            <li>Snap Store und Bazaar zu allen drei Desktop-Umgebungen (XFCE, GNOME, KDE/Plasma) in einem 4-Spalten x 2-Zeilen-Raster hinzugefügt</li>
+            <li>Sicherheits-Tab: Surfshark und Mozilla VPN als Flatpak-Apps im VPN-Bereich hinzugefügt</li>
+            <li>Gaming-Tab: CPU Power Werkzeug zum Steuern des CPU-Frequenzreglers hinzugefügt (linux-cpupower + cpupower-gui)</li>
+            <li>Empfehlungs-Tab: Calligra und Collabora Office als Flatpak-Apps im Büro-Bereich hinzugefügt</li>
+            <li>Fußzeile: "Bereit"-Präfix entfernt — zeigt jetzt nur noch Desktop-Umgebung und Anzeigeprotokoll</li>
+            <li>Abhängigkeitsdialog: Klicken auf Snap Store ohne snapd oder Bazaar ohne flatpak bietet an, das fehlende Runtime zuerst zu installieren</li>
+            <li>Behoben: Snap Store- und Bazaar-Schaltflächen zeigen jetzt korrekt "Deinstallieren" wenn bereits installiert — snap install/remove verwendet jetzt pkexec und schlägt nicht mehr still als normaler Benutzer fehl</li>
+            <li>Behoben: Das Programm hängt nach der Installation von Bazaar nicht mehr — flatpak install verwendet jetzt die Flags --user --noninteractive</li>
+            <li>GLib.idle_add-Callback-Schleife behoben: on_complete-Lambda gibt nicht mehr die Timer-Source-ID als wahren Wert zurück</li>
+            <li>Übersetzungen: neue Strings für alle neuen Funktionen in allen 8 Sprachen hinzugefügt</li>
+            <li>Anpassungs-Tab: Der Docklike-Launcher wurde aus den XFCE-Tools entfernt (die Funktionalität ist jetzt in den Soplos Theme Manager integriert)</li>
+          </ul>
+        </description>
+        <description xml:lang="pt">
+          <p>Aba Software — Snap Store e Bazaar adicionados; novas ferramentas; correções de erros:</p>
+          <ul>
+            <li>Snap Store e Bazaar adicionados aos três ambientes de desktop (XFCE, GNOME, KDE/Plasma) numa grelha de 4 colunas x 2 linhas</li>
+            <li>Aba Segurança: Surfshark e Mozilla VPN adicionados como Flatpak na secção VPN</li>
+            <li>Aba Gaming: ferramenta CPU Power adicionada para controlar o governador de frequência da CPU (linux-cpupower + cpupower-gui)</li>
+            <li>Aba Recomendados: Calligra e Collabora Office adicionados como Flatpak na secção Escritório</li>
+            <li>Rodapé: prefixo "Pronto" removido — agora mostra apenas o ambiente de desktop e o protocolo de ecrã</li>
+            <li>Diálogo de dependências: clicar em Snap Store sem snapd instalado, ou Bazaar sem flatpak, oferece instalar o runtime em falta primeiro</li>
+            <li>Corrigido: os botões do Snap Store e Bazaar agora mostram corretamente "Desinstalar" quando já instalados — snap install/remove usa agora pkexec e já não falha silenciosamente como utilizador normal</li>
+            <li>Corrigido: o programa já não fica suspenso após instalar o Bazaar — flatpak install usa agora os flags --user --noninteractive</li>
+            <li>Corrigido o loop de callback GLib.idle_add: o lambda on_complete já não devolve o source ID do timer como valor verdadeiro</li>
+            <li>Traduções: novas strings adicionadas para todas as funcionalidades novas em todos os 8 idiomas</li>
+            <li>Aba Personalização: o lançador Docklike foi removido das ferramentas XFCE (a funcionalidade está agora integrada no Soplos Theme Manager)</li>
+          </ul>
+        </description>
+        <description xml:lang="it">
+          <p>Scheda Software — Snap Store e Bazaar aggiunti; nuovi strumenti; correzioni di bug:</p>
+          <ul>
+            <li>Snap Store e Bazaar aggiunti a tutti e tre gli ambienti desktop (XFCE, GNOME, KDE/Plasma) in una griglia 4 colonne x 2 righe</li>
+            <li>Scheda Sicurezza: Surfshark e Mozilla VPN aggiunti come Flatpak nella sezione VPN</li>
+            <li>Scheda Gaming: strumento CPU Power aggiunto per controllare il governatore di frequenza della CPU (linux-cpupower + cpupower-gui)</li>
+            <li>Scheda Consigliati: Calligra e Collabora Office aggiunti come Flatpak nella sezione Office</li>
+            <li>Piè di pagina: prefisso "Pronto" rimosso — ora mostra solo l'ambiente desktop e il protocollo di visualizzazione</li>
+            <li>Finestra di dialogo dipendenze: fare clic su Snap Store senza snapd, o Bazaar senza flatpak, offre di installare prima il runtime mancante</li>
+            <li>Corretto: i pulsanti Snap Store e Bazaar ora mostrano correttamente "Disinstalla" quando già installati — snap install/remove ora usa pkexec e non fallisce più silenziosamente come utente normale</li>
+            <li>Corretto: il programma non si blocca più dopo l'installazione di Bazaar — flatpak install usa ora i flag --user --noninteractive</li>
+            <li>Corretto il loop di callback GLib.idle_add: il lambda on_complete non restituisce più l'ID sorgente del timer come valore vero</li>
+            <li>Traduzioni: nuove stringhe aggiunte per tutte le nuove funzionalità in tutte le 8 lingue</li>
+            <li>Scheda Personalizzazione: il launcher Docklike è stato rimosso dagli strumenti XFCE (la funzionalità è ora integrata nel Soplos Theme Manager)</li>
+          </ul>
+        </description>
+        <description xml:lang="ru">
+          <p>Вкладка Программы — добавлены Snap Store и Bazaar; новые инструменты; исправления ошибок:</p>
+          <ul>
+            <li>Snap Store и Bazaar добавлены во все три среды рабочего стола (XFCE, GNOME, KDE/Plasma) в сетке 4 столбца x 2 строки</li>
+            <li>Вкладка Безопасность: Surfshark и Mozilla VPN добавлены как Flatpak в раздел VPN</li>
+            <li>Вкладка Gaming: добавлен инструмент CPU Power для управления регулятором частоты процессора (linux-cpupower + cpupower-gui)</li>
+            <li>Вкладка Рекомендуемые: Calligra и Collabora Office добавлены как Flatpak в раздел Офис</li>
+            <li>Нижняя строка: убран префикс "Готово" — теперь отображается только среда рабочего стола и протокол отображения</li>
+            <li>Диалог зависимостей: при нажатии на Snap Store без snapd или Bazaar без flatpak предлагается сначала установить недостающую среду выполнения</li>
+            <li>Исправлено: кнопки Snap Store и Bazaar теперь корректно показывают "Удалить" когда уже установлены — snap install/remove теперь использует pkexec и больше не завершается тихо при работе от обычного пользователя</li>
+            <li>Исправлено: программа больше не зависает после установки Bazaar — flatpak install теперь использует флаги --user --noninteractive</li>
+            <li>Исправлен цикл обратного вызова GLib.idle_add: лямбда on_complete больше не возвращает source ID таймера как истинное значение</li>
+            <li>Переводы: добавлены новые строки для всех новых функций на всех 8 языках</li>
+            <li>Вкладка Настройка: лаунчер Docklike удалён из инструментов XFCE (функциональность теперь интегрирована в Soplos Theme Manager)</li>
+          </ul>
+        </description>
+        <description xml:lang="ro">
+          <p>Fila Software — Snap Store și Bazaar adăugate; noi instrumente; remedieri de erori:</p>
+          <ul>
+            <li>Snap Store și Bazaar adăugate la toate cele trei medii desktop (XFCE, GNOME, KDE/Plasma) într-o grilă de 4 coloane x 2 rânduri</li>
+            <li>Fila Securitate: Surfshark și Mozilla VPN adăugate ca Flatpak în secțiunea VPN</li>
+            <li>Fila Gaming: instrument CPU Power adăugat pentru controlul regulatorului de frecvență al procesorului (linux-cpupower + cpupower-gui)</li>
+            <li>Fila Recomandate: Calligra și Collabora Office adăugate ca Flatpak în secțiunea Office</li>
+            <li>Subsolul paginii: prefixul "Gata" eliminat — afișează acum doar mediul desktop și protocolul de afișare</li>
+            <li>Dialog dependențe: clic pe Snap Store fără snapd instalat, sau Bazaar fără flatpak, oferă instalarea runtime-ului lipsă mai întâi</li>
+            <li>Remediat: butoanele Snap Store și Bazaar afișează acum corect "Dezinstalare" când sunt deja instalate — snap install/remove folosește acum pkexec și nu mai eșuează silențios ca utilizator normal</li>
+            <li>Remediat: programul nu mai înghețe după instalarea Bazaar — flatpak install folosește acum opțiunile --user --noninteractive</li>
+            <li>Remediat bucla de callback GLib.idle_add: lambda on_complete nu mai returnează ID-ul sursă al temporizatorului ca valoare adevărată</li>
+            <li>Traduceri: șiruri noi adăugate pentru toate funcționalitățile noi în toate cele 8 limbi</li>
+            <li>Fila Personalizare: lansatorul Docklike a fost eliminat din instrumentele XFCE (funcționalitatea este acum integrată în Soplos Theme Manager)</li>
+          </ul>
+        </description>
+      </release>
+
+      <release version="2.0.8-1" date="2026-04-04">
+        <description>
+          <p>DaVinci Resolve improvements and optional post-install patches:</p>
+          <ul>
+            <li>Updated MakeResolveDeb script to version 1.9.0: adds full support for DaVinci Resolve 21 and switches .deb compression to xz</li>
+            <li>New optional post-install patch: virtual PipeWire microphone for systems without an audio capture device</li>
+            <li>New optional post-install patch: integrated GPU support for AMD/Intel iGPU (OpenCL stack, i915 firmware, libProResRAW stub, launcher patching, render group)</li>
+            <li>New post-install patches dialog with checkboxes to select and apply optional fixes after installation</li>
+          </ul>
+          <p>Drivers tab rework and hardware scanner fixes:</p>
+          <ul>
+            <li>Fixed crash on startup caused by uninitialized driver button registry and missing subprocess import</li>
+            <li>All 15 driver buttons now show install/uninstall state and refresh automatically after each operation</li>
+            <li>NVIDIA 590 and 580 buttons now correctly reflect their installation state</li>
+            <li>Hardware scanner fixed to use updated detection API and now shows all hardware sections with Install/Uninstall buttons</li>
+            <li>VM detection in scanner: detects VMware, VirtualBox and QEMU/KVM and shows guest tools status</li>
+            <li>Added "Complete installation" translation string in all 8 languages</li>
+            <li>New apps: ProtonVPN (Security → VPN), ClamUI (Security → Antivirus), LACT (Drivers → AMD), Resources (Recommended → Utilities)</li>
+            <li>Portmaster added to Security tab (Firewall section); installs via official portmaster-installer.deb with no hardcoded version</li>
+            <li>JoPDF added to Recommended tab (Office section) as a PDF editor</li>
+            <li>qBittorrent and JDownloader added to Recommended tab (Utilities) via Flatpak</li>
+            <li>PPSSPP added to Recommended (Gaming) and Gaming tab launchers via Flatpak; post-install script links the Flatpak binary as the Lutris PSP runner</li>
+            <li>LACT and CoolerControl added to Recommended (Utilities); CoolerControl runs as a root AppImage daemon with a WebApp shortcut for the web UI</li>
+            <li>MangoHud reworked to install via Flatpak with 6 packages: MangoHud, GOverlay, VulkanInfo, vkBasalt, gamescope, DXVK</li>
+            <li>Post-install script system: Recommended and Gaming tabs now run optional scripts after successful installs (Lutris Vulkan patch, PPSSPP Lutris runner)</li>
+            <li>Security tab: 48px icons added to all 14 tools with centred layout matching Gaming and Recommended tabs</li>
+            <li>Security tab: Open Portmaster button (gtk-launch with path fallback) and UFW conflict warning when both are active</li>
+            <li>Gaming tab: GeForce NOW WebApp launcher integrated with Soplos WebApp Manager (browser auto-detected)</li>
+            <li>Gaming tab: Flatpak/AppImage/WebApp badges on all launchers; tooltips on all 7 optimization buttons</li>
+            <li>Gaming tab: MangoHud Flatpak package IDs corrected to exact required IDs</li>
+            <li>Software tab (XFCE): GNOME Software now also installs gnome-packagekit for panel update indicator</li>
+            <li>Translations: added missing strings for Security tab descriptions, driver status labels, kernel description, and app descriptions in all 8 languages</li>
+          </ul>
+          <p>Hybrid graphics fixes:</p>
+          <ul>
+            <li>Fixed NVIDIA Primary mode not booting: dracut config files were not created before initramfs regeneration, causing the system to boot without NVIDIA modules loaded. Now creates /etc/dracut.conf.d/nvidia.conf and blacklist-nouveau.conf before calling dracut --force</li>
+            <li>PRIME Render Offload — KDE Plasma fix: script now generates ~/.config/kdedefaults/kwinoutputconfig.json with the Intel display connector detected dynamically from /sys/class/drm/ (eDP or LVDS), setting output priority without hardcoding resolution, refresh rate or scale. Only runs on KDE Plasma (detected via EnvironmentDetector at launch, not by scanning binaries)</li>
+          </ul>
+        </description>
+        <description xml:lang="es">
+          <p>Mejoras en DaVinci Resolve y parches opcionales tras la instalación:</p>
+          <ul>
+            <li>Script MakeResolveDeb actualizado a la versión 1.9.0: añade soporte completo para DaVinci Resolve 21 y cambia la compresión del .deb a xz</li>
+            <li>Nuevo parche opcional post-instalación: micrófono virtual PipeWire para sistemas sin dispositivo de captura de audio</li>
+            <li>Nuevo parche opcional post-instalación: soporte de GPU integrada AMD/Intel iGPU (pila OpenCL, firmware i915, stub libProResRAW, parcheo del lanzador, grupo render)</li>
+            <li>Nuevo diálogo de parches post-instalación con checkboxes para seleccionar y aplicar correcciones opcionales</li>
+          </ul>
+          <p>Revisión completa de la pestaña de controladores y correcciones del escáner de hardware:</p>
+          <ul>
+            <li>Corregido el fallo al arrancar causado por el registro de botones no inicializado y la importación faltante de subprocess</li>
+            <li>Los 15 botones de controladores ahora muestran el estado instalar/desinstalar y se actualizan automáticamente tras cada operación</li>
+            <li>Los botones NVIDIA 590 y 580 ahora reflejan correctamente su estado de instalación</li>
+            <li>El escáner de hardware corregido para usar la API de detección actualizada y ahora muestra todas las secciones con botones Instalar/Desinstalar</li>
+            <li>Detección de VM en el escáner: detecta VMware, VirtualBox y QEMU/KVM y muestra el estado de las herramientas de invitado</li>
+            <li>Añadida la cadena de traducción "Completar instalación" en los 8 idiomas</li>
+            <li>Nuevas apps: ProtonVPN (Seguridad → VPN), ClamUI (Seguridad → Antivirus), LACT (Controladores → AMD), Resources (Recomendados → Utilidades)</li>
+            <li>Portmaster añadido a la pestaña Seguridad (sección Cortafuegos); instala mediante portmaster-installer.deb sin versión codificada</li>
+            <li>JoPDF añadido a Recomendados (Ofimática) como editor de PDF</li>
+            <li>qBittorrent y JDownloader añadidos a Recomendados (Utilidades) vía Flatpak</li>
+            <li>PPSSPP añadido a Recomendados (Gaming) y a la pestaña Gaming vía Flatpak; script post-instalación enlaza el binario Flatpak como runner de PSP en Lutris</li>
+            <li>LACT y CoolerControl añadidos a Recomendados (Utilidades); CoolerControl se ejecuta como AppImage raíz con acceso directo WebApp a la interfaz web</li>
+            <li>MangoHud rediseñado para instalarse vía Flatpak con 6 paquetes: MangoHud, GOverlay, VulkanInfo, vkBasalt, gamescope, DXVK</li>
+            <li>Sistema de scripts post-instalación: las pestañas Recomendados y Gaming ahora ejecutan scripts opcionales tras instalaciones exitosas</li>
+            <li>Pestaña Seguridad: iconos de 48 px añadidos a las 14 herramientas con diseño centrado igual que Gaming y Recomendados</li>
+            <li>Pestaña Seguridad: botón "Abrir Portmaster" (gtk-launch con fallback de ruta) y aviso de conflicto con UFW cuando ambos están activos</li>
+            <li>Pestaña Gaming: launcher WebApp de GeForce NOW integrado con Soplos WebApp Manager (navegador detectado automáticamente)</li>
+            <li>Pestaña Gaming: badges Flatpak/AppImage/WebApp en todos los launchers; tooltips en los 7 botones de optimización</li>
+            <li>Pestaña Gaming: IDs de paquetes Flatpak de MangoHud corregidos a los IDs exactos requeridos</li>
+            <li>Pestaña Software (XFCE): GNOME Software ahora también instala gnome-packagekit para el indicador de actualizaciones del panel</li>
+            <li>Traducciones: añadidos strings faltantes para descripciones de la pestaña Seguridad, etiquetas de estado de controladores, descripción del kernel y descripciones de apps en los 8 idiomas</li>
+          </ul>
+          <p>Correcciones de gráficos híbridos:</p>
+          <ul>
+            <li>Corregido el modo NVIDIA Primary que no arrancaba: los archivos de configuración de dracut no se creaban antes de regenerar el initramfs, haciendo que el sistema arrancara sin los módulos NVIDIA cargados. Ahora crea /etc/dracut.conf.d/nvidia.conf y blacklist-nouveau.conf antes de llamar a dracut --force</li>
+            <li>PRIME Render Offload — corrección para KDE Plasma: el script ahora genera ~/.config/kdedefaults/kwinoutputconfig.json con el conector de pantalla Intel detectado dinámicamente desde /sys/class/drm/ (eDP o LVDS), estableciendo la prioridad del output sin valores de resolución, tasa de refresco ni escala hardcodeados. Solo se ejecuta en sistemas con KDE Plasma (detectado mediante EnvironmentDetector al arrancar, no buscando binarios)</li>
+          </ul>
+        </description>
+        <description xml:lang="fr">
+          <p>Améliorations de DaVinci Resolve et correctifs optionnels post-installation :</p>
+          <ul>
+            <li>Script MakeResolveDeb mis à jour vers la version 1.9.0 : ajout du support complet pour DaVinci Resolve 21 et passage à la compression xz pour le .deb</li>
+            <li>Nouveau correctif optionnel post-installation : microphone virtuel PipeWire pour les systèmes sans périphérique de capture audio</li>
+            <li>Nouveau correctif optionnel post-installation : support GPU intégré AMD/Intel iGPU (pile OpenCL, firmware i915, stub libProResRAW, patch du lanceur, groupe render)</li>
+            <li>Nouvelle boîte de dialogue post-installation avec cases à cocher pour sélectionner et appliquer les correctifs optionnels</li>
+          </ul>
+          <p>Refonte de l'onglet pilotes et corrections du scanner matériel :</p>
+          <ul>
+            <li>Correction du plantage au démarrage causé par le registre de boutons non initialisé et l'import subprocess manquant</li>
+            <li>Les 15 boutons de pilotes affichent désormais l'état installer/désinstaller et se mettent à jour automatiquement après chaque opération</li>
+            <li>Les boutons NVIDIA 590 et 580 reflètent désormais correctement leur état d'installation</li>
+            <li>Scanner matériel corrigé pour utiliser l'API de détection mise à jour et affiche maintenant toutes les sections avec boutons Installer/Désinstaller</li>
+            <li>Détection VM dans le scanner : détecte VMware, VirtualBox et QEMU/KVM et affiche l'état des outils invités</li>
+            <li>Ajout de la chaîne de traduction "Compléter l'installation" dans les 8 langues</li>
+            <li>Nouvelles apps : ProtonVPN (Sécurité → VPN), ClamUI (Sécurité → Antivirus), LACT (Pilotes → AMD), Resources (Recommandés → Utilitaires)</li>
+            <li>Portmaster ajouté à l'onglet Sécurité (section Pare-feu) ; installe via portmaster-installer.deb sans version codée en dur</li>
+            <li>JoPDF ajouté aux Recommandés (Bureautique) comme éditeur PDF</li>
+            <li>qBittorrent et JDownloader ajoutés aux Recommandés (Utilitaires) via Flatpak</li>
+            <li>PPSSPP ajouté aux Recommandés (Gaming) et à l'onglet Gaming via Flatpak ; script post-installation lie le binaire Flatpak comme runner PSP dans Lutris</li>
+            <li>LACT et CoolerControl ajoutés aux Recommandés (Utilitaires) ; CoolerControl s'exécute en AppImage root avec un raccourci WebApp vers l'interface web</li>
+            <li>MangoHud remanié pour s'installer via Flatpak avec 6 paquets : MangoHud, GOverlay, VulkanInfo, vkBasalt, gamescope, DXVK</li>
+            <li>Système de scripts post-installation : les onglets Recommandés et Gaming exécutent désormais des scripts optionnels après les installations réussies</li>
+            <li>Onglet Sécurité : icônes 48 px ajoutées aux 14 outils avec disposition centrée identique aux onglets Gaming et Recommandés</li>
+            <li>Onglet Sécurité : bouton "Ouvrir Portmaster" (gtk-launch avec fallback de chemin) et avertissement de conflit UFW quand les deux sont actifs</li>
+            <li>Onglet Gaming : lanceur WebApp GeForce NOW intégré avec Soplos WebApp Manager (navigateur détecté automatiquement)</li>
+            <li>Onglet Gaming : badges Flatpak/AppImage/WebApp sur tous les lanceurs ; infobulles sur les 7 boutons d'optimisation</li>
+            <li>Onglet Gaming : ID de paquets Flatpak MangoHud corrigés aux ID exacts requis</li>
+            <li>Onglet Logiciels (XFCE) : GNOME Software installe désormais aussi gnome-packagekit pour l'indicateur de mises à jour du panneau</li>
+            <li>Traductions : chaînes manquantes ajoutées pour les descriptions de l'onglet Sécurité, les étiquettes d'état des pilotes, la description du noyau et les descriptions d'applications dans les 8 langues</li>
+          </ul>
+          <p>Corrections graphiques hybrides :</p>
+          <ul>
+            <li>Correction du mode NVIDIA Primary qui ne démarrait pas : les fichiers de configuration dracut n'étaient pas créés avant la régénération de l'initramfs, faisant démarrer le système sans les modules NVIDIA chargés. Crée maintenant /etc/dracut.conf.d/nvidia.conf et blacklist-nouveau.conf avant d'appeler dracut --force</li>
+            <li>PRIME Render Offload — correctif KDE Plasma : le script génère maintenant ~/.config/kdedefaults/kwinoutputconfig.json avec le connecteur d'affichage Intel détecté dynamiquement depuis /sys/class/drm/ (eDP ou LVDS), en définissant la priorité de sortie sans valeurs codées en dur pour la résolution, la fréquence de rafraîchissement ou l'échelle. Ne s'exécute que sur les systèmes KDE Plasma (détecté via EnvironmentDetector au démarrage, sans analyse de binaires)</li>
+          </ul>
+        </description>
+        <description xml:lang="de">
+          <p>Verbesserungen für DaVinci Resolve und optionale Post-Install-Patches:</p>
+          <ul>
+            <li>MakeResolveDeb-Skript auf Version 1.9.0 aktualisiert: vollständige Unterstützung für DaVinci Resolve 21 und xz-Komprimierung für das .deb-Paket</li>
+            <li>Neuer optionaler Post-Install-Patch: virtuelles PipeWire-Mikrofon für Systeme ohne Audio-Aufnahmegerät</li>
+            <li>Neuer optionaler Post-Install-Patch: integrierte GPU-Unterstützung für AMD/Intel iGPU (OpenCL-Stack, i915-Firmware, libProResRAW-Stub, Launcher-Patching, render-Gruppe)</li>
+            <li>Neuer Post-Install-Dialog mit Kontrollkästchen zur Auswahl und Anwendung optionaler Korrekturen</li>
+          </ul>
+          <p>Überarbeitung des Treiber-Tabs und Korrekturen am Hardware-Scanner:</p>
+          <ul>
+            <li>Absturz beim Start behoben, verursacht durch nicht initialisierten Schaltflächen-Datensatz und fehlenden subprocess-Import</li>
+            <li>Alle 15 Treiber-Schaltflächen zeigen jetzt den Installieren/Deinstallieren-Status und aktualisieren sich nach jeder Operation automatisch</li>
+            <li>NVIDIA 590- und 580-Schaltflächen spiegeln jetzt ihren Installationsstatus korrekt wider</li>
+            <li>Hardware-Scanner korrigiert, um die aktualisierte Erkennungs-API zu verwenden, und zeigt jetzt alle Abschnitte mit Installieren/Deinstallieren-Schaltflächen</li>
+            <li>VM-Erkennung im Scanner: erkennt VMware, VirtualBox und QEMU/KVM und zeigt den Status der Gast-Tools</li>
+            <li>Übersetzungsstring "Installation vervollständigen" in allen 8 Sprachen hinzugefügt</li>
+            <li>Neue Apps: ProtonVPN (Sicherheit → VPN), ClamUI (Sicherheit → Antivirus), LACT (Treiber → AMD), Resources (Empfohlen → Dienstprogramme)</li>
+            <li>Portmaster zur Registerkarte Sicherheit (Abschnitt Firewall) hinzugefügt; installiert über portmaster-installer.deb ohne hartcodierte Version</li>
+            <li>JoPDF zu Empfohlen (Office) als PDF-Editor hinzugefügt</li>
+            <li>qBittorrent und JDownloader zu Empfohlen (Dienstprogramme) via Flatpak hinzugefügt</li>
+            <li>PPSSPP zu Empfohlen (Gaming) und Gaming-Tab via Flatpak hinzugefügt; Post-Install-Skript verknüpft das Flatpak-Binary als PSP-Runner in Lutris</li>
+            <li>LACT und CoolerControl zu Empfohlen (Dienstprogramme) hinzugefügt; CoolerControl läuft als Root-AppImage mit WebApp-Verknüpfung zur Web-Oberfläche</li>
+            <li>MangoHud überarbeitet: Installation jetzt via Flatpak mit 6 Paketen: MangoHud, GOverlay, VulkanInfo, vkBasalt, gamescope, DXVK</li>
+            <li>Post-Install-Skript-System: Empfohlen und Gaming-Tab führen nach erfolgreichen Installationen optionale Skripte aus</li>
+            <li>Sicherheits-Tab: 48-px-Icons zu allen 14 Tools hinzugefügt mit zentriertem Layout wie Gaming- und Empfohlen-Tab</li>
+            <li>Sicherheits-Tab: "Portmaster öffnen"-Schaltfläche (gtk-launch mit Pfad-Fallback) und UFW-Konfliktwarnung wenn beide aktiv sind</li>
+            <li>Gaming-Tab: GeForce NOW WebApp-Launcher integriert mit Soplos WebApp Manager (Browser automatisch erkannt)</li>
+            <li>Gaming-Tab: Flatpak/AppImage/WebApp-Badges auf allen Launchern; Tooltips auf allen 7 Optimierungs-Schaltflächen</li>
+            <li>Gaming-Tab: MangoHud Flatpak-Paket-IDs auf exakt benötigte IDs korrigiert</li>
+            <li>Software-Tab (XFCE): GNOME Software installiert jetzt auch gnome-packagekit für den Panel-Update-Indikator</li>
+            <li>Übersetzungen: fehlende Strings für Sicherheits-Tab-Beschreibungen, Treiber-Status-Labels, Kernel-Beschreibung und App-Beschreibungen in allen 8 Sprachen hinzugefügt</li>
+          </ul>
+          <p>Korrekturen bei Hybrid-Grafik:</p>
+          <ul>
+            <li>NVIDIA Primary-Modus bootete nicht: Dracut-Konfigurationsdateien wurden vor der Initramfs-Regenerierung nicht erstellt, sodass das System ohne geladene NVIDIA-Module startete. Erstellt jetzt /etc/dracut.conf.d/nvidia.conf und blacklist-nouveau.conf vor dem Aufruf von dracut --force</li>
+            <li>PRIME Render Offload — KDE-Plasma-Korrektur: Das Skript generiert jetzt ~/.config/kdedefaults/kwinoutputconfig.json mit dem Intel-Anzeige-Connector, der dynamisch aus /sys/class/drm/ (eDP oder LVDS) erkannt wird, und setzt die Ausgabepriorität ohne hartcodierte Werte für Auflösung, Bildwiederholrate oder Skalierung. Läuft nur auf KDE-Plasma-Systemen (erkannt über EnvironmentDetector beim Start, nicht durch Binär-Suche)</li>
+          </ul>
+        </description>
+        <description xml:lang="pt">
+          <p>Melhorias no DaVinci Resolve e patches opcionais pós-instalação:</p>
+          <ul>
+            <li>Script MakeResolveDeb atualizado para a versão 1.9.0: adiciona suporte completo para DaVinci Resolve 21 e altera a compressão do .deb para xz</li>
+            <li>Novo patch opcional pós-instalação: microfone virtual PipeWire para sistemas sem dispositivo de captura de áudio</li>
+            <li>Novo patch opcional pós-instalação: suporte a GPU integrada AMD/Intel iGPU (pilha OpenCL, firmware i915, stub libProResRAW, patch do lançador, grupo render)</li>
+            <li>Novo diálogo pós-instalação com caixas de seleção para aplicar correções opcionais</li>
+          </ul>
+          <p>Reformulação da aba de controladores e correções do scanner de hardware:</p>
+          <ul>
+            <li>Corrigido o crash no arranque causado pelo registo de botões não inicializado e pela importação de subprocess em falta</li>
+            <li>Os 15 botões de controladores mostram agora o estado instalar/desinstalar e atualizam-se automaticamente após cada operação</li>
+            <li>Os botões NVIDIA 590 e 580 refletem agora corretamente o seu estado de instalação</li>
+            <li>Scanner de hardware corrigido para usar a API de deteção atualizada e mostra agora todas as secções com botões Instalar/Desinstalar</li>
+            <li>Deteção de VM no scanner: deteta VMware, VirtualBox e QEMU/KVM e mostra o estado das ferramentas de convidado</li>
+            <li>Adicionada a cadeia de tradução "Completar instalação" nos 8 idiomas</li>
+            <li>Novas apps: ProtonVPN (Segurança → VPN), ClamUI (Segurança → Antivírus), LACT (Controladores → AMD), Resources (Recomendados → Utilitários)</li>
+            <li>Portmaster adicionado ao separador Segurança (secção Firewall); instala via portmaster-installer.deb sem versão codificada</li>
+            <li>JoPDF adicionado aos Recomendados (Escritório) como editor de PDF</li>
+            <li>qBittorrent e JDownloader adicionados aos Recomendados (Utilitários) via Flatpak</li>
+            <li>PPSSPP adicionado aos Recomendados (Gaming) e ao separador Gaming via Flatpak; script pós-instalação liga o binário Flatpak como runner PSP no Lutris</li>
+            <li>LACT e CoolerControl adicionados aos Recomendados (Utilitários); CoolerControl corre como AppImage root com atalho WebApp para a interface web</li>
+            <li>MangoHud reformulado para instalar via Flatpak com 6 pacotes: MangoHud, GOverlay, VulkanInfo, vkBasalt, gamescope, DXVK</li>
+            <li>Sistema de scripts pós-instalação: os separadores Recomendados e Gaming executam agora scripts opcionais após instalações bem-sucedidas</li>
+            <li>Separador Segurança: ícones de 48 px adicionados a todas as 14 ferramentas com disposição centrada igual aos separadores Gaming e Recomendados</li>
+            <li>Separador Segurança: botão "Abrir Portmaster" (gtk-launch com fallback de caminho) e aviso de conflito UFW quando ambos estão ativos</li>
+            <li>Separador Gaming: launcher WebApp GeForce NOW integrado com Soplos WebApp Manager (navegador detetado automaticamente)</li>
+            <li>Separador Gaming: badges Flatpak/AppImage/WebApp em todos os launchers; dicas em todos os 7 botões de otimização</li>
+            <li>Separador Gaming: IDs de pacotes Flatpak do MangoHud corrigidos para os IDs exatos necessários</li>
+            <li>Separador Software (XFCE): GNOME Software agora também instala gnome-packagekit para o indicador de atualizações do painel</li>
+            <li>Traduções: strings em falta adicionadas para descrições do separador Segurança, etiquetas de estado de controladores, descrição do kernel e descrições de apps nos 8 idiomas</li>
+          </ul>
+          <p>Correções de gráficos híbridos:</p>
+          <ul>
+            <li>Corrigido o modo NVIDIA Primary que não arrancava: os ficheiros de configuração dracut não eram criados antes da regeneração do initramfs, fazendo o sistema arrancar sem os módulos NVIDIA carregados. Agora cria /etc/dracut.conf.d/nvidia.conf e blacklist-nouveau.conf antes de chamar dracut --force</li>
+            <li>PRIME Render Offload — correção para KDE Plasma: o script gera agora ~/.config/kdedefaults/kwinoutputconfig.json com o conector de ecrã Intel detetado dinamicamente a partir de /sys/class/drm/ (eDP ou LVDS), definindo a prioridade do output sem valores de resolução, taxa de atualização ou escala codificados. Só é executado em sistemas KDE Plasma (detetado via EnvironmentDetector no arranque, sem pesquisa de binários)</li>
+          </ul>
+        </description>
+        <description xml:lang="it">
+          <p>Miglioramenti a DaVinci Resolve e patch opzionali post-installazione:</p>
+          <ul>
+            <li>Script MakeResolveDeb aggiornato alla versione 1.9.0: aggiunge il supporto completo per DaVinci Resolve 21 e passa alla compressione xz per il .deb</li>
+            <li>Nuova patch opzionale post-installazione: microfono virtuale PipeWire per sistemi senza dispositivo di acquisizione audio</li>
+            <li>Nuova patch opzionale post-installazione: supporto GPU integrata AMD/Intel iGPU (stack OpenCL, firmware i915, stub libProResRAW, patch del launcher, gruppo render)</li>
+            <li>Nuova finestra di dialogo post-installazione con caselle di controllo per applicare correzioni opzionali</li>
+          </ul>
+          <p>Revisione della scheda driver e correzioni dello scanner hardware:</p>
+          <ul>
+            <li>Corretto il crash all'avvio causato dal registro dei pulsanti non inizializzato e dall'import subprocess mancante</li>
+            <li>Tutti i 15 pulsanti driver mostrano ora lo stato installa/disinstalla e si aggiornano automaticamente dopo ogni operazione</li>
+            <li>I pulsanti NVIDIA 590 e 580 riflettono ora correttamente il loro stato di installazione</li>
+            <li>Scanner hardware corretto per utilizzare l'API di rilevamento aggiornata e mostra ora tutte le sezioni con pulsanti Installa/Disinstalla</li>
+            <li>Rilevamento VM nello scanner: rileva VMware, VirtualBox e QEMU/KVM e mostra lo stato degli strumenti guest</li>
+            <li>Aggiunta la stringa di traduzione "Completa installazione" in tutte le 8 lingue</li>
+            <li>Nuove app: ProtonVPN (Sicurezza → VPN), ClamUI (Sicurezza → Antivirus), LACT (Driver → AMD), Resources (Consigliati → Utilità)</li>
+            <li>Portmaster aggiunto alla scheda Sicurezza (sezione Firewall); installa tramite portmaster-installer.deb senza versione hardcoded</li>
+            <li>JoPDF aggiunto ai Consigliati (Office) come editor PDF</li>
+            <li>qBittorrent e JDownloader aggiunti ai Consigliati (Utilità) via Flatpak</li>
+            <li>PPSSPP aggiunto ai Consigliati (Gaming) e alla scheda Gaming via Flatpak; script post-installazione collega il binario Flatpak come runner PSP in Lutris</li>
+            <li>LACT e CoolerControl aggiunti ai Consigliati (Utilità); CoolerControl gira come AppImage root con collegamento WebApp all'interfaccia web</li>
+            <li>MangoHud rielaborato per l'installazione via Flatpak con 6 pacchetti: MangoHud, GOverlay, VulkanInfo, vkBasalt, gamescope, DXVK</li>
+            <li>Sistema di script post-installazione: le schede Consigliati e Gaming eseguono ora script opzionali dopo installazioni riuscite</li>
+            <li>Scheda Sicurezza: icone da 48 px aggiunte a tutti i 14 strumenti con layout centrato uguale alle schede Gaming e Consigliati</li>
+            <li>Scheda Sicurezza: pulsante "Apri Portmaster" (gtk-launch con fallback percorso) e avviso di conflitto UFW quando entrambi sono attivi</li>
+            <li>Scheda Gaming: launcher WebApp GeForce NOW integrato con Soplos WebApp Manager (browser rilevato automaticamente)</li>
+            <li>Scheda Gaming: badge Flatpak/AppImage/WebApp su tutti i launcher; tooltip su tutti i 7 pulsanti di ottimizzazione</li>
+            <li>Scheda Gaming: ID pacchetti Flatpak MangoHud corretti agli ID esatti richiesti</li>
+            <li>Scheda Software (XFCE): GNOME Software ora installa anche gnome-packagekit per l'indicatore aggiornamenti del pannello</li>
+            <li>Traduzioni: stringhe mancanti aggiunte per le descrizioni della scheda Sicurezza, etichette stato driver, descrizione kernel e descrizioni app in tutte le 8 lingue</li>
+          </ul>
+          <p>Correzioni grafica ibrida:</p>
+          <ul>
+            <li>Corretto il modo NVIDIA Primary che non avviava: i file di configurazione dracut non venivano creati prima della rigenerazione dell'initramfs, causando l'avvio del sistema senza i moduli NVIDIA caricati. Ora crea /etc/dracut.conf.d/nvidia.conf e blacklist-nouveau.conf prima di chiamare dracut --force</li>
+            <li>PRIME Render Offload — correzione KDE Plasma: lo script ora genera ~/.config/kdedefaults/kwinoutputconfig.json con il connettore display Intel rilevato dinamicamente da /sys/class/drm/ (eDP o LVDS), impostando la priorità dell'output senza valori hardcoded per risoluzione, frequenza di aggiornamento o scala. Si esegue solo su sistemi KDE Plasma (rilevato tramite EnvironmentDetector all'avvio, senza ricerca di binari)</li>
+          </ul>
+        </description>
+        <description xml:lang="ru">
+          <p>Улучшения DaVinci Resolve и опциональные патчи после установки:</p>
+          <ul>
+            <li>Скрипт MakeResolveDeb обновлён до версии 1.9.0: добавлена полная поддержка DaVinci Resolve 21, сжатие .deb изменено на xz</li>
+            <li>Новый опциональный патч после установки: виртуальный микрофон PipeWire для систем без устройства захвата звука</li>
+            <li>Новый опциональный патч после установки: поддержка интегрированной GPU AMD/Intel iGPU (стек OpenCL, прошивка i915, заглушка libProResRAW, патч ярлыка запуска, группа render)</li>
+            <li>Новый диалог после установки с флажками для выбора и применения опциональных исправлений</li>
+          </ul>
+          <p>Переработка вкладки драйверов и исправления сканера оборудования:</p>
+          <ul>
+            <li>Исправлено аварийное завершение при запуске из-за неинициализированного реестра кнопок и отсутствующего импорта subprocess</li>
+            <li>Все 15 кнопок драйверов теперь отображают состояние установки/удаления и обновляются автоматически после каждой операции</li>
+            <li>Кнопки NVIDIA 590 и 580 теперь корректно отражают состояние установки</li>
+            <li>Исправлен сканер оборудования для использования обновлённого API обнаружения, теперь показывает все разделы с кнопками Установить/Удалить</li>
+            <li>Обнаружение ВМ в сканере: обнаруживает VMware, VirtualBox и QEMU/KVM и показывает состояние гостевых инструментов</li>
+            <li>Добавлена строка перевода "Завершить установку" на всех 8 языках</li>
+            <li>Новые приложения: ProtonVPN (Безопасность → VPN), ClamUI (Безопасность → Антивирус), LACT (Драйверы → AMD), Resources (Рекомендуемые → Утилиты)</li>
+            <li>Portmaster добавлен на вкладку Безопасность (раздел Брандмауэр); устанавливается через portmaster-installer.deb без жёстко заданной версии</li>
+            <li>JoPDF добавлен в Рекомендуемые (Офис) как редактор PDF</li>
+            <li>qBittorrent и JDownloader добавлены в Рекомендуемые (Утилиты) через Flatpak</li>
+            <li>PPSSPP добавлен в Рекомендуемые (Gaming) и на вкладку Gaming через Flatpak; скрипт после установки связывает бинарный файл Flatpak как runner PSP в Lutris</li>
+            <li>LACT и CoolerControl добавлены в Рекомендуемые (Утилиты); CoolerControl работает как AppImage с root правами с ярлыком WebApp на веб-интерфейс</li>
+            <li>MangoHud переработан: теперь устанавливается через Flatpak с 6 пакетами: MangoHud, GOverlay, VulkanInfo, vkBasalt, gamescope, DXVK</li>
+            <li>Система скриптов после установки: вкладки Рекомендуемые и Gaming теперь запускают дополнительные скрипты после успешных установок</li>
+            <li>Вкладка Безопасность: иконки 48 пкс добавлены ко всем 14 инструментам с центрированным расположением как на вкладках Gaming и Рекомендуемые</li>
+            <li>Вкладка Безопасность: кнопка "Открыть Portmaster" (gtk-launch с fallback по пути) и предупреждение о конфликте UFW когда оба активны</li>
+            <li>Вкладка Gaming: WebApp-лаунчер GeForce NOW интегрирован с Soplos WebApp Manager (браузер определяется автоматически)</li>
+            <li>Вкладка Gaming: значки Flatpak/AppImage/WebApp на всех лаунчерах; подсказки на всех 7 кнопках оптимизации</li>
+            <li>Вкладка Gaming: ID пакетов Flatpak MangoHud исправлены на точные требуемые ID</li>
+            <li>Вкладка Программы (XFCE): GNOME Software теперь также устанавливает gnome-packagekit для индикатора обновлений панели</li>
+            <li>Переводы: добавлены недостающие строки для описаний вкладки Безопасность, меток состояния драйверов, описания ядра и описаний приложений на всех 8 языках</li>
+          </ul>
+          <p>Исправления гибридной графики:</p>
+          <ul>
+            <li>Исправлен режим NVIDIA Primary, при котором система не загружалась: файлы конфигурации dracut не создавались до регенерации initramfs, из-за чего система загружалась без модулей NVIDIA. Теперь создаёт /etc/dracut.conf.d/nvidia.conf и blacklist-nouveau.conf перед вызовом dracut --force</li>
+            <li>PRIME Render Offload — исправление для KDE Plasma: скрипт теперь создаёт ~/.config/kdedefaults/kwinoutputconfig.json с разъёмом дисплея Intel, определяемым динамически из /sys/class/drm/ (eDP или LVDS), устанавливая приоритет вывода без жёстко заданных значений разрешения, частоты обновления или масштаба. Выполняется только на системах с KDE Plasma (определяется через EnvironmentDetector при запуске, без поиска бинарных файлов)</li>
+          </ul>
+        </description>
+        <description xml:lang="ro">
+          <p>Îmbunătățiri DaVinci Resolve și patch-uri opționale post-instalare:</p>
+          <ul>
+            <li>Script MakeResolveDeb actualizat la versiunea 1.9.0: adaugă suport complet pentru DaVinci Resolve 21 și schimbă compresia .deb la xz</li>
+            <li>Nou patch opțional post-instalare: microfon virtual PipeWire pentru sisteme fără dispozitiv de captură audio</li>
+            <li>Nou patch opțional post-instalare: suport GPU integrat AMD/Intel iGPU (stivă OpenCL, firmware i915, stub libProResRAW, patch lansator, grup render)</li>
+            <li>Nouă fereastră de dialog post-instalare cu casete de selectare pentru aplicarea corecțiilor opționale</li>
+          </ul>
+          <p>Rescrierea filei de drivere și corectări ale scanerului hardware:</p>
+          <ul>
+            <li>Remediat blocajul la pornire cauzat de registrul de butoane neinițializat și importul subprocess lipsă</li>
+            <li>Toate cele 15 butoane de drivere afișează acum starea instalare/dezinstalare și se actualizează automat după fiecare operație</li>
+            <li>Butoanele NVIDIA 590 și 580 reflectă acum corect starea lor de instalare</li>
+            <li>Scanner hardware corectat pentru a utiliza API-ul de detectare actualizat și afișează acum toate secțiunile cu butoane Instalare/Dezinstalare</li>
+            <li>Detectare VM în scanner: detectează VMware, VirtualBox și QEMU/KVM și afișează starea instrumentelor guest</li>
+            <li>Adăugat șirul de traducere "Completați instalarea" în toate cele 8 limbi</li>
+            <li>Aplicații noi: ProtonVPN (Securitate → VPN), ClamUI (Securitate → Antivirus), LACT (Drivere → AMD), Resources (Recomandate → Utilități)</li>
+            <li>Portmaster adăugat la fila Securitate (secțiunea Firewall); se instalează prin portmaster-installer.deb fără versiune codificată</li>
+            <li>JoPDF adăugat la Recomandate (Birou) ca editor PDF</li>
+            <li>qBittorrent și JDownloader adăugate la Recomandate (Utilități) prin Flatpak</li>
+            <li>PPSSPP adăugat la Recomandate (Gaming) și fila Gaming prin Flatpak; scriptul post-instalare leagă binarul Flatpak ca runner PSP în Lutris</li>
+            <li>LACT și CoolerControl adăugate la Recomandate (Utilități); CoolerControl rulează ca AppImage root cu comandă rapidă WebApp pentru interfața web</li>
+            <li>MangoHud refăcut pentru instalare prin Flatpak cu 6 pachete: MangoHud, GOverlay, VulkanInfo, vkBasalt, gamescope, DXVK</li>
+            <li>Sistem de scripturi post-instalare: filele Recomandate și Gaming execută acum scripturi opționale după instalări reușite</li>
+            <li>Fila Securitate: pictograme de 48 px adăugate la toate cele 14 instrumente cu aspect centrat identic cu filele Gaming și Recomandate</li>
+            <li>Fila Securitate: buton "Deschide Portmaster" (gtk-launch cu fallback de cale) și avertisment de conflict UFW când ambele sunt active</li>
+            <li>Fila Gaming: lansator WebApp GeForce NOW integrat cu Soplos WebApp Manager (browser detectat automat)</li>
+            <li>Fila Gaming: insigne Flatpak/AppImage/WebApp pe toate lansatoarele; sfaturi la toate cele 7 butoane de optimizare</li>
+            <li>Fila Gaming: ID-urile pachetelor Flatpak MangoHud corectate la ID-urile exacte necesare</li>
+            <li>Fila Software (XFCE): GNOME Software instalează acum și gnome-packagekit pentru indicatorul de actualizări al panoului</li>
+            <li>Traduceri: șiruri lipsă adăugate pentru descrierile filei Securitate, etichetele de stare ale driverelor, descrierea kernelului și descrierile aplicațiilor în toate cele 8 limbi</li>
+          </ul>
+          <p>Corecții grafică hibridă:</p>
+          <ul>
+            <li>Remediat modul NVIDIA Primary care nu pornea: fișierele de configurare dracut nu erau create înainte de regenerarea initramfs, determinând sistemul să pornească fără modulele NVIDIA încărcate. Acum creează /etc/dracut.conf.d/nvidia.conf și blacklist-nouveau.conf înainte de a apela dracut --force</li>
+            <li>PRIME Render Offload — corecție KDE Plasma: scriptul generează acum ~/.config/kdedefaults/kwinoutputconfig.json cu conectorul de afișaj Intel detectat dinamic din /sys/class/drm/ (eDP sau LVDS), setând prioritatea ieșirii fără valori hardcodate pentru rezoluție, rată de reîmprospătare sau scară. Se execută doar pe sisteme KDE Plasma (detectat prin EnvironmentDetector la lansare, nu prin căutare de binare)</li>
+          </ul>
+        </description>
+      </release>
+
+      <release version="2.0.8" date="2026-03-31">
+        <description>
+          <p>New features, UI fixes, 6 new recommended apps, and code quality improvements:</p>
+          <ul>
+            <li>Customization tab: Soplos tool buttons now detect if the tool is installed and offer installation with auto-launch</li>
+            <li>Recommended tab: added Bitwig Studio, Reaper, Zrythm, Ardour, Warehouse and PeaZip (all Flatpak)</li>
+            <li>Keyboard navigation: Ctrl+Shift+Tab for backward tab, F1 for About dialog</li>
+            <li>Fixed dark strip in About dialog on both dark and light themes</li>
+            <li>Welcome tab: added Security to features list, corrected icons and tab order</li>
+            <li>Removed demo code, fixed deprecated GTK calls, and removed placeholder texts</li>
+            <li>Updated translations in all 8 languages with new strings</li>
+          </ul>
+        </description>
+        <description xml:lang="es">
+          <p>Nuevas funcionalidades, correcciones de UI, 6 nuevas apps recomendadas y mejoras de calidad de código:</p>
+          <ul>
+            <li>Pestaña Personalización: los botones de herramientas Soplos detectan si están instaladas y ofrecen instalación con lanzamiento automático</li>
+            <li>Pestaña Recomendados: añadidos Bitwig Studio, Reaper, Zrythm, Ardour, Warehouse y PeaZip (todos Flatpak)</li>
+            <li>Navegación por teclado: Ctrl+Mayús+Tab para pestaña anterior, F1 para el diálogo Acerca de</li>
+            <li>Corregida la franja oscura en el diálogo Acerca de en temas oscuro y claro</li>
+            <li>Pestaña Bienvenida: añadida Seguridad a la lista de funciones, iconos y orden de pestañas corregidos</li>
+            <li>Eliminado código demo, corregidas llamadas GTK obsoletas y textos de marcador de posición</li>
+            <li>Traducciones actualizadas en los 8 idiomas con nuevas cadenas</li>
+          </ul>
+        </description>
+        <description xml:lang="fr">
+          <p>Nouvelles fonctionnalités, corrections UI, 6 nouvelles apps recommandées et améliorations de qualité du code :</p>
+          <ul>
+            <li>Onglet Personnalisation : les boutons des outils Soplos détectent si l'outil est installé et proposent l'installation avec lancement automatique</li>
+            <li>Onglet Recommandés : ajout de Bitwig Studio, Reaper, Zrythm, Ardour, Warehouse et PeaZip (tous Flatpak)</li>
+            <li>Navigation clavier : Ctrl+Maj+Tab pour l'onglet précédent, F1 pour la boîte de dialogue À propos</li>
+            <li>Correction de la bande sombre dans la boîte de dialogue À propos sur les thèmes sombre et clair</li>
+            <li>Onglet Bienvenue : ajout de Sécurité à la liste des fonctionnalités, icônes et ordre des onglets corrigés</li>
+            <li>Suppression du code de démo, correction des appels GTK obsolètes et des textes de remplacement</li>
+            <li>Traductions mises à jour dans les 8 langues avec de nouvelles chaînes</li>
+          </ul>
+        </description>
+        <description xml:lang="de">
+          <p>Neue Funktionen, UI-Korrekturen, 6 neue empfohlene Apps und Verbesserungen der Codequalität:</p>
+          <ul>
+            <li>Anpassungs-Tab: Soplos-Tool-Schaltflächen erkennen, ob das Tool installiert ist, und bieten Installation mit automatischem Start an</li>
+            <li>Empfehlungs-Tab: Bitwig Studio, Reaper, Zrythm, Ardour, Warehouse und PeaZip hinzugefügt (alle Flatpak)</li>
+            <li>Tastaturnavigation: Strg+Umschalt+Tab für vorherigen Tab, F1 für Info-Dialog</li>
+            <li>Dunkler Streifen im Info-Dialog bei dunklem und hellem Theme behoben</li>
+            <li>Willkommens-Tab: Sicherheit zur Funktionsliste hinzugefügt, Symbole und Tab-Reihenfolge korrigiert</li>
+            <li>Demo-Code entfernt, veraltete GTK-Aufrufe und Platzhaltertexte behoben</li>
+            <li>Übersetzungen in allen 8 Sprachen mit neuen Strings aktualisiert</li>
+          </ul>
+        </description>
+        <description xml:lang="pt">
+          <p>Novas funcionalidades, correções de UI, 6 novas apps recomendadas e melhorias de qualidade de código:</p>
+          <ul>
+            <li>Aba Personalização: os botões das ferramentas Soplos detetam se a ferramenta está instalada e oferecem instalação com lançamento automático</li>
+            <li>Aba Recomendados: adicionados Bitwig Studio, Reaper, Zrythm, Ardour, Warehouse e PeaZip (todos Flatpak)</li>
+            <li>Navegação por teclado: Ctrl+Shift+Tab para aba anterior, F1 para o diálogo Sobre</li>
+            <li>Corrigida a faixa escura no diálogo Sobre nos temas escuro e claro</li>
+            <li>Aba Boas-vindas: adicionada Segurança à lista de funcionalidades, ícones e ordem das abas corrigidos</li>
+            <li>Removido código de demonstração, corrigidas chamadas GTK obsoletas e textos de marcador</li>
+            <li>Traduções atualizadas nos 8 idiomas com novas cadeias</li>
+          </ul>
+        </description>
+        <description xml:lang="it">
+          <p>Nuove funzionalità, correzioni UI, 6 nuove app consigliate e miglioramenti della qualità del codice:</p>
+          <ul>
+            <li>Scheda Personalizzazione: i pulsanti degli strumenti Soplos rilevano se lo strumento è installato e offrono l'installazione con avvio automatico</li>
+            <li>Scheda Consigliati: aggiunti Bitwig Studio, Reaper, Zrythm, Ardour, Warehouse e PeaZip (tutti Flatpak)</li>
+            <li>Navigazione da tastiera: Ctrl+Maiusc+Tab per la scheda precedente, F1 per la finestra Informazioni</li>
+            <li>Corretto il bordo scuro nella finestra Informazioni nei temi scuro e chiaro</li>
+            <li>Scheda Benvenuto: aggiunta Sicurezza all'elenco delle funzionalità, icone e ordine delle schede corretti</li>
+            <li>Rimosso codice demo, corrette chiamate GTK obsolete e testi segnaposto</li>
+            <li>Traduzioni aggiornate in tutte le 8 lingue con nuove stringhe</li>
+          </ul>
+        </description>
+        <description xml:lang="ru">
+          <p>Новые функции, исправления интерфейса, 6 новых рекомендуемых приложений и улучшения качества кода:</p>
+          <ul>
+            <li>Вкладка Настройка: кнопки инструментов Soplos определяют наличие инструмента и предлагают установку с автозапуском</li>
+            <li>Вкладка Рекомендуемые: добавлены Bitwig Studio, Reaper, Zrythm, Ardour, Warehouse и PeaZip (все Flatpak)</li>
+            <li>Навигация с клавиатуры: Ctrl+Shift+Tab для предыдущей вкладки, F1 для диалога О программе</li>
+            <li>Исправлена тёмная полоса в диалоге О программе для тёмной и светлой тем</li>
+            <li>Вкладка Добро пожаловать: добавлена Безопасность в список функций, исправлены иконки и порядок вкладок</li>
+            <li>Удалён демонстрационный код, исправлены устаревшие вызовы GTK и тексты-заглушки</li>
+            <li>Переводы обновлены на всех 8 языках с новыми строками</li>
+          </ul>
+        </description>
+        <description xml:lang="ro">
+          <p>Funcționalități noi, corecturi UI, 6 aplicații noi recomandate și îmbunătățiri ale calității codului:</p>
+          <ul>
+            <li>Fila Personalizare: butoanele instrumentelor Soplos detectează dacă instrumentul este instalat și oferă instalare cu lansare automată</li>
+            <li>Fila Recomandate: adăugate Bitwig Studio, Reaper, Zrythm, Ardour, Warehouse și PeaZip (toate Flatpak)</li>
+            <li>Navigare cu tastatura: Ctrl+Shift+Tab pentru fila anterioară, F1 pentru dialogul Despre</li>
+            <li>Remediat bandoul întunecat din dialogul Despre pentru temele închis și deschis</li>
+            <li>Fila Bun venit: adăugată Securitate în lista de funcționalități, iconițe și ordine file corectate</li>
+            <li>Eliminat codul demo, corectate apeluri GTK învechite și texte de substituent</li>
+            <li>Traduceri actualizate în toate cele 8 limbi cu șiruri noi</li>
+          </ul>
+        </description>
+      </release>
       <release version="2.0.7-3" date="2026-03-24">
         <description>
           <p>NVIDIA 580 fix, hardware detection improvements, new tools and Flatpak updates:</p>
@@ -1546,6 +2303,199 @@
         </ul>
       </description>
     </release>
+
+    <release version="1.1.5" date="2025-09-08">
+      <description>
+        <p>Tyson-only release. Updated all welcome tab URL buttons to soplos.org, removed deprecated handler methods, updated Blender icon.</p>
+      </description>
+      <description xml:lang="es"><p>Versión exclusiva de Tyson. Actualizados todos los botones de URL de la pestaña de bienvenida a soplos.org, eliminados handlers obsoletos, actualizado icono de Blender.</p></description>
+      <description xml:lang="fr"><p>Version exclusive à Tyson. Mise à jour des URL de l'onglet Bienvenue vers soplos.org, suppression des handlers obsolètes, mise à jour de l'icône Blender.</p></description>
+      <description xml:lang="de"><p>Nur für Tyson. Alle URL-Schaltflächen im Willkommens-Tab auf soplos.org aktualisiert, veraltete Handler entfernt, Blender-Symbol aktualisiert.</p></description>
+      <description xml:lang="pt"><p>Versão exclusiva para Tyson. URLs do separador de boas-vindas atualizados para soplos.org, handlers obsoletos removidos, ícone Blender atualizado.</p></description>
+      <description xml:lang="it"><p>Versione esclusiva Tyson. URL della scheda Benvenuto aggiornati a soplos.org, handler obsoleti rimossi, icona Blender aggiornata.</p></description>
+      <description xml:lang="ru"><p>Только для Tyson. URL-кнопки вкладки приветствия обновлены до soplos.org, устаревшие обработчики удалены, иконка Blender обновлена.</p></description>
+      <description xml:lang="ro"><p>Versiune exclusivă Tyson. URL-urile tab-ului Bun venit actualizate la soplos.org, handlere depășite eliminate, pictogramă Blender actualizată.</p></description>
+    </release>
+
+    <release version="1.1.4" date="2025-09-08">
+      <description>
+        <p>Updated Blender icon. Fixed welcome tab link buttons (website, forums, wiki).</p>
+      </description>
+      <description xml:lang="es"><p>Icono de Blender actualizado. Corregidos los botones de enlace de la pestaña de bienvenida (web, foros, wiki).</p></description>
+      <description xml:lang="fr"><p>Icône Blender mise à jour. Correction des boutons de liens de l'onglet Bienvenue (site web, forums, wiki).</p></description>
+      <description xml:lang="de"><p>Blender-Symbol aktualisiert. Link-Schaltflächen im Willkommens-Tab korrigiert (Website, Foren, Wiki).</p></description>
+      <description xml:lang="pt"><p>Ícone do Blender atualizado. Botões de ligação do separador de boas-vindas corrigidos (site, fóruns, wiki).</p></description>
+      <description xml:lang="it"><p>Icona Blender aggiornata. Corretti i pulsanti link della scheda Benvenuto (sito web, forum, wiki).</p></description>
+      <description xml:lang="ru"><p>Обновлена иконка Blender. Исправлены кнопки ссылок во вкладке приветствия (сайт, форумы, вики).</p></description>
+      <description xml:lang="ro"><p>Pictogramă Blender actualizată. Corectate butoanele de linkuri ale tab-ului Bun venit (site web, forumuri, wiki).</p></description>
+    </release>
+
+    <release version="1.1.3" date="2025-07-28">
+      <description>
+        <p>Updated all translation dictionaries. Fixed several functions in the hardware detector. Updated all program icons.</p>
+      </description>
+      <description xml:lang="es"><p>Actualizados todos los diccionarios de traducción. Corregidas varias funciones en el detector de hardware. Actualizados todos los iconos del programa.</p></description>
+      <description xml:lang="fr"><p>Mise à jour de tous les dictionnaires de traduction. Correction de plusieurs fonctions dans le détecteur matériel. Mise à jour de toutes les icônes du programme.</p></description>
+      <description xml:lang="de"><p>Alle Übersetzungswörterbücher aktualisiert. Mehrere Funktionen im Hardware-Detektor korrigiert. Alle Programmsymbole aktualisiert.</p></description>
+      <description xml:lang="pt"><p>Todos os dicionários de tradução atualizados. Várias funções no detetor de hardware corrigidas. Todos os ícones do programa atualizados.</p></description>
+      <description xml:lang="it"><p>Tutti i dizionari di traduzione aggiornati. Corrette diverse funzioni nel rilevatore hardware. Tutte le icone del programma aggiornate.</p></description>
+      <description xml:lang="ru"><p>Обновлены все словари переводов. Исправлены несколько функций в детекторе оборудования. Обновлены все иконки программы.</p></description>
+      <description xml:lang="ro"><p>Toate dicționarele de traducere actualizate. Corectate mai multe funcții în detectorul de hardware. Toate pictogramele programului actualizate.</p></description>
+    </release>
+
+    <release version="1.1.2" date="2025-07-27">
+      <description><p>Changed program icon to a new design.</p></description>
+      <description xml:lang="es"><p>Icono del programa cambiado a un nuevo diseño.</p></description>
+      <description xml:lang="fr"><p>Icône du programme changée vers un nouveau design.</p></description>
+      <description xml:lang="de"><p>Programmsymbol auf neues Design geändert.</p></description>
+      <description xml:lang="pt"><p>Ícone do programa alterado para um novo design.</p></description>
+      <description xml:lang="it"><p>Icona del programma cambiata con un nuovo design.</p></description>
+      <description xml:lang="ru"><p>Иконка программы изменена на новый дизайн.</p></description>
+      <description xml:lang="ro"><p>Pictograma programului schimbată cu un design nou.</p></description>
+    </release>
+
+    <release version="1.1.1" date="2025-07-27">
+      <description>
+        <p>Fixed office install/uninstall button logic in the Recommended tab. Fixed hardware detector to always return the correct recommended driver for NVIDIA and other hardware.</p>
+      </description>
+      <description xml:lang="es"><p>Corregida la lógica de los botones instalar/desinstalar de oficina en la pestaña Recomendado. Corregido el detector de hardware para devolver siempre el driver recomendado correcto.</p></description>
+      <description xml:lang="fr"><p>Correction de la logique des boutons installer/désinstaller de bureau dans l'onglet Recommandé. Correction du détecteur matériel pour toujours renvoyer le pilote recommandé correct.</p></description>
+      <description xml:lang="de"><p>Logik der Office-Install/Deinstall-Schaltflächen im Empfohlen-Tab korrigiert. Hardware-Detektor korrigiert, um immer den richtigen empfohlenen Treiber zurückzugeben.</p></description>
+      <description xml:lang="pt"><p>Corrigida a lógica dos botões instalar/desinstalar de escritório no separador Recomendado. Corrigido o detetor de hardware para retornar sempre o driver recomendado correto.</p></description>
+      <description xml:lang="it"><p>Corretta la logica dei pulsanti installa/disinstalla office nella scheda Consigliati. Corretto il rilevatore hardware per restituire sempre il driver consigliato corretto.</p></description>
+      <description xml:lang="ru"><p>Исправлена логика кнопок установки/удаления офиса во вкладке Рекомендуемое. Исправлен детектор оборудования для правильного определения рекомендованного драйвера.</p></description>
+      <description xml:lang="ro"><p>Corectată logica butoanelor instalare/dezinstalare birou în tab-ul Recomandat. Corectat detectorul de hardware pentru a returna întotdeauna driver-ul recomandat corect.</p></description>
+    </release>
+
+    <release version="1.1.0" date="2025-07-25">
+      <description>
+        <p>Fixed Flatpak/Flathub installation bug: Flatpak applications can now be installed from Flathub without requiring administrator privileges. The Software Center correctly adds Flathub for the current user.</p>
+      </description>
+      <description xml:lang="es"><p>Corregido error de instalación de Flatpak/Flathub: las aplicaciones Flatpak ahora se pueden instalar desde Flathub sin privilegios de administrador. El Centro de Software añade Flathub correctamente para el usuario actual.</p></description>
+      <description xml:lang="fr"><p>Correction du bug d'installation Flatpak/Flathub : les applications Flatpak peuvent maintenant être installées depuis Flathub sans privilèges administrateur. Le Centre de Logiciels ajoute correctement Flathub pour l'utilisateur actuel.</p></description>
+      <description xml:lang="de"><p>Flatpak/Flathub-Installationsfehler behoben: Flatpak-Anwendungen können nun ohne Administratorrechte von Flathub installiert werden. Das Software-Center fügt Flathub korrekt für den aktuellen Benutzer hinzu.</p></description>
+      <description xml:lang="pt"><p>Corrigido erro de instalação Flatpak/Flathub: as aplicações Flatpak podem agora ser instaladas a partir do Flathub sem privilégios de administrador. O Centro de Software adiciona o Flathub corretamente para o utilizador atual.</p></description>
+      <description xml:lang="it"><p>Corretto bug di installazione Flatpak/Flathub: le applicazioni Flatpak possono ora essere installate da Flathub senza privilegi di amministratore. Il Centro Software aggiunge correttamente Flathub per l'utente corrente.</p></description>
+      <description xml:lang="ru"><p>Исправлена ошибка установки Flatpak/Flathub: приложения Flatpak теперь можно устанавливать с Flathub без прав администратора. Центр программ корректно добавляет Flathub для текущего пользователя.</p></description>
+      <description xml:lang="ro"><p>Corectat bug-ul de instalare Flatpak/Flathub: aplicațiile Flatpak pot fi acum instalate de pe Flathub fără privilegii de administrator. Centrul de Software adaugă corect Flathub pentru utilizatorul curent.</p></description>
+    </release>
+
+    <release version="1.0.9" date="2025-07-24">
+      <description><p>Fixed install buttons in the Software Center (now work correctly).</p></description>
+      <description xml:lang="es"><p>Corregidos los botones de instalación del Centro de Software (ahora funcionan correctamente).</p></description>
+      <description xml:lang="fr"><p>Correction des boutons d'installation dans le Centre de Logiciels (fonctionnent maintenant correctement).</p></description>
+      <description xml:lang="de"><p>Installationsschaltflächen im Software-Center korrigiert (funktionieren jetzt korrekt).</p></description>
+      <description xml:lang="pt"><p>Botões de instalação no Centro de Software corrigidos (funcionam agora corretamente).</p></description>
+      <description xml:lang="it"><p>Corretti i pulsanti di installazione nel Centro Software (ora funzionano correttamente).</p></description>
+      <description xml:lang="ru"><p>Исправлены кнопки установки в Центре программ (теперь работают корректно).</p></description>
+      <description xml:lang="ro"><p>Corectate butoanele de instalare în Centrul de Software (funcționează acum corect).</p></description>
+    </release>
+
+    <release version="1.0.8" date="2025-07-21">
+      <description>
+        <p>Improvements in QEMU/KVM integration. Enhanced NVIDIA driver detection and installation. Translation dictionary fragmented into per-language files. Full internationalization with 8 languages. Improved Recommended tab install/uninstall button logic. LibreWolf switched to Flatpak installation.</p>
+      </description>
+      <description xml:lang="es"><p>Mejoras en integración QEMU/KVM. Detección e instalación de drivers NVIDIA mejorada. Diccionario de traducciones fragmentado en archivos por idioma. Internacionalización completa en 8 idiomas. Lógica de botones de instalar/desinstalar en pestaña Recomendado mejorada. LibreWolf cambiado a instalación Flatpak.</p></description>
+      <description xml:lang="fr"><p>Améliorations de l'intégration QEMU/KVM. Détection et installation des pilotes NVIDIA améliorées. Dictionnaire de traductions fragmenté en fichiers par langue. Internationalisation complète en 8 langues. Logique des boutons installer/désinstaller dans l'onglet Recommandé améliorée. LibreWolf migré vers Flatpak.</p></description>
+      <description xml:lang="de"><p>Verbesserungen bei QEMU/KVM-Integration. Verbesserte NVIDIA-Treibererkennung und -Installation. Übersetzungswörterbuch in sprachspezifische Dateien aufgeteilt. Vollständige Internationalisierung mit 8 Sprachen. Verbesserte Logik der Schaltflächen im Empfohlen-Tab. LibreWolf auf Flatpak-Installation umgestellt.</p></description>
+      <description xml:lang="pt"><p>Melhorias na integração QEMU/KVM. Deteção e instalação de drivers NVIDIA melhorada. Dicionário de tradução fragmentado em ficheiros por idioma. Internacionalização completa em 8 idiomas. Lógica de botões instalar/desinstalar no separador Recomendado melhorada. LibreWolf migrado para Flatpak.</p></description>
+      <description xml:lang="it"><p>Miglioramenti nell'integrazione QEMU/KVM. Rilevamento e installazione driver NVIDIA migliorati. Dizionario di traduzione suddiviso in file per lingua. Internazionalizzazione completa in 8 lingue. Logica dei pulsanti installa/disinstalla nella scheda Consigliati migliorata. LibreWolf migrato a Flatpak.</p></description>
+      <description xml:lang="ru"><p>Улучшения интеграции QEMU/KVM. Улучшены обнаружение и установка драйверов NVIDIA. Словарь переводов разделён на файлы по языкам. Полная интернационализация на 8 языков. Улучшена логика кнопок установки/удаления во вкладке Рекомендуемое. LibreWolf переведён на установку через Flatpak.</p></description>
+      <description xml:lang="ro"><p>Îmbunătățiri în integrarea QEMU/KVM. Detectare și instalare drivere NVIDIA îmbunătățite. Dicționarul de traducere împărțit în fișiere pe limbă. Internaționalizare completă în 8 limbi. Logica butoanelor instala/dezinstala în tab-ul Recomandat îmbunătățită. LibreWolf migrat la instalare Flatpak.</p></description>
+    </release>
+
+    <release version="1.0.7" date="2025-07-18">
+      <description><p>Metainfo updated to comply with AppStream/DEP-11 standard. Minor documentation improvements.</p></description>
+      <description xml:lang="es"><p>Metainfo actualizado para cumplir con el estándar AppStream/DEP-11. Mejoras menores en la documentación.</p></description>
+      <description xml:lang="fr"><p>Metainfo mis à jour pour se conformer au standard AppStream/DEP-11. Améliorations mineures de la documentation.</p></description>
+      <description xml:lang="de"><p>Metainfo gemäß AppStream/DEP-11-Standard aktualisiert. Kleinere Dokumentationsverbesserungen.</p></description>
+      <description xml:lang="pt"><p>Metainfo atualizado para conformidade com o padrão AppStream/DEP-11. Melhorias menores na documentação.</p></description>
+      <description xml:lang="it"><p>Metainfo aggiornato per conformità con lo standard AppStream/DEP-11. Miglioramenti minori alla documentazione.</p></description>
+      <description xml:lang="ru"><p>Метаинформация обновлена для соответствия стандарту AppStream/DEP-11. Незначительные улучшения документации.</p></description>
+      <description xml:lang="ro"><p>Metainfo actualizat pentru conformitate cu standardul AppStream/DEP-11. Îmbunătățiri minore ale documentației.</p></description>
+    </release>
+
+    <release version="1.0.6" date="2025-05-20">
+      <description>
+        <p>Software Center improvements: detects installed programs, Midori replaced with Epiphany (GNOME Web), DaVinci Resolve replaced with Shotcut. Driver Center improved with optimized hardware detection.</p>
+      </description>
+      <description xml:lang="es"><p>Mejoras en el Centro de Software: detecta programas instalados, Midori sustituido por Epiphany (GNOME Web), DaVinci Resolve sustituido por Shotcut. Centro de Drivers mejorado con detección de hardware optimizada.</p></description>
+      <description xml:lang="fr"><p>Améliorations du Centre de Logiciels : détecte les programmes installés, Midori remplacé par Epiphany (GNOME Web), DaVinci Resolve remplacé par Shotcut. Centre de Pilotes amélioré avec détection matérielle optimisée.</p></description>
+      <description xml:lang="de"><p>Software-Center-Verbesserungen: Erkennt installierte Programme, Midori durch Epiphany (GNOME Web) ersetzt, DaVinci Resolve durch Shotcut ersetzt. Treiber-Center mit optimierter Hardware-Erkennung verbessert.</p></description>
+      <description xml:lang="pt"><p>Melhorias no Centro de Software: deteta programas instalados, Midori substituído por Epiphany (GNOME Web), DaVinci Resolve substituído por Shotcut. Centro de Drivers melhorado com deteção de hardware otimizada.</p></description>
+      <description xml:lang="it"><p>Miglioramenti al Centro Software: rileva i programmi installati, Midori sostituito con Epiphany (GNOME Web), DaVinci Resolve sostituito con Shotcut. Centro Driver migliorato con rilevamento hardware ottimizzato.</p></description>
+      <description xml:lang="ru"><p>Улучшения Центра программ: определяет установленные программы, Midori заменён на Epiphany (GNOME Web), DaVinci Resolve заменён на Shotcut. Центр драйверов улучшен с оптимизированным обнаружением оборудования.</p></description>
+      <description xml:lang="ro"><p>Îmbunătățiri Centru Software: detectează programele instalate, Midori înlocuit cu Epiphany (GNOME Web), DaVinci Resolve înlocuit cu Shotcut. Centrul de Drivere îmbunătățit cu detectare hardware optimizată.</p></description>
+    </release>
+
+    <release version="1.0.5" date="2025-05-08">
+      <description><p>Packaging fix: reverted App ID to com.soplos.welcome (dot notation). Packager block removed from main.py. Assets renamed back to com.soplos.welcome convention.</p></description>
+      <description xml:lang="es"><p>Corrección de empaquetado: App ID revertido a com.soplos.welcome (notación con punto). Bloque Packager eliminado de main.py. Assets renombrados de vuelta a la convención com.soplos.welcome.</p></description>
+      <description xml:lang="fr"><p>Correction d'empaquetage : App ID rétabli à com.soplos.welcome (notation pointée). Bloc Packager supprimé de main.py. Assets renommés selon la convention com.soplos.welcome.</p></description>
+      <description xml:lang="de"><p>Paketierungs-Fix: App-ID auf com.soplos.welcome zurückgesetzt (Punkt-Notation). Packager-Block aus main.py entfernt. Assets nach com.soplos.welcome-Konvention umbenannt.</p></description>
+      <description xml:lang="pt"><p>Correção de empacotamento: App ID revertido para com.soplos.welcome (notação com ponto). Bloco Packager removido de main.py. Assets renomeados de volta para a convenção com.soplos.welcome.</p></description>
+      <description xml:lang="it"><p>Correzione pacchettizzazione: App ID ripristinato a com.soplos.welcome (notazione con punto). Blocco Packager rimosso da main.py. Asset rinominati secondo la convenzione com.soplos.welcome.</p></description>
+      <description xml:lang="ru"><p>Исправление пакета: App ID возвращён к com.soplos.welcome (точечная нотация). Блок Packager удалён из main.py. Файлы переименованы обратно по соглашению com.soplos.welcome.</p></description>
+      <description xml:lang="ro"><p>Corecție ambalare: App ID revenit la com.soplos.welcome (notație cu punct). Bloc Packager eliminat din main.py. Fișiere redenumite înapoi la convenția com.soplos.welcome.</p></description>
+    </release>
+
+    <release version="1.0.4" date="2025-05-07">
+      <description><p>Packaging fix: autostart updated to copy the system desktop file instead of writing inline content. Desktop file references updated to com.soploswelcome (ID, icon, StartupWMClass).</p></description>
+      <description xml:lang="es"><p>Corrección de empaquetado: autoarranque actualizado para copiar el archivo de escritorio del sistema en lugar de escribir contenido inline. Referencias del archivo de escritorio actualizadas a com.soploswelcome.</p></description>
+      <description xml:lang="fr"><p>Correction d'empaquetage : autostart mis à jour pour copier le fichier bureau système au lieu d'écrire du contenu inline. Références du fichier bureau mises à jour vers com.soploswelcome.</p></description>
+      <description xml:lang="de"><p>Paketierungs-Fix: Autostart aktualisiert, um die System-Desktop-Datei zu kopieren statt Inline-Inhalt zu schreiben. Desktop-Datei-Referenzen auf com.soploswelcome aktualisiert.</p></description>
+      <description xml:lang="pt"><p>Correção de empacotamento: autostart atualizado para copiar o ficheiro de ambiente de trabalho do sistema em vez de escrever conteúdo inline. Referências do ficheiro de ambiente de trabalho atualizadas para com.soploswelcome.</p></description>
+      <description xml:lang="it"><p>Correzione pacchettizzazione: autostart aggiornato per copiare il file desktop di sistema invece di scrivere contenuto inline. Riferimenti del file desktop aggiornati a com.soploswelcome.</p></description>
+      <description xml:lang="ru"><p>Исправление пакета: автозапуск обновлён для копирования системного desktop-файла вместо записи inline-содержимого. Ссылки в desktop-файле обновлены до com.soploswelcome.</p></description>
+      <description xml:lang="ro"><p>Corecție ambalare: autostart actualizat pentru a copia fișierul desktop de sistem în loc să scrie conținut inline. Referințe fișier desktop actualizate la com.soploswelcome.</p></description>
+    </release>
+
+    <release version="1.0.3" date="2025-05-06">
+      <description><p>Packaging fix: Soplos Packager App ID initialization block injected into main.py for correct window manager integration.</p></description>
+      <description xml:lang="es"><p>Corrección de empaquetado: bloque de inicialización de App ID de Soplos Packager inyectado en main.py para correcta integración con el gestor de ventanas.</p></description>
+      <description xml:lang="fr"><p>Correction d'empaquetage : bloc d'initialisation App ID de Soplos Packager injecté dans main.py pour une intégration correcte avec le gestionnaire de fenêtres.</p></description>
+      <description xml:lang="de"><p>Paketierungs-Fix: Soplos Packager App-ID-Initialisierungsblock in main.py injiziert für korrekte Fenstermanager-Integration.</p></description>
+      <description xml:lang="pt"><p>Correção de empacotamento: bloco de inicialização de App ID do Soplos Packager injetado em main.py para integração correta com o gestor de janelas.</p></description>
+      <description xml:lang="it"><p>Correzione pacchettizzazione: blocco di inizializzazione App ID di Soplos Packager iniettato in main.py per una corretta integrazione con il gestore delle finestre.</p></description>
+      <description xml:lang="ru"><p>Исправление пакета: блок инициализации App ID Soplos Packager внедрён в main.py для корректной интеграции с оконным менеджером.</p></description>
+      <description xml:lang="ro"><p>Corecție ambalare: bloc de inițializare App ID Soplos Packager injectat în main.py pentru integrare corectă cu managerul de ferestre.</p></description>
+    </release>
+
+    <release version="1.0.2" date="2025-05-05">
+      <description><p>Packaging: renamed all assets from com.soplos.welcome to com.soploswelcome (dot removed) — desktop file, icons (all sizes), metainfo and pixmaps. App ID changed accordingly.</p></description>
+      <description xml:lang="es"><p>Empaquetado: todos los recursos renombrados de com.soplos.welcome a com.soploswelcome (punto eliminado) — archivo de escritorio, iconos (todos los tamaños), metainfo y pixmaps. App ID cambiado en consecuencia.</p></description>
+      <description xml:lang="fr"><p>Empaquetage : tous les assets renommés de com.soplos.welcome à com.soploswelcome (point supprimé) — fichier bureau, icônes (toutes tailles), metainfo et pixmaps. App ID modifié en conséquence.</p></description>
+      <description xml:lang="de"><p>Paketierung: Alle Assets von com.soplos.welcome in com.soploswelcome umbenannt (Punkt entfernt) — Desktop-Datei, Icons (alle Größen), Metainfo und Pixmaps. App-ID entsprechend geändert.</p></description>
+      <description xml:lang="pt"><p>Empacotamento: todos os recursos renomeados de com.soplos.welcome para com.soploswelcome (ponto removido) — ficheiro de ambiente de trabalho, ícones (todos os tamanhos), metainfo e pixmaps. App ID alterado em conformidade.</p></description>
+      <description xml:lang="it"><p>Pacchettizzazione: tutti gli asset rinominati da com.soplos.welcome a com.soploswelcome (punto rimosso) — file desktop, icone (tutte le dimensioni), metainfo e pixmaps. App ID modificato di conseguenza.</p></description>
+      <description xml:lang="ru"><p>Упаковка: все файлы переименованы с com.soplos.welcome на com.soploswelcome (точка убрана) — desktop-файл, иконки (все размеры), метаинфо и pixmaps. App ID изменён соответствующим образом.</p></description>
+      <description xml:lang="ro"><p>Ambalare: toate fișierele redenumite de la com.soplos.welcome la com.soploswelcome (punct eliminat) — fișier desktop, pictograme (toate dimensiunile), metainfo și pixmaps. App ID modificat corespunzător.</p></description>
+    </release>
+
+    <release version="1.0.1" date="2025-04-15">
+      <description><p>Fixed website button URL in the welcome tab to use the distro-specific link.</p></description>
+      <description xml:lang="es"><p>Corregida la URL del botón de sitio web en la pestaña de bienvenida para usar el enlace específico de la distro.</p></description>
+      <description xml:lang="fr"><p>Correction de l'URL du bouton site web dans l'onglet Bienvenue pour utiliser le lien spécifique à la distribution.</p></description>
+      <description xml:lang="de"><p>URL der Website-Schaltfläche im Willkommens-Tab korrigiert, um den distro-spezifischen Link zu verwenden.</p></description>
+      <description xml:lang="pt"><p>Corrigido o URL do botão do site no separador de boas-vindas para usar o link específico da distro.</p></description>
+      <description xml:lang="it"><p>Corretto l'URL del pulsante sito web nella scheda Benvenuto per usare il link specifico della distro.</p></description>
+      <description xml:lang="ru"><p>Исправлен URL кнопки сайта во вкладке приветствия — теперь использует ссылку для конкретного дистрибутива.</p></description>
+      <description xml:lang="ro"><p>Corectat URL-ul butonului site web în tab-ul Bun venit pentru a utiliza link-ul specific distribuției.</p></description>
+    </release>
+
+    <release version="1.0.0" date="2025-04-08">
+      <description>
+        <p>Initial release. Welcome screen for Soplos Linux with initial system setup, recommended software installation, desktop customization, and access to help resources. Multi-language support (8 languages).</p>
+      </description>
+      <description xml:lang="es"><p>Lanzamiento inicial. Pantalla de bienvenida para Soplos Linux con configuración inicial del sistema, instalación de software recomendado, personalización del escritorio y acceso a recursos de ayuda. Soporte multilingüe (8 idiomas).</p></description>
+      <description xml:lang="fr"><p>Version initiale. Écran de bienvenue pour Soplos Linux avec configuration initiale du système, installation de logiciels recommandés, personnalisation du bureau et accès aux ressources d'aide. Support multilingue (8 langues).</p></description>
+      <description xml:lang="de"><p>Erstveröffentlichung. Willkommensbildschirm für Soplos Linux mit erster Systemkonfiguration, Installation empfohlener Software, Desktop-Anpassung und Zugang zu Hilfsressourcen. Mehrsprachige Unterstützung (8 Sprachen).</p></description>
+      <description xml:lang="pt"><p>Lançamento inicial. Ecrã de boas-vindas para Soplos Linux com configuração inicial do sistema, instalação de software recomendado, personalização do ambiente de trabalho e acesso a recursos de ajuda. Suporte multilingue (8 idiomas).</p></description>
+      <description xml:lang="it"><p>Versione iniziale. Schermata di benvenuto per Soplos Linux con configurazione iniziale del sistema, installazione software consigliato, personalizzazione desktop e accesso alle risorse di aiuto. Supporto multilingue (8 lingue).</p></description>
+      <description xml:lang="ru"><p>Первый выпуск. Экран приветствия для Soplos Linux с начальной настройкой системы, установкой рекомендуемого ПО, настройкой рабочего стола и доступом к справочным ресурсам. Поддержка 8 языков.</p></description>
+      <description xml:lang="ro"><p>Lansare inițială. Ecran de bun venit pentru Soplos Linux cu configurare inițială a sistemului, instalare software recomandat, personalizare desktop și acces la resurse de ajutor. Suport multilingv (8 limbi).</p></description>
+    </release>
+
   </releases>
 
   <content_rating type="oars-1.1" />
