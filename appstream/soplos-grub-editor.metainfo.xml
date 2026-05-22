@@ -194,7 +194,7 @@
   <url type="homepage">https://soplos.org</url>
   <url type="bugtracker">https://github.com/SoplosLinux/soplos-grub-editor/issues</url>
   <url type="donation">https://paypal.me/isubdes</url>
-  <url type="contact">https://soplos.org/forums</url>
+  <url type="contact">https://forums.soplos.org</url>
   <url type="vcs-browser">https://github.com/SoplosLinux/tyron</url>
 
   <developer id="org.soploslinux">
@@ -217,6 +217,18 @@
   </provides>
 
   <releases>
+    <release version="2.0.2-4" date="2026-05-22">
+      <description>
+        <p xml:lang="en">Aligned Tyson legacy 1.x release timeline to correct July 2025 timestamps and cleaned up obsolete metadata tags in metainfo.xml.</p>
+        <p xml:lang="es">Se ha alineado el cronograma de la rama legacy Tyson 1.x a las fechas correctas de julio de 2025 y se han eliminado elementos obsoletos de metainfo.xml.</p>
+        <p xml:lang="fr">Alignement de la chronologie des versions Tyson legacy 1.x sur les horodatages corrects de juillet 2025 et nettoyage des balises de métadonnées obsolètes dans metainfo.xml.</p>
+        <p xml:lang="pt">Alinhamento do cronograma de lançamento legacy Tyson 1.x para corrigir datas de julho de 2025 e limpeza de tags metainfo obsoletas em metainfo.xml.</p>
+        <p xml:lang="de">Tyson Legacy 1.x Veröffentlichungs-Zeitachse an korrekte Juli 2025 Zeitstempel angepasst und veraltete Metadaten-Tags in metainfo.xml bereinigt.</p>
+        <p xml:lang="it">Allineata la cronologia di rilascio legacy Tyson 1.x alle date corrette di luglio 2025 e ripuliti i tag di metadati obsoleti in metainfo.xml.</p>
+        <p xml:lang="ru">Выровнена временная шкала релизов Tyson legacy 1.x до правильных меток июля 2025 года и очищены устаревшие теги метаданных в metainfo.xml.</p>
+        <p xml:lang="ro">S-a aliniat cronologia de lansare legacy Tyson 1.x la marcajele temporale corecte din iulie 2025 și s-au curățat etichetele de metadate învechite în metainfo.xml.</p>
+      </description>
+    </release>
     <release version="2.0.2-3" date="2026-05-18">
       <description>
         <p>Historical correction of Tyron legacy versioning: the August 2025 package mislabelled as 1.0.4 is now correctly documented as 1.0.9; the original Tyron 1.0.4 from May 2025 has been restored to the changelog.</p>
@@ -464,173 +476,6 @@
           <li xml:lang="it">Opzione di controllo UUID</li>
           <li xml:lang="ru">Опция управления UUID</li>
           <li xml:lang="ro">Opțiune de control UUID</li>
-        </ul>
-      </description>
-    </release>
-    <release version="1.0.9" date="2025-08-03">
-      <description>
-        <p>Tyron branch — Complete internationalisation via translations/strings.py and app_locale/, full Tyron desktop integration, massive asset optimisation and authorship update. Note: published under the label 1.0.4 by packaging error.</p>
-        <p xml:lang="en">Tyron branch — Complete internationalisation via translations/strings.py and app_locale/, full Tyron desktop integration, massive asset optimisation and authorship update. Note: published under the label 1.0.4 by packaging error.</p>
-        <p xml:lang="es">Rama Tyron — Internacionalización completa via translations/strings.py y app_locale/, integración total con el escritorio Tyron, optimización masiva de assets y actualización de autoría. Nota: publicada con la etiqueta 1.0.4 por error de empaquetado.</p>
-        <p xml:lang="fr">Branche Tyron — Internationalisation complète via translations/strings.py et app_locale/, intégration complète au bureau Tyron, optimisation massive des ressources et mise à jour de l'auteur. Note : publiée sous l'étiquette 1.0.4 par erreur de packaging.</p>
-        <p xml:lang="pt">Ramo Tyron — Internacionalização completa via translations/strings.py e app_locale/, integração total com o ambiente Tyron, otimização massiva de recursos e atualização de autoria. Nota: publicada sob a etiqueta 1.0.4 por erro de empacotamento.</p>
-        <p xml:lang="de">Tyron-Zweig — Vollständige Internationalisierung via translations/strings.py und app_locale/, vollständige Tyron-Desktop-Integration, massive Asset-Optimierung und Autorschaft-Aktualisierung. Hinweis: durch Packaging-Fehler unter dem Label 1.0.4 veröffentlicht.</p>
-        <p xml:lang="it">Ramo Tyron — Internazionalizzazione completa via translations/strings.py e app_locale/, integrazione completa con il desktop Tyron, ottimizzazione massiva delle risorse e aggiornamento autore. Nota: pubblicata sotto l'etichetta 1.0.4 per errore di packaging.</p>
-        <p xml:lang="ru">Ветка Tyron — Полная интернационализация через translations/strings.py и app_locale/, полная интеграция с рабочим столом Tyron, масштабная оптимизация ресурсов и обновление авторства. Примечание: опубликована под меткой 1.0.4 из-за ошибки упаковки.</p>
-        <p xml:lang="ro">Ramura Tyron — Internaționalizare completă via translations/strings.py și app_locale/, integrare completă cu desktopul Tyron, optimizare masivă de resurse și actualizare autor. Notă: publicată sub eticheta 1.0.4 din cauza unei erori de ambalare.</p>
-        <ul>
-          <li>8 languages natively supported via translations/strings.py and app_locale/</li>
-          <li xml:lang="es">8 idiomas soportados nativamente via translations/strings.py y app_locale/</li>
-          <li xml:lang="fr">8 langues supportées nativement via translations/strings.py et app_locale/</li>
-          <li xml:lang="pt">8 idiomas suportados nativamente via translations/strings.py e app_locale/</li>
-          <li xml:lang="de">8 Sprachen nativ unterstützt über translations/strings.py und app_locale/</li>
-          <li xml:lang="it">8 lingue supportate nativamente via translations/strings.py e app_locale/</li>
-          <li xml:lang="ru">8 языков нативно поддерживаются через translations/strings.py и app_locale/</li>
-          <li xml:lang="ro">8 limbi suportate nativ prin translations/strings.py și app_locale/</li>
-
-          <li>Full Tyron desktop integration with window manager and taskbars</li>
-          <li xml:lang="es">Integración total con el gestor de ventanas y barras de tareas de Tyron</li>
-          <li xml:lang="fr">Intégration complète avec le gestionnaire de fenêtres et les barres de tâches de Tyron</li>
-          <li xml:lang="pt">Integração total com o gestor de janelas e barras de tarefas do Tyron</li>
-          <li xml:lang="de">Vollständige Tyron-Desktop-Integration mit Fenstermanager und Taskleisten</li>
-          <li xml:lang="it">Integrazione completa con il gestore finestre e le barre delle applicazioni di Tyron</li>
-          <li xml:lang="ru">Полная интеграция с оконным менеджером и панелями задач Tyron</li>
-          <li xml:lang="ro">Integrare completă cu managerul de ferestre și barele de sarcini Tyron</li>
-
-          <li>Massive optimisation of screenshots and icon assets; multi-size packaging (48x48, 64x64, 128x128)</li>
-          <li xml:lang="es">Optimización masiva de capturas de pantalla y assets de iconos; empaquetado multi-tamaño (48x48, 64x64, 128x128)</li>
-          <li xml:lang="fr">Optimisation massive des captures d'écran et icônes ; packaging multi-taille (48x48, 64x64, 128x128)</li>
-          <li xml:lang="pt">Otimização massiva de capturas de ecrã e ícones; packaging multi-tamanho (48x48, 64x64, 128x128)</li>
-          <li xml:lang="de">Massive Optimierung von Screenshots und Icon-Assets; Multi-Größen-Packaging (48x48, 64x64, 128x128)</li>
-          <li xml:lang="it">Ottimizzazione massiva di screenshot e icone; packaging multi-dimensione (48x48, 64x64, 128x128)</li>
-          <li xml:lang="ru">Масштабная оптимизация скриншотов и иконок; многоразмерная упаковка (48x48, 64x64, 128x128)</li>
-          <li xml:lang="ro">Optimizare masivă a capturilor de ecran și pictogramelor; ambalare multi-dimensiune (48x48, 64x64, 128x128)</li>
-        </ul>
-      </description>
-    </release>
-    <release version="1.0.4" date="2025-05-07">
-      <description>
-        <p>Tyron branch — Original May 2025 release. Package unavailable: the .deb was overwritten and lost when a packaging error in August 2025 reused this version number (see 1.0.9).</p>
-        <p xml:lang="en">Tyron branch — Original May 2025 release. Package unavailable: the .deb was overwritten and lost when a packaging error in August 2025 reused this version number (see 1.0.9).</p>
-        <p xml:lang="es">Rama Tyron — Versión original de mayo 2025. Paquete no disponible: el .deb fue sobreescrito y perdido cuando un error de empaquetado en agosto 2025 reutilizó este número de versión (véase 1.0.9).</p>
-        <p xml:lang="fr">Branche Tyron — Version originale de mai 2025. Paquet indisponible : le .deb a été écrasé et perdu lorsqu'une erreur de packaging en août 2025 a réutilisé ce numéro de version (voir 1.0.9).</p>
-        <p xml:lang="pt">Ramo Tyron — Versão original de maio 2025. Pacote indisponível: o .deb foi sobrescrito e perdido quando um erro de empacotamento em agosto 2025 reutilizou este número de versão (ver 1.0.9).</p>
-        <p xml:lang="de">Tyron-Zweig — Originalversion Mai 2025. Paket nicht verfügbar: Die .deb-Datei wurde überschrieben und verloren, als ein Packaging-Fehler im August 2025 diese Versionsnummer wiederverwendete (siehe 1.0.9).</p>
-        <p xml:lang="it">Ramo Tyron — Versione originale maggio 2025. Pacchetto non disponibile: il .deb è stato sovrascritto e perso quando un errore di packaging nell'agosto 2025 ha riutilizzato questo numero di versione (vedi 1.0.9).</p>
-        <p xml:lang="ru">Ветка Tyron — Оригинальный выпуск мая 2025. Пакет недоступен: файл .deb был перезаписан и утерян, когда ошибка упаковки в августе 2025 повторно использовала этот номер версии (см. 1.0.9).</p>
-        <p xml:lang="ro">Ramura Tyron — Versiunea originală din mai 2025. Pachet indisponibil: fișierul .deb a fost suprascris și pierdut când o eroare de ambalare în august 2025 a reutilizat acest număr de versiune (a se vedea 1.0.9).</p>
-      </description>
-    </release>
-    <release version="1.0.3" date="2025-05-06">
-      <description>
-        <p>Tyron branch — Metainfo update for AppStream/DEP-11 compliance, no functional changes. Tyson branch 1.0.3 (2025-07-15): final metainfo corrections for software center visibility.</p>
-        <p xml:lang="es">Rama Tyron — Actualización de metainfo para cumplir con AppStream/DEP-11, sin cambios funcionales. Rama Tyson 1.0.3 (2025-07-15): correcciones finales de metainfo para visibilidad en centros de software.</p>
-        <p xml:lang="fr">Branche Tyron — Mise à jour du metainfo pour la conformité AppStream/DEP-11, sans changements fonctionnels. Branche Tyson 1.0.3 (2025-07-15) : corrections finales du metainfo pour la visibilité dans les centres logiciels.</p>
-        <p xml:lang="pt">Ramo Tyron — Atualização de metainfo para conformidade AppStream/DEP-11, sem alterações funcionais. Ramo Tyson 1.0.3 (2025-07-15): correções finais de metainfo para visibilidade nos centros de software.</p>
-        <p xml:lang="de">Tyron-Zweig — Metainfo-Aktualisierung für AppStream/DEP-11-Konformität, keine funktionalen Änderungen. Tyson-Zweig 1.0.3 (2025-07-15): Abschließende Metainfo-Korrekturen für die Sichtbarkeit in Software-Centern.</p>
-        <p xml:lang="it">Ramo Tyron — Aggiornamento metainfo per conformità AppStream/DEP-11, nessuna modifica funzionale. Ramo Tyson 1.0.3 (2025-07-15): correzioni finali al metainfo per la visibilità nei centri software.</p>
-        <p xml:lang="ru">Ветка Tyron — Обновление метаинформации для соответствия AppStream/DEP-11, без функциональных изменений. Ветка Tyson 1.0.3 (2025-07-15): окончательные исправления метаинформации для видимости в центрах программ.</p>
-        <p xml:lang="ro">Ramura Tyron — Actualizare metainfo pentru conformitate AppStream/DEP-11, fără modificări funcționale. Ramura Tyson 1.0.3 (2025-07-15): corecții finale metainfo pentru vizibilitate în centrele de software.</p>
-      </description>
-    </release>
-    <release version="1.0.2" date="2025-05-05">
-      <description>
-        <p>Tyron branch — Internal strings refactoring: UI strings extracted to strings.py, application ID changed. Tyson branch 1.0.2 (2025-06-24): complete internationalisation with 8 languages and Plasma Discover compatibility.</p>
-        <p xml:lang="es">Rama Tyron — Refactorización interna de cadenas: cadenas de UI extraídas a strings.py, ID de aplicación cambiado. Rama Tyson 1.0.2 (2025-06-24): internacionalización completa con 8 idiomas y compatibilidad con Plasma Discover.</p>
-        <p xml:lang="fr">Branche Tyron — Refactorisation interne des chaînes : chaînes UI extraites vers strings.py, ID d'application modifié. Branche Tyson 1.0.2 (2025-06-24) : internationalisation complète avec 8 langues et compatibilité Plasma Discover.</p>
-        <p xml:lang="pt">Ramo Tyron — Refatoração interna de strings: strings da UI extraídas para strings.py, ID de aplicativo alterado. Ramo Tyson 1.0.2 (2025-06-24): internacionalização completa com 8 idiomas e compatibilidade com Plasma Discover.</p>
-        <p xml:lang="de">Tyron-Zweig — Interne String-Refaktorierung: UI-Strings nach strings.py extrahiert, Anwendungs-ID geändert. Tyson-Zweig 1.0.2 (2025-06-24): vollständige Internationalisierung mit 8 Sprachen und Plasma Discover-Kompatibilität.</p>
-        <p xml:lang="it">Ramo Tyron — Refactoring interno delle stringhe: stringhe UI estratte in strings.py, ID applicazione modificato. Ramo Tyson 1.0.2 (2025-06-24): internazionalizzazione completa con 8 lingue e compatibilità Plasma Discover.</p>
-        <p xml:lang="ru">Ветка Tyron — Рефакторинг внутренних строк: строки UI извлечены в strings.py, изменён идентификатор приложения. Ветка Tyson 1.0.2 (2025-06-24): полная интернационализация с 8 языками и совместимость с Plasma Discover.</p>
-        <p xml:lang="ro">Ramura Tyron — Refactorizare internă a șirurilor: șiruri UI extrase în strings.py, ID aplicație schimbat. Ramura Tyson 1.0.2 (2025-06-24): internaționalizare completă cu 8 limbi și compatibilitate Plasma Discover.</p>
-      </description>
-    </release>
-    <release version="1.0.1" date="2025-04-25">
-      <description>
-        <p>Tyron branch — Improved font conversion pipeline, better error handling and UI responsiveness fixes. Tyson branch 1.0.1 (2025-06-15): same improvements ported to the Plasma build.</p>
-        <p xml:lang="es">Rama Tyron — Mejora del pipeline de conversión de fuentes, mejor gestión de errores y correcciones de respuesta de la interfaz. Rama Tyson 1.0.1 (2025-06-15): las mismas mejoras portadas a la compilación Plasma.</p>
-        <p xml:lang="fr">Branche Tyron — Amélioration du pipeline de conversion de polices, meilleure gestion des erreurs et corrections de la réactivité de l'interface. Branche Tyson 1.0.1 (2025-06-15) : mêmes améliorations portées sur la compilation Plasma.</p>
-        <p xml:lang="pt">Ramo Tyron — Pipeline de conversão de fontes aprimorado, melhor tratamento de erros e correções de responsividade da interface. Ramo Tyson 1.0.1 (2025-06-15): mesmas melhorias portadas para a compilação Plasma.</p>
-        <p xml:lang="de">Tyron-Zweig — Verbesserte Font-Konvertierungs-Pipeline, bessere Fehlerbehandlung und UI-Reaktionsfähigkeitskorrekturen. Tyson-Zweig 1.0.1 (2025-06-15): Gleiche Verbesserungen für den Plasma-Build portiert.</p>
-        <p xml:lang="it">Ramo Tyron — Pipeline di conversione font migliorata, migliore gestione degli errori e correzioni della reattività dell'interfaccia. Ramo Tyson 1.0.1 (2025-06-15): stessi miglioramenti portati sulla build Plasma.</p>
-        <p xml:lang="ru">Ветка Tyron — Улучшенный конвейер конвертации шрифтов, улучшенная обработка ошибок и исправления отзывчивости интерфейса. Ветка Tyson 1.0.1 (2025-06-15): те же улучшения портированы на сборку Plasma.</p>
-        <p xml:lang="ro">Ramura Tyron — Pipeline de conversie fonturi îmbunătățit, gestionare mai bună a erorilor și corecții de reactivitate a interfeței. Ramura Tyson 1.0.1 (2025-06-15): aceleași îmbunătățiri portate pe build-ul Plasma.</p>
-        <ul>
-          <li>More robust TTF/OTF to PF2 conversion</li>
-          <li xml:lang="es">Conversión TTF/OTF a PF2 más robusta</li>
-          <li xml:lang="fr">Conversion TTF/OTF vers PF2 plus robuste</li>
-          <li xml:lang="pt">Conversão TTF/OTF para PF2 mais robusta</li>
-          <li xml:lang="de">Robustere TTF/OTF-zu-PF2-Konvertierung</li>
-          <li xml:lang="it">Conversione TTF/OTF in PF2 più robusta</li>
-          <li xml:lang="ru">Более надёжная конвертация TTF/OTF в PF2</li>
-          <li xml:lang="ro">Conversie TTF/OTF la PF2 mai robustă</li>
-
-          <li>Fixed permission issues in /boot/grub/fonts/</li>
-          <li xml:lang="es">Corrección de problemas de permisos en /boot/grub/fonts/</li>
-          <li xml:lang="fr">Correction des problèmes de permissions dans /boot/grub/fonts/</li>
-          <li xml:lang="pt">Correção de problemas de permissão em /boot/grub/fonts/</li>
-          <li xml:lang="de">Berechtigungsprobleme in /boot/grub/fonts/ behoben</li>
-          <li xml:lang="it">Corretti problemi di permessi in /boot/grub/fonts/</li>
-          <li xml:lang="ru">Исправлены проблемы с правами доступа в /boot/grub/fonts/</li>
-          <li xml:lang="ro">Probleme de permisiuni în /boot/grub/fonts/ rezolvate</li>
-
-          <li>Fixed UI crashes when loading large themes</li>
-          <li xml:lang="es">Corrección de cierres de la interfaz al cargar temas grandes</li>
-          <li xml:lang="fr">Correction des plantages de l'interface lors du chargement de grands thèmes</li>
-          <li xml:lang="pt">Correção de falhas na interface ao carregar temas grandes</li>
-          <li xml:lang="de">Abstürze der Benutzeroberfläche beim Laden großer Themes behoben</li>
-          <li xml:lang="it">Corretti i crash dell'interfaccia durante il caricamento di temi grandi</li>
-          <li xml:lang="ru">Исправлены сбои интерфейса при загрузке больших тем</li>
-          <li xml:lang="ro">Corectat blocarea interfeței la încărcarea temelor mari</li>
-        </ul>
-      </description>
-    </release>
-    <release version="1.0.0" date="2025-04-13">
-      <description>
-        <p>Initial Tyron release — full GTK3 GRUB2 editor with theme management, font conversion, background configuration, boot entry management and advanced kernel parameters. Tyson branch 1.0.0 (2025-05-09): same feature set ported to Plasma 6 + Wayland.</p>
-        <p xml:lang="es">Lanzamiento inicial de Tyron — editor GTK3 completo para GRUB2 con gestión de temas, conversión de fuentes, configuración de fondo, gestión de entradas de arranque y parámetros avanzados del kernel. Rama Tyson 1.0.0 (2025-05-09): el mismo conjunto de características portado a Plasma 6 + Wayland.</p>
-        <p xml:lang="fr">Version initiale Tyron — éditeur GTK3 complet pour GRUB2 avec gestion des thèmes, conversion de polices, configuration de fond, gestion des entrées de démarrage et paramètres avancés du noyau. Branche Tyson 1.0.0 (2025-05-09) : même ensemble de fonctionnalités porté sur Plasma 6 + Wayland.</p>
-        <p xml:lang="pt">Lançamento inicial Tyron — editor GTK3 completo para GRUB2 com gestão de temas, conversão de fontes, configuração de fundo, gestão de entradas de inicialização e parâmetros avançados do kernel. Ramo Tyson 1.0.0 (2025-05-09): mesmo conjunto de recursos portado para Plasma 6 + Wayland.</p>
-        <p xml:lang="de">Erstveröffentlichung Tyron — vollständiger GTK3-Editor für GRUB2 mit Theme-Verwaltung, Schriftart-Konvertierung, Hintergrundkonfiguration, Boot-Eintragsverwaltung und erweiterten Kernel-Parametern. Tyson-Zweig 1.0.0 (2025-05-09): Gleicher Funktionsumfang auf Plasma 6 + Wayland portiert.</p>
-        <p xml:lang="it">Versione iniziale Tyron — editor GTK3 completo per GRUB2 con gestione temi, conversione font, configurazione sfondo, gestione voci di avvio e parametri kernel avanzati. Ramo Tyson 1.0.0 (2025-05-09): stesso set di funzionalità portato su Plasma 6 + Wayland.</p>
-        <p xml:lang="ru">Первоначальный выпуск Tyron — полноценный редактор GTK3 для GRUB2 с управлением темами, конвертацией шрифтов, настройкой фона, управлением загрузочными записями и расширенными параметрами ядра. Ветка Tyson 1.0.0 (2025-05-09): тот же набор функций портирован на Plasma 6 + Wayland.</p>
-        <p xml:lang="ro">Lansare inițială Tyron — editor GTK3 complet pentru GRUB2 cu gestionarea temelor, conversia fonturilor, configurarea fundalului, gestionarea intrărilor de pornire și parametri kernel avansați. Ramura Tyson 1.0.0 (2025-05-09): același set de funcții portat pe Plasma 6 + Wayland.</p>
-        <ul>
-          <li>Complete GRUB2 configuration management</li>
-          <li xml:lang="es">Gestión completa de configuración GRUB2</li>
-          <li xml:lang="fr">Gestion complète de la configuration GRUB2</li>
-          <li xml:lang="pt">Gestão completa de configuração GRUB2</li>
-          <li xml:lang="de">Vollständige GRUB2-Konfigurationsverwaltung</li>
-          <li xml:lang="it">Gestione completa della configurazione GRUB2</li>
-          <li xml:lang="ru">Полное управление конфигурацией GRUB2</li>
-          <li xml:lang="ro">Gestionare completă a configurației GRUB2</li>
-
-          <li>Theme management, font conversion (TTF/OTF to PF2) and background configuration</li>
-          <li xml:lang="es">Gestión de temas, conversión de fuentes (TTF/OTF a PF2) y configuración de fondo</li>
-          <li xml:lang="fr">Gestion des thèmes, conversion de polices (TTF/OTF vers PF2) et configuration de fond</li>
-          <li xml:lang="pt">Gestão de temas, conversão de fontes (TTF/OTF para PF2) e configuração de fundo</li>
-          <li xml:lang="de">Theme-Verwaltung, Schriftart-Konvertierung (TTF/OTF nach PF2) und Hintergrundkonfiguration</li>
-          <li xml:lang="it">Gestione temi, conversione font (TTF/OTF in PF2) e configurazione sfondo</li>
-          <li xml:lang="ru">Управление темами, конвертация шрифтов (TTF/OTF в PF2) и настройка фона</li>
-          <li xml:lang="ro">Gestionare teme, conversie fonturi (TTF/OTF la PF2) și configurare fundal</li>
-
-          <li>Custom boot entries management and advanced kernel parameters</li>
-          <li xml:lang="es">Gestión de entradas de arranque personalizadas y parámetros avanzados del kernel</li>
-          <li xml:lang="fr">Gestion des entrées de démarrage personnalisées et paramètres avancés du noyau</li>
-          <li xml:lang="pt">Gestão de entradas de inicialização personalizadas e parâmetros avançados do kernel</li>
-          <li xml:lang="de">Verwaltung benutzerdefinierter Boot-Einträge und erweiterte Kernel-Parameter</li>
-          <li xml:lang="it">Gestione delle voci di avvio personalizzate e parametri kernel avanzati</li>
-          <li xml:lang="ru">Управление пользовательскими загрузочными записями и расширенными параметрами ядра</li>
-          <li xml:lang="ro">Gestionare intrări de pornire personalizate și parametri kernel avansați</li>
-
-          <li>Automatic OS detection, backup system and update-grub integration</li>
-          <li xml:lang="es">Detección automática de OS, sistema de copias de seguridad e integración con update-grub</li>
-          <li xml:lang="fr">Détection automatique du système d'exploitation, système de sauvegarde et intégration update-grub</li>
-          <li xml:lang="pt">Detecção automática de SO, sistema de backup e integração com update-grub</li>
-          <li xml:lang="de">Automatische OS-Erkennung, Backup-System und update-grub-Integration</li>
-          <li xml:lang="it">Rilevamento automatico OS, sistema di backup e integrazione update-grub</li>
-          <li xml:lang="ru">Автоматическое определение ОС, система резервного копирования и интеграция update-grub</li>
-          <li xml:lang="ro">Detectare automată OS, sistem de backup și integrare update-grub</li>
         </ul>
       </description>
     </release>
