@@ -16,8 +16,8 @@
   <name xml:lang="ru">Селектор репозиториев Soplos</name>
   <name xml:lang="ro">Selector de depozite Soplos</name>
 
-  <summary xml:lang="en">Advanced APT repository manager for Soplos Linux</summary>
   <summary>Advanced APT repository manager for Soplos Linux</summary>
+  <summary xml:lang="en">Advanced APT repository manager for Soplos Linux</summary>
   <summary xml:lang="es">Gestor avanzado de repositorios APT para Soplos Linux</summary>
   <summary xml:lang="fr">Gestionnaire avancé de dépôts APT pour Soplos Linux</summary>
   <summary xml:lang="pt">Gerenciador avançado de repositórios APT para Soplos Linux</summary>
@@ -27,8 +27,8 @@
   <summary xml:lang="ro">Manager avansat de depozite APT pentru Soplos Linux</summary>
 
   <description>
-    <p xml:lang="en">Soplos Repo Selector is a comprehensive repository management tool designed for Soplos Linux. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p>
     <p>Soplos Repo Selector is a comprehensive repository management tool designed for Soplos Linux. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p>
+    <p xml:lang="en">Soplos Repo Selector is a comprehensive repository management tool designed for Soplos Linux. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p>
     <p xml:lang="es">Soplos Repo Selector es una herramienta integral de gestión de repositorios diseñada para Soplos Linux. Proporciona una interfaz gráfica intuitiva para gestionar repositorios APT, claves GPG y fuentes de software del sistema con detección automática de tema y soporte multiidioma.</p>
     <p xml:lang="fr">Soplos Repo Selector est un outil complet de gestion de dépôts conçu pour Soplos Linux. Il fournit une interface graphique intuitive pour gérer les dépôts APT, les clés GPG et les sources logicielles du système avec détection automatique de thème et support multilingue.</p>
     <p xml:lang="pt">Soplos Repo Selector é uma ferramenta abrangente de gerenciamento de repositórios projetada para o Soplos Linux. Fornece uma interface gráfica intuitiva para gerenciar repositórios APT, chaves GPG e fontes de software do sistema com detecção automática de tema e suporte multilíngue.</p>
@@ -36,15 +36,6 @@
     <p xml:lang="it">Soplos Repo Selector è uno strumento completo di gestione repository progettato per Soplos Linux. Fornisce un'interfaccia grafica intuitiva per gestire repository APT, chiavi GPG e sorgenti software di sistema con rilevamento automatico del tema e supporto multilingue.</p>
     <p xml:lang="ru">Soplos Repo Selector — комплексный инструмент управления репозиториями, разработанный для Soplos Linux. Предоставляет интуитивный графический интерфейс для управления APT-репозиториями, GPG-ключами и источниками программного обеспечения системы с автоматическим обнаружением темы и многоязычной поддержкой.</p>
     <p xml:lang="ro">Soplos Repo Selector este un instrument cuprinzător de gestionare a depozitelor proiectat pentru Soplos Linux. Oferă o interfață grafică intuitivă pentru gestionarea depozitelor APT, cheilor GPG și surselor software de sistem cu detectare automată a temei și suport multilingv.</p>
-    <p>Includes the following features:</p>
-    <p xml:lang="en">Includes the following features:</p>
-    <p xml:lang="es">Las características principales incluyen:</p>
-    <p xml:lang="fr">Les fonctionnalités clés incluent:</p>
-    <p xml:lang="pt">As principais características incluem:</p>
-    <p xml:lang="de">Hauptmerkmale umfassen:</p>
-    <p xml:lang="it">Le caratteristiche principali includono:</p>
-    <p xml:lang="ru">Ключевые функции включают:</p>
-    <p xml:lang="ro">Caracteristicile principale includ:</p>
     <ul>
       <li>Complete APT repository management with modern DEB822 format support</li>
       <li xml:lang="es">Gestión completa de repositorios APT con soporte para formato DEB822 moderno</li>
@@ -53,7 +44,7 @@
       <li xml:lang="de">Vollständige APT-Repository-Verwaltung mit moderner DEB822-Format-Unterstützung</li>
       <li xml:lang="it">Gestione completa dei repository APT con supporto per il formato DEB822 moderno</li>
       <li xml:lang="ru">Полное управление APT-репозиториями с поддержкой современного формата DEB822</li>
-      <li xml:lang="ro">Gestionarea completă a depozitelor APT cu suport pentru formatul DEB822 moderno</li>
+      <li xml:lang="ro">Gestionarea completă a depozitelor APT cu suport pentru formatul DEB822 modern</li>
       <li>Automatic fastest mirror detection and speed testing</li>
       <li xml:lang="es">Detección automática de mirrors más rápidos y pruebas de velocidad</li>
       <li xml:lang="fr">Détection automatique des miroirs les plus rapides et tests de vitesse</li>
@@ -70,14 +61,14 @@
       <li xml:lang="it">Gestione delle chiavi GPG con capacità di importazione e download</li>
       <li xml:lang="ru">Управление GPG-ключами с возможностями импорта и загрузки</li>
       <li xml:lang="ro">Gestionarea cheilor GPG cu capacități de import și descărcare</li>
-      <li>Automatic dark/light theme detection for KDE and GNOME</li>
-      <li xml:lang="es">Detección automática de tema oscuro/claro para KDE y GNOME</li>
-      <li xml:lang="fr">Détection automatique du thème sombre/clair pour KDE et GNOME</li>
-      <li xml:lang="pt">Detecção automática de tema escuro/claro para KDE e GNOME</li>
-      <li xml:lang="de">Automatische Erkennung dunkler/heller Themen für KDE und GNOME</li>
-      <li xml:lang="it">Rilevamento automatico del tema scuro/chiaro per KDE e GNOME</li>
-      <li xml:lang="ru">Автоматическое обнаружение тёмной/светлой темы для KDE и GNOME</li>
-      <li xml:lang="ro">Detectarea automată a temei întunecate/deschise pentru KDE și GNOME</li>
+      <li>Automatic dark/light theme detection for KDE, GNOME and XFCE</li>
+      <li xml:lang="es">Detección automática de tema oscuro/claro para KDE, GNOME y XFCE</li>
+      <li xml:lang="fr">Détection automatique du thème sombre/clair pour KDE, GNOME et XFCE</li>
+      <li xml:lang="pt">Detecção automática de tema escuro/claro para KDE, GNOME e XFCE</li>
+      <li xml:lang="de">Automatische Erkennung dunkler/heller Themen für KDE, GNOME und XFCE</li>
+      <li xml:lang="it">Rilevamento automatico del tema scuro/chiaro per KDE, GNOME e XFCE</li>
+      <li xml:lang="ru">Автоматическое обнаружение тёмной/светлой темы для KDE, GNOME и XFCE</li>
+      <li xml:lang="ro">Detectarea automată a temei întunecate/deschise pentru KDE, GNOME și XFCE</li>
       <li>Multi-language support (ES, EN, FR, PT, DE, IT, RU, RO)</li>
       <li xml:lang="es">Soporte multiidioma (ES, EN, FR, PT, DE, IT, RU, RO)</li>
       <li xml:lang="fr">Support multilingue (ES, EN, FR, PT, DE, IT, RU, RO)</li>
@@ -110,17 +101,6 @@
     <category>System</category>
     <category>Utility</category>
   </categories>
-
-  <requires>
-    <id>python3</id>
-    <id>python3-gi</id>
-    <id>python3-dbus</id>
-    <id>gir1.2-gtk-3.0</id>
-    <id>python3-psutil</id>
-    <id>python3-pillow</id>
-    <id>python3-xdg</id>
-    <id>polkit</id>
-  </requires>
 
   <keywords>
     <keyword>repository</keyword>
@@ -217,29 +197,18 @@
     <keyword xml:lang="ro">setări</keyword>
   </keywords>
 
-  <translation type="gettext">
-    <locale>es</locale>
-    <locale>en</locale>
-    <locale>fr</locale>
-    <locale>pt</locale>
-    <locale>de</locale>
-    <locale>it</locale>
-    <locale>ru</locale>
-    <locale>ro</locale>
-  </translation>
+  <translation type="gettext">soplos-repo-selector</translation>
 
   <launchable type="desktop-id">org.soplos.reposelector.desktop</launchable>
 
-  <!-- Icono de stock preferido -->
   <icon type="stock">org.soplos.reposelector</icon>
-  <!-- Icono remoto como fallback -->
-  <icon type="remote">
-    <url>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/icons/org.soplos.reposelector.png</url>
+  <icon type="remote" width="128" height="128">
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-selector/icons/org.soplos.reposelector.png</url>
   </icon>
 
   <screenshots>
     <screenshot type="default">
-      <caption>Gestor de Repositorios Soplos</caption>
+      <caption>Soplos Repository Manager</caption>
       <caption xml:lang="es">Gestor de Repositorios Soplos</caption>
       <caption xml:lang="fr">Gestionnaire de dépôts Soplos</caption>
       <caption xml:lang="pt">Gerenciador de Repositórios Soplos</caption>
@@ -247,21 +216,32 @@
       <caption xml:lang="it">Gestore dei repository Soplos</caption>
       <caption xml:lang="ru">Менеджер репозиториев Soplos</caption>
       <caption xml:lang="ro">Manager de depozite Soplos</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot1.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/assets/screenshots/screenshot1.png</image>
     </screenshot>
     <screenshot type="normal">
-      <caption>Buscar Repositorios Más Rápidos</caption>
-      <caption xml:lang="es">Buscar Repositorios Más Rápidos</caption>
-      <caption xml:lang="fr">Recherche des dépôts les plus rapides</caption>
-      <caption xml:lang="pt">Buscar Repositórios Mais Rápidos</caption>
-      <caption xml:lang="de">Schnellste Repositories suchen</caption>
-      <caption xml:lang="it">Cerca repository più veloci</caption>
-      <caption xml:lang="ru">Поиск самых быстрых репозиториев</caption>
-      <caption xml:lang="ro">Căutare depozite mai rapide</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot2.png</image>
+      <caption>Repositories tab</caption>
+      <caption xml:lang="es">Pestaña de Repositorios</caption>
+      <caption xml:lang="fr">Onglet Dépôts</caption>
+      <caption xml:lang="pt">Aba de Repositórios</caption>
+      <caption xml:lang="de">Registerkarte Repositories</caption>
+      <caption xml:lang="it">Scheda Repository</caption>
+      <caption xml:lang="ru">Вкладка Репозитории</caption>
+      <caption xml:lang="ro">Fila Depozite</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/assets/screenshots/screenshot2.png</image>
     </screenshot>
     <screenshot type="normal">
-      <caption>Gestor de Claves GPG</caption>
+      <caption>Sources Generator with integrated speed test</caption>
+      <caption xml:lang="es">Generador de Sources con test de velocidad integrado</caption>
+      <caption xml:lang="fr">Générateur de Sources avec test de vitesse intégré</caption>
+      <caption xml:lang="pt">Gerador de Sources com teste de velocidade integrado</caption>
+      <caption xml:lang="de">Sources-Generator mit integriertem Geschwindigkeitstest</caption>
+      <caption xml:lang="it">Generatore di Sources con test di velocità integrato</caption>
+      <caption xml:lang="ru">Генератор Sources со встроенным тестом скорости</caption>
+      <caption xml:lang="ro">Generator Sources cu test de viteză integrat</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/assets/screenshots/screenshot3.png</image>
+    </screenshot>
+    <screenshot type="normal">
+      <caption>GPG Key Manager</caption>
       <caption xml:lang="es">Gestor de Claves GPG</caption>
       <caption xml:lang="fr">Gestionnaire de clés GPG</caption>
       <caption xml:lang="pt">Gerenciador de Chaves GPG</caption>
@@ -269,23 +249,12 @@
       <caption xml:lang="it">Gestore chiavi GPG</caption>
       <caption xml:lang="ru">Менеджер ключей GPG</caption>
       <caption xml:lang="ro">Manager de chei GPG</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot3.png</image>
-    </screenshot>
-    <screenshot type="normal">
-      <caption>Detalles de Clave GPG</caption>
-      <caption xml:lang="es">Detalles de Clave GPG</caption>
-      <caption xml:lang="fr">Détails de la clé GPG</caption>
-      <caption xml:lang="pt">Detalhes da Chave GPG</caption>
-      <caption xml:lang="de">GPG-Schlüsseldetails</caption>
-      <caption xml:lang="it">Dettagli chiave GPG</caption>
-      <caption xml:lang="ru">Детали ключа GPG</caption>
-      <caption xml:lang="ro">Detalii cheie GPG</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/soplos-repo-selector/screenshots/screenshot4.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/assets/screenshots/screenshot4.png</image>
     </screenshot>
   </screenshots>
 
   <url type="homepage">https://soplos.org</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/soplos-repo-selector</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-repo-selector/issues</url>
   <url type="donation">https://paypal.me/soploslinux</url>
   <url type="contact">https://soplos.org/wiki/contact/</url>
 
@@ -299,6 +268,21 @@
   </provides>
 
   <releases>
+
+    <release version="2.0.2-8" date="2026-05-19">
+      <description>
+        <p>Documentation-only release: version history corrected across the release page, CHANGELOG and metainfo. All 1.0.x timestamps updated to match the dates extracted from the internal CHANGELOG of each official package.</p>
+        <p xml:lang="en">Documentation-only release: version history corrected across the release page, CHANGELOG and metainfo. All 1.0.x timestamps updated to match the dates extracted from the internal CHANGELOG of each official package.</p>
+        <p xml:lang="es">Publicación solo de documentación: historial de versiones corregido en la página de lanzamientos, CHANGELOG y metainfo. Todas las fechas de la serie 1.0.x actualizadas para coincidir con las fechas extraídas del CHANGELOG interno de cada paquete oficial.</p>
+        <p xml:lang="fr">Version documentation uniquement : historique des versions corrigé dans la page des versions, CHANGELOG et metainfo. Toutes les dates de la série 1.0.x mises à jour pour correspondre aux dates extraites du CHANGELOG interne de chaque paquet officiel.</p>
+        <p xml:lang="pt">Versão apenas de documentação: histórico de versões corrigido na página de lançamentos, CHANGELOG e metainfo. Todas as datas da série 1.0.x atualizadas para corresponder às datas extraídas do CHANGELOG interno de cada pacote oficial.</p>
+        <p xml:lang="de">Nur-Dokumentations-Release: Versionshistorie auf der Releases-Seite, im CHANGELOG und Metainfo korrigiert. Alle Zeitstempel der 1.0.x-Serie entsprechend den Daten aus dem internen CHANGELOG jedes offiziellen Pakets aktualisiert.</p>
+        <p xml:lang="it">Versione solo documentazione: cronologia delle versioni corretta nella pagina delle versioni, CHANGELOG e metainfo. Tutti i timestamp della serie 1.0.x aggiornati per corrispondere alle date estratte dal CHANGELOG interno di ogni pacchetto ufficiale.</p>
+        <p xml:lang="ru">Только документационный выпуск: история версий исправлена на странице релизов, в CHANGELOG и metainfo. Все временные метки серии 1.0.x обновлены в соответствии с датами, извлечёнными из внутреннего CHANGELOG каждого официального пакета.</p>
+        <p xml:lang="ro">Lansare doar de documentație: istoricul versiunilor corectat în pagina de lansări, CHANGELOG și metainfo. Toate marcajele temporale ale seriei 1.0.x actualizate pentru a corespunde datelor extrase din CHANGELOG-ul intern al fiecărui pachet oficial.</p>
+      </description>
+    </release>
+
     <release version="2.0.2-7" date="2026-04-30">
       <description>
         <p>Simplified the footer UI text to match the modern Soplos standard layout.</p>
@@ -308,10 +292,11 @@
         <p xml:lang="pt">O texto da barra de status foi simplificado para corresponder ao layout padrão moderno do Soplos.</p>
         <p xml:lang="de">Der Text der Statusleiste wurde vereinfacht, um dem modernen Soplos-Standardlayout zu entsprechen.</p>
         <p xml:lang="it">Il testo della barra di stato è stato semplificato per corrispondere al layout standard moderno di Soplos.</p>
-        <p xml:lang="ru">Текст строки состояния был упрощен, чтобы соответствовать современному стандартному макету Soplos.</p>
+        <p xml:lang="ru">Текст строки состояния был упрощён, чтобы соответствовать современному стандартному макету Soplos.</p>
         <p xml:lang="ro">Textul barei de stare a fost simplificat pentru a se potrivi cu aspectul standard modern Soplos.</p>
       </description>
     </release>
+
     <release version="2.0.2-6" date="2026-03-24">
       <description>
         <p xml:lang="en">Fixed refresh button always returning stale cached data. Repositories tab now refreshes immediately after generating new sources. Each suite now gets its own independent .sources file for individual toggle control per suite.</p>
@@ -324,6 +309,7 @@
         <p xml:lang="ro">Remediat butonul Reîmprospătare. Fila Depozite se actualizează imediat după generare. Fiecare suite are acum propriul fișier .sources independent pentru control individual pe suite.</p>
       </description>
     </release>
+
     <release version="2.0.2-5" date="2026-03-20">
       <description>
         <p xml:lang="en">Standardized the About dialog across XFCE, GNOME, and KDE: dark background, button heights, and pill button styling are now identical to all other Soplos apps. App icon standardized to 48×48 pixels. Removed gtk-application-prefer-dark-theme setting that caused subtle color differences.</p>
@@ -336,6 +322,7 @@
         <p xml:lang="ro">Dialogul Despre standardizat în XFCE, GNOME și KDE: fundal întunecat, înălțimi ale butoanelor și stilul butoanelor pill sunt acum identice cu alte aplicații Soplos. Pictogramă standardizată la 48×48 pixeli. Eliminată setarea gtk-application-prefer-dark-theme care cauza diferențe de culoare.</p>
       </description>
     </release>
+
     <release version="2.0.2-4" date="2026-03-20">
       <description>
         <p xml:lang="en">Added Ctrl+Shift+Tab reverse tab navigation, F1 About dialog, GNOME application menu About action, and GPG key search across all standard directories. Fixed HeaderBar CSS on GNOME, double repository reads on startup, bare except clauses, and removed dead code.</p>
@@ -348,6 +335,7 @@
         <p xml:lang="ro">Adăugată navigare inversă Ctrl+Shift+Tab, dialog Despre cu F1, acțiunea Despre din meniul GNOME și căutarea cheii GPG în toate directoarele standard. Corectate CSS HeaderBar pe GNOME, citiri duble ale depozitelor la pornire, clauze except goale și eliminat codul mort.</p>
       </description>
     </release>
+
     <release version="2.0.2-3" date="2026-03-13">
       <description>
         <p xml:lang="en">Integrated repository search, DEB822 modernization with automatic backups, unified privilege management, and complete manual internationalization across 8 languages.</p>
@@ -360,6 +348,7 @@
         <p xml:lang="ro">Căutare integrată a depozitelor, modernizare la DEB822 cu copii de rezervă automate, gestionarea unificată a privilegiilor și internaționalizare manuală completă în 8 limbi.</p>
       </description>
     </release>
+
     <release version="2.0.2-2" date="2026-03-12">
       <description>
         <p xml:lang="en">Fixed duplicated components in DEB822 sources files and improved repository list UI.</p>
@@ -372,293 +361,60 @@
         <p xml:lang="ro">Corectată duplicarea componentelor în fișierele sources DEB822 și îmbunătățită interfața listei de depozite.</p>
       </description>
     </release>
+
     <release version="2.0.2-1" date="2026-03-10">
       <description>
-        <p xml:lang="en">Fixed repository detection for mirrors and optimized password requests.</p>
-        <p xml:lang="es">Corregida la detección de repositorios en mirrors y optimización de peticiones de contraseña.</p>
-        <p xml:lang="fr">Correction de la détection des dépôts pour los miroirs et optimización des demandes de mot de passe.</p>
-        <p xml:lang="pt">Correção da detecção de repositórios para espelhos e otimização de solicitações de senha.</p>
-        <p xml:lang="de">Repository-Erkennung für Spiegel korrigiert und Passwortanfragen optimiert.</p>
-        <p xml:lang="it">Corretto il rilevamento dei repository per i mirror e ottimizzate las richieste de password.</p>
-        <p xml:lang="ru">Исправлено обнаружение репозиториев для зеркал и оптимизированы запросы пароля.</p>
-        <p xml:lang="ro">S-a corectat detectarea depozitelor pentru oglinzi și s-au optimizat solicitările de parolă.</p>
+        <p xml:lang="en">Fixed repository detection for mirrors and regional repositories. Fixed legacy parser to correctly detect commented-out repositories. Optimized pkexec calls to reduce password prompts.</p>
+        <p xml:lang="es">Corregida la detección de repositorios en mirrors y repositorios regionales. Corregido el parser legado para detectar correctamente repositorios comentados. Optimizadas las llamadas a pkexec para reducir solicitudes de contraseña.</p>
+        <p xml:lang="fr">Correction de la détection des dépôts pour les miroirs et dépôts régionaux. Correction du parseur hérité pour détecter correctement les dépôts commentés. Optimisation des appels pkexec pour réduire les demandes de mot de passe.</p>
+        <p xml:lang="pt">Corrigida a detecção de repositórios para espelhos e repositórios regionais. Corrigido o parser legado para detectar corretamente repositórios comentados. Otimizadas as chamadas pkexec para reduzir solicitações de senha.</p>
+        <p xml:lang="de">Repository-Erkennung für Spiegel und regionale Repositories korrigiert. Legacy-Parser korrigiert, um auskommentierte Repositories korrekt zu erkennen. pkexec-Aufrufe optimiert, um Passwortabfragen zu reduzieren.</p>
+        <p xml:lang="it">Corretta la rilevazione dei repository per mirror e repository regionali. Corretto il parser legacy per rilevare correttamente i repository commentati. Ottimizzate le chiamate pkexec per ridurre le richieste di password.</p>
+        <p xml:lang="ru">Исправлено обнаружение репозиториев для зеркал и региональных репозиториев. Исправлен устаревший парсер для корректного обнаружения закомментированных репозиториев. Оптимизированы вызовы pkexec для уменьшения запросов пароля.</p>
+        <p xml:lang="ro">Corectată detectarea depozitelor pentru oglinzi și depozite regionale. Corectat parserul legacy pentru detectarea corectă a depozitelor comentate. Optimizate apelurile pkexec pentru reducerea solicitărilor de parolă.</p>
       </description>
     </release>
+
     <release version="2.0.2" date="2026-01-09">
       <description>
-        <p>Documentation release: added manual page and Debian copyright file.</p>
-        <p xml:lang="es">Release de documentación: añadida página de manual y archivo copyright de Debian.</p>
-        <p xml:lang="fr">Version de documentation: ajout de la page de manuel et du fichier copyright Debian.</p>
-        <p xml:lang="pt">Lançamento de documentação: adicionada página de manual e arquivo copyright Debian.</p>
-        <p xml:lang="de">Dokumentations-Release: Handbuchseite und Debian-Copyright-Datei hinzugefügt.</p>
-        <p xml:lang="it">Rilascio documentazione: aggiunta pagina di manuale e file copyright Debian.</p>
-        <p xml:lang="ru">Релиз документации: добавлена страница руководства и файл авторских прав Debian.</p>
-        <p xml:lang="ro">Versiune documentație: adăugată pagina de manual și fișierul copyright Debian.</p>
+        <p xml:lang="en">Documentation release: added complete manual page and Debian copyright file.</p>
+        <p xml:lang="es">Versión de documentación: añadida página de manual completa y archivo copyright de Debian.</p>
+        <p xml:lang="fr">Version de documentation : ajout de la page de manuel complète et du fichier copyright Debian.</p>
+        <p xml:lang="pt">Versão de documentação: adicionada página de manual completa e arquivo copyright Debian.</p>
+        <p xml:lang="de">Dokumentations-Release: vollständige Handbuchseite und Debian-Copyright-Datei hinzugefügt.</p>
+        <p xml:lang="it">Rilascio documentazione: aggiunta pagina di manuale completa e file copyright Debian.</p>
+        <p xml:lang="ru">Релиз документации: добавлена полная страница руководства и файл авторских прав Debian.</p>
+        <p xml:lang="ro">Versiune documentație: adăugată pagina de manual completă și fișierul copyright Debian.</p>
       </description>
     </release>
+
     <release version="2.0.1" date="2026-01-02">
       <description>
-        <p xml:lang="es">Versión 2.0.1: reescritura completa del test de velocidad con mediciones reales y barras de progreso dinámicas.</p>
-        <p xml:lang="en">Version 2.0.1: complete speed test rewrite with real measurements and dynamic progress bars.</p>
-        <p xml:lang="fr">Version 2.0.1 : réécriture complète du test de vitesse avec des mesures réelles et des barres de progression dynamiques.</p>
-        <p xml:lang="pt">Versão 2.0.1: reescrita completa do teste de velocidade com medições reais e barras de progresso dinâmicas.</p>
-        <p xml:lang="de">Version 2.0.1: Vollständige Neufassung des Geschwindigkeitstests mit realen Messungen und dynamischen Fortschrittsbalken.</p>
-        <p xml:lang="it">Versione 2.0.1: riscrittura completa del test di velocità con misurazioni reali e barre di avanzamento dinamiche.</p>
-        <p xml:lang="ru">Версия 2.0.1: полная переработка теста скорости с реальными измерениями и динамическими индикаторами прогресса.</p>
-        <p xml:lang="ro">Versiunea 2.0.1: rescrierea completă a testului de viteză cu măsurători reale și bare de progres dinamice.</p>
-        <ul>
-          <li xml:lang="en">Speed test now uses real TCP latency measurement via socket connections.</li>
-          <li xml:lang="es">El test de velocidad ahora usa medición real de latencia TCP mediante conexiones socket.</li>
-          <li xml:lang="fr">Le test de vitesse utilise maintenant une mesure de latence TCP réelle via des connexions socket.</li>
-          <li xml:lang="pt">O teste de velocidade agora usa medição real de latência TCP via conexões socket.</li>
-          <li xml:lang="de">Der Geschwindigkeitstest verwendet jetzt echte TCP-Latenzmessung über Socket-Verbindungen.</li>
-          <li xml:lang="it">Il test di velocità ora utilizza la misurazione della latenza TCP reale tramite connessioni socket.</li>
-          <li xml:lang="ru">Тест скорости теперь использует реальное измерение задержки TCP через сокетные соединения.</li>
-          <li xml:lang="ro">Testul de viteză folosește acum măsurarea reală a latenței TCP prin conexiuni socket.</li>
-          <li xml:lang="en">Larger downloads (2-10MB) for accurate speed calculation over 3+ seconds.</li>
-          <li xml:lang="es">Descargas más grandes (2-10MB) para cálculo preciso de velocidad durante 3+ segundos.</li>
-          <li xml:lang="fr">Téléchargements plus importants (2-10 Mo) pour un calcul précis de la vitesse sur 3+ secondes.</li>
-          <li xml:lang="pt">Downloads maiores (2-10MB) para cálculo preciso de velocidade durante 3+ segundos.</li>
-          <li xml:lang="de">Größere Downloads (2-10MB) für genaue Geschwindigkeitsberechnung über 3+ Sekunden.</li>
-          <li xml:lang="it">Download più grandi (2-10MB) per un calcolo accurato della velocità su 3+ secondi.</li>
-          <li xml:lang="ru">Более крупные загрузки (2-10 МБ) для точного расчёта скорости за 3+ секунды.</li>
-          <li xml:lang="ro">Descărcări mai mari (2-10MB) pentru calculul precis al vitezei pe 3+ secunde.</li>
-          <li xml:lang="en">Dynamic progress bars animate in real-time during speed tests.</li>
-          <li xml:lang="es">Las barras de progreso dinámicas se animan en tiempo real durante las pruebas de velocidad.</li>
-          <li xml:lang="fr">Les barres de progression dynamiques s'animent en temps réel pendant les tests de vitesse.</li>
-          <li xml:lang="pt">As barras de progresso dinâmicas animam em tempo real durante os testes de velocidade.</li>
-          <li xml:lang="de">Dynamische Fortschrittsbalken animieren in Echtzeit während der Geschwindigkeitstests.</li>
-          <li xml:lang="it">Le barre di avanzamento dinamiche si animano in tempo reale durante i test di velocità.</li>
-          <li xml:lang="ru">Динамические индикаторы прогресса анимируются в реальном времени во время тестов скорости.</li>
-          <li xml:lang="ro">Barele de progres dinamice se animează în timp real în timpul testelor de viteză.</li>
-          <li xml:lang="en">Increased parallelism from 3 to 6 workers for faster testing.</li>
-          <li xml:lang="es">Aumentado el paralelismo de 3 a 6 workers para pruebas más rápidas.</li>
-          <li xml:lang="fr">Parallélisme augmenté de 3 à 6 workers pour des tests plus rapides.</li>
-          <li xml:lang="pt">Paralelismo aumentado de 3 para 6 workers para testes mais rápidos.</li>
-          <li xml:lang="de">Parallelität von 3 auf 6 Worker erhöht für schnellere Tests.</li>
-          <li xml:lang="it">Parallelismo aumentato da 3 a 6 worker per test più veloci.</li>
-          <li xml:lang="ru">Увеличен параллелизм с 3 до 6 воркеров для более быстрого тестирования.</li>
-          <li xml:lang="ro">Paralelism crescut de la 3 la 6 workeri pentru testare mai rapidă.</li>
-          <li xml:lang="en">Sources Generator now detects real system state instead of hardcoded defaults.</li>
-          <li xml:lang="es">El Generador de Sources ahora detecta el estado real del sistema en lugar de valores predeterminados.</li>
-          <li xml:lang="fr">Le Générateur de Sources détecte maintenant l'état réel du système au lieu de valeurs par défaut.</li>
-          <li xml:lang="pt">O Gerador de Sources agora detecta o estado real do sistema em vez de padrões codificados.</li>
-          <li xml:lang="de">Der Sources Generator erkennt jetzt den tatsächlichen Systemstatus anstelle von Standardwerten.</li>
-          <li xml:lang="it">Il Generatore di Sources ora rileva lo stato reale del sistema invece dei valori predefiniti.</li>
-          <li xml:lang="ru">Генератор Sources теперь определяет реальное состояние системы вместо значений по умолчанию.</li>
-          <li xml:lang="ro">Generatorul de Sources detectează acum starea reală a sistemului în loc de valori implicite.</li>
-          <li xml:lang="en">Fixed backports file removal when disabled.</li>
-          <li xml:lang="es">Corregida la eliminación del archivo de backports cuando está desactivado.</li>
-          <li xml:lang="fr">Correction de la suppression du fichier backports lorsqu'il est désactivé.</li>
-          <li xml:lang="pt">Corrigida a remoção do arquivo de backports quando desativado.</li>
-          <li xml:lang="de">Behebung der Backports-Dateientfernung bei Deaktivierung.</li>
-          <li xml:lang="it">Corretta la rimozione del file backports quando disabilitato.</li>
-          <li xml:lang="ru">Исправлено удаление файла backports при отключении.</li>
-          <li xml:lang="ro">Corectată eliminarea fișierului backports când este dezactivat.</li>
-          <li xml:lang="en">Fixed translation function error in file manager.</li>
-          <li xml:lang="es">Corregido error de función de traducción en el gestor de archivos.</li>
-          <li xml:lang="fr">Correction de l'erreur de fonction de traduction dans le gestionnaire de fichiers.</li>
-          <li xml:lang="pt">Corrigido erro de função de tradução no gerenciador de arquivos.</li>
-          <li xml:lang="de">Übersetzungsfunktionsfehler im Dateimanager behoben.</li>
-          <li xml:lang="it">Corretto errore della funzione di traduzione nel gestore file.</li>
-          <li xml:lang="ru">Исправлена ошибка функции перевода в файловом менеджере.</li>
-          <li xml:lang="ro">Corectată eroarea funcției de traducere în managerul de fișiere.</li>
-        </ul>
+        <p xml:lang="en">Complete speed test rewrite with real TCP latency measurement, larger downloads (2-10 MB), increased parallelism (6 workers) and dynamic real-time progress bars. Sources Generator now detects real system state. Fixed backports file removal when disabled. Fixed translation function error in file manager.</p>
+        <p xml:lang="es">Reescritura completa del test de velocidad con medición real de latencia TCP, descargas más grandes (2-10 MB), mayor paralelismo (6 workers) y barras de progreso dinámicas en tiempo real. El Generador de Sources ahora detecta el estado real del sistema. Corregida la eliminación del archivo de backports al desactivarlo. Corregido error de función de traducción en el gestor de archivos.</p>
+        <p xml:lang="fr">Réécriture complète du test de vitesse avec mesure réelle de la latence TCP, téléchargements plus importants (2-10 Mo), parallélisme accru (6 workers) et barres de progression dynamiques en temps réel. Le Générateur de Sources détecte désormais l'état réel du système. Correction de la suppression du fichier backports. Correction de l'erreur de fonction de traduction dans le gestionnaire de fichiers.</p>
+        <p xml:lang="pt">Reescrita completa do teste de velocidade com medição real de latência TCP, downloads maiores (2-10 MB), maior paralelismo (6 workers) e barras de progresso dinâmicas em tempo real. O Gerador de Sources agora detecta o estado real do sistema. Corrigida a remoção do arquivo de backports ao desativá-lo. Corrigido erro de função de tradução no gerenciador de arquivos.</p>
+        <p xml:lang="de">Vollständige Neufassung des Geschwindigkeitstests mit echter TCP-Latenzmessung, größeren Downloads (2-10 MB), erhöhtem Parallelismus (6 Worker) und dynamischen Echtzeit-Fortschrittsbalken. Sources Generator erkennt jetzt den echten Systemstatus. Backports-Datei-Entfernung beim Deaktivieren korrigiert. Übersetzungsfunktionsfehler im Dateimanager behoben.</p>
+        <p xml:lang="it">Riscrittura completa del test di velocità con misurazione reale della latenza TCP, download più grandi (2-10 MB), maggior parallelismo (6 worker) e barre di avanzamento dinamiche in tempo reale. Il Generatore di Sources ora rileva lo stato reale del sistema. Corretta la rimozione del file backports. Corretto errore della funzione di traduzione nel gestore file.</p>
+        <p xml:lang="ru">Полная переработка теста скорости с реальным измерением задержки TCP, более крупными загрузками (2-10 МБ), увеличенным параллелизмом (6 воркеров) и динамическими индикаторами прогресса в реальном времени. Генератор Sources теперь определяет реальное состояние системы. Исправлено удаление файла backports. Исправлена ошибка функции перевода в файловом менеджере.</p>
+        <p xml:lang="ro">Rescrierea completă a testului de viteză cu măsurarea reală a latenței TCP, descărcări mai mari (2-10 MB), paralelism crescut (6 workeri) și bare de progres dinamice în timp real. Generatorul Sources detectează acum starea reală a sistemului. Corectată eliminarea fișierului backports. Corectată eroarea funcției de traducere în managerul de fișiere.</p>
       </description>
     </release>
-    <release version="2.0.0" date="2025-12-10">
-      <description>
-        <p xml:lang="es">Lanzamiento 2.0.0: rediseño de la interfaz, mejoras de rendimiento y mayor compatibilidad.</p>
-        <p xml:lang="en">Release 2.0.0: UI overhaul, performance improvements and expanded compatibility.</p>
-        <p xml:lang="fr">Version 2.0.0 : refonte de l'interface, améliorations des performances et compatibilité étendue.</p>
-        <p xml:lang="pt">Versão 2.0.0: reformulação da interface, melhorias de desempenho e compatibilidade ampliada.</p>
-        <p xml:lang="de">Version 2.0.0: Benutzeroberfläche überarbeitet, Leistungsverbesserungen und erweiterte Kompatibilität.</p>
-        <p xml:lang="it">Versione 2.0.0: restyling dell'interfaccia, miglioramenti delle prestazioni e compatibilità ampliata.</p>
-        <p xml:lang="ru">Версия 2.0.0: переработанный интерфейс, улучшение производительности и расширенная совместимость.</p>
-        <p xml:lang="ro">Versiunea 2.0.0: interfață reproiectată, îmbunătățiri de performanță și compatibilitate extinsă.</p>
-      </description>
-    </release>
+
+    <!-- Three former 2.0.0 patch entries merged into one; date is the final patch date -->
     <release version="2.0.0" date="2025-12-13">
       <description>
-        <p xml:lang="es">Parche 2025-12-13: traducciones completadas y cabeceras estandarizadas.</p>
-        <p xml:lang="en">Patch 2025-12-13: completed translations and standardized headers.</p>
-        <p xml:lang="fr">Correctif 2025-12-13 : traductions terminées et en-têtes standardisés.</p>
-        <p xml:lang="pt">Patch 2025-12-13: traduções concluídas e cabeçalhos padronizados.</p>
-        <p xml:lang="de">Patch 2025-12-13: Übersetzungen abgeschlossen und Header standardisiert.</p>
-        <p xml:lang="it">Patch 2025-12-13: traduzioni completate e intestazioni standardizzate.</p>
-        <p xml:lang="ru">Патч 2025-12-13: завершены переводы и стандартизированы заголовки.</p>
-        <p xml:lang="ro">Patch 2025-12-13: traduceri finalizate și antete standardizate.</p>
-        <ul>
-          <li xml:lang="en">Completed and standardized translations for all languages.</li>
-          <li xml:lang="es">Traducciones completadas y estandarizadas para todos los idiomas.</li>
-          <li xml:lang="fr">Traductions complètes et standardisées pour toutes les langues.</li>
-          <li xml:lang="pt">Traduções completas e padronizadas para todos os idiomas.</li>
-          <li xml:lang="de">Vollständige und standardisierte Übersetzungen für alle Sprachen.</li>
-          <li xml:lang="it">Traduzioni complete e standardizzate per tutte le lingue.</li>
-          <li xml:lang="ru">Полные и стандартизированные переводы для всех языков.</li>
-          <li xml:lang="ro">Traduceri complete și standardizate pentru toate limbile.</li>
-        </ul>
+        <p xml:lang="en">Major rewrite with modern, modular architecture for cross-desktop compatibility (GNOME, KDE Plasma, XFCE). Unified branch replacing the former Tyson (KDE) and Tyron (XFCE) separate releases. Includes complete internationalization for 8 languages, CSS-based theming engine, improved GPG key management, enhanced DEB822 format support, mirror speed test integrated into the Sources Generator tab, and full Wayland/X11 compatibility.</p>
+        <p xml:lang="es">Reescritura mayor con arquitectura moderna y modular para compatibilidad multiescritor (GNOME, KDE Plasma, XFCE). Rama unificada que reemplaza las anteriores versiones separadas Tyson (KDE) y Tyron (XFCE). Incluye internacionalización completa para 8 idiomas, motor de temas CSS, gestión de claves GPG mejorada, mejor soporte DEB822, test de velocidad integrado en la pestaña Generador de Sources y compatibilidad total Wayland/X11.</p>
+        <p xml:lang="fr">Réécriture majeure avec une architecture moderne et modulaire pour la compatibilité multi-bureau (GNOME, KDE Plasma, XFCE). Branche unifiée remplaçant les anciennes versions séparées Tyson (KDE) et Tyron (XFCE). Comprend une internationalisation complète pour 8 langues, un moteur de thèmes CSS, une gestion améliorée des clés GPG, un meilleur support DEB822, un test de vitesse intégré dans l'onglet Générateur de Sources et une compatibilité totale Wayland/X11.</p>
+        <p xml:lang="pt">Reescrita maior com arquitetura moderna e modular para compatibilidade multi-desktop (GNOME, KDE Plasma, XFCE). Ramo unificado que substitui as anteriores versões separadas Tyson (KDE) e Tyron (XFCE). Inclui internacionalização completa para 8 idiomas, motor de temas CSS, gestão de chaves GPG melhorada, melhor suporte DEB822, teste de velocidade integrado na aba Gerador de Sources e compatibilidade total Wayland/X11.</p>
+        <p xml:lang="de">Größere Neufassung mit moderner, modularer Architektur für Desktop-übergreifende Kompatibilität (GNOME, KDE Plasma, XFCE). Einheitlicher Branch, der die früheren separaten Versionen Tyson (KDE) und Tyron (XFCE) ersetzt. Enthält vollständige Internationalisierung für 8 Sprachen, CSS-basierte Theme-Engine, verbesserte GPG-Schlüsselverwaltung, bessere DEB822-Unterstützung, in den Sources-Generator integrierten Geschwindigkeitstest und vollständige Wayland/X11-Kompatibilität.</p>
+        <p xml:lang="it">Riscrittura maggiore con architettura moderna e modulare per compatibilità multi-desktop (GNOME, KDE Plasma, XFCE). Branch unificato che sostituisce le precedenti versioni separate Tyson (KDE) e Tyron (XFCE). Include internazionalizzazione completa per 8 lingue, motore temi CSS, gestione chiavi GPG migliorata, migliore supporto DEB822, test di velocità integrato nella scheda Generatore di Sources e compatibilità totale Wayland/X11.</p>
+        <p xml:lang="ru">Крупная переработка с современной модульной архитектурой для кросс-десктопной совместимости (GNOME, KDE Plasma, XFCE). Единая ветка, заменяющая раздельные версии Tyson (KDE) и Tyron (XFCE). Включает полную интернационализацию для 8 языков, CSS-движок тем, улучшенное управление GPG-ключами, расширенную поддержку DEB822, тест скорости зеркал в генераторе Sources и полную совместимость с Wayland/X11.</p>
+        <p xml:lang="ro">Rescrierea majoră cu arhitectură modernă și modulară pentru compatibilitate multi-desktop (GNOME, KDE Plasma, XFCE). Ramură unificată care înlocuiește versiunile separate anterioare Tyson (KDE) și Tyron (XFCE). Include internaționalizare completă pentru 8 limbi, motor de teme CSS, gestionare îmbunătățită a cheilor GPG, suport DEB822 extins, test de viteză integrat în fila Generator Sources și compatibilitate totală Wayland/X11.</p>
       </description>
     </release>
-    <release version="2.0.0" date="2025-12-12">
-      <description>
-        <p xml:lang="es">Parche 2025-12-12: correcciones y mejoras menores.</p>
-        <p xml:lang="en">Patch 2025-12-12: minor fixes and improvements.</p>
-        <p xml:lang="fr">Correctif 2025-12-12 : corrections et améliorations mineures.</p>
-        <p xml:lang="pt">Patch 2025-12-12: correções e melhorias menores.</p>
-        <p xml:lang="de">Patch 2025-12-12: kleinere Fehlerbehebungen und Verbesserungen.</p>
-        <p xml:lang="it">Patch 2025-12-12: correzioni e miglioramenti minori.</p>
-        <p xml:lang="ru">Патч 2025-12-12: мелкие исправления и улучшения.</p>
-        <p xml:lang="ro">Patch 2025-12-12: corecții și îmbunătățiri minore.</p>
-        <ul>
-          <li xml:lang="en">Fixed Sources Generator to preserve DEB822 block grouping and respect selected mirror.</li>
-          <li xml:lang="es">Arreglado el Generador de Sources para preservar el agrupamiento DEB822 y respetar el mirror seleccionado.</li>
-          <li xml:lang="fr">Correction du Générateur de Sources pour préserver le groupement DEB822 et respecter le miroir sélectionné.</li>
-          <li xml:lang="pt">Corrigido o Gerador de Sources para preservar o agrupamento DEB822 e respeitar o espelho selecionado.</li>
-          <li xml:lang="de">Sources-Generator repariert, damit DEB822-Blöcke gruppiert bleiben und das gewählte Spiegel berücksichtigt wird.</li>
-          <li xml:lang="it">Corretto il Generatore di Sources per preservare il raggruppamento DEB822 e rispettare lo mirror selezionato.</li>
-          <li xml:lang="ru">Исправлен генератор Sources: сохранение группировки блоков DEB822 и учёт выбранного зеркала.</li>
-          <li xml:lang="ro">Corectat Generato­rul de Sources pentru a păstra gruparea blocurilor DEB822 și a respecta oglinda selectată.</li>
 
-          <li xml:lang="en">Integrated mirror speed test into the Sources Generator tab (no external windows required).</li>
-          <li xml:lang="es">Integrada la prueba de velocidad de mirrors en la pestaña Generador de Sources (sin ventanas externas).</li>
-          <li xml:lang="fr">Test de vitesse des miroirs intégré dans l'onglet Générateur de Sources (aucune fenêtre externe requise).</li>
-          <li xml:lang="pt">Teste de velocidade de espelhos integrado na aba Gerador de Sources (sem janelas externas).</li>
-          <li xml:lang="de">Spiegel-Geschwindigkeitstest in die Sources-Generator-Registerkarte integriert (keine externen Fenster erforderlich).</li>
-          <li xml:lang="it">Test di velocità mirror integrato nella scheda Generatore di Sources (nessuna finestra esterna richiesta).</li>
-          <li xml:lang="ru">Тест скорости зеркал интегрирован во вкладку генератора Sources (без внешних окон).</li>
-          <li xml:lang="ro">Testul de viteză al oglinzilor integrat în fila Generator Sources (fără ferestre externe).</li>
-
-          <li xml:lang="en">Fixed layout and selection bugs in the Repositories list tab.</li>
-          <li xml:lang="es">Corregidos errores de diseño y selección en la pestaña Lista de Repositorios.</li>
-          <li xml:lang="fr">Corrections des bugs d'affichage et de sélection dans l'onglet Liste des dépôts.</li>
-          <li xml:lang="pt">Corrigidos bugs de layout e seleção na aba Lista de Repositórios.</li>
-          <li xml:lang="de">Layout- und Auswahlfehler in der Registerkarte Repositories behoben.</li>
-          <li xml:lang="it">Correzioni per bug di layout e selezione nella scheda Elenco repository.</li>
-          <li xml:lang="ru">Исправлены ошибки макета и выбора во вкладке списка репозиториев.</li>
-          <li xml:lang="ro">Corectate erori de aspect și selecție în fila Lista depozitelor.</li>
-
-          <li xml:lang="en">Added GPG tab improvements: fingerprint and expiry display, export and delete actions with safe validation.</li>
-          <li xml:lang="es">Mejoras en la pestaña GPG: visualización de huella y caducidad, acciones de exportar y eliminar con validación segura.</li>
-          <li xml:lang="fr">Améliorations de l'onglet GPG : affichage de l'empreinte et de la date d'expiration, actions d'exportation et de suppression avec validation sécurisée.</li>
-          <li xml:lang="pt">Melhorias na aba GPG: exibição de fingerprint e validade, ações de exportar e excluir com validação segura.</li>
-          <li xml:lang="de">Verbesserungen im GPG-Tab: Anzeige von Fingerprint und Ablaufdatum, Export- und Löschaktionen mit sicherer Validierung.</li>
-          <li xml:lang="it">Migliorie nella scheda GPG: visualizzazione del fingerprint e della scadenza, azioni di esportazione e cancellazione con validazione sicura.</li>
-          <li xml:lang="ru">Улучшения вкладки GPG: отображение отпечатка и срока действия, экспорт и удаление с безопасной валидацией.</li>
-          <li xml:lang="ro">Îmbunătățiri în fila GPG: afișarea amprentei și a expirării, acțiuni de export și ștergere cu validare sigură.</li>
-
-          <li xml:lang="en">Replaced four screenshots (Welcome, Repositories, Sources Generator, GPG Keys) with updated captures.</li>
-          <li xml:lang="es">Reemplazadas cuatro capturas (Bienvenida, Repositorios, Generador de Sources, Claves GPG) por imágenes actualizadas.</li>
-          <li xml:lang="fr">Quatre captures remplacées (Accueil, Dépôts, Générateur de Sources, Clés GPG) par des images mises à jour.</li>
-          <li xml:lang="pt">Quatro capturas substituídas (Bem-vindo, Repositórios, Gerador de Sources, Chaves GPG) por imagens atualizadas.</li>
-          <li xml:lang="de">Vier Screenshots ersetzt (Begrüßung, Repositories, Sources-Generator, GPG-Schlüssel) durch aktualisierte Aufnahmen.</li>
-          <li xml:lang="it">Sostituite quattro schermate (Welcome, Repository, Generatore di Sources, Chiavi GPG) con acquisizioni aggiornate.</li>
-          <li xml:lang="ru">Заменены четыре скриншота (Welcome, Repositories, Sources Generator, GPG Keys) на обновлённые снимки.</li>
-          <li xml:lang="ro">Au fost înlocuite patru capturi (Welcome, Repositories, Sources Generator, GPG Keys) cu imagini actualizate.</li>
-        </ul>
-      </description>
-    </release>
-    <release version="1.0.7" date="2025-07-27">
-      <description>
-        <p>Nuevo icono de la aplicación.</p>
-        <p xml:lang="es">Cambio de icono del programa.</p>
-        <p xml:lang="fr">Changement d'icône du programme.</p>
-        <p xml:lang="pt">Alteração do ícone do programa.</p>
-        <p xml:lang="de">Programmicon geändert.</p>
-        <p xml:lang="it">Cambio dell'icona del programma.</p>
-        <p xml:lang="ru">Изменена иконка программы.</p>
-        <p xml:lang="ro">Schimbare pictogramă a programului.</p>
-      </description>
-    </release>
-    <release version="1.0.6" date="2025-07-16">
-      <description>
-        <p>AppStream/DEP11 compliance: metainfo fully validated and icons added in 48x48, 64x64, 128x128 for software centers.</p>
-        <p xml:lang="es">Cumplimiento AppStream/DEP11: metainfo validado y se añaden iconos en 48x48, 64x64 y 128x128 para centros de software.</p>
-        <p xml:lang="fr">Conformité AppStream/DEP11 : metainfo validé et icônes ajoutées en 48x48, 64x64, 128x128 pour les centres logiciels.</p>
-        <p xml:lang="pt">Conformidade AppStream/DEP11: metainfo validado e ícones adicionados em 48x48, 64x64, 128x128 para centros de software.</p>
-        <p xml:lang="de">AppStream/DEP11-Konformität: Metainfo validiert und Symbole in 48x48, 64x64, 128x128 für Software-Center hinzugefügt.</p>
-        <p xml:lang="it">Conformità AppStream/DEP11: metainfo validato e icone aggiunte in 48x48, 64x64, 128x128 per i centri software.</p>
-        <p xml:lang="ru">Соответствие AppStream/DEP11: метаинформация проверена, добавлены иконки 48x48, 64x64, 128x128 для центров ПО.</p>
-        <p xml:lang="ro">Conformitate AppStream/DEP11: metainfo validat și pictograme adăugate la 48x48, 64x64, 128x128 pentru centrele software.</p>
-      </description>
-    </release>
-    <release version="1.0.5" date="2025-07-14">
-      <description>
-        <p>Final metainfo corrections for proper appearance in software centers (AppStream, Discover, GNOME Software, etc).</p>
-        <p xml:lang="es">Correcciones finales del metainfo para aparecer correctamente en centros de software (AppStream, Discover, GNOME Software, etc).</p>
-        <p xml:lang="fr">Corrections finales du metainfo pour une apparition correcte dans les centres logiciels (AppStream, Discover, GNOME Software, etc).</p>
-        <p xml:lang="pt">Correções finais do metainfo para aparecer corretamente em centros de software (AppStream, Discover, GNOME Software, etc).</p>
-        <p xml:lang="de">Abschließende Metainfo-Korrekturen für die korrekte Anzeige in Software-Centern (AppStream, Discover, GNOME Software, etc).</p>
-        <p xml:lang="it">Correzioni finali del metainfo per la corretta visualizzazione nei centri software (AppStream, Discover, GNOME Software, ecc).</p>
-        <p xml:lang="ru">Финальные исправления метаинформации для корректного отображения в центрах программного обеспечения (AppStream, Discover, GNOME Software и др.).</p>
-        <p xml:lang="ro">Corecții finale ale metainfo pentru apariția corectă în centrele software (AppStream, Discover, GNOME Software, etc).</p>
-      </description>
-    </release>
-    <release version="1.0.4" date="2025-07-13">
-      <description>
-        <p>Updated metainfo for better visibility in Discover and AppStream.</p>
-        <p xml:lang="es">Metainfo actualizado para mejor visibilidad en Discover y AppStream.</p>
-        <p xml:lang="fr">Metainfo mis à jour pour une meilleure visibilité dans Discover et AppStream.</p>
-        <p xml:lang="pt">Metainfo atualizado para melhor visibilidade no Discover e AppStream.</p>
-        <p xml:lang="de">Metainfo für bessere Sichtbarkeit in Discover und AppStream aktualisiert.</p>
-        <p xml:lang="it">Metainfo aggiornato per una migliore visibilità in Discover e AppStream.</p>
-        <p xml:lang="ru">Обновлен метаинфо для лучшей видимости в Discover и AppStream.</p>
-        <p xml:lang="ro">Metainfo actualizat pentru o mai bună vizibilitate în Discover și AppStream.</p>
-      </description>
-    </release>
-    <release version="1.0.3" date="2025-06-17">
-      <description>
-        <p>Enhanced theme compatibility and stability improvements</p>
-        <p xml:lang="es">Compatibilidad de tema mejorada y mejoras de estabilidad</p>
-        <p xml:lang="fr">Compatibilité de thème améliorée et améliorations de stabilité</p>
-        <p xml:lang="pt">Compatibilidade de tema aprimorada e melhorias de estabilidade</p>
-        <p xml:lang="de">Verbesserte Theme-Kompatibilität und Stabilitätsverbesserungen</p>
-        <p xml:lang="it">Compatibilità del tema migliorata e miglioramenti della stabilità</p>
-        <p xml:lang="ru">Улучшенная совместимость темы и улучшения стабильности</p>
-        <p xml:lang="ro">Compatibilitate de temă îmbunătățită și îmbunătățiri de stabilitate</p>
-        <ul>
-          <li>Respect for custom theme colors and accent preferences</li>
-          <li xml:lang="es">Respeto por colores de tema personalizados y preferencias de acento</li>
-          <li xml:lang="fr">Respect des couleurs de thème personnalisées et des préférences d'accent</li>
-          <li xml:lang="pt">Respeito pelas cores de tema personalizadas e preferências de sotaque</li>
-          <li xml:lang="de">Respekt für benutzerdefinierte Themenfarben und Akzentpräferenzen</li>
-          <li xml:lang="it">Rispetto per i colori del tema personalizzati e le preferenze di accento</li>
-          <li xml:lang="ru">Уважение к пользовательским цветам темы и предпочтениям акцента</li>
-          <li xml:lang="ro">Respectul pentru culorile temei personalizate și preferințele de accent</li>
-          <li>Improved KDE theme detection without forcing GTK themes</li>
-          <li xml:lang="es">Detección de tema KDE mejorada sin forzar temas GTK</li>
-          <li xml:lang="fr">Détection de thème KDE améliorée sans forcer les thèmes GTK</li>
-          <li xml:lang="pt">Detecção de tema KDE aprimorada sem forçar temas GTK</li>
-          <li xml:lang="de">Verbesserte KDE-Theme-Erkennung ohne GTK-Themes zu erzwingen</li>
-          <li xml:lang="it">Rilevamento del tema KDE migliorato senza forzare i temi GTK</li>
-          <li xml:lang="ru">Улучшенное обнаружение темы KDE без принуждения GTK-тем</li>
-          <li xml:lang="ro">Detectarea temei KDE îmbunătățită fără a forța temele GTK</li>
-          <li>Better integration with system-configured GTK themes</li>
-          <li xml:lang="es">Mejor integración con temas GTK configurados por el sistema</li>
-          <li xml:lang="fr">Meilleure intégration avec les thèmes GTK configurés par le système</li>
-          <li xml:lang="pt">Melhor integração com temas GTK configurados pelo sistema</li>
-          <li xml:lang="de">Bessere Integration mit systemkonfigurierten GTK-Themes</li>
-          <li xml:lang="it">Migliore integrazione con i temi GTK configurati dal sistema</li>
-          <li xml:lang="ru">Лучшая интеграция с настроенными системой GTK-темами</li>
-          <li xml:lang="ro">Integrare mai bună cu temele GTK configurate de sistem</li>
-          <li>Reduced startup time and memory usage</li>
-          <li xml:lang="es">Tiempo de inicio reducido și menor uso de memoria</li>
-          <li xml:lang="fr">Temps de démarrage réduit et utilisation mémoire réduite</li>
-          <li xml:lang="pt">Tempo de inicialização reduzido e menor uso de memória</li>
-        </ul>
-      </description>
-    </release>
-    <release version="1.0.2" date="2025-01-15">
-      <description>
-        <p>Automatic theme detection and interface improvements</p>
-        <p xml:lang="es">Detección automática de tema y mejoras de interfaz</p>
-        <p xml:lang="fr">Détection automatique de thème et améliorations d'interface</p>
-        <p xml:lang="pt">Detecção automática de tema e melhorias de interface</p>
-        <p xml:lang="de">Automatische Theme-Erkennung und Interface-Verbesserungen</p>
-        <p xml:lang="it">Rilevamento automatico del tema e miglioramenti dell'interfaccia</p>
-        <p xml:lang="ru">Автоматическое обнаружение темы и улучшения интерфейса</p>
-      </description>
-    </release>
   </releases>
 
   <content_rating type="oars-1.1">
@@ -670,4 +426,5 @@
     <content_attribute id="money-purchasing">none</content_attribute>
     <content_attribute id="social-chat">none</content_attribute>
   </content_rating>
+
 </component>

@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260522T072600
+Time: 20260522T073520
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -20,8 +20,8 @@ Name:
   ru: Селектор репозиториев Soplos
   ro: Selector de depozite Soplos
 Summary:
-  en: Advanced APT repository manager for Soplos Linux
   C: Advanced APT repository manager for Soplos Linux
+  en: Advanced APT repository manager for Soplos Linux
   es: Gestor avanzado de repositorios APT para Soplos Linux
   fr: Gestionnaire avancé de dépôts APT pour Soplos Linux
   pt: Gerenciador avançado de repositórios APT para Soplos Linux
@@ -30,24 +30,24 @@ Summary:
   ru: Продвинутый менеджер APT-репозиториев для Soplos Linux
   ro: Manager avansat de depozite APT pentru Soplos Linux
 Description:
-  en: |-
-    <p>Soplos Repo Selector is a comprehensive repository management tool designed for Soplos Linux. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p><p>Includes the following features:</p>
   C: |-
-    <p>Soplos Repo Selector is a comprehensive repository management tool designed for Soplos Linux. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p><p>Includes the following features:</p>
+    <p>Soplos Repo Selector is a comprehensive repository management tool designed for Soplos Linux. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p>
+  en: |-
+    <p>Soplos Repo Selector is a comprehensive repository management tool designed for Soplos Linux. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p>
   es: |-
-    <p>Soplos Repo Selector es una herramienta integral de gestión de repositorios diseñada para Soplos Linux. Proporciona una interfaz gráfica intuitiva para gestionar repositorios APT, claves GPG y fuentes de software del sistema con detección automática de tema y soporte multiidioma.</p><p>Las características principales incluyen:</p>
+    <p>Soplos Repo Selector es una herramienta integral de gestión de repositorios diseñada para Soplos Linux. Proporciona una interfaz gráfica intuitiva para gestionar repositorios APT, claves GPG y fuentes de software del sistema con detección automática de tema y soporte multiidioma.</p>
   fr: |-
-    <p>Soplos Repo Selector est un outil complet de gestion de dépôts conçu pour Soplos Linux. Il fournit une interface graphique intuitive pour gérer les dépôts APT, les clés GPG et les sources logicielles du système avec détection automatique de thème et support multilingue.</p><p>Les fonctionnalités clés incluent:</p>
+    <p>Soplos Repo Selector est un outil complet de gestion de dépôts conçu pour Soplos Linux. Il fournit une interface graphique intuitive pour gérer les dépôts APT, les clés GPG et les sources logicielles du système avec détection automatique de thème et support multilingue.</p>
   pt: |-
-    <p>Soplos Repo Selector é uma ferramenta abrangente de gerenciamento de repositórios projetada para o Soplos Linux. Fornece uma interface gráfica intuitiva para gerenciar repositórios APT, chaves GPG e fontes de software do sistema com detecção automática de tema e suporte multilíngue.</p><p>As principais características incluem:</p>
+    <p>Soplos Repo Selector é uma ferramenta abrangente de gerenciamento de repositórios projetada para o Soplos Linux. Fornece uma interface gráfica intuitiva para gerenciar repositórios APT, chaves GPG e fontes de software do sistema com detecção automática de tema e suporte multilíngue.</p>
   de: |-
-    <p>Soplos Repo Selector ist ein umfassendes Repository-Verwaltungstool für Soplos Linux. Es bietet eine intuitive grafische Benutzeroberfläche für die Verwaltung von APT-Repositories, GPG-Schlüsseln und System-Software-Quellen mit automatischer Theme-Erkennung und mehrsprachiger Unterstützung.</p><p>Hauptmerkmale umfassen:</p>
+    <p>Soplos Repo Selector ist ein umfassendes Repository-Verwaltungstool für Soplos Linux. Es bietet eine intuitive grafische Benutzeroberfläche für die Verwaltung von APT-Repositories, GPG-Schlüsseln und System-Software-Quellen mit automatischer Theme-Erkennung und mehrsprachiger Unterstützung.</p>
   it: |-
-    <p>Soplos Repo Selector è uno strumento completo di gestione repository progettato per Soplos Linux. Fornisce un'interfaccia grafica intuitiva per gestire repository APT, chiavi GPG e sorgenti software di sistema con rilevamento automatico del tema e supporto multilingue.</p><p>Le caratteristiche principali includono:</p>
+    <p>Soplos Repo Selector è uno strumento completo di gestione repository progettato per Soplos Linux. Fornisce un'interfaccia grafica intuitiva per gestire repository APT, chiavi GPG e sorgenti software di sistema con rilevamento automatico del tema e supporto multilingue.</p>
   ru: |-
-    <p>Soplos Repo Selector — комплексный инструмент управления репозиториями, разработанный для Soplos Linux. Предоставляет интуитивный графический интерфейс для управления APT-репозиториями, GPG-ключами и источниками программного обеспечения системы с автоматическим обнаружением темы и многоязычной поддержкой.</p><p>Ключевые функции включают:</p>
+    <p>Soplos Repo Selector — комплексный инструмент управления репозиториями, разработанный для Soplos Linux. Предоставляет интуитивный графический интерфейс для управления APT-репозиториями, GPG-ключами и источниками программного обеспечения системы с автоматическим обнаружением темы и многоязычной поддержкой.</p>
   ro: |-
-    <p>Soplos Repo Selector este un instrument cuprinzător de gestionare a depozitelor proiectat pentru Soplos Linux. Oferă o interfață grafică intuitivă pentru gestionarea depozitelor APT, cheilor GPG și surselor software de sistem cu detectare automată a temei și suport multilingv.</p><p>Caracteristicile principale includ:</p>
+    <p>Soplos Repo Selector este un instrument cuprinzător de gestionare a depozitelor proiectat pentru Soplos Linux. Oferă o interfață grafică intuitivă pentru gestionarea depozitelor APT, cheilor GPG și surselor software de sistem cu detectare automată a temei și suport multilingv.</p>
 Keywords:
   C:
     - repository
@@ -195,7 +195,7 @@ Icon:
 Screenshots:
   - default: true
     caption:
-      C: Gestor de Repositorios Soplos
+      C: Soplos Repository Manager
       es: Gestor de Repositorios Soplos
       fr: Gestionnaire de dépôts Soplos
       pt: Gerenciador de Repositórios Soplos
@@ -209,21 +209,35 @@ Screenshots:
       height: 1080
       type: image/png
   - caption:
-      C: Buscar Repositorios Más Rápidos
-      es: Buscar Repositorios Más Rápidos
-      fr: Recherche des dépôts les plus rapides
-      pt: Buscar Repositórios Mais Rápidos
-      de: Schnellste Repositories suchen
-      it: Cerca repository più veloci
-      ru: Поиск самых быстрых репозиториев
-      ro: Căutare depozite mai rapide
+      C: Repositories tab
+      es: Pestaña de Repositorios
+      fr: Onglet Dépôts
+      pt: Aba de Repositórios
+      de: Registerkarte Repositories
+      it: Scheda Repository
+      ru: Вкладка Репозитории
+      ro: Fila Depozite
     source-image:
       url: soplos-repo-selector/screenshots/screenshot2.png
       width: 1920
       height: 1080
       type: image/png
   - caption:
-      C: Gestor de Claves GPG
+      C: Sources Generator with integrated speed test
+      es: Generador de Sources con test de velocidad integrado
+      fr: Générateur de Sources avec test de vitesse intégré
+      pt: Gerador de Sources com teste de velocidade integrado
+      de: Sources-Generator mit integriertem Geschwindigkeitstest
+      it: Generatore di Sources con test di velocità integrato
+      ru: Генератор Sources со встроенным тестом скорости
+      ro: Generator Sources cu test de viteză integrat
+    source-image:
+      url: soplos-repo-selector/screenshots/screenshot3.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: GPG Key Manager
       es: Gestor de Claves GPG
       fr: Gestionnaire de clés GPG
       pt: Gerenciador de Chaves GPG
@@ -231,20 +245,6 @@ Screenshots:
       it: Gestore chiavi GPG
       ru: Менеджер ключей GPG
       ro: Manager de chei GPG
-    source-image:
-      url: soplos-repo-selector/screenshots/screenshot3.png
-      width: 1920
-      height: 1080
-      type: image/png
-  - caption:
-      C: Detalles de Clave GPG
-      es: Detalles de Clave GPG
-      fr: Détails de la clé GPG
-      pt: Detalhes da Chave GPG
-      de: GPG-Schlüsseldetails
-      it: Dettagli chiave GPG
-      ru: Детали ключа GPG
-      ro: Detalii cheie GPG
     source-image:
       url: soplos-repo-selector/screenshots/screenshot4.png
       width: 1920
@@ -255,7 +255,7 @@ Launchable:
     - org.soplos.reposelector.desktop
 Url:
   homepage: https://soplos.org
-  bugtracker: https://github.com/SoplosLinux/soplos-repo-selector
+  bugtracker: https://github.com/SoplosLinux/soplos-repo-selector/issues
   donation: https://paypal.me/soploslinux
   contact: https://soplos.org/wiki/contact/
 Developer:
@@ -266,6 +266,28 @@ Developer:
 Provides:
   - soplos-repo-selector
 Releases:
+  - version: 2.0.2-8
+    date: '2026-05-19'
+    type: stable
+    description:
+      C: |-
+        Documentation-only release: version history corrected across the release page, CHANGELOG and metainfo. All 1.0.x timestamps updated to match the dates extracted from the internal CHANGELOG of each official package.
+      en: |-
+        Documentation-only release: version history corrected across the release page, CHANGELOG and metainfo. All 1.0.x timestamps updated to match the dates extracted from the internal CHANGELOG of each official package.
+      es: |-
+        Publicación solo de documentación: historial de versiones corregido en la página de lanzamientos, CHANGELOG y metainfo. Todas las fechas de la serie 1.0.x actualizadas para coincidir con las fechas extraídas del CHANGELOG interno de cada paquete oficial.
+      fr: |-
+        Version documentation uniquement : historique des versions corrigé dans la page des versions, CHANGELOG et metainfo. Toutes les dates de la série 1.0.x mises à jour pour correspondre aux dates extraites du CHANGELOG interne de chaque paquet officiel.
+      pt: |-
+        Versão apenas de documentação: histórico de versões corrigido na página de lançamentos, CHANGELOG e metainfo. Todas as datas da série 1.0.x atualizadas para corresponder às datas extraídas do CHANGELOG interno de cada pacote oficial.
+      de: |-
+        Nur-Dokumentations-Release: Versionshistorie auf der Releases-Seite, im CHANGELOG und Metainfo korrigiert. Alle Zeitstempel der 1.0.x-Serie entsprechend den Daten aus dem internen CHANGELOG jedes offiziellen Pakets aktualisiert.
+      it: |-
+        Versione solo documentazione: cronologia delle versioni corretta nella pagina delle versioni, CHANGELOG e metainfo. Tutti i timestamp della serie 1.0.x aggiornati per corrispondere alle date estratte dal CHANGELOG interno di ogni pacchetto ufficiale.
+      ru: |-
+        Только документационный выпуск: история версий исправлена на странице релизов, в CHANGELOG и metainfo. Все временные метки серии 1.0.x обновлены в соответствии с датами, извлечёнными из внутреннего CHANGELOG каждого официального пакета.
+      ro: |-
+        Lansare doar de documentație: istoricul versiunilor corectat în pagina de lansări, CHANGELOG și metainfo. Toate marcajele temporale ale seriei 1.0.x actualizate pentru a corespunde datelor extrase din CHANGELOG-ul intern al fiecărui pachet oficial.
   - version: 2.0.2-7
     date: '2026-04-30'
     type: stable
@@ -282,7 +304,7 @@ Releases:
         zu entsprechen.
       it: Il testo della barra di stato è stato semplificato per corrispondere al
         layout standard moderno di Soplos.
-      ru: Текст строки состояния был упрощен, чтобы соответствовать современному стандартному
+      ru: Текст строки состояния был упрощён, чтобы соответствовать современному стандартному
         макету Soplos.
       ro: Textul barei de stare a fost simplificat pentru a se potrivi cu aspectul
         standard modern Soplos.
@@ -400,193 +422,89 @@ Releases:
     date: '2026-03-10'
     type: stable
     description:
-      en: Fixed repository detection for mirrors and optimized password requests.
-      es: Corregida la detección de repositorios en mirrors y optimización de peticiones
-        de contraseña.
-      fr: Correction de la détection des dépôts pour los miroirs et optimización des
-        demandes de mot de passe.
-      pt: Correção da detecção de repositórios para espelhos e otimização de solicitações
-        de senha.
-      de: Repository-Erkennung für Spiegel korrigiert und Passwortanfragen optimiert.
-      it: Corretto il rilevamento dei repository per i mirror e ottimizzate las richieste
-        de password.
-      ru: Исправлено обнаружение репозиториев для зеркал и оптимизированы запросы
-        пароля.
-      ro: S-a corectat detectarea depozitelor pentru oglinzi și s-au optimizat solicitările
-        de parolă.
-      C: Fixed repository detection for mirrors and optimized password requests.
+      en: |-
+        Fixed repository detection for mirrors and regional repositories. Fixed legacy parser to correctly detect commented-out repositories. Optimized pkexec calls to reduce password prompts.
+      es: |-
+        Corregida la detección de repositorios en mirrors y repositorios regionales. Corregido el parser legado para detectar correctamente repositorios comentados. Optimizadas las llamadas a pkexec para reducir solicitudes de contraseña.
+      fr: |-
+        Correction de la détection des dépôts pour les miroirs et dépôts régionaux. Correction du parseur hérité pour détecter correctement les dépôts commentés. Optimisation des appels pkexec pour réduire les demandes de mot de passe.
+      pt: |-
+        Corrigida a detecção de repositórios para espelhos e repositórios regionais. Corrigido o parser legado para detectar corretamente repositórios comentados. Otimizadas as chamadas pkexec para reduzir solicitações de senha.
+      de: |-
+        Repository-Erkennung für Spiegel und regionale Repositories korrigiert. Legacy-Parser korrigiert, um auskommentierte Repositories korrekt zu erkennen. pkexec-Aufrufe optimiert, um Passwortabfragen zu reduzieren.
+      it: |-
+        Corretta la rilevazione dei repository per mirror e repository regionali. Corretto il parser legacy per rilevare correttamente i repository commentati. Ottimizzate le chiamate pkexec per ridurre le richieste di password.
+      ru: |-
+        Исправлено обнаружение репозиториев для зеркал и региональных репозиториев. Исправлен устаревший парсер для корректного обнаружения закомментированных репозиториев. Оптимизированы вызовы pkexec для уменьшения запросов пароля.
+      ro: |-
+        Corectată detectarea depozitelor pentru oglinzi și depozite regionale. Corectat parserul legacy pentru detectarea corectă a depozitelor comentate. Optimizate apelurile pkexec pentru reducerea solicitărilor de parolă.
+      C: |-
+        Fixed repository detection for mirrors and regional repositories. Fixed legacy parser to correctly detect commented-out repositories. Optimized pkexec calls to reduce password prompts.
   - version: 2.0.2
     date: '2026-01-09'
     type: stable
     description:
-      C: 'Documentation release: added manual page and Debian copyright file.'
-      es: 'Release de documentación: añadida página de manual y archivo copyright
+      en: 'Documentation release: added complete manual page and Debian copyright
+        file.'
+      es: 'Versión de documentación: añadida página de manual completa y archivo copyright
         de Debian.'
-      fr: 'Version de documentation: ajout de la page de manuel et du fichier copyright
+      fr: 'Version de documentation : ajout de la page de manuel complète et du fichier
+        copyright Debian.'
+      pt: 'Versão de documentação: adicionada página de manual completa e arquivo
+        copyright Debian.'
+      de: 'Dokumentations-Release: vollständige Handbuchseite und Debian-Copyright-Datei
+        hinzugefügt.'
+      it: 'Rilascio documentazione: aggiunta pagina di manuale completa e file copyright
         Debian.'
-      pt: 'Lançamento de documentação: adicionada página de manual e arquivo copyright
+      ru: 'Релиз документации: добавлена полная страница руководства и файл авторских
+        прав Debian.'
+      ro: 'Versiune documentație: adăugată pagina de manual completă și fișierul copyright
         Debian.'
-      de: 'Dokumentations-Release: Handbuchseite und Debian-Copyright-Datei hinzugefügt.'
-      it: 'Rilascio documentazione: aggiunta pagina di manuale e file copyright Debian.'
-      ru: 'Релиз документации: добавлена страница руководства и файл авторских прав
-        Debian.'
-      ro: 'Versiune documentație: adăugată pagina de manual și fișierul copyright
-        Debian.'
+      C: 'Documentation release: added complete manual page and Debian copyright file.'
   - version: 2.0.1
     date: '2026-01-02'
     type: stable
     description:
-      es: 'Versión 2.0.1: reescritura completa del test de velocidad con mediciones
-        reales y barras de progreso dinámicas.'
-      en: 'Version 2.0.1: complete speed test rewrite with real measurements and dynamic
-        progress bars.'
-      fr: 'Version 2.0.1 : réécriture complète du test de vitesse avec des mesures
-        réelles et des barres de progression dynamiques.'
-      pt: 'Versão 2.0.1: reescrita completa do teste de velocidade com medições reais
-        e barras de progresso dinâmicas.'
+      en: |-
+        Complete speed test rewrite with real TCP latency measurement, larger downloads (2-10 MB), increased parallelism (6 workers) and dynamic real-time progress bars. Sources Generator now detects real system state. Fixed backports file removal when disabled. Fixed translation function error in file manager.
+      es: |-
+        Reescritura completa del test de velocidad con medición real de latencia TCP, descargas más grandes (2-10 MB), mayor paralelismo (6 workers) y barras de progreso dinámicas en tiempo real. El Generador de Sources ahora detecta el estado real del sistema. Corregida la eliminación del archivo de backports al desactivarlo. Corregido error de función de traducción en el gestor de archivos.
+      fr: |-
+        Réécriture complète du test de vitesse avec mesure réelle de la latence TCP, téléchargements plus importants (2-10 Mo), parallélisme accru (6 workers) et barres de progression dynamiques en temps réel. Le Générateur de Sources détecte désormais l'état réel du système. Correction de la suppression du fichier backports. Correction de l'erreur de fonction de traduction dans le gestionnaire de fichiers.
+      pt: |-
+        Reescrita completa do teste de velocidade com medição real de latência TCP, downloads maiores (2-10 MB), maior paralelismo (6 workers) e barras de progresso dinâmicas em tempo real. O Gerador de Sources agora detecta o estado real do sistema. Corrigida a remoção do arquivo de backports ao desativá-lo. Corrigido erro de função de tradução no gerenciador de arquivos.
       de: |-
-        Version 2.0.1: Vollständige Neufassung des Geschwindigkeitstests mit realen Messungen und dynamischen Fortschrittsbalken.
-      it: 'Versione 2.0.1: riscrittura completa del test di velocità con misurazioni
-        reali e barre di avanzamento dinamiche.'
-      ru: 'Версия 2.0.1: полная переработка теста скорости с реальными измерениями
-        и динамическими индикаторами прогресса.'
-      ro: 'Versiunea 2.0.1: rescrierea completă a testului de viteză cu măsurători
-        reale și bare de progres dinamice.'
-      C: 'Version 2.0.1: complete speed test rewrite with real measurements and dynamic
-        progress bars.'
-  - version: 2.0.0
-    date: '2025-12-10'
-    type: stable
-    description:
-      es: 'Lanzamiento 2.0.0: rediseño de la interfaz, mejoras de rendimiento y mayor
-        compatibilidad.'
-      en: 'Release 2.0.0: UI overhaul, performance improvements and expanded compatibility.'
-      fr: 'Version 2.0.0 : refonte de l''interface, améliorations des performances
-        et compatibilité étendue.'
-      pt: 'Versão 2.0.0: reformulação da interface, melhorias de desempenho e compatibilidade
-        ampliada.'
-      de: 'Version 2.0.0: Benutzeroberfläche überarbeitet, Leistungsverbesserungen
-        und erweiterte Kompatibilität.'
-      it: 'Versione 2.0.0: restyling dell''interfaccia, miglioramenti delle prestazioni
-        e compatibilità ampliata.'
-      ru: 'Версия 2.0.0: переработанный интерфейс, улучшение производительности и
-        расширенная совместимость.'
-      ro: 'Versiunea 2.0.0: interfață reproiectată, îmbunătățiri de performanță și
-        compatibilitate extinsă.'
-      C: 'Release 2.0.0: UI overhaul, performance improvements and expanded compatibility.'
+        Vollständige Neufassung des Geschwindigkeitstests mit echter TCP-Latenzmessung, größeren Downloads (2-10 MB), erhöhtem Parallelismus (6 Worker) und dynamischen Echtzeit-Fortschrittsbalken. Sources Generator erkennt jetzt den echten Systemstatus. Backports-Datei-Entfernung beim Deaktivieren korrigiert. Übersetzungsfunktionsfehler im Dateimanager behoben.
+      it: |-
+        Riscrittura completa del test di velocità con misurazione reale della latenza TCP, download più grandi (2-10 MB), maggior parallelismo (6 worker) e barre di avanzamento dinamiche in tempo reale. Il Generatore di Sources ora rileva lo stato reale del sistema. Corretta la rimozione del file backports. Corretto errore della funzione di traduzione nel gestore file.
+      ru: |-
+        Полная переработка теста скорости с реальным измерением задержки TCP, более крупными загрузками (2-10 МБ), увеличенным параллелизмом (6 воркеров) и динамическими индикаторами прогресса в реальном времени. Генератор Sources теперь определяет реальное состояние системы. Исправлено удаление файла backports. Исправлена ошибка функции перевода в файловом менеджере.
+      ro: |-
+        Rescrierea completă a testului de viteză cu măsurarea reală a latenței TCP, descărcări mai mari (2-10 MB), paralelism crescut (6 workeri) și bare de progres dinamice în timp real. Generatorul Sources detectează acum starea reală a sistemului. Corectată eliminarea fișierului backports. Corectată eroarea funcției de traducere în managerul de fișiere.
+      C: |-
+        Complete speed test rewrite with real TCP latency measurement, larger downloads (2-10 MB), increased parallelism (6 workers) and dynamic real-time progress bars. Sources Generator now detects real system state. Fixed backports file removal when disabled. Fixed translation function error in file manager.
   - version: 2.0.0
     date: '2025-12-13'
     type: stable
     description:
-      es: 'Parche 2025-12-13: traducciones completadas y cabeceras estandarizadas.'
-      en: 'Patch 2025-12-13: completed translations and standardized headers.'
-      fr: 'Correctif 2025-12-13 : traductions terminées et en-têtes standardisés.'
-      pt: 'Patch 2025-12-13: traduções concluídas e cabeçalhos padronizados.'
-      de: 'Patch 2025-12-13: Übersetzungen abgeschlossen und Header standardisiert.'
-      it: 'Patch 2025-12-13: traduzioni completate e intestazioni standardizzate.'
-      ru: 'Патч 2025-12-13: завершены переводы и стандартизированы заголовки.'
-      ro: 'Patch 2025-12-13: traduceri finalizate și antete standardizate.'
-      C: 'Patch 2025-12-13: completed translations and standardized headers.'
-  - version: 2.0.0
-    date: '2025-12-12'
-    type: stable
-    description:
-      es: 'Parche 2025-12-12: correcciones y mejoras menores.'
-      en: 'Patch 2025-12-12: minor fixes and improvements.'
-      fr: 'Correctif 2025-12-12 : corrections et améliorations mineures.'
-      pt: 'Patch 2025-12-12: correções e melhorias menores.'
-      de: 'Patch 2025-12-12: kleinere Fehlerbehebungen und Verbesserungen.'
-      it: 'Patch 2025-12-12: correzioni e miglioramenti minori.'
-      ru: 'Патч 2025-12-12: мелкие исправления и улучшения.'
-      ro: 'Patch 2025-12-12: corecții și îmbunătățiri minore.'
-      C: 'Patch 2025-12-12: minor fixes and improvements.'
-  - version: 1.0.7
-    date: '2025-07-27'
-    type: stable
-    description:
-      C: Nuevo icono de la aplicación.
-      es: Cambio de icono del programa.
-      fr: Changement d'icône du programme.
-      pt: Alteração do ícone do programa.
-      de: Programmicon geändert.
-      it: Cambio dell'icona del programma.
-      ru: Изменена иконка программы.
-      ro: Schimbare pictogramă a programului.
-  - version: 1.0.6
-    date: '2025-07-16'
-    type: stable
-    description:
-      C: 'AppStream/DEP11 compliance: metainfo fully validated and icons added in
-        48x48, 64x64, 128x128 for software centers.'
-      es: 'Cumplimiento AppStream/DEP11: metainfo validado y se añaden iconos en 48x48,
-        64x64 y 128x128 para centros de software.'
-      fr: 'Conformité AppStream/DEP11 : metainfo validé et icônes ajoutées en 48x48,
-        64x64, 128x128 pour les centres logiciels.'
-      pt: 'Conformidade AppStream/DEP11: metainfo validado e ícones adicionados em
-        48x48, 64x64, 128x128 para centros de software.'
-      de: 'AppStream/DEP11-Konformität: Metainfo validiert und Symbole in 48x48, 64x64,
-        128x128 für Software-Center hinzugefügt.'
-      it: 'Conformità AppStream/DEP11: metainfo validato e icone aggiunte in 48x48,
-        64x64, 128x128 per i centri software.'
-      ru: 'Соответствие AppStream/DEP11: метаинформация проверена, добавлены иконки
-        48x48, 64x64, 128x128 для центров ПО.'
-      ro: 'Conformitate AppStream/DEP11: metainfo validat și pictograme adăugate la
-        48x48, 64x64, 128x128 pentru centrele software.'
-  - version: 1.0.5
-    date: '2025-07-14'
-    type: stable
-    description:
-      C: Final metainfo corrections for proper appearance in software centers (AppStream,
-        Discover, GNOME Software, etc).
+      en: |-
+        Major rewrite with modern, modular architecture for cross-desktop compatibility (GNOME, KDE Plasma, XFCE). Unified branch replacing the former Tyson (KDE) and Tyron (XFCE) separate releases. Includes complete internationalization for 8 languages, CSS-based theming engine, improved GPG key management, enhanced DEB822 format support, mirror speed test integrated into the Sources Generator tab, and full Wayland/X11 compatibility.
       es: |-
-        Correcciones finales del metainfo para aparecer correctamente en centros de software (AppStream, Discover, GNOME Software, etc).
+        Reescritura mayor con arquitectura moderna y modular para compatibilidad multiescritor (GNOME, KDE Plasma, XFCE). Rama unificada que reemplaza las anteriores versiones separadas Tyson (KDE) y Tyron (XFCE). Incluye internacionalización completa para 8 idiomas, motor de temas CSS, gestión de claves GPG mejorada, mejor soporte DEB822, test de velocidad integrado en la pestaña Generador de Sources y compatibilidad total Wayland/X11.
       fr: |-
-        Corrections finales du metainfo pour une apparition correcte dans les centres logiciels (AppStream, Discover, GNOME Software, etc).
+        Réécriture majeure avec une architecture moderne et modulaire pour la compatibilité multi-bureau (GNOME, KDE Plasma, XFCE). Branche unifiée remplaçant les anciennes versions séparées Tyson (KDE) et Tyron (XFCE). Comprend une internationalisation complète pour 8 langues, un moteur de thèmes CSS, une gestion améliorée des clés GPG, un meilleur support DEB822, un test de vitesse intégré dans l'onglet Générateur de Sources et une compatibilité totale Wayland/X11.
       pt: |-
-        Correções finais do metainfo para aparecer corretamente em centros de software (AppStream, Discover, GNOME Software, etc).
+        Reescrita maior com arquitetura moderna e modular para compatibilidade multi-desktop (GNOME, KDE Plasma, XFCE). Ramo unificado que substitui as anteriores versões separadas Tyson (KDE) e Tyron (XFCE). Inclui internacionalização completa para 8 idiomas, motor de temas CSS, gestão de chaves GPG melhorada, melhor suporte DEB822, teste de velocidade integrado na aba Gerador de Sources e compatibilidade total Wayland/X11.
       de: |-
-        Abschließende Metainfo-Korrekturen für die korrekte Anzeige in Software-Centern (AppStream, Discover, GNOME Software, etc).
+        Größere Neufassung mit moderner, modularer Architektur für Desktop-übergreifende Kompatibilität (GNOME, KDE Plasma, XFCE). Einheitlicher Branch, der die früheren separaten Versionen Tyson (KDE) und Tyron (XFCE) ersetzt. Enthält vollständige Internationalisierung für 8 Sprachen, CSS-basierte Theme-Engine, verbesserte GPG-Schlüsselverwaltung, bessere DEB822-Unterstützung, in den Sources-Generator integrierten Geschwindigkeitstest und vollständige Wayland/X11-Kompatibilität.
       it: |-
-        Correzioni finali del metainfo per la corretta visualizzazione nei centri software (AppStream, Discover, GNOME Software, ecc).
+        Riscrittura maggiore con architettura moderna e modulare per compatibilità multi-desktop (GNOME, KDE Plasma, XFCE). Branch unificato che sostituisce le precedenti versioni separate Tyson (KDE) e Tyron (XFCE). Include internazionalizzazione completa per 8 lingue, motore temi CSS, gestione chiavi GPG migliorata, migliore supporto DEB822, test di velocità integrato nella scheda Generatore di Sources e compatibilità totale Wayland/X11.
       ru: |-
-        Финальные исправления метаинформации для корректного отображения в центрах программного обеспечения (AppStream, Discover, GNOME Software и др.).
-      ro: Corecții finale ale metainfo pentru apariția corectă în centrele software
-        (AppStream, Discover, GNOME Software, etc).
-  - version: 1.0.4
-    date: '2025-07-13'
-    type: stable
-    description:
-      C: Updated metainfo for better visibility in Discover and AppStream.
-      es: Metainfo actualizado para mejor visibilidad en Discover y AppStream.
-      fr: Metainfo mis à jour pour une meilleure visibilité dans Discover et AppStream.
-      pt: Metainfo atualizado para melhor visibilidade no Discover e AppStream.
-      de: Metainfo für bessere Sichtbarkeit in Discover und AppStream aktualisiert.
-      it: Metainfo aggiornato per una migliore visibilità in Discover e AppStream.
-      ru: Обновлен метаинфо для лучшей видимости в Discover и AppStream.
-      ro: Metainfo actualizat pentru o mai bună vizibilitate în Discover și AppStream.
-  - version: 1.0.3
-    date: '2025-06-17'
-    type: stable
-    description:
-      C: Enhanced theme compatibility and stability improvements
-      es: Compatibilidad de tema mejorada y mejoras de estabilidad
-      fr: Compatibilité de thème améliorée et améliorations de stabilité
-      pt: Compatibilidade de tema aprimorada e melhorias de estabilidade
-      de: Verbesserte Theme-Kompatibilität und Stabilitätsverbesserungen
-      it: Compatibilità del tema migliorata e miglioramenti della stabilità
-      ru: Улучшенная совместимость темы и улучшения стабильности
-      ro: Compatibilitate de temă îmbunătățită și îmbunătățiri de stabilitate
-  - version: 1.0.2
-    date: '2025-01-15'
-    type: stable
-    description:
-      C: Automatic theme detection and interface improvements
-      es: Detección automática de tema y mejoras de interfaz
-      fr: Détection automatique de thème et améliorations d'interface
-      pt: Detecção automática de tema e melhorias de interface
-      de: Automatische Theme-Erkennung und Interface-Verbesserungen
-      it: Rilevamento automatico del tema e miglioramenti dell'interfaccia
-      ru: Автоматическое обнаружение темы и улучшения интерфейса
+        Крупная переработка с современной модульной архитектурой для кросс-десктопной совместимости (GNOME, KDE Plasma, XFCE). Единая ветка, заменяющая раздельные версии Tyson (KDE) и Tyron (XFCE). Включает полную интернационализацию для 8 языков, CSS-движок тем, улучшенное управление GPG-ключами, расширенную поддержку DEB822, тест скорости зеркал в генераторе Sources и полную совместимость с Wayland/X11.
+      ro: |-
+        Rescrierea majoră cu arhitectură modernă și modulară pentru compatibilitate multi-desktop (GNOME, KDE Plasma, XFCE). Ramură unificată care înlocuiește versiunile separate anterioare Tyson (KDE) și Tyron (XFCE). Include internaționalizare completă pentru 8 limbi, motor de teme CSS, gestionare îmbunătățită a cheilor GPG, suport DEB822 extins, test de viteză integrat în fila Generator Sources și compatibilitate totală Wayland/X11.
+      C: |-
+        Major rewrite with modern, modular architecture for cross-desktop compatibility (GNOME, KDE Plasma, XFCE). Unified branch replacing the former Tyson (KDE) and Tyron (XFCE) separate releases. Includes complete internationalization for 8 languages, CSS-based theming engine, improved GPG key management, enhanced DEB822 format support, mirror speed test integrated into the Sources Generator tab, and full Wayland/X11 compatibility.
 Component: main
 ---
 Type: desktop-application
