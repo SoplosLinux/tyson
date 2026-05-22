@@ -273,6 +273,88 @@
   </developer>
 
   <releases>
+      <release version="2.0.8-4" date="2026-05-22">
+        <description>
+          <p>Drivers tab detection fixes and Syncthing Tray added to Utilities:</p>
+          <ul>
+            <li>Drivers Tab: fixed false "installed" state on Nouveau button — now checks /etc/modprobe.d/ for blacklist nouveau</li>
+            <li>Drivers Tab: fixed false "installed" state on AMD button — now requires all three packages (firmware-amd-graphics, mesa-vulkan-drivers, xserver-xorg-video-all)</li>
+            <li>Drivers Tab: fixed false "installed" state on Wi-Fi Intel/Realtek buttons — now combines package check with lsmod module verification</li>
+            <li>Recommended Tab: added Syncthing Tray (io.github.martchus.syncthingtray) to Utilities</li>
+            <li>Translations: added Syncthing Tray description string in all 8 languages</li>
+          </ul>
+        </description>
+        <description xml:lang="es">
+          <p>Correcciones de detección en la pestaña Drivers y Syncthing Tray añadido a Utilidades:</p>
+          <ul>
+            <li>Pestaña Drivers: corregido estado falso "instalado" en el botón Nouveau — ahora comprueba /etc/modprobe.d/ en busca de blacklist nouveau</li>
+            <li>Pestaña Drivers: corregido estado falso "instalado" en el botón AMD — ahora requiere los tres paquetes (firmware-amd-graphics, mesa-vulkan-drivers, xserver-xorg-video-all)</li>
+            <li>Pestaña Drivers: corregido estado falso "instalado" en los botones Wi-Fi Intel/Realtek — ahora combina la verificación del paquete con comprobación del módulo en lsmod</li>
+            <li>Pestaña Recomendados: añadido Syncthing Tray (io.github.martchus.syncthingtray) a Utilidades</li>
+            <li>Traducciones: cadena de descripción de Syncthing Tray añadida en los 8 idiomas</li>
+          </ul>
+        </description>
+        <description xml:lang="fr">
+          <p>Corrections de détection dans l'onglet Pilotes et Syncthing Tray ajouté aux Utilitaires :</p>
+          <ul>
+            <li>Onglet Pilotes : correction de l'état faussement « installé » du bouton Nouveau — vérifie maintenant /etc/modprobe.d/ pour blacklist nouveau</li>
+            <li>Onglet Pilotes : correction de l'état faussement « installé » du bouton AMD — nécessite maintenant les trois paquets (firmware-amd-graphics, mesa-vulkan-drivers, xserver-xorg-video-all)</li>
+            <li>Onglet Pilotes : correction de l'état faussement « installé » des boutons Wi-Fi Intel/Realtek — combine désormais la vérification du paquet avec la vérification du module lsmod</li>
+            <li>Onglet Recommandés : Syncthing Tray (io.github.martchus.syncthingtray) ajouté aux Utilitaires</li>
+            <li>Traductions : chaîne de description Syncthing Tray ajoutée dans les 8 langues</li>
+          </ul>
+        </description>
+        <description xml:lang="de">
+          <p>Erkennungskorrekturen im Treiber-Tab und Syncthing Tray zu Dienstprogrammen hinzugefügt:</p>
+          <ul>
+            <li>Treiber-Tab: Falscher „installiert"-Status beim Nouveau-Button behoben — prüft jetzt /etc/modprobe.d/ auf blacklist nouveau</li>
+            <li>Treiber-Tab: Falscher „installiert"-Status beim AMD-Button behoben — erfordert jetzt alle drei Pakete (firmware-amd-graphics, mesa-vulkan-drivers, xserver-xorg-video-all)</li>
+            <li>Treiber-Tab: Falscher „installiert"-Status bei Wi-Fi Intel/Realtek-Buttons behoben — kombiniert jetzt Paketprüfung mit lsmod-Modulverifizierung</li>
+            <li>Empfehlungs-Tab: Syncthing Tray (io.github.martchus.syncthingtray) zu Dienstprogrammen hinzugefügt</li>
+            <li>Übersetzungen: Syncthing Tray Beschreibungstext in allen 8 Sprachen hinzugefügt</li>
+          </ul>
+        </description>
+        <description xml:lang="pt">
+          <p>Correções de deteção na aba Controladores e Syncthing Tray adicionado a Utilitários:</p>
+          <ul>
+            <li>Aba Controladores: corrigido estado falso "instalado" no botão Nouveau — verifica agora /etc/modprobe.d/ para blacklist nouveau</li>
+            <li>Aba Controladores: corrigido estado falso "instalado" no botão AMD — agora requer os três pacotes (firmware-amd-graphics, mesa-vulkan-drivers, xserver-xorg-video-all)</li>
+            <li>Aba Controladores: corrigido estado falso "instalado" nos botões Wi-Fi Intel/Realtek — combina agora verificação de pacote com verificação de módulo lsmod</li>
+            <li>Aba Recomendados: Syncthing Tray (io.github.martchus.syncthingtray) adicionado a Utilitários</li>
+            <li>Traduções: string de descrição do Syncthing Tray adicionada em todos os 8 idiomas</li>
+          </ul>
+        </description>
+        <description xml:lang="it">
+          <p>Correzioni di rilevamento nella scheda Driver e Syncthing Tray aggiunto alle Utilità:</p>
+          <ul>
+            <li>Scheda Driver: corretto stato falso "installato" sul pulsante Nouveau — ora controlla /etc/modprobe.d/ per blacklist nouveau</li>
+            <li>Scheda Driver: corretto stato falso "installato" sul pulsante AMD — ora richiede tutti e tre i pacchetti (firmware-amd-graphics, mesa-vulkan-drivers, xserver-xorg-video-all)</li>
+            <li>Scheda Driver: corretto stato falso "installato" sui pulsanti Wi-Fi Intel/Realtek — ora combina verifica pacchetto con verifica modulo lsmod</li>
+            <li>Scheda Consigliati: Syncthing Tray (io.github.martchus.syncthingtray) aggiunto alle Utilità</li>
+            <li>Traduzioni: stringa di descrizione Syncthing Tray aggiunta in tutte le 8 lingue</li>
+          </ul>
+        </description>
+        <description xml:lang="ru">
+          <p>Исправления обнаружения во вкладке Драйверы и Syncthing Tray добавлен в Утилиты:</p>
+          <ul>
+            <li>Вкладка Драйверы: исправлен ложный статус «установлен» кнопки Nouveau — теперь проверяет /etc/modprobe.d/ на наличие blacklist nouveau</li>
+            <li>Вкладка Драйверы: исправлен ложный статус «установлен» кнопки AMD — теперь требует все три пакета (firmware-amd-graphics, mesa-vulkan-drivers, xserver-xorg-video-all)</li>
+            <li>Вкладка Драйверы: исправлен ложный статус «установлен» кнопок Wi-Fi Intel/Realtek — теперь сочетает проверку пакета с проверкой модуля через lsmod</li>
+            <li>Вкладка Рекомендуемые: Syncthing Tray (io.github.martchus.syncthingtray) добавлен в Утилиты</li>
+            <li>Переводы: строка описания Syncthing Tray добавлена на все 8 языков</li>
+          </ul>
+        </description>
+        <description xml:lang="ro">
+          <p>Remedieri de detectare în fila Drivere și Syncthing Tray adăugat la Utilitare:</p>
+          <ul>
+            <li>Fila Drivere: remediat starea falsă „instalat" pe butonul Nouveau — acum verifică /etc/modprobe.d/ pentru blacklist nouveau</li>
+            <li>Fila Drivere: remediat starea falsă „instalat" pe butonul AMD — acum necesită toate cele trei pachete (firmware-amd-graphics, mesa-vulkan-drivers, xserver-xorg-video-all)</li>
+            <li>Fila Drivere: remediat starea falsă „instalat" pe butoanele Wi-Fi Intel/Realtek — acum combină verificarea pachetului cu verificarea modulului lsmod</li>
+            <li>Fila Recomandate: Syncthing Tray (io.github.martchus.syncthingtray) adăugat la Utilitare</li>
+            <li>Traduceri: șirul de descriere Syncthing Tray adăugat în toate cele 8 limbi</li>
+          </ul>
+        </description>
+      </release>
       <release version="2.0.8-3" date="2026-05-18">
         <description>
           <p>Gaming tab optimizations, Lutris Vulkan Fix button, and bug fixes:</p>
@@ -2302,198 +2384,6 @@
           <li>Toate cele 8 limbi (EN, ES, DE, FR, IT, PT, RO, RU) acum la 100% cu 565 mesaje fiecare</li>
         </ul>
       </description>
-    </release>
-
-    <release version="1.1.5" date="2025-09-08">
-      <description>
-        <p>Tyson-only release. Updated all welcome tab URL buttons to soplos.org, removed deprecated handler methods, updated Blender icon.</p>
-      </description>
-      <description xml:lang="es"><p>Versión exclusiva de Tyson. Actualizados todos los botones de URL de la pestaña de bienvenida a soplos.org, eliminados handlers obsoletos, actualizado icono de Blender.</p></description>
-      <description xml:lang="fr"><p>Version exclusive à Tyson. Mise à jour des URL de l'onglet Bienvenue vers soplos.org, suppression des handlers obsolètes, mise à jour de l'icône Blender.</p></description>
-      <description xml:lang="de"><p>Nur für Tyson. Alle URL-Schaltflächen im Willkommens-Tab auf soplos.org aktualisiert, veraltete Handler entfernt, Blender-Symbol aktualisiert.</p></description>
-      <description xml:lang="pt"><p>Versão exclusiva para Tyson. URLs do separador de boas-vindas atualizados para soplos.org, handlers obsoletos removidos, ícone Blender atualizado.</p></description>
-      <description xml:lang="it"><p>Versione esclusiva Tyson. URL della scheda Benvenuto aggiornati a soplos.org, handler obsoleti rimossi, icona Blender aggiornata.</p></description>
-      <description xml:lang="ru"><p>Только для Tyson. URL-кнопки вкладки приветствия обновлены до soplos.org, устаревшие обработчики удалены, иконка Blender обновлена.</p></description>
-      <description xml:lang="ro"><p>Versiune exclusivă Tyson. URL-urile tab-ului Bun venit actualizate la soplos.org, handlere depășite eliminate, pictogramă Blender actualizată.</p></description>
-    </release>
-
-    <release version="1.1.4" date="2025-09-08">
-      <description>
-        <p>Updated Blender icon. Fixed welcome tab link buttons (website, forums, wiki).</p>
-      </description>
-      <description xml:lang="es"><p>Icono de Blender actualizado. Corregidos los botones de enlace de la pestaña de bienvenida (web, foros, wiki).</p></description>
-      <description xml:lang="fr"><p>Icône Blender mise à jour. Correction des boutons de liens de l'onglet Bienvenue (site web, forums, wiki).</p></description>
-      <description xml:lang="de"><p>Blender-Symbol aktualisiert. Link-Schaltflächen im Willkommens-Tab korrigiert (Website, Foren, Wiki).</p></description>
-      <description xml:lang="pt"><p>Ícone do Blender atualizado. Botões de ligação do separador de boas-vindas corrigidos (site, fóruns, wiki).</p></description>
-      <description xml:lang="it"><p>Icona Blender aggiornata. Corretti i pulsanti link della scheda Benvenuto (sito web, forum, wiki).</p></description>
-      <description xml:lang="ru"><p>Обновлена иконка Blender. Исправлены кнопки ссылок во вкладке приветствия (сайт, форумы, вики).</p></description>
-      <description xml:lang="ro"><p>Pictogramă Blender actualizată. Corectate butoanele de linkuri ale tab-ului Bun venit (site web, forumuri, wiki).</p></description>
-    </release>
-
-    <release version="1.1.3" date="2025-07-28">
-      <description>
-        <p>Updated all translation dictionaries. Fixed several functions in the hardware detector. Updated all program icons.</p>
-      </description>
-      <description xml:lang="es"><p>Actualizados todos los diccionarios de traducción. Corregidas varias funciones en el detector de hardware. Actualizados todos los iconos del programa.</p></description>
-      <description xml:lang="fr"><p>Mise à jour de tous les dictionnaires de traduction. Correction de plusieurs fonctions dans le détecteur matériel. Mise à jour de toutes les icônes du programme.</p></description>
-      <description xml:lang="de"><p>Alle Übersetzungswörterbücher aktualisiert. Mehrere Funktionen im Hardware-Detektor korrigiert. Alle Programmsymbole aktualisiert.</p></description>
-      <description xml:lang="pt"><p>Todos os dicionários de tradução atualizados. Várias funções no detetor de hardware corrigidas. Todos os ícones do programa atualizados.</p></description>
-      <description xml:lang="it"><p>Tutti i dizionari di traduzione aggiornati. Corrette diverse funzioni nel rilevatore hardware. Tutte le icone del programma aggiornate.</p></description>
-      <description xml:lang="ru"><p>Обновлены все словари переводов. Исправлены несколько функций в детекторе оборудования. Обновлены все иконки программы.</p></description>
-      <description xml:lang="ro"><p>Toate dicționarele de traducere actualizate. Corectate mai multe funcții în detectorul de hardware. Toate pictogramele programului actualizate.</p></description>
-    </release>
-
-    <release version="1.1.2" date="2025-07-27">
-      <description><p>Changed program icon to a new design.</p></description>
-      <description xml:lang="es"><p>Icono del programa cambiado a un nuevo diseño.</p></description>
-      <description xml:lang="fr"><p>Icône du programme changée vers un nouveau design.</p></description>
-      <description xml:lang="de"><p>Programmsymbol auf neues Design geändert.</p></description>
-      <description xml:lang="pt"><p>Ícone do programa alterado para um novo design.</p></description>
-      <description xml:lang="it"><p>Icona del programma cambiata con un nuovo design.</p></description>
-      <description xml:lang="ru"><p>Иконка программы изменена на новый дизайн.</p></description>
-      <description xml:lang="ro"><p>Pictograma programului schimbată cu un design nou.</p></description>
-    </release>
-
-    <release version="1.1.1" date="2025-07-27">
-      <description>
-        <p>Fixed office install/uninstall button logic in the Recommended tab. Fixed hardware detector to always return the correct recommended driver for NVIDIA and other hardware.</p>
-      </description>
-      <description xml:lang="es"><p>Corregida la lógica de los botones instalar/desinstalar de oficina en la pestaña Recomendado. Corregido el detector de hardware para devolver siempre el driver recomendado correcto.</p></description>
-      <description xml:lang="fr"><p>Correction de la logique des boutons installer/désinstaller de bureau dans l'onglet Recommandé. Correction du détecteur matériel pour toujours renvoyer le pilote recommandé correct.</p></description>
-      <description xml:lang="de"><p>Logik der Office-Install/Deinstall-Schaltflächen im Empfohlen-Tab korrigiert. Hardware-Detektor korrigiert, um immer den richtigen empfohlenen Treiber zurückzugeben.</p></description>
-      <description xml:lang="pt"><p>Corrigida a lógica dos botões instalar/desinstalar de escritório no separador Recomendado. Corrigido o detetor de hardware para retornar sempre o driver recomendado correto.</p></description>
-      <description xml:lang="it"><p>Corretta la logica dei pulsanti installa/disinstalla office nella scheda Consigliati. Corretto il rilevatore hardware per restituire sempre il driver consigliato corretto.</p></description>
-      <description xml:lang="ru"><p>Исправлена логика кнопок установки/удаления офиса во вкладке Рекомендуемое. Исправлен детектор оборудования для правильного определения рекомендованного драйвера.</p></description>
-      <description xml:lang="ro"><p>Corectată logica butoanelor instalare/dezinstalare birou în tab-ul Recomandat. Corectat detectorul de hardware pentru a returna întotdeauna driver-ul recomandat corect.</p></description>
-    </release>
-
-    <release version="1.1.0" date="2025-07-25">
-      <description>
-        <p>Fixed Flatpak/Flathub installation bug: Flatpak applications can now be installed from Flathub without requiring administrator privileges. The Software Center correctly adds Flathub for the current user.</p>
-      </description>
-      <description xml:lang="es"><p>Corregido error de instalación de Flatpak/Flathub: las aplicaciones Flatpak ahora se pueden instalar desde Flathub sin privilegios de administrador. El Centro de Software añade Flathub correctamente para el usuario actual.</p></description>
-      <description xml:lang="fr"><p>Correction du bug d'installation Flatpak/Flathub : les applications Flatpak peuvent maintenant être installées depuis Flathub sans privilèges administrateur. Le Centre de Logiciels ajoute correctement Flathub pour l'utilisateur actuel.</p></description>
-      <description xml:lang="de"><p>Flatpak/Flathub-Installationsfehler behoben: Flatpak-Anwendungen können nun ohne Administratorrechte von Flathub installiert werden. Das Software-Center fügt Flathub korrekt für den aktuellen Benutzer hinzu.</p></description>
-      <description xml:lang="pt"><p>Corrigido erro de instalação Flatpak/Flathub: as aplicações Flatpak podem agora ser instaladas a partir do Flathub sem privilégios de administrador. O Centro de Software adiciona o Flathub corretamente para o utilizador atual.</p></description>
-      <description xml:lang="it"><p>Corretto bug di installazione Flatpak/Flathub: le applicazioni Flatpak possono ora essere installate da Flathub senza privilegi di amministratore. Il Centro Software aggiunge correttamente Flathub per l'utente corrente.</p></description>
-      <description xml:lang="ru"><p>Исправлена ошибка установки Flatpak/Flathub: приложения Flatpak теперь можно устанавливать с Flathub без прав администратора. Центр программ корректно добавляет Flathub для текущего пользователя.</p></description>
-      <description xml:lang="ro"><p>Corectat bug-ul de instalare Flatpak/Flathub: aplicațiile Flatpak pot fi acum instalate de pe Flathub fără privilegii de administrator. Centrul de Software adaugă corect Flathub pentru utilizatorul curent.</p></description>
-    </release>
-
-    <release version="1.0.9" date="2025-07-24">
-      <description><p>Fixed install buttons in the Software Center (now work correctly).</p></description>
-      <description xml:lang="es"><p>Corregidos los botones de instalación del Centro de Software (ahora funcionan correctamente).</p></description>
-      <description xml:lang="fr"><p>Correction des boutons d'installation dans le Centre de Logiciels (fonctionnent maintenant correctement).</p></description>
-      <description xml:lang="de"><p>Installationsschaltflächen im Software-Center korrigiert (funktionieren jetzt korrekt).</p></description>
-      <description xml:lang="pt"><p>Botões de instalação no Centro de Software corrigidos (funcionam agora corretamente).</p></description>
-      <description xml:lang="it"><p>Corretti i pulsanti di installazione nel Centro Software (ora funzionano correttamente).</p></description>
-      <description xml:lang="ru"><p>Исправлены кнопки установки в Центре программ (теперь работают корректно).</p></description>
-      <description xml:lang="ro"><p>Corectate butoanele de instalare în Centrul de Software (funcționează acum corect).</p></description>
-    </release>
-
-    <release version="1.0.8" date="2025-07-21">
-      <description>
-        <p>Improvements in QEMU/KVM integration. Enhanced NVIDIA driver detection and installation. Translation dictionary fragmented into per-language files. Full internationalization with 8 languages. Improved Recommended tab install/uninstall button logic. LibreWolf switched to Flatpak installation.</p>
-      </description>
-      <description xml:lang="es"><p>Mejoras en integración QEMU/KVM. Detección e instalación de drivers NVIDIA mejorada. Diccionario de traducciones fragmentado en archivos por idioma. Internacionalización completa en 8 idiomas. Lógica de botones de instalar/desinstalar en pestaña Recomendado mejorada. LibreWolf cambiado a instalación Flatpak.</p></description>
-      <description xml:lang="fr"><p>Améliorations de l'intégration QEMU/KVM. Détection et installation des pilotes NVIDIA améliorées. Dictionnaire de traductions fragmenté en fichiers par langue. Internationalisation complète en 8 langues. Logique des boutons installer/désinstaller dans l'onglet Recommandé améliorée. LibreWolf migré vers Flatpak.</p></description>
-      <description xml:lang="de"><p>Verbesserungen bei QEMU/KVM-Integration. Verbesserte NVIDIA-Treibererkennung und -Installation. Übersetzungswörterbuch in sprachspezifische Dateien aufgeteilt. Vollständige Internationalisierung mit 8 Sprachen. Verbesserte Logik der Schaltflächen im Empfohlen-Tab. LibreWolf auf Flatpak-Installation umgestellt.</p></description>
-      <description xml:lang="pt"><p>Melhorias na integração QEMU/KVM. Deteção e instalação de drivers NVIDIA melhorada. Dicionário de tradução fragmentado em ficheiros por idioma. Internacionalização completa em 8 idiomas. Lógica de botões instalar/desinstalar no separador Recomendado melhorada. LibreWolf migrado para Flatpak.</p></description>
-      <description xml:lang="it"><p>Miglioramenti nell'integrazione QEMU/KVM. Rilevamento e installazione driver NVIDIA migliorati. Dizionario di traduzione suddiviso in file per lingua. Internazionalizzazione completa in 8 lingue. Logica dei pulsanti installa/disinstalla nella scheda Consigliati migliorata. LibreWolf migrato a Flatpak.</p></description>
-      <description xml:lang="ru"><p>Улучшения интеграции QEMU/KVM. Улучшены обнаружение и установка драйверов NVIDIA. Словарь переводов разделён на файлы по языкам. Полная интернационализация на 8 языков. Улучшена логика кнопок установки/удаления во вкладке Рекомендуемое. LibreWolf переведён на установку через Flatpak.</p></description>
-      <description xml:lang="ro"><p>Îmbunătățiri în integrarea QEMU/KVM. Detectare și instalare drivere NVIDIA îmbunătățite. Dicționarul de traducere împărțit în fișiere pe limbă. Internaționalizare completă în 8 limbi. Logica butoanelor instala/dezinstala în tab-ul Recomandat îmbunătățită. LibreWolf migrat la instalare Flatpak.</p></description>
-    </release>
-
-    <release version="1.0.7" date="2025-07-18">
-      <description><p>Metainfo updated to comply with AppStream/DEP-11 standard. Minor documentation improvements.</p></description>
-      <description xml:lang="es"><p>Metainfo actualizado para cumplir con el estándar AppStream/DEP-11. Mejoras menores en la documentación.</p></description>
-      <description xml:lang="fr"><p>Metainfo mis à jour pour se conformer au standard AppStream/DEP-11. Améliorations mineures de la documentation.</p></description>
-      <description xml:lang="de"><p>Metainfo gemäß AppStream/DEP-11-Standard aktualisiert. Kleinere Dokumentationsverbesserungen.</p></description>
-      <description xml:lang="pt"><p>Metainfo atualizado para conformidade com o padrão AppStream/DEP-11. Melhorias menores na documentação.</p></description>
-      <description xml:lang="it"><p>Metainfo aggiornato per conformità con lo standard AppStream/DEP-11. Miglioramenti minori alla documentazione.</p></description>
-      <description xml:lang="ru"><p>Метаинформация обновлена для соответствия стандарту AppStream/DEP-11. Незначительные улучшения документации.</p></description>
-      <description xml:lang="ro"><p>Metainfo actualizat pentru conformitate cu standardul AppStream/DEP-11. Îmbunătățiri minore ale documentației.</p></description>
-    </release>
-
-    <release version="1.0.6" date="2025-05-20">
-      <description>
-        <p>Software Center improvements: detects installed programs, Midori replaced with Epiphany (GNOME Web), DaVinci Resolve replaced with Shotcut. Driver Center improved with optimized hardware detection.</p>
-      </description>
-      <description xml:lang="es"><p>Mejoras en el Centro de Software: detecta programas instalados, Midori sustituido por Epiphany (GNOME Web), DaVinci Resolve sustituido por Shotcut. Centro de Drivers mejorado con detección de hardware optimizada.</p></description>
-      <description xml:lang="fr"><p>Améliorations du Centre de Logiciels : détecte les programmes installés, Midori remplacé par Epiphany (GNOME Web), DaVinci Resolve remplacé par Shotcut. Centre de Pilotes amélioré avec détection matérielle optimisée.</p></description>
-      <description xml:lang="de"><p>Software-Center-Verbesserungen: Erkennt installierte Programme, Midori durch Epiphany (GNOME Web) ersetzt, DaVinci Resolve durch Shotcut ersetzt. Treiber-Center mit optimierter Hardware-Erkennung verbessert.</p></description>
-      <description xml:lang="pt"><p>Melhorias no Centro de Software: deteta programas instalados, Midori substituído por Epiphany (GNOME Web), DaVinci Resolve substituído por Shotcut. Centro de Drivers melhorado com deteção de hardware otimizada.</p></description>
-      <description xml:lang="it"><p>Miglioramenti al Centro Software: rileva i programmi installati, Midori sostituito con Epiphany (GNOME Web), DaVinci Resolve sostituito con Shotcut. Centro Driver migliorato con rilevamento hardware ottimizzato.</p></description>
-      <description xml:lang="ru"><p>Улучшения Центра программ: определяет установленные программы, Midori заменён на Epiphany (GNOME Web), DaVinci Resolve заменён на Shotcut. Центр драйверов улучшен с оптимизированным обнаружением оборудования.</p></description>
-      <description xml:lang="ro"><p>Îmbunătățiri Centru Software: detectează programele instalate, Midori înlocuit cu Epiphany (GNOME Web), DaVinci Resolve înlocuit cu Shotcut. Centrul de Drivere îmbunătățit cu detectare hardware optimizată.</p></description>
-    </release>
-
-    <release version="1.0.5" date="2025-05-08">
-      <description><p>Packaging fix: reverted App ID to com.soplos.welcome (dot notation). Packager block removed from main.py. Assets renamed back to com.soplos.welcome convention.</p></description>
-      <description xml:lang="es"><p>Corrección de empaquetado: App ID revertido a com.soplos.welcome (notación con punto). Bloque Packager eliminado de main.py. Assets renombrados de vuelta a la convención com.soplos.welcome.</p></description>
-      <description xml:lang="fr"><p>Correction d'empaquetage : App ID rétabli à com.soplos.welcome (notation pointée). Bloc Packager supprimé de main.py. Assets renommés selon la convention com.soplos.welcome.</p></description>
-      <description xml:lang="de"><p>Paketierungs-Fix: App-ID auf com.soplos.welcome zurückgesetzt (Punkt-Notation). Packager-Block aus main.py entfernt. Assets nach com.soplos.welcome-Konvention umbenannt.</p></description>
-      <description xml:lang="pt"><p>Correção de empacotamento: App ID revertido para com.soplos.welcome (notação com ponto). Bloco Packager removido de main.py. Assets renomeados de volta para a convenção com.soplos.welcome.</p></description>
-      <description xml:lang="it"><p>Correzione pacchettizzazione: App ID ripristinato a com.soplos.welcome (notazione con punto). Blocco Packager rimosso da main.py. Asset rinominati secondo la convenzione com.soplos.welcome.</p></description>
-      <description xml:lang="ru"><p>Исправление пакета: App ID возвращён к com.soplos.welcome (точечная нотация). Блок Packager удалён из main.py. Файлы переименованы обратно по соглашению com.soplos.welcome.</p></description>
-      <description xml:lang="ro"><p>Corecție ambalare: App ID revenit la com.soplos.welcome (notație cu punct). Bloc Packager eliminat din main.py. Fișiere redenumite înapoi la convenția com.soplos.welcome.</p></description>
-    </release>
-
-    <release version="1.0.4" date="2025-05-07">
-      <description><p>Packaging fix: autostart updated to copy the system desktop file instead of writing inline content. Desktop file references updated to com.soploswelcome (ID, icon, StartupWMClass).</p></description>
-      <description xml:lang="es"><p>Corrección de empaquetado: autoarranque actualizado para copiar el archivo de escritorio del sistema en lugar de escribir contenido inline. Referencias del archivo de escritorio actualizadas a com.soploswelcome.</p></description>
-      <description xml:lang="fr"><p>Correction d'empaquetage : autostart mis à jour pour copier le fichier bureau système au lieu d'écrire du contenu inline. Références du fichier bureau mises à jour vers com.soploswelcome.</p></description>
-      <description xml:lang="de"><p>Paketierungs-Fix: Autostart aktualisiert, um die System-Desktop-Datei zu kopieren statt Inline-Inhalt zu schreiben. Desktop-Datei-Referenzen auf com.soploswelcome aktualisiert.</p></description>
-      <description xml:lang="pt"><p>Correção de empacotamento: autostart atualizado para copiar o ficheiro de ambiente de trabalho do sistema em vez de escrever conteúdo inline. Referências do ficheiro de ambiente de trabalho atualizadas para com.soploswelcome.</p></description>
-      <description xml:lang="it"><p>Correzione pacchettizzazione: autostart aggiornato per copiare il file desktop di sistema invece di scrivere contenuto inline. Riferimenti del file desktop aggiornati a com.soploswelcome.</p></description>
-      <description xml:lang="ru"><p>Исправление пакета: автозапуск обновлён для копирования системного desktop-файла вместо записи inline-содержимого. Ссылки в desktop-файле обновлены до com.soploswelcome.</p></description>
-      <description xml:lang="ro"><p>Corecție ambalare: autostart actualizat pentru a copia fișierul desktop de sistem în loc să scrie conținut inline. Referințe fișier desktop actualizate la com.soploswelcome.</p></description>
-    </release>
-
-    <release version="1.0.3" date="2025-05-06">
-      <description><p>Packaging fix: Soplos Packager App ID initialization block injected into main.py for correct window manager integration.</p></description>
-      <description xml:lang="es"><p>Corrección de empaquetado: bloque de inicialización de App ID de Soplos Packager inyectado en main.py para correcta integración con el gestor de ventanas.</p></description>
-      <description xml:lang="fr"><p>Correction d'empaquetage : bloc d'initialisation App ID de Soplos Packager injecté dans main.py pour une intégration correcte avec le gestionnaire de fenêtres.</p></description>
-      <description xml:lang="de"><p>Paketierungs-Fix: Soplos Packager App-ID-Initialisierungsblock in main.py injiziert für korrekte Fenstermanager-Integration.</p></description>
-      <description xml:lang="pt"><p>Correção de empacotamento: bloco de inicialização de App ID do Soplos Packager injetado em main.py para integração correta com o gestor de janelas.</p></description>
-      <description xml:lang="it"><p>Correzione pacchettizzazione: blocco di inizializzazione App ID di Soplos Packager iniettato in main.py per una corretta integrazione con il gestore delle finestre.</p></description>
-      <description xml:lang="ru"><p>Исправление пакета: блок инициализации App ID Soplos Packager внедрён в main.py для корректной интеграции с оконным менеджером.</p></description>
-      <description xml:lang="ro"><p>Corecție ambalare: bloc de inițializare App ID Soplos Packager injectat în main.py pentru integrare corectă cu managerul de ferestre.</p></description>
-    </release>
-
-    <release version="1.0.2" date="2025-05-05">
-      <description><p>Packaging: renamed all assets from com.soplos.welcome to com.soploswelcome (dot removed) — desktop file, icons (all sizes), metainfo and pixmaps. App ID changed accordingly.</p></description>
-      <description xml:lang="es"><p>Empaquetado: todos los recursos renombrados de com.soplos.welcome a com.soploswelcome (punto eliminado) — archivo de escritorio, iconos (todos los tamaños), metainfo y pixmaps. App ID cambiado en consecuencia.</p></description>
-      <description xml:lang="fr"><p>Empaquetage : tous les assets renommés de com.soplos.welcome à com.soploswelcome (point supprimé) — fichier bureau, icônes (toutes tailles), metainfo et pixmaps. App ID modifié en conséquence.</p></description>
-      <description xml:lang="de"><p>Paketierung: Alle Assets von com.soplos.welcome in com.soploswelcome umbenannt (Punkt entfernt) — Desktop-Datei, Icons (alle Größen), Metainfo und Pixmaps. App-ID entsprechend geändert.</p></description>
-      <description xml:lang="pt"><p>Empacotamento: todos os recursos renomeados de com.soplos.welcome para com.soploswelcome (ponto removido) — ficheiro de ambiente de trabalho, ícones (todos os tamanhos), metainfo e pixmaps. App ID alterado em conformidade.</p></description>
-      <description xml:lang="it"><p>Pacchettizzazione: tutti gli asset rinominati da com.soplos.welcome a com.soploswelcome (punto rimosso) — file desktop, icone (tutte le dimensioni), metainfo e pixmaps. App ID modificato di conseguenza.</p></description>
-      <description xml:lang="ru"><p>Упаковка: все файлы переименованы с com.soplos.welcome на com.soploswelcome (точка убрана) — desktop-файл, иконки (все размеры), метаинфо и pixmaps. App ID изменён соответствующим образом.</p></description>
-      <description xml:lang="ro"><p>Ambalare: toate fișierele redenumite de la com.soplos.welcome la com.soploswelcome (punct eliminat) — fișier desktop, pictograme (toate dimensiunile), metainfo și pixmaps. App ID modificat corespunzător.</p></description>
-    </release>
-
-    <release version="1.0.1" date="2025-04-15">
-      <description><p>Fixed website button URL in the welcome tab to use the distro-specific link.</p></description>
-      <description xml:lang="es"><p>Corregida la URL del botón de sitio web en la pestaña de bienvenida para usar el enlace específico de la distro.</p></description>
-      <description xml:lang="fr"><p>Correction de l'URL du bouton site web dans l'onglet Bienvenue pour utiliser le lien spécifique à la distribution.</p></description>
-      <description xml:lang="de"><p>URL der Website-Schaltfläche im Willkommens-Tab korrigiert, um den distro-spezifischen Link zu verwenden.</p></description>
-      <description xml:lang="pt"><p>Corrigido o URL do botão do site no separador de boas-vindas para usar o link específico da distro.</p></description>
-      <description xml:lang="it"><p>Corretto l'URL del pulsante sito web nella scheda Benvenuto per usare il link specifico della distro.</p></description>
-      <description xml:lang="ru"><p>Исправлен URL кнопки сайта во вкладке приветствия — теперь использует ссылку для конкретного дистрибутива.</p></description>
-      <description xml:lang="ro"><p>Corectat URL-ul butonului site web în tab-ul Bun venit pentru a utiliza link-ul specific distribuției.</p></description>
-    </release>
-
-    <release version="1.0.0" date="2025-04-08">
-      <description>
-        <p>Initial release. Welcome screen for Soplos Linux with initial system setup, recommended software installation, desktop customization, and access to help resources. Multi-language support (8 languages).</p>
-      </description>
-      <description xml:lang="es"><p>Lanzamiento inicial. Pantalla de bienvenida para Soplos Linux con configuración inicial del sistema, instalación de software recomendado, personalización del escritorio y acceso a recursos de ayuda. Soporte multilingüe (8 idiomas).</p></description>
-      <description xml:lang="fr"><p>Version initiale. Écran de bienvenue pour Soplos Linux avec configuration initiale du système, installation de logiciels recommandés, personnalisation du bureau et accès aux ressources d'aide. Support multilingue (8 langues).</p></description>
-      <description xml:lang="de"><p>Erstveröffentlichung. Willkommensbildschirm für Soplos Linux mit erster Systemkonfiguration, Installation empfohlener Software, Desktop-Anpassung und Zugang zu Hilfsressourcen. Mehrsprachige Unterstützung (8 Sprachen).</p></description>
-      <description xml:lang="pt"><p>Lançamento inicial. Ecrã de boas-vindas para Soplos Linux com configuração inicial do sistema, instalação de software recomendado, personalização do ambiente de trabalho e acesso a recursos de ajuda. Suporte multilingue (8 idiomas).</p></description>
-      <description xml:lang="it"><p>Versione iniziale. Schermata di benvenuto per Soplos Linux con configurazione iniziale del sistema, installazione software consigliato, personalizzazione desktop e accesso alle risorse di aiuto. Supporto multilingue (8 lingue).</p></description>
-      <description xml:lang="ru"><p>Первый выпуск. Экран приветствия для Soplos Linux с начальной настройкой системы, установкой рекомендуемого ПО, настройкой рабочего стола и доступом к справочным ресурсам. Поддержка 8 языков.</p></description>
-      <description xml:lang="ro"><p>Lansare inițială. Ecran de bun venit pentru Soplos Linux cu configurare inițială a sistemului, instalare software recomandat, personalizare desktop și acces la resurse de ajutor. Suport multilingv (8 limbi).</p></description>
     </release>
 
   </releases>

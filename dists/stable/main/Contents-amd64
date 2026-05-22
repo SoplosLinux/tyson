@@ -1389,6 +1389,7 @@ usr/share/soplos-welcome/assets/icons/utilities/qbittorrent.png	    utils/soplos
 usr/share/soplos-welcome/assets/icons/utilities/resources.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/utilities/soplos-appimage-manager.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/utilities/soplos-webapps-manager.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/utilities/syncthing.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/utilities/warehouse.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/screenshots/screenshot01.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/screenshots/screenshot02.png	    utils/soplos-welcome

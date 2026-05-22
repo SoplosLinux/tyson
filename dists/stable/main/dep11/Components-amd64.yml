@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260518T152205
+Time: 20260522T072600
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1100,6 +1100,11 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.0.8-4
+    date: '2026-05-22'
+    type: stable
+    description:
+      C: 'Drivers tab detection fixes and Syncthing Tray added to Utilities:'
   - version: 2.0.8-3
     date: '2026-05-18'
     type: stable
@@ -1197,98 +1202,6 @@ Releases:
     type: stable
     description:
       C: 'Major rewrite with modern architecture and enhanced capabilities:'
-  - version: 1.1.5
-    date: '2025-09-08'
-    type: stable
-    description:
-      C: |-
-        Tyson-only release. Updated all welcome tab URL buttons to soplos.org, removed deprecated handler methods, updated Blender icon.
-  - version: 1.1.4
-    date: '2025-09-08'
-    type: stable
-    description:
-      C: Updated Blender icon. Fixed welcome tab link buttons (website, forums, wiki).
-  - version: 1.1.3
-    date: '2025-07-28'
-    type: stable
-    description:
-      C: Updated all translation dictionaries. Fixed several functions in the hardware
-        detector. Updated all program icons.
-  - version: 1.1.2
-    date: '2025-07-27'
-    type: stable
-    description:
-      C: Changed program icon to a new design.
-  - version: 1.1.1
-    date: '2025-07-27'
-    type: stable
-    description:
-      C: |-
-        Fixed office install/uninstall button logic in the Recommended tab. Fixed hardware detector to always return the correct recommended driver for NVIDIA and other hardware.
-  - version: 1.1.0
-    date: '2025-07-25'
-    type: stable
-    description:
-      C: |-
-        Fixed Flatpak/Flathub installation bug: Flatpak applications can now be installed from Flathub without requiring administrator privileges. The Software Center correctly adds Flathub for the current user.
-  - version: 1.0.9
-    date: '2025-07-24'
-    type: stable
-    description:
-      C: Fixed install buttons in the Software Center (now work correctly).
-  - version: 1.0.8
-    date: '2025-07-21'
-    type: stable
-    description:
-      C: |-
-        Improvements in QEMU/KVM integration. Enhanced NVIDIA driver detection and installation. Translation dictionary fragmented into per-language files. Full internationalization with 8 languages. Improved Recommended tab install/uninstall button logic. LibreWolf switched to Flatpak installation.
-  - version: 1.0.7
-    date: '2025-07-18'
-    type: stable
-    description:
-      C: Metainfo updated to comply with AppStream/DEP-11 standard. Minor documentation
-        improvements.
-  - version: 1.0.6
-    date: '2025-05-20'
-    type: stable
-    description:
-      C: |-
-        Software Center improvements: detects installed programs, Midori replaced with Epiphany (GNOME Web), DaVinci Resolve replaced with Shotcut. Driver Center improved with optimized hardware detection.
-  - version: 1.0.5
-    date: '2025-05-08'
-    type: stable
-    description:
-      C: |-
-        Packaging fix: reverted App ID to com.soplos.welcome (dot notation). Packager block removed from main.py. Assets renamed back to com.soplos.welcome convention.
-  - version: 1.0.4
-    date: '2025-05-07'
-    type: stable
-    description:
-      C: |-
-        Packaging fix: autostart updated to copy the system desktop file instead of writing inline content. Desktop file references updated to com.soploswelcome (ID, icon, StartupWMClass).
-  - version: 1.0.3
-    date: '2025-05-06'
-    type: stable
-    description:
-      C: 'Packaging fix: Soplos Packager App ID initialization block injected into
-        main.py for correct window manager integration.'
-  - version: 1.0.2
-    date: '2025-05-05'
-    type: stable
-    description:
-      C: |-
-        Packaging: renamed all assets from com.soplos.welcome to com.soploswelcome (dot removed) — desktop file, icons (all sizes), metainfo and pixmaps. App ID changed accordingly.
-  - version: 1.0.1
-    date: '2025-04-15'
-    type: stable
-    description:
-      C: Fixed website button URL in the welcome tab to use the distro-specific link.
-  - version: 1.0.0
-    date: '2025-04-08'
-    type: stable
-    description:
-      C: |-
-        Initial release. Welcome screen for Soplos Linux with initial system setup, recommended software installation, desktop customization, and access to help resources. Multi-language support (8 languages).
 Component: main
 ---
 Type: desktop-application
