@@ -159,6 +159,18 @@
   </provides>
 
   <releases>
+    <release version="2.0.0-5" date="2026-05-22">
+      <description>
+        <p xml:lang="en">Added comprehensive historical documentation for Legacy 1.x branches (Tyron and Tyson) in CHANGELOG and README. Cleaned up obsolete AppStream metadata elements in metainfo.xml.</p>
+        <p xml:lang="es">Se ha añadido documentación histórica completa para las ramas Legacy 1.x (Tyron y Tyson) en CHANGELOG y README. Se han limpiado los elementos obsoletos de metainfo.xml para AppStream.</p>
+        <p xml:lang="fr">Ajout d'une documentation historique complète pour les branches Legacy 1.x (Tyron et Tyson) dans CHANGELOG et README. Nettoyage des éléments obsolètes de metainfo.xml pour AppStream.</p>
+        <p xml:lang="pt">Adicionada documentação histórica abrangente para os ramos Legacy 1.x (Tyron e Tyson) em CHANGELOG e README. Limpeza de elementos metainfo obsoletos no metainfo.xml.</p>
+        <p xml:lang="de">Umfangreiche historische Dokumentation für Legacy 1.x-Zweige (Tyron und Tyson) im CHANGELOG und in der README hinzugefügt. Veraltete AppStream-Metadatenelemente in metainfo.xml bereinigt.</p>
+        <p xml:lang="it">Aggiunta documentazione storica completa per i rami Legacy 1.x (Tyron e Tyson) in CHANGELOG e README. Puliti gli elementi di metadati AppStream obsoleti in metainfo.xml.</p>
+        <p xml:lang="ru">Добавлена полная историческая документация для веток Legacy 1.x (Tyron и Tyson) в CHANGELOG и README. Очищены устаревшие элементы метаданных AppStream в metainfo.xml.</p>
+        <p xml:lang="ro">S-a adăugat o documentație istorică completă pentru ramurile Legacy 1.x (Tyron și Tyson) în CHANGELOG și README. S-au curățat elementele de metadate AppStream învechite în metainfo.xml.</p>
+      </description>
+    </release>
     <release version="2.0.0-4" date="2026-05-18">
       <description>
         <p xml:lang="en">Documentation-only release: version history corrected across the release page, CHANGELOG, README and metainfo. All timestamps updated to match the forensic audit of the official package archive.</p>
@@ -217,44 +229,6 @@
         <p xml:lang="it">Versione 2.0.0 - Refactoring modulare completo con rilevamento dinamico dei temi (senza liste fisse), installatore robusto per archivi nidificati, report di avanzamento migliorato e supporto Wayland completo. Include il rilevamento dell'ambiente unificato, il rilevamento robusto del tema scuro KDE, prompt a password singola per TTY, anteprime GNOME e KDE avanzate (Wayland/TTY) e log conformi agli standard.</p>
         <p xml:lang="ru">Версия 2.0.0 - Полный модульный рефакторинг с динамическим обнаружением тем (без захардкорженных списков), надежным установщиком для вложенных архивов, улучшенным отображением прогресса и полной поддержкой Wayland. Включает унифицированное обнаружение среды, надежное определение темной темы KDE, единые запросы пароля для TTY, расширенные превью GNOME и KDE (Wayland/TTY) и стандартные логи.</p>
         <p xml:lang="ro">Versiunea 2.0.0 - Refactorizare modulară completă cu detecție dinamică a temelor (fără liste fixe), instalator robust pentru arhive imbricate, raportare îmbunătățită a progresului și suport complet pentru Wayland. Include detecția unificată a mediului, detecția robustă a temei întunecate KDE, solicitări cu o singură parolă pentru TTY, previzualizări GNOME și KDE avansate (Wayland/TTY) și jurnalizare standardizată.</p>
-      </description>
-    </release>
-    <release version="1.0.4" date="2025-05-07">
-      <description>
-        <p>Cambio de icono del programa.</p>
-        <p xml:lang="es">Cambio de icono del programa.</p>
-        <p xml:lang="en">Program icon changed.</p>
-        <p xml:lang="fr">Changement de l'icône du programme.</p>
-        <p xml:lang="pt">Alteração do ícone do programa.</p>
-        <p xml:lang="de">Programmicon geändert.</p>
-        <p xml:lang="it">Cambiata l'icona del programma.</p>
-        <p xml:lang="ru">Изменена иконка программы.</p>
-        <p xml:lang="ro">S-a schimbat pictograma programului.</p>
-      </description>
-    </release>
-    <release version="1.0.3" date="2025-05-06">
-      <description>
-        <p>Actualización de metainfo para cumplir con AppStream/DEP-11. Renombrado de screenshots a screenshot1.png, screenshot2.png, etc. Mejoras menores de documentación y metadatos.</p>
-        <p xml:lang="es">Actualización de metainfo para cumplir con AppStream/DEP-11. Renombrado de screenshots a screenshot1.png, screenshot2.png, etc. Mejoras menores de documentación y metadatos.</p>
-        <p xml:lang="en">Metainfo update for AppStream/DEP-11 compliance. Renamed screenshots to screenshot1.png, screenshot2.png, etc. Minor documentation and metadata improvements.</p>
-        <p xml:lang="fr">Mise à jour du metainfo pour la conformité AppStream/DEP-11. Renommage des captures d'écran en screenshot1.png, screenshot2.png, etc. Améliorations mineures de la documentation et des métadonnées.</p>
-        <p xml:lang="pt">Atualização do metainfo para conformidade AppStream/DEP-11. Renomeação de screenshots para screenshot1.png, screenshot2.png, etc. Melhorias menores na documentação e metadados.</p>
-        <p xml:lang="de">Metainfo-Aktualisierung für AppStream/DEP-11-Konformität. Screenshots umbenannt in screenshot1.png, screenshot2.png, etc. Kleinere Verbesserungen an Dokumentation und Metadaten.</p>
-        <p xml:lang="it">Aggiornamento del metainfo per la conformità AppStream/DEP-11. Rinominati screenshot in screenshot1.png, screenshot2.png, etc. Miglioramenti minori alla documentazione e ai metadati.</p>
-        <p xml:lang="ru">Обновление метаинформации для соответствия AppStream/DEP-11. Скриншоты переименованы в screenshot1.png, screenshot2.png и т.д. Незначительные улучшения документации и метаданных.</p>
-        <p xml:lang="ro">Actualizare metainfo pentru conformitate AppStream/DEP-11. Capturile de ecran redenumite în screenshot1.png, screenshot2.png, etc. Îmbunătățiri minore ale documentației și metadatelor.</p>
-      </description>
-    </release>
-    <release version="1.0.0" date="2025-05-08">
-      <description>
-        <p>Initial release</p>
-        <p xml:lang="es">Versión inicial</p>
-        <p xml:lang="fr">Version initiale</p>
-        <p xml:lang="pt">Versão inicial</p>
-        <p xml:lang="de">Erste Version</p>
-        <p xml:lang="it">Versione iniziale</p>
-        <p xml:lang="ru">Начальная версия</p>
-        <p xml:lang="ro">Versiune inițială</p>
       </description>
     </release>
   </releases>
