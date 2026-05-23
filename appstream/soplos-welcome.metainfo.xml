@@ -273,6 +273,64 @@
   </developer>
 
   <releases>
+      <release version="2.0.8-5" date="2026-05-23">
+        <description>
+          <p>Wi-Fi Repair button added to Drivers tab:</p>
+          <ul>
+            <li>Drivers Tab: new "Repair Wi-Fi" button — auto-detects the active Wi-Fi driver via /sys/class/net/*/wireless, shows confirmation dialog with driver and interface name, then reloads the module (modprobe -r + modprobe) and restarts NetworkManager. Works with any brand (Intel, Realtek, Atheros, MediaTek, etc.)</li>
+            <li>Translations: Wi-Fi Repair strings added in all 8 languages</li>
+          </ul>
+        </description>
+        <description xml:lang="es">
+          <p>Botón Reparar Wi-Fi añadido a la pestaña Drivers:</p>
+          <ul>
+            <li>Pestaña Drivers: nuevo botón "Reparar Wi-Fi" — detecta automáticamente el controlador Wi-Fi activo a través de /sys/class/net/*/wireless, muestra diálogo de confirmación con el nombre del controlador e interfaz, y recarga el módulo (modprobe -r + modprobe) y reinicia NetworkManager. Funciona con cualquier marca (Intel, Realtek, Atheros, MediaTek, etc.)</li>
+            <li>Traducciones: cadenas de Reparar Wi-Fi añadidas en los 8 idiomas</li>
+          </ul>
+        </description>
+        <description xml:lang="fr">
+          <p>Bouton Réparer le Wi-Fi ajouté à l'onglet Pilotes :</p>
+          <ul>
+            <li>Onglet Pilotes : nouveau bouton « Réparer le Wi-Fi » — détecte automatiquement le pilote Wi-Fi actif via /sys/class/net/*/wireless, affiche un dialogue de confirmation avec le nom du pilote et de l'interface, puis recharge le module (modprobe -r + modprobe) et redémarre NetworkManager. Fonctionne avec n'importe quelle marque (Intel, Realtek, Atheros, MediaTek, etc.)</li>
+            <li>Traductions : chaînes Réparer le Wi-Fi ajoutées dans les 8 langues</li>
+          </ul>
+        </description>
+        <description xml:lang="de">
+          <p>Schaltfläche "Wi-Fi reparieren" zum Treiber-Tab hinzugefügt:</p>
+          <ul>
+            <li>Treiber-Tab: neue Schaltfläche „Wi-Fi reparieren" — erkennt automatisch den aktiven Wi-Fi-Treiber über /sys/class/net/*/wireless, zeigt einen Bestätigungsdialog mit Treiber- und Schnittstellenname, lädt dann das Modul neu (modprobe -r + modprobe) und startet NetworkManager neu. Funktioniert mit jeder Marke (Intel, Realtek, Atheros, MediaTek usw.)</li>
+            <li>Übersetzungen: Wi-Fi reparieren-Strings in allen 8 Sprachen hinzugefügt</li>
+          </ul>
+        </description>
+        <description xml:lang="pt">
+          <p>Botão Reparar Wi-Fi adicionado à aba Controladores:</p>
+          <ul>
+            <li>Aba Controladores: novo botão "Reparar Wi-Fi" — deteta automaticamente o controlador Wi-Fi ativo via /sys/class/net/*/wireless, mostra diálogo de confirmação com o nome do controlador e interface, e recarrega o módulo (modprobe -r + modprobe) e reinicia o NetworkManager. Funciona com qualquer marca (Intel, Realtek, Atheros, MediaTek, etc.)</li>
+            <li>Traduções: strings de Reparar Wi-Fi adicionadas em todos os 8 idiomas</li>
+          </ul>
+        </description>
+        <description xml:lang="it">
+          <p>Pulsante Ripara Wi-Fi aggiunto alla scheda Driver:</p>
+          <ul>
+            <li>Scheda Driver: nuovo pulsante "Ripara Wi-Fi" — rileva automaticamente il driver Wi-Fi attivo tramite /sys/class/net/*/wireless, mostra un dialogo di conferma con il nome del driver e dell'interfaccia, quindi ricarica il modulo (modprobe -r + modprobe) e riavvia NetworkManager. Funziona con qualsiasi marca (Intel, Realtek, Atheros, MediaTek, ecc.)</li>
+            <li>Traduzioni: stringhe Ripara Wi-Fi aggiunte in tutte le 8 lingue</li>
+          </ul>
+        </description>
+        <description xml:lang="ru">
+          <p>Кнопка «Починить Wi-Fi» добавлена во вкладку Драйверы:</p>
+          <ul>
+            <li>Вкладка Драйверы: новая кнопка «Починить Wi-Fi» — автоматически определяет активный драйвер Wi-Fi через /sys/class/net/*/wireless, показывает диалог подтверждения с именем драйвера и интерфейса, затем перезагружает модуль (modprobe -r + modprobe) и перезапускает NetworkManager. Работает с любой маркой (Intel, Realtek, Atheros, MediaTek и др.)</li>
+            <li>Переводы: строки «Починить Wi-Fi» добавлены на все 8 языков</li>
+          </ul>
+        </description>
+        <description xml:lang="ro">
+          <p>Buton Repară Wi-Fi adăugat în fila Drivere:</p>
+          <ul>
+            <li>Fila Drivere: nou buton „Repară Wi-Fi" — detectează automat driverul Wi-Fi activ prin /sys/class/net/*/wireless, afișează dialog de confirmare cu numele driverului și interfeței, apoi reîncarcă modulul (modprobe -r + modprobe) și repornește NetworkManager. Funcționează cu orice marcă (Intel, Realtek, Atheros, MediaTek etc.)</li>
+            <li>Traduceri: șiruri Repară Wi-Fi adăugate în toate cele 8 limbi</li>
+          </ul>
+        </description>
+      </release>
       <release version="2.0.8-4" date="2026-05-22">
         <description>
           <p>Drivers tab detection fixes and Syncthing Tray added to Utilities:</p>
