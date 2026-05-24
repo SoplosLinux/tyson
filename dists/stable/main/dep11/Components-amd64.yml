@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260523T190329
+Time: 20260524T085125
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1018,6 +1018,11 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.0.8-6
+    date: '2026-05-24'
+    type: stable
+    description:
+      C: 'Wi-Fi Repair button detection improved — triple strategy:'
   - version: 2.0.8-5
     date: '2026-05-23'
     type: stable

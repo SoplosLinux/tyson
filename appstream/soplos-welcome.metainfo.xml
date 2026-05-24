@@ -273,6 +273,72 @@
   </developer>
 
   <releases>
+      <release version="2.0.8-6" date="2026-05-24">
+        <description>
+          <p>Wi-Fi Repair button detection improved — triple strategy:</p>
+          <ul>
+            <li>Strategy 1: sysfs /sys/class/net/*/wireless — works when the interface is active</li>
+            <li>Strategy 2: iw dev — works when the interface is down but the module is loaded</li>
+            <li>Strategy 3: lspci -k — works when the module is not loaded at all, which is the exact broken-WiFi-after-reboot case</li>
+          </ul>
+        </description>
+        <description xml:lang="es">
+          <p>Detección del botón Reparar Wi-Fi mejorada — estrategia triple:</p>
+          <ul>
+            <li>Estrategia 1: sysfs /sys/class/net/*/wireless — funciona cuando la interfaz está activa</li>
+            <li>Estrategia 2: iw dev — funciona cuando la interfaz está inactiva pero el módulo está cargado</li>
+            <li>Estrategia 3: lspci -k — funciona cuando el módulo no está cargado, que es exactamente el caso de WiFi roto tras reiniciar</li>
+          </ul>
+        </description>
+        <description xml:lang="fr">
+          <p>Détection du bouton Réparer le Wi-Fi améliorée — stratégie triple :</p>
+          <ul>
+            <li>Stratégie 1 : sysfs /sys/class/net/*/wireless — fonctionne quand l'interface est active</li>
+            <li>Stratégie 2 : iw dev — fonctionne quand l'interface est inactive mais le module est chargé</li>
+            <li>Stratégie 3 : lspci -k — fonctionne quand le module n'est pas chargé, ce qui est exactement le cas du Wi-Fi cassé après redémarrage</li>
+          </ul>
+        </description>
+        <description xml:lang="de">
+          <p>Wi-Fi reparieren-Erkennung verbessert — dreifache Strategie:</p>
+          <ul>
+            <li>Strategie 1: sysfs /sys/class/net/*/wireless — funktioniert wenn die Schnittstelle aktiv ist</li>
+            <li>Strategie 2: iw dev — funktioniert wenn die Schnittstelle inaktiv aber das Modul geladen ist</li>
+            <li>Strategie 3: lspci -k — funktioniert wenn das Modul nicht geladen ist, genau der Fall von defektem WLAN nach dem Neustart</li>
+          </ul>
+        </description>
+        <description xml:lang="pt">
+          <p>Deteção do botão Reparar Wi-Fi melhorada — estratégia tripla:</p>
+          <ul>
+            <li>Estratégia 1: sysfs /sys/class/net/*/wireless — funciona quando a interface está ativa</li>
+            <li>Estratégia 2: iw dev — funciona quando a interface está inativa mas o módulo está carregado</li>
+            <li>Estratégia 3: lspci -k — funciona quando o módulo não está carregado, que é exatamente o caso de Wi-Fi quebrado após reiniciar</li>
+          </ul>
+        </description>
+        <description xml:lang="it">
+          <p>Rilevamento del pulsante Ripara Wi-Fi migliorato — strategia tripla:</p>
+          <ul>
+            <li>Strategia 1: sysfs /sys/class/net/*/wireless — funziona quando l'interfaccia è attiva</li>
+            <li>Strategia 2: iw dev — funziona quando l'interfaccia è inattiva ma il modulo è caricato</li>
+            <li>Strategia 3: lspci -k — funziona quando il modulo non è caricato, che è esattamente il caso del Wi-Fi rotto dopo il riavvio</li>
+          </ul>
+        </description>
+        <description xml:lang="ru">
+          <p>Улучшено обнаружение кнопки «Починить Wi-Fi» — тройная стратегия:</p>
+          <ul>
+            <li>Стратегия 1: sysfs /sys/class/net/*/wireless — работает когда интерфейс активен</li>
+            <li>Стратегия 2: iw dev — работает когда интерфейс неактивен но модуль загружен</li>
+            <li>Стратегия 3: lspci -k — работает когда модуль не загружен, что является именно случаем неработающего Wi-Fi после перезагрузки</li>
+          </ul>
+        </description>
+        <description xml:lang="ro">
+          <p>Detectarea butonului Repară Wi-Fi îmbunătățită — strategie triplă:</p>
+          <ul>
+            <li>Strategia 1: sysfs /sys/class/net/*/wireless — funcționează când interfața este activă</li>
+            <li>Strategia 2: iw dev — funcționează când interfața este inactivă dar modulul este încărcat</li>
+            <li>Strategia 3: lspci -k — funcționează când modulul nu este încărcat, exact cazul Wi-Fi defect după repornire</li>
+          </ul>
+        </description>
+      </release>
       <release version="2.0.8-5" date="2026-05-23">
         <description>
           <p>Wi-Fi Repair button added to Drivers tab:</p>
