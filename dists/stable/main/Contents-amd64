@@ -1451,6 +1451,7 @@ usr/share/soplos-welcome/services/coolercontrol-install.sh	    utils/soplos-welc
 usr/share/soplos-welcome/services/davinci-gpu-patch.sh	    utils/soplos-welcome
 usr/share/soplos-welcome/services/davinci-virtual-mic.sh	    utils/soplos-welcome
 usr/share/soplos-welcome/services/lutris-vulkan-patch.sh	    utils/soplos-welcome
+usr/share/soplos-welcome/services/makeresolvedeb_1.10.0_multi.sh	    utils/soplos-welcome
 usr/share/soplos-welcome/services/makeresolvedeb_1.9.0_multi.sh	    utils/soplos-welcome
 usr/share/soplos-welcome/services/ppsspp-lutris-runner.sh	    utils/soplos-welcome
 usr/share/soplos-welcome/services/gaming/amd-env.conf	    utils/soplos-welcome

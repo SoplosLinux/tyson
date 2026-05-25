@@ -273,6 +273,72 @@
   </developer>
 
   <releases>
+      <release version="2.0.8-7" date="2026-05-25">
+        <description>
+          <p>DaVinci Resolve installer updated to MakeResolveDeb 1.10.0:</p>
+          <ul>
+            <li>Split -data package for Resolve 21+: plugins folder is now placed in a separate davinci-resolve-data package, reducing the size of the main package</li>
+            <li>Faster build: dropped slow xz compression in favour of default gzip</li>
+            <li>Install step now handles both .deb files automatically</li>
+          </ul>
+        </description>
+        <description xml:lang="es">
+          <p>Instalador de DaVinci Resolve actualizado a MakeResolveDeb 1.10.0:</p>
+          <ul>
+            <li>Paquete -data separado para Resolve 21+: la carpeta plugins se coloca ahora en un paquete davinci-resolve-data independiente, reduciendo el tamaño del paquete principal</li>
+            <li>Build más rápido: se elimina la lenta compresión xz en favor de gzip por defecto</li>
+            <li>El paso de instalación ahora gestiona ambos archivos .deb automáticamente</li>
+          </ul>
+        </description>
+        <description xml:lang="fr">
+          <p>Installateur de DaVinci Resolve mis à jour vers MakeResolveDeb 1.10.0 :</p>
+          <ul>
+            <li>Paquet -data séparé pour Resolve 21+ : le dossier plugins est maintenant placé dans un paquet davinci-resolve-data indépendant, réduisant la taille du paquet principal</li>
+            <li>Build plus rapide : suppression de la lente compression xz au profit du gzip par défaut</li>
+            <li>L'étape d'installation gère maintenant les deux fichiers .deb automatiquement</li>
+          </ul>
+        </description>
+        <description xml:lang="de">
+          <p>DaVinci Resolve Installer auf MakeResolveDeb 1.10.0 aktualisiert:</p>
+          <ul>
+            <li>Separates -data-Paket für Resolve 21+: der Plugins-Ordner wird jetzt in einem separaten davinci-resolve-data-Paket abgelegt, was die Größe des Hauptpakets reduziert</li>
+            <li>Schnellerer Build: langsame xz-Komprimierung durch Standard-gzip ersetzt</li>
+            <li>Der Installationsschritt verarbeitet nun beide .deb-Dateien automatisch</li>
+          </ul>
+        </description>
+        <description xml:lang="pt">
+          <p>Instalador do DaVinci Resolve atualizado para MakeResolveDeb 1.10.0:</p>
+          <ul>
+            <li>Pacote -data separado para Resolve 21+: a pasta plugins é agora colocada num pacote davinci-resolve-data independente, reduzindo o tamanho do pacote principal</li>
+            <li>Build mais rápido: compressão xz lenta substituída pelo gzip padrão</li>
+            <li>O passo de instalação gere agora ambos os ficheiros .deb automaticamente</li>
+          </ul>
+        </description>
+        <description xml:lang="it">
+          <p>Installatore di DaVinci Resolve aggiornato a MakeResolveDeb 1.10.0:</p>
+          <ul>
+            <li>Pacchetto -data separato per Resolve 21+: la cartella plugins viene ora inserita in un pacchetto davinci-resolve-data indipendente, riducendo le dimensioni del pacchetto principale</li>
+            <li>Build più veloce: la lenta compressione xz sostituita con il gzip predefinito</li>
+            <li>Il passo di installazione gestisce ora entrambi i file .deb automaticamente</li>
+          </ul>
+        </description>
+        <description xml:lang="ru">
+          <p>Установщик DaVinci Resolve обновлён до MakeResolveDeb 1.10.0:</p>
+          <ul>
+            <li>Отдельный пакет -data для Resolve 21+: папка plugins теперь помещается в отдельный пакет davinci-resolve-data, уменьшая размер основного пакета</li>
+            <li>Более быстрая сборка: медленное сжатие xz заменено стандартным gzip</li>
+            <li>Шаг установки теперь автоматически обрабатывает оба файла .deb</li>
+          </ul>
+        </description>
+        <description xml:lang="ro">
+          <p>Instalatorul DaVinci Resolve actualizat la MakeResolveDeb 1.10.0:</p>
+          <ul>
+            <li>Pachet -data separat pentru Resolve 21+: folderul plugins este acum plasat într-un pachet davinci-resolve-data independent, reducând dimensiunea pachetului principal</li>
+            <li>Build mai rapid: compresia lentă xz înlocuită cu gzip implicit</li>
+            <li>Pasul de instalare gestionează acum ambele fișiere .deb automat</li>
+          </ul>
+        </description>
+      </release>
       <release version="2.0.8-6" date="2026-05-24">
         <description>
           <p>Wi-Fi Repair button detection improved — triple strategy:</p>
