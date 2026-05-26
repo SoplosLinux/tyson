@@ -273,6 +273,72 @@
   </developer>
 
   <releases>
+      <release version="2.0.8-8" date="2026-05-26">
+        <description>
+          <p>Fixed permission error in DaVinci GPU patch script:</p>
+          <ul>
+            <li>Fixed: davinci-gpu-patch.sh created ~/.local/share/applications/ as root (via pkexec), causing Soplos WebApp Manager and Soplos AppImage Manager to fail with PermissionError (Errno 13) when trying to write .desktop files</li>
+            <li>The directory is now created with the correct user ownership using sudo -u</li>
+            <li>Fixed Lutris Vulkan patch targeting wrong Flatpak deployment: lutris-vulkan-patch.sh searched all deployments and could patch an outdated gpu.py; after a Flatpak update the new deployment had the unpatched file, causing Lutris to send a repeated GPU/vulkaninfo error notification. The script now targets the active deployment symlink only</li>
+          </ul>
+        </description>
+        <description xml:lang="es">
+          <p>Corregido error de permisos en el script del parche GPU de DaVinci:</p>
+          <ul>
+            <li>Corregido: davinci-gpu-patch.sh creaba ~/.local/share/applications/ como root (vía pkexec), causando que Soplos WebApp Manager y Soplos AppImage Manager fallasen con PermissionError (Errno 13) al intentar escribir archivos .desktop</li>
+            <li>El directorio ahora se crea con la propiedad correcta del usuario mediante sudo -u</li>
+            <li>Corregido parche Vulkan de Lutris apuntando al deployment incorrecto de Flatpak: lutris-vulkan-patch.sh podía parchear un gpu.py desactualizado; tras una actualización de Flatpak el nuevo deployment tenía el fichero sin parchear, provocando que Lutris enviase una notificación de error de vulkaninfo de forma continua. El script ahora apunta únicamente al deployment activo</li>
+          </ul>
+        </description>
+        <description xml:lang="fr">
+          <p>Correction d'une erreur de permissions dans le script de patch GPU DaVinci :</p>
+          <ul>
+            <li>Corrigé : davinci-gpu-patch.sh créait ~/.local/share/applications/ en tant que root (via pkexec), provoquant l'échec de Soplos WebApp Manager et Soplos AppImage Manager avec PermissionError (Errno 13) lors de l'écriture des fichiers .desktop</li>
+            <li>Le répertoire est maintenant créé avec la propriété utilisateur correcte via sudo -u</li>
+            <li>Corrigé : le patch Vulkan de Lutris ciblait le mauvais déploiement Flatpak — lutris-vulkan-patch.sh pouvait patcher un gpu.py obsolète ; après une mise à jour Flatpak le nouveau déploiement avait le fichier non patché, provoquant des notifications d'erreur vulkaninfo répétées de Lutris. Le script cible désormais uniquement le déploiement actif</li>
+          </ul>
+        </description>
+        <description xml:lang="de">
+          <p>Berechtigungsfehler im DaVinci-GPU-Patch-Skript behoben:</p>
+          <ul>
+            <li>Behoben: davinci-gpu-patch.sh erstellte ~/.local/share/applications/ als root (via pkexec), wodurch Soplos WebApp Manager und Soplos AppImage Manager beim Schreiben von .desktop-Dateien mit PermissionError (Errno 13) fehlschlugen</li>
+            <li>Das Verzeichnis wird jetzt mit dem korrekten Benutzereigentum über sudo -u erstellt</li>
+            <li>Behoben: Lutris-Vulkan-Patch zielte auf falsches Flatpak-Deployment — lutris-vulkan-patch.sh konnte eine veraltete gpu.py patchen; nach einem Flatpak-Update hatte das neue Deployment die ungepatchte Datei, was zu wiederholten vulkaninfo-Fehlerbenachrichtigungen von Lutris führte. Das Skript zielt jetzt nur auf das aktive Deployment</li>
+          </ul>
+        </description>
+        <description xml:lang="pt">
+          <p>Corrigido erro de permissões no script de patch GPU do DaVinci:</p>
+          <ul>
+            <li>Corrigido: davinci-gpu-patch.sh criava ~/.local/share/applications/ como root (via pkexec), fazendo com que o Soplos WebApp Manager e o Soplos AppImage Manager falhassem com PermissionError (Errno 13) ao tentar escrever ficheiros .desktop</li>
+            <li>O diretório é agora criado com a propriedade correta do utilizador através de sudo -u</li>
+            <li>Corrigido patch Vulkan do Lutris a apontar para o deployment Flatpak errado — lutris-vulkan-patch.sh podia patchear um gpu.py desatualizado; após uma atualização do Flatpak o novo deployment tinha o ficheiro sem patch, fazendo o Lutris enviar notificações de erro vulkaninfo repetidamente. O script aponta agora apenas para o deployment ativo</li>
+          </ul>
+        </description>
+        <description xml:lang="it">
+          <p>Corretto errore di permessi nello script di patch GPU di DaVinci:</p>
+          <ul>
+            <li>Corretto: davinci-gpu-patch.sh creava ~/.local/share/applications/ come root (tramite pkexec), causando il fallimento di Soplos WebApp Manager e Soplos AppImage Manager con PermissionError (Errno 13) nel tentativo di scrivere file .desktop</li>
+            <li>La directory viene ora creata con la proprietà utente corretta tramite sudo -u</li>
+            <li>Corretto: il patch Vulkan di Lutris puntava al deployment Flatpak sbagliato — lutris-vulkan-patch.sh poteva patchare un gpu.py obsoleto; dopo un aggiornamento Flatpak il nuovo deployment aveva il file non patchato, causando notifiche di errore vulkaninfo ripetute da Lutris. Lo script ora punta solo al deployment attivo</li>
+          </ul>
+        </description>
+        <description xml:lang="ru">
+          <p>Исправлена ошибка прав доступа в скрипте патча GPU для DaVinci:</p>
+          <ul>
+            <li>Исправлено: davinci-gpu-patch.sh создавал ~/.local/share/applications/ от имени root (через pkexec), из-за чего Soplos WebApp Manager и Soplos AppImage Manager завершались с ошибкой PermissionError (Errno 13) при записи файлов .desktop</li>
+            <li>Теперь каталог создаётся с правильным владельцем-пользователем через sudo -u</li>
+            <li>Исправлено: патч Vulkan для Lutris применялся к неверному развёртыванию Flatpak — lutris-vulkan-patch.sh мог пропатчить устаревший gpu.py; после обновления Flatpak новое развёртывание содержало непропатченный файл, что приводило к повторяющимся уведомлениям об ошибке vulkaninfo от Lutris. Скрипт теперь работает только с активным развёртыванием</li>
+          </ul>
+        </description>
+        <description xml:lang="ro">
+          <p>Remediat eroare de permisiuni în scriptul de patch GPU DaVinci:</p>
+          <ul>
+            <li>Remediat: davinci-gpu-patch.sh crea ~/.local/share/applications/ ca root (prin pkexec), determinând Soplos WebApp Manager și Soplos AppImage Manager să eșueze cu PermissionError (Errno 13) la scrierea fișierelor .desktop</li>
+            <li>Directorul este acum creat cu proprietatea corectă a utilizatorului prin sudo -u</li>
+            <li>Remediat: patch-ul Vulkan pentru Lutris viza deployment-ul Flatpak greșit — lutris-vulkan-patch.sh putea patchui un gpu.py învechit; după o actualizare Flatpak noul deployment avea fișierul nepatcuit, determinând Lutris să trimită notificări repetate de eroare vulkaninfo. Scriptul vizează acum doar deployment-ul activ</li>
+          </ul>
+        </description>
+      </release>
       <release version="2.0.8-7" date="2026-05-25">
         <description>
           <p>DaVinci Resolve installer updated to MakeResolveDeb 1.10.0:</p>
