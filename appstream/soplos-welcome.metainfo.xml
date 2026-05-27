@@ -273,6 +273,104 @@
   </developer>
 
   <releases>
+      <release version="2.0.8-9" date="2026-05-27">
+        <description>
+          <p>Recommended Tab fixes and Kernels Tab improvements:</p>
+          <ul>
+            <li>Fixed Affinity AppImage URL (updated to 3.2.0 — 3.0.2 was returning HTTP 404)</li>
+            <li>Fixed Affinity and ES-DE .desktop files being created as root under pkexec — now uses sudo -u tee to keep correct user ownership</li>
+            <li>Reverted RapidRAW back to Flatpak (io.github.CyberTimon.RapidRAW) — it had been incorrectly changed to a .deb in a previous version</li>
+            <li>Fixed batch install chain failure: set -e caused the entire script to abort when one package failed; each package is now isolated in its own subshell so failures are logged and installation continues</li>
+            <li>Kernels Tab: removed the NVIDIA/Liquorix warning notice</li>
+            <li>Kernels Tab: moved Soplos Kernel Installer above Liquorix (between Microcodes and Available Kernels)</li>
+            <li>Kernels Tab: added Soplos Kernel Installer application icon to its section</li>
+          </ul>
+        </description>
+        <description xml:lang="es">
+          <p>Correcciones en la pestaña Recomendados y mejoras en la pestaña Kernels:</p>
+          <ul>
+            <li>Corregida URL de AppImage de Affinity (actualizada a 3.2.0 — la 3.0.2 devolvía HTTP 404)</li>
+            <li>Corregida creación de archivos .desktop de Affinity y ES-DE como root bajo pkexec — ahora usa sudo -u tee para mantener la propiedad correcta del usuario</li>
+            <li>Revertido RapidRAW a Flatpak (io.github.CyberTimon.RapidRAW) — había sido cambiado incorrectamente a .deb en una versión anterior</li>
+            <li>Corregido fallo en cadena de instalación por lotes: set -e causaba que el script completo se abortase si un paquete fallaba; ahora cada paquete se aísla en su propio subshell para que los fallos se registren y la instalación continúe</li>
+            <li>Pestaña Kernels: eliminado el aviso sobre NVIDIA/Liquorix</li>
+            <li>Pestaña Kernels: Soplos Kernel Installer movido por encima de Liquorix (entre Microcodes y Kernels Disponibles)</li>
+            <li>Pestaña Kernels: añadido icono de la aplicación Soplos Kernel Installer en su sección</li>
+          </ul>
+        </description>
+        <description xml:lang="fr">
+          <p>Corrections dans l'onglet Recommandés et améliorations de l'onglet Noyaux :</p>
+          <ul>
+            <li>Corrigé l'URL de l'AppImage Affinity (mise à jour vers 3.2.0 — la 3.0.2 renvoyait HTTP 404)</li>
+            <li>Corrigé la création des fichiers .desktop d'Affinity et ES-DE en tant que root sous pkexec — utilise désormais sudo -u tee pour conserver la propriété correcte de l'utilisateur</li>
+            <li>Rétabli RapidRAW en Flatpak (io.github.CyberTimon.RapidRAW) — avait été incorrectement changé en .deb dans une version précédente</li>
+            <li>Corrigé l'échec en chaîne lors de l'installation par lots : set -e provoquait l'abandon du script entier si un paquet échouait ; chaque paquet est maintenant isolé dans son propre sous-shell pour que les échecs soient enregistrés et que l'installation continue</li>
+            <li>Onglet Noyaux : suppression de l'avertissement NVIDIA/Liquorix</li>
+            <li>Onglet Noyaux : Soplos Kernel Installer déplacé au-dessus de Liquorix (entre Microcodes et Noyaux disponibles)</li>
+            <li>Onglet Noyaux : icône de l'application Soplos Kernel Installer ajoutée dans sa section</li>
+          </ul>
+        </description>
+        <description xml:lang="de">
+          <p>Korrekturen im Tab Empfohlen und Verbesserungen im Kernels-Tab:</p>
+          <ul>
+            <li>Affinity AppImage URL korrigiert (auf 3.2.0 aktualisiert — 3.0.2 lieferte HTTP 404)</li>
+            <li>Erstellung von .desktop-Dateien für Affinity und ES-DE als root unter pkexec korrigiert — verwendet jetzt sudo -u tee für korrekte Benutzereigentümerschaft</li>
+            <li>RapidRAW zurück zu Flatpak (io.github.CyberTimon.RapidRAW) — war in einer früheren Version fälschlicherweise auf .deb geändert worden</li>
+            <li>Fehler bei der Ketteninstallation behoben: set -e verursachte den Abbruch des gesamten Skripts bei einem fehlgeschlagenen Paket; jedes Paket ist jetzt in einer eigenen Subshell isoliert, sodass Fehler protokolliert werden und die Installation fortgesetzt wird</li>
+            <li>Kernels-Tab: NVIDIA/Liquorix-Warnhinweis entfernt</li>
+            <li>Kernels-Tab: Soplos Kernel Installer über Liquorix verschoben (zwischen Microcodes und Verfügbare Kernel)</li>
+            <li>Kernels-Tab: Anwendungssymbol des Soplos Kernel Installers zu seinem Abschnitt hinzugefügt</li>
+          </ul>
+        </description>
+        <description xml:lang="pt">
+          <p>Correções no separador Recomendados e melhorias no separador Kernels:</p>
+          <ul>
+            <li>Corrigido URL do AppImage do Affinity (atualizado para 3.2.0 — o 3.0.2 devolvia HTTP 404)</li>
+            <li>Corrigida criação de ficheiros .desktop do Affinity e ES-DE como root sob pkexec — agora usa sudo -u tee para manter a propriedade correta do utilizador</li>
+            <li>Revertido RapidRAW para Flatpak (io.github.CyberTimon.RapidRAW) — tinha sido incorretamente alterado para .deb numa versão anterior</li>
+            <li>Corrigida falha em cadeia na instalação em lote: set -e causava o abandono do script completo quando um pacote falhava; cada pacote está agora isolado no seu próprio subshell para que as falhas sejam registadas e a instalação continue</li>
+            <li>Separador Kernels: removido o aviso sobre NVIDIA/Liquorix</li>
+            <li>Separador Kernels: Soplos Kernel Installer movido acima do Liquorix (entre Microcodes e Kernels Disponíveis)</li>
+            <li>Separador Kernels: adicionado ícone da aplicação Soplos Kernel Installer na sua secção</li>
+          </ul>
+        </description>
+        <description xml:lang="it">
+          <p>Correzioni nella scheda Consigliati e miglioramenti nella scheda Kernel:</p>
+          <ul>
+            <li>Corretto URL dell'AppImage di Affinity (aggiornato alla 3.2.0 — la 3.0.2 restituiva HTTP 404)</li>
+            <li>Corretta creazione dei file .desktop di Affinity ed ES-DE come root sotto pkexec — ora usa sudo -u tee per mantenere la corretta proprietà dell'utente</li>
+            <li>Ripristinato RapidRAW a Flatpak (io.github.CyberTimon.RapidRAW) — era stato erroneamente cambiato in .deb in una versione precedente</li>
+            <li>Corretto il fallimento a catena nell'installazione in batch: set -e causava l'interruzione dell'intero script quando un pacchetto falliva; ogni pacchetto è ora isolato nel proprio subshell in modo che i fallimenti vengano registrati e l'installazione continui</li>
+            <li>Scheda Kernel: rimosso l'avviso NVIDIA/Liquorix</li>
+            <li>Scheda Kernel: Soplos Kernel Installer spostato sopra Liquorix (tra Microcodes e Kernel disponibili)</li>
+            <li>Scheda Kernel: aggiunta l'icona dell'applicazione Soplos Kernel Installer nella sua sezione</li>
+          </ul>
+        </description>
+        <description xml:lang="ru">
+          <p>Исправления во вкладке «Рекомендуемые» и улучшения вкладки «Ядра»:</p>
+          <ul>
+            <li>Исправлен URL AppImage Affinity (обновлён до 3.2.0 — версия 3.0.2 возвращала HTTP 404)</li>
+            <li>Исправлено создание файлов .desktop Affinity и ES-DE от имени root через pkexec — теперь используется sudo -u tee для сохранения правильного владельца файла</li>
+            <li>Возвращён RapidRAW на Flatpak (io.github.CyberTimon.RapidRAW) — в предыдущей версии был ошибочно изменён на .deb</li>
+            <li>Исправлен цепной сбой пакетной установки: set -e приводил к прерыванию всего скрипта при сбое одного пакета; теперь каждый пакет изолирован в собственном подоболочке — сбои записываются в журнал и установка продолжается</li>
+            <li>Вкладка «Ядра»: удалено предупреждение о NVIDIA/Liquorix</li>
+            <li>Вкладка «Ядра»: Soplos Kernel Installer перемещён выше Liquorix (между обновлениями микрокода и доступными ядрами)</li>
+            <li>Вкладка «Ядра»: в раздел Soplos Kernel Installer добавлена иконка приложения</li>
+          </ul>
+        </description>
+        <description xml:lang="ro">
+          <p>Remedieri în fila Recomandate și îmbunătățiri în fila Kernels:</p>
+          <ul>
+            <li>Remediat URL-ul AppImage Affinity (actualizat la 3.2.0 — versiunea 3.0.2 returna HTTP 404)</li>
+            <li>Remediată crearea fișierelor .desktop pentru Affinity și ES-DE ca root sub pkexec — acum folosește sudo -u tee pentru a păstra proprietatea corectă a utilizatorului</li>
+            <li>Revertit RapidRAW la Flatpak (io.github.CyberTimon.RapidRAW) — fusese schimbat incorect la .deb într-o versiune anterioară</li>
+            <li>Remediat eșecul în lanț la instalarea în lot: set -e provoca abandonarea întregului script când un pachet eșua; fiecare pachet este acum izolat în propriul subshell, astfel încât eșecurile sunt înregistrate și instalarea continuă</li>
+            <li>Fila Kernels: eliminat avertismentul NVIDIA/Liquorix</li>
+            <li>Fila Kernels: Soplos Kernel Installer mutat deasupra Liquorix (între Microcodes și Kernels disponibili)</li>
+            <li>Fila Kernels: adăugată pictograma aplicației Soplos Kernel Installer în secțiunea sa</li>
+          </ul>
+        </description>
+      </release>
       <release version="2.0.8-8" date="2026-05-26">
         <description>
           <p>Fixed permission error in DaVinci GPU patch script:</p>

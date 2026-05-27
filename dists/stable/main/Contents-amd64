@@ -1324,6 +1324,7 @@ usr/share/soplos-welcome/assets/icons/graphics/inkscape.png	    utils/soplos-wel
 usr/share/soplos-welcome/assets/icons/graphics/krita.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/rapidraw.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/rawtherapee.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/kernels/org.soplos.kernel-installer.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/ardour.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/audacity.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/bitwig-studio.png	    utils/soplos-welcome
