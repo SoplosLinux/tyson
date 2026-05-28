@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260527T164227
+Time: 20260528T102848
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1000,6 +1000,11 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.0.9
+    date: '2026-05-28'
+    type: stable
+    description:
+      C: 'VirtualBox Guest Additions updated and Pango markup fix:'
   - version: 2.0.8-9
     date: '2026-05-27'
     type: stable

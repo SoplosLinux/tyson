@@ -273,6 +273,72 @@
   </developer>
 
   <releases>
+      <release version="2.0.9" date="2026-05-28">
+        <description>
+          <p>VirtualBox Guest Additions updated and Pango markup fix:</p>
+          <ul>
+            <li>Updated VirtualBox Guest Additions to 7.2.8 — first version with official Linux 7.0 kernel support. The installer is now bundled in the package, no internet connection required</li>
+            <li>Compiles vboxguest, vboxsf and vboxvideo modules for kernel 7.0.9-soplos via DKMS</li>
+            <li>Fixed Pango markup error in the Security tab header for English and German locales — unescaped ampersand caused a GTK warning on tab creation</li>
+          </ul>
+        </description>
+        <description xml:lang="es">
+          <p>Actualización de VirtualBox Guest Additions y corrección de markup Pango:</p>
+          <ul>
+            <li>Actualizados VirtualBox Guest Additions a 7.2.8 — primera versión con soporte oficial para el kernel Linux 7.0. El instalador ahora viene incluido en el paquete, sin necesidad de conexión a internet</li>
+            <li>Compila los módulos vboxguest, vboxsf y vboxvideo para el kernel 7.0.9-soplos mediante DKMS</li>
+            <li>Corregido error de markup Pango en el encabezado de la pestaña Seguridad para los idiomas inglés y alemán — el ampersand sin escapar causaba un aviso de GTK al crear la pestaña</li>
+          </ul>
+        </description>
+        <description xml:lang="fr">
+          <p>Mise à jour des ajouts invité VirtualBox et correction du balisage Pango :</p>
+          <ul>
+            <li>Mise à jour des ajouts invité VirtualBox vers la version 7.2.8 — première version avec support officiel du noyau Linux 7.0. L'installateur est désormais inclus dans le paquet, sans connexion internet requise</li>
+            <li>Compile les modules vboxguest, vboxsf et vboxvideo pour le noyau 7.0.9-soplos via DKMS</li>
+            <li>Correction d'une erreur de balisage Pango dans l'en-tête de l'onglet Sécurité pour les locales anglaise et allemande — une esperluette non échappée provoquait un avertissement GTK lors de la création de l'onglet</li>
+          </ul>
+        </description>
+        <description xml:lang="de">
+          <p>VirtualBox-Gasterweiterungen aktualisiert und Pango-Markup-Fehler behoben:</p>
+          <ul>
+            <li>VirtualBox-Gasterweiterungen auf Version 7.2.8 aktualisiert — erste Version mit offizieller Linux-7.0-Kernel-Unterstützung. Das Installationsprogramm ist nun im Paket enthalten, keine Internetverbindung erforderlich</li>
+            <li>Kompiliert die Module vboxguest, vboxsf und vboxvideo für den Kernel 7.0.9-soplos über DKMS</li>
+            <li>Pango-Markup-Fehler im Sicherheits-Tab-Header für Englisch und Deutsch behoben — ein nicht-escaptes kaufmännisches Und verursachte beim Erstellen des Tabs eine GTK-Warnung</li>
+          </ul>
+        </description>
+        <description xml:lang="pt">
+          <p>Atualização dos Guest Additions do VirtualBox e correção de markup Pango:</p>
+          <ul>
+            <li>Guest Additions do VirtualBox atualizados para a versão 7.2.8 — primeira versão com suporte oficial para o kernel Linux 7.0. O instalador está agora incluído no pacote, sem necessidade de ligação à internet</li>
+            <li>Compila os módulos vboxguest, vboxsf e vboxvideo para o kernel 7.0.9-soplos via DKMS</li>
+            <li>Corrigido erro de markup Pango no cabeçalho do separador Segurança para as localizações inglesa e alemã — um ampersand sem escape causava um aviso GTK ao criar o separador</li>
+          </ul>
+        </description>
+        <description xml:lang="it">
+          <p>Aggiornamento delle Guest Additions VirtualBox e correzione del markup Pango:</p>
+          <ul>
+            <li>Guest Additions VirtualBox aggiornate alla versione 7.2.8 — prima versione con supporto ufficiale per il kernel Linux 7.0. Il programma di installazione è ora incluso nel pacchetto, senza necessità di connessione internet</li>
+            <li>Compila i moduli vboxguest, vboxsf e vboxvideo per il kernel 7.0.9-soplos tramite DKMS</li>
+            <li>Corrotto errore di markup Pango nell'intestazione della scheda Sicurezza per le versioni inglese e tedesca — una e commerciale non escapata causava un avviso GTK durante la creazione della scheda</li>
+          </ul>
+        </description>
+        <description xml:lang="ru">
+          <p>Обновление гостевых дополнений VirtualBox и исправление разметки Pango:</p>
+          <ul>
+            <li>Гостевые дополнения VirtualBox обновлены до версии 7.2.8 — первый выпуск с официальной поддержкой ядра Linux 7.0. Установщик теперь включён в пакет, подключение к интернету не требуется</li>
+            <li>Компилирует модули vboxguest, vboxsf и vboxvideo для ядра 7.0.9-soplos через DKMS</li>
+            <li>Исправлена ошибка разметки Pango в заголовке вкладки «Безопасность» для английской и немецкой локалей — неэкранированный амперсанд вызывал предупреждение GTK при создании вкладки</li>
+          </ul>
+        </description>
+        <description xml:lang="ro">
+          <p>Actualizare Guest Additions VirtualBox și remediere markup Pango:</p>
+          <ul>
+            <li>Guest Additions VirtualBox actualizate la versiunea 7.2.8 — prima versiune cu suport oficial pentru kernelul Linux 7.0. Programul de instalare este acum inclus în pachet, fără a fi necesară o conexiune la internet</li>
+            <li>Compilează modulele vboxguest, vboxsf și vboxvideo pentru kernelul 7.0.9-soplos prin DKMS</li>
+            <li>Remediat eroare de markup Pango în antetul filei Securitate pentru localele engleză și germană — un ampersand neescapat provoca un avertisment GTK la crearea filei</li>
+          </ul>
+        </description>
+      </release>
       <release version="2.0.8-9" date="2026-05-27">
         <description>
           <p>Recommended Tab fixes and Kernels Tab improvements:</p>

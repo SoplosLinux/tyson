@@ -1407,6 +1407,7 @@ usr/share/soplos-welcome/assets/themes/base.css	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/themes/dark.css	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/themes/gaming-rgb.css	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/themes/light.css	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/vbox/VBoxLinuxAdditions.run	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/wallpapers/wallpapers.tar.xz	    utils/soplos-welcome
 usr/share/soplos-welcome/config/__init__.py	    utils/soplos-welcome
 usr/share/soplos-welcome/config/paths.py	    utils/soplos-welcome
