@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260528T102848
+Time: 20260529T180635
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -2565,6 +2565,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-sys-cleaner/issues
 Releases:
+  - version: 1.0.2-2
+    date: '2026-05-29'
+    type: stable
+    description:
+      C: |-
+        Bug fix and driver detection improvement release: Intel GPU false positive in VMs fixed, VM guest tool packages now managed via systemd-detect-virt, printer and input device driver detection added, progress bar and select-all checkbox state bugs fixed.
+      es: |-
+        Versión de correcciones y mejoras de detección de drivers: falso positivo de Intel GPU en VMs corregido, paquetes de herramientas de VM guest gestionados ahora via systemd-detect-virt, detección de drivers de impresoras y dispositivos de entrada añadida, bugs de barra de progreso y checkbox "Seleccionar todo" corregidos.
+      fr: |-
+        Version de corrections et améliorations de détection des pilotes : faux positif du GPU Intel dans les VM corrigé, paquets d'outils VM invités gérés via systemd-detect-virt, détection des pilotes d'imprimantes et de périphériques d'entrée ajoutée, bugs de la barre de progression et de la case à cocher corrigés.
+      de: |-
+        Fehlerbehebungs- und Treiber-Erkennungsversion: Intel-GPU-Falscherkennung in VMs behoben, VM-Gast-Toolpakete werden jetzt über systemd-detect-virt verwaltet, Drucker- und Eingabegeräte-Treibererkennung hinzugefügt, Fortschrittsbalken- und Auswahlfeld-Fehler behoben.
+      pt: |-
+        Versão de correções e melhorias de deteção de controladores: falso positivo da GPU Intel em VMs corrigido, pacotes de ferramentas de VM convidada geridos via systemd-detect-virt, deteção de controladores de impressoras e dispositivos de entrada adicionada, bugs da barra de progresso e da caixa de seleção corrigidos.
+      it: |-
+        Versione di correzioni e miglioramenti del rilevamento dei driver: falso positivo della GPU Intel nelle VM corretto, pacchetti degli strumenti VM ospite ora gestiti tramite systemd-detect-virt, rilevamento dei driver per stampanti e dispositivi di input aggiunto, bug della barra di avanzamento e della casella di selezione corretti.
+      ro: |-
+        Versiune de remedieri și îmbunătățiri ale detecției driverelor: fals pozitiv GPU Intel în mașini virtuale remediat, pachetele de instrumente VM invitat gestionate acum prin systemd-detect-virt, detectare adăugată pentru drivere de imprimantă și dispozitive de intrare, erori ale barei de progres și casetei de selectare remediate.
+      ru: |-
+        Версия исправлений и улучшений обнаружения драйверов: исправлен ложноположительный результат GPU Intel в ВМ, пакеты инструментов гостевых ВМ теперь управляются через systemd-detect-virt, добавлено обнаружение драйверов принтеров и устройств ввода, исправлены ошибки прогресс-бара и чекбокса выбора всех элементов.
   - version: 1.0.2-1
     date: '2026-04-17'
     type: stable

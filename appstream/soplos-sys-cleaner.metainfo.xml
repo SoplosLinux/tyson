@@ -257,6 +257,107 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.2-2" date="2026-05-29">
+      <description>
+        <p>Bug fix and driver detection improvement release: Intel GPU false positive in VMs fixed, VM guest tool packages now managed via systemd-detect-virt, printer and input device driver detection added, progress bar and select-all checkbox state bugs fixed.</p>
+        <p xml:lang="es">Versión de correcciones y mejoras de detección de drivers: falso positivo de Intel GPU en VMs corregido, paquetes de herramientas de VM guest gestionados ahora via systemd-detect-virt, detección de drivers de impresoras y dispositivos de entrada añadida, bugs de barra de progreso y checkbox "Seleccionar todo" corregidos.</p>
+        <p xml:lang="fr">Version de corrections et améliorations de détection des pilotes : faux positif du GPU Intel dans les VM corrigé, paquets d'outils VM invités gérés via systemd-detect-virt, détection des pilotes d'imprimantes et de périphériques d'entrée ajoutée, bugs de la barre de progression et de la case à cocher corrigés.</p>
+        <p xml:lang="de">Fehlerbehebungs- und Treiber-Erkennungsversion: Intel-GPU-Falscherkennung in VMs behoben, VM-Gast-Toolpakete werden jetzt über systemd-detect-virt verwaltet, Drucker- und Eingabegeräte-Treibererkennung hinzugefügt, Fortschrittsbalken- und Auswahlfeld-Fehler behoben.</p>
+        <p xml:lang="pt">Versão de correções e melhorias de deteção de controladores: falso positivo da GPU Intel em VMs corrigido, pacotes de ferramentas de VM convidada geridos via systemd-detect-virt, deteção de controladores de impressoras e dispositivos de entrada adicionada, bugs da barra de progresso e da caixa de seleção corrigidos.</p>
+        <p xml:lang="it">Versione di correzioni e miglioramenti del rilevamento dei driver: falso positivo della GPU Intel nelle VM corretto, pacchetti degli strumenti VM ospite ora gestiti tramite systemd-detect-virt, rilevamento dei driver per stampanti e dispositivi di input aggiunto, bug della barra di avanzamento e della casella di selezione corretti.</p>
+        <p xml:lang="ro">Versiune de remedieri și îmbunătățiri ale detecției driverelor: fals pozitiv GPU Intel în mașini virtuale remediat, pachetele de instrumente VM invitat gestionate acum prin systemd-detect-virt, detectare adăugată pentru drivere de imprimantă și dispozitive de intrare, erori ale barei de progres și casetei de selectare remediate.</p>
+        <p xml:lang="ru">Версия исправлений и улучшений обнаружения драйверов: исправлен ложноположительный результат GPU Intel в ВМ, пакеты инструментов гостевых ВМ теперь управляются через systemd-detect-virt, добавлено обнаружение драйверов принтеров и устройств ввода, исправлены ошибки прогресс-бара и чекбокса выбора всех элементов.</p>
+        <ul>
+          <li>Fixed: Intel GPU packages no longer protected by chipset-only Intel devices in VMs (new lspci -n class 03xx check)</li>
+          <li>Fixed: VM guest tool packages now managed via systemd-detect-virt, not PCI vendor — resolves VirtualBox VMSVGA false positive</li>
+          <li>Fixed: root_helper.py was not updated with gpu_pci_vendors/vm_guest_type — all Drivers tab fixes now apply in production</li>
+          <li>Fixed: dracut_fw_dirs now exported from root_helper, firmware protection set correctly rebuilt client-side</li>
+          <li>Fixed: progress bar no longer shows 100% during indeterminate operations</li>
+          <li>Fixed: "Select all" checkbox now resets after cleanup completes in all tabs</li>
+          <li>Added: Broadcom proprietary WiFi driver packages (PCI 14e4)</li>
+          <li>Added: Wacom tablet driver packages (USB 056a)</li>
+          <li>Added: Printer driver packages for HP, Epson, Canon, Brother, Samsung, Kyocera (USB vendor detection)</li>
+          <li>Added: Full VM guest tools coverage — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+
+          <li xml:lang="es">Corregido: los paquetes de GPU Intel ya no quedan protegidos por dispositivos de chipset Intel en máquinas virtuales (nueva comprobación de clase PCI 03xx con lspci -n)</li>
+          <li xml:lang="es">Corregido: los paquetes de herramientas de VM guest ahora se gestionan via systemd-detect-virt, no por vendor PCI — resuelve el falso positivo de VirtualBox con VMSVGA</li>
+          <li xml:lang="es">Corregido: root_helper.py no estaba actualizado con gpu_pci_vendors/vm_guest_type — todas las correcciones de la pestaña Drivers ahora se aplican en producción</li>
+          <li xml:lang="es">Corregido: dracut_fw_dirs ahora se exporta desde root_helper, el protection set de firmwares se reconstruye correctamente en el cliente</li>
+          <li xml:lang="es">Corregido: la barra de progreso ya no muestra 100% durante operaciones indeterminadas</li>
+          <li xml:lang="es">Corregido: el checkbox "Seleccionar todo" ahora se desmarca al completar la limpieza en todas las pestañas</li>
+          <li xml:lang="es">Añadido: paquetes de driver WiFi Broadcom propietario (PCI 14e4)</li>
+          <li xml:lang="es">Añadido: paquetes de driver para tabletas Wacom (USB 056a)</li>
+          <li xml:lang="es">Añadido: paquetes de driver de impresoras para HP, Epson, Canon, Brother, Samsung, Kyocera (detección por vendor USB)</li>
+          <li xml:lang="es">Añadido: cobertura completa de herramientas de VM guest — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+
+          <li xml:lang="fr">Corrigé : les paquets GPU Intel ne sont plus protégés par des périphériques de chipset Intel dans les VM (nouvelle vérification de classe PCI 03xx via lspci -n)</li>
+          <li xml:lang="fr">Corrigé : les paquets d'outils VM invités sont désormais gérés via systemd-detect-virt, pas par le vendeur PCI — résout le faux positif VirtualBox avec VMSVGA</li>
+          <li xml:lang="fr">Corrigé : root_helper.py n'était pas mis à jour avec gpu_pci_vendors/vm_guest_type — toutes les corrections de l'onglet Pilotes s'appliquent maintenant en production</li>
+          <li xml:lang="fr">Corrigé : dracut_fw_dirs est maintenant exporté depuis root_helper, l'ensemble de protection des firmwares est correctement reconstruit côté client</li>
+          <li xml:lang="fr">Corrigé : la barre de progression n'affiche plus 100% pendant les opérations indéterminées</li>
+          <li xml:lang="fr">Corrigé : la case "Tout sélectionner" se décoche maintenant à la fin du nettoyage dans tous les onglets</li>
+          <li xml:lang="fr">Ajouté : paquets de pilotes WiFi Broadcom propriétaires (PCI 14e4)</li>
+          <li xml:lang="fr">Ajouté : paquets de pilotes pour tablettes Wacom (USB 056a)</li>
+          <li xml:lang="fr">Ajouté : paquets de pilotes d'imprimantes pour HP, Epson, Canon, Brother, Samsung, Kyocera (détection par vendeur USB)</li>
+          <li xml:lang="fr">Ajouté : couverture complète des outils VM invités — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+
+          <li xml:lang="de">Behoben: Intel-GPU-Pakete werden nicht mehr durch reine Chipsatz-Intel-Geräte in VMs geschützt (neue PCI-Klasse-03xx-Prüfung via lspci -n)</li>
+          <li xml:lang="de">Behoben: VM-Gast-Tool-Pakete werden jetzt über systemd-detect-virt verwaltet, nicht über PCI-Vendor — behebt VirtualBox-VMSVGA-Falscherkennung</li>
+          <li xml:lang="de">Behoben: root_helper.py war nicht mit gpu_pci_vendors/vm_guest_type aktualisiert — alle Korrekturen im Treiber-Tab greifen jetzt in der Produktion</li>
+          <li xml:lang="de">Behoben: dracut_fw_dirs wird jetzt aus root_helper exportiert, der Firmware-Schutz-Set wird clientseitig korrekt neu aufgebaut</li>
+          <li xml:lang="de">Behoben: Fortschrittsbalken zeigt bei unbestimmten Vorgängen nicht mehr 100% an</li>
+          <li xml:lang="de">Behoben: Das Kontrollkästchen "Alle auswählen" wird nach Abschluss der Bereinigung in allen Tabs zurückgesetzt</li>
+          <li xml:lang="de">Hinzugefügt: Broadcom proprietäre WLAN-Treiberpakete (PCI 14e4)</li>
+          <li xml:lang="de">Hinzugefügt: Wacom-Tablet-Treiberpakete (USB 056a)</li>
+          <li xml:lang="de">Hinzugefügt: Druckertreiberpakete für HP, Epson, Canon, Brother, Samsung, Kyocera (USB-Vendor-Erkennung)</li>
+          <li xml:lang="de">Hinzugefügt: vollständige VM-Gast-Tool-Abdeckung — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+
+          <li xml:lang="pt">Corrigido: os pacotes GPU Intel já não ficam protegidos por dispositivos de chipset Intel em VMs (nova verificação de classe PCI 03xx via lspci -n)</li>
+          <li xml:lang="pt">Corrigido: os pacotes de ferramentas de VM convidada são agora geridos via systemd-detect-virt, não por vendor PCI — resolve o falso positivo do VirtualBox com VMSVGA</li>
+          <li xml:lang="pt">Corrigido: root_helper.py não estava atualizado com gpu_pci_vendors/vm_guest_type — todas as correções da aba Drivers aplicam-se agora em produção</li>
+          <li xml:lang="pt">Corrigido: dracut_fw_dirs é agora exportado a partir do root_helper, o conjunto de proteção de firmwares é reconstruído corretamente no cliente</li>
+          <li xml:lang="pt">Corrigido: a barra de progresso já não mostra 100% durante operações indeterminadas</li>
+          <li xml:lang="pt">Corrigido: a caixa "Selecionar tudo" é agora desmarcada ao concluir a limpeza em todos os separadores</li>
+          <li xml:lang="pt">Adicionado: pacotes de driver WiFi Broadcom proprietário (PCI 14e4)</li>
+          <li xml:lang="pt">Adicionado: pacotes de driver para tablets Wacom (USB 056a)</li>
+          <li xml:lang="pt">Adicionado: pacotes de driver de impressoras para HP, Epson, Canon, Brother, Samsung, Kyocera (deteção por vendor USB)</li>
+          <li xml:lang="pt">Adicionado: cobertura completa de ferramentas de VM convidada — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+
+          <li xml:lang="it">Corretto: i pacchetti GPU Intel non sono più protetti da dispositivi chipset Intel nelle VM (nuovo controllo classe PCI 03xx via lspci -n)</li>
+          <li xml:lang="it">Corretto: i pacchetti degli strumenti VM ospite sono ora gestiti tramite systemd-detect-virt, non dal vendor PCI — risolve il falso positivo di VirtualBox con VMSVGA</li>
+          <li xml:lang="it">Corretto: root_helper.py non era aggiornato con gpu_pci_vendors/vm_guest_type — tutte le correzioni della scheda Driver si applicano ora in produzione</li>
+          <li xml:lang="it">Corretto: dracut_fw_dirs viene ora esportato da root_helper, il set di protezione firmware viene ricostruito correttamente lato client</li>
+          <li xml:lang="it">Corretto: la barra di avanzamento non mostra più 100% durante le operazioni indeterminate</li>
+          <li xml:lang="it">Corretto: la casella "Seleziona tutto" si deseleziona al completamento della pulizia in tutte le schede</li>
+          <li xml:lang="it">Aggiunto: pacchetti driver WiFi Broadcom proprietari (PCI 14e4)</li>
+          <li xml:lang="it">Aggiunto: pacchetti driver per tablet Wacom (USB 056a)</li>
+          <li xml:lang="it">Aggiunto: pacchetti driver stampanti per HP, Epson, Canon, Brother, Samsung, Kyocera (rilevamento per vendor USB)</li>
+          <li xml:lang="it">Aggiunto: copertura completa degli strumenti VM ospite — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+
+          <li xml:lang="ro">Rezolvat: pachetele GPU Intel nu mai sunt protejate de dispozitivele chipset Intel în VM-uri (nouă verificare clasă PCI 03xx via lspci -n)</li>
+          <li xml:lang="ro">Rezolvat: pachetele de instrumente VM invitat sunt acum gestionate prin systemd-detect-virt, nu prin vendor PCI — rezolvă fals pozitivul VirtualBox cu VMSVGA</li>
+          <li xml:lang="ro">Rezolvat: root_helper.py nu era actualizat cu gpu_pci_vendors/vm_guest_type — toate corecțiile filei Drivere se aplică acum în producție</li>
+          <li xml:lang="ro">Rezolvat: dracut_fw_dirs este acum exportat din root_helper, setul de protecție firmware este reconstruit corect pe client</li>
+          <li xml:lang="ro">Rezolvat: bara de progres nu mai afișează 100% în timpul operațiunilor nedeterminate</li>
+          <li xml:lang="ro">Rezolvat: caseta "Selectează tot" se debifează acum la finalizarea curățării în toate filele</li>
+          <li xml:lang="ro">Adăugat: pachete driver WiFi Broadcom proprietar (PCI 14e4)</li>
+          <li xml:lang="ro">Adăugat: pachete driver pentru tablete Wacom (USB 056a)</li>
+          <li xml:lang="ro">Adăugat: pachete driver imprimante pentru HP, Epson, Canon, Brother, Samsung, Kyocera (detecție după vendor USB)</li>
+          <li xml:lang="ro">Adăugat: acoperire completă instrumente VM invitat — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+
+          <li xml:lang="ru">Исправлено: пакеты GPU Intel больше не защищаются из-за устройств чипсета Intel в ВМ (новая проверка класса PCI 03xx через lspci -n)</li>
+          <li xml:lang="ru">Исправлено: пакеты инструментов гостевых ВМ теперь управляются через systemd-detect-virt, а не по PCI-вендору — устраняет ложноположительный результат VirtualBox с VMSVGA</li>
+          <li xml:lang="ru">Исправлено: root_helper.py не был обновлён с gpu_pci_vendors/vm_guest_type — все исправления вкладки «Драйверы» теперь применяются в production</li>
+          <li xml:lang="ru">Исправлено: dracut_fw_dirs теперь экспортируется из root_helper, набор защиты прошивок корректно пересоздаётся на стороне клиента</li>
+          <li xml:lang="ru">Исправлено: прогресс-бар больше не показывает 100% во время неопределённых операций</li>
+          <li xml:lang="ru">Исправлено: чекбокс «Выбрать всё» теперь сбрасывается после завершения очистки во всех вкладках</li>
+          <li xml:lang="ru">Добавлено: пакеты проприетарного WiFi-драйвера Broadcom (PCI 14e4)</li>
+          <li xml:lang="ru">Добавлено: пакеты драйвера для планшетов Wacom (USB 056a)</li>
+          <li xml:lang="ru">Добавлено: пакеты драйверов принтеров для HP, Epson, Canon, Brother, Samsung, Kyocera (определение по USB-вендору)</li>
+          <li xml:lang="ru">Добавлено: полное покрытие инструментов гостевых ВМ — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.2-1" date="2026-04-17">
       <description>
         <p>Bug fix and improvement release: Snap tab redesigned with full uninstall support, improved VM guest detection for all hypervisors, kernel removal now properly regenerates initramfs and updates GRUB, and all apt-get commands replaced with apt.</p>
