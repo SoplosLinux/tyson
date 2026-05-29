@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260529T180635
+Time: 20260529T195840
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -782,20 +782,38 @@ Icon:
     - name: slide1.png
       width: 48
       height: 48
+    - name: org.soplos.welcome.png
+      width: 48
+      height: 48
     - name: slide1.png
       width: 64
       height: 64
+    - name: org.soplos.welcome.png
+      width: 64
+      height: 64
     - name: slide1.png
+      width: 128
+      height: 128
+    - name: org.soplos.welcome.png
       width: 128
       height: 128
   remote:
     - url: soplos-welcome/icons/48x48/slide1.png
       width: 48
       height: 48
+    - url: soplos-welcome/icons/48x48/org.soplos.welcome.png
+      width: 48
+      height: 48
     - url: soplos-welcome/icons/64x64/slide1.png
       width: 64
       height: 64
+    - url: soplos-welcome/icons/64x64/org.soplos.welcome.png
+      width: 64
+      height: 64
     - url: soplos-welcome/icons/128x128/slide1.png
+      width: 128
+      height: 128
+    - url: soplos-welcome/icons/128x128/org.soplos.welcome.png
       width: 128
       height: 128
 Screenshots:
@@ -1000,6 +1018,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.0.9-1
+    date: '2026-05-29'
+    type: stable
+    description:
+      en: |-
+        Fixed app icon incorrectly shown in GNOME Software: removed slide1.png from assets/icons/ which was being packaged as the application icon instead of the correct org.soplos.welcome.png.
+      es: |-
+        Corregido el icono de la app mostrado incorrectamente en GNOME Software: eliminado slide1.png de assets/icons/ que estaba siendo empaquetado como icono de la aplicación en lugar del correcto org.soplos.welcome.png.
+      fr: |-
+        Correction de l'icône de l'app affichée incorrectement dans GNOME Software : suppression de slide1.png de assets/icons/ qui était empaqueté comme icône de l'application au lieu du correct org.soplos.welcome.png.
+      pt: |-
+        Corrigido o ícone da app exibido incorretamente no GNOME Software: removido slide1.png de assets/icons/ que estava sendo empacotado como ícone da aplicação em vez do correto org.soplos.welcome.png.
+      de: |-
+        App-Icon in GNOME Software falsch angezeigt behoben: slide1.png aus assets/icons/ entfernt, das fälschlicherweise als Anwendungsicon verpackt wurde anstatt des korrekten org.soplos.welcome.png.
+      it: |-
+        Corretto l'icona dell'app visualizzata in modo errato in GNOME Software: rimosso slide1.png da assets/icons/ che veniva impacchettato come icona dell'applicazione invece del corretto org.soplos.welcome.png.
+      ru: |-
+        Исправлен значок приложения, отображавшийся неправильно в GNOME Software: удалён slide1.png из assets/icons/, который упаковывался как значок приложения вместо правильного org.soplos.welcome.png.
+      ro: |-
+        Corectată pictograma aplicației afișată incorect în GNOME Software: eliminat slide1.png din assets/icons/ care era ambalat ca pictogramă a aplicației în loc de cel corect org.soplos.welcome.png.
+      C: |-
+        Fixed app icon incorrectly shown in GNOME Software: removed slide1.png from assets/icons/ which was being packaged as the application icon instead of the correct org.soplos.welcome.png.
   - version: 2.0.9
     date: '2026-05-28'
     type: stable

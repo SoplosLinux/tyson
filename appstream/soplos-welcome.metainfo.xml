@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.0.9-1" date="2026-05-29">
+        <description>
+          <p xml:lang="en">Fixed app icon incorrectly shown in GNOME Software: removed slide1.png from assets/icons/ which was being packaged as the application icon instead of the correct org.soplos.welcome.png.</p>
+          <p xml:lang="es">Corregido el icono de la app mostrado incorrectamente en GNOME Software: eliminado slide1.png de assets/icons/ que estaba siendo empaquetado como icono de la aplicación en lugar del correcto org.soplos.welcome.png.</p>
+          <p xml:lang="fr">Correction de l'icône de l'app affichée incorrectement dans GNOME Software : suppression de slide1.png de assets/icons/ qui était empaqueté comme icône de l'application au lieu du correct org.soplos.welcome.png.</p>
+          <p xml:lang="pt">Corrigido o ícone da app exibido incorretamente no GNOME Software: removido slide1.png de assets/icons/ que estava sendo empacotado como ícone da aplicação em vez do correto org.soplos.welcome.png.</p>
+          <p xml:lang="de">App-Icon in GNOME Software falsch angezeigt behoben: slide1.png aus assets/icons/ entfernt, das fälschlicherweise als Anwendungsicon verpackt wurde anstatt des korrekten org.soplos.welcome.png.</p>
+          <p xml:lang="it">Corretto l'icona dell'app visualizzata in modo errato in GNOME Software: rimosso slide1.png da assets/icons/ che veniva impacchettato come icona dell'applicazione invece del corretto org.soplos.welcome.png.</p>
+          <p xml:lang="ru">Исправлен значок приложения, отображавшийся неправильно в GNOME Software: удалён slide1.png из assets/icons/, который упаковывался как значок приложения вместо правильного org.soplos.welcome.png.</p>
+          <p xml:lang="ro">Corectată pictograma aplicației afișată incorect în GNOME Software: eliminat slide1.png din assets/icons/ care era ambalat ca pictogramă a aplicației în loc de cel corect org.soplos.welcome.png.</p>
+        </description>
+      </release>
       <release version="2.0.9" date="2026-05-28">
         <description>
           <p>VirtualBox Guest Additions updated and Pango markup fix:</p>
