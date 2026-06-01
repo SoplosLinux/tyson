@@ -2,6 +2,9 @@ boot/grub/themes/soploslinux/Ubuntu-B_50.pf2	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/UbuntuMono-R_12.pf2	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/background.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/preview.png	    misc/soplos-grub-theme
+boot/grub/themes/soploslinux/select_c.png	    misc/soplos-grub-theme
+boot/grub/themes/soploslinux/select_e.png	    misc/soplos-grub-theme
+boot/grub/themes/soploslinux/select_w.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/theme.txt	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/advanced.png	    misc/soplos-grub-theme
 boot/grub/themes/soploslinux/icons/efi.png	    misc/soplos-grub-theme
