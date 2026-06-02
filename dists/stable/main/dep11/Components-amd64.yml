@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260602T175933
+Time: 20260602T202526
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -681,6 +681,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.0-2
+    date: '2026-06-02'
+    type: stable
+    description:
+      C: |-
+        Fixed the Update button not appearing in the Soplos Kernels tab when a newer version was available, fixed stale package data after actions, and fixed apt-cache output parsing on non-English systems.
+      es: |-
+        Corregido el botón Actualizar que no aparecía en la pestaña Kernels Soplos cuando había una versión más reciente disponible, corregidos los datos desactualizados tras acciones, y corregido el análisis de la salida de apt-cache en sistemas no ingleses.
+      fr: |-
+        Correction du bouton Mettre à jour absent dans l'onglet Noyaux Soplos, correction des données obsolètes après actions, et correction de l'analyse de la sortie apt-cache sur les systèmes non anglophones.
+      de: |-
+        Behoben: Schaltfläche Aktualisieren fehlte im Tab Soplos-Kernel; veraltete Paketdaten nach Aktionen; apt-cache-Ausgabe auf nicht-englischen Systemen wurde nicht korrekt ausgewertet.
+      pt: |-
+        Corrigido o botão Atualizar ausente na aba Kernels Soplos, corrigidos dados desatualizados após ações, e corrigida a análise da saída do apt-cache em sistemas não ingleses.
+      it: |-
+        Corretto il pulsante Aggiorna assente nella scheda Kernel Soplos, corretti dati non aggiornati dopo le azioni, e corretta l'analisi dell'output di apt-cache su sistemi non in inglese.
+      ro: |-
+        Corectat butonul Actualizare absent in fila Kerneluri Soplos, corectate datele expirate dupa actiuni si corectata analiza rezultatelor apt-cache pe sisteme non-engleze.
+      ru: |-
+        Исправлена отсутствующая кнопка «Обновить» во вкладке Ядра Soplos, устаревшие данные после действий и разбор вывода apt-cache на не-английских системах.
   - version: 1.0.0-1
     date: '2026-06-02'
     type: stable

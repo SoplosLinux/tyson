@@ -166,6 +166,44 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.0-2" date="2026-06-02">
+      <description>
+        <p>Fixed the Update button not appearing in the Soplos Kernels tab when a newer version was available, fixed stale package data after actions, and fixed apt-cache output parsing on non-English systems.</p>
+        <p xml:lang="es">Corregido el botón Actualizar que no aparecía en la pestaña Kernels Soplos cuando había una versión más reciente disponible, corregidos los datos desactualizados tras acciones, y corregido el análisis de la salida de apt-cache en sistemas no ingleses.</p>
+        <p xml:lang="fr">Correction du bouton Mettre à jour absent dans l'onglet Noyaux Soplos, correction des données obsolètes après actions, et correction de l'analyse de la sortie apt-cache sur les systèmes non anglophones.</p>
+        <p xml:lang="de">Behoben: Schaltfläche Aktualisieren fehlte im Tab Soplos-Kernel; veraltete Paketdaten nach Aktionen; apt-cache-Ausgabe auf nicht-englischen Systemen wurde nicht korrekt ausgewertet.</p>
+        <p xml:lang="pt">Corrigido o botão Atualizar ausente na aba Kernels Soplos, corrigidos dados desatualizados após ações, e corrigida a análise da saída do apt-cache em sistemas não ingleses.</p>
+        <p xml:lang="it">Corretto il pulsante Aggiorna assente nella scheda Kernel Soplos, corretti dati non aggiornati dopo le azioni, e corretta l'analisi dell'output di apt-cache su sistemi non in inglese.</p>
+        <p xml:lang="ro">Corectat butonul Actualizare absent in fila Kerneluri Soplos, corectate datele expirate dupa actiuni si corectata analiza rezultatelor apt-cache pe sisteme non-engleze.</p>
+        <p xml:lang="ru">Исправлена отсутствующая кнопка «Обновить» во вкладке Ядра Soplos, устаревшие данные после действий и разбор вывода apt-cache на не-английских системах.</p>
+        <ul>
+          <li>Fixed Update button not appearing when a newer kernel version was available in the repository</li>
+          <li>Fixed stale package list after install, update or remove actions in Soplos Kernels tab</li>
+          <li>Fixed apt-cache policy and show output parsing on non-English systems by forcing LC_ALL=C</li>
+          <li xml:lang="es">Corregido el boton Actualizar que no aparecia cuando habia una version mas reciente en el repositorio</li>
+          <li xml:lang="es">Corregida la lista de paquetes desactualizada tras acciones de instalar, actualizar o eliminar</li>
+          <li xml:lang="es">Corregido el analisis de la salida de apt-cache en sistemas en espanol forzando LC_ALL=C</li>
+          <li xml:lang="fr">Correction du bouton Mettre a jour absent quand une version plus recente etait disponible</li>
+          <li xml:lang="fr">Correction de la liste de paquets obsolete apres installation, mise a jour ou suppression</li>
+          <li xml:lang="fr">Correction de l'analyse de la sortie apt-cache sur les systemes non anglophones via LC_ALL=C</li>
+          <li xml:lang="de">Behoben: Schaltflache Aktualisieren fehlte bei verfugbarer neuerer Version</li>
+          <li xml:lang="de">Behoben: Veraltete Paketliste nach Aktionen im Tab Soplos-Kernel</li>
+          <li xml:lang="de">Behoben: apt-cache-Ausgabe auf nicht-englischen Systemen durch Erzwingen von LC_ALL=C</li>
+          <li xml:lang="pt">Corrigido botao Atualizar ausente quando havia versao mais recente disponivel</li>
+          <li xml:lang="pt">Corrigida lista de pacotes desatualizada apos acoes de instalar, atualizar ou remover</li>
+          <li xml:lang="pt">Corrigida analise da saida apt-cache em sistemas nao ingleses com LC_ALL=C</li>
+          <li xml:lang="it">Corretto pulsante Aggiorna assente quando disponibile versione piu recente</li>
+          <li xml:lang="it">Corretta lista pacchetti non aggiornata dopo azioni nella scheda Kernel Soplos</li>
+          <li xml:lang="it">Corretta analisi output apt-cache su sistemi non inglesi tramite LC_ALL=C</li>
+          <li xml:lang="ro">Corectat butonul Actualizare absent cand era disponibila o versiune mai noua</li>
+          <li xml:lang="ro">Corectata lista de pachete expirata dupa actiuni in fila Kerneluri Soplos</li>
+          <li xml:lang="ro">Corectata analiza rezultatelor apt-cache pe sisteme non-engleze prin LC_ALL=C</li>
+          <li xml:lang="ru">Исправлена кнопка Обновить, отсутствовавшая при наличии более новой версии</li>
+          <li xml:lang="ru">Исправлен устаревший список пакетов после действий во вкладке Ядра Soplos</li>
+          <li xml:lang="ru">Исправлен разбор вывода apt-cache на не-английских системах через LC_ALL=C</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0-1" date="2026-06-02">
       <description>
         <p>Added a "Remove repository" button in the Soplos Kernels tab to remove the repository source and its GPG key without affecting already installed kernels.</p>
