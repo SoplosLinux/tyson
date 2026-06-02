@@ -166,6 +166,28 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.0-1" date="2026-06-02">
+      <description>
+        <p>Added a "Remove repository" button in the Soplos Kernels tab to remove the repository source and its GPG key without affecting already installed kernels.</p>
+        <p xml:lang="es">Se ha añadido un botón "Eliminar repositorio" en la pestaña Soplos Kernels para eliminar la fuente del repositorio y su clave GPG sin afectar a los kernels ya instalados.</p>
+        <p xml:lang="fr">Ajout d'un bouton « Supprimer le dépôt » dans l'onglet Soplos Kernels pour supprimer la source du dépôt et sa clé GPG sans affecter les noyaux déjà installés.</p>
+        <p xml:lang="de">Schaltfläche „Repository entfernen" im Tab Soplos Kernels hinzugefügt — entfernt die Repository-Quelle und den GPG-Schlüssel, ohne bereits installierte Kernel zu beeinflussen.</p>
+        <p xml:lang="pt">Adicionado um botão "Remover repositório" no separador Soplos Kernels para remover a fonte do repositório e a sua chave GPG sem afetar os kernels já instalados.</p>
+        <p xml:lang="it">Aggiunto il pulsante "Rimuovi repository" nella scheda Soplos Kernels per rimuovere la sorgente del repository e la sua chiave GPG senza influire sui kernel già installati.</p>
+        <p xml:lang="ro">Adăugat butonul „Elimină depozitul" în fila Soplos Kernels pentru a elimina sursa depozitului și cheia GPG fără a afecta kernelurile deja instalate.</p>
+        <p xml:lang="ru">Добавлена кнопка «Удалить репозиторий» во вкладке Soplos Kernels для удаления источника репозитория и его GPG-ключа без затрагивания уже установленных ядер.</p>
+        <ul>
+          <li>Added "Remove repository" button in Soplos Kernels tab</li>
+          <li xml:lang="es">Añadido botón "Eliminar repositorio" en la pestaña Soplos Kernels</li>
+          <li xml:lang="fr">Ajout du bouton « Supprimer le dépôt » dans l'onglet Soplos Kernels</li>
+          <li xml:lang="de">Schaltfläche „Repository entfernen" im Tab Soplos Kernels hinzugefügt</li>
+          <li xml:lang="pt">Adicionado botão "Remover repositório" no separador Soplos Kernels</li>
+          <li xml:lang="it">Aggiunto pulsante "Rimuovi repository" nella scheda Soplos Kernels</li>
+          <li xml:lang="ro">Adăugat butonul „Elimină depozitul" în fila Soplos Kernels</li>
+          <li xml:lang="ru">Добавлена кнопка «Удалить репозиторий» во вкладке Soplos Kernels</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0" date="2026-04-05">
       <description>
         <p>Initial release of Soplos Kernel Installer with comprehensive kernel management features including PREEMPT_RT integration, source reuse, and Secure Boot support.</p>

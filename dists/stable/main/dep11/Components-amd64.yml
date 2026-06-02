@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260601T165951
+Time: 20260602T175933
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -681,6 +681,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.0-1
+    date: '2026-06-02'
+    type: stable
+    description:
+      C: |-
+        Added a "Remove repository" button in the Soplos Kernels tab to remove the repository source and its GPG key without affecting already installed kernels.
+      es: |-
+        Se ha añadido un botón "Eliminar repositorio" en la pestaña Soplos Kernels para eliminar la fuente del repositorio y su clave GPG sin afectar a los kernels ya instalados.
+      fr: |-
+        Ajout d'un bouton « Supprimer le dépôt » dans l'onglet Soplos Kernels pour supprimer la source du dépôt et sa clé GPG sans affecter les noyaux déjà installés.
+      de: |-
+        Schaltfläche „Repository entfernen" im Tab Soplos Kernels hinzugefügt — entfernt die Repository-Quelle und den GPG-Schlüssel, ohne bereits installierte Kernel zu beeinflussen.
+      pt: |-
+        Adicionado um botão "Remover repositório" no separador Soplos Kernels para remover a fonte do repositório e a sua chave GPG sem afetar os kernels já instalados.
+      it: |-
+        Aggiunto il pulsante "Rimuovi repository" nella scheda Soplos Kernels per rimuovere la sorgente del repository e la sua chiave GPG senza influire sui kernel già installati.
+      ro: |-
+        Adăugat butonul „Elimină depozitul" în fila Soplos Kernels pentru a elimina sursa depozitului și cheia GPG fără a afecta kernelurile deja instalate.
+      ru: |-
+        Добавлена кнопка «Удалить репозиторий» во вкладке Soplos Kernels для удаления источника репозитория и его GPG-ключа без затрагивания уже установленных ядер.
   - version: 1.0.0
     date: '2026-04-05'
     type: stable
