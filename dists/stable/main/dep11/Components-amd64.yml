@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260602T202526
+Time: 20260603T125546
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -681,6 +681,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.0-3
+    date: '2026-06-02'
+    type: stable
+    description:
+      C: |-
+        Fixed the Update button appearing incorrectly after updating a kernel, when the old vmlinuz was still present in /boot before reboot.
+      es: |-
+        Corregido el botón Actualizar que aparecía incorrectamente tras actualizar un kernel, cuando el vmlinuz antiguo aún estaba en /boot antes de reiniciar.
+      fr: |-
+        Correction du bouton Mettre à jour qui apparaissait incorrectement après la mise à jour d'un noyau, lorsque l'ancien vmlinuz était encore présent dans /boot avant le redémarrage.
+      de: |-
+        Behoben: Schaltfläche Aktualisieren erschien nach einem Kernel-Update fälschlicherweise, wenn der alte vmlinuz noch vor dem Neustart in /boot vorhanden war.
+      pt: |-
+        Corrigido o botão Atualizar que aparecia incorretamente após atualizar um kernel, quando o vmlinuz antigo ainda estava presente em /boot antes de reiniciar.
+      it: |-
+        Corretto il pulsante Aggiorna che appariva erroneamente dopo l'aggiornamento di un kernel, quando il vecchio vmlinuz era ancora presente in /boot prima del riavvio.
+      ro: |-
+        Corectat butonul Actualizare care aparea incorect dupa actualizarea unui kernel, cand vechiul vmlinuz era inca prezent in /boot inainte de repornire.
+      ru: |-
+        Исправлена кнопка «Обновить», появлявшаяся ошибочно после обновления ядра, когда старый vmlinuz ещё присутствовал в /boot до перезагрузки.
   - version: 1.0.0-2
     date: '2026-06-02'
     type: stable

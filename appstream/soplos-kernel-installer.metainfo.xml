@@ -166,6 +166,28 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.0-3" date="2026-06-02">
+      <description>
+        <p>Fixed the Update button appearing incorrectly after updating a kernel, when the old vmlinuz was still present in /boot before reboot.</p>
+        <p xml:lang="es">Corregido el botón Actualizar que aparecía incorrectamente tras actualizar un kernel, cuando el vmlinuz antiguo aún estaba en /boot antes de reiniciar.</p>
+        <p xml:lang="fr">Correction du bouton Mettre à jour qui apparaissait incorrectement après la mise à jour d'un noyau, lorsque l'ancien vmlinuz était encore présent dans /boot avant le redémarrage.</p>
+        <p xml:lang="de">Behoben: Schaltfläche Aktualisieren erschien nach einem Kernel-Update fälschlicherweise, wenn der alte vmlinuz noch vor dem Neustart in /boot vorhanden war.</p>
+        <p xml:lang="pt">Corrigido o botão Atualizar que aparecia incorretamente após atualizar um kernel, quando o vmlinuz antigo ainda estava presente em /boot antes de reiniciar.</p>
+        <p xml:lang="it">Corretto il pulsante Aggiorna che appariva erroneamente dopo l'aggiornamento di un kernel, quando il vecchio vmlinuz era ancora presente in /boot prima del riavvio.</p>
+        <p xml:lang="ro">Corectat butonul Actualizare care aparea incorect dupa actualizarea unui kernel, cand vechiul vmlinuz era inca prezent in /boot inainte de repornire.</p>
+        <p xml:lang="ru">Исправлена кнопка «Обновить», появлявшаяся ошибочно после обновления ядра, когда старый vmlinuz ещё присутствовал в /boot до перезагрузки.</p>
+        <ul>
+          <li>Fixed Update button shown incorrectly after updating a kernel before reboot</li>
+          <li xml:lang="es">Corregido boton Actualizar mostrado incorrectamente tras actualizar un kernel antes de reiniciar</li>
+          <li xml:lang="fr">Correction du bouton Mettre a jour affiche incorrectement apres mise a jour avant redemarrage</li>
+          <li xml:lang="de">Behoben: Schaltflache Aktualisieren nach Kernel-Update vor Neustart falschlich angezeigt</li>
+          <li xml:lang="pt">Corrigido botao Atualizar exibido incorretamente apos atualizar kernel antes de reiniciar</li>
+          <li xml:lang="it">Corretto pulsante Aggiorna mostrato erroneamente dopo aggiornamento kernel prima del riavvio</li>
+          <li xml:lang="ro">Corectat butonul Actualizare afisat incorect dupa actualizarea kernelului inainte de repornire</li>
+          <li xml:lang="ru">Исправлена кнопка Обновить, ошибочно отображавшаяся после обновления ядра до перезагрузки</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0-2" date="2026-06-02">
       <description>
         <p>Fixed the Update button not appearing in the Soplos Kernels tab when a newer version was available, fixed stale package data after actions, and fixed apt-cache output parsing on non-English systems.</p>
