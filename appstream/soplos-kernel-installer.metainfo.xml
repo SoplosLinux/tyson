@@ -166,6 +166,36 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.0-4" date="2026-06-02">
+      <description>
+        <p>Fixed NVIDIA DKMS build failures when installing pre-built Soplos kernels on systems with NVIDIA drivers. The VMA compatibility patch is now applied before installation in the Soplos Kernels tab.</p>
+        <p xml:lang="es">Corregidos los fallos de compilación DKMS de NVIDIA al instalar kernels Soplos precompilados en sistemas con controladores NVIDIA. El parche de compatibilidad VMA ahora se aplica antes de la instalación en la pestaña Kernels Soplos.</p>
+        <p xml:lang="fr">Correction des échecs de compilation DKMS NVIDIA lors de l'installation de noyaux Soplos précompilés sur des systèmes avec des pilotes NVIDIA. Le patch de compatibilité VMA est maintenant appliqué avant l'installation dans l'onglet Noyaux Soplos.</p>
+        <p xml:lang="de">Behoben: NVIDIA DKMS-Build-Fehler beim Installieren vorkompilierter Soplos-Kernel auf Systemen mit NVIDIA-Treibern. Der VMA-Kompatibilitätspatch wird jetzt vor der Installation im Tab Soplos-Kernel angewendet.</p>
+        <p xml:lang="pt">Corrigidas falhas de compilação DKMS da NVIDIA ao instalar kernels Soplos pré-compilados em sistemas com controladores NVIDIA. O patch de compatibilidade VMA agora é aplicado antes da instalação no separador Kernels Soplos.</p>
+        <p xml:lang="it">Corretti i guasti di compilazione DKMS NVIDIA durante l'installazione di kernel Soplos precompilati su sistemi con driver NVIDIA. Il patch di compatibilità VMA viene ora applicato prima dell'installazione nella scheda Kernel Soplos.</p>
+        <p xml:lang="ro">Corectate erorile de compilare DKMS NVIDIA la instalarea kernelurilor Soplos precompilate pe sisteme cu drivere NVIDIA. Patch-ul de compatibilitate VMA este acum aplicat inainte de instalare in fila Kerneluri Soplos.</p>
+        <p xml:lang="ru">Исправлены сбои компиляции DKMS NVIDIA при установке предсобранных ядер Soplos на системах с драйверами NVIDIA. Патч совместимости VMA теперь применяется перед установкой во вкладке Ядра Soplos.</p>
+        <ul>
+          <li>Fixed NVIDIA DKMS patch not applied when installing pre-built Soplos kernels from repository tab</li>
+          <li>Fixed NVIDIA VMA patch using --fuzz=5 to cover 580 and 590 driver versions</li>
+          <li xml:lang="es">Corregido parche DKMS NVIDIA no aplicado al instalar kernels Soplos precompilados desde la pestana del repositorio</li>
+          <li xml:lang="es">Corregido parche VMA NVIDIA usando --fuzz=5 para cubrir versiones de driver 580 y 590</li>
+          <li xml:lang="fr">Correction du patch DKMS NVIDIA non applique lors de l'installation de noyaux Soplos precompiles depuis l'onglet depot</li>
+          <li xml:lang="fr">Correction du patch VMA NVIDIA avec --fuzz=5 pour couvrir les versions de pilote 580 et 590</li>
+          <li xml:lang="de">Behoben: NVIDIA DKMS-Patch nicht angewendet beim Installieren vorkompilierter Soplos-Kernel aus dem Repository-Tab</li>
+          <li xml:lang="de">Behoben: NVIDIA VMA-Patch mit --fuzz=5 fur 580- und 590-Treiberversionen</li>
+          <li xml:lang="pt">Corrigido patch DKMS NVIDIA nao aplicado ao instalar kernels Soplos precompilados do separador repositorio</li>
+          <li xml:lang="pt">Corrigido patch VMA NVIDIA com --fuzz=5 para versoes de driver 580 e 590</li>
+          <li xml:lang="it">Corretto patch DKMS NVIDIA non applicato durante l'installazione di kernel Soplos precompilati dalla scheda repository</li>
+          <li xml:lang="it">Corretto patch VMA NVIDIA con --fuzz=5 per le versioni driver 580 e 590</li>
+          <li xml:lang="ro">Corectat patch DKMS NVIDIA neaplicat la instalarea kernelurilor Soplos precompilate din fila depozit</li>
+          <li xml:lang="ro">Corectat patch VMA NVIDIA cu --fuzz=5 pentru versiunile de driver 580 si 590</li>
+          <li xml:lang="ru">Исправлен патч DKMS NVIDIA, не применявшийся при установке предсобранных ядер Soplos из вкладки репозитория</li>
+          <li xml:lang="ru">Исправлен патч VMA NVIDIA с --fuzz=5 для версий драйвера 580 и 590</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0-3" date="2026-06-02">
       <description>
         <p>Fixed the Update button appearing incorrectly after updating a kernel, when the old vmlinuz was still present in /boot before reboot.</p>

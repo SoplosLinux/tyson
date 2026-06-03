@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260603T125546
+Time: 20260603T160042
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -681,6 +681,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.0-4
+    date: '2026-06-02'
+    type: stable
+    description:
+      C: |-
+        Fixed NVIDIA DKMS build failures when installing pre-built Soplos kernels on systems with NVIDIA drivers. The VMA compatibility patch is now applied before installation in the Soplos Kernels tab.
+      es: |-
+        Corregidos los fallos de compilación DKMS de NVIDIA al instalar kernels Soplos precompilados en sistemas con controladores NVIDIA. El parche de compatibilidad VMA ahora se aplica antes de la instalación en la pestaña Kernels Soplos.
+      fr: |-
+        Correction des échecs de compilation DKMS NVIDIA lors de l'installation de noyaux Soplos précompilés sur des systèmes avec des pilotes NVIDIA. Le patch de compatibilité VMA est maintenant appliqué avant l'installation dans l'onglet Noyaux Soplos.
+      de: |-
+        Behoben: NVIDIA DKMS-Build-Fehler beim Installieren vorkompilierter Soplos-Kernel auf Systemen mit NVIDIA-Treibern. Der VMA-Kompatibilitätspatch wird jetzt vor der Installation im Tab Soplos-Kernel angewendet.
+      pt: |-
+        Corrigidas falhas de compilação DKMS da NVIDIA ao instalar kernels Soplos pré-compilados em sistemas com controladores NVIDIA. O patch de compatibilidade VMA agora é aplicado antes da instalação no separador Kernels Soplos.
+      it: |-
+        Corretti i guasti di compilazione DKMS NVIDIA durante l'installazione di kernel Soplos precompilati su sistemi con driver NVIDIA. Il patch di compatibilità VMA viene ora applicato prima dell'installazione nella scheda Kernel Soplos.
+      ro: |-
+        Corectate erorile de compilare DKMS NVIDIA la instalarea kernelurilor Soplos precompilate pe sisteme cu drivere NVIDIA. Patch-ul de compatibilitate VMA este acum aplicat inainte de instalare in fila Kerneluri Soplos.
+      ru: |-
+        Исправлены сбои компиляции DKMS NVIDIA при установке предсобранных ядер Soplos на системах с драйверами NVIDIA. Патч совместимости VMA теперь применяется перед установкой во вкладке Ядра Soplos.
   - version: 1.0.0-3
     date: '2026-06-02'
     type: stable
