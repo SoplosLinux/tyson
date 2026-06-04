@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260603T160042
+Time: 20260604T105306
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -2667,6 +2667,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-sys-cleaner/issues
 Releases:
+  - version: 1.0.2-3
+    date: '2026-06-04'
+    type: stable
+    description:
+      C: |-
+        Bug fix and cleanup release: orphaned DKMS modules, systemd services, X11/XDG autostart files and module references left after driver removal are now detected and cleaned. Fixes VBoxClient boot notifications on systems where VirtualBox guest packages were removed.
+      es: |-
+        Versión de correcciones y limpieza: módulos DKMS huérfanos, servicios systemd, ficheros de autostart X11/XDG y referencias de módulos que quedan tras desinstalar drivers ahora se detectan y eliminan. Corrige las notificaciones de VBoxClient al arrancar en sistemas donde se eliminaron los paquetes de guest de VirtualBox.
+      fr: |-
+        Version de corrections et nettoyage : les modules DKMS orphelins, services systemd, fichiers d'autostart X11/XDG et références de modules laissés après la suppression des pilotes sont maintenant détectés et nettoyés. Corrige les notifications VBoxClient au démarrage sur les systèmes où les paquets invités VirtualBox ont été supprimés.
+      de: |-
+        Fehlerbehebungs- und Bereinigungsversion: verwaiste DKMS-Module, systemd-Dienste, X11/XDG-Autostartdateien und Modulreferenzen nach der Treiberentfernung werden jetzt erkannt und bereinigt. Behebt VBoxClient-Benachrichtigungen beim Start auf Systemen, bei denen VirtualBox-Gast-Pakete entfernt wurden.
+      pt: |-
+        Versão de correções e limpeza: módulos DKMS órfãos, serviços systemd, ficheiros de autostart X11/XDG e referências de módulos deixados após a remoção de drivers são agora detetados e limpos. Corrige notificações do VBoxClient no arranque em sistemas onde os pacotes guest do VirtualBox foram removidos.
+      it: |-
+        Versione di correzioni e pulizia: moduli DKMS orfani, servizi systemd, file di autostart X11/XDG e riferimenti a moduli lasciati dopo la rimozione dei driver vengono ora rilevati e puliti. Corregge le notifiche VBoxClient all'avvio sui sistemi in cui i pacchetti guest di VirtualBox sono stati rimossi.
+      ro: |-
+        Versiune de remedieri și curățare: modulele DKMS orfane, serviciile systemd, fișierele de autostart X11/XDG și referințele la module rămase după eliminarea driverelor sunt acum detectate și curățate. Remediază notificările VBoxClient la pornire pe sistemele unde pachetele guest VirtualBox au fost eliminate.
+      ru: |-
+        Версия исправлений и очистки: осиротевшие DKMS-модули, службы systemd, файлы автозапуска X11/XDG и ссылки на модули, оставшиеся после удаления драйверов, теперь обнаруживаются и удаляются. Исправляет уведомления VBoxClient при загрузке на системах, где были удалены пакеты гостевых дополнений VirtualBox.
   - version: 1.0.2-2
     date: '2026-05-29'
     type: stable

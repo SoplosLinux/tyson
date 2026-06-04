@@ -257,6 +257,75 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.2-3" date="2026-06-04">
+      <description>
+        <p>Bug fix and cleanup release: orphaned DKMS modules, systemd services, X11/XDG autostart files and module references left after driver removal are now detected and cleaned. Fixes VBoxClient boot notifications on systems where VirtualBox guest packages were removed.</p>
+        <p xml:lang="es">Versión de correcciones y limpieza: módulos DKMS huérfanos, servicios systemd, ficheros de autostart X11/XDG y referencias de módulos que quedan tras desinstalar drivers ahora se detectan y eliminan. Corrige las notificaciones de VBoxClient al arrancar en sistemas donde se eliminaron los paquetes de guest de VirtualBox.</p>
+        <p xml:lang="fr">Version de corrections et nettoyage : les modules DKMS orphelins, services systemd, fichiers d'autostart X11/XDG et références de modules laissés après la suppression des pilotes sont maintenant détectés et nettoyés. Corrige les notifications VBoxClient au démarrage sur les systèmes où les paquets invités VirtualBox ont été supprimés.</p>
+        <p xml:lang="de">Fehlerbehebungs- und Bereinigungsversion: verwaiste DKMS-Module, systemd-Dienste, X11/XDG-Autostartdateien und Modulreferenzen nach der Treiberentfernung werden jetzt erkannt und bereinigt. Behebt VBoxClient-Benachrichtigungen beim Start auf Systemen, bei denen VirtualBox-Gast-Pakete entfernt wurden.</p>
+        <p xml:lang="pt">Versão de correções e limpeza: módulos DKMS órfãos, serviços systemd, ficheiros de autostart X11/XDG e referências de módulos deixados após a remoção de drivers são agora detetados e limpos. Corrige notificações do VBoxClient no arranque em sistemas onde os pacotes guest do VirtualBox foram removidos.</p>
+        <p xml:lang="it">Versione di correzioni e pulizia: moduli DKMS orfani, servizi systemd, file di autostart X11/XDG e riferimenti a moduli lasciati dopo la rimozione dei driver vengono ora rilevati e puliti. Corregge le notifiche VBoxClient all'avvio sui sistemi in cui i pacchetti guest di VirtualBox sono stati rimossi.</p>
+        <p xml:lang="ro">Versiune de remedieri și curățare: modulele DKMS orfane, serviciile systemd, fișierele de autostart X11/XDG și referințele la module rămase după eliminarea driverelor sunt acum detectate și curățate. Remediază notificările VBoxClient la pornire pe sistemele unde pachetele guest VirtualBox au fost eliminate.</p>
+        <p xml:lang="ru">Версия исправлений и очистки: осиротевшие DKMS-модули, службы systemd, файлы автозапуска X11/XDG и ссылки на модули, оставшиеся после удаления драйверов, теперь обнаруживаются и удаляются. Исправляет уведомления VBoxClient при загрузке на системах, где были удалены пакеты гостевых дополнений VirtualBox.</p>
+        <ul>
+          <li>Added: orphaned DKMS module detection in Drivers tab — compiled .ko files in /var/lib/dkms/ with no installed source package, removed via dkms remove + dracut -f</li>
+          <li>Added: orphaned reference scanner covering /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, systemd unit files, and X11/XDG autostart files — shown in APT Cache orphaned packages section</li>
+          <li>Added: automatic cleanup of module references after driver removal before dracut -f (covers VirtualBox, VMware, Broadcom, Hyper-V)</li>
+          <li>Fixed: VBoxClient boot notifications after removing virtualbox-guest-x11 — caused by orphaned /etc/X11/Xsession.d/98vboxadd-xclient and /etc/xdg/autostart/vboxclient.desktop</li>
+          <li>Fixed: full coverage for VMware (vmtoolsd.service, vmware-vmblock-fuse.service, vmware-user.desktop, 70vmware-user), NVIDIA (nvidia-persistenced.service, nvidia-hibernate/resume/suspend.service, modprobe.d/nvidia-blacklist-nouveau.conf), Broadcom (modprobe.d/blacklist-bcm43.conf, wl.conf) and Hyper-V daemon services</li>
+          <li>Fixed: users who removed drivers before this release can clean up leftover references from APT Cache — Orphaned packages without reinstalling anything</li>
+
+          <li xml:lang="es">Añadido: detección de módulos DKMS huérfanos en la pestaña Drivers — archivos .ko compilados en /var/lib/dkms/ sin paquete fuente instalado, eliminados con dkms remove + dracut -f</li>
+          <li xml:lang="es">Añadido: escáner de referencias huérfanas en /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, servicios systemd y ficheros de autostart X11/XDG — mostrados en la sección de paquetes huérfanos del Caché APT</li>
+          <li xml:lang="es">Añadido: limpieza automática de referencias de módulos tras eliminar drivers antes de dracut -f (cubre VirtualBox, VMware, Broadcom, Hyper-V)</li>
+          <li xml:lang="es">Corregido: notificaciones de VBoxClient al arrancar tras eliminar virtualbox-guest-x11 — causadas por /etc/X11/Xsession.d/98vboxadd-xclient y /etc/xdg/autostart/vboxclient.desktop huérfanos</li>
+          <li xml:lang="es">Corregido: cobertura completa para VMware (vmtoolsd.service, vmware-vmblock-fuse.service, vmware-user.desktop), NVIDIA (nvidia-persistenced.service, modprobe.d/nvidia-blacklist-nouveau.conf), Broadcom (modprobe.d/blacklist-bcm43.conf) e Hyper-V</li>
+          <li xml:lang="es">Corregido: los usuarios que eliminaron drivers antes de esta versión pueden limpiar las referencias desde Caché APT — Paquetes huérfanos sin reinstalar nada</li>
+
+          <li xml:lang="fr">Ajouté : détection des modules DKMS orphelins dans l'onglet Pilotes — fichiers .ko compilés dans /var/lib/dkms/ sans paquet source installé, supprimés via dkms remove + dracut -f</li>
+          <li xml:lang="fr">Ajouté : scanner de références orphelines dans /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, unités systemd et fichiers d'autostart X11/XDG — affichés dans la section paquets orphelins du Cache APT</li>
+          <li xml:lang="fr">Ajouté : nettoyage automatique des références de modules après suppression des pilotes avant dracut -f</li>
+          <li xml:lang="fr">Corrigé : notifications VBoxClient au démarrage après suppression de virtualbox-guest-x11 — causées par /etc/X11/Xsession.d/98vboxadd-xclient et /etc/xdg/autostart/vboxclient.desktop orphelins</li>
+          <li xml:lang="fr">Corrigé : le même nettoyage s'applique aux fichiers autostart de VMware et aux services Hyper-V</li>
+          <li xml:lang="fr">Corrigé : les utilisateurs ayant supprimé des pilotes avant cette version peuvent nettoyer les références depuis Cache APT — Paquets orphelins</li>
+
+          <li xml:lang="de">Hinzugefügt: Erkennung verwaister DKMS-Module im Treiber-Tab — kompilierte .ko-Dateien in /var/lib/dkms/ ohne installiertes Quellpaket, entfernt über dkms remove + dracut -f</li>
+          <li xml:lang="de">Hinzugefügt: Scanner für verwaiste Referenzen in /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, systemd-Einheiten und X11/XDG-Autostartdateien</li>
+          <li xml:lang="de">Hinzugefügt: automatische Bereinigung von Modulreferenzen nach Treiberentfernung vor dracut -f</li>
+          <li xml:lang="de">Behoben: VBoxClient-Benachrichtigungen nach Entfernung von virtualbox-guest-x11 — verursacht durch verwaiste /etc/X11/Xsession.d/98vboxadd-xclient und /etc/xdg/autostart/vboxclient.desktop</li>
+          <li xml:lang="de">Behoben: vollständige Abdeckung für VMware, NVIDIA (nvidia-persistenced.service, modprobe.d/nvidia-blacklist-nouveau.conf), Broadcom (modprobe.d/blacklist-bcm43.conf) und Hyper-V</li>
+          <li xml:lang="de">Behoben: Benutzer, die Treiber vor diesem Release entfernt haben, können Referenzen über APT-Cache — Verwaiste Pakete bereinigen</li>
+
+          <li xml:lang="pt">Adicionado: deteção de módulos DKMS órfãos no separador Drivers — ficheiros .ko compilados em /var/lib/dkms/ sem pacote fonte instalado, removidos com dkms remove + dracut -f</li>
+          <li xml:lang="pt">Adicionado: scanner de referências órfãs em /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, unidades systemd e ficheiros de autostart X11/XDG</li>
+          <li xml:lang="pt">Adicionado: limpeza automática de referências de módulos após remoção de drivers antes de dracut -f</li>
+          <li xml:lang="pt">Corrigido: notificações do VBoxClient no arranque após remover virtualbox-guest-x11 — causadas por /etc/X11/Xsession.d/98vboxadd-xclient e /etc/xdg/autostart/vboxclient.desktop órfãos</li>
+          <li xml:lang="pt">Corrigido: cobertura completa para VMware, NVIDIA (nvidia-persistenced.service, modprobe.d/nvidia-blacklist-nouveau.conf), Broadcom (modprobe.d/blacklist-bcm43.conf) e Hyper-V</li>
+          <li xml:lang="pt">Corrigido: utilizadores que removeram drivers antes desta versão podem limpar referências em Cache APT — Pacotes órfãos</li>
+
+          <li xml:lang="it">Aggiunto: rilevamento moduli DKMS orfani nella scheda Driver — file .ko compilati in /var/lib/dkms/ senza pacchetto sorgente installato, rimossi con dkms remove + dracut -f</li>
+          <li xml:lang="it">Aggiunto: scanner di riferimenti orfani in /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, unità systemd e file di autostart X11/XDG</li>
+          <li xml:lang="it">Aggiunto: pulizia automatica dei riferimenti ai moduli dopo la rimozione dei driver prima di dracut -f</li>
+          <li xml:lang="it">Corretto: notifiche VBoxClient all'avvio dopo la rimozione di virtualbox-guest-x11 — causate da /etc/X11/Xsession.d/98vboxadd-xclient e /etc/xdg/autostart/vboxclient.desktop orfani</li>
+          <li xml:lang="it">Corretto: copertura completa per VMware, NVIDIA (nvidia-persistenced.service, modprobe.d/nvidia-blacklist-nouveau.conf), Broadcom (modprobe.d/blacklist-bcm43.conf) e Hyper-V</li>
+          <li xml:lang="it">Corretto: gli utenti che hanno rimosso i driver prima di questa versione possono pulire i riferimenti da Cache APT — Pacchetti orfani</li>
+
+          <li xml:lang="ro">Adăugat: detectare module DKMS orfane în fila Drivere — fișiere .ko compilate în /var/lib/dkms/ fără pachet sursă instalat, eliminate cu dkms remove + dracut -f</li>
+          <li xml:lang="ro">Adăugat: scanner de referințe orfane în /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, unități systemd și fișiere de autostart X11/XDG</li>
+          <li xml:lang="ro">Adăugat: curățare automată a referințelor la module după eliminarea driverelor înainte de dracut -f</li>
+          <li xml:lang="ro">Rezolvat: notificări VBoxClient la pornire după eliminarea virtualbox-guest-x11 — cauzate de /etc/X11/Xsession.d/98vboxadd-xclient și /etc/xdg/autostart/vboxclient.desktop orfane</li>
+          <li xml:lang="ro">Rezolvat: acoperire completă pentru VMware, NVIDIA (nvidia-persistenced.service, modprobe.d/nvidia-blacklist-nouveau.conf), Broadcom (modprobe.d/blacklist-bcm43.conf) și Hyper-V</li>
+          <li xml:lang="ro">Rezolvat: utilizatorii care au eliminat drivere înainte de această versiune pot curăța referințele din Cache APT — Pachete orfane</li>
+
+          <li xml:lang="ru">Добавлено: обнаружение осиротевших DKMS-модулей во вкладке «Драйверы» — скомпилированные .ko-файлы в /var/lib/dkms/ без установленного исходного пакета, удаляются через dkms remove + dracut -f</li>
+          <li xml:lang="ru">Добавлено: сканер осиротевших ссылок в /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, юнитах systemd и файлах автозапуска X11/XDG</li>
+          <li xml:lang="ru">Добавлено: автоматическая очистка ссылок на модули после удаления драйверов перед dracut -f</li>
+          <li xml:lang="ru">Исправлено: уведомления VBoxClient при загрузке после удаления virtualbox-guest-x11 — вызваны осиротевшими /etc/X11/Xsession.d/98vboxadd-xclient и /etc/xdg/autostart/vboxclient.desktop</li>
+          <li xml:lang="ru">Исправлено: полное покрытие для VMware, NVIDIA (nvidia-persistenced.service, modprobe.d/nvidia-blacklist-nouveau.conf), Broadcom (modprobe.d/blacklist-bcm43.conf) и Hyper-V</li>
+          <li xml:lang="ru">Исправлено: пользователи, удалившие драйверы до этого выпуска, могут очистить ссылки через Кэш APT — Осиротевшие пакеты</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.2-2" date="2026-05-29">
       <description>
         <p>Bug fix and driver detection improvement release: Intel GPU false positive in VMs fixed, VM guest tool packages now managed via systemd-detect-virt, printer and input device driver detection added, progress bar and select-all checkbox state bugs fixed.</p>
