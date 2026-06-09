@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260604T105306
+Time: 20260609T134835
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -2667,6 +2667,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-sys-cleaner/issues
 Releases:
+  - version: 1.0.2-4
+    date: '2026-06-09'
+    type: stable
+    description:
+      C: |-
+        Bug fix release: DKMS orphan detection now correctly identifies old compiled module versions left after driver upgrades, and no longer shows active installed drivers as orphans.
+      es: |-
+        Versión de correcciones: la detección de módulos DKMS huérfanos ahora identifica correctamente las versiones compiladas antiguas que quedan tras actualizar drivers, y ya no muestra como huérfanos los drivers instalados y activos.
+      fr: |-
+        Version de corrections : la détection des modules DKMS orphelins identifie désormais correctement les anciennes versions compilées laissées après la mise à jour des pilotes, et n'affiche plus les pilotes actifs installés comme orphelins.
+      de: |-
+        Fehlerbehebungsversion: Die DKMS-Waisenerkennung identifiziert jetzt korrekt alte kompilierte Modulversionen, die nach Treiberaktualisierungen verbleiben, und zeigt aktive installierte Treiber nicht mehr als Waisen an.
+      pt: |-
+        Versão de correções: a deteção de módulos DKMS órfãos identifica agora corretamente as versões compiladas antigas deixadas após atualizações de drivers, e já não mostra como órfãos os drivers instalados e ativos.
+      it: |-
+        Versione di correzioni: il rilevamento dei moduli DKMS orfani ora identifica correttamente le vecchie versioni compilate rimaste dopo gli aggiornamenti dei driver, e non mostra più come orfani i driver installati e attivi.
+      ro: |-
+        Versiune de remedieri: detectarea modulelor DKMS orfane identifică acum corect versiunile vechi compilate rămase după actualizările driverelor și nu mai afișează ca orfane driverele instalate și active.
+      ru: |-
+        Версия исправлений: обнаружение осиротевших DKMS-модулей теперь правильно определяет старые скомпилированные версии, оставшиеся после обновления драйверов, и больше не отображает активные установленные драйверы как осиротевшие.
   - version: 1.0.2-3
     date: '2026-06-04'
     type: stable

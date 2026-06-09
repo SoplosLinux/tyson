@@ -257,6 +257,43 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.2-4" date="2026-06-09">
+      <description>
+        <p>Bug fix release: DKMS orphan detection now correctly identifies old compiled module versions left after driver upgrades, and no longer shows active installed drivers as orphans.</p>
+        <p xml:lang="es">Versión de correcciones: la detección de módulos DKMS huérfanos ahora identifica correctamente las versiones compiladas antiguas que quedan tras actualizar drivers, y ya no muestra como huérfanos los drivers instalados y activos.</p>
+        <p xml:lang="fr">Version de corrections : la détection des modules DKMS orphelins identifie désormais correctement les anciennes versions compilées laissées après la mise à jour des pilotes, et n'affiche plus les pilotes actifs installés comme orphelins.</p>
+        <p xml:lang="de">Fehlerbehebungsversion: Die DKMS-Waisenerkennung identifiziert jetzt korrekt alte kompilierte Modulversionen, die nach Treiberaktualisierungen verbleiben, und zeigt aktive installierte Treiber nicht mehr als Waisen an.</p>
+        <p xml:lang="pt">Versão de correções: a deteção de módulos DKMS órfãos identifica agora corretamente as versões compiladas antigas deixadas após atualizações de drivers, e já não mostra como órfãos os drivers instalados e ativos.</p>
+        <p xml:lang="it">Versione di correzioni: il rilevamento dei moduli DKMS orfani ora identifica correttamente le vecchie versioni compilate rimaste dopo gli aggiornamenti dei driver, e non mostra più come orfani i driver installati e attivi.</p>
+        <p xml:lang="ro">Versiune de remedieri: detectarea modulelor DKMS orfane identifică acum corect versiunile vechi compilate rămase după actualizările driverelor și nu mai afișează ca orfane driverele instalate și active.</p>
+        <p xml:lang="ru">Версия исправлений: обнаружение осиротевших DKMS-модулей теперь правильно определяет старые скомпилированные версии, оставшиеся после обновления драйверов, и больше не отображает активные установленные драйверы как осиротевшие.</p>
+        <ul>
+          <li>Fixed: DKMS orphan detector was showing active installed NVIDIA (and other) drivers as orphans — the DKMS directory name (e.g. nvidia) did not match the package name tried (nvidia-dkms). Added DKMS_MODULE_PACKAGES mapping covering NVIDIA, VirtualBox guest, Broadcom, ZFS, v4l2loopback and other known mismatches</li>
+          <li>Fixed: DKMS orphan detector was not detecting old compiled versions left after a driver upgrade (e.g. nvidia 580.126.20 lingering after upgrade to 580.159.04) — now checks /usr/src/module-version/ presence and compares installed package version</li>
+
+          <li xml:lang="es">Corregido: el detector de módulos DKMS huérfanos mostraba los drivers NVIDIA (y otros) instalados y activos como huérfanos — el nombre del directorio DKMS (p. ej. nvidia) no coincidía con el nombre de paquete buscado (nvidia-dkms). Añadido mapa DKMS_MODULE_PACKAGES para NVIDIA, VirtualBox guest, Broadcom, ZFS, v4l2loopback y otros casos conocidos</li>
+          <li xml:lang="es">Corregido: el detector no encontraba versiones compiladas antiguas que quedan tras actualizar el driver (p. ej. nvidia 580.126.20 al actualizar a 580.159.04) — ahora comprueba la presencia de /usr/src/modulo-version/ y compara la versión del paquete instalado</li>
+
+          <li xml:lang="fr">Corrigé : le détecteur de modules DKMS orphelins affichait les pilotes NVIDIA (et autres) actifs installés comme orphelins — le nom du répertoire DKMS (ex. nvidia) ne correspondait pas au nom de paquet cherché (nvidia-dkms). Ajout du mappage DKMS_MODULE_PACKAGES pour NVIDIA, VirtualBox guest, Broadcom, ZFS, v4l2loopback et autres cas connus</li>
+          <li xml:lang="fr">Corrigé : le détecteur ne trouvait pas les anciennes versions compilées restées après la mise à jour d'un pilote (ex. nvidia 580.126.20 après mise à jour vers 580.159.04) — vérifie maintenant la présence de /usr/src/module-version/ et compare la version du paquet installé</li>
+
+          <li xml:lang="de">Behoben: DKMS-Waisen-Detektor zeigte aktive installierte NVIDIA- (und andere) Treiber als Waisen an — der DKMS-Verzeichnisname (z. B. nvidia) stimmte nicht mit dem gesuchten Paketnamen (nvidia-dkms) überein. DKMS_MODULE_PACKAGES-Zuordnung für NVIDIA, VirtualBox-Gast, Broadcom, ZFS, v4l2loopback und andere bekannte Fälle hinzugefügt</li>
+          <li xml:lang="de">Behoben: Der Detektor erkannte keine alten kompilierten Versionen, die nach einem Treiber-Upgrade verbleiben (z. B. nvidia 580.126.20 nach Upgrade auf 580.159.04) — prüft jetzt das Vorhandensein von /usr/src/modul-version/ und vergleicht die installierte Paketversion</li>
+
+          <li xml:lang="pt">Corrigido: o detetor de módulos DKMS órfãos mostrava os drivers NVIDIA (e outros) instalados e ativos como órfãos — o nome do diretório DKMS (ex. nvidia) não coincidia com o nome de pacote procurado (nvidia-dkms). Adicionado mapeamento DKMS_MODULE_PACKAGES para NVIDIA, VirtualBox guest, Broadcom, ZFS, v4l2loopback e outros casos conhecidos</li>
+          <li xml:lang="pt">Corrigido: o detetor não encontrava versões compiladas antigas que ficam após atualizar o driver (ex. nvidia 580.126.20 ao atualizar para 580.159.04) — verifica agora a presença de /usr/src/modulo-versao/ e compara a versão do pacote instalado</li>
+
+          <li xml:lang="it">Corretto: il rilevatore di moduli DKMS orfani mostrava i driver NVIDIA (e altri) installati e attivi come orfani — il nome della directory DKMS (es. nvidia) non corrispondeva al nome del pacchetto cercato (nvidia-dkms). Aggiunto mapping DKMS_MODULE_PACKAGES per NVIDIA, VirtualBox guest, Broadcom, ZFS, v4l2loopback e altri casi noti</li>
+          <li xml:lang="it">Corretto: il rilevatore non trovava le versioni compilate vecchie rimaste dopo un aggiornamento del driver (es. nvidia 580.126.20 dopo aggiornamento a 580.159.04) — ora verifica la presenza di /usr/src/modulo-versione/ e confronta la versione del pacchetto installato</li>
+
+          <li xml:lang="ro">Rezolvat: detectorul de module DKMS orfane afișa driverele NVIDIA (și altele) instalate și active ca orfane — numele directorului DKMS (ex. nvidia) nu corespundea cu numele pachetului căutat (nvidia-dkms). Adăugată mapare DKMS_MODULE_PACKAGES pentru NVIDIA, VirtualBox guest, Broadcom, ZFS, v4l2loopback și alte cazuri cunoscute</li>
+          <li xml:lang="ro">Rezolvat: detectorul nu găsea versiunile vechi compilate rămase după actualizarea unui driver (ex. nvidia 580.126.20 după actualizarea la 580.159.04) — verifică acum prezența /usr/src/modul-versiune/ și compară versiunea pachetului instalat</li>
+
+          <li xml:lang="ru">Исправлено: детектор осиротевших DKMS-модулей отображал активные установленные драйверы NVIDIA (и другие) как осиротевшие — имя директории DKMS (напр. nvidia) не совпадало с искомым именем пакета (nvidia-dkms). Добавлена таблица DKMS_MODULE_PACKAGES для NVIDIA, гостевых пакетов VirtualBox, Broadcom, ZFS, v4l2loopback и других известных случаев</li>
+          <li xml:lang="ru">Исправлено: детектор не находил старые скомпилированные версии, оставшиеся после обновления драйвера (напр. nvidia 580.126.20 после обновления до 580.159.04) — теперь проверяет наличие /usr/src/модуль-версия/ и сравнивает версию установленного пакета</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.2-3" date="2026-06-04">
       <description>
         <p>Bug fix and cleanup release: orphaned DKMS modules, systemd services, X11/XDG autostart files and module references left after driver removal are now detected and cleaned. Fixes VBoxClient boot notifications on systems where VirtualBox guest packages were removed.</p>
