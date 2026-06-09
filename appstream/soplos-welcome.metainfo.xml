@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.0.9-2" date="2026-06-09">
+        <description>
+          <p xml:lang="en">Added Brave Origin, Opera and Zen Browser to the Recommended tab. Fixed NVIDIA driver detection: NVIDIA 550 no longer shows as installed when 580 is active, and AMD systems no longer show false NVIDIA driver checkmarks caused by leftover packages.</p>
+          <p xml:lang="es">Añadidos Brave Origin, Opera y Zen Browser a la pestaña de Recomendados. Corregida la detección de controladores NVIDIA: el NVIDIA 550 ya no aparece instalado cuando el 580 está activo, y los sistemas AMD ya no muestran falsos positivos de controladores NVIDIA debidos a paquetes residuales.</p>
+          <p xml:lang="fr">Ajout de Brave Origin, Opera et Zen Browser dans l'onglet Recommandés. Correction de la détection des pilotes NVIDIA : le NVIDIA 550 n'apparaît plus installé quand le 580 est actif, et les systèmes AMD n'affichent plus de faux positifs NVIDIA dus à des paquets résiduels.</p>
+          <p xml:lang="pt">Adicionados Brave Origin, Opera e Zen Browser ao separador Recomendados. Corrigida a deteção de controladores NVIDIA: o NVIDIA 550 já não aparece instalado quando o 580 está ativo, e os sistemas AMD já não mostram falsos positivos NVIDIA causados por pacotes residuais.</p>
+          <p xml:lang="de">Brave Origin, Opera und Zen Browser zur Empfehlungen-Registerkarte hinzugefügt. NVIDIA-Treibererkennung korrigiert: NVIDIA 550 wird nicht mehr als installiert angezeigt, wenn 580 aktiv ist, und AMD-Systeme zeigen keine falschen NVIDIA-Treiber-Häkchen mehr durch zurückgebliebene Pakete.</p>
+          <p xml:lang="it">Aggiunti Brave Origin, Opera e Zen Browser alla scheda Raccomandati. Corretto il rilevamento dei driver NVIDIA: NVIDIA 550 non viene più mostrato come installato quando il 580 è attivo, e i sistemi AMD non mostrano più falsi positivi NVIDIA causati da pacchetti residui.</p>
+          <p xml:lang="ru">Добавлены Brave Origin, Opera и Zen Browser во вкладку Рекомендованных. Исправлено определение драйверов NVIDIA: NVIDIA 550 больше не отображается как установленный при активном 580, а системы AMD больше не показывают ложные отметки NVIDIA из-за остаточных пакетов.</p>
+          <p xml:lang="ro">Adăugate Brave Origin, Opera și Zen Browser în fila Recomandate. Corectată detectarea driverelor NVIDIA: NVIDIA 550 nu mai apare instalat când 580 este activ, iar sistemele AMD nu mai afișează fals pozitive NVIDIA cauzate de pachete reziduale.</p>
+        </description>
+      </release>
       <release version="2.0.9-1" date="2026-05-29">
         <description>
           <p xml:lang="en">Fixed app icon incorrectly shown in GNOME Software: removed slide1.png from assets/icons/ which was being packaged as the application icon instead of the correct org.soplos.welcome.png.</p>

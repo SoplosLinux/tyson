@@ -1271,7 +1271,16 @@ usr/share/soplos-welcome/assets/icons/browsers/firefox.png	    utils/soplos-welc
 usr/share/soplos-welcome/assets/icons/browsers/librewolf.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/midori.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/opera-gx.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/browsers/opera.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/vivaldi.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/browsers/zen-browser.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/browsers/brave-origin-icons/128x128/apps/brave-origin.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/browsers/brave-origin-icons/16x16/apps/brave-origin.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/browsers/brave-origin-icons/24x24/apps/brave-origin.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/browsers/brave-origin-icons/256x256/apps/brave-origin.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/browsers/brave-origin-icons/32x32/apps/brave-origin.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/browsers/brave-origin-icons/48x48/apps/brave-origin.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/browsers/brave-origin-icons/64x64/apps/brave-origin.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/comunications/discord.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/comunications/element.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/comunications/signal.png	    utils/soplos-welcome
@@ -1448,6 +1457,7 @@ usr/share/soplos-welcome/locale/ru/LC_MESSAGES/soplos-welcome.mo	    utils/soplo
 usr/share/soplos-welcome/locale/ru/LC_MESSAGES/soplos-welcome.po	    utils/soplos-welcome
 usr/share/soplos-welcome/locale/ru/LC_MESSAGES/soplos-welcome.po~	    utils/soplos-welcome
 usr/share/soplos-welcome/services/__init__.py	    utils/soplos-welcome
+usr/share/soplos-welcome/services/brave-origin-icon-patch.sh	    utils/soplos-welcome
 usr/share/soplos-welcome/services/coolercontrol-install.sh	    utils/soplos-welcome
 usr/share/soplos-welcome/services/davinci-gpu-patch.sh	    utils/soplos-welcome
 usr/share/soplos-welcome/services/davinci-virtual-mic.sh	    utils/soplos-welcome
