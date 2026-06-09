@@ -1262,6 +1262,7 @@ usr/share/soplos-welcome/assets/icons/soplos-logo.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/128x128/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/48x48/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/64x64/org.soplos.welcome.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/browsers/brave-origin.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/brave.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/chrome.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/chromium.png	    utils/soplos-welcome

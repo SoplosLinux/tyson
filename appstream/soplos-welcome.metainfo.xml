@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.0.9-3" date="2026-06-09">
+        <description>
+          <p xml:lang="en">Fixed Brave Origin icon path (moved to browsers icons root). Reverted Affinity Suite to 3.0.2 (Wine 10) — the 3.2.0 AppImage switched to Wine 11 and fails on most systems.</p>
+          <p xml:lang="es">Corregida la ruta del icono de Brave Origin (movido a la raíz de iconos de navegadores). Affinity Suite revertida a 3.0.2 (Wine 10): la versión 3.2.0 usa Wine 11 y falla en la mayoría de sistemas.</p>
+          <p xml:lang="fr">Correction du chemin de l'icône Brave Origin (déplacé à la racine des icônes navigateurs). Retour d'Affinity Suite à 3.0.2 (Wine 10) : la version 3.2.0 utilise Wine 11 et échoue sur la plupart des systèmes.</p>
+          <p xml:lang="pt">Corrigido o caminho do ícone do Brave Origin (movido para a raiz dos ícones de navegadores). Affinity Suite revertida para 3.0.2 (Wine 10): a versão 3.2.0 usa Wine 11 e falha na maioria dos sistemas.</p>
+          <p xml:lang="de">Brave-Origin-Icon-Pfad korrigiert (in den Stammordner der Browser-Icons verschoben). Affinity Suite auf 3.0.2 (Wine 10) zurückgesetzt: Version 3.2.0 verwendet Wine 11 und schlägt auf den meisten Systemen fehl.</p>
+          <p xml:lang="it">Corretto il percorso dell'icona di Brave Origin (spostata nella cartella radice delle icone browser). Affinity Suite ripristinata alla 3.0.2 (Wine 10): la versione 3.2.0 usa Wine 11 e non funziona sulla maggior parte dei sistemi.</p>
+          <p xml:lang="ru">Исправлен путь иконки Brave Origin (перемещена в корень папки иконок браузеров). Affinity Suite возвращена к версии 3.0.2 (Wine 10): версия 3.2.0 использует Wine 11 и не работает на большинстве систем.</p>
+          <p xml:lang="ro">Corectat calea pictogramei Brave Origin (mutată în rădăcina folderului de pictograme browser). Affinity Suite revenită la 3.0.2 (Wine 10): versiunea 3.2.0 folosește Wine 11 și nu funcționează pe majoritatea sistemelor.</p>
+        </description>
+      </release>
       <release version="2.0.9-2" date="2026-06-09">
         <description>
           <p xml:lang="en">Added Brave Origin, Opera and Zen Browser to the Recommended tab. Fixed NVIDIA driver detection: NVIDIA 550 no longer shows as installed when 580 is active, and AMD systems no longer show false NVIDIA driver checkmarks caused by leftover packages.</p>
