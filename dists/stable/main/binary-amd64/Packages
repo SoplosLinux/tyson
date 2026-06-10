@@ -31,6 +31,39 @@ Description: Custom Fastfetch configuration for SopLOS
  This package provides a custom Fastfetch configuration and branding
  for SopLOS Linux, applied to both new and existing users.
 
+Package: fish-soplos
+Version: 0.0.1-1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: fish
+Priority: optional
+Section: utils
+Filename: pool/main/f/fish-soplos/fish-soplos_0.0.1-1_all.deb
+Size: 1728
+SHA256: 083c1e6aac424f34309d0985be805244d93be39a7b08d199e22f1f15f5dfd439
+SHA1: 01b5c8b9d0f204be85f106e1c52a4298b18806ee
+MD5sum: 312e6d3aab6f3d4a90d4e1f7187bd38f
+Description: Fish shell configuration for SopLOS
+ This package provides the SopLOS theme and prompt for the Fish shell,
+ applied to both new and existing users. Sets Fish as the default shell.
+
+Package: ghostty-soplos
+Version: 0.0.1-1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: fish-soplos, ghostty-tip
+Priority: optional
+Section: utils
+Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-1_all.deb
+Size: 1864
+SHA256: 864207b4c3407ef6e42608ee68406ff5601b67530d323d142f991bcec9ae5b67
+SHA1: 272d3900f183623388afb9767566bc6f1854c247
+MD5sum: 2e196807389109a888576aa42eea52bd
+Description: Ghostty terminal configuration for SopLOS Tyson
+ This package provides Ghostty terminal with the SopLOS theme,
+ integrates it with KDE Plasma as the default terminal, and adds the
+ debian.griffo.io repository to install ghostty-tip.
+
 Package: grub-btrfs
 Version: 1.0.1
 Architecture: all
@@ -220,16 +253,16 @@ Description: Soplos Plymouth theme.
  Build date: 2025-12-20
 
 Package: soplos-release
-Version: 0.1.7-9
+Version: 0.1.8-1
 Architecture: all
 Maintainer: Sergi Perich
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.1.7-9_all.deb
-Size: 4188
-SHA256: 0b83867a6b54d6486f769d76685916a5bbe337055df274af932c762d1291af26
-SHA1: 8a4992c75c2fe18630ca4481f312d401d3adc389
-MD5sum: 84da8a72bd13956ea9202e3c8de4914d
+Filename: pool/main/s/soplos-release/soplos-release_0.1.8-1_all.deb
+Size: 4332
+SHA256: 5fd9e5ed85b884cd85c0490d2defbcc5a4e02a8e59f6433083fdc8451f035a53
+SHA1: e8b947185e43119bef6fd3f711e684519d1dbd9d
+MD5sum: 9b374b516f98384a4487e0f1ddf1e4ff
 Description: Soplos Linux release information (internal system package)
  This package contains release information and version files for Soplos Linux.
  It is essential for operating system identification.
