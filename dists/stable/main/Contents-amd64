@@ -34,6 +34,7 @@ etc/skel/.config/fastfetch/config.jsonc	    utils/fastfetch-soplos
 etc/skel/.config/fish/config.fish	    utils/fish-soplos
 etc/skel/.config/fish/conf.d/soplos_theme.fish	    utils/fish-soplos
 etc/skel/.config/fish/functions/fish_prompt.fish	    utils/fish-soplos
+etc/skel/.config/ghostty/config.ghostty	    utils/ghostty-soplos
 usr/bin/grub-btrfsd	    admin/grub-btrfs
 usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
 usr/bin/soplos-appimage-manager	    utils/soplos-appimage-manager
