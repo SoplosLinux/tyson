@@ -22,9 +22,7 @@ etc/issue	    admin/soplos-release
 etc/issue.net	    admin/soplos-release
 etc/lsb-release	    admin/soplos-release
 etc/motd	    admin/soplos-release
-etc/apt/sources.list.d/debian.griffo.io.list	    utils/ghostty-soplos
 etc/apt/sources.list.d/tyson.sources	    admin/soplos-release
-etc/apt/trusted.gpg.d/debian.griffo.io.gpg	    utils/ghostty-soplos
 etc/default/grub	    misc/soplos-grub-theme
 etc/default/grub-btrfs/config	    admin/grub-btrfs
 etc/dracut.conf.d/i18n.conf	    admin/soplos-release
@@ -33,7 +31,6 @@ etc/dracut.conf.d/soplos.conf	    admin/soplos-release
 etc/grub.d/05_soplos_theme	    misc/soplos-grub-theme
 etc/grub.d/41_snapshots-btrfs	    admin/grub-btrfs
 etc/skel/.config/fastfetch/config.jsonc	    utils/fastfetch-soplos
-etc/skel/.config/ghostty/config.ghostty	    utils/ghostty-soplos
 usr/bin/grub-btrfsd	    admin/grub-btrfs
 usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
 usr/bin/soplos-appimage-manager	    utils/soplos-appimage-manager

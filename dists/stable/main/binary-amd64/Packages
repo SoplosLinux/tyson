@@ -31,23 +31,6 @@ Description: Custom Fastfetch configuration for SopLOS
  This package provides a custom Fastfetch configuration and branding
  for SopLOS Linux, applied to both new and existing users.
 
-Package: ghostty-soplos
-Version: 0.0.1-1
-Architecture: all
-Maintainer: Sergi Perich <info@soploslinux.com>
-Depends: curl, gpg
-Priority: optional
-Section: utils
-Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-1_all.deb
-Size: 2428
-SHA256: 6110db4d1b75f901d01c0b9f2381842add27e7fdc0305ccf02366c1db5720644
-SHA1: 1dd305e24ea0d3314fa1897dc607f85112ef8103
-MD5sum: 51c2090ea5302069a4ad34bd8c592a66
-Description: Ghostty terminal configuration for SopLOS Tyson
- This package provides Ghostty terminal with the SopLOS theme,
- integrates it with KDE Plasma as the default terminal, and adds the
- debian.griffo.io repository to install ghostty-tip.
-
 Package: grub-btrfs
 Version: 1.0.1
 Architecture: all
