@@ -47,23 +47,6 @@ Description: Fish shell configuration for SopLOS
  This package provides the SopLOS theme and prompt for the Fish shell,
  applied to both new and existing users. Sets Fish as the default shell.
 
-Package: ghostty-soplos
-Version: 0.0.1-1
-Architecture: all
-Maintainer: Sergi Perich <info@soploslinux.com>
-Depends: fish-soplos, ghostty-tip
-Priority: optional
-Section: utils
-Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-1_all.deb
-Size: 1864
-SHA256: 864207b4c3407ef6e42608ee68406ff5601b67530d323d142f991bcec9ae5b67
-SHA1: 272d3900f183623388afb9767566bc6f1854c247
-MD5sum: 2e196807389109a888576aa42eea52bd
-Description: Ghostty terminal configuration for SopLOS Tyson
- This package provides Ghostty terminal with the SopLOS theme,
- integrates it with KDE Plasma as the default terminal, and adds the
- debian.griffo.io repository to install ghostty-tip.
-
 Package: grub-btrfs
 Version: 1.0.1
 Architecture: all
