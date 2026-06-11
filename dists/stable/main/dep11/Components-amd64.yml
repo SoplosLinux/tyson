@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260611T150358
+Time: 20260611T163859
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -2267,6 +2267,28 @@ Developer:
 Provides:
   - soplos-plymouth-manager
 Releases:
+  - version: 2.0.0-6
+    date: '2026-06-11'
+    type: stable
+    description:
+      en: |-
+        Refined theme selection style: thinner 1px border, removed glow effect, and fixed FlowBoxChild orange background on selection for a cleaner look.
+      es: |-
+        Refinado el estilo de selección de temas: borde más fino de 1px, eliminado el efecto de brillo y corregido el fondo naranja del FlowBoxChild al seleccionar, para un aspecto más limpio.
+      fr: |-
+        Style de sélection de thème raffiné : bordure plus fine d'1px, suppression de l'effet de lueur et correction du fond orange du FlowBoxChild à la sélection.
+      pt: |-
+        Estilo de seleção de tema refinado: borda mais fina de 1px, efeito de brilho removido e fundo laranja do FlowBoxChild corrigido na seleção.
+      de: |-
+        Verfeinerter Theme-Auswahlstil: dünnerer 1px-Rahmen, Leuchteffekt entfernt und oranger FlowBoxChild-Hintergrund bei Auswahl behoben.
+      it: |-
+        Stile di selezione tema raffinato: bordo più sottile da 1px, effetto bagliore rimosso e sfondo arancione FlowBoxChild corretto alla selezione.
+      ru: |-
+        Улучшен стиль выделения темы: более тонкая рамка 1px, убран эффект свечения, исправлен оранжевый фон FlowBoxChild при выделении.
+      ro: |-
+        Stil de selecție a temei rafinat: chenar mai subțire de 1px, efect de strălucire eliminat și fundal portocaliu FlowBoxChild corectat la selecție.
+      C: |-
+        Refined theme selection style: thinner 1px border, removed glow effect, and fixed FlowBoxChild orange background on selection for a cleaner look.
   - version: 2.0.0-5
     date: '2026-05-22'
     type: stable

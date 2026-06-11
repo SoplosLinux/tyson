@@ -159,6 +159,18 @@
   </provides>
 
   <releases>
+    <release version="2.0.0-6" date="2026-06-11">
+      <description>
+        <p xml:lang="en">Refined theme selection style: thinner 1px border, removed glow effect, and fixed FlowBoxChild orange background on selection for a cleaner look.</p>
+        <p xml:lang="es">Refinado el estilo de selección de temas: borde más fino de 1px, eliminado el efecto de brillo y corregido el fondo naranja del FlowBoxChild al seleccionar, para un aspecto más limpio.</p>
+        <p xml:lang="fr">Style de sélection de thème raffiné : bordure plus fine d'1px, suppression de l'effet de lueur et correction du fond orange du FlowBoxChild à la sélection.</p>
+        <p xml:lang="pt">Estilo de seleção de tema refinado: borda mais fina de 1px, efeito de brilho removido e fundo laranja do FlowBoxChild corrigido na seleção.</p>
+        <p xml:lang="de">Verfeinerter Theme-Auswahlstil: dünnerer 1px-Rahmen, Leuchteffekt entfernt und oranger FlowBoxChild-Hintergrund bei Auswahl behoben.</p>
+        <p xml:lang="it">Stile di selezione tema raffinato: bordo più sottile da 1px, effetto bagliore rimosso e sfondo arancione FlowBoxChild corretto alla selezione.</p>
+        <p xml:lang="ru">Улучшен стиль выделения темы: более тонкая рамка 1px, убран эффект свечения, исправлен оранжевый фон FlowBoxChild при выделении.</p>
+        <p xml:lang="ro">Stil de selecție a temei rafinat: chenar mai subțire de 1px, efect de strălucire eliminat și fundal portocaliu FlowBoxChild corectat la selecție.</p>
+      </description>
+    </release>
     <release version="2.0.0-5" date="2026-05-22">
       <description>
         <p xml:lang="en">Added comprehensive historical documentation for Legacy 1.x branches (Tyron and Tyson) in CHANGELOG and README. Cleaned up obsolete AppStream metadata elements in metainfo.xml.</p>
