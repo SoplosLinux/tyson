@@ -378,17 +378,17 @@ MD5sum: ff719a9968c920a95ced7349f9efc8c7
 Description: Welcome application for Soplos Linux Live with CHROOT recovery and BTRFS support
 
 Package: zram-soplos
-Version: 0.0.1-1
+Version: 0.0.1-2
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Depends: zram-tools
 Priority: optional
 Section: utils
-Filename: pool/main/z/zram-soplos/zram-soplos_0.0.1-1_all.deb
-Size: 1492
-SHA256: f9589b061ca62cd9d36106c9927b01287a94a3cdaa9d18d6a31997ea465aa30a
-SHA1: 6af8fca09641293d91709d9b87587933434353cc
-MD5sum: f2080052a4b66b177fddabbacbce28f7
+Filename: pool/main/z/zram-soplos/zram-soplos_0.0.1-2_all.deb
+Size: 1400
+SHA256: 9d7d57fc844b64f9e34d3c0977d04003c1903545e2da3dbfee16c6ff80ee146a
+SHA1: f4be54b1fc10d70c72e65bf0358b5181a32cb8b0
+MD5sum: c069fb50b705fe2920084a0e8dc89b80
 Description: ZRAM swap configuration for SopLOS
  This package installs and configures zram-tools with optimized settings
  for SopLOS Linux, using zstd compression and 50% RAM allocation.
