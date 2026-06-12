@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260612T183501
+Time: 20260612T185211
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -2733,26 +2733,46 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-sys-cleaner/issues
 Releases:
+  - version: 1.0.2-5
+    date: '2026-06-12'
+    type: stable
+    description:
+      C: |-
+        Bug fix release: firmware removal is now permanent — the Firmwares tab purges the owning APT package instead of only deleting files, preventing restored firmware on every apt upgrade.
+      es: |-
+        Versión de correcciones: la eliminación de firmwares ahora es permanente — la pestaña Firmwares purga el paquete APT propietario en lugar de solo borrar archivos, evitando que los firmwares se restauren en cada apt upgrade.
+      fr: |-
+        Version de corrections : la suppression des micrologiciels est désormais permanente — l'onglet Micrologiciels purge le paquet APT propriétaire au lieu de simplement supprimer les fichiers, évitant la restauration des micrologiciels à chaque apt upgrade.
+      de: |-
+        Fehlerbehebungsversion: Firmware-Entfernung ist jetzt dauerhaft — der Firmware-Tab löscht das zugehörige APT-Paket statt nur Dateien zu entfernen, was eine Wiederherstellung der Firmware bei jedem apt upgrade verhindert.
+      pt: |-
+        Versão de correções: a remoção de firmwares é agora permanente — o separador Firmwares purga o pacote APT proprietário em vez de apenas apagar ficheiros, evitando que os firmwares sejam restaurados em cada apt upgrade.
+      it: |-
+        Versione di correzioni: la rimozione del firmware è ora permanente — la scheda Firmware elimina il pacchetto APT proprietario invece di cancellare solo i file, evitando il ripristino del firmware ad ogni apt upgrade.
+      ro: |-
+        Versiune de remedieri: eliminarea firmware-ului este acum permanentă — fila Firmware șterge pachetul APT proprietar în loc să elimine doar fișierele, prevenind restaurarea firmware-ului la fiecare apt upgrade.
+      ru: |-
+        Версия исправлений: удаление прошивок теперь постоянное — вкладка «Прошивки» удаляет пакет APT-владелец вместо простого удаления файлов, предотвращая восстановление прошивок при каждом apt upgrade.
   - version: 1.0.2-4
     date: '2026-06-09'
     type: stable
     description:
       C: |-
-        Bug fix release: DKMS orphan detection now correctly identifies old compiled module versions left after driver upgrades, and no longer shows active installed drivers as orphans.
+        Bug fix release: DKMS orphan detection no longer shows active installed drivers as orphans, and old compiled DKMS versions left after driver upgrades are now correctly detected.
       es: |-
-        Versión de correcciones: la detección de módulos DKMS huérfanos ahora identifica correctamente las versiones compiladas antiguas que quedan tras actualizar drivers, y ya no muestra como huérfanos los drivers instalados y activos.
+        Versión de correcciones: la detección de módulos DKMS huérfanos ya no muestra como huérfanos los drivers instalados y activos, y las versiones compiladas antiguas que quedan tras actualizar drivers se detectan correctamente.
       fr: |-
-        Version de corrections : la détection des modules DKMS orphelins identifie désormais correctement les anciennes versions compilées laissées après la mise à jour des pilotes, et n'affiche plus les pilotes actifs installés comme orphelins.
+        Version de corrections : la détection des modules DKMS orphelins n'affiche plus les pilotes actifs comme orphelins, et les anciennes versions compilées laissées après les mises à jour des pilotes sont correctement détectées.
       de: |-
-        Fehlerbehebungsversion: Die DKMS-Waisenerkennung identifiziert jetzt korrekt alte kompilierte Modulversionen, die nach Treiberaktualisierungen verbleiben, und zeigt aktive installierte Treiber nicht mehr als Waisen an.
+        Fehlerbehebungsversion: DKMS-Waisenerkennung zeigt aktive Treiber nicht mehr als Waisen an, und alte kompilierte DKMS-Versionen nach Treiberaktualisierungen werden korrekt erkannt.
       pt: |-
-        Versão de correções: a deteção de módulos DKMS órfãos identifica agora corretamente as versões compiladas antigas deixadas após atualizações de drivers, e já não mostra como órfãos os drivers instalados e ativos.
+        Versão de correções: a deteção de módulos DKMS órfãos já não mostra como órfãos os drivers instalados e ativos, e as versões compiladas antigas após atualizações de drivers são detetadas corretamente.
       it: |-
-        Versione di correzioni: il rilevamento dei moduli DKMS orfani ora identifica correttamente le vecchie versioni compilate rimaste dopo gli aggiornamenti dei driver, e non mostra più come orfani i driver installati e attivi.
+        Versione di correzioni: il rilevamento dei moduli DKMS orfani non mostra più i driver attivi come orfani, e le vecchie versioni compilate rimaste dopo gli aggiornamenti dei driver vengono rilevate correttamente.
       ro: |-
-        Versiune de remedieri: detectarea modulelor DKMS orfane identifică acum corect versiunile vechi compilate rămase după actualizările driverelor și nu mai afișează ca orfane driverele instalate și active.
+        Versiune de remedieri: detectarea modulelor DKMS orfane nu mai afișează driverele active ca orfane, iar versiunile compilate vechi rămase după actualizările driverelor sunt detectate corect.
       ru: |-
-        Версия исправлений: обнаружение осиротевших DKMS-модулей теперь правильно определяет старые скомпилированные версии, оставшиеся после обновления драйверов, и больше не отображает активные установленные драйверы как осиротевшие.
+        Версия исправлений: обнаружение осиротевших DKMS-модулей больше не показывает активные драйверы как осиротевшие, а старые скомпилированные версии после обновления драйверов теперь обнаруживаются корректно.
   - version: 1.0.2-3
     date: '2026-06-04'
     type: stable
