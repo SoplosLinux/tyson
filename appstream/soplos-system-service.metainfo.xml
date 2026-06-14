@@ -167,6 +167,21 @@
   </keywords>
 
   <releases>
+    <release version="1.0.0-3" date="2026-06-14">
+      <description>
+        <p>Titlebar fix for XFCE and KDE.</p>
+        <p xml:lang="es">Correccion de la barra de titulo en XFCE y KDE.</p>
+        <p xml:lang="fr">Correction de la barre de titre sous XFCE et KDE.</p>
+        <p xml:lang="de">Titelleistenkorrektur fur XFCE und KDE.</p>
+        <p xml:lang="it">Correzione della barra del titolo in XFCE e KDE.</p>
+        <p xml:lang="pt">Correcao da barra de titulo em XFCE e KDE.</p>
+        <p xml:lang="ro">Corectare bara de titlu in XFCE si KDE.</p>
+        <p xml:lang="ru">Исправление строки заголовка в XFCE и KDE.</p>
+        <ul>
+          <li>Native window decorations used in XFCE and KDE/Plasma, matching the rest of the Soplos applications; CSD HeaderBar only in GNOME</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0-2" date="2026-06-14">
       <description>
         <p>Packaging and usability fixes.</p>
