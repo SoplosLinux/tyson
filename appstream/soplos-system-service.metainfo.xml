@@ -167,6 +167,21 @@
   </keywords>
 
   <releases>
+    <release version="1.0.0-4" date="2026-06-14">
+      <description>
+        <p>GNOME crash fix.</p>
+        <p xml:lang="es">Correccion de fallo en GNOME.</p>
+        <p xml:lang="fr">Correction du crash sous GNOME.</p>
+        <p xml:lang="de">GNOME-Absturzkorrektur.</p>
+        <p xml:lang="it">Correzione crash in GNOME.</p>
+        <p xml:lang="pt">Correcao de falha no GNOME.</p>
+        <p xml:lang="ro">Corectare eroare in GNOME.</p>
+        <p xml:lang="ru">Исправление сбоя в GNOME.</p>
+        <ul>
+          <li>Wrapper now specifies gi.require_version('Gdk', '3.0') before importing Gdk, preventing a crash in GNOME sessions where GTK4 is already loaded</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0-3" date="2026-06-14">
       <description>
         <p>Titlebar fix for XFCE and KDE.</p>
