@@ -167,6 +167,26 @@
   </keywords>
 
   <releases>
+    <release version="1.0.0-2" date="2026-06-14">
+      <description>
+        <p>Packaging and usability fixes.</p>
+        <p xml:lang="es">Correcciones de empaquetado y usabilidad.</p>
+        <p xml:lang="fr">Corrections d'empaquetage et d'ergonomie.</p>
+        <p xml:lang="de">Paketierungs- und Benutzbarkeitskorrekturen.</p>
+        <p xml:lang="it">Correzioni di packaging e usabilita.</p>
+        <p xml:lang="pt">Correcoes de empacotamento e usabilidade.</p>
+        <p xml:lang="ro">Corectii de ambalare si utilizabilitate.</p>
+        <p xml:lang="ru">Исправления упаковки и удобства использования.</p>
+        <ul>
+          <li>pkexec handling moved to the bash wrapper; polkit policy auto-installed on first root run</li>
+          <li>Details panel now scrollable using Gtk.TextView inside Gtk.ScrolledWindow</li>
+          <li>Smart action buttons adapting to current service state</li>
+          <li>Progress bar position and minimum display time fixed</li>
+          <li>Color-coded Loaded column (not-found in red)</li>
+          <li>Suppressed ibus warnings when running as root</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0-1" date="2026-06-14">
       <description>
         <p>Complete rewrite of the application after almost a year on hold. Full GTK3 tabbed interface with service list, scrollable details panel, log viewer and smart service controls, with automatic dark/light theme detection and support for GNOME, XFCE and KDE.</p>

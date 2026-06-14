@@ -1241,6 +1241,7 @@ usr/share/soplos-system-service/debian/copyright	    utils/soplos-system-service
 usr/share/soplos-system-service/debian/org.soplos.systemservice.desktop	    utils/soplos-system-service
 usr/share/soplos-system-service/debian/org.soplos.systemservice.metainfo.xml	    utils/soplos-system-service
 usr/share/soplos-system-service/debian/org.soplos.systemservice.policy	    utils/soplos-system-service
+usr/share/soplos-system-service/debian/postinst	    utils/soplos-system-service
 usr/share/soplos-system-service/debian/soplos-system-services	    utils/soplos-system-service
 usr/share/soplos-system-service/services/__init__.py	    utils/soplos-system-service
 usr/share/soplos-system-service/services/systemd.py	    utils/soplos-system-service
