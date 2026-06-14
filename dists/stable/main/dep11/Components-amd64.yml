@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260614T024707
+Time: 20260614T140145
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -2733,6 +2733,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-sys-cleaner/issues
 Releases:
+  - version: 1.0.2-6
+    date: '2026-06-14'
+    type: stable
+    description:
+      C: |-
+        Bug fix release: SPICE guest tools (spice-vdagent, spice-webdavd) are no longer shown as removable when running inside a KVM/QEMU virtual machine in virt-manager.
+      es: |-
+        Versión de correcciones: las herramientas SPICE (spice-vdagent, spice-webdavd) ya no se muestran como eliminables cuando el sistema corre dentro de una máquina virtual KVM/QEMU en virt-manager.
+      fr: |-
+        Version de corrections : les outils SPICE (spice-vdagent, spice-webdavd) ne sont plus affichés comme supprimables lors de l'exécution dans une machine virtuelle KVM/QEMU dans virt-manager.
+      de: |-
+        Fehlerbehebungsversion: SPICE-Gast-Tools (spice-vdagent, spice-webdavd) werden nicht mehr als entfernbar angezeigt, wenn das System in einer KVM/QEMU-VM in virt-manager läuft.
+      pt: |-
+        Versão de correções: as ferramentas SPICE (spice-vdagent, spice-webdavd) já não são mostradas como removíveis quando o sistema corre numa máquina virtual KVM/QEMU no virt-manager.
+      it: |-
+        Versione di correzioni: gli strumenti SPICE (spice-vdagent, spice-webdavd) non vengono più mostrati come rimovibili quando il sistema è in esecuzione in una macchina virtuale KVM/QEMU in virt-manager.
+      ro: |-
+        Versiune de remedieri: instrumentele SPICE (spice-vdagent, spice-webdavd) nu mai sunt afișate ca eliminabile când sistemul rulează într-o mașină virtuală KVM/QEMU în virt-manager.
+      ru: |-
+        Версия исправлений: инструменты SPICE (spice-vdagent, spice-webdavd) больше не отображаются как удаляемые при работе внутри виртуальной машины KVM/QEMU в virt-manager.
   - version: 1.0.2-5
     date: '2026-06-12'
     type: stable

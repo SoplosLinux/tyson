@@ -257,6 +257,35 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.2-6" date="2026-06-14">
+      <description>
+        <p>Bug fix release: SPICE guest tools (spice-vdagent, spice-webdavd) are no longer shown as removable when running inside a KVM/QEMU virtual machine in virt-manager.</p>
+        <p xml:lang="es">Versión de correcciones: las herramientas SPICE (spice-vdagent, spice-webdavd) ya no se muestran como eliminables cuando el sistema corre dentro de una máquina virtual KVM/QEMU en virt-manager.</p>
+        <p xml:lang="fr">Version de corrections : les outils SPICE (spice-vdagent, spice-webdavd) ne sont plus affichés comme supprimables lors de l'exécution dans une machine virtuelle KVM/QEMU dans virt-manager.</p>
+        <p xml:lang="de">Fehlerbehebungsversion: SPICE-Gast-Tools (spice-vdagent, spice-webdavd) werden nicht mehr als entfernbar angezeigt, wenn das System in einer KVM/QEMU-VM in virt-manager läuft.</p>
+        <p xml:lang="pt">Versão de correções: as ferramentas SPICE (spice-vdagent, spice-webdavd) já não são mostradas como removíveis quando o sistema corre numa máquina virtual KVM/QEMU no virt-manager.</p>
+        <p xml:lang="it">Versione di correzioni: gli strumenti SPICE (spice-vdagent, spice-webdavd) non vengono più mostrati come rimovibili quando il sistema è in esecuzione in una macchina virtuale KVM/QEMU in virt-manager.</p>
+        <p xml:lang="ro">Versiune de remedieri: instrumentele SPICE (spice-vdagent, spice-webdavd) nu mai sunt afișate ca eliminabile când sistemul rulează într-o mașină virtuală KVM/QEMU în virt-manager.</p>
+        <p xml:lang="ru">Версия исправлений: инструменты SPICE (spice-vdagent, spice-webdavd) больше не отображаются как удаляемые при работе внутри виртуальной машины KVM/QEMU в virt-manager.</p>
+        <ul>
+          <li>Fixed: spice-vdagent and spice-webdavd shown as removable in KVM/QEMU VMs — VM_GUEST_PACKAGES had separate kvm and qemu entries with identical package lists; detecting kvm only protected the kvm entry while qemu caused the same packages to appear removable. Detecting kvm now also protects qemu packages and vice versa</li>
+
+          <li xml:lang="es">Corregido: spice-vdagent y spice-webdavd se mostraban como eliminables en VMs KVM/QEMU — VM_GUEST_PACKAGES tenía entradas separadas kvm y qemu con los mismos paquetes; detectar kvm solo protegía la entrada kvm mientras que qemu hacía que los mismos paquetes aparecieran como eliminables. Detectar kvm ahora también protege los paquetes de qemu y viceversa</li>
+
+          <li xml:lang="fr">Corrigé : spice-vdagent et spice-webdavd s'affichaient comme supprimables dans les VM KVM/QEMU — VM_GUEST_PACKAGES avait des entrées kvm et qemu séparées avec les mêmes paquets ; détecter kvm ne protégeait que l'entrée kvm tandis que qemu faisait apparaître les mêmes paquets comme supprimables. Détecter kvm protège maintenant aussi les paquets qemu et vice versa</li>
+
+          <li xml:lang="de">Behoben: spice-vdagent und spice-webdavd wurden in KVM/QEMU-VMs als entfernbar angezeigt — VM_GUEST_PACKAGES hatte separate kvm- und qemu-Einträge mit identischen Paketen; die Erkennung von kvm schützte nur den kvm-Eintrag, während qemu dieselben Pakete als entfernbar anzeigte. Die Erkennung von kvm schützt jetzt auch qemu-Pakete und umgekehrt</li>
+
+          <li xml:lang="pt">Corrigido: spice-vdagent e spice-webdavd eram mostrados como removíveis em VMs KVM/QEMU — VM_GUEST_PACKAGES tinha entradas separadas kvm e qemu com os mesmos pacotes; detetar kvm só protegia a entrada kvm enquanto qemu fazia os mesmos pacotes aparecer como removíveis. Detetar kvm agora também protege os pacotes qemu e vice-versa</li>
+
+          <li xml:lang="it">Corretto: spice-vdagent e spice-webdavd venivano mostrati come rimovibili nelle VM KVM/QEMU — VM_GUEST_PACKAGES aveva voci separate kvm e qemu con gli stessi pacchetti; rilevare kvm proteggeva solo la voce kvm mentre qemu faceva apparire gli stessi pacchetti come rimovibili. Rilevare kvm ora protegge anche i pacchetti qemu e viceversa</li>
+
+          <li xml:lang="ro">Rezolvat: spice-vdagent și spice-webdavd erau afișate ca eliminabile în VM-urile KVM/QEMU — VM_GUEST_PACKAGES avea intrări separate kvm și qemu cu aceleași pachete; detectarea kvm proteja doar intrarea kvm în timp ce qemu făcea ca aceleași pachete să apară ca eliminabile. Detectarea kvm protejează acum și pachetele qemu și invers</li>
+
+          <li xml:lang="ru">Исправлено: spice-vdagent и spice-webdavd отображались как удаляемые в ВМ KVM/QEMU — VM_GUEST_PACKAGES имел отдельные записи kvm и qemu с одинаковыми пакетами; обнаружение kvm защищало только запись kvm, тогда как qemu делал те же пакеты удаляемыми. Теперь обнаружение kvm также защищает пакеты qemu и наоборот</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.2-5" date="2026-06-12">
       <description>
         <p>Bug fix release: firmware removal is now permanent — the Firmwares tab purges the owning APT package instead of only deleting files, preventing restored firmware on every apt upgrade.</p>
