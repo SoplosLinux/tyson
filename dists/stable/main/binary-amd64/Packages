@@ -301,6 +301,20 @@ SHA1: 074253a199a5b2cff0b3c64a70dc15b1e103ad05
 MD5sum: f0ed9f7d3d5b56ea41f1a15060de058c
 Description: System cleaner and optimizer for Soplos Linux
 
+Package: soplos-system-service
+Version: 1.0.0-1
+Architecture: all
+Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-gtk-3.0, pkexec, policykit-1 | polkitd, python3, python3-gi, python3-gi-cairo, systemd
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-system-service/soplos-system-service_1.0.0-1_all.deb
+Size: 685396
+SHA256: 8540e90dd5d530cf62963e01602387a3d84fcb391291b12fb81868e51a6ebd42
+SHA1: 40aab37a96f709caeca53b6a3922200c267b8f19
+MD5sum: fb8b57a2263dde765666ca4c9af64aa0
+Description: Graphical manager for systemd services on Soplos Linux
+
 Package: soplos-wallpapers01
 Version: 1.0.1
 Architecture: all
