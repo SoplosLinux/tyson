@@ -48,17 +48,19 @@ Description: Fish shell configuration for SopLOS
  applied to both new and existing users. Sets Fish as the default shell.
 
 Package: ghostty-soplos
-Version: 0.0.1-2
+Version: 0.0.1-3
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Depends: zsh-soplos, ghostty-tip
+Conflicts: fish-soplos
+Replaces: fish-soplos
 Priority: optional
 Section: utils
-Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-2_all.deb
-Size: 1988
-SHA256: 2863221c81c751df01f29ae6d890fe0095ceafff2b19765f796bbbf2372ac1c4
-SHA1: 9aa8301c5a18d70454e6767a11676990d5764fb7
-MD5sum: 2f24ced7df2568aaaa2dbae825d178d5
+Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-3_all.deb
+Size: 2032
+SHA256: 204166a99d336fe9fa8e9826e6b916c22d1abe98432ec40de7bdf62f9489e7f1
+SHA1: e4941074f92a1c856beda401890361fe71f60489
+MD5sum: 3fd6f8a1140443460c7fe2a2d59e8d7e
 Description: Ghostty terminal configuration for SopLOS Tyson
  This package provides Ghostty terminal with the SopLOS theme,
  integrates it with KDE Plasma as the default terminal, and adds the
@@ -408,17 +410,17 @@ Description: ZRAM swap configuration for SopLOS
  for SopLOS Linux, using zstd compression and 50% RAM allocation.
 
 Package: zsh-soplos
-Version: 0.0.1-1
+Version: 0.0.1-2
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Depends: zsh, zsh-syntax-highlighting, zsh-autosuggestions, zsh-theme-powerlevel9k
 Priority: optional
 Section: utils
-Filename: pool/main/z/zsh-soplos/zsh-soplos_0.0.1-1_all.deb
-Size: 1772
-SHA256: 53a94648348638bb1ca5806d381503b60121c67f4937b0643c640261c6930714
-SHA1: f571c0ae041c63298f2285e4d5b2fd5fa6b1e214
-MD5sum: 5ed149b59b6d2255fb379599935c37b1
+Filename: pool/main/z/zsh-soplos/zsh-soplos_0.0.1-2_all.deb
+Size: 1760
+SHA256: 1a9fe0a9cad9e471d2d21fd4c74544413303fd14cd8558a3d1c4c3a9649ad0c8
+SHA1: dad85c46cf6060920a5612cc9f40603d2de2ab31
+MD5sum: 58578013a49625a8939fb5c660e3338f
 Description: Zsh shell configuration for SopLOS
  This package provides the SopLOS theme and prompt for the Zsh shell,
  applied to both new and existing users. Sets Zsh as the default shell.
