@@ -48,17 +48,17 @@ Description: Fish shell configuration for SopLOS
  applied to both new and existing users. Sets Fish as the default shell.
 
 Package: ghostty-soplos
-Version: 0.0.1-1
+Version: 0.0.1-2
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
-Depends: fish-soplos, ghostty-tip
+Depends: zsh-soplos, ghostty-tip
 Priority: optional
 Section: utils
-Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-1_all.deb
-Size: 1984
-SHA256: e51320559c765cadd1fb47713b5cbd32572662c75ef01d98d7e084d75fc7859a
-SHA1: 62d31806513c389cce4bd0ec72e9c35ae8904e16
-MD5sum: 21dd82cd5e2a2fff48ae0d2cc06e4a66
+Filename: pool/main/g/ghostty-soplos/ghostty-soplos_0.0.1-2_all.deb
+Size: 1988
+SHA256: 2863221c81c751df01f29ae6d890fe0095ceafff2b19765f796bbbf2372ac1c4
+SHA1: 9aa8301c5a18d70454e6767a11676990d5764fb7
+MD5sum: 2f24ced7df2568aaaa2dbae825d178d5
 Description: Ghostty terminal configuration for SopLOS Tyson
  This package provides Ghostty terminal with the SopLOS theme,
  integrates it with KDE Plasma as the default terminal, and adds the
@@ -406,4 +406,20 @@ MD5sum: c069fb50b705fe2920084a0e8dc89b80
 Description: ZRAM swap configuration for SopLOS
  This package installs and configures zram-tools with optimized settings
  for SopLOS Linux, using zstd compression and 50% RAM allocation.
+
+Package: zsh-soplos
+Version: 0.0.1-1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: zsh, zsh-syntax-highlighting, zsh-autosuggestions, zsh-theme-powerlevel9k
+Priority: optional
+Section: utils
+Filename: pool/main/z/zsh-soplos/zsh-soplos_0.0.1-1_all.deb
+Size: 1772
+SHA256: 53a94648348638bb1ca5806d381503b60121c67f4937b0643c640261c6930714
+SHA1: f571c0ae041c63298f2285e4d5b2fd5fa6b1e214
+MD5sum: 5ed149b59b6d2255fb379599935c37b1
+Description: Zsh shell configuration for SopLOS
+ This package provides the SopLOS theme and prompt for the Zsh shell,
+ applied to both new and existing users. Sets Zsh as the default shell.
 
