@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260614T223852
+Time: 20260620T193338
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1080,6 +1080,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.0
+    date: '2026-06-20'
+    type: stable
+    description:
+      en: |-
+        Added NVIDIA 610 driver (Blackwell and newer: RTX 50/60 series) via CUDA repo for Debian 13. NVIDIA 590 renamed to Stable. Added Gaming Mode link on the home screen.
+      es: |-
+        Añadido el controlador NVIDIA 610 (Blackwell y posteriores: series RTX 50/60) desde el repositorio CUDA para Debian 13. NVIDIA 590 renombrado a Stable. Añadido enlace al Modo Gaming en la pantalla de inicio.
+      fr: |-
+        Ajout du pilote NVIDIA 610 (Blackwell et plus récent : séries RTX 50/60) via le dépôt CUDA pour Debian 13. NVIDIA 590 renommé en Stable. Ajout d'un lien Mode Gaming sur l'écran d'accueil.
+      pt: |-
+        Adicionado o driver NVIDIA 610 (Blackwell e mais recentes: séries RTX 50/60) via repositório CUDA para Debian 13. NVIDIA 590 renomeado para Stable. Adicionado link para o Modo Gaming no ecrã inicial.
+      de: |-
+        NVIDIA-610-Treiber hinzugefügt (Blackwell und neuer: RTX-50/60-Serie) über das CUDA-Repository für Debian 13. NVIDIA 590 in Stabil umbenannt. Gaming-Modus-Link auf der Startseite hinzugefügt.
+      it: |-
+        Aggiunto il driver NVIDIA 610 (Blackwell e successivi: serie RTX 50/60) tramite repo CUDA per Debian 13. NVIDIA 590 rinominato in Stabile. Aggiunto link alla Modalità Gaming nella schermata iniziale.
+      ru: |-
+        Добавлен драйвер NVIDIA 610 (Blackwell и новее: серия RTX 50/60) через репозиторий CUDA для Debian 13. NVIDIA 590 переименован в Стабильный. Добавлена ссылка на игровой режим на главном экране.
+      ro: |-
+        Adăugat driver NVIDIA 610 (Blackwell și mai noi: seria RTX 50/60) prin repo CUDA pentru Debian 13. NVIDIA 590 redenumit în Stabil. Adăugat link Mod Gaming pe ecranul principal.
+      C: |-
+        Added NVIDIA 610 driver (Blackwell and newer: RTX 50/60 series) via CUDA repo for Debian 13. NVIDIA 590 renamed to Stable. Added Gaming Mode link on the home screen.
   - version: 2.0.9-3
     date: '2026-06-09'
     type: stable
