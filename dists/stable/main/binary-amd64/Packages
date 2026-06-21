@@ -225,20 +225,6 @@ Description: Soplos Modern White global theme for KDE Plasma 6.
  This package provides the Soplos Modern White global theme for KDE Plasma 6, including color schemes, desktop theme, and look-and-feel configuration.
  Build date: 2026-04-30
 
-Package: soplos-plymouth-manager
-Version: 2.0.0-7
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, plymouth, plymouth-x11, polkit, procps, python3-all, python3-dbus, python3-gi, python3-pil | python3-pillow, python3-psutil, python3-setuptools, python3-xdg, scrot | imagemagick, tar, unzip, x11-utils, xdotool, xserver-xephyr, xterm
-Maintainer: Sergi Perich <info@sergiperich.es>
-Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_2.0.0-7_all.deb
-Size: 951264
-SHA256: b212bca4ff2d21ef5de8a9da8da0959f8a8f4ffde258c7fa48a98571df82624b
-SHA1: 61c14afac8cfad41e9b7d1ee483dd32416af94e0
-MD5sum: ed51d397a55568284d5d48c9999920af
-Description: Plymouth boot splash theme manager for Soplos Linux
-
 Package: soplos-plymouth-theme
 Version: 0.0.2
 Architecture: all
