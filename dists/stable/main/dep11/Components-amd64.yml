@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260620T235027
+Time: 20260621T000425
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -2289,6 +2289,28 @@ Developer:
 Provides:
   - soplos-plymouth-manager
 Releases:
+  - version: 2.0.0-7
+    date: '2026-06-21'
+    type: stable
+    description:
+      en: |-
+        Fixed: polkit-related dependencies reduced to just polkit. Removed obsolete policykit-1-gnome and policykit-1 alternatives that no longer exist in current Debian.
+      es: |-
+        Corregido: dependencias polkit reducidas a solo polkit. Eliminadas las alternativas obsoletas policykit-1-gnome y policykit-1 que ya no existen en Debian actual.
+      fr: |-
+        Correction: dependances polkit reduites au seul polkit. Suppression des alternatives obsoletes policykit-1-gnome et policykit-1 qui n'existent plus dans Debian actuel.
+      pt: |-
+        Corrigido: dependencias polkit reduzidas apenas a polkit. Removidas as alternativas obsoletas policykit-1-gnome e policykit-1 que ja nao existem no Debian atual.
+      de: |-
+        Behoben: polkit-Abhangigkeiten auf nur polkit reduziert. Veraltete Alternativen policykit-1-gnome und policykit-1 entfernt, die im aktuellen Debian nicht mehr existieren.
+      it: |-
+        Corretto: dipendenze polkit ridotte al solo polkit. Rimosse le alternative obsolete policykit-1-gnome e policykit-1 che non esistono piu nel Debian attuale.
+      ru: |-
+        Исправлено: зависимости polkit сокращены только до polkit. Удалены устаревшие альтернативы policykit-1-gnome и policykit-1, которых больше нет в текущем Debian.
+      ro: |-
+        Corectat: dependentele polkit reduse doar la polkit. Eliminate alternativele obsolete policykit-1-gnome si policykit-1 care nu mai exista in Debian actual.
+      C: |-
+        Fixed: polkit-related dependencies reduced to just polkit. Removed obsolete policykit-1-gnome and policykit-1 alternatives that no longer exist in current Debian.
   - version: 2.0.0-6
     date: '2026-06-11'
     type: stable

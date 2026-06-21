@@ -159,6 +159,18 @@
   </provides>
 
   <releases>
+    <release version="2.0.0-7" date="2026-06-21">
+      <description>
+        <p xml:lang="en">Fixed: polkit-related dependencies reduced to just polkit. Removed obsolete policykit-1-gnome and policykit-1 alternatives that no longer exist in current Debian.</p>
+        <p xml:lang="es">Corregido: dependencias polkit reducidas a solo polkit. Eliminadas las alternativas obsoletas policykit-1-gnome y policykit-1 que ya no existen en Debian actual.</p>
+        <p xml:lang="fr">Correction: dependances polkit reduites au seul polkit. Suppression des alternatives obsoletes policykit-1-gnome et policykit-1 qui n'existent plus dans Debian actuel.</p>
+        <p xml:lang="pt">Corrigido: dependencias polkit reduzidas apenas a polkit. Removidas as alternativas obsoletas policykit-1-gnome e policykit-1 que ja nao existem no Debian atual.</p>
+        <p xml:lang="de">Behoben: polkit-Abhangigkeiten auf nur polkit reduziert. Veraltete Alternativen policykit-1-gnome und policykit-1 entfernt, die im aktuellen Debian nicht mehr existieren.</p>
+        <p xml:lang="it">Corretto: dipendenze polkit ridotte al solo polkit. Rimosse le alternative obsolete policykit-1-gnome e policykit-1 che non esistono piu nel Debian attuale.</p>
+        <p xml:lang="ru">Исправлено: зависимости polkit сокращены только до polkit. Удалены устаревшие альтернативы policykit-1-gnome и policykit-1, которых больше нет в текущем Debian.</p>
+        <p xml:lang="ro">Corectat: dependentele polkit reduse doar la polkit. Eliminate alternativele obsolete policykit-1-gnome si policykit-1 care nu mai exista in Debian actual.</p>
+      </description>
+    </release>
     <release version="2.0.0-6" date="2026-06-11">
       <description>
         <p xml:lang="en">Refined theme selection style: thinner 1px border, removed glow effect, and fixed FlowBoxChild orange background on selection for a cleaner look.</p>
