@@ -410,17 +410,17 @@ Description: ZRAM swap configuration for SopLOS
  for SopLOS Linux, using zstd compression and 50% RAM allocation.
 
 Package: zsh-soplos
-Version: 0.0.1-3
+Version: 0.0.1-4
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Depends: zsh, zsh-syntax-highlighting, zsh-autosuggestions
 Priority: optional
 Section: utils
-Filename: pool/main/z/zsh-soplos/zsh-soplos_0.0.1-3_all.deb
-Size: 1860
-SHA256: bb5a5ea725f621460119ab1086a55575236fc9278095e4f27c407cb406ddf0fe
-SHA1: 0c6d71acb38b15a4a082196d8173c7fe1e5099d2
-MD5sum: b4efdafd8fae92294b9a8b649ab2969d
+Filename: pool/main/z/zsh-soplos/zsh-soplos_0.0.1-4_all.deb
+Size: 1880
+SHA256: 47b46aea95e65e6fa80155b1b0c9052ab3ba77d2374487acf5ae6c2ffc4c0cc2
+SHA1: 0cace452e932e1b4938161ab74a66c2be345f29b
+MD5sum: d7d881fb837f5e593e2addeda2220af6
 Description: Zsh shell configuration for SopLOS
  This package provides the SopLOS theme and prompt for the Zsh shell,
  applied to both new and existing users. Sets Zsh as the default shell.
