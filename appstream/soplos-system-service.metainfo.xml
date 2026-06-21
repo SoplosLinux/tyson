@@ -167,6 +167,21 @@
   </keywords>
 
   <releases>
+    <release version="1.0.0-5" date="2026-06-21">
+      <description>
+        <p>GNOME crash fix (gdk-pixbuf SVG sandbox).</p>
+        <p xml:lang="es">Correccion de fallo en GNOME (sandbox SVG de gdk-pixbuf).</p>
+        <p xml:lang="fr">Correction du crash GNOME (bac a sable SVG gdk-pixbuf).</p>
+        <p xml:lang="de">GNOME-Absturzkorrektur (gdk-pixbuf SVG-Sandbox).</p>
+        <p xml:lang="it">Correzione crash GNOME (sandbox SVG gdk-pixbuf).</p>
+        <p xml:lang="pt">Correcao de falha no GNOME (sandbox SVG do gdk-pixbuf).</p>
+        <p xml:lang="ro">Corectare eroare GNOME (sandbox SVG gdk-pixbuf).</p>
+        <p xml:lang="ru">Исправление сбоя в GNOME (песочница SVG gdk-pixbuf).</p>
+        <ul>
+          <li>Wrapper now passes HOME=/root to the root process; gdk-pixbuf's bubblewrap SVG sandbox fails when the parent is root but HOME points to a regular user directory</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0-4" date="2026-06-14">
       <description>
         <p>GNOME crash fix.</p>
