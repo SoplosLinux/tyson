@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260621T001028
+Time: 20260621T002133
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -2125,6 +2125,342 @@ Releases:
         Первый выпуск Менеджера AppImage Soplos. Добавляйте AppImages через диалог выбора файлов или перетаскивание, интегрируйте вручную размещённые AppImages одним кликом, автообновление через файловый монитор, определение URL обновления из бинарного файла AppImage и полная интернационализация на 8 языках.
       ro: |-
         Lansarea inițială a Managerului AppImage Soplos. Adăugați AppImages prin selectorul de fișiere sau prin glisare și plasare, integrați AppImages plasate manual cu un singur clic, reîmprospătare automată prin monitorul de fișiere, detectarea URL-ului de actualizare din binarul AppImage și internaționalizare completă în 8 limbi.
+Component: main
+---
+Type: desktop-application
+ID: org.soplos.plymouthmanager
+ProjectLicense: GPL-3.0+
+Package: soplos-plymouth-manager
+Name:
+  C: Soplos Plymouth Manager
+  es: Gestor Plymouth Soplos
+  fr: Gestionnaire Plymouth Soplos
+  pt: Gerenciador Plymouth Soplos
+  de: Soplos Plymouth-Manager
+  it: Gestore Plymouth Soplos
+  ru: Менеджер Plymouth Soplos
+  ro: Manager Plymouth Soplos
+Summary:
+  C: Plymouth boot splash theme manager for Soplos Linux
+  es: Gestor de temas de arranque Plymouth para Soplos Linux
+  fr: Gestionnaire de thèmes de démarrage Plymouth pour Soplos Linux
+  pt: Gerenciador de temas de inicialização Plymouth para Soplos Linux
+  de: Plymouth Boot-Splash Theme Manager für Soplos Linux
+  it: Gestore dei temi di avvio Plymouth per Soplos Linux
+  ru: Менеджер тем загрузочного экрана Plymouth для Soplos Linux
+  ro: Manager de teme Plymouth pentru Soplos Linux
+Description:
+  C: |-
+    <p>A simple and intuitive Plymouth theme manager that allows you to preview, install, and apply boot splash themes easily. Fully compatible with X11 and Wayland environments.</p>
+  es: |-
+    <p>Un gestor de temas Plymouth simple e intuitivo que te permite previsualizar, instalar y aplicar temas de arranque fácilmente. Totalmente compatible con entornos X11 y Wayland.</p>
+  fr: |-
+    <p>Un gestionnaire de thèmes Plymouth simple et intuitif qui vous permet de prévisualiser, installer et appliquer des thèmes de démarrage facilement.</p>
+  pt: |-
+    <p>Um gerenciador de temas Plymouth simples e intuitivo que permite visualizar, instalar e aplicar temas de inicialização facilmente.</p>
+  de: |-
+    <p>Ein einfacher und intuitiver Plymouth-Theme-Manager, mit dem Sie Boot-Splash-Themes einfach vorschauen, installieren und anwenden können.</p>
+  it: |-
+    <p>Un gestore di temi Plymouth semplice e intuitivo che ti permette di visualizzare, installare e applicare temi di avvio facilmente.</p>
+  ru: |-
+    <p>Простой и интуитивно понятный менеджер тем Plymouth, который позволяет легко просматривать, устанавливать и применять темы загрузочного экрана.</p>
+  ro: |-
+    <p>Un manager de teme Plymouth simplu și intuitiv care vă permite să previzualizați, instalați și aplicați teme de pornire cu ușurință.</p>
+Keywords:
+  C:
+    - plymouth
+    - boot
+    - splash
+    - theme
+    - themes
+    - boot-splash
+    - customize
+    - soplos
+  es:
+    - plymouth
+    - arranque
+    - tema
+    - temas
+    - personalizar
+  fr:
+    - plymouth
+    - démarrage
+    - thème
+    - personnaliser
+  pt:
+    - plymouth
+    - inicialização
+    - tema
+    - temas
+    - personalizar
+  de:
+    - plymouth
+    - start
+    - thema
+    - anpassen
+  it:
+    - plymouth
+    - avvio
+    - tema
+    - temi
+    - personalizzare
+  ru:
+    - plymouth
+    - загрузка
+    - тема
+    - темы
+    - настройка
+  ro:
+    - plymouth
+    - pornire
+    - temă
+    - teme
+    - personalizare
+Categories:
+  - System
+  - Settings
+  - DesktopSettings
+  - Utility
+Icon:
+  cached:
+    - name: org.soplos.plymouthmanager.png
+      width: 48
+      height: 48
+    - name: org.soplos.plymouthmanager.png
+      width: 64
+      height: 64
+    - name: org.soplos.plymouthmanager.png
+      width: 128
+      height: 128
+  remote:
+    - url: soplos-plymouth-manager/icons/48x48/org.soplos.plymouthmanager.png
+      width: 48
+      height: 48
+    - url: soplos-plymouth-manager/icons/64x64/org.soplos.plymouthmanager.png
+      width: 64
+      height: 64
+    - url: soplos-plymouth-manager/icons/128x128/org.soplos.plymouthmanager.png
+      width: 128
+      height: 128
+Screenshots:
+  - default: true
+    caption:
+      C: Interface and theme selector
+      es: Interfaz y selector de temas
+      fr: Interface et sélecteur de thèmes
+      pt: Interface e seletor de temas
+      de: Benutzeroberfläche und Themenauswahl
+      it: Interfaccia e selettore di temi
+      ru: Интерфейс и селектор тем
+      ro: Interfață și selector de teme
+    source-image:
+      url: soplos-plymouth-manager/screenshots/screenshot1.png
+      width: 1920
+      height: 1080
+      type: image/png
+  - caption:
+      C: Applying and previewing theme
+      es: Aplicando y previsualizando tema
+      fr: Application et aperçu du thème
+      pt: Aplicando e visualizando tema
+      de: Theme anwenden und vorschauen
+      it: Applicazione e anteprima del tema
+      ru: Применение и просмотр темы
+      ro: Aplicarea și previzualizarea temei
+    source-image:
+      url: soplos-plymouth-manager/screenshots/screenshot2.png
+      width: 1920
+      height: 1080
+      type: image/png
+Launchable:
+  desktop-id:
+    - org.soplos.plymouthmanager.desktop
+Url:
+  homepage: https://soplos.org/
+  bugtracker: https://github.com/SoplosLinux/soplos-plymouth-manager/issues
+  help: https://soplos.org/wiki
+  donation: https://www.paypal.com/paypalme/isubdes
+  contact: https://soplos.org/
+Developer:
+  id: org.soplos
+  name:
+    C: Soplos Team
+  url: https://soplos.org/
+Provides:
+  - soplos-plymouth-manager
+Releases:
+  - version: 2.0.0-7
+    date: '2026-06-21'
+    type: stable
+    description:
+      en: |-
+        Fixed: polkit dependency updated to polkitd, the correct package name in current Debian. Removed obsolete policykit-1-gnome, polkit and policykit-1 alternatives.
+      es: |-
+        Corregido: dependencias polkit reducidas a solo polkit. Eliminadas las alternativas obsoletas policykit-1-gnome y policykit-1 que ya no existen en Debian actual.
+      fr: |-
+        Correction: dependances polkit reduites au seul polkit. Suppression des alternatives obsoletes policykit-1-gnome et policykit-1 qui n'existent plus dans Debian actuel.
+      pt: |-
+        Corrigido: dependencias polkit reduzidas apenas a polkit. Removidas as alternativas obsoletas policykit-1-gnome e policykit-1 que ja nao existem no Debian atual.
+      de: |-
+        Behoben: polkit-Abhangigkeiten auf nur polkit reduziert. Veraltete Alternativen policykit-1-gnome und policykit-1 entfernt, die im aktuellen Debian nicht mehr existieren.
+      it: |-
+        Corretto: dipendenze polkit ridotte al solo polkit. Rimosse le alternative obsolete policykit-1-gnome e policykit-1 che non esistono piu nel Debian attuale.
+      ru: |-
+        Исправлено: зависимости polkit сокращены только до polkit. Удалены устаревшие альтернативы policykit-1-gnome и policykit-1, которых больше нет в текущем Debian.
+      ro: |-
+        Corectat: dependentele polkit reduse doar la polkit. Eliminate alternativele obsolete policykit-1-gnome si policykit-1 care nu mai exista in Debian actual.
+      C: |-
+        Fixed: polkit dependency updated to polkitd, the correct package name in current Debian. Removed obsolete policykit-1-gnome, polkit and policykit-1 alternatives.
+  - version: 2.0.0-6
+    date: '2026-06-11'
+    type: stable
+    description:
+      en: |-
+        Refined theme selection style: thinner 1px border, removed glow effect, and fixed FlowBoxChild orange background on selection for a cleaner look.
+      es: |-
+        Refinado el estilo de selección de temas: borde más fino de 1px, eliminado el efecto de brillo y corregido el fondo naranja del FlowBoxChild al seleccionar, para un aspecto más limpio.
+      fr: |-
+        Style de sélection de thème raffiné : bordure plus fine d'1px, suppression de l'effet de lueur et correction du fond orange du FlowBoxChild à la sélection.
+      pt: |-
+        Estilo de seleção de tema refinado: borda mais fina de 1px, efeito de brilho removido e fundo laranja do FlowBoxChild corrigido na seleção.
+      de: |-
+        Verfeinerter Theme-Auswahlstil: dünnerer 1px-Rahmen, Leuchteffekt entfernt und oranger FlowBoxChild-Hintergrund bei Auswahl behoben.
+      it: |-
+        Stile di selezione tema raffinato: bordo più sottile da 1px, effetto bagliore rimosso e sfondo arancione FlowBoxChild corretto alla selezione.
+      ru: |-
+        Улучшен стиль выделения темы: более тонкая рамка 1px, убран эффект свечения, исправлен оранжевый фон FlowBoxChild при выделении.
+      ro: |-
+        Stil de selecție a temei rafinat: chenar mai subțire de 1px, efect de strălucire eliminat și fundal portocaliu FlowBoxChild corectat la selecție.
+      C: |-
+        Refined theme selection style: thinner 1px border, removed glow effect, and fixed FlowBoxChild orange background on selection for a cleaner look.
+  - version: 2.0.0-5
+    date: '2026-05-22'
+    type: stable
+    description:
+      en: |-
+        Added comprehensive historical documentation for Legacy 1.x branches (Tyron and Tyson) in CHANGELOG and README. Cleaned up obsolete AppStream metadata elements in metainfo.xml.
+      es: |-
+        Se ha añadido documentación histórica completa para las ramas Legacy 1.x (Tyron y Tyson) en CHANGELOG y README. Se han limpiado los elementos obsoletos de metainfo.xml para AppStream.
+      fr: |-
+        Ajout d'une documentation historique complète pour les branches Legacy 1.x (Tyron et Tyson) dans CHANGELOG et README. Nettoyage des éléments obsolètes de metainfo.xml pour AppStream.
+      pt: |-
+        Adicionada documentação histórica abrangente para os ramos Legacy 1.x (Tyron e Tyson) em CHANGELOG e README. Limpeza de elementos metainfo obsoletos no metainfo.xml.
+      de: |-
+        Umfangreiche historische Dokumentation für Legacy 1.x-Zweige (Tyron und Tyson) im CHANGELOG und in der README hinzugefügt. Veraltete AppStream-Metadatenelemente in metainfo.xml bereinigt.
+      it: |-
+        Aggiunta documentazione storica completa per i rami Legacy 1.x (Tyron e Tyson) in CHANGELOG e README. Puliti gli elementi di metadati AppStream obsoleti in metainfo.xml.
+      ru: |-
+        Добавлена полная историческая документация для веток Legacy 1.x (Tyron и Tyson) в CHANGELOG и README. Очищены устаревшие элементы метаданных AppStream в metainfo.xml.
+      ro: |-
+        S-a adăugat o documentație istorică completă pentru ramurile Legacy 1.x (Tyron și Tyson) în CHANGELOG și README. S-au curățat elementele de metadate AppStream învechite în metainfo.xml.
+      C: |-
+        Added comprehensive historical documentation for Legacy 1.x branches (Tyron and Tyson) in CHANGELOG and README. Cleaned up obsolete AppStream metadata elements in metainfo.xml.
+  - version: 2.0.0-4
+    date: '2026-05-18'
+    type: stable
+    description:
+      en: |-
+        Documentation-only release: version history corrected across the release page, CHANGELOG, README and metainfo. All timestamps updated to match the forensic audit of the official package archive.
+      es: |-
+        Publicación solo de documentación: historial de versiones corregido en la página de lanzamientos, CHANGELOG, README y metainfo. Todas las fechas actualizadas para coincidir con la auditoría forense del archivo oficial de paquetes.
+      fr: |-
+        Version documentation uniquement : historique des versions corrigé dans la page des versions, CHANGELOG, README et metainfo. Toutes les dates mises à jour pour correspondre à l'audit forensique de l'archive officielle des paquets.
+      pt: |-
+        Versão apenas de documentação: histórico de versões corrigido na página de lançamentos, CHANGELOG, README e metainfo. Todas as datas atualizadas para corresponder à auditoria forense do arquivo oficial de pacotes.
+      de: |-
+        Nur-Dokumentations-Release: Versionshistorie auf der Releases-Seite, im CHANGELOG, README und Metainfo korrigiert. Alle Zeitstempel entsprechend der forensischen Prüfung des offiziellen Paketarchivs aktualisiert.
+      it: |-
+        Versione solo documentazione: cronologia delle versioni corretta nella pagina delle versioni, CHANGELOG, README e metainfo. Tutti i timestamp aggiornati per corrispondere all'audit forense dell'archivio ufficiale dei pacchetti.
+      ru: |-
+        Только документационный выпуск: история версий исправлена на странице релизов, в CHANGELOG, README и metainfo. Все временные метки обновлены в соответствии с криминалистической проверкой официального архива пакетов.
+      ro: |-
+        Lansare doar de documentație: istoricul versiunilor corectat în pagina de lansări, CHANGELOG, README și metainfo. Toate marcajele temporale actualizate pentru a corespunde auditului criminalistic al arhivei oficiale de pachete.
+      C: |-
+        Documentation-only release: version history corrected across the release page, CHANGELOG, README and metainfo. All timestamps updated to match the forensic audit of the official package archive.
+  - version: 2.0.0-3
+    date: '2026-05-16'
+    type: stable
+    description:
+      en: Simplified the footer UI text to match the modern Soplos standard layout.
+      es: Se ha simplificado el texto de la barra de estado para coincidir con el
+        diseño estándar de Soplos.
+      fr: Le texte de la barre d'état a été simplifié pour correspondre à la disposition
+        standard moderne de Soplos.
+      pt: O texto da barra de status foi simplificado para corresponder ao layout
+        padrão moderno do Soplos.
+      de: Der Text der Statusleiste wurde vereinfacht, um dem modernen Soplos-Standardlayout
+        zu entsprechen.
+      it: Il testo della barra di stato è stato semplificato per corrispondere al
+        layout standard moderno di Soplos.
+      ru: Текст строки состояния был упрощен, чтобы соответствовать современному стандартному
+        макету Soplos.
+      ro: Textul barei de stare a fost simplificat pentru a se potrivi cu aspectul
+        standard modern Soplos.
+      C: Simplified the footer UI text to match the modern Soplos standard layout.
+  - version: 2.0.0-2
+    date: '2026-04-21'
+    type: stable
+    description:
+      en: |-
+        Fixed About dialog credits panel on KDE: the credits area now displays with an opaque dark background instead of being transparent. App icon standardized to 48×48 pixels.
+      es: |-
+        Corregido el panel de créditos del diálogo Acerca de en KDE: el área de créditos ahora se muestra con fondo oscuro opaco en lugar de ser transparente. Icono estandarizado a 48×48 píxeles.
+      fr: |-
+        Correction du panneau de crédits du dialogue À propos sous KDE : la zone de crédits s'affiche maintenant avec un fond sombre opaque au lieu d'être transparente. Icône standardisée à 48×48 pixels.
+      pt: |-
+        Corrigido o painel de créditos do diálogo Sobre no KDE: a área de créditos agora é exibida com fundo escuro opaco em vez de ser transparente. Ícone padronizado para 48×48 pixels.
+      de: |-
+        Korrektur des Kredit-Panels im Über-Dialog unter KDE: Der Kredit-Bereich wird jetzt mit opakem dunklem Hintergrund dargestellt, anstatt transparent zu sein. App-Symbol auf 48×48 Pixel standardisiert.
+      it: |-
+        Corretto il pannello crediti della finestra Info su KDE: l'area dei crediti ora mostra uno sfondo scuro opaco invece di essere trasparente. Icona standardizzata a 48×48 pixel.
+      ru: |-
+        Исправлена панель авторов в диалоге «О программе» в KDE: область авторов теперь отображается с непрозрачным тёмным фоном вместо прозрачного. Значок стандартизирован до 48×48 пикселей.
+      ro: |-
+        Corectat panoul de credite din dialogul Despre pe KDE: zona de credite se afișează acum cu fundal întunecat opac în loc să fie transparentă. Pictogramă standardizată la 48×48 pixeli.
+      C: |-
+        Fixed About dialog credits panel on KDE: the credits area now displays with an opaque dark background instead of being transparent. App icon standardized to 48×48 pixels.
+  - version: 2.0.0-1
+    date: '2026-03-20'
+    type: stable
+    description:
+      en: |-
+        Added F1 About dialog. Fixed HeaderBar CSS on GNOME so CSD window controls are no longer affected by the global button rule. Removed version subtitle from the HeaderBar.
+      es: |-
+        Añadido diálogo Acerca de con F1. Corregido el CSS del HeaderBar en GNOME para que los controles CSD no sean afectados por la regla global de botones. Eliminado el subtítulo de versión del HeaderBar.
+      fr: |-
+        Ajout du dialogue À propos avec F1. Correction du CSS HeaderBar sur GNOME pour que les contrôles CSD ne soient plus affectés par la règle globale des boutons. Suppression du sous-titre de version du HeaderBar.
+      pt: |-
+        Adicionado diálogo Sobre com F1. Corrigido CSS do HeaderBar no GNOME para que os controles CSD não sejam afetados pela regra global de botões. Removido o subtítulo de versão do HeaderBar.
+      de: |-
+        Über-Dialog mit F1 hinzugefügt. HeaderBar-CSS auf GNOME korrigiert, damit CSD-Fenstersteuerelemente nicht mehr von der globalen Schaltflächenregel betroffen sind. Versions-Untertitel aus der HeaderBar entfernt.
+      it: |-
+        Aggiunta finestra Info con F1. Corretto CSS HeaderBar su GNOME in modo che i controlli CSD non siano più influenzati dalla regola globale dei pulsanti. Rimosso il sottotitolo di versione dall'HeaderBar.
+      ru: |-
+        Добавлен диалог «О программе» по F1. Исправлен CSS HeaderBar в GNOME, чтобы элементы управления CSD больше не зависели от глобального правила кнопок. Убран подзаголовок версии из HeaderBar.
+      ro: |-
+        Adăugat dialog Despre cu F1. Corectat CSS HeaderBar pe GNOME pentru ca elementele de control CSD să nu mai fie afectate de regula globală a butoanelor. Eliminat subtitlul versiunii din HeaderBar.
+      C: |-
+        Added F1 About dialog. Fixed HeaderBar CSS on GNOME so CSD window controls are no longer affected by the global button rule. Removed version subtitle from the HeaderBar.
+  - version: 2.0.0
+    date: '2026-03-18'
+    type: stable
+    description:
+      C: |-
+        Version 2.0.0 - Complete modular architecture refactor with dynamic theme detection (no hardcoded lists), robust installer for nested archives, enhanced progress reporting, and full Wayland support. Includes unified environment sensing, robust KDE dark theme detection, unified single-password prompts for TTY, advanced GNOME and KDE previews (Wayland/TTY), and standard-compliant logging.
+      es: |-
+        Versión 2.0.0 - Refactorización modular completa con detección dinámica de temas (sin listas fijas), instalador robusto para archivos anidados, reporte de progreso mejorado y soporte total para Wayland. Incluye detección unificada de entorno, detección robusta del tema oscuro en KDE, prompts de una sola contraseña para TTY, vistas previas avanzadas en GNOME y KDE (Wayland/TTY) y registro de logs estandarizado.
+      fr: |-
+        Version 2.0.0 - Refonte modulaire complète avec détection dynamique des thèmes (pas de listes codées en dur), installateur robuste pour les archives imbriquées, rapport de progression amélioré et support Wayland complet. Comprend la détection d'environnement unifiée, une détection robuste du thème sombre KDE, des invites à mot de passe unique pour TTY, des aperçus GNOME et KDE avancés (Wayland/TTY) et des journaux conformes.
+      pt: |-
+        Versão 2.0.0 - Refatoração modular completa com detecção dinâmica de temas (sem listas fixas), instalador robusto para arquivos aninhados, relatório de progresso aprimorado e suporte total para Wayland. Inclui detecção de ambiente unificada, detecção robusta do tema escuro do KDE, prompts de senha única para TTY, visualizações avançadas do GNOME e KDE (Wayland/TTY) e logs padronizados.
+      de: |-
+        Version 2.0.0 - Vollständige modulare Refaktorierung mit dynamischer Themenerkennung (keine hardcodierten Listen), robuster Installer für verschachtelte Archive, verbesserte Fortschrittsanzeige und volle Wayland-Unterstützung. Enthält eine einheitliche Umgebungserkennung, robuste KDE-Dark-Theme-Erkennung, einheitliche Passwortabfragen für TTY, erweiterte GNOME- und KDE-Vorschauen (Wayland/TTY) und eine standardkonforme Protokollierung.
+      it: |-
+        Versione 2.0.0 - Refactoring modulare completo con rilevamento dinamico dei temi (senza liste fisse), installatore robusto per archivi nidificati, report di avanzamento migliorato e supporto Wayland completo. Include il rilevamento dell'ambiente unificato, il rilevamento robusto del tema scuro KDE, prompt a password singola per TTY, anteprime GNOME e KDE avanzate (Wayland/TTY) e log conformi agli standard.
+      ru: |-
+        Версия 2.0.0 - Полный модульный рефакторинг с динамическим обнаружением тем (без захардкорженных списков), надежным установщиком для вложенных архивов, улучшенным отображением прогресса и полной поддержкой Wayland. Включает унифицированное обнаружение среды, надежное определение темной темы KDE, единые запросы пароля для TTY, расширенные превью GNOME и KDE (Wayland/TTY) и стандартные логи.
+      ro: |-
+        Versiunea 2.0.0 - Refactorizare modulară completă cu detecție dinamică a temelor (fără liste fixe), instalator robust pentru arhive imbricate, raportare îmbunătățită a progresului și suport complet pentru Wayland. Include detecția unificată a mediului, detecția robustă a temei întunecate KDE, solicitări cu o singură parolă pentru TTY, previzualizări GNOME și KDE avansate (Wayland/TTY) și jurnalizare standardizată.
 Component: main
 ---
 Type: desktop-application
