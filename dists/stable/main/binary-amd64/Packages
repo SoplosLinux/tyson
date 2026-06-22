@@ -104,6 +104,28 @@ SHA1: 3e63bed9ecfc5340816eaf0f5d90f16c8663e98e
 MD5sum: 2830d0681c6260c58225ee9c440dedc4
 Description: Configure MSI keyboard RGB lighting
 
+Package: plasma-login-manager
+Version: 6.6.5-soplos
+Architecture: amd64
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 2412
+Depends: libc6 (>= 2.34), libkf6authcore6 (>= 6.22.0), libkf6configcore6 (>= 6.22.0), libkf6configgui6 (>= 6.22.0), libkf6configqml6 (>= 6.22.0), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.22.0), libkf6i18n6 (>= 6.22.0), libkf6kcmutilscore6 (>= 6.22.0), libkf6kcmutilsquick6 (>= 6.22.0), libkf6kiogui6 (>= 6.22.0), libkf6package6 (>= 6.22.0), libkf6screendpms8 (>= 4:6.1.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.22.0), libklookandfeel6 (>= 4:6.6.5), libkworkspace6-6 (>= 4:6.6.5), liblayershellqtinterface6 (>= 6.6.5), libpam0g (>= 0.99.7.1), libplasmaquick7 (>= 6.6.5), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0), libqt6gui6 (>= 6.10.0), libqt6network6 (>= 6.10.0), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0), libstdc++6 (>= 13.1), libsystemd0, libxau6 (>= 1:1.0.11), qt6-declarative-private-abi (= 6.10.2), systemd | systemd-standalone-tmpfiles | systemd-tmpfiles
+Recommends: plasma-workspace
+Conflicts: sddm
+Replaces: sddm
+Homepage: https://invent.kde.org/plasma/plasma-login-manager
+Priority: optional
+Section: kde
+Filename: pool/main/p/plasma-login-manager/plasma-login-manager_6.6.5-soplos_amd64.deb
+Size: 463200
+SHA256: a5376bbf1e2021fd9fac598769d8c55bdc4d05a8db53697e6a4714af10947f72
+SHA1: b76717784896b7315351d8707e48a3f335e50fed
+MD5sum: 66e0cef8cf7532e1a902ed34bcad476a
+Description: Plasma Login Manager display manager
+ Plasma Login provides a display manager for KDE Plasma, forked from
+ SDDM, with a greeter, wallpaper plugin integration and a System
+ Settings module (KCM).
+
 Package: soplos-appimage-manager
 Version: 1.0.1
 Architecture: all
