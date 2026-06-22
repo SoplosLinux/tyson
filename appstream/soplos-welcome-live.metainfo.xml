@@ -176,6 +176,42 @@
   </translation>
 
   <releases>
+    <release version="2.0.2-2" date="2026-06-22">
+      <description>
+        <p>Display manager restart fix for KDE: tries plasmalogin before sddm as fallback.</p>
+        <ul>
+          <li>Language changer now tries plasmalogin first on KDE, then sddm for beta users still on the old display manager.</li>
+        </ul>
+        <p xml:lang="es">Corrección del reinicio del gestor de pantalla en KDE: intenta plasmalogin antes que sddm como alternativa.</p>
+        <ul xml:lang="es">
+          <li>El cambiador de idioma ahora intenta plasmalogin primero en KDE, luego sddm para usuarios beta con el gestor de pantalla anterior.</li>
+        </ul>
+        <p xml:lang="fr">Correction du redémarrage du gestionnaire d'affichage sous KDE : essaie plasmalogin avant sddm en repli.</p>
+        <ul xml:lang="fr">
+          <li>Le changeur de langue essaie maintenant plasmalogin en premier sous KDE, puis sddm pour les utilisateurs bêta.</li>
+        </ul>
+        <p xml:lang="pt">Correção do reinício do gestor de ecrã no KDE: tenta plasmalogin antes de sddm como alternativa.</p>
+        <ul xml:lang="pt">
+          <li>O trocador de idioma agora tenta plasmalogin primeiro no KDE, depois sddm para utilizadores beta.</li>
+        </ul>
+        <p xml:lang="de">Korrektur des Display-Manager-Neustarts unter KDE: versucht zuerst plasmalogin, dann sddm als Fallback.</p>
+        <ul xml:lang="de">
+          <li>Der Sprachwechsler versucht unter KDE jetzt zuerst plasmalogin, dann sddm für Beta-Nutzer.</li>
+        </ul>
+        <p xml:lang="it">Correzione del riavvio del display manager su KDE: prova plasmalogin prima di sddm come fallback.</p>
+        <ul xml:lang="it">
+          <li>Il selettore di lingua ora prova plasmalogin per primo su KDE, poi sddm per gli utenti beta.</li>
+        </ul>
+        <p xml:lang="ru">Исправление перезапуска менеджера экрана в KDE: сначала пробует plasmalogin, затем sddm как запасной вариант.</p>
+        <ul xml:lang="ru">
+          <li>Переключатель языка теперь пробует plasmalogin первым в KDE, затем sddm для бета-пользователей.</li>
+        </ul>
+        <p xml:lang="ro">Corectarea repornirii managerului de afișare pe KDE: incearca plasmalogin inainte de sddm ca rezerva.</p>
+        <ul xml:lang="ro">
+          <li>Schimbatorul de limba incearca acum plasmalogin mai intai pe KDE, apoi sddm pentru utilizatorii beta.</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.0.2" date="2026-03-31">
       <description>
         <p>New features, guided rescue operations and interface improvements.</p>

@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260621T153819
+Time: 20260622T191550
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1511,6 +1511,25 @@ Developer:
 Provides:
   - soplos-welcome-live
 Releases:
+  - version: 2.0.2-2
+    date: '2026-06-22'
+    type: stable
+    description:
+      C: 'Display manager restart fix for KDE: tries plasmalogin before sddm as fallback.'
+      es: 'Corrección del reinicio del gestor de pantalla en KDE: intenta plasmalogin
+        antes que sddm como alternativa.'
+      fr: 'Correction du redémarrage du gestionnaire d''affichage sous KDE : essaie
+        plasmalogin avant sddm en repli.'
+      pt: 'Correção do reinício do gestor de ecrã no KDE: tenta plasmalogin antes
+        de sddm como alternativa.'
+      de: 'Korrektur des Display-Manager-Neustarts unter KDE: versucht zuerst plasmalogin,
+        dann sddm als Fallback.'
+      it: 'Correzione del riavvio del display manager su KDE: prova plasmalogin prima
+        di sddm come fallback.'
+      ru: 'Исправление перезапуска менеджера экрана в KDE: сначала пробует plasmalogin,
+        затем sddm как запасной вариант.'
+      ro: 'Corectarea repornirii managerului de afișare pe KDE: incearca plasmalogin
+        inainte de sddm ca rezerva.'
   - version: 2.0.2
     date: '2026-03-31'
     type: stable
