@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260622T194405
+Time: 20260623T051754
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1511,6 +1511,25 @@ Developer:
 Provides:
   - soplos-welcome-live
 Releases:
+  - version: 2.0.2-3
+    date: '2026-06-23'
+    type: stable
+    description:
+      C: Ghostty set as default terminal for CHROOT recovery across all three distros.
+      es: Ghostty establecido como terminal predeterminada para la recuperación CHROOT
+        en las tres distros.
+      fr: Ghostty défini comme terminal par défaut pour la récupération CHROOT sur
+        les trois distros.
+      pt: Ghostty definido como terminal padrão para a recuperação CHROOT nas três
+        distros.
+      de: Ghostty als Standard-Terminal für die CHROOT-Wiederherstellung auf allen
+        drei Distros festgelegt.
+      it: Ghostty impostato come terminale predefinito per il recupero CHROOT su tutte
+        e tre le distros.
+      ru: Ghostty установлен терминалом по умолчанию для восстановления CHROOT во
+        всех трёх дистрибутивах.
+      ro: Ghostty setat ca terminal implicit pentru recuperarea CHROOT pe toate cele
+        trei distros.
   - version: 2.0.2-2
     date: '2026-06-22'
     type: stable

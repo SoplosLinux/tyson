@@ -176,6 +176,50 @@
   </translation>
 
   <releases>
+    <release version="2.0.2-3" date="2026-06-23">
+      <description>
+        <p>Ghostty set as default terminal for CHROOT recovery across all three distros.</p>
+        <ul>
+          <li>Ghostty is now the first-priority terminal in the CHROOT recovery launcher for XFCE (Tyron), KDE (Tyson) and GNOME (Boro), reflecting the new default terminal across all three distros.</li>
+          <li>All 8 locale files updated to mention ghostty in the terminal hint error message.</li>
+        </ul>
+        <p xml:lang="es">Ghostty establecido como terminal predeterminada para la recuperación CHROOT en las tres distros.</p>
+        <ul xml:lang="es">
+          <li>Ghostty es ahora la terminal de primera prioridad en el lanzador de recuperación CHROOT para XFCE (Tyron), KDE (Tyson) y GNOME (Boro), reflejando la nueva terminal predeterminada en las tres distros.</li>
+          <li>Los 8 archivos de idioma actualizados para mencionar ghostty en el mensaje de error de terminal.</li>
+        </ul>
+        <p xml:lang="fr">Ghostty défini comme terminal par défaut pour la récupération CHROOT sur les trois distros.</p>
+        <ul xml:lang="fr">
+          <li>Ghostty est maintenant le terminal prioritaire dans le lanceur de récupération CHROOT pour XFCE (Tyron), KDE (Tyson) et GNOME (Boro), reflétant le nouveau terminal par défaut sur les trois distros.</li>
+          <li>Les 8 fichiers de locale mis à jour pour mentionner ghostty dans le message d'erreur de terminal.</li>
+        </ul>
+        <p xml:lang="pt">Ghostty definido como terminal padrão para a recuperação CHROOT nas três distros.</p>
+        <ul xml:lang="pt">
+          <li>Ghostty é agora o terminal de primeira prioridade no lançador de recuperação CHROOT para XFCE (Tyron), KDE (Tyson) e GNOME (Boro), refletindo o novo terminal padrão nas três distros.</li>
+          <li>Os 8 ficheiros de locale atualizados para mencionar ghostty na mensagem de erro de terminal.</li>
+        </ul>
+        <p xml:lang="de">Ghostty als Standard-Terminal für die CHROOT-Wiederherstellung auf allen drei Distros festgelegt.</p>
+        <ul xml:lang="de">
+          <li>Ghostty ist jetzt das Terminal mit der höchsten Priorität im CHROOT-Wiederherstellungs-Launcher für XFCE (Tyron), KDE (Tyson) und GNOME (Boro), entsprechend dem neuen Standard-Terminal aller drei Distros.</li>
+          <li>Alle 8 Locale-Dateien aktualisiert, um ghostty in der Terminal-Fehlermeldung zu erwähnen.</li>
+        </ul>
+        <p xml:lang="it">Ghostty impostato come terminale predefinito per il recupero CHROOT su tutte e tre le distros.</p>
+        <ul xml:lang="it">
+          <li>Ghostty è ora il terminale di prima priorità nel launcher di recupero CHROOT per XFCE (Tyron), KDE (Tyson) e GNOME (Boro), riflettendo il nuovo terminale predefinito su tutte e tre le distros.</li>
+          <li>Tutti gli 8 file locale aggiornati per menzionare ghostty nel messaggio di errore del terminale.</li>
+        </ul>
+        <p xml:lang="ru">Ghostty установлен терминалом по умолчанию для восстановления CHROOT во всех трёх дистрибутивах.</p>
+        <ul xml:lang="ru">
+          <li>Ghostty теперь является приоритетным терминалом в лаунчере восстановления CHROOT для XFCE (Tyron), KDE (Tyson) и GNOME (Boro), отражая новый терминал по умолчанию во всех трёх дистрибутивах.</li>
+          <li>Все 8 файлов локализации обновлены для упоминания ghostty в сообщении об ошибке терминала.</li>
+        </ul>
+        <p xml:lang="ro">Ghostty setat ca terminal implicit pentru recuperarea CHROOT pe toate cele trei distros.</p>
+        <ul xml:lang="ro">
+          <li>Ghostty este acum terminalul cu prioritate maximă în lansatorul de recuperare CHROOT pentru XFCE (Tyron), KDE (Tyson) și GNOME (Boro), reflectând noul terminal implicit pe toate cele trei distros.</li>
+          <li>Toate cele 8 fișiere locale actualizate pentru a menționa ghostty în mesajul de eroare al terminalului.</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.0.2-2" date="2026-06-22">
       <description>
         <p>Display manager restart fix for KDE: tries plasmalogin before sddm as fallback.</p>

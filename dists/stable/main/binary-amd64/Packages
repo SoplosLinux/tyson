@@ -402,17 +402,17 @@ MD5sum: 9b77ab55ded9d393c99768d3788b14f0
 Description: The world's most advanced welcome application for Linux
 
 Package: soplos-welcome-live
-Version: 2.0.2-2
+Version: 2.0.2-3
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, locales, python3-all, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools, x11-xkb-utils
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_2.0.2-2_all.deb
-Size: 1258200
-SHA256: fed6203f3030b7c8e3bb3c8f1773e113f5126f937723b432b258d0640c50f55a
-SHA1: 909220e59e96a131c34a209a3e7b55fc9a27d59b
-MD5sum: ee34e1dd759c15a0105d2000e8fe0233
+Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_2.0.2-3_all.deb
+Size: 1259268
+SHA256: 21943bb79c4243009cb02e41641dd894e6620e09e3de2ba32fdafea5aeaccebd
+SHA1: 37ccf8a35f3026038a9837b055969a2066607b94
+MD5sum: df53ca330adbe2d15a22e80eb7ceada6
 Description: Welcome application for Soplos Linux Live with CHROOT recovery and BTRFS support
 
 Package: zram-soplos
