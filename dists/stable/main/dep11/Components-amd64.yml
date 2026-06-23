@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260623T051754
+Time: 20260623T053224
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -266,6 +266,28 @@ Developer:
 Provides:
   - soplos-repo-selector
 Releases:
+  - version: 2.0.2-9
+    date: '2026-06-23'
+    type: stable
+    description:
+      C: |-
+        New option in Sources Generator to include source packages (deb-src). Auto-detected from existing system repositories on startup.
+      en: |-
+        New option in Sources Generator to include source packages (deb-src). Auto-detected from existing system repositories on startup.
+      es: |-
+        Nueva opción en el Generador de fuentes para incluir paquetes fuente (deb-src). Se detecta automáticamente a partir de los repositorios del sistema al iniciar.
+      fr: |-
+        Nouvelle option dans le Générateur de sources pour inclure les paquets source (deb-src). Détection automatique à partir des dépôts système au démarrage.
+      pt: |-
+        Nova opção no Gerador de fontes para incluir pacotes fonte (deb-src). Detectado automaticamente a partir dos repositórios do sistema ao iniciar.
+      de: |-
+        Neue Option im Quellen-Generator zum Einbeziehen von Quellpaketen (deb-src). Wird beim Start automatisch aus den System-Repositories erkannt.
+      it: |-
+        Nuova opzione nel Generatore di sorgenti per includere i pacchetti sorgente (deb-src). Rilevamento automatico dai repository di sistema all'avvio.
+      ru: |-
+        Новая опция в генераторе источников для включения пакетов с исходным кодом (deb-src). Автоматически определяется из системных репозиториев при запуске.
+      ro: |-
+        Opțiune nouă în Generatorul de surse pentru a include pachete sursă (deb-src). Detectat automat din depozitele sistemului la pornire.
   - version: 2.0.2-8
     date: '2026-05-19'
     type: stable

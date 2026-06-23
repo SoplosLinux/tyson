@@ -269,6 +269,20 @@
 
   <releases>
 
+    <release version="2.0.2-9" date="2026-06-23">
+      <description>
+        <p>New option in Sources Generator to include source packages (deb-src). Auto-detected from existing system repositories on startup.</p>
+        <p xml:lang="en">New option in Sources Generator to include source packages (deb-src). Auto-detected from existing system repositories on startup.</p>
+        <p xml:lang="es">Nueva opción en el Generador de fuentes para incluir paquetes fuente (deb-src). Se detecta automáticamente a partir de los repositorios del sistema al iniciar.</p>
+        <p xml:lang="fr">Nouvelle option dans le Générateur de sources pour inclure les paquets source (deb-src). Détection automatique à partir des dépôts système au démarrage.</p>
+        <p xml:lang="pt">Nova opção no Gerador de fontes para incluir pacotes fonte (deb-src). Detectado automaticamente a partir dos repositórios do sistema ao iniciar.</p>
+        <p xml:lang="de">Neue Option im Quellen-Generator zum Einbeziehen von Quellpaketen (deb-src). Wird beim Start automatisch aus den System-Repositories erkannt.</p>
+        <p xml:lang="it">Nuova opzione nel Generatore di sorgenti per includere i pacchetti sorgente (deb-src). Rilevamento automatico dai repository di sistema all'avvio.</p>
+        <p xml:lang="ru">Новая опция в генераторе источников для включения пакетов с исходным кодом (deb-src). Автоматически определяется из системных репозиториев при запуске.</p>
+        <p xml:lang="ro">Opțiune nouă în Generatorul de surse pentru a include pachete sursă (deb-src). Detectat automat din depozitele sistemului la pornire.</p>
+      </description>
+    </release>
+
     <release version="2.0.2-8" date="2026-05-19">
       <description>
         <p>Documentation-only release: version history corrected across the release page, CHANGELOG and metainfo. All 1.0.x timestamps updated to match the dates extracted from the internal CHANGELOG of each official package.</p>
