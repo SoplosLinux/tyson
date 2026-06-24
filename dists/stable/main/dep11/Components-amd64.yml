@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260623T053224
+Time: 20260624T113801
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1533,6 +1533,22 @@ Developer:
 Provides:
   - soplos-welcome-live
 Releases:
+  - version: 2.0.2-4
+    date: '2026-06-24'
+    type: stable
+    description:
+      C: Display manager detection fix for language changer on KDE.
+      es: Corrección de detección del gestor de pantalla en el cambiador de idioma
+        en KDE.
+      fr: Correction de la détection du gestionnaire d'affichage dans le changeur
+        de langue sous KDE.
+      pt: Correção da deteção do gestor de ecrã no trocador de idioma no KDE.
+      de: Korrektur der Erkennung des Display-Managers im Sprachumschalter unter KDE.
+      it: Correzione del rilevamento del display manager nel selettore di lingua su
+        KDE.
+      ru: Исправление определения менеджера экрана в переключателе языка для KDE.
+      ro: Corectarea detecției managerului de afișare în schimbătorul de limbă pe
+        KDE.
   - version: 2.0.2-3
     date: '2026-06-23'
     type: stable

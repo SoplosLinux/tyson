@@ -176,6 +176,50 @@
   </translation>
 
   <releases>
+    <release version="2.0.2-4" date="2026-06-24">
+      <description>
+        <p>Display manager detection fix for language changer on KDE.</p>
+        <ul>
+          <li>Language changer now detects the active display manager with systemctl is-active and restarts it directly: plasmalogin on Tyson RC1, sddm on beta ISOs, display-manager.service as last resort.</li>
+          <li>Resolves Breeze wallpaper shown on plasmalogin and ksplashqml crash cascade on VirtualBox after a hot language change.</li>
+        </ul>
+        <p xml:lang="es">Corrección de detección del gestor de pantalla en el cambiador de idioma en KDE.</p>
+        <ul xml:lang="es">
+          <li>El cambiador de idioma ahora detecta el gestor de pantalla activo con systemctl is-active y lo reinicia directamente: plasmalogin en Tyson RC1, sddm en ISOs beta, display-manager.service como último recurso.</li>
+          <li>Resuelve el wallpaper de Breeze en plasmalogin y el crash en cascada de ksplashqml en VirtualBox tras un cambio de idioma en caliente.</li>
+        </ul>
+        <p xml:lang="fr">Correction de la détection du gestionnaire d'affichage dans le changeur de langue sous KDE.</p>
+        <ul xml:lang="fr">
+          <li>Le changeur de langue détecte maintenant le gestionnaire d'affichage actif avec systemctl is-active et le redémarre directement : plasmalogin sur Tyson RC1, sddm sur les ISO bêta, display-manager.service en dernier recours.</li>
+          <li>Résout le fond d'écran Breeze sur plasmalogin et le crash en cascade de ksplashqml sur VirtualBox après un changement de langue à chaud.</li>
+        </ul>
+        <p xml:lang="pt">Correção da deteção do gestor de ecrã no trocador de idioma no KDE.</p>
+        <ul xml:lang="pt">
+          <li>O trocador de idioma deteta agora o gestor de ecrã ativo com systemctl is-active e reinicia-o diretamente: plasmalogin no Tyson RC1, sddm nas ISOs beta, display-manager.service como último recurso.</li>
+          <li>Resolve o wallpaper Breeze no plasmalogin e o crash em cascata do ksplashqml no VirtualBox após uma mudança de idioma a quente.</li>
+        </ul>
+        <p xml:lang="de">Korrektur der Erkennung des Display-Managers im Sprachumschalter unter KDE.</p>
+        <ul xml:lang="de">
+          <li>Der Sprachumschalter erkennt jetzt den aktiven Display-Manager mit systemctl is-active und startet ihn direkt neu: plasmalogin auf Tyson RC1, sddm auf Beta-ISOs, display-manager.service als letzter Ausweg.</li>
+          <li>Behebt das Breeze-Hintergrundbild auf plasmalogin und den ksplashqml-Absturz-Kaskadeneffekt auf VirtualBox nach einem Live-Sprachwechsel.</li>
+        </ul>
+        <p xml:lang="it">Correzione del rilevamento del display manager nel selettore di lingua su KDE.</p>
+        <ul xml:lang="it">
+          <li>Il selettore di lingua ora rileva il display manager attivo con systemctl is-active e lo riavvia direttamente: plasmalogin su Tyson RC1, sddm sulle ISO beta, display-manager.service come ultima risorsa.</li>
+          <li>Risolve lo sfondo Breeze su plasmalogin e il crash a cascata di ksplashqml su VirtualBox dopo un cambio di lingua a caldo.</li>
+        </ul>
+        <p xml:lang="ru">Исправление определения менеджера экрана в переключателе языка для KDE.</p>
+        <ul xml:lang="ru">
+          <li>Переключатель языка теперь определяет активный менеджер экрана через systemctl is-active и перезапускает его напрямую: plasmalogin на Tyson RC1, sddm на бета-ISO, display-manager.service как последний вариант.</li>
+          <li>Устраняет фон Breeze на plasmalogin и каскадный сбой ksplashqml на VirtualBox после горячей смены языка.</li>
+        </ul>
+        <p xml:lang="ro">Corectarea detecției managerului de afișare în schimbătorul de limbă pe KDE.</p>
+        <ul xml:lang="ro">
+          <li>Schimbătorul de limbă detectează acum managerul de afișare activ cu systemctl is-active și îl repornește direct: plasmalogin pe Tyson RC1, sddm pe ISO-urile beta, display-manager.service ca ultimă soluție.</li>
+          <li>Rezolvă wallpaper-ul Breeze pe plasmalogin și cascada de crash-uri ksplashqml pe VirtualBox după o schimbare de limbă la cald.</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.0.2-3" date="2026-06-23">
       <description>
         <p>Ghostty set as default terminal for CHROOT recovery across all three distros.</p>
