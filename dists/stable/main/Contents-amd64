@@ -1433,6 +1433,7 @@ usr/share/soplos-welcome/assets/icons/browsers/chromium.png	    utils/soplos-wel
 usr/share/soplos-welcome/assets/icons/browsers/epiphany.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/falkon.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/firefox.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/browsers/helium.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/librewolf.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/midori.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/browsers/opera-gx.png	    utils/soplos-welcome
@@ -1628,7 +1629,6 @@ usr/share/soplos-welcome/services/davinci-gpu-patch.sh	    utils/soplos-welcome
 usr/share/soplos-welcome/services/davinci-virtual-mic.sh	    utils/soplos-welcome
 usr/share/soplos-welcome/services/lutris-vulkan-patch.sh	    utils/soplos-welcome
 usr/share/soplos-welcome/services/makeresolvedeb_1.10.0_multi.sh	    utils/soplos-welcome
-usr/share/soplos-welcome/services/makeresolvedeb_1.9.0_multi.sh	    utils/soplos-welcome
 usr/share/soplos-welcome/services/ppsspp-lutris-runner.sh	    utils/soplos-welcome
 usr/share/soplos-welcome/services/gaming/amd-env.conf	    utils/soplos-welcome
 usr/share/soplos-welcome/services/gaming/amd-modprobe.conf	    utils/soplos-welcome

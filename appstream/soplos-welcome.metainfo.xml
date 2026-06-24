@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.0-1" date="2026-06-24">
+        <description>
+          <p xml:lang="en">Added AMD Extras section with ROCm OpenCL and ROCm Full Suite (official AMD repo, RDNA1+ GPUs). Added Helium browser to Recommended tab. NVIDIA Extras buttons now show checkmark when installed. LACT removed from Drivers tab (available in Recommended). VirtualBox Guest Additions updated to 7.2.10. Asset permissions normalized.</p>
+          <p xml:lang="es">Añadida sección AMD Extras con ROCm OpenCL y ROCm Full Suite (repositorio oficial AMD, GPUs RDNA1+). Añadido navegador Helium a la pestaña de Recomendados. Los botones de NVIDIA Extras ahora muestran palomilla cuando están instalados. LACT eliminado de Controladores (disponible en Recomendados). VirtualBox Guest Additions actualizado a 7.2.10. Permisos de assets normalizados.</p>
+          <p xml:lang="fr">Ajout de la section AMD Extras avec ROCm OpenCL et ROCm Full Suite (dépôt officiel AMD, GPU RDNA1+). Ajout du navigateur Helium dans l'onglet Recommandés. Les boutons NVIDIA Extras affichent maintenant une coche quand ils sont installés. LACT supprimé de Pilotes (disponible dans Recommandés). VirtualBox Guest Additions mis à jour en 7.2.10. Permissions des assets normalisées.</p>
+          <p xml:lang="pt">Adicionada secção AMD Extras com ROCm OpenCL e ROCm Full Suite (repositório oficial AMD, GPUs RDNA1+). Adicionado browser Helium ao separador Recomendados. Os botões NVIDIA Extras mostram agora marca de verificação quando instalados. LACT removido de Controladores (disponível em Recomendados). VirtualBox Guest Additions atualizado para 7.2.10. Permissões dos assets normalizadas.</p>
+          <p xml:lang="de">AMD-Extras-Bereich mit ROCm OpenCL und ROCm Full Suite hinzugefügt (offizielles AMD-Repository, RDNA1+-GPUs). Helium-Browser zur Empfehlungen-Registerkarte hinzugefügt. NVIDIA-Extras-Schaltflächen zeigen jetzt ein Häkchen, wenn sie installiert sind. LACT aus Treibern entfernt (in Empfehlungen verfügbar). VirtualBox Guest Additions auf 7.2.10 aktualisiert. Asset-Berechtigungen normalisiert.</p>
+          <p xml:lang="it">Aggiunta sezione AMD Extras con ROCm OpenCL e ROCm Full Suite (repository ufficiale AMD, GPU RDNA1+). Aggiunto browser Helium alla scheda Raccomandati. I pulsanti NVIDIA Extras mostrano ora un segno di spunta quando installati. LACT rimosso da Driver (disponibile in Raccomandati). VirtualBox Guest Additions aggiornato a 7.2.10. Permessi degli asset normalizzati.</p>
+          <p xml:lang="ru">Добавлен раздел AMD Extras с ROCm OpenCL и ROCm Full Suite (официальный репозиторий AMD, GPU RDNA1+). Добавлен браузер Helium во вкладку Рекомендованных. Кнопки NVIDIA Extras теперь показывают отметку при установке. LACT удалён из Драйверов (доступен в Рекомендованных). VirtualBox Guest Additions обновлён до 7.2.10. Права доступа к ресурсам нормализованы.</p>
+          <p xml:lang="ro">Adăugată secțiunea AMD Extras cu ROCm OpenCL și ROCm Full Suite (depozit oficial AMD, GPU-uri RDNA1+). Adăugat browserul Helium în fila Recomandate. Butoanele NVIDIA Extras afișează acum o bifă când sunt instalate. LACT eliminat din Drivere (disponibil în Recomandate). VirtualBox Guest Additions actualizat la 7.2.10. Permisiunile resurselor normalizate.</p>
+        </description>
+      </release>
       <release version="2.1.0" date="2026-06-20">
         <description>
           <p xml:lang="en">Added NVIDIA 610 driver (Blackwell and newer: RTX 50/60 series) via CUDA repo for Debian 13. NVIDIA 590 renamed to Stable. Added Gaming Mode link on the home screen.</p>
