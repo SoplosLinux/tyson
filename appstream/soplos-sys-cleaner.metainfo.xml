@@ -257,6 +257,43 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.2-7" date="2026-06-24">
+      <description>
+        <p>Bug fix release: VirtualBox (and other hypervisor) guest service files are no longer shown as orphaned when running inside a virtual machine. Duplicate entries for the same file are also fixed.</p>
+        <p xml:lang="es">Versión de correcciones: los archivos de servicios guest de VirtualBox (y otros hipervisores) ya no se muestran como huérfanos cuando el sistema corre dentro de una máquina virtual. También se corrigen las entradas duplicadas para el mismo archivo.</p>
+        <p xml:lang="fr">Version de corrections : les fichiers de services invités VirtualBox (et autres hyperviseurs) ne sont plus affichés comme orphelins lors de l'exécution dans une machine virtuelle. Les entrées en double pour le même fichier sont également corrigées.</p>
+        <p xml:lang="de">Fehlerbehebungsversion: VirtualBox- (und andere Hypervisor-) Gast-Service-Dateien werden nicht mehr als verwaist angezeigt, wenn das System in einer virtuellen Maschine läuft. Doppelte Einträge für dieselbe Datei werden ebenfalls behoben.</p>
+        <p xml:lang="pt">Versão de correções: os ficheiros de serviços guest do VirtualBox (e outros hipervisores) já não são mostrados como órfãos quando o sistema corre numa máquina virtual. As entradas duplicadas para o mesmo ficheiro também são corrigidas.</p>
+        <p xml:lang="it">Versione di correzioni: i file di servizi guest di VirtualBox (e altri hypervisor) non vengono più mostrati come orfani quando il sistema è in esecuzione in una macchina virtuale. Vengono corrette anche le voci duplicate per lo stesso file.</p>
+        <p xml:lang="ro">Versiune de remedieri: fișierele de servicii guest VirtualBox (și ale altor hipervizoare) nu mai sunt afișate ca orfane când sistemul rulează într-o mașină virtuală. Intrările duplicate pentru același fișier sunt de asemenea remediate.</p>
+        <p xml:lang="ru">Версия исправлений: файлы гостевых служб VirtualBox (и других гипервизоров) больше не отображаются как осиротевшие при работе внутри виртуальной машины. Также исправлены дублирующиеся записи для одного и того же файла.</p>
+        <ul>
+          <li>Fixed: VirtualBox guest service files (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) shown as orphaned when running inside VirtualBox — orphan detector now receives vm_guest_type from systemd-detect-virt and protects all files belonging to the current guest platform (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li>Fixed: 98vboxadd-xclient appeared twice in the orphaned list — /etc/X11/Xsession.d/98vboxadd-xclient was listed in both virtualbox-guest-x11 and virtualbox-guest-utils entries; added path deduplication so each file is reported at most once</li>
+
+          <li xml:lang="es">Corregido: los archivos de servicios guest de VirtualBox (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) se mostraban como huérfanos al correr dentro de VirtualBox — el detector de huérfanos ahora recibe vm_guest_type de systemd-detect-virt y protege todos los archivos de la plataforma guest actual (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li xml:lang="es">Corregido: 98vboxadd-xclient aparecía dos veces en la lista de huérfanos — /etc/X11/Xsession.d/98vboxadd-xclient estaba en las entradas de virtualbox-guest-x11 y virtualbox-guest-utils; añadida deduplicación por path para que cada archivo aparezca como máximo una vez</li>
+
+          <li xml:lang="fr">Corrigé : les fichiers de services invités VirtualBox (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) s'affichaient comme orphelins lors de l'exécution dans VirtualBox — le détecteur d'orphelins reçoit maintenant vm_guest_type de systemd-detect-virt et protège tous les fichiers de la plateforme invitée actuelle (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li xml:lang="fr">Corrigé : 98vboxadd-xclient apparaissait deux fois dans la liste des orphelins — /etc/X11/Xsession.d/98vboxadd-xclient était listé dans les entrées de virtualbox-guest-x11 et virtualbox-guest-utils ; déduplication par chemin ajoutée pour que chaque fichier n'apparaisse qu'une fois</li>
+
+          <li xml:lang="de">Behoben: VirtualBox-Gast-Servicedateien (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) wurden als verwaist angezeigt, wenn das System in VirtualBox lief — der Waisen-Detektor empfängt jetzt vm_guest_type von systemd-detect-virt und schützt alle Dateien der aktuellen Gast-Plattform (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li xml:lang="de">Behoben: 98vboxadd-xclient erschien zweimal in der Waisenliste — /etc/X11/Xsession.d/98vboxadd-xclient war in den Einträgen für virtualbox-guest-x11 und virtualbox-guest-utils aufgeführt; Pfad-Deduplizierung hinzugefügt, damit jede Datei höchstens einmal gemeldet wird</li>
+
+          <li xml:lang="pt">Corrigido: os ficheiros de serviços guest do VirtualBox (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) eram mostrados como órfãos ao correr dentro do VirtualBox — o detector de órfãos recebe agora vm_guest_type do systemd-detect-virt e protege todos os ficheiros da plataforma guest atual (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li xml:lang="pt">Corrigido: 98vboxadd-xclient aparecia duas vezes na lista de órfãos — /etc/X11/Xsession.d/98vboxadd-xclient estava listado nas entradas de virtualbox-guest-x11 e virtualbox-guest-utils; adicionada deduplicação por path para que cada ficheiro apareça no máximo uma vez</li>
+
+          <li xml:lang="it">Corretto: i file di servizi guest di VirtualBox (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) venivano mostrati come orfani quando il sistema era in esecuzione in VirtualBox — il rilevatore di orfani riceve ora vm_guest_type da systemd-detect-virt e protegge tutti i file della piattaforma guest corrente (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li xml:lang="it">Corretto: 98vboxadd-xclient appariva due volte nell'elenco degli orfani — /etc/X11/Xsession.d/98vboxadd-xclient era elencato nelle voci di virtualbox-guest-x11 e virtualbox-guest-utils; aggiunta deduplicazione per percorso affinché ogni file venga segnalato al massimo una volta</li>
+
+          <li xml:lang="ro">Rezolvat: fișierele de servicii guest VirtualBox (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) erau afișate ca orfane când sistemul rula în VirtualBox — detectorul de orfane primește acum vm_guest_type de la systemd-detect-virt și protejează toate fișierele platformei guest curente (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li xml:lang="ro">Rezolvat: 98vboxadd-xclient apărea de două ori în lista de orfane — /etc/X11/Xsession.d/98vboxadd-xclient era listat atât în intrările virtualbox-guest-x11 cât și virtualbox-guest-utils; adăugată deduplicare după cale pentru ca fiecare fișier să fie raportat cel mult o dată</li>
+
+          <li xml:lang="ru">Исправлено: файлы гостевых служб VirtualBox (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) отображались как осиротевшие при работе внутри VirtualBox — детектор осиротевших файлов теперь получает vm_guest_type от systemd-detect-virt и защищает все файлы текущей гостевой платформы (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li xml:lang="ru">Исправлено: 98vboxadd-xclient появлялся дважды в списке осиротевших файлов — /etc/X11/Xsession.d/98vboxadd-xclient был перечислен в записях и virtualbox-guest-x11, и virtualbox-guest-utils; добавлена дедупликация по пути, чтобы каждый файл сообщался не более одного раза</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.2-6" date="2026-06-14">
       <description>
         <p>Bug fix release: SPICE guest tools (spice-vdagent, spice-webdavd) are no longer shown as removable when running inside a KVM/QEMU virtual machine in virt-manager.</p>

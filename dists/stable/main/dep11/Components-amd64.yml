@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260624T122323
+Time: 20260624T205307
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -2875,6 +2875,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-sys-cleaner/issues
 Releases:
+  - version: 1.0.2-7
+    date: '2026-06-24'
+    type: stable
+    description:
+      C: |-
+        Bug fix release: VirtualBox (and other hypervisor) guest service files are no longer shown as orphaned when running inside a virtual machine. Duplicate entries for the same file are also fixed.
+      es: |-
+        Versión de correcciones: los archivos de servicios guest de VirtualBox (y otros hipervisores) ya no se muestran como huérfanos cuando el sistema corre dentro de una máquina virtual. También se corrigen las entradas duplicadas para el mismo archivo.
+      fr: |-
+        Version de corrections : les fichiers de services invités VirtualBox (et autres hyperviseurs) ne sont plus affichés comme orphelins lors de l'exécution dans une machine virtuelle. Les entrées en double pour le même fichier sont également corrigées.
+      de: |-
+        Fehlerbehebungsversion: VirtualBox- (und andere Hypervisor-) Gast-Service-Dateien werden nicht mehr als verwaist angezeigt, wenn das System in einer virtuellen Maschine läuft. Doppelte Einträge für dieselbe Datei werden ebenfalls behoben.
+      pt: |-
+        Versão de correções: os ficheiros de serviços guest do VirtualBox (e outros hipervisores) já não são mostrados como órfãos quando o sistema corre numa máquina virtual. As entradas duplicadas para o mesmo ficheiro também são corrigidas.
+      it: |-
+        Versione di correzioni: i file di servizi guest di VirtualBox (e altri hypervisor) non vengono più mostrati come orfani quando il sistema è in esecuzione in una macchina virtuale. Vengono corrette anche le voci duplicate per lo stesso file.
+      ro: |-
+        Versiune de remedieri: fișierele de servicii guest VirtualBox (și ale altor hipervizoare) nu mai sunt afișate ca orfane când sistemul rulează într-o mașină virtuală. Intrările duplicate pentru același fișier sunt de asemenea remediate.
+      ru: |-
+        Версия исправлений: файлы гостевых служб VirtualBox (и других гипервизоров) больше не отображаются как осиротевшие при работе внутри виртуальной машины. Также исправлены дублирующиеся записи для одного и того же файла.
   - version: 1.0.2-6
     date: '2026-06-14'
     type: stable

@@ -312,17 +312,17 @@ MD5sum: 18889dc4feaf9d20ab1f3cb04b88d33c
 Description: Advanced APT repository manager for Soplos Linux
 
 Package: soplos-sys-cleaner
-Version: 1.0.2-6
+Version: 1.0.2-7
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3-all, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-sys-cleaner/soplos-sys-cleaner_1.0.2-6_all.deb
-Size: 1094376
-SHA256: adf4784f98987013b7b8c079b86857bfa5711e84aea3433d44655fa8ecf464e6
-SHA1: 6c94c3093d84c1aaaab04f749ab852cbf376dfe2
-MD5sum: 3e11a70a391384f6bcf9aed83c11d315
+Filename: pool/main/s/soplos-sys-cleaner/soplos-sys-cleaner_1.0.2-7_all.deb
+Size: 1096640
+SHA256: cf61139547b2f93758da1cf26e8a2619c7ed7ddaab4aede6f60550f5ebaeccd8
+SHA1: 8846cecca6665a882ce86387b44ff7d65a5c28a3
+MD5sum: f937230c03ab107d09b1725e353f5738
 Description: System cleaner and optimizer for Soplos Linux
 
 Package: soplos-system-service
