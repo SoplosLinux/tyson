@@ -257,6 +257,28 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.2-9" date="2026-06-29">
+      <description>
+        <p>Security and logic fix: Protected active Soplos kernel DKMS modules (NVIDIA, v4l2loopback) from being incorrectly flagged as orphans.</p>
+        <p xml:lang="es">Corrección de seguridad y lógica: Protección de los módulos DKMS activos del kernel de Soplos (NVIDIA, v4l2loopback) para evitar que se marquen incorrectamente como huérfanos.</p>
+        <p xml:lang="fr">Correction de sécurité et de logique : Protection des modules DKMS actifs du noyau Soplos (NVIDIA, v4l2loopback) pour éviter qu'ils ne soient signalés à tort comme orphelins.</p>
+        <p xml:lang="de">Sicherheits- und Logik-Fix: Schutz aktiver Soplos-Kernel-DKMS-Module (NVIDIA, v4l2loopback) vor fälschlicher Markierung als Waisen.</p>
+        <p xml:lang="pt">Correção de segurança e lógica: Proteção de módulos DKMS ativos do kernel Soplos (NVIDIA, v4l2loopback) para evitar que sejam marcados incorretamente como órfãos.</p>
+        <p xml:lang="it">Correzione di sicurezza e logica: Protezione dei moduli DKMS attivi del kernel Soplos (NVIDIA, v4l2loopback) per evitare che vengano erroneamente segnalati come orfani.</p>
+        <p xml:lang="ro">Remediere de securitate și logică: Protejarea modulelor DKMS active ale nucleului Soplos (NVIDIA, v4l2loopback) pentru a preveni marcarea incorectă a acestora ca fiind orfane.</p>
+        <p xml:lang="ru">Исправление безопасности и логики: Защита активных DKMS-модулей ядра Soplos (NVIDIA, v4l2loopback) от ошибочной пометки как сирот.</p>
+        <ul>
+          <li>Fixed: DKMS orphan scanner incorrectly handled Soplos kernel versions causing false positives</li>
+          <li xml:lang="es">Corregido: el escáner de huérfanos DKMS manejaba incorrectamente las versiones del kernel de Soplos causando falsos positivos</li>
+          <li xml:lang="fr">Corrigé : le scanner d'orphelins DKMS gérait mal les versions du noyau Soplos, causant des faux positifs</li>
+          <li xml:lang="de">Behoben: Der DKMS-Waisen-Scanner behandelte Soplos-Kernel-Versionen falsch, was zu falschen Positiven führte</li>
+          <li xml:lang="pt">Corrigido: o scanner de órfãos DKMS lidava incorretamente com versões do kernel Soplos, causando falsos positivos</li>
+          <li xml:lang="it">Corretto: lo scanner degli orfani DKMS gestiva in modo errato le versioni del kernel Soplos causando falsi positivi</li>
+          <li xml:lang="ro">Remediat: scanerul de orfani DKMS a tratat incorect versiunile de nucleu Soplos, cauzând rezultate fals pozitive</li>
+          <li xml:lang="ru">Исправлено: сканер осиротевших модулей DKMS неправильно обрабатывал версии ядра Soplos, вызывая ложные срабатывания</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.2-8" date="2026-06-29">
       <description>
         <p>Bug fix release: 10 correctness bugs fixed across the kernel scanner, DKMS orphan detector, APT cache cleaner, hardware detection label, locale size scanner, modprobe detection, and driver removal flow.</p>

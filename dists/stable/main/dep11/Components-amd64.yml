@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260629T002112
+Time: 20260629T011631
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -2897,6 +2897,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-sys-cleaner/issues
 Releases:
+  - version: 1.0.2-9
+    date: '2026-06-29'
+    type: stable
+    description:
+      C: |-
+        Security and logic fix: Protected active Soplos kernel DKMS modules (NVIDIA, v4l2loopback) from being incorrectly flagged as orphans.
+      es: |-
+        Corrección de seguridad y lógica: Protección de los módulos DKMS activos del kernel de Soplos (NVIDIA, v4l2loopback) para evitar que se marquen incorrectamente como huérfanos.
+      fr: |-
+        Correction de sécurité et de logique : Protection des modules DKMS actifs du noyau Soplos (NVIDIA, v4l2loopback) pour éviter qu'ils ne soient signalés à tort comme orphelins.
+      de: |-
+        Sicherheits- und Logik-Fix: Schutz aktiver Soplos-Kernel-DKMS-Module (NVIDIA, v4l2loopback) vor fälschlicher Markierung als Waisen.
+      pt: |-
+        Correção de segurança e lógica: Proteção de módulos DKMS ativos do kernel Soplos (NVIDIA, v4l2loopback) para evitar que sejam marcados incorretamente como órfãos.
+      it: |-
+        Correzione di sicurezza e logica: Protezione dei moduli DKMS attivi del kernel Soplos (NVIDIA, v4l2loopback) per evitare che vengano erroneamente segnalati come orfani.
+      ro: |-
+        Remediere de securitate și logică: Protejarea modulelor DKMS active ale nucleului Soplos (NVIDIA, v4l2loopback) pentru a preveni marcarea incorectă a acestora ca fiind orfane.
+      ru: |-
+        Исправление безопасности и логики: Защита активных DKMS-модулей ядра Soplos (NVIDIA, v4l2loopback) от ошибочной пометки как сирот.
   - version: 1.0.2-8
     date: '2026-06-29'
     type: stable
