@@ -257,6 +257,116 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.2-8" date="2026-06-29">
+      <description>
+        <p>Bug fix release: 10 correctness bugs fixed across the kernel scanner, DKMS orphan detector, APT cache cleaner, hardware detection label, locale size scanner, modprobe detection, and driver removal flow.</p>
+        <p xml:lang="es">Versión de correcciones: 10 bugs de corrección en el escáner de kernels, detector de huérfanos DKMS, limpiador de caché APT, label de detección de hardware, escáner de tamaño de locales, detección de modprobe y flujo de eliminación de drivers.</p>
+        <p xml:lang="fr">Version de corrections : 10 bugs de correction dans le scanner de noyaux, le détecteur d'orphelins DKMS, le nettoyeur de cache APT, le label de détection matérielle, le scanner de taille des locales, la détection de modprobe et le flux de suppression des pilotes.</p>
+        <p xml:lang="de">Fehlerbehebungsversion: 10 Korrektheitsfehler behoben im Kernel-Scanner, DKMS-Waisen-Detektor, APT-Cache-Reiniger, Hardware-Erkennungslabel, Locale-Größen-Scanner, Modprobe-Erkennung und Treiber-Entfernungsablauf.</p>
+        <p xml:lang="pt">Versão de correções: 10 bugs de correção no scanner de kernels, detector de órfãos DKMS, limpador de cache APT, label de deteção de hardware, scanner de tamanho de locales, deteção de modprobe e fluxo de remoção de drivers.</p>
+        <p xml:lang="it">Versione di correzioni: 10 bug di correttezza corretti nel scanner dei kernel, rilevatore di orfani DKMS, pulitore della cache APT, etichetta di rilevamento hardware, scanner delle dimensioni delle locale, rilevamento modprobe e flusso di rimozione dei driver.</p>
+        <p xml:lang="ro">Versiune de remedieri: 10 erori de corectitudine remediate în scannerul de nuclee, detectorul de orfani DKMS, curățătorul cache-ului APT, eticheta de detectare hardware, scannerul de dimensiune locale, detectarea modprobe și fluxul de eliminare a driverelor.</p>
+        <p xml:lang="ru">Версия исправлений: исправлено 10 ошибок корректности в сканере ядер, детекторе осиротевших DKMS-модулей, очистителе кэша APT, метке обнаружения оборудования, сканере размеров локалей, обнаружении modprobe и потоке удаления драйверов.</p>
+        <ul>
+          <li>Fixed: kernel active detection used substring match — old kernel could be marked as active and protected from removal</li>
+          <li>Fixed: _clean_file in root_helper mishandled commented module lines — orphaned comments not removed, valid comments incorrectly deleted</li>
+          <li>Fixed: clean_module_refs and apt_autoremove dispatched concurrently to root_helper, causing JSON protocol corruption on the stdin/stdout pipe</li>
+          <li>Fixed: hardware detection label included non-GPU PCI vendors (e.g. virtio devices on KVM hosts shown as QEMU/KVM GPU)</li>
+          <li>Fixed: VM guest type (VirtualBox, VMware, Hyper-V etc.) was never shown in the Detected hardware label</li>
+          <li>Fixed: locale sizes reported as 0 KB when du returned exit code 1 on partial read errors — locales disappeared from the cleanup list</li>
+          <li>Fixed: DKMS orphan scanner only checked the running kernel — compiled modules for other installed kernels were never detected</li>
+          <li>Fixed: apt_purge was dispatched after a failed DKMS cleanup step, leaving the system with purged packages but an outdated initrd. Also fixed: rebuild_initrd is now True when APT packages follow a successful DKMS step</li>
+          <li>Fixed: module name detection in modprobe.d used plain substring — 'wl' matched inside 'brcmwl', potentially deleting valid config files. Now uses word-boundary regex</li>
+          <li>Fixed: service/autostart files flagged as orphaned when a co-owning package was still installed — vboxadd.service appeared as orphan when virtualbox-guest-utils was removed but virtualbox-guest-dkms was still present, causing DKMS to keep compiling vboxguest</li>
+
+          <li xml:lang="es">Corregido: la detección del kernel activo usaba comparación por subcadena — un kernel antiguo podía marcarse como activo y protegerse de la eliminación</li>
+          <li xml:lang="es">Corregido: _clean_file en root_helper manejaba mal las líneas de módulos comentadas — los comentarios huérfanos no se eliminaban y los comentarios válidos se borraban incorrectamente</li>
+          <li xml:lang="es">Corregido: clean_module_refs y apt_autoremove se enviaban concurrentemente al root_helper, causando corrupción del protocolo JSON en el pipe stdin/stdout</li>
+          <li xml:lang="es">Corregido: el label de detección de hardware incluía vendors PCI que no son GPU (p. ej. dispositivos virtio en hosts KVM mostrados como GPU QEMU/KVM)</li>
+          <li xml:lang="es">Corregido: el tipo de VM guest (VirtualBox, VMware, Hyper-V, etc.) nunca se mostraba en el label Hardware detectado</li>
+          <li xml:lang="es">Corregido: los tamaños de locale se reportaban como 0 KB cuando du devolvía código 1 por errores parciales de lectura — las locales desaparecían de la lista de limpieza</li>
+          <li xml:lang="es">Corregido: el scanner de módulos DKMS huérfanos solo comprobaba el kernel activo — los módulos compilados para otros kernels instalados nunca se detectaban</li>
+          <li xml:lang="es">Corregido: apt_purge se ejecutaba tras un paso DKMS fallido, dejando el sistema con paquetes eliminados pero initrd obsoleto. También corregido: rebuild_initrd es ahora True cuando los paquetes APT siguen a un paso DKMS exitoso</li>
+          <li xml:lang="es">Corregido: la detección de módulos en modprobe.d usaba subcadena pura — 'wl' coincidía dentro de 'brcmwl', pudiendo borrar archivos de configuración válidos. Ahora usa regex de límite de palabra</li>
+          <li xml:lang="es">Corregido: archivos de servicio/autostart marcados como huérfanos cuando un paquete co-propietario seguía instalado — vboxadd.service aparecía como huérfano cuando virtualbox-guest-utils se eliminaba pero virtualbox-guest-dkms seguía presente, haciendo que DKMS siguiera compilando vboxguest</li>
+
+          <li xml:lang="fr">Corrigé : la détection du noyau actif utilisait une correspondance par sous-chaîne — un ancien noyau pouvait être marqué comme actif et protégé contre la suppression</li>
+          <li xml:lang="fr">Corrigé : _clean_file dans root_helper gérait mal les lignes de modules commentées — les commentaires orphelins n'étaient pas supprimés et les commentaires valides étaient incorrectement effacés</li>
+          <li xml:lang="fr">Corrigé : clean_module_refs et apt_autoremove étaient envoyés simultanément au root_helper, causant une corruption du protocole JSON sur le pipe stdin/stdout</li>
+          <li xml:lang="fr">Corrigé : l'étiquette de détection matérielle incluait des vendeurs PCI non-GPU (ex. dispositifs virtio sur hôtes KVM affichés comme GPU QEMU/KVM)</li>
+          <li xml:lang="fr">Corrigé : le type de VM invitée (VirtualBox, VMware, Hyper-V, etc.) n'était jamais affiché dans l'étiquette Matériel détecté</li>
+          <li xml:lang="fr">Corrigé : les tailles des locales étaient rapportées comme 0 Ko quand du retournait le code 1 pour des erreurs de lecture partielles — les locales disparaissaient de la liste de nettoyage</li>
+          <li xml:lang="fr">Corrigé : le scanner de modules DKMS orphelins ne vérifiait que le noyau actif — les modules compilés pour d'autres noyaux installés n'étaient jamais détectés</li>
+          <li xml:lang="fr">Corrigé : apt_purge était exécuté après un échec de l'étape DKMS, laissant le système avec des paquets supprimés mais un initrd obsolète. Aussi corrigé : rebuild_initrd est maintenant True quand des paquets APT suivent une étape DKMS réussie</li>
+          <li xml:lang="fr">Corrigé : la détection des modules dans modprobe.d utilisait une sous-chaîne — 'wl' correspondait dans 'brcmwl', pouvant supprimer des fichiers de configuration valides. Utilise maintenant une regex de limite de mot</li>
+          <li xml:lang="fr">Corrigé : fichiers de service/autostart marqués comme orphelins quand un paquet co-propriétaire était encore installé — vboxadd.service apparaissait comme orphelin quand virtualbox-guest-utils était supprimé mais virtualbox-guest-dkms était encore présent, causant la recompilation de vboxguest par DKMS</li>
+
+          <li xml:lang="de">Behoben: Kernel-Aktiverkennung verwendete Teilstring-Vergleich — ein alter Kernel konnte als aktiv markiert und vor der Entfernung geschützt werden</li>
+          <li xml:lang="de">Behoben: _clean_file in root_helper behandelte kommentierte Modulzeilen falsch — verwaiste Kommentare wurden nicht entfernt, gültige Kommentare fälschlicherweise gelöscht</li>
+          <li xml:lang="de">Behoben: clean_module_refs und apt_autoremove wurden gleichzeitig an root_helper gesendet, was zu JSON-Protokollkorruption auf dem stdin/stdout-Pipe führte</li>
+          <li xml:lang="de">Behoben: Hardware-Erkennungslabel enthielt Nicht-GPU-PCI-Anbieter (z. B. Virtio-Geräte auf KVM-Hosts als QEMU/KVM-GPU angezeigt)</li>
+          <li xml:lang="de">Behoben: VM-Gast-Typ (VirtualBox, VMware, Hyper-V usw.) wurde nie im Label "Erkannte Hardware" angezeigt</li>
+          <li xml:lang="de">Behoben: Locale-Größen wurden als 0 KB gemeldet, wenn du Code 1 bei partiellen Lesefehlern zurückgab — Locales verschwanden aus der Bereinigungsliste</li>
+          <li xml:lang="de">Behoben: DKMS-Waisen-Scanner prüfte nur den laufenden Kernel — kompilierte Module für andere installierte Kernel wurden nie erkannt</li>
+          <li xml:lang="de">Behoben: apt_purge wurde nach einem fehlgeschlagenen DKMS-Schritt ausgeführt, was das System mit entfernten Paketen aber veraltetem initrd zurückließ. Auch behoben: rebuild_initrd ist jetzt True, wenn APT-Pakete einem erfolgreichen DKMS-Schritt folgen</li>
+          <li xml:lang="de">Behoben: Modul-Erkennung in modprobe.d verwendete einfache Teilstring-Suche — 'wl' traf in 'brcmwl', konnte gültige Konfigurationsdateien löschen. Jetzt mit Wortgrenze-Regex</li>
+          <li xml:lang="de">Behoben: Service/Autostart-Dateien als verwaist markiert, wenn ein mitbesitzendes Paket noch installiert war — vboxadd.service erschien als verwaist wenn virtualbox-guest-utils entfernt aber virtualbox-guest-dkms noch vorhanden war, sodass DKMS vboxguest weiter kompilierte</li>
+
+          <li xml:lang="pt">Corrigido: a deteção do kernel ativo usava comparação por subcadeia — um kernel antigo podia ser marcado como ativo e protegido da remoção</li>
+          <li xml:lang="pt">Corrigido: _clean_file em root_helper tratava mal as linhas de módulos comentadas — comentários órfãos não eram removidos e comentários válidos eram incorretamente apagados</li>
+          <li xml:lang="pt">Corrigido: clean_module_refs e apt_autoremove eram enviados concorrentemente para o root_helper, causando corrupção do protocolo JSON no pipe stdin/stdout</li>
+          <li xml:lang="pt">Corrigido: o label de deteção de hardware incluía vendors PCI não-GPU (ex. dispositivos virtio em hosts KVM mostrados como GPU QEMU/KVM)</li>
+          <li xml:lang="pt">Corrigido: o tipo de VM convidada (VirtualBox, VMware, Hyper-V, etc.) nunca era mostrado no label Hardware detetado</li>
+          <li xml:lang="pt">Corrigido: os tamanhos de locale eram reportados como 0 KB quando du retornava código 1 por erros de leitura parciais — as locales desapareciam da lista de limpeza</li>
+          <li xml:lang="pt">Corrigido: o scanner de módulos DKMS órfãos só verificava o kernel ativo — módulos compilados para outros kernels instalados nunca eram detetados</li>
+          <li xml:lang="pt">Corrigido: apt_purge era executado após um passo DKMS falhado, deixando o sistema com pacotes removidos mas initrd desatualizado. Também corrigido: rebuild_initrd é agora True quando pacotes APT seguem um passo DKMS bem-sucedido</li>
+          <li xml:lang="pt">Corrigido: a deteção de módulos em modprobe.d usava subcadeia pura — 'wl' coincidia dentro de 'brcmwl', podendo apagar ficheiros de configuração válidos. Usa agora regex de limite de palavra</li>
+          <li xml:lang="pt">Corrigido: ficheiros de serviço/autostart marcados como órfãos quando um pacote co-proprietário ainda estava instalado — vboxadd.service aparecia como órfão quando virtualbox-guest-utils era removido mas virtualbox-guest-dkms ainda estava presente, fazendo o DKMS continuar a compilar vboxguest</li>
+
+          <li xml:lang="it">Corretto: il rilevamento del kernel attivo usava la corrispondenza per sottostringa — un kernel vecchio poteva essere contrassegnato come attivo e protetto dalla rimozione</li>
+          <li xml:lang="it">Corretto: _clean_file in root_helper gestiva male le righe di moduli commentate — i commenti orfani non venivano rimossi e i commenti validi venivano eliminati erroneamente</li>
+          <li xml:lang="it">Corretto: clean_module_refs e apt_autoremove venivano inviati contemporaneamente a root_helper, causando corruzione del protocollo JSON sulla pipe stdin/stdout</li>
+          <li xml:lang="it">Corretto: l'etichetta di rilevamento hardware includeva vendor PCI non-GPU (es. dispositivi virtio su host KVM mostrati come GPU QEMU/KVM)</li>
+          <li xml:lang="it">Corretto: il tipo di VM ospite (VirtualBox, VMware, Hyper-V, ecc.) non veniva mai mostrato nell'etichetta Hardware rilevato</li>
+          <li xml:lang="it">Corretto: le dimensioni delle locale venivano riportate come 0 KB quando du restituiva codice 1 per errori di lettura parziali — le locale sparivano dall'elenco di pulizia</li>
+          <li xml:lang="it">Corretto: lo scanner di moduli DKMS orfani controllava solo il kernel in esecuzione — i moduli compilati per altri kernel installati non venivano mai rilevati</li>
+          <li xml:lang="it">Corretto: apt_purge veniva eseguito dopo un passo DKMS fallito, lasciando il sistema con pacchetti rimossi ma initrd obsoleto. Anche corretto: rebuild_initrd è ora True quando i pacchetti APT seguono un passo DKMS riuscito</li>
+          <li xml:lang="it">Corretto: il rilevamento dei moduli in modprobe.d usava ricerca per sottostringa — 'wl' corrispondeva all'interno di 'brcmwl', potendo eliminare file di configurazione validi. Ora usa regex con limite di parola</li>
+          <li xml:lang="it">Corretto: file di servizio/autostart contrassegnati come orfani quando un pacchetto co-proprietario era ancora installato — vboxadd.service appariva come orfano quando virtualbox-guest-utils veniva rimosso ma virtualbox-guest-dkms era ancora presente, facendo sì che DKMS continuasse a compilare vboxguest</li>
+
+          <li xml:lang="ro">Rezolvat: detectarea kernelului activ folosea potrivire prin subșir — un nucleu vechi putea fi marcat ca activ și protejat de eliminare</li>
+          <li xml:lang="ro">Rezolvat: _clean_file în root_helper trata incorect liniile de module comentate — comentariile orfane nu erau eliminate și comentariile valide erau șterse incorect</li>
+          <li xml:lang="ro">Rezolvat: clean_module_refs și apt_autoremove erau trimise concurent la root_helper, cauzând coruperea protocolului JSON pe pipe-ul stdin/stdout</li>
+          <li xml:lang="ro">Rezolvat: eticheta de detectare hardware includea vendori PCI non-GPU (ex. dispozitive virtio pe gazde KVM afișate ca GPU QEMU/KVM)</li>
+          <li xml:lang="ro">Rezolvat: tipul de VM invitat (VirtualBox, VMware, Hyper-V etc.) nu era niciodată afișat în eticheta Hardware detectat</li>
+          <li xml:lang="ro">Rezolvat: dimensiunile locale erau raportate ca 0 KB când du returna codul 1 pentru erori de citire parțiale — localele dispăreau din lista de curățare</li>
+          <li xml:lang="ro">Rezolvat: scannerul de module DKMS orfane verifica doar nucleul activ — modulele compilate pentru alte nuclee instalate nu erau niciodată detectate</li>
+          <li xml:lang="ro">Rezolvat: apt_purge era executat după un pas DKMS eșuat, lăsând sistemul cu pachete eliminate dar initrd învechit. De asemenea rezolvat: rebuild_initrd este acum True când pachetele APT urmează un pas DKMS reușit</li>
+          <li xml:lang="ro">Rezolvat: detectarea modulelor în modprobe.d folosea subșir simplu — 'wl' se potrivea în 'brcmwl', putând șterge fișiere de configurare valide. Acum folosește regex cu limită de cuvânt</li>
+          <li xml:lang="ro">Rezolvat: fișierele de serviciu/autostart marcate ca orfane când un pachet co-proprietar era încă instalat — vboxadd.service apărea ca orfan când virtualbox-guest-utils era eliminat dar virtualbox-guest-dkms era încă prezent, făcând DKMS să continue să compileze vboxguest</li>
+
+          <li xml:lang="ru">Исправлено: обнаружение активного ядра использовало поиск подстроки — старое ядро могло быть помечено как активное и защищено от удаления</li>
+          <li xml:lang="ru">Исправлено: _clean_file в root_helper неправильно обрабатывал закомментированные строки модулей — осиротевшие комментарии не удалялись, а действительные комментарии ошибочно удалялись</li>
+          <li xml:lang="ru">Исправлено: clean_module_refs и apt_autoremove отправлялись в root_helper одновременно, вызывая повреждение протокола JSON в пайпе stdin/stdout</li>
+          <li xml:lang="ru">Исправлено: метка обнаружения оборудования включала PCI-вендоры не-GPU (напр. устройства virtio на KVM-хостах отображались как GPU QEMU/KVM)</li>
+          <li xml:lang="ru">Исправлено: тип гостевой ВМ (VirtualBox, VMware, Hyper-V и др.) никогда не отображался в метке «Обнаруженное оборудование»</li>
+          <li xml:lang="ru">Исправлено: размеры локалей сообщались как 0 КБ когда du возвращал код 1 при частичных ошибках чтения — локали исчезали из списка очистки</li>
+          <li xml:lang="ru">Исправлено: сканер осиротевших DKMS-модулей проверял только работающее ядро — скомпилированные модули для других установленных ядер никогда не обнаруживались</li>
+          <li xml:lang="ru">Исправлено: apt_purge выполнялся после неудачного шага DKMS, оставляя систему с удалёнными пакетами но устаревшим initrd. Также исправлено: rebuild_initrd теперь True когда пакеты APT следуют за успешным шагом DKMS</li>
+          <li xml:lang="ru">Исправлено: обнаружение модулей в modprobe.d использовало простой поиск подстроки — 'wl' совпадал внутри 'brcmwl', что могло удалять действительные файлы конфигурации. Теперь использует regex с границей слова</li>
+          <li xml:lang="ru">Исправлено: файлы служб/автозапуска помечались как осиротевшие когда совладелец-пакет был ещё установлен — vboxadd.service появлялся как осиротевший когда virtualbox-guest-utils удалялся но virtualbox-guest-dkms ещё присутствовал, из-за чего DKMS продолжал компилировать vboxguest</li>
+
+          <li>Fixed: CPU temperature always showed 20°C on boards where thermal_zone0 maps to acpitz (a stub driver). The overview panel now searches /sys/class/hwmon/ prioritizing k10temp (AMD Tctl), then coretemp (Intel Package/Core 0), then other common drivers, falling back to acpitz/thermal_zone only as a last resort</li>
+          <li xml:lang="es">Corregido: la temperatura de CPU siempre mostraba 20°C en placas donde thermal_zone0 mapea a acpitz (un driver stub). El panel de resumen ahora busca en /sys/class/hwmon/ priorizando k10temp (AMD Tctl), luego coretemp (Intel Package/Core 0), luego otros drivers comunes, usando acpitz/thermal_zone solo como último recurso</li>
+          <li xml:lang="fr">Corrigé : la température CPU affichait toujours 20°C sur les cartes où thermal_zone0 mappe sur acpitz (un pilote stub). Le panneau de résumé recherche maintenant dans /sys/class/hwmon/ en priorisant k10temp (AMD Tctl), puis coretemp (Intel Package/Core 0), puis d'autres pilotes courants, en utilisant acpitz/thermal_zone uniquement en dernier recours</li>
+          <li xml:lang="de">Behoben: CPU-Temperatur zeigte immer 20°C auf Boards, bei denen thermal_zone0 auf acpitz (einen Stub-Treiber) abbildet. Das Übersichtspanel sucht jetzt in /sys/class/hwmon/ und priorisiert k10temp (AMD Tctl), dann coretemp (Intel Package/Core 0), dann andere gängige Treiber, und verwendet acpitz/thermal_zone nur als letzten Ausweg</li>
+          <li xml:lang="pt">Corrigido: a temperatura da CPU mostrava sempre 20°C em placas onde thermal_zone0 mapeia para acpitz (um driver stub). O painel de resumo procura agora em /sys/class/hwmon/ priorizando k10temp (AMD Tctl), depois coretemp (Intel Package/Core 0), depois outros drivers comuns, usando acpitz/thermal_zone apenas como último recurso</li>
+          <li xml:lang="it">Corretto: la temperatura della CPU mostrava sempre 20°C sulle schede dove thermal_zone0 mappa su acpitz (un driver stub). Il pannello di riepilogo cerca ora in /sys/class/hwmon/ dando priorità a k10temp (AMD Tctl), poi coretemp (Intel Package/Core 0), poi altri driver comuni, usando acpitz/thermal_zone solo come ultima risorsa</li>
+          <li xml:lang="ro">Rezolvat: temperatura CPU afișa întotdeauna 20°C pe plăcile unde thermal_zone0 mapează la acpitz (un driver stub). Panoul de rezumat caută acum în /sys/class/hwmon/ prioritizând k10temp (AMD Tctl), apoi coretemp (Intel Package/Core 0), apoi alți drivere comune, folosind acpitz/thermal_zone doar ca ultimă soluție</li>
+          <li xml:lang="ru">Исправлено: температура ЦП всегда показывала 20°C на платах где thermal_zone0 указывает на acpitz (заглушка-драйвер). Панель обзора теперь ищет в /sys/class/hwmon/ с приоритетом k10temp (AMD Tctl), затем coretemp (Intel Package/Core 0), затем другие распространённые драйверы, используя acpitz/thermal_zone только в крайнем случае</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.2-7" date="2026-06-24">
       <description>
         <p>Bug fix release: VirtualBox (and other hypervisor) guest service files are no longer shown as orphaned when running inside a virtual machine. Duplicate entries for the same file are also fixed.</p>

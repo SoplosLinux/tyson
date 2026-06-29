@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260625T065739
+Time: 20260629T002112
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1102,6 +1102,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.0-2
+    date: '2026-06-29'
+    type: stable
+    description:
+      en: |-
+        Fixed DKMS residual modules not cleaned before driver install or uninstall, causing "version not newer" conflicts. Fixed escaped-quote corruption in 590/610 repo setup scripts. Fixed ROCm codename detection (removed incorrect bookworm branch; Soplos is Trixie/Forky only).
+      es: |-
+        Corregida la limpieza de módulos DKMS residuales antes de instalar o desinstalar drivers, que causaba conflictos "version not newer". Corregida la corrupción de comillas en los scripts de configuración del repositorio 590/610. Corregida la detección del codename en ROCm (eliminada la rama bookworm incorrecta; Soplos es solo Trixie/Forky).
+      fr: |-
+        Correction du nettoyage des modules DKMS résiduels avant installation ou désinstallation du pilote, causant des conflits "version not newer". Correction de la corruption de guillemets dans les scripts de configuration des dépôts 590/610. Correction de la détection du nom de code ROCm (suppression de la branche bookworm incorrecte ; Soplos est uniquement Trixie/Forky).
+      pt: |-
+        Corrigida a limpeza de módulos DKMS residuais antes de instalar ou desinstalar drivers, causando conflitos "version not newer". Corrigida a corrupção de aspas nos scripts de configuração do repositório 590/610. Corrigida a deteção do codename no ROCm (removido o ramo bookworm incorreto; Soplos é apenas Trixie/Forky).
+      de: |-
+        Behobene Bereinigung von DKMS-Restmodulen vor der Treiberinstallation oder -deinstallation, die Konflikte "version not newer" verursachte. Behobene Anführungszeichen-Beschädigung in den Repo-Setup-Skripten für 590/610. Behobene ROCm-Codename-Erkennung (falschen bookworm-Zweig entfernt; Soplos ist nur Trixie/Forky).
+      it: |-
+        Corretta la pulizia dei moduli DKMS residui prima dell'installazione o disinstallazione del driver, che causava conflitti "version not newer". Corrotta la corruzione delle virgolette negli script di configurazione del repository 590/610. Correcto il rilevamento del codename ROCm (rimosso il ramo bookworm errato; Soplos è solo Trixie/Forky).
+      ru: |-
+        Исправлена очистка остаточных модулей DKMS перед установкой или удалением драйвера, вызывавшая конфликты "version not newer". Исправлено повреждение кавычек в скриптах настройки репозитория 590/610. Исправлено определение кодового имени ROCm (удалена некорректная ветка bookworm; Soplos — только Trixie/Forky).
+      ro: |-
+        Corectată curățarea modulelor DKMS reziduale înainte de instalarea sau dezinstalarea driverului, care provoca conflicte "version not newer". Corectată coruperea ghilimelelor în scripturile de configurare a depozitului 590/610. Corectată detectarea numelui de cod ROCm (ramura bookworm incorectă eliminată; Soplos este doar Trixie/Forky).
+      C: |-
+        Fixed DKMS residual modules not cleaned before driver install or uninstall, causing "version not newer" conflicts. Fixed escaped-quote corruption in 590/610 repo setup scripts. Fixed ROCm codename detection (removed incorrect bookworm branch; Soplos is Trixie/Forky only).
   - version: 2.1.0-1
     date: '2026-06-24'
     type: stable
@@ -2875,6 +2897,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-sys-cleaner/issues
 Releases:
+  - version: 1.0.2-8
+    date: '2026-06-29'
+    type: stable
+    description:
+      C: |-
+        Bug fix release: 10 correctness bugs fixed across the kernel scanner, DKMS orphan detector, APT cache cleaner, hardware detection label, locale size scanner, modprobe detection, and driver removal flow.
+      es: |-
+        Versión de correcciones: 10 bugs de corrección en el escáner de kernels, detector de huérfanos DKMS, limpiador de caché APT, label de detección de hardware, escáner de tamaño de locales, detección de modprobe y flujo de eliminación de drivers.
+      fr: |-
+        Version de corrections : 10 bugs de correction dans le scanner de noyaux, le détecteur d'orphelins DKMS, le nettoyeur de cache APT, le label de détection matérielle, le scanner de taille des locales, la détection de modprobe et le flux de suppression des pilotes.
+      de: |-
+        Fehlerbehebungsversion: 10 Korrektheitsfehler behoben im Kernel-Scanner, DKMS-Waisen-Detektor, APT-Cache-Reiniger, Hardware-Erkennungslabel, Locale-Größen-Scanner, Modprobe-Erkennung und Treiber-Entfernungsablauf.
+      pt: |-
+        Versão de correções: 10 bugs de correção no scanner de kernels, detector de órfãos DKMS, limpador de cache APT, label de deteção de hardware, scanner de tamanho de locales, deteção de modprobe e fluxo de remoção de drivers.
+      it: |-
+        Versione di correzioni: 10 bug di correttezza corretti nel scanner dei kernel, rilevatore di orfani DKMS, pulitore della cache APT, etichetta di rilevamento hardware, scanner delle dimensioni delle locale, rilevamento modprobe e flusso di rimozione dei driver.
+      ro: |-
+        Versiune de remedieri: 10 erori de corectitudine remediate în scannerul de nuclee, detectorul de orfani DKMS, curățătorul cache-ului APT, eticheta de detectare hardware, scannerul de dimensiune locale, detectarea modprobe și fluxul de eliminare a driverelor.
+      ru: |-
+        Версия исправлений: исправлено 10 ошибок корректности в сканере ядер, детекторе осиротевших DKMS-модулей, очистителе кэша APT, метке обнаружения оборудования, сканере размеров локалей, обнаружении modprobe и потоке удаления драйверов.
   - version: 1.0.2-7
     date: '2026-06-24'
     type: stable

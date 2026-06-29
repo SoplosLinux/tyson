@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.0-2" date="2026-06-29">
+        <description>
+          <p xml:lang="en">Fixed DKMS residual modules not cleaned before driver install or uninstall, causing "version not newer" conflicts. Fixed escaped-quote corruption in 590/610 repo setup scripts. Fixed ROCm codename detection (removed incorrect bookworm branch; Soplos is Trixie/Forky only).</p>
+          <p xml:lang="es">Corregida la limpieza de módulos DKMS residuales antes de instalar o desinstalar drivers, que causaba conflictos "version not newer". Corregida la corrupción de comillas en los scripts de configuración del repositorio 590/610. Corregida la detección del codename en ROCm (eliminada la rama bookworm incorrecta; Soplos es solo Trixie/Forky).</p>
+          <p xml:lang="fr">Correction du nettoyage des modules DKMS résiduels avant installation ou désinstallation du pilote, causant des conflits "version not newer". Correction de la corruption de guillemets dans les scripts de configuration des dépôts 590/610. Correction de la détection du nom de code ROCm (suppression de la branche bookworm incorrecte ; Soplos est uniquement Trixie/Forky).</p>
+          <p xml:lang="pt">Corrigida a limpeza de módulos DKMS residuais antes de instalar ou desinstalar drivers, causando conflitos "version not newer". Corrigida a corrupção de aspas nos scripts de configuração do repositório 590/610. Corrigida a deteção do codename no ROCm (removido o ramo bookworm incorreto; Soplos é apenas Trixie/Forky).</p>
+          <p xml:lang="de">Behobene Bereinigung von DKMS-Restmodulen vor der Treiberinstallation oder -deinstallation, die Konflikte "version not newer" verursachte. Behobene Anführungszeichen-Beschädigung in den Repo-Setup-Skripten für 590/610. Behobene ROCm-Codename-Erkennung (falschen bookworm-Zweig entfernt; Soplos ist nur Trixie/Forky).</p>
+          <p xml:lang="it">Corretta la pulizia dei moduli DKMS residui prima dell'installazione o disinstallazione del driver, che causava conflitti "version not newer". Corrotta la corruzione delle virgolette negli script di configurazione del repository 590/610. Correcto il rilevamento del codename ROCm (rimosso il ramo bookworm errato; Soplos è solo Trixie/Forky).</p>
+          <p xml:lang="ru">Исправлена очистка остаточных модулей DKMS перед установкой или удалением драйвера, вызывавшая конфликты "version not newer". Исправлено повреждение кавычек в скриптах настройки репозитория 590/610. Исправлено определение кодового имени ROCm (удалена некорректная ветка bookworm; Soplos — только Trixie/Forky).</p>
+          <p xml:lang="ro">Corectată curățarea modulelor DKMS reziduale înainte de instalarea sau dezinstalarea driverului, care provoca conflicte "version not newer". Corectată coruperea ghilimelelor în scripturile de configurare a depozitului 590/610. Corectată detectarea numelui de cod ROCm (ramura bookworm incorectă eliminată; Soplos este doar Trixie/Forky).</p>
+        </description>
+      </release>
       <release version="2.1.0-1" date="2026-06-24">
         <description>
           <p xml:lang="en">Added AMD Extras section with ROCm OpenCL and ROCm Full Suite (official AMD repo, RDNA1+ GPUs). Added Helium browser to Recommended tab. NVIDIA Extras buttons now show checkmark when installed. LACT removed from Drivers tab (available in Recommended). VirtualBox Guest Additions updated to 7.2.10. Asset permissions normalized.</p>
