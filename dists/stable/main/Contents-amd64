@@ -297,7 +297,6 @@ usr/share/locale/zh_CN/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manag
 usr/share/locale/zh_CN/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/zh_TW/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/zh_TW/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/maliit/keyboard2/devices/default.json	    utils/tablet-soplos
 usr/share/man/man1/soplos-appimage-manager.1.gz	    utils/soplos-appimage-manager
 usr/share/man/man1/soplos-grub-editor.1.gz	    utils/soplos-grub-editor
 usr/share/man/man1/soplos-kernel-installer.1.gz	    utils/soplos-kernel-installer

@@ -416,17 +416,17 @@ MD5sum: 662bfd104cc7f8ac62be2e5e3d5ce11e
 Description: Welcome application for Soplos Linux Live with CHROOT recovery and BTRFS support
 
 Package: tablet-soplos
-Version: 0.0.1
+Version: 0.0.1-2
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Depends: iio-sensor-proxy, maliit-keyboard
 Priority: optional
 Section: utils
-Filename: pool/main/t/tablet-soplos/tablet-soplos_0.0.1_all.deb
-Size: 1696
-SHA256: 91fda0ca03cab5d73c543f67eaee411ad410f340d00c74aff353dd70f33004f4
-SHA1: a89b02133cbafe4e723d63e0242def4972d7d3b7
-MD5sum: b1d037cb7a1166e56edfdf6541af58c6
+Filename: pool/main/t/tablet-soplos/tablet-soplos_0.0.1-2_all.deb
+Size: 1404
+SHA256: 2992054c8cfbd5a38e07ae3b261b094c996427eba847151a6ca5aca0c3d6e600
+SHA1: 2933eb3333d9146495a2ed3a103113cac634ffcf
+MD5sum: a630380273ceb4c747a0e57fd4af8692
 Description: Tablet and hybrid device support for Soplos Linux Tyson
  This package provides support for hybrid and tablet devices on Soplos Linux
  Tyson. Enables screen rotation via accelerometer, virtual keyboard with
