@@ -176,6 +176,42 @@
   </translation>
 
   <releases>
+    <release version="2.0.2-5" date="2026-07-06">
+      <description>
+        <p>Calamares launcher fix for KDE Plasma.</p>
+        <ul>
+          <li>Calamares is now launched with QT_STYLE_OVERRIDE=fusion on KDE Plasma to ensure correct rendering.</li>
+        </ul>
+        <p xml:lang="es">Corrección del lanzador de Calamares en KDE Plasma.</p>
+        <ul xml:lang="es">
+          <li>Calamares ahora se lanza con QT_STYLE_OVERRIDE=fusion en KDE Plasma para garantizar un renderizado correcto.</li>
+        </ul>
+        <p xml:lang="fr">Correction du lanceur Calamares pour KDE Plasma.</p>
+        <ul xml:lang="fr">
+          <li>Calamares est maintenant lancé avec QT_STYLE_OVERRIDE=fusion sur KDE Plasma pour garantir un rendu correct.</li>
+        </ul>
+        <p xml:lang="pt">Correção do lançador do Calamares no KDE Plasma.</p>
+        <ul xml:lang="pt">
+          <li>O Calamares agora é lançado com QT_STYLE_OVERRIDE=fusion no KDE Plasma para garantir uma renderização correta.</li>
+        </ul>
+        <p xml:lang="de">Korrektur des Calamares-Starters für KDE Plasma.</p>
+        <ul xml:lang="de">
+          <li>Calamares wird jetzt mit QT_STYLE_OVERRIDE=fusion unter KDE Plasma gestartet, um eine korrekte Darstellung sicherzustellen.</li>
+        </ul>
+        <p xml:lang="it">Correzione del launcher di Calamares per KDE Plasma.</p>
+        <ul xml:lang="it">
+          <li>Calamares viene ora avviato con QT_STYLE_OVERRIDE=fusion su KDE Plasma per garantire una resa corretta.</li>
+        </ul>
+        <p xml:lang="ru">Исправление запуска Calamares для KDE Plasma.</p>
+        <ul xml:lang="ru">
+          <li>Calamares теперь запускается с QT_STYLE_OVERRIDE=fusion в KDE Plasma для корректного отображения.</li>
+        </ul>
+        <p xml:lang="ro">Corectarea lansatorului Calamares pentru KDE Plasma.</p>
+        <ul xml:lang="ro">
+          <li>Calamares este acum lansat cu QT_STYLE_OVERRIDE=fusion pe KDE Plasma pentru a asigura o randare corectă.</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.0.2-4" date="2026-06-24">
       <description>
         <p>Display manager detection fix for language changer on KDE.</p>

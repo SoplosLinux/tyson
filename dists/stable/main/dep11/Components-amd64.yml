@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260706T091001
+Time: 20260706T111404
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1621,6 +1621,18 @@ Developer:
 Provides:
   - soplos-welcome-live
 Releases:
+  - version: 2.0.2-5
+    date: '2026-07-06'
+    type: stable
+    description:
+      C: Calamares launcher fix for KDE Plasma.
+      es: Corrección del lanzador de Calamares en KDE Plasma.
+      fr: Correction du lanceur Calamares pour KDE Plasma.
+      pt: Correção do lançador do Calamares no KDE Plasma.
+      de: Korrektur des Calamares-Starters für KDE Plasma.
+      it: Correzione del launcher di Calamares per KDE Plasma.
+      ru: Исправление запуска Calamares для KDE Plasma.
+      ro: Corectarea lansatorului Calamares pentru KDE Plasma.
   - version: 2.0.2-4
     date: '2026-06-24'
     type: stable
