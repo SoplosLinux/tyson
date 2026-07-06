@@ -1513,9 +1513,11 @@ usr/share/soplos-welcome/assets/icons/graphics/inkscape.png	    utils/soplos-wel
 usr/share/soplos-welcome/assets/icons/graphics/krita.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/rapidraw.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/rawtherapee.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/hardware/amdgpu-top.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/hardware/coolercontrol.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/hardware/cpupower.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/hardware/lact.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/hardware/nvtop.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/hardware/resources.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/kernels/org.soplos.kernel-installer.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/ardour.png	    utils/soplos-welcome

@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260704T113035
+Time: 20260706T091001
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1102,6 +1102,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.0-4
+    date: '2026-07-06'
+    type: stable
+    description:
+      en: |-
+        Added LucidGlyph font rendering enhancement to Customization tab for all three DEs. Installs via GitHub latest release and pkexec. On GNOME applies grayscale antialiasing automatically. On KDE shows manual instruction for Sub-pixel rendering. Added amdgpu_top and nvtop to Hardware category in Recommended tab. Removed FileZilla duplicate from Developer category.
+      es: |-
+        Añadido LucidGlyph a la pestaña de Personalización para los tres escritorios. Instala desde la última versión de GitHub via pkexec. En GNOME aplica antialiasing en escala de grises automáticamente. En KDE muestra instrucción manual para el renderizado de subpixel. Añadidos amdgpu_top y nvtop a la categoría Hardware en Recomendados. Eliminado duplicado de FileZilla de la categoría Desarrollador.
+      fr: |-
+        Ajout de LucidGlyph dans l'onglet Personnalisation pour les trois environnements. Installation via la dernière version GitHub et pkexec. Sur GNOME, applique automatiquement l'anticrénelage en niveaux de gris. Sur KDE, affiche les instructions manuelles pour le rendu sous-pixel. Ajout de amdgpu_top et nvtop à la catégorie Matériel dans Recommandés. Suppression du doublon FileZilla de la catégorie Développeur.
+      pt: |-
+        Adicionado LucidGlyph ao separador Personalização para os três ambientes. Instala a partir da versão mais recente do GitHub via pkexec. No GNOME aplica antialiasing em escala de cinza automaticamente. No KDE mostra instrução manual para renderização sub-pixel. Adicionados amdgpu_top e nvtop à categoria Hardware em Recomendados. Removida duplicação do FileZilla da categoria Desenvolvedor.
+      de: |-
+        LucidGlyph zur Anpassungs-Registerkarte für alle drei Desktop-Umgebungen hinzugefügt. Installation über den neuesten GitHub-Release und pkexec. Unter GNOME wird Graustufen-Antialiasing automatisch angewendet. Unter KDE wird eine manuelle Anleitung für Sub-Pixel-Rendering angezeigt. amdgpu_top und nvtop zur Hardware-Kategorie in Empfehlungen hinzugefügt. FileZilla-Duplikat aus der Entwickler-Kategorie entfernt.
+      it: |-
+        Aggiunto LucidGlyph alla scheda Personalizzazione per tutti e tre i DE. Installa dall'ultima release GitHub tramite pkexec. Su GNOME applica automaticamente l'antialiasing in scala di grigi. Su KDE mostra istruzioni manuali per il rendering sub-pixel. Aggiunti amdgpu_top e nvtop alla categoria Hardware in Raccomandati. Rimosso il duplicato di FileZilla dalla categoria Sviluppatore.
+      ru: |-
+        LucidGlyph добавлен на вкладку Настройка для всех трёх DE. Устанавливается из последнего релиза GitHub через pkexec. На GNOME автоматически применяется сглаживание в оттенках серого. На KDE отображается инструкция по ручной настройке субпиксельного рендеринга. amdgpu_top и nvtop добавлены в категорию Оборудование в Рекомендованных. Удублирование FileZilla из категории Разработчик удалено.
+      ro: |-
+        LucidGlyph adăugat în fila Personalizare pentru toate cele trei medii. Se instalează din cea mai recentă versiune GitHub prin pkexec. Pe GNOME aplică automat antialiasing în nuanțe de gri. Pe KDE afișează instrucțiuni manuale pentru redarea sub-pixel. amdgpu_top și nvtop adăugate la categoria Hardware în Recomandate. Duplicatul FileZilla eliminat din categoria Dezvoltator.
+      C: |-
+        Added LucidGlyph font rendering enhancement to Customization tab for all three DEs. Installs via GitHub latest release and pkexec. On GNOME applies grayscale antialiasing automatically. On KDE shows manual instruction for Sub-pixel rendering. Added amdgpu_top and nvtop to Hardware category in Recommended tab. Removed FileZilla duplicate from Developer category.
   - version: 2.1.0-3
     date: '2026-06-30'
     type: stable
