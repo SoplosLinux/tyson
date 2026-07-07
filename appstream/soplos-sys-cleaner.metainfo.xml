@@ -257,6 +257,18 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.3" date="2026-07-07">
+      <description>
+        <p>Build dependency update: python3-all replaced with python3.</p>
+        <p xml:lang="es">Actualización de dependencia de compilación: python3-all sustituido por python3.</p>
+        <p xml:lang="fr">Mise à jour de la dépendance de compilation : python3-all remplacé par python3.</p>
+        <p xml:lang="de">Aktualisierung der Build-Abhängigkeit: python3-all wurde durch python3 ersetzt.</p>
+        <p xml:lang="pt">Atualização da dependência de compilação: python3-all substituído por python3.</p>
+        <p xml:lang="it">Aggiornamento della dipendenza di compilazione: python3-all sostituito con python3.</p>
+        <p xml:lang="ro">Actualizare a dependenței de compilare: python3-all înlocuit cu python3.</p>
+        <p xml:lang="ru">Обновление зависимости сборки: python3-all заменён на python3.</p>
+      </description>
+    </release>
     <release version="1.0.2-9" date="2026-06-29">
       <description>
         <p>Security and logic fix: Protected active Soplos kernel DKMS modules (NVIDIA, v4l2loopback) from being incorrectly flagged as orphans.</p>

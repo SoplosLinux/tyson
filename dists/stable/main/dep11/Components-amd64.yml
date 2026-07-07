@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260706T111745
+Time: 20260707T163607
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -266,6 +266,19 @@ Developer:
 Provides:
   - soplos-repo-selector
 Releases:
+  - version: 2.0.3
+    date: '2026-07-07'
+    type: stable
+    description:
+      en: Build dependency python3-all replaced with python3.
+      es: Se ha sustituido la dependencia de compilación python3-all por python3.
+      fr: La dépendance de compilation python3-all a été remplacée par python3.
+      pt: A dependência de compilação python3-all foi substituída por python3.
+      de: Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.
+      it: La dipendenza di compilazione python3-all è stata sostituita con python3.
+      ru: Зависимость сборки python3-all заменена на python3.
+      ro: Dependența de compilare python3-all a fost înlocuită cu python3.
+      C: Build dependency python3-all replaced with python3.
   - version: 2.0.2-9
     date: '2026-06-23'
     type: stable
@@ -1102,6 +1115,19 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.0-5
+    date: '2026-07-07'
+    type: stable
+    description:
+      en: Build dependency python3-all replaced with python3.
+      es: Se ha sustituido la dependencia de compilación python3-all por python3.
+      fr: La dépendance de compilation python3-all a été remplacée par python3.
+      pt: A dependência de compilação python3-all foi substituída por python3.
+      de: Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.
+      it: La dipendenza di compilazione python3-all è stata sostituita con python3.
+      ru: Зависимость сборки python3-all заменена на python3.
+      ro: Dependența de compilare python3-all a fost înlocuită cu python3.
+      C: Build dependency python3-all replaced with python3.
   - version: 2.1.0-4
     date: '2026-07-06'
     type: stable
@@ -1603,6 +1629,18 @@ Developer:
 Provides:
   - soplos-welcome-live
 Releases:
+  - version: 2.0.2-6
+    date: '2026-07-07'
+    type: stable
+    description:
+      C: Build dependency update.
+      es: Actualización de dependencia de compilación.
+      fr: Mise à jour de la dépendance de compilation.
+      pt: Atualização da dependência de compilação.
+      de: Aktualisierung der Build-Abhängigkeit.
+      it: Aggiornamento della dipendenza di compilazione.
+      ru: Обновление зависимости сборки.
+      ro: Actualizare a dependenței de compilare.
   - version: 2.0.2-5
     date: '2026-07-06'
     type: stable
@@ -2231,6 +2269,19 @@ Url:
 Provides:
   - soplos-appimage-manager
 Releases:
+  - version: 1.0.1-1
+    date: '2026-07-07'
+    type: stable
+    description:
+      en: Build dependency python3-all replaced with python3.
+      es: Se ha sustituido la dependencia de compilación python3-all por python3.
+      fr: La dépendance de compilation python3-all a été remplacée par python3.
+      pt: A dependência de compilação python3-all foi substituída por python3.
+      de: Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.
+      it: La dipendenza di compilazione python3-all è stata sostituita con python3.
+      ru: Зависимость сборки python3-all заменена на python3.
+      ro: Dependența de compilare python3-all a fost înlocuită cu python3.
+      C: Build dependency python3-all replaced with python3.
   - version: 1.0.1
     date: '2026-03-30'
     type: stable
@@ -2447,6 +2498,19 @@ Developer:
 Provides:
   - soplos-plymouth-manager
 Releases:
+  - version: 2.0.0-8
+    date: '2026-07-07'
+    type: stable
+    description:
+      en: Build dependency python3-all replaced with python3.
+      es: Se ha sustituido la dependencia de compilación python3-all por python3.
+      fr: La dépendance de compilation python3-all a été remplacée par python3.
+      pt: A dependência de compilação python3-all foi substituída por python3.
+      de: Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.
+      it: La dipendenza di compilazione python3-all è stata sostituita con python3.
+      ru: Зависимость сборки python3-all заменена на python3.
+      ro: Dependența de compilare python3-all a fost înlocuită cu python3.
+      C: Build dependency python3-all replaced with python3.
   - version: 2.0.0-7
     date: '2026-06-21'
     type: stable
@@ -2935,6 +2999,22 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-sys-cleaner/issues
 Releases:
+  - version: 1.0.3
+    date: '2026-07-07'
+    type: stable
+    description:
+      C: 'Build dependency update: python3-all replaced with python3.'
+      es: 'Actualización de dependencia de compilación: python3-all sustituido por
+        python3.'
+      fr: 'Mise à jour de la dépendance de compilation : python3-all remplacé par
+        python3.'
+      de: 'Aktualisierung der Build-Abhängigkeit: python3-all wurde durch python3
+        ersetzt.'
+      pt: 'Atualização da dependência de compilação: python3-all substituído por python3.'
+      it: 'Aggiornamento della dipendenza di compilazione: python3-all sostituito
+        con python3.'
+      ro: 'Actualizare a dependenței de compilare: python3-all înlocuit cu python3.'
+      ru: 'Обновление зависимости сборки: python3-all заменён на python3.'
   - version: 1.0.2-9
     date: '2026-06-29'
     type: stable
@@ -3763,6 +3843,19 @@ Developer:
 Provides:
   - soplos-grub-editor
 Releases:
+  - version: 2.0.2-5
+    date: '2026-07-07'
+    type: stable
+    description:
+      en: Build dependency python3-all replaced with python3.
+      es: Se ha sustituido la dependencia de compilación python3-all por python3.
+      fr: La dépendance de compilation python3-all a été remplacée par python3.
+      pt: A dependência de compilação python3-all foi substituída por python3.
+      de: Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.
+      it: La dipendenza di compilazione python3-all è stata sostituita con python3.
+      ru: Зависимость сборки python3-all заменена на python3.
+      ro: Dependența de compilare python3-all a fost înlocuită cu python3.
+      C: Build dependency python3-all replaced with python3.
   - version: 2.0.2-4
     date: '2026-05-22'
     type: stable
@@ -4043,6 +4136,19 @@ Url:
 Provides:
   - soplos-webapp-manager
 Releases:
+  - version: 1.0.0-5
+    date: '2026-07-07'
+    type: stable
+    description:
+      en: Build dependency python3-all replaced with python3.
+      es: Se ha sustituido la dependencia de compilación python3-all por python3.
+      fr: La dépendance de compilation python3-all a été remplacée par python3.
+      pt: A dependência de compilação python3-all foi substituída por python3.
+      de: Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.
+      it: La dipendenza di compilazione python3-all è stata sostituita con python3.
+      ru: Зависимость сборки python3-all заменена на python3.
+      ro: Dependența de compilare python3-all a fost înlocuită cu python3.
+      C: Build dependency python3-all replaced with python3.
   - version: 1.0.0-4
     date: '2026-04-30'
     type: stable

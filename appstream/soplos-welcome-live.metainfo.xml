@@ -176,6 +176,42 @@
   </translation>
 
   <releases>
+    <release version="2.0.2-6" date="2026-07-07">
+      <description>
+        <p>Build dependency update.</p>
+        <ul>
+          <li>Build dependency python3-all replaced with python3.</li>
+        </ul>
+        <p xml:lang="es">Actualización de dependencia de compilación.</p>
+        <ul xml:lang="es">
+          <li>Se ha sustituido la dependencia de compilación python3-all por python3.</li>
+        </ul>
+        <p xml:lang="fr">Mise à jour de la dépendance de compilation.</p>
+        <ul xml:lang="fr">
+          <li>La dépendance de compilation python3-all a été remplacée par python3.</li>
+        </ul>
+        <p xml:lang="pt">Atualização da dependência de compilação.</p>
+        <ul xml:lang="pt">
+          <li>A dependência de compilação python3-all foi substituída por python3.</li>
+        </ul>
+        <p xml:lang="de">Aktualisierung der Build-Abhängigkeit.</p>
+        <ul xml:lang="de">
+          <li>Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.</li>
+        </ul>
+        <p xml:lang="it">Aggiornamento della dipendenza di compilazione.</p>
+        <ul xml:lang="it">
+          <li>La dipendenza di compilazione python3-all è stata sostituita con python3.</li>
+        </ul>
+        <p xml:lang="ru">Обновление зависимости сборки.</p>
+        <ul xml:lang="ru">
+          <li>Зависимость сборки python3-all заменена на python3.</li>
+        </ul>
+        <p xml:lang="ro">Actualizare a dependenței de compilare.</p>
+        <ul xml:lang="ro">
+          <li>Dependența de compilare python3-all a fost înlocuită cu python3.</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.0.2-5" date="2026-07-06">
       <description>
         <p>Calamares launcher fix for KDE Plasma.</p>

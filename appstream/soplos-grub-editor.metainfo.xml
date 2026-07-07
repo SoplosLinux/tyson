@@ -217,6 +217,18 @@
   </provides>
 
   <releases>
+    <release version="2.0.2-5" date="2026-07-07">
+      <description>
+        <p xml:lang="en">Build dependency python3-all replaced with python3.</p>
+        <p xml:lang="es">Se ha sustituido la dependencia de compilación python3-all por python3.</p>
+        <p xml:lang="fr">La dépendance de compilation python3-all a été remplacée par python3.</p>
+        <p xml:lang="pt">A dependência de compilação python3-all foi substituída por python3.</p>
+        <p xml:lang="de">Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.</p>
+        <p xml:lang="it">La dipendenza di compilazione python3-all è stata sostituita con python3.</p>
+        <p xml:lang="ru">Зависимость сборки python3-all заменена на python3.</p>
+        <p xml:lang="ro">Dependența de compilare python3-all a fost înlocuită cu python3.</p>
+      </description>
+    </release>
     <release version="2.0.2-4" date="2026-05-22">
       <description>
         <p xml:lang="en">Aligned Tyson legacy 1.x release timeline to correct July 2025 timestamps and cleaned up obsolete metadata tags in metainfo.xml.</p>

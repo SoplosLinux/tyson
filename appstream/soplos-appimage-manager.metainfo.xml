@@ -127,6 +127,18 @@
   </provides>
 
   <releases>
+    <release version="1.0.1-1" date="2026-07-07">
+      <description>
+        <p xml:lang="en">Build dependency python3-all replaced with python3.</p>
+        <p xml:lang="es">Se ha sustituido la dependencia de compilación python3-all por python3.</p>
+        <p xml:lang="fr">La dépendance de compilation python3-all a été remplacée par python3.</p>
+        <p xml:lang="pt">A dependência de compilação python3-all foi substituída por python3.</p>
+        <p xml:lang="de">Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.</p>
+        <p xml:lang="it">La dipendenza di compilazione python3-all è stata sostituita con python3.</p>
+        <p xml:lang="ru">Зависимость сборки python3-all заменена на python3.</p>
+        <p xml:lang="ro">Dependența de compilare python3-all a fost înlocuită cu python3.</p>
+      </description>
+    </release>
     <release version="1.0.1" date="2026-03-30">
       <description>
         <p>Added Properties dialog to view and edit each AppImage's name, version, description, categories and update URL. New Run as root toggle in Properties launches any AppImage with pkexec, showing a PolicyKit authentication dialog on launch. Automatic update checking via GitHub, GitLab and Codeberg release APIs, direct URL comparison, or embedded appimageupdatetool info. New Check All Updates button in the header bar replaces Refresh and lets you inspect and update all AppImages at once. Improved icon extraction and full translation coverage across all 8 languages. The application now seamlessly respects the system's light or dark GTK theme preference.</p>
