@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260707T163607
+Time: 20260708T182250
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1115,6 +1115,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.0-6
+    date: '2026-07-08'
+    type: stable
+    description:
+      en: |-
+        Fixed Qt version detection: narrowed broad except Exception to specific subprocess errors so unexpected exceptions are no longer silenced when qmake is not installed.
+      es: |-
+        Corregida la detección de versión de Qt: el except genérico se ha acotado a errores de subprocess para que las excepciones inesperadas no queden silenciadas cuando qmake no está instalado.
+      fr: |-
+        Correction de la détection de version Qt : le except générique a été limité aux erreurs subprocess afin que les exceptions inattendues ne soient plus ignorées lorsque qmake n'est pas installé.
+      pt: |-
+        Corrigida a deteção de versão do Qt: o except genérico foi restringido a erros de subprocess para que exceções inesperadas não sejam silenciadas quando qmake não está instalado.
+      de: |-
+        Qt-Versionserkennung korrigiert: Breites except Exception auf subprocess-Fehler eingegrenzt, damit unerwartete Ausnahmen nicht mehr unterdrückt werden, wenn qmake nicht installiert ist.
+      it: |-
+        Corretta la rilevazione della versione Qt: il generico except Exception è stato ristretto agli errori di subprocess in modo che le eccezioni inattese non vengano più silenziare quando qmake non è installato.
+      ru: |-
+        Исправлено определение версии Qt: широкий except Exception сужен до ошибок subprocess, чтобы неожиданные исключения не замалчивались при отсутствии qmake.
+      ro: |-
+        Corectată detectarea versiunii Qt: except-ul generic a fost restrâns la erorile subprocess pentru ca excepțiile neașteptate să nu mai fie ignorate când qmake nu este instalat.
+      C: |-
+        Fixed Qt version detection: narrowed broad except Exception to specific subprocess errors so unexpected exceptions are no longer silenced when qmake is not installed.
   - version: 2.1.0-5
     date: '2026-07-07'
     type: stable

@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.0-6" date="2026-07-08">
+        <description>
+          <p xml:lang="en">Fixed Qt version detection: narrowed broad except Exception to specific subprocess errors so unexpected exceptions are no longer silenced when qmake is not installed.</p>
+          <p xml:lang="es">Corregida la detección de versión de Qt: el except genérico se ha acotado a errores de subprocess para que las excepciones inesperadas no queden silenciadas cuando qmake no está instalado.</p>
+          <p xml:lang="fr">Correction de la détection de version Qt : le except générique a été limité aux erreurs subprocess afin que les exceptions inattendues ne soient plus ignorées lorsque qmake n'est pas installé.</p>
+          <p xml:lang="pt">Corrigida a deteção de versão do Qt: o except genérico foi restringido a erros de subprocess para que exceções inesperadas não sejam silenciadas quando qmake não está instalado.</p>
+          <p xml:lang="de">Qt-Versionserkennung korrigiert: Breites except Exception auf subprocess-Fehler eingegrenzt, damit unerwartete Ausnahmen nicht mehr unterdrückt werden, wenn qmake nicht installiert ist.</p>
+          <p xml:lang="it">Corretta la rilevazione della versione Qt: il generico except Exception è stato ristretto agli errori di subprocess in modo che le eccezioni inattese non vengano più silenziare quando qmake non è installato.</p>
+          <p xml:lang="ru">Исправлено определение версии Qt: широкий except Exception сужен до ошибок subprocess, чтобы неожиданные исключения не замалчивались при отсутствии qmake.</p>
+          <p xml:lang="ro">Corectată detectarea versiunii Qt: except-ul generic a fost restrâns la erorile subprocess pentru ca excepțiile neașteptate să nu mai fie ignorate când qmake nu este instalat.</p>
+        </description>
+      </release>
       <release version="2.1.0-5" date="2026-07-07">
         <description>
           <p xml:lang="en">Build dependency python3-all replaced with python3.</p>
