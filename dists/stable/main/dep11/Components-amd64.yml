@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260708T184038
+Time: 20260708T204753
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1651,6 +1651,18 @@ Developer:
 Provides:
   - soplos-welcome-live
 Releases:
+  - version: 2.0.2-7
+    date: '2026-07-08'
+    type: stable
+    description:
+      C: 'Qt6 migration: qdbus replaced with qdbus6.'
+      es: 'Migración a Qt6: qdbus sustituido por qdbus6.'
+      fr: 'Migration Qt6 : qdbus remplacé par qdbus6.'
+      pt: 'Migração Qt6: qdbus substituído por qdbus6.'
+      de: 'Qt6-Migration: qdbus durch qdbus6 ersetzt.'
+      it: 'Migrazione Qt6: qdbus sostituito con qdbus6.'
+      ru: 'Миграция на Qt6: qdbus заменён на qdbus6.'
+      ro: 'Migrare Qt6: qdbus înlocuit cu qdbus6.'
   - version: 2.0.2-6
     date: '2026-07-07'
     type: stable

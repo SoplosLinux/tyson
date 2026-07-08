@@ -176,6 +176,42 @@
   </translation>
 
   <releases>
+    <release version="2.0.2-7" date="2026-07-08">
+      <description>
+        <p>Qt6 migration: qdbus replaced with qdbus6.</p>
+        <ul>
+          <li>All qdbus calls replaced with qdbus6 following Qt5 removal from base system. Affects language changer and session manager on KDE.</li>
+        </ul>
+        <p xml:lang="es">Migración a Qt6: qdbus sustituido por qdbus6.</p>
+        <ul xml:lang="es">
+          <li>Todas las llamadas a qdbus sustituidas por qdbus6 tras la eliminación de Qt5 del sistema base. Afecta al cambiador de idioma y al gestor de sesión en KDE.</li>
+        </ul>
+        <p xml:lang="fr">Migration Qt6 : qdbus remplacé par qdbus6.</p>
+        <ul xml:lang="fr">
+          <li>Tous les appels qdbus remplacés par qdbus6 suite à la suppression de Qt5 du système de base. Concerne le changeur de langue et le gestionnaire de session sous KDE.</li>
+        </ul>
+        <p xml:lang="pt">Migração Qt6: qdbus substituído por qdbus6.</p>
+        <ul xml:lang="pt">
+          <li>Todas as chamadas qdbus substituídas por qdbus6 após a remoção do Qt5 do sistema base. Afeta o trocador de idioma e o gestor de sessão no KDE.</li>
+        </ul>
+        <p xml:lang="de">Qt6-Migration: qdbus durch qdbus6 ersetzt.</p>
+        <ul xml:lang="de">
+          <li>Alle qdbus-Aufrufe wurden nach der Entfernung von Qt5 aus dem Basissystem durch qdbus6 ersetzt. Betrifft den Sprachumschalter und den Sitzungsmanager unter KDE.</li>
+        </ul>
+        <p xml:lang="it">Migrazione Qt6: qdbus sostituito con qdbus6.</p>
+        <ul xml:lang="it">
+          <li>Tutte le chiamate qdbus sostituite con qdbus6 dopo la rimozione di Qt5 dal sistema base. Riguarda il selettore di lingua e il gestore di sessione su KDE.</li>
+        </ul>
+        <p xml:lang="ru">Миграция на Qt6: qdbus заменён на qdbus6.</p>
+        <ul xml:lang="ru">
+          <li>Все вызовы qdbus заменены на qdbus6 после удаления Qt5 из базовой системы. Затрагивает переключатель языка и менеджер сессий в KDE.</li>
+        </ul>
+        <p xml:lang="ro">Migrare Qt6: qdbus înlocuit cu qdbus6.</p>
+        <ul xml:lang="ro">
+          <li>Toate apelurile qdbus înlocuite cu qdbus6 după eliminarea Qt5 din sistemul de bază. Afectează schimbătorul de limbă și managerul de sesiune pe KDE.</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.0.2-6" date="2026-07-07">
       <description>
         <p>Build dependency update.</p>
