@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260709T091533
+Time: 20260710T093733
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1115,6 +1115,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.0-7
+    date: '2026-07-10'
+    type: stable
+    description:
+      en: |-
+        Added CUDA 12 Toolkit, NVIDIA Open Kernel Modules and Intel oneAPI Base Toolkit to the Drivers tab. NVIDIA 590/610 drivers now include open kernel modules automatically. All strings translated in 8 languages.
+      es: |-
+        Añadidos CUDA 12 Toolkit, módulos de kernel abiertos de NVIDIA e Intel oneAPI Base Toolkit en la pestaña de Controladores. Los controladores NVIDIA 590/610 incluyen ahora los módulos de kernel abiertos automáticamente. Todas las cadenas traducidas en 8 idiomas.
+      fr: |-
+        Ajout de CUDA 12 Toolkit, des modules de noyau ouverts NVIDIA et d'Intel oneAPI Base Toolkit dans l'onglet Pilotes. Les pilotes NVIDIA 590/610 incluent désormais les modules de noyau ouverts automatiquement. Toutes les chaînes traduites en 8 langues.
+      pt: |-
+        Adicionados CUDA 12 Toolkit, módulos de kernel abertos NVIDIA e Intel oneAPI Base Toolkit no separador de Controladores. Os controladores NVIDIA 590/610 incluem agora os módulos de kernel abertos automaticamente. Todas as cadeias traduzidas em 8 idiomas.
+      de: |-
+        CUDA 12 Toolkit, offene NVIDIA-Kernelmodule und Intel oneAPI Base Toolkit im Reiter Treiber hinzugefügt. NVIDIA 590/610-Treiber enthalten jetzt automatisch die offenen Kernelmodule. Alle Zeichenketten in 8 Sprachen übersetzt.
+      it: |-
+        Aggiunti CUDA 12 Toolkit, moduli kernel aperti NVIDIA e Intel oneAPI Base Toolkit nella scheda Driver. I driver NVIDIA 590/610 includono ora automaticamente i moduli kernel aperti. Tutte le stringhe tradotte in 8 lingue.
+      ru: |-
+        Добавлены CUDA 12 Toolkit, открытые модули ядра NVIDIA и Intel oneAPI Base Toolkit во вкладку Драйверы. Драйверы NVIDIA 590/610 теперь автоматически включают открытые модули ядра. Все строки переведены на 8 языков.
+      ro: |-
+        Adaugate CUDA 12 Toolkit, modulele de kernel deschise NVIDIA si Intel oneAPI Base Toolkit in fila Drivere. Driverele NVIDIA 590/610 includ acum automat modulele de kernel deschise. Toate sirurile traduse in 8 limbi.
+      C: |-
+        Added CUDA 12 Toolkit, NVIDIA Open Kernel Modules and Intel oneAPI Base Toolkit to the Drivers tab. NVIDIA 590/610 drivers now include open kernel modules automatically. All strings translated in 8 languages.
   - version: 2.1.0-6
     date: '2026-07-08'
     type: stable

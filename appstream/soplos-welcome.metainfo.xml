@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.0-7" date="2026-07-10">
+        <description>
+          <p xml:lang="en">Added CUDA 12 Toolkit, NVIDIA Open Kernel Modules and Intel oneAPI Base Toolkit to the Drivers tab. NVIDIA 590/610 drivers now include open kernel modules automatically. All strings translated in 8 languages.</p>
+          <p xml:lang="es">Añadidos CUDA 12 Toolkit, módulos de kernel abiertos de NVIDIA e Intel oneAPI Base Toolkit en la pestaña de Controladores. Los controladores NVIDIA 590/610 incluyen ahora los módulos de kernel abiertos automáticamente. Todas las cadenas traducidas en 8 idiomas.</p>
+          <p xml:lang="fr">Ajout de CUDA 12 Toolkit, des modules de noyau ouverts NVIDIA et d'Intel oneAPI Base Toolkit dans l'onglet Pilotes. Les pilotes NVIDIA 590/610 incluent désormais les modules de noyau ouverts automatiquement. Toutes les chaînes traduites en 8 langues.</p>
+          <p xml:lang="pt">Adicionados CUDA 12 Toolkit, módulos de kernel abertos NVIDIA e Intel oneAPI Base Toolkit no separador de Controladores. Os controladores NVIDIA 590/610 incluem agora os módulos de kernel abertos automaticamente. Todas as cadeias traduzidas em 8 idiomas.</p>
+          <p xml:lang="de">CUDA 12 Toolkit, offene NVIDIA-Kernelmodule und Intel oneAPI Base Toolkit im Reiter Treiber hinzugefügt. NVIDIA 590/610-Treiber enthalten jetzt automatisch die offenen Kernelmodule. Alle Zeichenketten in 8 Sprachen übersetzt.</p>
+          <p xml:lang="it">Aggiunti CUDA 12 Toolkit, moduli kernel aperti NVIDIA e Intel oneAPI Base Toolkit nella scheda Driver. I driver NVIDIA 590/610 includono ora automaticamente i moduli kernel aperti. Tutte le stringhe tradotte in 8 lingue.</p>
+          <p xml:lang="ru">Добавлены CUDA 12 Toolkit, открытые модули ядра NVIDIA и Intel oneAPI Base Toolkit во вкладку Драйверы. Драйверы NVIDIA 590/610 теперь автоматически включают открытые модули ядра. Все строки переведены на 8 языков.</p>
+          <p xml:lang="ro">Adaugate CUDA 12 Toolkit, modulele de kernel deschise NVIDIA si Intel oneAPI Base Toolkit in fila Drivere. Driverele NVIDIA 590/610 includ acum automat modulele de kernel deschise. Toate sirurile traduse in 8 limbi.</p>
+        </description>
+      </release>
       <release version="2.1.0-6" date="2026-07-08">
         <description>
           <p xml:lang="en">Fixed Qt version detection: added FileNotFoundError to the exception handler so the app no longer crashes on startup when qmake is not installed.</p>
