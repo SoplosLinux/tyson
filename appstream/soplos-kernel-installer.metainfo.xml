@@ -166,6 +166,36 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.1-1" date="2026-07-16">
+      <description>
+        <p>Fixed Soplos Kernels tab not detecting march-level package variants and showing incorrect display names for them.</p>
+        <p xml:lang="es">Corregida la pestaña Kernels Soplos que no detectaba las variantes de paquete por nivel march y mostraba nombres incorrectos.</p>
+        <p xml:lang="fr">Correction de l'onglet Noyaux Soplos qui ne détectait pas les variantes de paquets par niveau march et affichait des noms incorrects.</p>
+        <p xml:lang="de">Behoben: Tab Soplos-Kernel erkannte March-Level-Paketvarianten nicht und zeigte falsche Anzeigenamen.</p>
+        <p xml:lang="pt">Corrigido o separador Kernels Soplos que não detetava as variantes de pacote por nível march e mostrava nomes incorretos.</p>
+        <p xml:lang="it">Corretto il tab Kernel Soplos che non rilevava le varianti di pacchetto per livello march e mostrava nomi errati.</p>
+        <p xml:lang="ro">Corectat fila Kerneluri Soplos care nu detecta variantele de pachete dupa nivelul march si afisa nume incorecte.</p>
+        <p xml:lang="ru">Исправлена вкладка «Ядра Soplos»: теперь корректно определяет варианты пакетов по уровню march и отображает правильные названия.</p>
+        <ul>
+          <li>Fixed package filter regex to accept march-level suffixes (v1–v4)</li>
+          <li>Fixed display name for march-level packages: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+          <li xml:lang="es">Corregido regex del filtro de paquetes para aceptar sufijos de nivel march (v1–v4)</li>
+          <li xml:lang="es">Corregido nombre de paquetes con nivel march: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+          <li xml:lang="fr">Correction du regex du filtre de paquets pour accepter les suffixes de niveau march (v1–v4)</li>
+          <li xml:lang="fr">Correction du nom des paquets avec niveau march: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+          <li xml:lang="de">Behoben: Paketfilter-Regex akzeptiert jetzt March-Level-Suffixe (v1–v4)</li>
+          <li xml:lang="de">Behoben: Anzeigename für March-Level-Pakete: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+          <li xml:lang="pt">Corrigido regex do filtro de pacotes para aceitar sufixos de nível march (v1–v4)</li>
+          <li xml:lang="pt">Corrigido nome de pacotes com nível march: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+          <li xml:lang="it">Corretto regex del filtro pacchetti per accettare suffissi di livello march (v1–v4)</li>
+          <li xml:lang="it">Corretto nome dei pacchetti con livello march: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+          <li xml:lang="ro">Corectat regex filtru pachete pentru a accepta sufixe de nivel march (v1–v4)</li>
+          <li xml:lang="ro">Corectat numele pachetelor cu nivel march: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+          <li xml:lang="ru">Исправлен regex фильтра пакетов для поддержки суффиксов уровня march (v1–v4)</li>
+          <li xml:lang="ru">Исправлены отображаемые имена пакетов с уровнем march: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.1" date="2026-07-16">
       <description>
         <p>Added x86-64 microarchitecture level selector in Stock mode, original X3D VCache scheduler patch for AMD Ryzen X3D processors, auto-generated kernel name in Stock mode, and a wiki info button in the Soplos Kernels tab.</p>
