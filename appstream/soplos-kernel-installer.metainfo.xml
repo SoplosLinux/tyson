@@ -166,6 +166,52 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.1" date="2026-07-16">
+      <description>
+        <p>Added x86-64 microarchitecture level selector in Stock mode, original X3D VCache scheduler patch for AMD Ryzen X3D processors, auto-generated kernel name in Stock mode, and a wiki info button in the Soplos Kernels tab.</p>
+        <p xml:lang="es">Añadido selector de nivel de arquitectura x86-64 en modo Stock, parche original del planificador X3D VCache para procesadores AMD Ryzen X3D, nombre de kernel autogenerado en modo Stock y botón de información wiki en la pestaña Kernels Soplos.</p>
+        <p xml:lang="fr">Ajout d'un sélecteur de niveau d'architecture x86-64 en mode Stock, d'un patch planificateur X3D VCache original pour les processeurs AMD Ryzen X3D, d'un nom de noyau généré automatiquement en mode Stock et d'un bouton d'information wiki dans l'onglet Noyaux Soplos.</p>
+        <p xml:lang="de">Hinzugefügt: x86-64-Architekturebene-Auswahl im Stock-Modus, originaler X3D-VCache-Scheduler-Patch für AMD-Ryzen-X3D-Prozessoren, automatisch generierter Kernel-Name im Stock-Modus und Wiki-Informationsschaltfläche im Tab Soplos-Kernel.</p>
+        <p xml:lang="pt">Adicionado seletor de nível de arquitetura x86-64 no modo Stock, patch original do escalonador X3D VCache para processadores AMD Ryzen X3D, nome de kernel gerado automaticamente no modo Stock e botão de informação wiki no separador Kernels Soplos.</p>
+        <p xml:lang="it">Aggiunto selettore del livello di architettura x86-64 in modalità Stock, patch originale dello scheduler X3D VCache per processori AMD Ryzen X3D, nome del kernel generato automaticamente in modalità Stock e pulsante informazioni wiki nella scheda Kernel Soplos.</p>
+        <p xml:lang="ro">Adaugat selector de nivel de arhitectura x86-64 in modul Stock, patch original de planificator X3D VCache pentru procesoare AMD Ryzen X3D, nume de kernel generat automat in modul Stock si buton de informatii wiki in fila Kerneluri Soplos.</p>
+        <p xml:lang="ru">Добавлены: выбор уровня архитектуры x86-64 в режиме Stock, оригинальный патч планировщика X3D VCache для процессоров AMD Ryzen X3D, автогенерация имени ядра в режиме Stock и кнопка информации о вики во вкладке «Ядра Soplos».</p>
+        <ul>
+          <li>Added x86-64 march level selector in Stock mode (v1 Generic / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li>Added X3D VCache scheduler patch for AMD Ryzen X3D dual-CCD processors (Stock mode only)</li>
+          <li>Added auto-generated kernel name in Stock mode based on patches and march level</li>
+          <li>Added wiki info button in Soplos Kernels tab linking to CPU Compatibility guide</li>
+          <li xml:lang="es">Añadido selector de nivel march x86-64 en modo Stock (v1 Genérico / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li xml:lang="es">Añadido parche del planificador X3D VCache para procesadores AMD Ryzen X3D de doble CCD (solo modo Stock)</li>
+          <li xml:lang="es">Añadido nombre de kernel autogenerado en modo Stock según parches y nivel march</li>
+          <li xml:lang="es">Añadido botón de información wiki en la pestaña Kernels Soplos con enlace a la guía de compatibilidad de CPU</li>
+          <li xml:lang="fr">Ajout du sélecteur de niveau march x86-64 en mode Stock (v1 Générique / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li xml:lang="fr">Ajout du patch planificateur X3D VCache pour processeurs AMD Ryzen X3D double CCD (mode Stock uniquement)</li>
+          <li xml:lang="fr">Ajout du nom de noyau généré automatiquement en mode Stock selon les patches et le niveau march</li>
+          <li xml:lang="fr">Ajout du bouton d'information wiki dans l'onglet Noyaux Soplos avec lien vers le guide de compatibilité CPU</li>
+          <li xml:lang="de">Hinzugefügt: x86-64-March-Ebene-Auswahl im Stock-Modus (v1 Generisch / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li xml:lang="de">Hinzugefügt: X3D-VCache-Scheduler-Patch für AMD-Ryzen-X3D-Dual-CCD-Prozessoren (nur Stock-Modus)</li>
+          <li xml:lang="de">Hinzugefügt: Automatisch generierter Kernel-Name im Stock-Modus nach Patches und March-Ebene</li>
+          <li xml:lang="de">Hinzugefügt: Wiki-Informationsschaltfläche im Tab Soplos-Kernel mit Link zur CPU-Kompatibilitätsanleitung</li>
+          <li xml:lang="pt">Adicionado seletor de nível march x86-64 no modo Stock (v1 Genérico / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li xml:lang="pt">Adicionado patch do escalonador X3D VCache para processadores AMD Ryzen X3D de CCD duplo (apenas modo Stock)</li>
+          <li xml:lang="pt">Adicionado nome de kernel gerado automaticamente no modo Stock conforme patches e nível march</li>
+          <li xml:lang="pt">Adicionado botão de informação wiki no separador Kernels Soplos com ligação ao guia de compatibilidade de CPU</li>
+          <li xml:lang="it">Aggiunto selettore del livello march x86-64 in modalità Stock (v1 Generico / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li xml:lang="it">Aggiunto patch dello scheduler X3D VCache per processori AMD Ryzen X3D dual CCD (solo modalità Stock)</li>
+          <li xml:lang="it">Aggiunto nome del kernel generato automaticamente in modalità Stock in base a patch e livello march</li>
+          <li xml:lang="it">Aggiunto pulsante informazioni wiki nella scheda Kernel Soplos con collegamento alla guida di compatibilità CPU</li>
+          <li xml:lang="ro">Adaugat selector de nivel march x86-64 in modul Stock (v1 Generic / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li xml:lang="ro">Adaugat patch de planificator X3D VCache pentru procesoare AMD Ryzen X3D cu CCD dual (numai modul Stock)</li>
+          <li xml:lang="ro">Adaugat nume de kernel generat automat in modul Stock in functie de patch-uri si nivelul march</li>
+          <li xml:lang="ro">Adaugat buton de informatii wiki in fila Kerneluri Soplos cu link catre ghidul de compatibilitate CPU</li>
+          <li xml:lang="ru">Добавлен выбор уровня march x86-64 в режиме Stock (v1 Универсальный / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li xml:lang="ru">Добавлен патч планировщика X3D VCache для процессоров AMD Ryzen X3D с двумя CCD (только режим Stock)</li>
+          <li xml:lang="ru">Добавлена автогенерация имени ядра в режиме Stock на основе патчей и уровня march</li>
+          <li xml:lang="ru">Добавлена кнопка информации о вики во вкладке «Ядра Soplos» со ссылкой на руководство по совместимости CPU</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.0-4" date="2026-06-02">
       <description>
         <p>Fixed NVIDIA DKMS build failures when installing pre-built Soplos kernels on systems with NVIDIA drivers. The VMA compatibility patch is now applied before installation in the Soplos Kernels tab.</p>

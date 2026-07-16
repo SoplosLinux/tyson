@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260710T093733
+Time: 20260716T163725
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -716,6 +716,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.1
+    date: '2026-07-16'
+    type: stable
+    description:
+      C: |-
+        Added x86-64 microarchitecture level selector in Stock mode, original X3D VCache scheduler patch for AMD Ryzen X3D processors, auto-generated kernel name in Stock mode, and a wiki info button in the Soplos Kernels tab.
+      es: |-
+        Añadido selector de nivel de arquitectura x86-64 en modo Stock, parche original del planificador X3D VCache para procesadores AMD Ryzen X3D, nombre de kernel autogenerado en modo Stock y botón de información wiki en la pestaña Kernels Soplos.
+      fr: |-
+        Ajout d'un sélecteur de niveau d'architecture x86-64 en mode Stock, d'un patch planificateur X3D VCache original pour les processeurs AMD Ryzen X3D, d'un nom de noyau généré automatiquement en mode Stock et d'un bouton d'information wiki dans l'onglet Noyaux Soplos.
+      de: |-
+        Hinzugefügt: x86-64-Architekturebene-Auswahl im Stock-Modus, originaler X3D-VCache-Scheduler-Patch für AMD-Ryzen-X3D-Prozessoren, automatisch generierter Kernel-Name im Stock-Modus und Wiki-Informationsschaltfläche im Tab Soplos-Kernel.
+      pt: |-
+        Adicionado seletor de nível de arquitetura x86-64 no modo Stock, patch original do escalonador X3D VCache para processadores AMD Ryzen X3D, nome de kernel gerado automaticamente no modo Stock e botão de informação wiki no separador Kernels Soplos.
+      it: |-
+        Aggiunto selettore del livello di architettura x86-64 in modalità Stock, patch originale dello scheduler X3D VCache per processori AMD Ryzen X3D, nome del kernel generato automaticamente in modalità Stock e pulsante informazioni wiki nella scheda Kernel Soplos.
+      ro: |-
+        Adaugat selector de nivel de arhitectura x86-64 in modul Stock, patch original de planificator X3D VCache pentru procesoare AMD Ryzen X3D, nume de kernel generat automat in modul Stock si buton de informatii wiki in fila Kerneluri Soplos.
+      ru: |-
+        Добавлены: выбор уровня архитектуры x86-64 в режиме Stock, оригинальный патч планировщика X3D VCache для процессоров AMD Ryzen X3D, автогенерация имени ядра в режиме Stock и кнопка информации о вики во вкладке «Ядра Soplos».
   - version: 1.0.0-4
     date: '2026-06-02'
     type: stable

@@ -1039,6 +1039,7 @@ usr/share/soplos-kernel-installer/README.md	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/main.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/requirements.txt	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/setup.py	    utils/soplos-kernel-installer
+usr/share/soplos-kernel-installer/tareas.txt	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/app/__init__.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/app/application.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/app/main_window.py	    utils/soplos-kernel-installer
@@ -1095,6 +1096,7 @@ usr/share/soplos-kernel-installer/utils/system.py	    utils/soplos-kernel-instal
 usr/share/soplos-kernel-installer/widgets/__init__.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/widgets/build_progress.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/widgets/history_view.py	    utils/soplos-kernel-installer
+usr/share/soplos-kernel-installer/widgets/march_selector.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/widgets/patch_selector.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/widgets/profile_selector.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/widgets/version_picker.py	    utils/soplos-kernel-installer
