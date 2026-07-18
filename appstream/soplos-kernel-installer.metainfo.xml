@@ -166,6 +166,68 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.1-2" date="2026-07-18">
+      <description>
+        <p>Fixed a build-breaking configuration bug and improved gaming hardware support.</p>
+        <p xml:lang="es">Corregido un fallo de compilación en la configuración base y mejorado el soporte de hardware gaming.</p>
+        <p xml:lang="fr">Correction d'un bug de configuration bloquant la compilation et amélioration du support matériel gaming.</p>
+        <p xml:lang="de">Ein build-blockierender Konfigurationsfehler wurde behoben und die Unterstützung für Gaming-Hardware verbessert.</p>
+        <p xml:lang="pt">Corrigido um erro de configuração que bloqueava a compilação e melhorado o suporte a hardware gaming.</p>
+        <p xml:lang="it">Corretto un bug di configurazione che bloccava la build e migliorato il supporto hardware gaming.</p>
+        <p xml:lang="ro">Corectata o eroare de configurare care bloca compilarea si imbunatatit suportul pentru hardware de gaming.</p>
+        <p xml:lang="ru">Исправлена ошибка конфигурации, блокировавшая сборку, и улучшена поддержка игрового оборудования.</p>
+        <ul>
+          <li>Fixed the X3D VCache patch download to use per-kernel-version URLs instead of a single stale link</li>
+          <li>The base kernel configuration is now fetched fresh from Debian sid on every build instead of reusing a previously installed kernel's config, avoiding accumulated drift and missing support for recent hardware</li>
+          <li>Fixed a build failure caused by an inherited module signing key path that only existed inside Debian's own build system</li>
+          <li>Fixed patch tooltips (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache) never being translated — now properly localized in all 8 languages</li>
+          <li>Added ASUS ROG Ally and OneXPlayer/AYANEO embedded controller drivers (ASUS_ARMOURY, OXP_EC) to every build</li>
+          <li>The CPU architecture level selector now disables v1/v2 automatically when the X3D patch is selected, since X3D hardware requires at least x86-64-v3</li>
+          <li xml:lang="es">Corregida la descarga del parche X3D VCache: ahora usa URLs por versión de kernel en vez de un único enlace desactualizado</li>
+          <li xml:lang="es">La configuración base del kernel ahora se descarga siempre actualizada desde Debian sid en cada compilación, en vez de reutilizar la de un kernel instalado anteriormente, evitando degradación acumulada y falta de soporte de hardware reciente</li>
+          <li xml:lang="es">Corregido un fallo de compilación causado por una ruta de clave de firma de módulos heredada que solo existía dentro del propio sistema de compilación de Debian</li>
+          <li xml:lang="es">Corregidos los tooltips de los parches (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache), que nunca se traducían — ahora correctamente localizados en los 8 idiomas</li>
+          <li xml:lang="es">Añadidos los drivers de controladora embebida de ASUS ROG Ally y OneXPlayer/AYANEO (ASUS_ARMOURY, OXP_EC) a todas las compilaciones</li>
+          <li xml:lang="es">El selector de nivel de arquitectura de CPU ahora desactiva v1/v2 automáticamente al seleccionar el parche X3D, ya que el hardware X3D requiere como mínimo x86-64-v3</li>
+          <li xml:lang="fr">Correction du téléchargement du patch X3D VCache : utilise désormais des URL par version de noyau au lieu d'un lien unique obsolète</li>
+          <li xml:lang="fr">La configuration de base du noyau est désormais téléchargée à jour depuis Debian sid à chaque compilation, au lieu de réutiliser celle d'un noyau installé précédemment, évitant une dérive accumulée et un manque de support matériel récent</li>
+          <li xml:lang="fr">Correction d'un échec de compilation causé par un chemin de clé de signature de module hérité qui n'existait qu'au sein du système de compilation de Debian</li>
+          <li xml:lang="fr">Correction des infobulles des patchs (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache), jamais traduites — désormais correctement localisées dans les 8 langues</li>
+          <li xml:lang="fr">Ajout des pilotes du contrôleur embarqué ASUS ROG Ally et OneXPlayer/AYANEO (ASUS_ARMOURY, OXP_EC) à chaque compilation</li>
+          <li xml:lang="fr">Le sélecteur de niveau d'architecture CPU désactive désormais automatiquement v1/v2 lorsque le patch X3D est sélectionné, le matériel X3D nécessitant au minimum x86-64-v3</li>
+          <li xml:lang="de">Behoben: Download des X3D-VCache-Patches verwendet jetzt URLs pro Kernel-Version statt eines einzelnen veralteten Links</li>
+          <li xml:lang="de">Die Basis-Kernelkonfiguration wird jetzt bei jedem Build aktuell von Debian sid geladen, statt die eines zuvor installierten Kernels wiederzuverwenden — verhindert angesammelte Abweichungen und fehlende Unterstützung neuer Hardware</li>
+          <li xml:lang="de">Behoben: Build-Fehler durch einen geerbten Modul-Signaturschlüsselpfad, der nur innerhalb von Debians eigenem Build-System existierte</li>
+          <li xml:lang="de">Behoben: Patch-Tooltips (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache) wurden nie übersetzt — jetzt korrekt in allen 8 Sprachen lokalisiert</li>
+          <li xml:lang="de">ASUS ROG Ally und OneXPlayer/AYANEO Embedded-Controller-Treiber (ASUS_ARMOURY, OXP_EC) zu jedem Build hinzugefügt</li>
+          <li xml:lang="de">Die CPU-Architekturstufen-Auswahl deaktiviert jetzt automatisch v1/v2, wenn der X3D-Patch ausgewählt ist, da X3D-Hardware mindestens x86-64-v3 benötigt</li>
+          <li xml:lang="pt">Corrigida a descarga do patch X3D VCache: agora usa URLs por versão de kernel em vez de um único link desatualizado</li>
+          <li xml:lang="pt">A configuração base do kernel agora é sempre descarregada atualizada a partir do Debian sid em cada compilação, em vez de reutilizar a de um kernel instalado anteriormente, evitando desvio acumulado e falta de suporte a hardware recente</li>
+          <li xml:lang="pt">Corrigida uma falha de compilação causada por um caminho de chave de assinatura de módulo herdado que só existia dentro do próprio sistema de compilação do Debian</li>
+          <li xml:lang="pt">Corrigidas as dicas dos patches (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache), que nunca eram traduzidas — agora corretamente localizadas nos 8 idiomas</li>
+          <li xml:lang="pt">Adicionados os drivers de controlador incorporado da ASUS ROG Ally e OneXPlayer/AYANEO (ASUS_ARMOURY, OXP_EC) a todas as compilações</li>
+          <li xml:lang="pt">O seletor de nível de arquitetura de CPU agora desativa automaticamente v1/v2 ao selecionar o patch X3D, já que o hardware X3D requer no mínimo x86-64-v3</li>
+          <li xml:lang="it">Corretto il download della patch X3D VCache: ora usa URL per versione del kernel invece di un unico link obsoleto</li>
+          <li xml:lang="it">La configurazione base del kernel viene ora scaricata aggiornata da Debian sid ad ogni build, invece di riutilizzare quella di un kernel installato in precedenza, evitando degrado accumulato e mancanza di supporto per hardware recente</li>
+          <li xml:lang="it">Corretto un errore di build causato da un percorso di chiave di firma dei moduli ereditato che esisteva solo all'interno del sistema di build di Debian</li>
+          <li xml:lang="it">Corretti i tooltip delle patch (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache), mai tradotti — ora correttamente localizzati in tutte le 8 lingue</li>
+          <li xml:lang="it">Aggiunti i driver del controller embedded di ASUS ROG Ally e OneXPlayer/AYANEO (ASUS_ARMOURY, OXP_EC) a ogni build</li>
+          <li xml:lang="it">Il selettore del livello di architettura CPU ora disabilita automaticamente v1/v2 quando è selezionata la patch X3D, poiché l'hardware X3D richiede almeno x86-64-v3</li>
+          <li xml:lang="ro">Corectata descarcarea patch-ului X3D VCache: foloseste acum URL-uri per versiune de kernel in loc de un singur link invechit</li>
+          <li xml:lang="ro">Configuratia de baza a kernelului este acum descarcata actualizata de pe Debian sid la fiecare compilare, in loc sa refoloseasca cea a unui kernel instalat anterior, evitand degradarea acumulata si lipsa suportului pentru hardware recent</li>
+          <li xml:lang="ro">Corectata o eroare de compilare cauzata de o cale de cheie de semnare a modulelor mostenita care exista doar in propriul sistem de compilare Debian</li>
+          <li xml:lang="ro">Corectate indiciile parch-urilor (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache), niciodata traduse — acum corect localizate in toate cele 8 limbi</li>
+          <li xml:lang="ro">Adaugati driverele controllerului integrat ASUS ROG Ally si OneXPlayer/AYANEO (ASUS_ARMOURY, OXP_EC) la fiecare compilare</li>
+          <li xml:lang="ro">Selectorul nivelului de arhitectura CPU dezactiveaza acum automat v1/v2 cand este selectat patch-ul X3D, deoarece hardware-ul X3D necesita cel putin x86-64-v3</li>
+          <li xml:lang="ru">Исправлена загрузка патча X3D VCache: теперь используются URL для каждой версии ядра вместо одной устаревшей ссылки</li>
+          <li xml:lang="ru">Базовая конфигурация ядра теперь всегда загружается свежей из Debian sid при каждой сборке, вместо повторного использования конфигурации ранее установленного ядра — это предотвращает накопление устареваний и отсутствие поддержки нового оборудования</li>
+          <li xml:lang="ru">Исправлена ошибка сборки, вызванная унаследованным путём к ключу подписи модулей, существовавшим только внутри собственной системы сборки Debian</li>
+          <li xml:lang="ru">Исправлены всплывающие подсказки патчей (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache), которые никогда не переводились — теперь корректно локализованы на всех 8 языках</li>
+          <li xml:lang="ru">Добавлены драйверы встроенного контроллера ASUS ROG Ally и OneXPlayer/AYANEO (ASUS_ARMOURY, OXP_EC) в каждую сборку</li>
+          <li xml:lang="ru">Переключатель уровня архитектуры CPU теперь автоматически отключает v1/v2 при выборе патча X3D, так как оборудование X3D требует минимум x86-64-v3</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.1-1" date="2026-07-16">
       <description>
         <p>Fixed Soplos Kernels tab not detecting march-level package variants and showing incorrect display names for them.</p>

@@ -1039,7 +1039,6 @@ usr/share/soplos-kernel-installer/README.md	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/main.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/requirements.txt	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/setup.py	    utils/soplos-kernel-installer
-usr/share/soplos-kernel-installer/tareas.txt	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/app/__init__.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/app/application.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/app/main_window.py	    utils/soplos-kernel-installer
