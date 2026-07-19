@@ -127,17 +127,17 @@ Description: Plasma Login Manager display manager
  Settings module (KCM).
 
 Package: soplos-appimage-manager
-Version: 1.0.1-1
+Version: 1.0.1-2
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3, python3-gi, python3-gi-cairo, python3-setuptools
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-appimage-manager/soplos-appimage-manager_1.0.1-1_all.deb
-Size: 658952
-SHA256: 705b6184f1098f3d4fb41d71c7d73eafb3226e5ae07dcc0652c0c66f2f08d9d0
-SHA1: 5869ce83e5390ae3beb94e9c7f1acbf425734902
-MD5sum: b285561f9f6bd35041c66915e4eaeff1
+Filename: pool/main/s/soplos-appimage-manager/soplos-appimage-manager_1.0.1-2_all.deb
+Size: 660568
+SHA256: 293b072098e10003bf331e9e11d8c6d4d4cf083aa4f6e230a3c4dc7ccd6d5758
+SHA1: 9d540dfa10fc3dc34291389f3092191f23a12bd5
+MD5sum: 887ff2a767b107324eec9d97d759e567
 Description: Manage AppImage applications on Soplos Linux
 
 Package: soplos-grub-editor

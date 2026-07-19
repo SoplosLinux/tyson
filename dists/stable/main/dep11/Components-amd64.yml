@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260719T175425
+Time: 20260719T234050
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -2406,6 +2406,28 @@ Url:
 Provides:
   - soplos-appimage-manager
 Releases:
+  - version: 1.0.1-2
+    date: '2026-07-20'
+    type: stable
+    description:
+      en: |-
+        Added the option to keep the original file and copy it instead of moving it when adding an AppImage, via the file chooser or drag and drop.
+      es: |-
+        Añadida la opción de conservar el archivo original y copiarlo en vez de moverlo al añadir un AppImage, mediante el selector de archivos o arrastrar y soltar.
+      fr: |-
+        Ajout de l'option permettant de conserver le fichier original et de le copier au lieu de le déplacer lors de l'ajout d'un AppImage, via le sélecteur de fichiers ou le glisser-déposer.
+      pt: |-
+        Adicionada a opção de manter o ficheiro original e copiá-lo em vez de o mover ao adicionar um AppImage, através do seletor de ficheiros ou de arrastar e largar.
+      de: |-
+        Option hinzugefügt, die Originaldatei zu behalten und beim Hinzufügen eines AppImage über die Dateiauswahl oder per Drag-and-Drop zu kopieren statt zu verschieben.
+      it: |-
+        Aggiunta l'opzione di mantenere il file originale e copiarlo invece di spostarlo durante l'aggiunta di un AppImage, tramite il selettore file o il trascinamento.
+      ru: |-
+        Добавлена возможность сохранить исходный файл и скопировать его вместо перемещения при добавлении AppImage через диалог выбора файла или перетаскивание.
+      ro: |-
+        Adăugată opțiunea de a păstra fișierul original și de a-l copia în loc să-l muți la adăugarea unui AppImage, prin selectorul de fișiere sau prin glisare și plasare.
+      C: |-
+        Added the option to keep the original file and copy it instead of moving it when adding an AppImage, via the file chooser or drag and drop.
   - version: 1.0.1-1
     date: '2026-07-07'
     type: stable
