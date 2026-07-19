@@ -1572,6 +1572,7 @@ usr/share/soplos-welcome/assets/icons/software/snap.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/synaptic.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/soplos/soplos-docklike.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/soplos/soplos-grub-editor.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/soplos/soplos-layout-switcher.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/soplos/soplos-plymouth-manager.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/soplos/soplos-theme-manager.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/screenshots/screenshot01.png	    utils/soplos-welcome

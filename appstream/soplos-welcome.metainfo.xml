@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.0-8" date="2026-07-19">
+        <description>
+          <p xml:lang="en">Added Layout Switcher to the Customization tab (GNOME) — launches the GNOME Shell layout preset switcher, with install-if-missing support alongside GRUB Editor and Plymouth Manager.</p>
+          <p xml:lang="es">Añadido Layout Switcher en la pestaña de Personalización (GNOME) — lanza el selector de diseños de GNOME Shell, con instalación automática si falta, junto a GRUB Editor y Plymouth Manager.</p>
+          <p xml:lang="fr">Ajout de Layout Switcher dans l'onglet Personnalisation (GNOME) — lance le sélecteur de dispositions GNOME Shell, avec installation automatique si absent, aux côtés de GRUB Editor et Plymouth Manager.</p>
+          <p xml:lang="pt">Adicionado Layout Switcher no separador de Personalização (GNOME) — inicia o seletor de disposições do GNOME Shell, com instalação automática se não estiver presente, junto ao GRUB Editor e Plymouth Manager.</p>
+          <p xml:lang="de">Layout Switcher im Reiter Personalisierung (GNOME) hinzugefügt — startet den GNOME-Shell-Layout-Umschalter, mit automatischer Installation bei Bedarf, neben GRUB Editor und Plymouth Manager.</p>
+          <p xml:lang="it">Aggiunto Layout Switcher nella scheda Personalizzazione (GNOME) — avvia il selettore di layout di GNOME Shell, con installazione automatica se mancante, accanto a GRUB Editor e Plymouth Manager.</p>
+          <p xml:lang="ru">Добавлен Layout Switcher во вкладку Персонализация (GNOME) — запускает переключатель раскладок GNOME Shell с автоматической установкой при отсутствии, рядом с GRUB Editor и Plymouth Manager.</p>
+          <p xml:lang="ro">Adaugat Layout Switcher in fila Personalizare (GNOME) - lanseaza selectorul de layout-uri GNOME Shell, cu instalare automata daca lipseste, alaturi de GRUB Editor si Plymouth Manager.</p>
+        </description>
+      </release>
       <release version="2.1.0-7" date="2026-07-10">
         <description>
           <p xml:lang="en">Added CUDA 12 Toolkit, NVIDIA Open Kernel Modules and Intel oneAPI Base Toolkit to the Drivers tab. NVIDIA 590/610 drivers now include open kernel modules automatically. All strings translated in 8 languages.</p>
