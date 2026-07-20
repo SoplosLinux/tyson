@@ -166,6 +166,18 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.1-4" date="2026-07-20">
+      <description>
+        <p>Changed the "Which kernel is right for my hardware?" button: it no longer opens the wiki — it now detects the highest x86-64 architecture level (v1–v4) your CPU actually supports and shows it directly in the app.</p>
+        <p xml:lang="es">Cambiado el botón «¿Qué kernel es el adecuado para mi hardware?»: ya no abre la wiki — ahora detecta el nivel de arquitectura x86-64 más alto (v1–v4) que soporta realmente tu CPU y lo muestra directamente en la aplicación.</p>
+        <p xml:lang="fr">Modification du bouton « Quel noyau convient à mon matériel ? » : il n'ouvre plus le wiki — il détecte désormais le niveau d'architecture x86-64 le plus élevé (v1–v4) réellement pris en charge par votre CPU et l'affiche directement dans l'application.</p>
+        <p xml:lang="de">Schaltfläche „Welcher Kernel ist der richtige für meine Hardware?“ geändert: Sie öffnet nicht mehr das Wiki — sie erkennt jetzt die höchste x86-64-Architekturstufe (v1–v4), die deine CPU tatsächlich unterstützt, und zeigt sie direkt in der App an.</p>
+        <p xml:lang="pt">Alterado o botão «Qual kernel é adequado para o meu hardware?»: já não abre a wiki — agora deteta o nível de arquitetura x86-64 mais alto (v1–v4) que o seu CPU realmente suporta e mostra-o diretamente na aplicação.</p>
+        <p xml:lang="it">Modificato il pulsante «Quale kernel è adatto al mio hardware?»: non apre più la wiki — ora rileva il livello di architettura x86-64 più alto (v1–v4) effettivamente supportato dalla tua CPU e lo mostra direttamente nell'app.</p>
+        <p xml:lang="ro">Modificat butonul „Ce kernel este potrivit pentru hardware-ul meu?”: nu mai deschide wiki-ul — acum detectează cel mai înalt nivel de arhitectură x86-64 (v1–v4) acceptat efectiv de CPU-ul tău și îl afișează direct în aplicație.</p>
+        <p xml:lang="ru">Изменена кнопка «Какое ядро подходит для моего оборудования?»: она больше не открывает вики — теперь она определяет максимальный уровень архитектуры x86-64 (v1–v4), реально поддерживаемый вашим процессором, и показывает его прямо в приложении.</p>
+      </description>
+    </release>
     <release version="1.0.1-3" date="2026-07-20">
       <description>
         <p>Fixed selecting X3D possibly leaving an incompatible patch checked, breaking the build.</p>

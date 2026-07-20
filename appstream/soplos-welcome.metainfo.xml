@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.0-9" date="2026-07-20">
+        <description>
+          <p xml:lang="en">Fixed missing translations for the Layout Switcher in the Customization tab — strings added to all 8 languages.</p>
+          <p xml:lang="es">Corregidas traducciones del Layout Switcher en la pestaña de Personalización que faltaban en los 8 idiomas.</p>
+          <p xml:lang="fr">Correction des traductions manquantes du Layout Switcher dans l'onglet Personnalisation pour les 8 langues.</p>
+          <p xml:lang="pt">Corrigidas as traducoes em falta do Layout Switcher no separador de Personalizacao para os 8 idiomas.</p>
+          <p xml:lang="de">Fehlende Ubersetzungen fur den Layout Switcher im Personalisierungsreiter in allen 8 Sprachen erganzt.</p>
+          <p xml:lang="it">Corrette le traduzioni mancanti del Layout Switcher nella scheda Personalizzazione per tutte le 8 lingue.</p>
+          <p xml:lang="ru">Исправлены отсутствующие переводы Layout Switcher во вкладке Персонализация для всех 8 языков.</p>
+          <p xml:lang="ro">Corectate traducerile lipsa ale Layout Switcher din fila Personalizare pentru toate cele 8 limbi.</p>
+        </description>
+      </release>
       <release version="2.1.0-8" date="2026-07-19">
         <description>
           <p xml:lang="en">Added Layout Switcher to the Customization tab (GNOME) — launches the GNOME Shell layout preset switcher, with install-if-missing support alongside GRUB Editor and Plymouth Manager.</p>

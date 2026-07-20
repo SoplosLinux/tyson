@@ -170,17 +170,17 @@ Description: GRUB theme package for Soplos Linux Tyson.
  Build date: 2026-03-07
 
 Package: soplos-kernel-installer
-Version: 1.0.1-3
+Version: 1.0.1-4
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, bc, binutils, bison, build-essential, coreutils, cpio, curl, debhelper-compat, dkms, dracut, fakeroot, flex, g++, gettext, gir1.2-gtk-3.0, git, grub-common, kmod, libelf-dev, libncurses-dev, libssl-dev, linux-libc-dev, mokutil, pahole | dwarves, patch, pkg-config, pkgconf, python3, python3-gi, python3-gi-cairo, python3-setuptools, rsync, sbsigntool, tar, wget, xz-utils, zstd
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-kernel-installer/soplos-kernel-installer_1.0.1-3_all.deb
-Size: 856692
-SHA256: 0a1038758c0bbb1881610012a407d822ccd2fc184edee2df87610dd4929dbabb
-SHA1: 2ed4eda916e3b342986bb32296c07922a9d1b411
-MD5sum: 4f584b7b5981710476cf982a6cbaa957
+Filename: pool/main/s/soplos-kernel-installer/soplos-kernel-installer_1.0.1-4_all.deb
+Size: 858008
+SHA256: c95a14eaa736b33f3d58389dde4b5302ceb345a2ced56d8983aeb35a13d389b6
+SHA1: 119b4b239115b3324ad63a7e21e73982496c99ee
+MD5sum: 23aa01f73e45663c5b89781e07d90369
 Description: Advanced graphical kernel manager for Soplos Linux
 
 Package: soplos-plasma-classic-black-theme
@@ -388,17 +388,17 @@ MD5sum: 256cdd00a4b79cdd5025b5208eaffed4
 Description: Create and manage isolated Web Applications
 
 Package: soplos-welcome
-Version: 2.1.0-8
+Version: 2.1.0-9
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools, python3-xlib, wget
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome/soplos-welcome_2.1.0-8_all.deb
-Size: 58373316
-SHA256: 37d7b85f4dfa724307d4d079884a043fc0a14c650897b8fede32edcd207049d4
-SHA1: d44662ecb7e9a8301fd100d978aa0a967ae57095
-MD5sum: 75963cf65eea86ae0ddbe73f498c7e9d
+Filename: pool/main/s/soplos-welcome/soplos-welcome_2.1.0-9_all.deb
+Size: 58374168
+SHA256: 13b1e64990f427ab423db9379b17d6d7631fe354a546662ad30656d88dae0c0e
+SHA1: 26c6e7648aed509fae9418f60f12a9612e9cb26b
+MD5sum: 327b79c570436d8d63a2eb6fb8716ef2
 Description: The world's most advanced welcome application for Linux
 
 Package: soplos-welcome-live

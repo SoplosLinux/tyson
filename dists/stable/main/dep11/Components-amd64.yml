@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260720T124913
+Time: 20260720T174143
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -716,6 +716,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.1-4
+    date: '2026-07-20'
+    type: stable
+    description:
+      C: |-
+        Changed the "Which kernel is right for my hardware?" button: it no longer opens the wiki — it now detects the highest x86-64 architecture level (v1–v4) your CPU actually supports and shows it directly in the app.
+      es: |-
+        Cambiado el botón «¿Qué kernel es el adecuado para mi hardware?»: ya no abre la wiki — ahora detecta el nivel de arquitectura x86-64 más alto (v1–v4) que soporta realmente tu CPU y lo muestra directamente en la aplicación.
+      fr: |-
+        Modification du bouton « Quel noyau convient à mon matériel ? » : il n'ouvre plus le wiki — il détecte désormais le niveau d'architecture x86-64 le plus élevé (v1–v4) réellement pris en charge par votre CPU et l'affiche directement dans l'application.
+      de: |-
+        Schaltfläche „Welcher Kernel ist der richtige für meine Hardware?“ geändert: Sie öffnet nicht mehr das Wiki — sie erkennt jetzt die höchste x86-64-Architekturstufe (v1–v4), die deine CPU tatsächlich unterstützt, und zeigt sie direkt in der App an.
+      pt: |-
+        Alterado o botão «Qual kernel é adequado para o meu hardware?»: já não abre a wiki — agora deteta o nível de arquitetura x86-64 mais alto (v1–v4) que o seu CPU realmente suporta e mostra-o diretamente na aplicação.
+      it: |-
+        Modificato il pulsante «Quale kernel è adatto al mio hardware?»: non apre più la wiki — ora rileva il livello di architettura x86-64 più alto (v1–v4) effettivamente supportato dalla tua CPU e lo mostra direttamente nell'app.
+      ro: |-
+        Modificat butonul „Ce kernel este potrivit pentru hardware-ul meu?”: nu mai deschide wiki-ul — acum detectează cel mai înalt nivel de arhitectură x86-64 (v1–v4) acceptat efectiv de CPU-ul tău și îl afișează direct în aplicație.
+      ru: |-
+        Изменена кнопка «Какое ядро подходит для моего оборудования?»: она больше не открывает вики — теперь она определяет максимальный уровень архитектуры x86-64 (v1–v4), реально поддерживаемый вашим процессором, и показывает его прямо в приложении.
   - version: 1.0.1-3
     date: '2026-07-20'
     type: stable
@@ -1194,6 +1214,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.0-9
+    date: '2026-07-20'
+    type: stable
+    description:
+      en: Fixed missing translations for the Layout Switcher in the Customization
+        tab — strings added to all 8 languages.
+      es: Corregidas traducciones del Layout Switcher en la pestaña de Personalización
+        que faltaban en los 8 idiomas.
+      fr: Correction des traductions manquantes du Layout Switcher dans l'onglet Personnalisation
+        pour les 8 langues.
+      pt: Corrigidas as traducoes em falta do Layout Switcher no separador de Personalizacao
+        para os 8 idiomas.
+      de: Fehlende Ubersetzungen fur den Layout Switcher im Personalisierungsreiter
+        in allen 8 Sprachen erganzt.
+      it: Corrette le traduzioni mancanti del Layout Switcher nella scheda Personalizzazione
+        per tutte le 8 lingue.
+      ru: Исправлены отсутствующие переводы Layout Switcher во вкладке Персонализация
+        для всех 8 языков.
+      ro: Corectate traducerile lipsa ale Layout Switcher din fila Personalizare pentru
+        toate cele 8 limbi.
+      C: Fixed missing translations for the Layout Switcher in the Customization tab
+        — strings added to all 8 languages.
   - version: 2.1.0-8
     date: '2026-07-19'
     type: stable
