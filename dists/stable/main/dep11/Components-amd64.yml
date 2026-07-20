@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260719T234050
+Time: 20260720T124913
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -716,6 +716,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.1-3
+    date: '2026-07-20'
+    type: stable
+    description:
+      C: Fixed selecting X3D possibly leaving an incompatible patch checked, breaking
+        the build.
+      es: Corregido que al seleccionar X3D pudiera quedar marcado un parche incompatible,
+        rompiendo la compilación.
+      fr: 'Correction : sélectionner X3D pouvait laisser un patch incompatible coché,
+        cassant la compilation.'
+      de: 'Behoben: Die Auswahl von X3D konnte einen inkompatiblen Patch aktiviert
+        lassen und den Build beschädigen.'
+      pt: 'Corrigido: selecionar X3D podia deixar um patch incompatível marcado, quebrando
+        a compilação.'
+      it: 'Corretto: selezionare X3D poteva lasciare selezionata una patch incompatibile,
+        rompendo la build.'
+      ro: 'Corectat: selectarea X3D putea lasa bifat un patch incompatibil, stricand
+        compilarea.'
+      ru: 'Исправлено: при выборе X3D мог оставаться отмеченным несовместимый патч,
+        что ломало сборку.'
   - version: 1.0.1-2
     date: '2026-07-18'
     type: stable

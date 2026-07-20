@@ -166,6 +166,36 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.1-3" date="2026-07-20">
+      <description>
+        <p>Fixed selecting X3D possibly leaving an incompatible patch checked, breaking the build.</p>
+        <p xml:lang="es">Corregido que al seleccionar X3D pudiera quedar marcado un parche incompatible, rompiendo la compilación.</p>
+        <p xml:lang="fr">Correction : sélectionner X3D pouvait laisser un patch incompatible coché, cassant la compilation.</p>
+        <p xml:lang="de">Behoben: Die Auswahl von X3D konnte einen inkompatiblen Patch aktiviert lassen und den Build beschädigen.</p>
+        <p xml:lang="pt">Corrigido: selecionar X3D podia deixar um patch incompatível marcado, quebrando a compilação.</p>
+        <p xml:lang="it">Corretto: selezionare X3D poteva lasciare selezionata una patch incompatibile, rompendo la build.</p>
+        <p xml:lang="ro">Corectat: selectarea X3D putea lasa bifat un patch incompatibil, stricand compilarea.</p>
+        <p xml:lang="ru">Исправлено: при выборе X3D мог оставаться отмеченным несовместимый патч, что ломало сборку.</p>
+        <ul>
+          <li>Selecting X3D force-enables BORE, but since that happened while patch-toggle signals were blocked, BORE's own "uncheck Zen (incompatible)" logic never ran — Zen could stay checked alongside BORE+X3D if it was already active</li>
+          <li>Now X3D's auto-select also clears whatever is incompatible with BORE</li>
+          <li xml:lang="es">Seleccionar X3D activa BORE automáticamente, pero como eso ocurría con las señales de los checkboxes bloqueadas, la propia lógica de BORE de "desmarcar Zen (incompatible)" nunca se ejecutaba — Zen podía quedar marcado junto a BORE+X3D si ya estaba activo</li>
+          <li xml:lang="es">Ahora la selección automática de X3D también desmarca lo incompatible con BORE</li>
+          <li xml:lang="fr">Sélectionner X3D active automatiquement BORE, mais comme cela se produisait pendant que les signaux des cases à cocher étaient bloqués, la logique propre de BORE « décocher Zen (incompatible) » ne s'exécutait jamais — Zen pouvait rester coché avec BORE+X3D s'il était déjà actif</li>
+          <li xml:lang="fr">La sélection automatique de X3D décoche désormais aussi tout ce qui est incompatible avec BORE</li>
+          <li xml:lang="de">Die Auswahl von X3D aktiviert automatisch BORE, aber da dies bei blockierten Checkbox-Signalen geschah, wurde BOREs eigene Logik zum „Zen deaktivieren (inkompatibel)“ nie ausgeführt — Zen konnte zusammen mit BORE+X3D aktiviert bleiben, falls es bereits aktiv war</li>
+          <li xml:lang="de">Die automatische Auswahl von X3D deaktiviert jetzt auch alles, was mit BORE inkompatibel ist</li>
+          <li xml:lang="pt">Selecionar X3D ativa automaticamente o BORE, mas como isso acontecia com os sinais das caixas de seleção bloqueados, a própria lógica do BORE de "desmarcar Zen (incompatível)" nunca era executada — o Zen podia continuar marcado junto com BORE+X3D se já estivesse ativo</li>
+          <li xml:lang="pt">Agora a seleção automática do X3D também desmarca o que for incompatível com o BORE</li>
+          <li xml:lang="it">Selezionare X3D attiva automaticamente BORE, ma poiché ciò avveniva con i segnali delle checkbox bloccati, la logica propria di BORE per "deselezionare Zen (incompatibile)" non veniva mai eseguita — Zen poteva restare selezionato insieme a BORE+X3D se era già attivo</li>
+          <li xml:lang="it">Ora la selezione automatica di X3D deseleziona anche tutto ciò che è incompatibile con BORE</li>
+          <li xml:lang="ro">Selectarea X3D activeaza automat BORE, dar deoarece acest lucru se intampla in timp ce semnalele checkbox-urilor erau blocate, logica proprie a BORE de a "debifa Zen (incompatibil)" nu se executa niciodata — Zen putea ramane bifat alaturi de BORE+X3D daca era deja activ</li>
+          <li xml:lang="ro">Acum selectia automata a X3D debifeaza si tot ce este incompatibil cu BORE</li>
+          <li xml:lang="ru">Выбор X3D автоматически включает BORE, но поскольку это происходило при заблокированных сигналах чекбоксов, собственная логика BORE «снять отметку с Zen (несовместимо)» никогда не выполнялась — Zen мог оставаться отмеченным вместе с BORE+X3D, если уже был активен</li>
+          <li xml:lang="ru">Теперь автоматический выбор X3D также снимает отметку со всего, что несовместимо с BORE</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.1-2" date="2026-07-18">
       <description>
         <p>Fixed a build-breaking configuration bug and improved gaming hardware support.</p>
