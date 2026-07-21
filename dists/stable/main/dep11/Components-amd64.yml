@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260721T191957
+Time: 20260721T195041
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -3220,6 +3220,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-sys-cleaner/issues
 Releases:
+  - version: 1.0.3-1
+    date: '2026-07-21'
+    type: stable
+    description:
+      C: |-
+        Bug fix release: NVIDIA firmware/driver purge, virt-viewer false positive, orphaned dracut.conf.d cleanup, full VirtualBox Guest Additions uninstall, temporary firmware warning, unified package/module mapping.
+      es: |-
+        Versión de correcciones: purga de firmware/driver NVIDIA, falso positivo de virt-viewer, limpieza de dracut.conf.d huérfanos, desinstalación completa de VirtualBox Guest Additions, aviso de firmware temporal, mapeo de paquetes/módulos unificado.
+      fr: |-
+        Version de corrections : purge du firmware/pilote NVIDIA, faux positif de virt-viewer, nettoyage des dracut.conf.d orphelins, désinstallation complète de VirtualBox Guest Additions, avertissement de firmware temporaire, mapping paquet/module unifié.
+      de: |-
+        Fehlerbehebungsversion: NVIDIA-Firmware/Treiber-Bereinigung, virt-viewer-Fehlalarm, Bereinigung verwaister dracut.conf.d, vollständige Deinstallation von VirtualBox Guest Additions, Warnung für temporäre Firmware, vereinheitlichtes Paket-Modul-Mapping.
+      pt: |-
+        Versão de correções: purga de firmware/driver NVIDIA, falso positivo do virt-viewer, limpeza de dracut.conf.d órfãos, desinstalação completa das VirtualBox Guest Additions, aviso de firmware temporário, mapeamento de pacotes/módulos unificado.
+      it: |-
+        Versione di correzioni: pulizia firmware/driver NVIDIA, falso positivo di virt-viewer, pulizia dei dracut.conf.d orfani, disinstallazione completa delle VirtualBox Guest Additions, avviso di firmware temporaneo, mappatura pacchetto/modulo unificata.
+      ro: |-
+        Versiune de remedieri: curățarea firmware-ului/driverului NVIDIA, fals pozitiv virt-viewer, curățarea fișierelor dracut.conf.d orfane, dezinstalarea completă a VirtualBox Guest Additions, avertisment de firmware temporar, mapare pachet/modul unificată.
+      ru: |-
+        Версия исправлений: очистка прошивки/драйвера NVIDIA, ложное срабатывание virt-viewer, очистка осиротевших dracut.conf.d, полное удаление VirtualBox Guest Additions, предупреждение о временной прошивке, унифицированное сопоставление пакетов/модулей.
   - version: 1.0.3
     date: '2026-07-07'
     type: stable

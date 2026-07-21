@@ -257,6 +257,75 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.3-1" date="2026-07-21">
+      <description>
+        <p>Bug fix release: NVIDIA firmware/driver purge, virt-viewer false positive, orphaned dracut.conf.d cleanup, full VirtualBox Guest Additions uninstall, temporary firmware warning, unified package/module mapping.</p>
+        <p xml:lang="es">Versión de correcciones: purga de firmware/driver NVIDIA, falso positivo de virt-viewer, limpieza de dracut.conf.d huérfanos, desinstalación completa de VirtualBox Guest Additions, aviso de firmware temporal, mapeo de paquetes/módulos unificado.</p>
+        <p xml:lang="fr">Version de corrections : purge du firmware/pilote NVIDIA, faux positif de virt-viewer, nettoyage des dracut.conf.d orphelins, désinstallation complète de VirtualBox Guest Additions, avertissement de firmware temporaire, mapping paquet/module unifié.</p>
+        <p xml:lang="de">Fehlerbehebungsversion: NVIDIA-Firmware/Treiber-Bereinigung, virt-viewer-Fehlalarm, Bereinigung verwaister dracut.conf.d, vollständige Deinstallation von VirtualBox Guest Additions, Warnung für temporäre Firmware, vereinheitlichtes Paket-Modul-Mapping.</p>
+        <p xml:lang="pt">Versão de correções: purga de firmware/driver NVIDIA, falso positivo do virt-viewer, limpeza de dracut.conf.d órfãos, desinstalação completa das VirtualBox Guest Additions, aviso de firmware temporário, mapeamento de pacotes/módulos unificado.</p>
+        <p xml:lang="it">Versione di correzioni: pulizia firmware/driver NVIDIA, falso positivo di virt-viewer, pulizia dei dracut.conf.d orfani, disinstallazione completa delle VirtualBox Guest Additions, avviso di firmware temporaneo, mappatura pacchetto/modulo unificata.</p>
+        <p xml:lang="ro">Versiune de remedieri: curățarea firmware-ului/driverului NVIDIA, fals pozitiv virt-viewer, curățarea fișierelor dracut.conf.d orfane, dezinstalarea completă a VirtualBox Guest Additions, avertisment de firmware temporar, mapare pachet/modul unificată.</p>
+        <p xml:lang="ru">Версия исправлений: очистка прошивки/драйвера NVIDIA, ложное срабатывание virt-viewer, очистка осиротевших dracut.conf.d, полное удаление VirtualBox Guest Additions, предупреждение о временной прошивке, унифицированное сопоставление пакетов/модулей.</p>
+        <ul>
+          <li>Fixed: NVIDIA firmware deletion left the driver package fully installed if it wasn't the dedicated firmware-* package — now purges the full driver stack before touching files</li>
+          <li>Fixed: virt-viewer/virt-manager/libvirt-clients false positive — these are remote clients (e.g. Proxmox), not tied to local KVM support, no longer flagged as unused</li>
+          <li>Fixed: orphaned /etc/dracut.conf.d/*.conf from driver installers (nvidia.conf, blacklist-nouveau.conf) were never detected or cleaned. Now scanned and removed, with a hard exclusion for distro-policy files (soplos.conf, i18n.conf, local.conf)</li>
+          <li>Fixed: VirtualBox Guest Additions were never fully uninstalled — only leftover service/autostart files were removed. Now runs the official uninstall.sh/rcvboxadd cleanup first when present</li>
+          <li>Added: firmware families without a dedicated package (bundled in firmware-linux-nonfree/firmware-misc-nonfree) are now marked "temporary" via real dpkg -S ownership lookup — removing them only reclaims space until the next package update</li>
+          <li>Changed: unified the package-kernel-module mapping across hardware.py, cache.py and root_helper.py into a single source of truth — the two files had already drifted out of sync</li>
+
+          <li xml:lang="es">Corregido: al eliminar firmware de NVIDIA el paquete del driver quedaba totalmente instalado si no era el paquete firmware-* dedicado — ahora purga todo el stack del driver antes de tocar archivos</li>
+          <li xml:lang="es">Corregido: falso positivo de virt-viewer/virt-manager/libvirt-clients — son clientes remotos (ej. Proxmox), no dependen de KVM local, ya no se marcan como no usados</li>
+          <li xml:lang="es">Corregido: los .conf huérfanos de /etc/dracut.conf.d/ dejados por instaladores de drivers (nvidia.conf, blacklist-nouveau.conf) nunca se detectaban ni limpiaban. Ahora se escanean y eliminan, con exclusión estricta para archivos de política de la distro (soplos.conf, i18n.conf, local.conf)</li>
+          <li xml:lang="es">Corregido: las VirtualBox Guest Additions nunca se desinstalaban del todo — solo se eliminaban los archivos de servicio/autostart sobrantes. Ahora ejecuta primero el uninstall.sh oficial (o rcvboxadd cleanup) cuando está presente</li>
+          <li xml:lang="es">Añadido: las familias de firmware sin paquete dedicado (incluidas en firmware-linux-nonfree/firmware-misc-nonfree) ahora se marcan como "temporales" mediante una consulta real a dpkg -S — eliminarlas solo libera espacio hasta la próxima actualización del paquete</li>
+          <li xml:lang="es">Cambiado: unificado el mapeo paquete-módulo del kernel entre hardware.py, cache.py y root_helper.py en una única fuente de verdad — los dos archivos ya se habían desincronizado</li>
+
+          <li xml:lang="fr">Corrigé : la suppression du firmware NVIDIA laissait le paquet du pilote entièrement installé s'il ne s'agissait pas du paquet firmware-* dédié — purge désormais l'ensemble de la pile du pilote avant de toucher aux fichiers</li>
+          <li xml:lang="fr">Corrigé : faux positif pour virt-viewer/virt-manager/libvirt-clients — ce sont des clients distants (ex. Proxmox), indépendants du support KVM local, ils ne sont plus signalés comme inutilisés</li>
+          <li xml:lang="fr">Corrigé : les fichiers .conf orphelins de /etc/dracut.conf.d/ laissés par les installateurs de pilotes (nvidia.conf, blacklist-nouveau.conf) n'étaient jamais détectés ni nettoyés. Désormais analysés et supprimés, avec une exclusion stricte pour les fichiers de politique de la distribution (soplos.conf, i18n.conf, local.conf)</li>
+          <li xml:lang="fr">Corrigé : les VirtualBox Guest Additions n'étaient jamais complètement désinstallées — seuls les fichiers de service/autostart restants étaient supprimés. Exécute désormais d'abord le uninstall.sh officiel (ou rcvboxadd cleanup) si présent</li>
+          <li xml:lang="fr">Ajouté : les familles de firmware sans paquet dédié (incluses dans firmware-linux-nonfree/firmware-misc-nonfree) sont désormais marquées "temporaires" via une recherche réelle du propriétaire avec dpkg -S — les supprimer ne libère de l'espace que jusqu'à la prochaine mise à jour du paquet</li>
+          <li xml:lang="fr">Modifié : mapping paquet-module du noyau unifié entre hardware.py, cache.py et root_helper.py en une seule source de vérité — les deux fichiers avaient déjà divergé</li>
+
+          <li xml:lang="de">Behoben: Beim Löschen der NVIDIA-Firmware blieb das Treiberpaket vollständig installiert, wenn es nicht das dedizierte firmware-*-Paket war — jetzt wird der gesamte Treiber-Stack vor dem Löschen von Dateien entfernt</li>
+          <li xml:lang="de">Behoben: Fehlalarm bei virt-viewer/virt-manager/libvirt-clients — dies sind entfernte Client-Tools (z. B. Proxmox), unabhängig von lokaler KVM-Unterstützung, werden nicht mehr als ungenutzt markiert</li>
+          <li xml:lang="de">Behoben: verwaiste .conf-Dateien in /etc/dracut.conf.d/ von Treiberinstallern (nvidia.conf, blacklist-nouveau.conf) wurden nie erkannt oder bereinigt. Werden jetzt gescannt und entfernt, mit einer festen Ausschlussliste für Distro-Richtliniendateien (soplos.conf, i18n.conf, local.conf)</li>
+          <li xml:lang="de">Behoben: VirtualBox Guest Additions wurden nie vollständig deinstalliert — nur verbleibende Dienst-/Autostart-Dateien wurden entfernt. Führt jetzt zuerst das offizielle uninstall.sh (oder rcvboxadd cleanup) aus, falls vorhanden</li>
+          <li xml:lang="de">Hinzugefügt: Firmware-Familien ohne dediziertes Paket (gebündelt in firmware-linux-nonfree/firmware-misc-nonfree) werden jetzt über eine echte dpkg -S-Eigentümerabfrage als "vorübergehend" markiert — das Entfernen gibt nur bis zum nächsten Paket-Update Speicherplatz frei</li>
+          <li xml:lang="de">Geändert: Paket-Kernelmodul-Zuordnung über hardware.py, cache.py und root_helper.py in einer einzigen Quelle der Wahrheit vereinheitlicht — die beiden Dateien waren bereits auseinandergedriftet</li>
+
+          <li xml:lang="pt">Corrigido: a remoção do firmware NVIDIA deixava o pacote do driver totalmente instalado se não fosse o pacote firmware-* dedicado — agora purga toda a pilha do driver antes de tocar nos arquivos</li>
+          <li xml:lang="pt">Corrigido: falso positivo de virt-viewer/virt-manager/libvirt-clients — são clientes remotos (ex. Proxmox), não dependem de suporte KVM local, não são mais marcados como não utilizados</li>
+          <li xml:lang="pt">Corrigido: arquivos .conf órfãos em /etc/dracut.conf.d/ deixados por instaladores de drivers (nvidia.conf, blacklist-nouveau.conf) nunca eram detetados ou limpos. Agora são verificados e removidos, com exclusão rígida para arquivos de política da distro (soplos.conf, i18n.conf, local.conf)</li>
+          <li xml:lang="pt">Corrigido: as VirtualBox Guest Additions nunca eram totalmente desinstaladas — só os arquivos de serviço/autostart remanescentes eram removidos. Agora executa primeiro o uninstall.sh oficial (ou rcvboxadd cleanup) quando presente</li>
+          <li xml:lang="pt">Adicionado: famílias de firmware sem pacote dedicado (incluídas em firmware-linux-nonfree/firmware-misc-nonfree) agora são marcadas como "temporárias" via consulta real a dpkg -S — removê-las só liberta espaço até a próxima atualização do pacote</li>
+          <li xml:lang="pt">Alterado: unificado o mapeamento pacote-módulo do kernel entre hardware.py, cache.py e root_helper.py numa única fonte de verdade — os dois arquivos já tinham divergido</li>
+
+          <li xml:lang="it">Corretto: l'eliminazione del firmware NVIDIA lasciava il pacchetto del driver completamente installato se non era il pacchetto firmware-* dedicato — ora elimina l'intero stack del driver prima di toccare i file</li>
+          <li xml:lang="it">Corretto: falso positivo per virt-viewer/virt-manager/libvirt-clients — sono client remoti (es. Proxmox), non legati al supporto KVM locale, non più segnalati come inutilizzati</li>
+          <li xml:lang="it">Corretto: i file .conf orfani in /etc/dracut.conf.d/ lasciati dagli installer dei driver (nvidia.conf, blacklist-nouveau.conf) non venivano mai rilevati né puliti. Ora vengono scansionati e rimossi, con un'esclusione rigida per i file di policy della distro (soplos.conf, i18n.conf, local.conf)</li>
+          <li xml:lang="it">Corretto: le VirtualBox Guest Additions non venivano mai disinstallate completamente — venivano rimossi solo i file di servizio/autostart residui. Ora esegue prima il uninstall.sh ufficiale (o rcvboxadd cleanup) se presente</li>
+          <li xml:lang="it">Aggiunto: le famiglie di firmware senza un pacchetto dedicato (incluse in firmware-linux-nonfree/firmware-misc-nonfree) sono ora contrassegnate come "temporanee" tramite una vera verifica del proprietario con dpkg -S — rimuoverle libera spazio solo fino al prossimo aggiornamento del pacchetto</li>
+          <li xml:lang="it">Modificato: unificata la mappatura pacchetto-modulo del kernel tra hardware.py, cache.py e root_helper.py in un'unica fonte di verità — i due file erano già disallineati</li>
+
+          <li xml:lang="ro">Remediat: ștergerea firmware-ului NVIDIA lăsa pachetul driverului complet instalat dacă nu era pachetul firmware-* dedicat — acum se elimină întregul set de pachete ale driverului înainte de a atinge fișierele</li>
+          <li xml:lang="ro">Remediat: fals pozitiv pentru virt-viewer/virt-manager/libvirt-clients — acestea sunt clienți la distanță (ex. Proxmox), independenți de suportul KVM local, nu mai sunt marcați ca nefolosiți</li>
+          <li xml:lang="ro">Remediat: fișierele .conf orfane din /etc/dracut.conf.d/ lăsate de instalatoarele de drivere (nvidia.conf, blacklist-nouveau.conf) nu erau niciodată detectate sau curățate. Acum sunt scanate și eliminate, cu o excludere strictă pentru fișierele de politică ale distribuției (soplos.conf, i18n.conf, local.conf)</li>
+          <li xml:lang="ro">Remediat: VirtualBox Guest Additions nu erau niciodată complet dezinstalate — erau eliminate doar fișierele rămase de serviciu/autostart. Acum rulează mai întâi uninstall.sh oficial (sau rcvboxadd cleanup) dacă este prezent</li>
+          <li xml:lang="ro">Adăugat: familiile de firmware fără un pachet dedicat (incluse în firmware-linux-nonfree/firmware-misc-nonfree) sunt acum marcate drept "temporare" printr-o verificare reală a proprietarului cu dpkg -S — eliminarea lor eliberează spațiu doar până la următoarea actualizare a pachetului</li>
+          <li xml:lang="ro">Modificat: unificată maparea pachet-modul de kernel din hardware.py, cache.py și root_helper.py într-o singură sursă de adevăr — cele două fișiere se desincronizaseră deja</li>
+
+          <li xml:lang="ru">Исправлено: удаление прошивки NVIDIA оставляло пакет драйвера полностью установленным, если это был не выделенный пакет firmware-* — теперь перед удалением файлов очищается весь стек драйвера</li>
+          <li xml:lang="ru">Исправлено: ложное срабатывание для virt-viewer/virt-manager/libvirt-clients — это удалённые клиенты (напр. Proxmox), не зависящие от локальной поддержки KVM, больше не помечаются как неиспользуемые</li>
+          <li xml:lang="ru">Исправлено: осиротевшие файлы .conf в /etc/dracut.conf.d/, оставленные установщиками драйверов (nvidia.conf, blacklist-nouveau.conf), никогда не обнаруживались и не удалялись. Теперь сканируются и удаляются, с жёстким исключением для файлов политики дистрибутива (soplos.conf, i18n.conf, local.conf)</li>
+          <li xml:lang="ru">Исправлено: VirtualBox Guest Additions никогда не удалялись полностью — удалялись только оставшиеся файлы служб/автозапуска. Теперь сначала запускается официальный uninstall.sh (или rcvboxadd cleanup), если он присутствует</li>
+          <li xml:lang="ru">Добавлено: семейства прошивок без выделенного пакета (входящие в firmware-linux-nonfree/firmware-misc-nonfree) теперь помечаются как «временные» через реальную проверку владельца через dpkg -S — их удаление освобождает место только до следующего обновления пакета</li>
+          <li xml:lang="ru">Изменено: объединено сопоставление пакет-модуль ядра между hardware.py, cache.py и root_helper.py в единый источник истины — эти два файла уже разошлись</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.3" date="2026-07-07">
       <description>
         <p>Build dependency update: python3-all replaced with python3.</p>
