@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260721T195041
+Time: 20260721T202058
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -3220,6 +3220,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-sys-cleaner/issues
 Releases:
+  - version: 1.0.3-2
+    date: '2026-07-21'
+    type: stable
+    description:
+      C: |-
+        Feature release: --root launch flag with Administrator .desktop launcher, duplicate VM guest package fix, Intel GPU firmware false-positive lock fix.
+      es: |-
+        Versión con novedades: flag de arranque --root con lanzador .desktop de Administrador, corrección de paquetes de VM duplicados, corrección del bloqueo falso de firmware de GPU Intel.
+      fr: |-
+        Version avec nouveautés : option de lancement --root avec lanceur .desktop Administrateur, correction des paquets VM dupliqués, correction du verrouillage erroné du firmware GPU Intel.
+      de: |-
+        Version mit Neuerungen: --root-Startoption mit Administrator-.desktop-Starter, Korrektur doppelter VM-Gastpakete, Korrektur der fälschlichen Intel-GPU-Firmware-Sperre.
+      pt: |-
+        Versão com novidades: opção de arranque --root com lançador .desktop de Administrador, correção de pacotes de VM duplicados, correção do bloqueio falso do firmware da GPU Intel.
+      it: |-
+        Versione con novità: opzione di avvio --root con launcher .desktop Amministratore, correzione dei pacchetti VM duplicati, correzione del blocco falso del firmware GPU Intel.
+      ro: |-
+        Versiune cu noutăți: opțiune de pornire --root cu lansator .desktop Administrator, remedierea pachetelor VM duplicate, remedierea blocării false a firmware-ului GPU Intel.
+      ru: |-
+        Версия с нововведениями: флаг запуска --root с ярлыком .desktop администратора, исправление дублирующихся пакетов VM, исправление ложной блокировки прошивки Intel GPU.
   - version: 1.0.3-1
     date: '2026-07-21'
     type: stable

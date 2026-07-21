@@ -257,6 +257,51 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.3-2" date="2026-07-21">
+      <description>
+        <p>Feature release: --root launch flag with Administrator .desktop launcher, duplicate VM guest package fix, Intel GPU firmware false-positive lock fix.</p>
+        <p xml:lang="es">Versión con novedades: flag de arranque --root con lanzador .desktop de Administrador, corrección de paquetes de VM duplicados, corrección del bloqueo falso de firmware de GPU Intel.</p>
+        <p xml:lang="fr">Version avec nouveautés : option de lancement --root avec lanceur .desktop Administrateur, correction des paquets VM dupliqués, correction du verrouillage erroné du firmware GPU Intel.</p>
+        <p xml:lang="de">Version mit Neuerungen: --root-Startoption mit Administrator-.desktop-Starter, Korrektur doppelter VM-Gastpakete, Korrektur der fälschlichen Intel-GPU-Firmware-Sperre.</p>
+        <p xml:lang="pt">Versão com novidades: opção de arranque --root com lançador .desktop de Administrador, correção de pacotes de VM duplicados, correção do bloqueio falso do firmware da GPU Intel.</p>
+        <p xml:lang="it">Versione con novità: opzione di avvio --root con launcher .desktop Amministratore, correzione dei pacchetti VM duplicati, correzione del blocco falso del firmware GPU Intel.</p>
+        <p xml:lang="ro">Versiune cu noutăți: opțiune de pornire --root cu lansator .desktop Administrator, remedierea pachetelor VM duplicate, remedierea blocării false a firmware-ului GPU Intel.</p>
+        <p xml:lang="ru">Версия с нововведениями: флаг запуска --root с ярлыком .desktop администратора, исправление дублирующихся пакетов VM, исправление ложной блокировки прошивки Intel GPU.</p>
+        <ul>
+          <li>Added: --root launch flag and new Administrator .desktop launcher — opens the app directly in Administrator mode via pkexec, auto-created the first time a root session is established</li>
+          <li>Fixed: spice-vdagent/spice-webdavd appeared twice in the Drivers tab on non-KVM/QEMU guests (e.g. VMware), also breaking "Select all" for one of the duplicate rows</li>
+          <li>Fixed: Intel GPU firmware (i915) was locked as required even without a real Intel GPU, when a VM exposes an emulated Intel-vendor chipset device</li>
+
+          <li xml:lang="es">Añadido: flag de arranque --root y nuevo lanzador .desktop de Administrador — abre la app directamente en modo Administrador vía pkexec, creado automáticamente la primera vez que se establece una sesión root</li>
+          <li xml:lang="es">Corregido: spice-vdagent/spice-webdavd aparecían duplicados en la pestaña Drivers en invitados que no son KVM/QEMU (ej. VMware), rompiendo también "Seleccionar todo" para una de las filas duplicadas</li>
+          <li xml:lang="es">Corregido: el firmware de GPU Intel (i915) se bloqueaba como necesario aunque no hubiera GPU Intel real, cuando una VM expone un chipset con vendor Intel emulado</li>
+
+          <li xml:lang="fr">Ajouté : option de lancement --root et nouveau lanceur .desktop Administrateur — ouvre l'application directement en mode Administrateur via pkexec, créé automatiquement la première fois qu'une session root est établie</li>
+          <li xml:lang="fr">Corrigé : spice-vdagent/spice-webdavd apparaissaient en double dans l'onglet Pilotes sur les invités non KVM/QEMU (ex. VMware), cassant aussi "Tout sélectionner" pour l'une des lignes dupliquées</li>
+          <li xml:lang="fr">Corrigé : le firmware GPU Intel (i915) était verrouillé comme nécessaire même sans GPU Intel réel, lorsqu'une VM expose un chipset à identifiant Intel émulé</li>
+
+          <li xml:lang="de">Hinzugefügt: --root-Startoption und neuer Administrator-.desktop-Starter — öffnet die App direkt im Administratormodus über pkexec, automatisch erstellt beim ersten Aufbau einer Root-Sitzung</li>
+          <li xml:lang="de">Behoben: spice-vdagent/spice-webdavd erschienen doppelt im Treiber-Tab bei Nicht-KVM/QEMU-Gästen (z. B. VMware), was auch "Alle auswählen" für eine der doppelten Zeilen kaputt machte</li>
+          <li xml:lang="de">Behoben: Intel-GPU-Firmware (i915) wurde als benötigt gesperrt, auch ohne echte Intel-GPU, wenn eine VM einen emulierten Chipsatz mit Intel-Kennung zeigt</li>
+
+          <li xml:lang="pt">Adicionado: opção de arranque --root e novo lançador .desktop de Administrador — abre a app diretamente em modo Administrador via pkexec, criado automaticamente na primeira vez que se estabelece uma sessão root</li>
+          <li xml:lang="pt">Corrigido: spice-vdagent/spice-webdavd apareciam duplicados na aba Drivers em convidados que não são KVM/QEMU (ex. VMware), quebrando também "Selecionar tudo" para uma das linhas duplicadas</li>
+          <li xml:lang="pt">Corrigido: o firmware da GPU Intel (i915) era bloqueado como necessário mesmo sem uma GPU Intel real, quando uma VM expõe um chipset com ID Intel emulado</li>
+
+          <li xml:lang="it">Aggiunto: opzione di avvio --root e nuovo launcher .desktop Amministratore — apre l'app direttamente in modalità Amministratore tramite pkexec, creato automaticamente alla prima creazione di una sessione root</li>
+          <li xml:lang="it">Corretto: spice-vdagent/spice-webdavd apparivano duplicati nella scheda Driver sui guest non KVM/QEMU (es. VMware), rompendo anche "Seleziona tutto" per una delle righe duplicate</li>
+          <li xml:lang="it">Corretto: il firmware GPU Intel (i915) veniva bloccato come necessario anche senza una vera GPU Intel, quando una VM espone un chipset con ID vendor Intel emulato</li>
+
+          <li xml:lang="ro">Adăugat: opțiune de pornire --root și nou lansator .desktop Administrator — deschide aplicația direct în modul Administrator prin pkexec, creat automat prima dată când se stabilește o sesiune root</li>
+          <li xml:lang="ro">Remediat: spice-vdagent/spice-webdavd apăreau duplicate în fila Drivere pe oaspeți non-KVM/QEMU (ex. VMware), stricând și "Selectează tot" pentru unul dintre rândurile duplicate</li>
+          <li xml:lang="ro">Remediat: firmware-ul GPU Intel (i915) era blocat ca necesar chiar și fără o GPU Intel reală, când o VM expune un chipset cu ID Intel emulat</li>
+
+          <li xml:lang="ru">Добавлено: флаг запуска --root и новый ярлык .desktop администратора — открывает приложение сразу в режиме администратора через pkexec, создаётся автоматически при первом установлении root-сессии</li>
+          <li xml:lang="ru">Исправлено: spice-vdagent/spice-webdavd дублировались на вкладке Драйверы на гостевых системах, отличных от KVM/QEMU (напр. VMware), что также ломало «Выбрать всё» для одной из повторяющихся строк</li>
+          <li xml:lang="ru">Исправлено: прошивка GPU Intel (i915) блокировалась как необходимая даже без реального GPU Intel, когда VM показывает эмулированный чипсет с идентификатором Intel</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.3-1" date="2026-07-21">
       <description>
         <p>Bug fix release: NVIDIA firmware/driver purge, virt-viewer false positive, orphaned dracut.conf.d cleanup, full VirtualBox Guest Additions uninstall, temporary firmware warning, unified package/module mapping.</p>
