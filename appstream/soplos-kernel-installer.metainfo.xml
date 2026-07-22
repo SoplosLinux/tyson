@@ -166,6 +166,18 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.1-5" date="2026-07-22">
+      <description>
+        <p>Changed the "Which kernel is right for my hardware?" popup: it now also shows the detected CPU model, GPU, and total RAM alongside the supported x86-64 architecture level.</p>
+        <p xml:lang="es">Cambiada la ventana «¿Qué kernel es el adecuado para mi hardware?»: ahora también muestra el modelo de CPU detectado, la GPU y la RAM total junto al nivel de arquitectura x86-64 soportado.</p>
+        <p xml:lang="fr">Modification de la fenêtre « Quel noyau convient à mon matériel ? » : elle affiche désormais aussi le modèle de CPU détecté, le GPU et la RAM totale en plus du niveau d'architecture x86-64 pris en charge.</p>
+        <p xml:lang="de">Fenster „Welcher Kernel ist der richtige für meine Hardware?“ geändert: Es zeigt jetzt zusätzlich zum unterstützten x86-64-Architekturlevel auch das erkannte CPU-Modell, die GPU und den gesamten RAM an.</p>
+        <p xml:lang="pt">Alterada a janela «Qual kernel é adequado para o meu hardware?»: agora também mostra o modelo de CPU detetado, a GPU e a RAM total, além do nível de arquitetura x86-64 suportado.</p>
+        <p xml:lang="it">Modificata la finestra «Quale kernel è adatto al mio hardware?»: ora mostra anche il modello di CPU rilevato, la GPU e la RAM totale insieme al livello di architettura x86-64 supportato.</p>
+        <p xml:lang="ro">Modificată fereastra „Ce kernel este potrivit pentru hardware-ul meu?”: acum afișează și modelul de CPU detectat, GPU-ul și RAM-ul total, pe lângă nivelul de arhitectură x86-64 acceptat.</p>
+        <p xml:lang="ru">Изменено окно «Какое ядро подходит для моего оборудования?»: теперь оно также показывает определённую модель процессора, видеокарту и общий объём ОЗУ наряду с поддерживаемым уровнем архитектуры x86-64.</p>
+      </description>
+    </release>
     <release version="1.0.1-4" date="2026-07-20">
       <description>
         <p>Changed the "Which kernel is right for my hardware?" button: it no longer opens the wiki — it now detects the highest x86-64 architecture level (v1–v4) your CPU actually supports and shows it directly in the app.</p>

@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260722T080234
+Time: 20260722T152135
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -716,6 +716,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.1-5
+    date: '2026-07-22'
+    type: stable
+    description:
+      C: |-
+        Changed the "Which kernel is right for my hardware?" popup: it now also shows the detected CPU model, GPU, and total RAM alongside the supported x86-64 architecture level.
+      es: |-
+        Cambiada la ventana «¿Qué kernel es el adecuado para mi hardware?»: ahora también muestra el modelo de CPU detectado, la GPU y la RAM total junto al nivel de arquitectura x86-64 soportado.
+      fr: |-
+        Modification de la fenêtre « Quel noyau convient à mon matériel ? » : elle affiche désormais aussi le modèle de CPU détecté, le GPU et la RAM totale en plus du niveau d'architecture x86-64 pris en charge.
+      de: |-
+        Fenster „Welcher Kernel ist der richtige für meine Hardware?“ geändert: Es zeigt jetzt zusätzlich zum unterstützten x86-64-Architekturlevel auch das erkannte CPU-Modell, die GPU und den gesamten RAM an.
+      pt: |-
+        Alterada a janela «Qual kernel é adequado para o meu hardware?»: agora também mostra o modelo de CPU detetado, a GPU e a RAM total, além do nível de arquitetura x86-64 suportado.
+      it: |-
+        Modificata la finestra «Quale kernel è adatto al mio hardware?»: ora mostra anche il modello di CPU rilevato, la GPU e la RAM totale insieme al livello di architettura x86-64 supportato.
+      ro: |-
+        Modificată fereastra „Ce kernel este potrivit pentru hardware-ul meu?”: acum afișează și modelul de CPU detectat, GPU-ul și RAM-ul total, pe lângă nivelul de arhitectură x86-64 acceptat.
+      ru: |-
+        Изменено окно «Какое ядро подходит для моего оборудования?»: теперь оно также показывает определённую модель процессора, видеокарту и общий объём ОЗУ наряду с поддерживаемым уровнем архитектуры x86-64.
   - version: 1.0.1-4
     date: '2026-07-20'
     type: stable
