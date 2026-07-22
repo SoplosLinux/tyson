@@ -1253,9 +1253,9 @@ usr/share/soplos-sys-cleaner/core/i18n_manager.py	    utils/soplos-sys-cleaner
 usr/share/soplos-sys-cleaner/core/theme_manager.py	    utils/soplos-sys-cleaner
 usr/share/soplos-sys-cleaner/debian/control	    utils/soplos-sys-cleaner
 usr/share/soplos-sys-cleaner/debian/copyright	    utils/soplos-sys-cleaner
-usr/share/soplos-sys-cleaner/debian/org.soplos.sys-cleaner-root.desktop	    utils/soplos-sys-cleaner
 usr/share/soplos-sys-cleaner/debian/org.soplos.sys-cleaner.desktop	    utils/soplos-sys-cleaner
 usr/share/soplos-sys-cleaner/debian/org.soplos.sys-cleaner.metainfo.xml	    utils/soplos-sys-cleaner
+usr/share/soplos-sys-cleaner/debian/postinst	    utils/soplos-sys-cleaner
 usr/share/soplos-sys-cleaner/debian/soplos-sys-cleaner	    utils/soplos-sys-cleaner
 usr/share/soplos-sys-cleaner/docs/soplos-sys-cleaner.1	    utils/soplos-sys-cleaner
 usr/share/soplos-sys-cleaner/locale/de/LC_MESSAGES/soplos-sys-cleaner.mo	    utils/soplos-sys-cleaner

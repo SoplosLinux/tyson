@@ -257,6 +257,59 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.3-3" date="2026-07-22">
+      <description>
+        <p>Bugfix release: reverted the --root Administrator launcher (D-Bus instance conflict), fixed false firmware locks for intel/iwlwifi/nvidia, fixed VirtualBox uninstall feedback.</p>
+        <p xml:lang="es">Versión de corrección: revertido el lanzador --root de Administrador (conflicto de instancia D-Bus), corregidos los bloqueos falsos de firmware intel/iwlwifi/nvidia, corregido el aviso de desinstalación de VirtualBox.</p>
+        <p xml:lang="fr">Version corrective : lanceur Administrateur --root annulé (conflit d'instance D-Bus), verrouillages erronés du firmware intel/iwlwifi/nvidia corrigés, retour d'information de désinstallation de VirtualBox corrigé.</p>
+        <p xml:lang="de">Fehlerbehebungsversion: --root-Administrator-Starter zurückgenommen (D-Bus-Instanzkonflikt), fälschliche Firmware-Sperren für intel/iwlwifi/nvidia behoben, Rückmeldung zur VirtualBox-Deinstallation behoben.</p>
+        <p xml:lang="pt">Versão de correção: lançador --root de Administrador revertido (conflito de instância D-Bus), bloqueios falsos de firmware intel/iwlwifi/nvidia corrigidos, feedback de desinstalação do VirtualBox corrigido.</p>
+        <p xml:lang="it">Versione correttiva: launcher Amministratore --root annullato (conflitto di istanza D-Bus), blocchi falsi del firmware intel/iwlwifi/nvidia corretti, feedback di disinstallazione di VirtualBox corretto.</p>
+        <p xml:lang="ro">Versiune de corectare: lansatorul Administrator --root anulat (conflict de instanță D-Bus), blocările false ale firmware-ului intel/iwlwifi/nvidia remediate, feedback-ul de dezinstalare VirtualBox remediat.</p>
+        <p xml:lang="ru">Версия с исправлениями: отменён запуск администратора --root (конфликт экземпляров D-Bus), исправлены ложные блокировки прошивки intel/iwlwifi/nvidia, исправлена обратная связь при удалении VirtualBox.</p>
+        <ul>
+          <li>Removed: --root launch flag and Administrator .desktop launcher — caused a D-Bus instance conflict that opened user mode instead of Administrator mode; the leftover launcher file is now cleaned up automatically the next time a root session starts</li>
+          <li>Fixed: intel/iwlwifi/nvidia firmware falsely locked as required with no matching real hardware — a loaded-but-unused kernel module (e.g. nouveau/iwlwifi on a VM) was trusted for its full theoretical firmware list instead of what the system actually needs</li>
+          <li>Fixed: intel firmware family was still locked by an emulated Intel chipset/audio device — now requires a genuine Intel network-class device, same as iwlwifi</li>
+          <li>Fixed: VirtualBox Guest Additions uninstall result was silently discarded when triggered from "Remove orphaned packages" — its error, if any, is now shown</li>
+
+          <li xml:lang="es">Eliminado: flag de arranque --root y lanzador .desktop de Administrador — causaba un conflicto de instancia D-Bus que abría el modo usuario en vez del modo Administrador; el archivo residual del lanzador ahora se limpia automáticamente la próxima vez que se inicia una sesión root</li>
+          <li xml:lang="es">Corregido: el firmware intel/iwlwifi/nvidia se bloqueaba como necesario sin hardware real correspondiente — un módulo del kernel cargado pero sin usar (ej. nouveau/iwlwifi en una VM) se aceptaba con toda su lista teórica de firmware en vez de lo que el sistema realmente necesita</li>
+          <li xml:lang="es">Corregido: la familia de firmware intel seguía bloqueada por un chipset/audio Intel emulado — ahora requiere un dispositivo de red Intel real, igual que iwlwifi</li>
+          <li xml:lang="es">Corregido: el resultado de la desinstalación de VirtualBox Guest Additions se descartaba en silencio al activarse desde "Eliminar paquetes huérfanos" — su error, si lo hay, ahora se muestra</li>
+
+          <li xml:lang="fr">Supprimé : option de lancement --root et lanceur .desktop Administrateur — provoquait un conflit d'instance D-Bus qui ouvrait le mode utilisateur au lieu du mode Administrateur ; le fichier de lanceur résiduel est désormais nettoyé automatiquement au prochain démarrage d'une session root</li>
+          <li xml:lang="fr">Corrigé : le firmware intel/iwlwifi/nvidia était verrouillé comme nécessaire sans matériel réel correspondant — un module noyau chargé mais inutilisé (ex. nouveau/iwlwifi sur une VM) était accepté avec toute sa liste théorique de firmware au lieu de ce dont le système a réellement besoin</li>
+          <li xml:lang="fr">Corrigé : la famille de firmware intel restait verrouillée par un chipset/périphérique audio Intel émulé — nécessite désormais un véritable périphérique réseau Intel, comme iwlwifi</li>
+          <li xml:lang="fr">Corrigé : le résultat de la désinstallation de VirtualBox Guest Additions était silencieusement ignoré lorsqu'il était déclenché depuis "Supprimer les paquets orphelins" — son erreur, le cas échéant, est désormais affichée</li>
+
+          <li xml:lang="de">Entfernt: --root-Startoption und Administrator-.desktop-Starter — verursachte einen D-Bus-Instanzkonflikt, der den Benutzermodus statt des Administratormodus öffnete; die verbleibende Starter-Datei wird nun beim nächsten Start einer Root-Sitzung automatisch entfernt</li>
+          <li xml:lang="de">Behoben: intel/iwlwifi/nvidia-Firmware wurde ohne passende echte Hardware fälschlich als benötigt gesperrt — ein geladenes, aber ungenutztes Kernelmodul (z. B. nouveau/iwlwifi in einer VM) wurde mit seiner vollständigen theoretischen Firmware-Liste akzeptiert statt mit dem, was das System tatsächlich braucht</li>
+          <li xml:lang="de">Behoben: die Firmware-Familie intel wurde weiterhin durch ein emuliertes Intel-Chipsatz-/Audiogerät gesperrt — erfordert nun ein echtes Intel-Netzwerkgerät, genau wie iwlwifi</li>
+          <li xml:lang="de">Behoben: das Ergebnis der VirtualBox-Guest-Additions-Deinstallation wurde beim Auslösen über "Verwaiste Pakete entfernen" stillschweigend verworfen — ein etwaiger Fehler wird nun angezeigt</li>
+
+          <li xml:lang="pt">Removido: opção de arranque --root e lançador .desktop de Administrador — causava um conflito de instância D-Bus que abria o modo utilizador em vez do modo Administrador; o arquivo residual do lançador agora é limpo automaticamente na próxima vez que uma sessão root é iniciada</li>
+          <li xml:lang="pt">Corrigido: o firmware intel/iwlwifi/nvidia era bloqueado como necessário sem hardware real correspondente — um módulo do kernel carregado mas não utilizado (ex. nouveau/iwlwifi numa VM) era aceite com toda a sua lista teórica de firmware em vez do que o sistema realmente precisa</li>
+          <li xml:lang="pt">Corrigido: a família de firmware intel continuava bloqueada por um chipset/dispositivo de áudio Intel emulado — agora exige um dispositivo de rede Intel real, tal como o iwlwifi</li>
+          <li xml:lang="pt">Corrigido: o resultado da desinstalação do VirtualBox Guest Additions era descartado silenciosamente ao ser acionado a partir de "Remover pacotes órfãos" — o seu erro, se houver, agora é mostrado</li>
+
+          <li xml:lang="it">Rimosso: opzione di avvio --root e launcher .desktop Amministratore — causava un conflitto di istanza D-Bus che apriva la modalità utente invece della modalità Amministratore; il file del launcher residuo viene ora rimosso automaticamente al prossimo avvio di una sessione root</li>
+          <li xml:lang="it">Corretto: il firmware intel/iwlwifi/nvidia veniva bloccato come necessario senza hardware reale corrispondente — un modulo del kernel caricato ma inutilizzato (es. nouveau/iwlwifi su una VM) veniva accettato con l'intera lista teorica di firmware invece di ciò che il sistema necessita realmente</li>
+          <li xml:lang="it">Corretto: la famiglia di firmware intel rimaneva bloccata da un chipset/dispositivo audio Intel emulato — ora richiede un vero dispositivo di rete Intel, come iwlwifi</li>
+          <li xml:lang="it">Corretto: il risultato della disinstallazione di VirtualBox Guest Additions veniva scartato silenziosamente quando attivato da "Rimuovi pacchetti orfani" — il suo errore, se presente, viene ora mostrato</li>
+
+          <li xml:lang="ro">Eliminat: opțiunea de pornire --root și lansatorul .desktop Administrator — provoca un conflict de instanță D-Bus care deschidea modul utilizator în loc de modul Administrator; fișierul rezidual al lansatorului este acum curățat automat la următoarea pornire a unei sesiuni root</li>
+          <li xml:lang="ro">Remediat: firmware-ul intel/iwlwifi/nvidia era blocat fals ca necesar fără hardware real corespunzător — un modul de kernel încărcat dar neutilizat (ex. nouveau/iwlwifi pe o VM) era acceptat cu întreaga listă teoretică de firmware în loc de ceea ce sistemul are cu adevărat nevoie</li>
+          <li xml:lang="ro">Remediat: familia de firmware intel rămânea blocată de un chipset/dispozitiv audio Intel emulat — necesită acum un dispozitiv de rețea Intel real, la fel ca iwlwifi</li>
+          <li xml:lang="ro">Remediat: rezultatul dezinstalării VirtualBox Guest Additions era ignorat silențios când era declanșat din "Elimină pachetele orfane" — eroarea sa, dacă există, este acum afișată</li>
+
+          <li xml:lang="ru">Удалено: флаг запуска --root и ярлык .desktop администратора — вызывал конфликт экземпляров D-Bus, из-за которого открывался пользовательский режим вместо режима администратора; оставшийся файл ярлыка теперь автоматически удаляется при следующем запуске root-сессии</li>
+          <li xml:lang="ru">Исправлено: прошивка intel/iwlwifi/nvidia ложно блокировалась как необходимая при отсутствии соответствующего реального оборудования — загруженный, но неиспользуемый модуль ядра (напр. nouveau/iwlwifi в VM) принимался со всем своим теоретическим списком прошивок вместо того, что системе реально нужно</li>
+          <li xml:lang="ru">Исправлено: семейство прошивок intel по-прежнему блокировалось эмулированным чипсетом/аудиоустройством Intel — теперь требуется настоящее сетевое устройство Intel, как и для iwlwifi</li>
+          <li xml:lang="ru">Исправлено: результат удаления VirtualBox Guest Additions незаметно отбрасывался при запуске из "Удалить неиспользуемые пакеты" — теперь его ошибка, если есть, отображается</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.3-2" date="2026-07-21">
       <description>
         <p>Feature release: --root launch flag with Administrator .desktop launcher, duplicate VM guest package fix, Intel GPU firmware false-positive lock fix.</p>

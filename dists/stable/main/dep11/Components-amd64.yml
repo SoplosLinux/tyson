@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260721T205105
+Time: 20260722T074402
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -3242,6 +3242,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-sys-cleaner/issues
 Releases:
+  - version: 1.0.3-3
+    date: '2026-07-22'
+    type: stable
+    description:
+      C: |-
+        Bugfix release: reverted the --root Administrator launcher (D-Bus instance conflict), fixed false firmware locks for intel/iwlwifi/nvidia, fixed VirtualBox uninstall feedback.
+      es: |-
+        Versión de corrección: revertido el lanzador --root de Administrador (conflicto de instancia D-Bus), corregidos los bloqueos falsos de firmware intel/iwlwifi/nvidia, corregido el aviso de desinstalación de VirtualBox.
+      fr: |-
+        Version corrective : lanceur Administrateur --root annulé (conflit d'instance D-Bus), verrouillages erronés du firmware intel/iwlwifi/nvidia corrigés, retour d'information de désinstallation de VirtualBox corrigé.
+      de: |-
+        Fehlerbehebungsversion: --root-Administrator-Starter zurückgenommen (D-Bus-Instanzkonflikt), fälschliche Firmware-Sperren für intel/iwlwifi/nvidia behoben, Rückmeldung zur VirtualBox-Deinstallation behoben.
+      pt: |-
+        Versão de correção: lançador --root de Administrador revertido (conflito de instância D-Bus), bloqueios falsos de firmware intel/iwlwifi/nvidia corrigidos, feedback de desinstalação do VirtualBox corrigido.
+      it: |-
+        Versione correttiva: launcher Amministratore --root annullato (conflitto di istanza D-Bus), blocchi falsi del firmware intel/iwlwifi/nvidia corretti, feedback di disinstallazione di VirtualBox corretto.
+      ro: |-
+        Versiune de corectare: lansatorul Administrator --root anulat (conflict de instanță D-Bus), blocările false ale firmware-ului intel/iwlwifi/nvidia remediate, feedback-ul de dezinstalare VirtualBox remediat.
+      ru: |-
+        Версия с исправлениями: отменён запуск администратора --root (конфликт экземпляров D-Bus), исправлены ложные блокировки прошивки intel/iwlwifi/nvidia, исправлена обратная связь при удалении VirtualBox.
   - version: 1.0.3-2
     date: '2026-07-21'
     type: stable
