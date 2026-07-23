@@ -217,6 +217,18 @@
   </provides>
 
   <releases>
+    <release version="2.0.2-6" date="2026-07-23">
+      <description>
+        <p xml:lang="en">Boot Entries tab now works for real: memtest entries can be disabled or removed, custom entries can be added, and duplicate/mislabeled entries were fixed.</p>
+        <p xml:lang="es">La pestaña de Entradas de arranque ahora funciona de verdad: las entradas de memtest se pueden desactivar o eliminar, se pueden añadir entradas personalizadas, y se corrigieron entradas duplicadas o mal etiquetadas.</p>
+        <p xml:lang="fr">L'onglet Entrées de démarrage fonctionne enfin réellement : les entrées memtest peuvent être désactivées ou supprimées, des entrées personnalisées peuvent être ajoutées, et les entrées dupliquées ou mal étiquetées ont été corrigées.</p>
+        <p xml:lang="pt">A aba Entradas de arranque agora funciona de verdade: as entradas de memtest podem ser desativadas ou removidas, entradas personalizadas podem ser adicionadas, e entradas duplicadas ou mal rotuladas foram corrigidas.</p>
+        <p xml:lang="de">Der Tab „Boot-Einträge" funktioniert jetzt wirklich: Memtest-Einträge können deaktiviert oder entfernt werden, benutzerdefinierte Einträge können hinzugefügt werden, und doppelte oder falsch beschriftete Einträge wurden behoben.</p>
+        <p xml:lang="it">La scheda Voci di avvio ora funziona davvero: le voci memtest possono essere disattivate o rimosse, si possono aggiungere voci personalizzate, e sono state corrette voci duplicate o etichettate male.</p>
+        <p xml:lang="ru">Вкладка загрузочных записей теперь действительно работает: записи memtest можно отключать или удалять, можно добавлять пользовательские записи, исправлены дублирующиеся или неверно подписанные записи.</p>
+        <p xml:lang="ro">Fila Intrări de pornire funcționează acum cu adevărat: intrările memtest pot fi dezactivate sau eliminate, se pot adăuga intrări personalizate, iar intrările duplicate sau etichetate greșit au fost corectate.</p>
+      </description>
+    </release>
     <release version="2.0.2-5" date="2026-07-07">
       <description>
         <p xml:lang="en">Build dependency python3-all replaced with python3.</p>

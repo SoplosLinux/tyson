@@ -141,17 +141,17 @@ MD5sum: 887ff2a767b107324eec9d97d759e567
 Description: Manage AppImage applications on Soplos Linux
 
 Package: soplos-grub-editor
-Version: 2.0.2-5
+Version: 2.0.2-6
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-polkit-1.0, grub2-common | grub2, imagemagick, pkexec, polkitd, python3, python3-cairo, python3-dbus, python3-gi, python3-pil, python3-polib, python3-setuptools, python3-xlib
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_2.0.2-5_all.deb
-Size: 1185008
-SHA256: 9dc61243cc6caaf06f44ffaed63fedf22b55e3ff5c52a2180460a28394b68c47
-SHA1: 6ba4aaf0c340a61dacc60ab3dfd8fac1bb7b5d49
-MD5sum: 0cf748c74f969beb0aa737daace59205
+Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_2.0.2-6_all.deb
+Size: 1193920
+SHA256: 9dc9e50cd8a482904cfcc78aeb45428116f184062e0e9232d3aabea141d5276f
+SHA1: a9a887591bfd203b1e73730f883cd569ffad08b5
+MD5sum: 6c6d6088a46b678347ed368940806228
 Description: Advanced GRUB configuration editor with complete internationalization
 
 Package: soplos-grub-theme
