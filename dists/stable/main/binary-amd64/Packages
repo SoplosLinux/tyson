@@ -277,22 +277,22 @@ Description: Soplos Plymouth theme.
  Build date: 2025-12-20
 
 Package: soplos-release
-Version: 0.1.8-5
+Version: 0.1.8-6
 Architecture: all
 Maintainer: Sergi Perich
 Priority: required
 Section: admin
-Filename: pool/main/s/soplos-release/soplos-release_0.1.8-5_all.deb
+Filename: pool/main/s/soplos-release/soplos-release_0.1.8-6_all.deb
 Size: 4488
-SHA256: e3e3493ff7c215c7c336d211c1d19584fa781002ca59388679c61783b38a7d70
-SHA1: 2fdf134eec5ba0bfbdfa52266ef98dabc6406e17
-MD5sum: e5a3b0facca26b5333c1324e7533814d
+SHA256: 9bc177e8f401b27964153a4b0f963cb1e977f38a34b14042bf4c9d6260d31848
+SHA1: c05cb3ee86b100d39ffcf57ecbc173ee1749c580
+MD5sum: fe54f86030c239dded9e8c5f76c3ac3b
 Description: Soplos Linux release information (internal system package)
  This package contains release information and version files for Soplos Linux.
  It is essential for operating system identification.
  .
  This is an internal system package and does not provide any user interface.
- This release corresponds to Soplos Linux Tyson RC3.
+ This release corresponds to Soplos Linux Tyson RC4.
 Essential: yes
 Replaces: base-files
 Recommends: branding-soplos, soplos-grub-theme, soplos-plasma-classic-black-theme, soplos-plasma-classic-white-theme, soplos-plasma-modern-black-themes, soplos-plasma-modern-white-themes, soplos-plymouth-theme, soplos-wallpapers01, soplos-wallpapers02, fastfetch-soplos
