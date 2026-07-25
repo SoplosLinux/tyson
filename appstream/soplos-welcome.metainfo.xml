@@ -265,7 +265,7 @@
   <url type="homepage">https://soplos.org</url>
   <url type="bugtracker">https://github.com/SoplosLinux/soplos-welcome/issues</url>
   <url type="help">https://github.com/SoplosLinux/soplos-welcome/wiki</url>
-  <url type="donation">https://www.paypal.com/paypalme/isubdes</url>
+  <url type="donation">https://soplos.org/community/donate/</url>
 
   <developer id="org.soplos">
     <name>Sergi Perich</name>
@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.1-3" date="2026-07-25">
+        <description>
+          <p xml:lang="en">Donate link now points to soplos.org/community/donate/ instead of PayPal.</p>
+          <p xml:lang="es">El enlace de donación ahora apunta a soplos.org/community/donate/ en lugar de PayPal.</p>
+          <p xml:lang="fr">Le lien de don pointe désormais vers soplos.org/community/donate/ au lieu de PayPal.</p>
+          <p xml:lang="pt">O link de doação agora aponta para soplos.org/community/donate/ em vez do PayPal.</p>
+          <p xml:lang="de">Der Spenden-Link verweist jetzt auf soplos.org/community/donate/ anstelle von PayPal.</p>
+          <p xml:lang="it">Il link per le donazioni ora punta a soplos.org/community/donate/ invece di PayPal.</p>
+          <p xml:lang="ru">Ссылка для пожертвований теперь ведёт на soplos.org/community/donate/ вместо PayPal.</p>
+          <p xml:lang="ro">Linkul de donații indică acum către soplos.org/community/donate/ în loc de PayPal.</p>
+        </description>
+      </release>
       <release version="2.1.1-2" date="2026-07-24">
         <description>
           <p xml:lang="en">Fixed duplicate nouveau blacklist on NVIDIA install: both the basic and CUDA install paths wrote /etc/modprobe.d/blacklist-nouveau.conf alongside the dracut-managed /etc/dracut.conf.d/blacklist-nouveau.conf. The NVIDIA package already provides its own modprobe blacklist via /etc/modprobe.d/nvidia.conf, making the Welcome-written file redundant and a potential source of conflicts. Removed the modprobe writes; dracut.conf.d is now the single source of truth for nouveau blacklisting.</p>

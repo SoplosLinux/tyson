@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260725T123003
+Time: 20260725T125227
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1225,7 +1225,7 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-welcome/issues
   help: https://github.com/SoplosLinux/soplos-welcome/wiki
-  donation: https://www.paypal.com/paypalme/isubdes
+  donation: https://soplos.org/community/donate/
 Developer:
   id: org.soplos
   name:
@@ -1234,6 +1234,26 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.1-3
+    date: '2026-07-25'
+    type: stable
+    description:
+      en: Donate link now points to soplos.org/community/donate/ instead of PayPal.
+      es: El enlace de donación ahora apunta a soplos.org/community/donate/ en lugar
+        de PayPal.
+      fr: Le lien de don pointe désormais vers soplos.org/community/donate/ au lieu
+        de PayPal.
+      pt: O link de doação agora aponta para soplos.org/community/donate/ em vez do
+        PayPal.
+      de: Der Spenden-Link verweist jetzt auf soplos.org/community/donate/ anstelle
+        von PayPal.
+      it: Il link per le donazioni ora punta a soplos.org/community/donate/ invece
+        di PayPal.
+      ru: Ссылка для пожертвований теперь ведёт на soplos.org/community/donate/ вместо
+        PayPal.
+      ro: Linkul de donații indică acum către soplos.org/community/donate/ în loc
+        de PayPal.
+      C: Donate link now points to soplos.org/community/donate/ instead of PayPal.
   - version: 2.1.1-2
     date: '2026-07-24'
     type: stable
