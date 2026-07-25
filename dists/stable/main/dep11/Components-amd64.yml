@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260724T134527
+Time: 20260725T123003
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1892,7 +1892,7 @@ Launchable:
 Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-welcome-live/issues
-  donation: https://www.paypal.com/paypalme/isubdes
+  donation: https://soplos.org/community/donate/
   help: https://soplos.org
 Developer:
   id: org.soplos
@@ -1902,6 +1902,18 @@ Developer:
 Provides:
   - soplos-welcome-live
 Releases:
+  - version: 2.0.2-8
+    date: '2026-07-25'
+    type: stable
+    description:
+      C: Donate link updated.
+      es: Enlace de donación actualizado.
+      fr: Lien de don mis à jour.
+      pt: Link de doação atualizado.
+      de: Spenden-Link aktualisiert.
+      it: Link per le donazioni aggiornato.
+      ru: Обновлена ссылка для пожертвований.
+      ro: Link de donații actualizat.
   - version: 2.0.2-7
     date: '2026-07-08'
     type: stable

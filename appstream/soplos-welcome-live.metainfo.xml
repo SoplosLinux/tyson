@@ -152,7 +152,7 @@
 
   <url type="homepage">https://soplos.org</url>
   <url type="bugtracker">https://github.com/SoplosLinux/soplos-welcome-live/issues</url>
-  <url type="donation">https://www.paypal.com/paypalme/isubdes</url>
+  <url type="donation">https://soplos.org/community/donate/</url>
   <url type="help">https://soplos.org</url>
 
   <developer id="org.soplos">
@@ -176,6 +176,42 @@
   </translation>
 
   <releases>
+    <release version="2.0.2-8" date="2026-07-25">
+      <description>
+        <p>Donate link updated.</p>
+        <ul>
+          <li>Donate link now points to soplos.org/community/donate/ instead of PayPal.</li>
+        </ul>
+        <p xml:lang="es">Enlace de donación actualizado.</p>
+        <ul xml:lang="es">
+          <li>El enlace de donación ahora apunta a soplos.org/community/donate/ en lugar de PayPal.</li>
+        </ul>
+        <p xml:lang="fr">Lien de don mis à jour.</p>
+        <ul xml:lang="fr">
+          <li>Le lien de don pointe désormais vers soplos.org/community/donate/ au lieu de PayPal.</li>
+        </ul>
+        <p xml:lang="pt">Link de doação atualizado.</p>
+        <ul xml:lang="pt">
+          <li>O link de doação agora aponta para soplos.org/community/donate/ em vez do PayPal.</li>
+        </ul>
+        <p xml:lang="de">Spenden-Link aktualisiert.</p>
+        <ul xml:lang="de">
+          <li>Der Spenden-Link verweist jetzt auf soplos.org/community/donate/ anstelle von PayPal.</li>
+        </ul>
+        <p xml:lang="it">Link per le donazioni aggiornato.</p>
+        <ul xml:lang="it">
+          <li>Il link per le donazioni ora punta a soplos.org/community/donate/ invece di PayPal.</li>
+        </ul>
+        <p xml:lang="ru">Обновлена ссылка для пожертвований.</p>
+        <ul xml:lang="ru">
+          <li>Ссылка для пожертвований теперь ведёт на soplos.org/community/donate/ вместо PayPal.</li>
+        </ul>
+        <p xml:lang="ro">Link de donații actualizat.</p>
+        <ul xml:lang="ro">
+          <li>Linkul de donații indică acum către soplos.org/community/donate/ în loc de PayPal.</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.0.2-7" date="2026-07-08">
       <description>
         <p>Qt6 migration: qdbus replaced with qdbus6.</p>
