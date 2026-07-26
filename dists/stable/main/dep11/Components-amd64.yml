@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260725T125227
+Time: 20260726T011130
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -716,6 +716,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.1-6
+    date: '2026-07-26'
+    type: stable
+    description:
+      C: |-
+        Fixed BORE/Zen patch source fallback, fixed Zen's alternate scheduler never actually building, and added Soplos-maintained fallback patches for point releases upstream hasn't caught up with yet.
+      es: |-
+        Corregido el sistema de fuentes alternativas de parches BORE/Zen, corregido que el scheduler alternativo de Zen nunca llegaba a compilarse, y añadidos parches de respaldo mantenidos por Soplos para versiones que upstream aún no soporta.
+      fr: |-
+        Correction du système de sources de secours pour les patchs BORE/Zen, correction du planificateur alternatif de Zen qui n'était en fait jamais compilé, et ajout de patchs de secours maintenus par Soplos pour les versions que l'amont n'a pas encore rattrapées.
+      de: |-
+        Fallback-System für BORE/Zen-Patch-Quellen behoben, behoben dass Zens alternativer Scheduler nie tatsächlich gebaut wurde, und von Soplos gepflegte Fallback-Patches für Point-Releases hinzugefügt, die Upstream noch nicht unterstützt.
+      pt: |-
+        Corrigido o sistema de fontes alternativas de patches BORE/Zen, corrigido o facto de o escalonador alternativo do Zen nunca chegar a ser compilado, e adicionados patches de reserva mantidos pela Soplos para versões que o upstream ainda não suporta.
+      it: |-
+        Corretto il sistema di fonti alternative per le patch BORE/Zen, corretto il fatto che lo scheduler alternativo di Zen non veniva mai effettivamente compilato, e aggiunte patch di riserva mantenute da Soplos per le versioni non ancora supportate dall'upstream.
+      ro: |-
+        Corectat sistemul de surse alternative pentru patch-urile BORE/Zen, corectat faptul ca schedulerul alternativ al Zen nu se compila niciodata cu adevarat, si adaugate patch-uri de rezerva mentinute de Soplos pentru versiunile pe care upstream nu le suporta inca.
+      ru: |-
+        Исправлена система резервных источников патчей BORE/Zen, исправлено то, что альтернативный планировщик Zen на деле никогда не собирался, и добавлены резервные патчи, поддерживаемые Soplos, для версий, которые апстрим пока не поддерживает.
   - version: 1.0.1-5
     date: '2026-07-22'
     type: stable
