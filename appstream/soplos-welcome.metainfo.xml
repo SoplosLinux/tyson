@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.1-4" date="2026-07-26">
+        <description>
+          <p xml:lang="en">Fixed the Customization tab's Login Screen tile and the NVIDIA driver setup script still referencing SDDM, which was replaced by Plasma Login Manager.</p>
+          <p xml:lang="es">Corregidos la ficha de Pantalla de Inicio de Sesión en Personalización y el script de configuración del driver NVIDIA, que seguían referenciando SDDM, sustituido por Plasma Login Manager.</p>
+          <p xml:lang="fr">Correction de la tuile Écran de connexion dans Personnalisation et du script de configuration du pilote NVIDIA, qui référençaient encore SDDM, remplacé par Plasma Login Manager.</p>
+          <p xml:lang="pt">Corrigidos o bloco Ecrã de Início de Sessão em Personalização e o script de configuração do driver NVIDIA, que ainda referenciavam o SDDM, substituído pelo Plasma Login Manager.</p>
+          <p xml:lang="de">Behoben: Die Kachel „Anmeldebildschirm" in der Anpassung und das NVIDIA-Treiber-Setup-Skript verwiesen noch auf SDDM, das durch Plasma Login Manager ersetzt wurde.</p>
+          <p xml:lang="it">Corretti il riquadro Schermata di accesso in Personalizzazione e lo script di configurazione del driver NVIDIA, che facevano ancora riferimento a SDDM, sostituito da Plasma Login Manager.</p>
+          <p xml:lang="ru">Исправлены плитка «Экран входа» в разделе персонализации и скрипт настройки драйвера NVIDIA, которые всё ещё ссылались на SDDM, заменённый на Plasma Login Manager.</p>
+          <p xml:lang="ro">Corectate placuta Ecran de conectare din Personalizare si scriptul de configurare a driverului NVIDIA, care inca faceau referire la SDDM, inlocuit de Plasma Login Manager.</p>
+        </description>
+      </release>
       <release version="2.1.1-3" date="2026-07-25">
         <description>
           <p xml:lang="en">Donate link now points to soplos.org/community/donate/ instead of PayPal.</p>

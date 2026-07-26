@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260726T023343
+Time: 20260726T153733
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1274,6 +1274,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.1-4
+    date: '2026-07-26'
+    type: stable
+    description:
+      en: |-
+        Fixed the Customization tab's Login Screen tile and the NVIDIA driver setup script still referencing SDDM, which was replaced by Plasma Login Manager.
+      es: |-
+        Corregidos la ficha de Pantalla de Inicio de Sesión en Personalización y el script de configuración del driver NVIDIA, que seguían referenciando SDDM, sustituido por Plasma Login Manager.
+      fr: |-
+        Correction de la tuile Écran de connexion dans Personnalisation et du script de configuration du pilote NVIDIA, qui référençaient encore SDDM, remplacé par Plasma Login Manager.
+      pt: |-
+        Corrigidos o bloco Ecrã de Início de Sessão em Personalização e o script de configuração do driver NVIDIA, que ainda referenciavam o SDDM, substituído pelo Plasma Login Manager.
+      de: |-
+        Behoben: Die Kachel „Anmeldebildschirm" in der Anpassung und das NVIDIA-Treiber-Setup-Skript verwiesen noch auf SDDM, das durch Plasma Login Manager ersetzt wurde.
+      it: |-
+        Corretti il riquadro Schermata di accesso in Personalizzazione e lo script di configurazione del driver NVIDIA, che facevano ancora riferimento a SDDM, sostituito da Plasma Login Manager.
+      ru: |-
+        Исправлены плитка «Экран входа» в разделе персонализации и скрипт настройки драйвера NVIDIA, которые всё ещё ссылались на SDDM, заменённый на Plasma Login Manager.
+      ro: |-
+        Corectate placuta Ecran de conectare din Personalizare si scriptul de configurare a driverului NVIDIA, care inca faceau referire la SDDM, inlocuit de Plasma Login Manager.
+      C: |-
+        Fixed the Customization tab's Login Screen tile and the NVIDIA driver setup script still referencing SDDM, which was replaced by Plasma Login Manager.
   - version: 2.1.1-3
     date: '2026-07-25'
     type: stable
