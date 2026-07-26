@@ -166,6 +166,52 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.1-7" date="2026-07-26">
+      <description>
+        <p>Added a core count selector for compilation and profile/version filters in the Soplos Kernels tab, plus two related UI fixes.</p>
+        <p xml:lang="es">Añadido un selector de núcleos para la compilación y filtros de perfil/versión en la pestaña Kernels Soplos, más dos correcciones de interfaz relacionadas.</p>
+        <p xml:lang="fr">Ajout d'un sélecteur de cœurs pour la compilation et de filtres profil/version dans l'onglet Noyaux Soplos, plus deux corrections d'interface associées.</p>
+        <p xml:lang="de">Kernauswahl für die Kompilierung sowie Profil-/Versionsfilter im Tab Soplos-Kernel hinzugefügt, plus zwei zugehörige Oberflächenkorrekturen.</p>
+        <p xml:lang="pt">Adicionado um seletor de núcleos para a compilação e filtros de perfil/versão no separador Kernels Soplos, mais duas correções de interface relacionadas.</p>
+        <p xml:lang="it">Aggiunto un selettore di core per la compilazione e filtri profilo/versione nella scheda Kernel Soplos, più due correzioni dell'interfaccia correlate.</p>
+        <p xml:lang="ro">Adaugat un selector de nuclee pentru compilare si filtre de profil/versiune in tab-ul Kernels Soplos, plus doua corectii de interfata asociate.</p>
+        <p xml:lang="ru">Добавлен выбор количества ядер для компиляции и фильтры профиля/версии на вкладке Ядра Soplos, а также два связанных исправления интерфейса.</p>
+        <ul>
+          <li>Added a core count selector ("Cores to use for compilation") next to the cleanup option, defaulting to all logical cores — available in both regular profiles and Stock/developer mode, threaded through to `make -j`</li>
+          <li>Added Profile and Version (V1–V4) filter dropdowns in the Soplos Kernels tab, populated dynamically from the packages actually present in the repository</li>
+          <li>Fixed kernel list filters leaving the Install/Remove buttons blank until a manual refresh</li>
+          <li>Fixed the filters row being visually stuck to the kernel list with no clear boundary — now its own card</li>
+          <li xml:lang="es">Añadido un selector de número de núcleos («Núcleos a usar para compilar») junto a la opción de limpieza, con todos los núcleos lógicos por defecto — disponible tanto en perfiles normales como en modo Stock/desarrollador, aplicado hasta `make -j`</li>
+          <li xml:lang="es">Añadidos desplegables de filtro por Perfil y Versión (V1–V4) en la pestaña Kernels Soplos, rellenados dinámicamente según los paquetes realmente presentes en el repositorio</li>
+          <li xml:lang="es">Corregido que los filtros de la lista de kernels dejaban los botones Instalar/Eliminar en blanco hasta refrescar manualmente</li>
+          <li xml:lang="es">Corregido que la fila de filtros quedaba pegada visualmente a la lista de kernels sin ningún límite claro — ahora es su propia tarjeta</li>
+          <li xml:lang="fr">Ajout d'un sélecteur de nombre de cœurs (« Cœurs à utiliser pour la compilation ») à côté de l'option de nettoyage, tous les cœurs logiques par défaut — disponible en profils normaux comme en mode Stock/développeur, répercuté jusqu'à `make -j`</li>
+          <li xml:lang="fr">Ajout de listes déroulantes de filtre Profil et Version (V1–V4) dans l'onglet Noyaux Soplos, remplies dynamiquement à partir des paquets réellement présents dans le dépôt</li>
+          <li xml:lang="fr">Correction des filtres de la liste des noyaux qui laissaient les boutons Installer/Supprimer vides jusqu'à une actualisation manuelle</li>
+          <li xml:lang="fr">Correction de la ligne de filtres collée visuellement à la liste des noyaux sans limite claire — désormais sa propre carte</li>
+          <li xml:lang="de">Kernauswahl („Kerne für die Kompilierung“) neben der Bereinigungsoption hinzugefügt, standardmäßig alle logischen Kerne — verfügbar sowohl in regulären Profilen als auch im Stock-/Entwicklermodus, bis zu `make -j` durchgereicht</li>
+          <li xml:lang="de">Dropdown-Filter für Profil und Version (V1–V4) im Tab Soplos-Kernel hinzugefügt, dynamisch befüllt aus den tatsächlich im Repository vorhandenen Paketen</li>
+          <li xml:lang="de">Behoben, dass Kernel-Listenfilter die Schaltflächen Installieren/Entfernen bis zur manuellen Aktualisierung leer ließen</li>
+          <li xml:lang="de">Behoben, dass die Filterzeile visuell ohne klare Abgrenzung an der Kernel-Liste klebte — jetzt eigene Karte</li>
+          <li xml:lang="pt">Adicionado um seletor de número de núcleos («Núcleos a usar para a compilação») junto à opção de limpeza, com todos os núcleos lógicos por predefinição — disponível tanto em perfis normais como no modo Stock/programador, aplicado até ao `make -j`</li>
+          <li xml:lang="pt">Adicionados menus pendentes de filtro por Perfil e Versão (V1–V4) no separador Kernels Soplos, preenchidos dinamicamente a partir dos pacotes realmente presentes no repositório</li>
+          <li xml:lang="pt">Corrigido o facto de os filtros da lista de kernels deixarem os botões Instalar/Remover em branco até uma atualização manual</li>
+          <li xml:lang="pt">Corrigido o facto de a linha de filtros ficar visualmente colada à lista de kernels sem limite claro — agora é o seu próprio cartão</li>
+          <li xml:lang="it">Aggiunto un selettore del numero di core ("Core da usare per la compilazione") accanto all'opzione di pulizia, con tutti i core logici come predefinito — disponibile sia nei profili normali sia in modalità Stock/sviluppatore, applicato fino a `make -j`</li>
+          <li xml:lang="it">Aggiunti menu a tendina di filtro per Profilo e Versione (V1–V4) nella scheda Kernel Soplos, popolati dinamicamente in base ai pacchetti effettivamente presenti nel repository</li>
+          <li xml:lang="it">Corretto il fatto che i filtri dell'elenco kernel lasciavano i pulsanti Installa/Rimuovi vuoti fino a un aggiornamento manuale</li>
+          <li xml:lang="it">Corretto il fatto che la riga dei filtri restava visivamente attaccata all'elenco kernel senza un confine chiaro — ora è una scheda propria</li>
+          <li xml:lang="ro">Adaugat un selector al numarului de nuclee („Nuclee de folosit pentru compilare") langa optiunea de curatare, cu toate nucleele logice implicit — disponibil atat in profiluri normale cat si in modul Stock/dezvoltator, aplicat pana la `make -j`</li>
+          <li xml:lang="ro">Adaugate liste derulante de filtrare dupa Profil si Versiune (V1–V4) in tab-ul Kernels Soplos, populate dinamic din pachetele prezente efectiv in depozit</li>
+          <li xml:lang="ro">Corectat faptul ca filtrele listei de kernel-uri lasau butoanele Instalare/Eliminare goale pana la o reactualizare manuala</li>
+          <li xml:lang="ro">Corectat faptul ca randul de filtre ramanea lipit vizual de lista de kernel-uri fara o limita clara — acum este propriul sau card</li>
+          <li xml:lang="ru">Добавлен выбор количества ядер («Ядра для компиляции») рядом с опцией очистки, по умолчанию все логические ядра — доступно как в обычных профилях, так и в режиме Stock/разработчика, передаётся вплоть до `make -j`</li>
+          <li xml:lang="ru">Добавлены выпадающие фильтры по Профилю и Версии (V1–V4) на вкладке Ядра Soplos, заполняются динамически на основе реально присутствующих в репозитории пакетов</li>
+          <li xml:lang="ru">Исправлено то, что фильтры списка ядер оставляли кнопки «Установить»/«Удалить» пустыми до ручного обновления</li>
+          <li xml:lang="ru">Исправлено то, что строка фильтров визуально прилипала к списку ядер без чёткой границы — теперь это отдельная карточка</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.1-6" date="2026-07-26">
       <description>
         <p>Fixed BORE/Zen patch source fallback, fixed Zen's alternate scheduler never actually building, and added Soplos-maintained fallback patches for point releases upstream hasn't caught up with yet.</p>
