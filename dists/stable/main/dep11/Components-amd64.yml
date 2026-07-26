@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260726T153733
+Time: 20260726T232844
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1274,6 +1274,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.1-5
+    date: '2026-07-27'
+    type: stable
+    description:
+      en: |-
+        Fixed NVIDIA 590/610 installation failing due to a conflicting package combination; they now install open kernel modules correctly. Fixed the app silently reporting success even when an install script actually failed.
+      es: |-
+        Corregido el fallo de instalación de NVIDIA 590/610 causado por una combinación de paquetes en conflicto; ahora instalan correctamente los módulos de kernel abiertos. Corregido que la aplicación reportara éxito aunque el script de instalación fallara realmente.
+      fr: |-
+        Correction de l'échec d'installation de NVIDIA 590/610 causé par une combinaison de paquets en conflit ; ils installent désormais correctement les modules de noyau ouverts. Correction du signalement erroné de succès par l'application alors que le script d'installation avait réellement échoué.
+      pt: |-
+        Corrigida a falha de instalação do NVIDIA 590/610 causada por uma combinação de pacotes em conflito; agora instalam corretamente os módulos de kernel abertos. Corrigido o facto de a aplicação reportar sucesso mesmo quando o script de instalação falhava.
+      de: |-
+        Behoben: Die Installation von NVIDIA 590/610 schlug wegen einer widersprüchlichen Paketkombination fehl; sie installieren nun korrekt die offenen Kernel-Module. Behoben, dass die App fälschlich Erfolg meldete, obwohl das Installationsskript tatsächlich fehlgeschlagen war.
+      it: |-
+        Corretto il fallimento dell'installazione di NVIDIA 590/610 causato da una combinazione di pacchetti in conflitto; ora installano correttamente i moduli del kernel aperti. Corretto il fatto che l'app segnalasse un successo anche quando lo script di installazione falliva realmente.
+      ru: |-
+        Исправлен сбой установки NVIDIA 590/610, вызванный конфликтующей комбинацией пакетов; теперь корректно устанавливаются открытые модули ядра. Исправлено ложное сообщение об успехе, даже если скрипт установки на самом деле завершался с ошибкой.
+      ro: |-
+        Corectata instalarea esuata a NVIDIA 590/610 cauzata de o combinatie de pachete aflate in conflict; acum se instaleaza corect modulele de kernel deschise. Corectat faptul ca aplicatia raporta succes chiar si atunci cand scriptul de instalare esua de fapt.
+      C: |-
+        Fixed NVIDIA 590/610 installation failing due to a conflicting package combination; they now install open kernel modules correctly. Fixed the app silently reporting success even when an install script actually failed.
   - version: 2.1.1-4
     date: '2026-07-26'
     type: stable
