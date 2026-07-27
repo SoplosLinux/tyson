@@ -166,6 +166,23 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.1-8" date="2026-07-28">
+      <description>
+        <p>Fixed the NVIDIA DKMS patch being silently skipped on the open kernel modules, the ones used by Turing and newer GPUs. It is now applied to both source layouts and only when the driver actually needs it.</p>
+        <p xml:lang="es">Corregido que el parche DKMS de NVIDIA se saltara en silencio los módulos de kernel abiertos, que son los que usan las GPU Turing y posteriores. Ahora se aplica a las dos disposiciones de fuentes y solo cuando el driver lo necesita.</p>
+        <p xml:lang="fr">Correction du correctif DKMS NVIDIA ignoré silencieusement sur les modules de noyau ouverts, ceux utilisés par les GPU Turing et plus récents. Il est désormais appliqué aux deux arborescences de sources et uniquement lorsque le pilote en a besoin.</p>
+        <p xml:lang="de">Behoben: Der NVIDIA-DKMS-Patch wurde bei den offenen Kernel-Modulen stillschweigend übersprungen, also genau bei Turing-GPUs und neuer. Er wird nun auf beide Quellstrukturen angewendet und nur dann, wenn der Treiber ihn benötigt.</p>
+        <p xml:lang="pt">Corrigido o patch DKMS da NVIDIA ser ignorado em silêncio nos módulos de kernel abertos, que são os usados pelas GPU Turing e posteriores. Passa a ser aplicado às duas disposições de código e apenas quando o controlador precisa dele.</p>
+        <p xml:lang="it">Corretto il fatto che la patch DKMS di NVIDIA venisse saltata in silenzio sui moduli del kernel aperti, quelli usati dalle GPU Turing e successive. Ora viene applicata a entrambe le strutture dei sorgenti e solo quando il driver ne ha bisogno.</p>
+        <p xml:lang="ro">Corectat faptul ca patch-ul DKMS NVIDIA era omis in tacere pentru modulele de kernel deschise, cele folosite de placile Turing si mai noi. Acum se aplica ambelor structuri de surse si doar cand driverul are nevoie de el.</p>
+        <p xml:lang="ru">Исправлено: патч DKMS для NVIDIA молча пропускался для открытых модулей ядра, которые используются на Turing и новее. Теперь он применяется к обеим структурам исходников и только когда драйверу это действительно нужно.</p>
+        <ul>
+          <li>The patch walks both `/usr/src/nvidia-*/nvidia/` and `/usr/src/nvidia-*/kernel-open/nvidia/`, instead of only the first, which silently skipped every nvidia-open install</li>
+          <li>The patch is applied only when the source contains `VMA_LOCK_OFFSET`, removing the failed-patch warning on drivers that no longer use that API</li>
+          <li>Removed the unused constants `DRACUT_CONF_DIR` and `DRACUT_SOPLOS_CONF`</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.1-7" date="2026-07-26">
       <description>
         <p>Added a core count selector for compilation and profile/version filters in the Soplos Kernels tab, plus two related UI fixes.</p>

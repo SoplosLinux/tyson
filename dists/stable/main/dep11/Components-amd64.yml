@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260727T213352
+Time: 20260727T230942
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -716,6 +716,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.1-8
+    date: '2026-07-28'
+    type: stable
+    description:
+      C: |-
+        Fixed the NVIDIA DKMS patch being silently skipped on the open kernel modules, the ones used by Turing and newer GPUs. It is now applied to both source layouts and only when the driver actually needs it.
+      es: |-
+        Corregido que el parche DKMS de NVIDIA se saltara en silencio los módulos de kernel abiertos, que son los que usan las GPU Turing y posteriores. Ahora se aplica a las dos disposiciones de fuentes y solo cuando el driver lo necesita.
+      fr: |-
+        Correction du correctif DKMS NVIDIA ignoré silencieusement sur les modules de noyau ouverts, ceux utilisés par les GPU Turing et plus récents. Il est désormais appliqué aux deux arborescences de sources et uniquement lorsque le pilote en a besoin.
+      de: |-
+        Behoben: Der NVIDIA-DKMS-Patch wurde bei den offenen Kernel-Modulen stillschweigend übersprungen, also genau bei Turing-GPUs und neuer. Er wird nun auf beide Quellstrukturen angewendet und nur dann, wenn der Treiber ihn benötigt.
+      pt: |-
+        Corrigido o patch DKMS da NVIDIA ser ignorado em silêncio nos módulos de kernel abertos, que são os usados pelas GPU Turing e posteriores. Passa a ser aplicado às duas disposições de código e apenas quando o controlador precisa dele.
+      it: |-
+        Corretto il fatto che la patch DKMS di NVIDIA venisse saltata in silenzio sui moduli del kernel aperti, quelli usati dalle GPU Turing e successive. Ora viene applicata a entrambe le strutture dei sorgenti e solo quando il driver ne ha bisogno.
+      ro: |-
+        Corectat faptul ca patch-ul DKMS NVIDIA era omis in tacere pentru modulele de kernel deschise, cele folosite de placile Turing si mai noi. Acum se aplica ambelor structuri de surse si doar cand driverul are nevoie de el.
+      ru: |-
+        Исправлено: патч DKMS для NVIDIA молча пропускался для открытых модулей ядра, которые используются на Turing и новее. Теперь он применяется к обеим структурам исходников и только когда драйверу это действительно нужно.
   - version: 1.0.1-7
     date: '2026-07-26'
     type: stable
