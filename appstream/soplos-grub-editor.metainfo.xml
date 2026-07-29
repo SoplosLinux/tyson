@@ -217,6 +217,18 @@
   </provides>
 
   <releases>
+    <release version="2.0.2-7" date="2026-07-29">
+      <description>
+        <p xml:lang="en">Screen resolution is no longer saved using its translated label, custom boot entries can now be enabled, disabled and deleted, and the launcher wrapper registers the window under the same identifier as the desktop file.</p>
+        <p xml:lang="es">La resolución de pantalla ya no se guarda con su etiqueta traducida, las entradas de arranque personalizadas ahora se pueden activar, desactivar y eliminar, y el lanzador registra la ventana con el mismo identificador que el archivo de escritorio.</p>
+        <p xml:lang="fr">La résolution d'écran n'est plus enregistrée avec son libellé traduit, les entrées de démarrage personnalisées peuvent maintenant être activées, désactivées et supprimées, et le lanceur enregistre la fenêtre sous le même identifiant que le fichier de bureau.</p>
+        <p xml:lang="pt">A resolução de ecrã já não é guardada com o seu rótulo traduzido, as entradas de arranque personalizadas podem agora ser ativadas, desativadas e eliminadas, e o lançador regista a janela com o mesmo identificador do ficheiro de ambiente de trabalho.</p>
+        <p xml:lang="de">Die Bildschirmauflösung wird nicht mehr mit ihrer übersetzten Bezeichnung gespeichert, benutzerdefinierte Boot-Einträge können jetzt aktiviert, deaktiviert und gelöscht werden, und der Starter registriert das Fenster unter derselben Kennung wie die Desktop-Datei.</p>
+        <p xml:lang="it">La risoluzione dello schermo non viene più salvata con la sua etichetta tradotta, le voci di avvio personalizzate ora possono essere attivate, disattivate ed eliminate, e il lanciatore registra la finestra con lo stesso identificatore del file desktop.</p>
+        <p xml:lang="ru">Разрешение экрана больше не сохраняется с переведённой подписью, пользовательские загрузочные записи теперь можно включать, отключать и удалять, а лаунчер регистрирует окно с тем же идентификатором, что и файл рабочего стола.</p>
+        <p xml:lang="ro">Rezoluția ecranului nu mai este salvată cu eticheta sa tradusă, intrările de pornire personalizate pot fi acum activate, dezactivate și șterse, iar lansatorul înregistrează fereastra cu același identificator ca fișierul desktop.</p>
+      </description>
+    </release>
     <release version="2.0.2-6" date="2026-07-23">
       <description>
         <p xml:lang="en">Boot Entries tab now works for real: memtest entries can be disabled or removed, custom entries can be added, and duplicate/mislabeled entries were fixed.</p>
