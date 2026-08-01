@@ -217,6 +217,18 @@
   </provides>
 
   <releases>
+    <release version="2.0.2-8" date="2026-08-01">
+      <description>
+        <p xml:lang="en">New "Default Boot Mode" selector lets you choose between a fixed entry, the last installed kernel or the last booted kernel. Applying changes in General settings no longer pins the boot entry to the current kernel, which prevented newly installed kernels from ever being booted.</p>
+        <p xml:lang="es">El nuevo selector "Modo de arranque predeterminado" permite elegir entre una entrada fija, el último kernel instalado o el último kernel arrancado. Aplicar cambios en la configuración general ya no fija la entrada de arranque al kernel actual, lo que impedía que se arrancara nunca un kernel recién instalado.</p>
+        <p xml:lang="fr">Le nouveau sélecteur « Mode de démarrage par défaut » permet de choisir entre une entrée fixe, le dernier noyau installé ou le dernier noyau démarré. L'application des modifications dans les paramètres généraux ne fige plus l'entrée de démarrage sur le noyau actuel, ce qui empêchait tout noyau nouvellement installé d'être démarré.</p>
+        <p xml:lang="pt">O novo seletor "Modo de Arranque Padrão" permite escolher entre uma entrada fixa, o último kernel instalado ou o último kernel arrancado. Aplicar alterações nas definições gerais já não fixa a entrada de arranque no kernel atual, o que impedia que um kernel recém-instalado fosse arrancado.</p>
+        <p xml:lang="de">Die neue Auswahl „Standard-Boot-Modus“ erlaubt die Wahl zwischen einem festen Eintrag, dem zuletzt installierten Kernel oder dem zuletzt gestarteten Kernel. Das Anwenden von Änderungen in den allgemeinen Einstellungen legt den Boot-Eintrag nicht mehr auf den aktuellen Kernel fest, wodurch ein neu installierter Kernel nie gestartet wurde.</p>
+        <p xml:lang="it">Il nuovo selettore "Modalità di avvio predefinita" permette di scegliere tra una voce fissa, l'ultimo kernel installato o l'ultimo kernel avviato. Applicare le modifiche nelle impostazioni generali non fissa più la voce di avvio sul kernel attuale, il che impediva l'avvio di qualsiasi kernel appena installato.</p>
+        <p xml:lang="ru">Новый селектор «Режим загрузки по умолчанию» позволяет выбрать фиксированную запись, последнее установленное ядро или последнее загруженное ядро. Применение изменений в общих настройках больше не закрепляет загрузочную запись за текущим ядром, из-за чего только что установленное ядро никогда не загружалось.</p>
+        <p xml:lang="ro">Noul selector „Mod de boot implicit” permite alegerea între o intrare fixă, ultimul kernel instalat sau ultimul kernel pornit. Aplicarea modificărilor în setările generale nu mai fixează intrarea de pornire pe kernelul curent, ceea ce împiedica pornirea oricărui kernel nou instalat.</p>
+      </description>
+    </release>
     <release version="2.0.2-7" date="2026-07-29">
       <description>
         <p xml:lang="en">Screen resolution is no longer saved using its translated label, custom boot entries can now be enabled, disabled and deleted, and the launcher wrapper registers the window under the same identifier as the desktop file.</p>
