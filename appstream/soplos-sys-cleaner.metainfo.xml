@@ -257,6 +257,51 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.3-4" date="2026-08-02">
+      <description>
+        <p>Theming release: light/dark detection routed per desktop environment (XFCE, Plasma, GNOME), light theme completed to full parity with the dark one.</p>
+        <p xml:lang="es">Versión de temas: detección de claro/oscuro enrutada por escritorio (XFCE, Plasma, GNOME), tema claro completado a paridad total con el oscuro.</p>
+        <p xml:lang="fr">Version thématique : détection clair/sombre routée par environnement de bureau (XFCE, Plasma, GNOME), thème clair complété à parité totale avec le sombre.</p>
+        <p xml:lang="de">Themen-Version: Hell-/Dunkel-Erkennung je Desktop-Umgebung geroutet (XFCE, Plasma, GNOME), helles Thema auf volle Parität mit dem dunklen gebracht.</p>
+        <p xml:lang="pt">Versão de temas: deteção de claro/escuro encaminhada por ambiente de trabalho (XFCE, Plasma, GNOME), tema claro completado até à paridade total com o escuro.</p>
+        <p xml:lang="it">Versione dei temi: rilevamento chiaro/scuro instradato per ambiente desktop (XFCE, Plasma, GNOME), tema chiaro completato alla piena parità con quello scuro.</p>
+        <p xml:lang="ro">Versiune de teme: detectarea luminos/întunecat rutată pe mediu desktop (XFCE, Plasma, GNOME), tema luminoasă completată la paritate totală cu cea întunecată.</p>
+        <p xml:lang="ru">Версия оформления: определение светлой/тёмной темы направляется по среде рабочего стола (XFCE, Plasma, GNOME), светлая тема доведена до полного соответствия тёмной.</p>
+        <ul>
+          <li>Changed: light/dark theme detection is now routed per desktop environment — XFCE reads the active GTK theme name from xfconf-query, Plasma reads ColorScheme from kdeglobals with a window-background luminance fallback, GNOME reads color-scheme. Ported from soplos-welcome</li>
+          <li>Fixed: the light theme was incomplete compared to the dark one, so uncovered widgets fell back to the system theme and clashed — light.css is now at full parity with dark.css</li>
+          <li>Note: the theme is detected once at startup; switching the desktop between light and dark with the application open does not restyle the running window</li>
+
+          <li xml:lang="es">Cambiado: la detección de tema claro/oscuro ahora se enruta por escritorio — XFCE lee el nombre del tema GTK activo con xfconf-query, Plasma lee ColorScheme de kdeglobals con respaldo por luminancia del fondo de ventana, GNOME lee color-scheme. Portado desde soplos-welcome</li>
+          <li xml:lang="es">Corregido: el tema claro estaba incompleto frente al oscuro, por lo que los widgets no cubiertos caían al tema del sistema y desentonaban — light.css ahora está a paridad total con dark.css</li>
+          <li xml:lang="es">Nota: el tema se detecta una sola vez al arrancar; cambiar el escritorio entre claro y oscuro con la aplicación abierta no reestiliza la ventana en ejecución</li>
+
+          <li xml:lang="fr">Modifié : la détection du thème clair/sombre est désormais routée par environnement de bureau — XFCE lit le nom du thème GTK actif via xfconf-query, Plasma lit ColorScheme depuis kdeglobals avec un repli sur la luminance du fond de fenêtre, GNOME lit color-scheme. Porté depuis soplos-welcome</li>
+          <li xml:lang="fr">Corrigé : le thème clair était incomplet par rapport au sombre, les widgets non couverts retombaient sur le thème du système et juraient — light.css est désormais à parité totale avec dark.css</li>
+          <li xml:lang="fr">Note : le thème est détecté une seule fois au démarrage ; basculer le bureau entre clair et sombre avec l'application ouverte ne restyle pas la fenêtre en cours</li>
+
+          <li xml:lang="de">Geändert: die Hell-/Dunkel-Erkennung wird nun je Desktop-Umgebung geroutet — XFCE liest den aktiven GTK-Themennamen über xfconf-query, Plasma liest ColorScheme aus kdeglobals mit Rückfall auf die Luminanz des Fensterhintergrunds, GNOME liest color-scheme. Portiert von soplos-welcome</li>
+          <li xml:lang="de">Behoben: das helle Thema war gegenüber dem dunklen unvollständig, nicht abgedeckte Widgets fielen auf das Systemthema zurück und passten nicht — light.css ist nun auf voller Parität mit dark.css</li>
+          <li xml:lang="de">Hinweis: das Thema wird einmalig beim Start erkannt; ein Wechsel des Desktops zwischen hell und dunkel bei geöffneter Anwendung gestaltet das laufende Fenster nicht neu</li>
+
+          <li xml:lang="pt">Alterado: a deteção de tema claro/escuro é agora encaminhada por ambiente de trabalho — o XFCE lê o nome do tema GTK ativo com xfconf-query, o Plasma lê ColorScheme de kdeglobals com recurso à luminância do fundo da janela, o GNOME lê color-scheme. Portado do soplos-welcome</li>
+          <li xml:lang="pt">Corrigido: o tema claro estava incompleto face ao escuro, pelo que os widgets não cobertos recorriam ao tema do sistema e destoavam — light.css está agora em paridade total com dark.css</li>
+          <li xml:lang="pt">Nota: o tema é detetado uma única vez ao arrancar; alternar o ambiente de trabalho entre claro e escuro com a aplicação aberta não reestiliza a janela em execução</li>
+
+          <li xml:lang="it">Modificato: il rilevamento del tema chiaro/scuro è ora instradato per ambiente desktop — XFCE legge il nome del tema GTK attivo tramite xfconf-query, Plasma legge ColorScheme da kdeglobals con ripiego sulla luminanza dello sfondo della finestra, GNOME legge color-scheme. Portato da soplos-welcome</li>
+          <li xml:lang="it">Corretto: il tema chiaro era incompleto rispetto a quello scuro, quindi i widget non coperti ripiegavano sul tema di sistema e stonavano — light.css è ora in piena parità con dark.css</li>
+          <li xml:lang="it">Nota: il tema viene rilevato una sola volta all'avvio; cambiare il desktop tra chiaro e scuro con l'applicazione aperta non ridisegna la finestra in esecuzione</li>
+
+          <li xml:lang="ro">Modificat: detectarea temei luminoase/întunecate este acum rutată pe mediu desktop — XFCE citește numele temei GTK active prin xfconf-query, Plasma citește ColorScheme din kdeglobals cu revenire la luminanța fundalului ferestrei, GNOME citește color-scheme. Portat din soplos-welcome</li>
+          <li xml:lang="ro">Remediat: tema luminoasă era incompletă față de cea întunecată, astfel încât widgeturile neacoperite reveneau la tema sistemului și nu se potriveau — light.css este acum la paritate totală cu dark.css</li>
+          <li xml:lang="ro">Notă: tema este detectată o singură dată la pornire; schimbarea desktopului între luminos și întunecat cu aplicația deschisă nu restilizează fereastra în execuție</li>
+
+          <li xml:lang="ru">Изменено: определение светлой/тёмной темы теперь направляется по среде рабочего стола — XFCE читает имя активной темы GTK через xfconf-query, Plasma читает ColorScheme из kdeglobals с запасным вариантом по яркости фона окна, GNOME читает color-scheme. Портировано из soplos-welcome</li>
+          <li xml:lang="ru">Исправлено: светлая тема была неполной по сравнению с тёмной, поэтому неохваченные виджеты возвращались к системной теме и выбивались из оформления — light.css теперь полностью соответствует dark.css</li>
+          <li xml:lang="ru">Примечание: тема определяется один раз при запуске; переключение рабочего стола между светлым и тёмным при открытом приложении не меняет оформление текущего окна</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.3-3" date="2026-07-22">
       <description>
         <p>Bugfix release: reverted the --root Administrator launcher (D-Bus instance conflict), fixed false firmware locks for intel/iwlwifi/nvidia, fixed VirtualBox uninstall feedback.</p>

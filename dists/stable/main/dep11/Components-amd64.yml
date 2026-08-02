@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260802T111450
+Time: 20260802T113520
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -3464,6 +3464,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-sys-cleaner/issues
 Releases:
+  - version: 1.0.3-4
+    date: '2026-08-02'
+    type: stable
+    description:
+      C: |-
+        Theming release: light/dark detection routed per desktop environment (XFCE, Plasma, GNOME), light theme completed to full parity with the dark one.
+      es: |-
+        Versión de temas: detección de claro/oscuro enrutada por escritorio (XFCE, Plasma, GNOME), tema claro completado a paridad total con el oscuro.
+      fr: |-
+        Version thématique : détection clair/sombre routée par environnement de bureau (XFCE, Plasma, GNOME), thème clair complété à parité totale avec le sombre.
+      de: |-
+        Themen-Version: Hell-/Dunkel-Erkennung je Desktop-Umgebung geroutet (XFCE, Plasma, GNOME), helles Thema auf volle Parität mit dem dunklen gebracht.
+      pt: |-
+        Versão de temas: deteção de claro/escuro encaminhada por ambiente de trabalho (XFCE, Plasma, GNOME), tema claro completado até à paridade total com o escuro.
+      it: |-
+        Versione dei temi: rilevamento chiaro/scuro instradato per ambiente desktop (XFCE, Plasma, GNOME), tema chiaro completato alla piena parità con quello scuro.
+      ro: |-
+        Versiune de teme: detectarea luminos/întunecat rutată pe mediu desktop (XFCE, Plasma, GNOME), tema luminoasă completată la paritate totală cu cea întunecată.
+      ru: |-
+        Версия оформления: определение светлой/тёмной темы направляется по среде рабочего стола (XFCE, Plasma, GNOME), светлая тема доведена до полного соответствия тёмной.
   - version: 1.0.3-3
     date: '2026-07-22'
     type: stable
