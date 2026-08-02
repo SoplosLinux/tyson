@@ -115,6 +115,7 @@ usr/share/doc/grub-btrfs/changelog.gz	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/copyright	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/initramfs-overlayfs.md	    admin/grub-btrfs
 usr/share/doc/plasma-login-manager/changelog.Debian.gz	    kde/plasma-login-manager
+usr/share/doc/plasma-login-manager/copyright	    kde/plasma-login-manager
 usr/share/doc/soplos-appimage-manager/copyright	    utils/soplos-appimage-manager
 usr/share/doc/soplos-grub-editor/copyright	    utils/soplos-grub-editor
 usr/share/doc/soplos-kernel-installer/copyright	    utils/soplos-kernel-installer
@@ -219,6 +220,8 @@ usr/share/icons/hicolor/64x64/apps/org.soplos.welcomelive.png	    utils/soplos-w
 usr/share/licenses/grub-btrfs/LICENSE	    admin/grub-btrfs
 usr/share/locale/ar/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ar/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
+usr/share/locale/az/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
+usr/share/locale/az/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/bg/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/bg/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/ca/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
@@ -245,6 +248,8 @@ usr/share/locale/gl/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/gl/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/he/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/he/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
+usr/share/locale/hu/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
+usr/share/locale/hu/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/ia/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ia/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/id/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
@@ -253,6 +258,7 @@ usr/share/locale/is/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/is/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/it/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/it/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
+usr/share/locale/ja/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ja/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/ka/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ka/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
@@ -267,12 +273,17 @@ usr/share/locale/nb/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/nl/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/nl/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/nn/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
+usr/share/locale/nn/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/pl/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/pl/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
+usr/share/locale/pt/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
+usr/share/locale/pt/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/pt_BR/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/pt_BR/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/ro/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ro/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
+usr/share/locale/ru/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
+usr/share/locale/ru/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/sk/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/sk/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/sl/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
