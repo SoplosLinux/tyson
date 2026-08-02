@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.1-7" date="2026-07-27">
+        <description>
+          <p xml:lang="en">Removed dead cleanup code in the PRIME Render Offload script for a file no longer written anywhere in the project. Added ART, a RAW photo editor, to the Recommended tab.</p>
+          <p xml:lang="es">Eliminado código de limpieza muerto en el script de PRIME Render Offload para un archivo que ya no escribe ninguna parte del proyecto. Añadido ART, un editor de fotos RAW, a la pestaña Recomendado.</p>
+          <p xml:lang="fr">Suppression d'un code de nettoyage mort dans le script PRIME Render Offload pour un fichier que plus rien dans le projet n'écrit. Ajout d'ART, un éditeur de photos RAW, à l'onglet Recommandé.</p>
+          <p xml:lang="pt">Removido código de limpeza morto no script PRIME Render Offload para um ficheiro que já não é escrito por nada no projeto. Adicionado o ART, um editor de fotos RAW, ao separador Recomendado.</p>
+          <p xml:lang="de">Toten Bereinigungscode im PRIME-Render-Offload-Skript für eine Datei entfernt, die von nichts im Projekt mehr geschrieben wird. ART, ein RAW-Fotoeditor, wurde dem Tab „Empfohlen" hinzugefügt.</p>
+          <p xml:lang="it">Rimosso codice di pulizia morto nello script PRIME Render Offload per un file che nel progetto non viene più scritto da nulla. Aggiunto ART, un editor di foto RAW, alla scheda Consigliati.</p>
+          <p xml:lang="ru">Удалён неработающий код очистки в скрипте PRIME Render Offload для файла, который в проекте больше нигде не создаётся. В раздел «Рекомендуемое» добавлен ART, редактор RAW-фото.</p>
+          <p xml:lang="ro">Eliminat codul de curatare mort din scriptul PRIME Render Offload pentru un fisier pe care nimic din proiect nu il mai scrie. Adaugat ART, un editor de fotografii RAW, in fila Recomandat.</p>
+        </description>
+      </release>
       <release version="2.1.1-6" date="2026-07-27">
         <description>
           <p xml:lang="en">Fixed installing an NVIDIA driver leaving the system with no graphics driver at all: the kernel build tree is now verified before installing and the process stops if DKMS cannot build the module. The compatibility patch for Soplos 7.x kernels is now applied by Welcome too, and the NVIDIA repository is removed after installing. Turing and newer now recommend the 610 branch.</p>
