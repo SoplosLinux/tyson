@@ -105,7 +105,7 @@ MD5sum: 2830d0681c6260c58225ee9c440dedc4
 Description: Configure MSI keyboard RGB lighting
 
 Package: plasma-login-manager
-Version: 6.7.2-soplos
+Version: 6.7.2-1-soplos
 Architecture: amd64
 Maintainer: Sergi Perich <info@soploslinux.com>
 Installed-Size: 2295
@@ -116,11 +116,11 @@ Replaces: sddm
 Homepage: https://invent.kde.org/plasma/plasma-login-manager
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-login-manager/plasma-login-manager_6.7.2-soplos_amd64.deb
-Size: 443852
-SHA256: 736c075970abc5ff6573fabfc7ef63a9d2157f8c2cff310bf904f087b01609c3
-SHA1: 0506854724637c77b18c887c337418e89b7a038b
-MD5sum: fa41157c892e365e431d35f89f0aaffa
+Filename: pool/main/p/plasma-login-manager/plasma-login-manager_6.7.2-1-soplos_amd64.deb
+Size: 444520
+SHA256: 5df63d03a27a173fd0d66f594fdf56972fbb7368b004895f6235fddd41db74f2
+SHA1: a52607b27d219de7e8055e21c573ad8b64234366
+MD5sum: 7ffaa258be21ba7209318bd152e5c41b
 Description: Plasma Login Manager display manager
  Plasma Login provides a display manager for KDE Plasma, forked from
  SDDM, with a greeter, wallpaper plugin integration and a System
