@@ -1421,7 +1421,6 @@ usr/share/soplos-welcome/README.md	    utils/soplos-welcome
 usr/share/soplos-welcome/main.py	    utils/soplos-welcome
 usr/share/soplos-welcome/requirements.txt	    utils/soplos-welcome
 usr/share/soplos-welcome/setup.py	    utils/soplos-welcome
-usr/share/soplos-welcome/soplos-welcome-nvidia-bugs.md	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/README.md	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/soplos-logo.png	    utils/soplos-welcome
