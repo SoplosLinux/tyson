@@ -1551,6 +1551,7 @@ usr/share/soplos-welcome/assets/icons/security/clamui.png	    utils/soplos-welco
 usr/share/soplos-welcome/assets/icons/security/dejadup.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/grub-btrfs.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/gufw.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/security/kudu.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/mozilla-vpn.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/portmaster.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/proton-vpn.png	    utils/soplos-welcome

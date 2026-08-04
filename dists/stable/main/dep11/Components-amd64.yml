@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260803T092518
+Time: 20260804T115347
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1294,6 +1294,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.1-9
+    date: '2026-08-04'
+    type: stable
+    description:
+      en: |-
+        Added Kudu, an all-in-one maintenance suite, to the Security tab, and Zed code editor to Development. BleachBit no longer shows "Recommended" — Soplos Sys Cleaner is the recommended cleaner.
+      es: |-
+        Añadidos Kudu, una suite de mantenimiento todo en uno, a la pestaña Seguridad, y el editor de código Zed a Desarrollo. BleachBit ya no muestra "Recomendado" — Soplos Sys Cleaner es el limpiador recomendado.
+      fr: |-
+        Ajout de Kudu, une suite de maintenance tout-en-un, à l'onglet Sécurité, et de l'éditeur de code Zed à Développement. BleachBit n'affiche plus « Recommandé » — Soplos Sys Cleaner est le nettoyeur recommandé.
+      pt: |-
+        Adicionados o Kudu, um pacote de manutenção tudo-em-um, ao separador Segurança, e o editor de código Zed a Desenvolvimento. O BleachBit deixou de mostrar "Recomendado" — o Soplos Sys Cleaner é o limpador recomendado.
+      de: |-
+        Kudu, eine All-in-one-Wartungssuite, wurde dem Tab „Sicherheit" hinzugefügt, sowie der Code-Editor Zed zu „Entwicklung". BleachBit zeigt nicht mehr „Empfohlen" an — Soplos Sys Cleaner ist der empfohlene Reiniger.
+      it: |-
+        Aggiunto Kudu, una suite di manutenzione tutto-in-uno, alla scheda Sicurezza, e l'editor di codice Zed a Sviluppo. BleachBit non mostra più "Consigliato" — Soplos Sys Cleaner è il pulitore consigliato.
+      ru: |-
+        В раздел «Безопасность» добавлен Kudu — универсальный набор для обслуживания системы, а в «Разработка» — редактор кода Zed. BleachBit больше не отмечен как «Рекомендуется» — рекомендуемым очистителем является Soplos Sys Cleaner.
+      ro: |-
+        Adaugat Kudu, o suita de intretinere all-in-one, in fila Securitate, si editorul de cod Zed in Dezvoltare. BleachBit nu mai afiseaza "Recomandat" — Soplos Sys Cleaner este curatatorul recomandat.
+      C: |-
+        Added Kudu, an all-in-one maintenance suite, to the Security tab, and Zed code editor to Development. BleachBit no longer shows "Recommended" — Soplos Sys Cleaner is the recommended cleaner.
   - version: 2.1.1-8
     date: '2026-08-03'
     type: stable

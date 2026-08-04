@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.1-9" date="2026-08-04">
+        <description>
+          <p xml:lang="en">Added Kudu, an all-in-one maintenance suite, to the Security tab, and Zed code editor to Development. BleachBit no longer shows "Recommended" — Soplos Sys Cleaner is the recommended cleaner.</p>
+          <p xml:lang="es">Añadidos Kudu, una suite de mantenimiento todo en uno, a la pestaña Seguridad, y el editor de código Zed a Desarrollo. BleachBit ya no muestra "Recomendado" — Soplos Sys Cleaner es el limpiador recomendado.</p>
+          <p xml:lang="fr">Ajout de Kudu, une suite de maintenance tout-en-un, à l'onglet Sécurité, et de l'éditeur de code Zed à Développement. BleachBit n'affiche plus « Recommandé » — Soplos Sys Cleaner est le nettoyeur recommandé.</p>
+          <p xml:lang="pt">Adicionados o Kudu, um pacote de manutenção tudo-em-um, ao separador Segurança, e o editor de código Zed a Desenvolvimento. O BleachBit deixou de mostrar "Recomendado" — o Soplos Sys Cleaner é o limpador recomendado.</p>
+          <p xml:lang="de">Kudu, eine All-in-one-Wartungssuite, wurde dem Tab „Sicherheit" hinzugefügt, sowie der Code-Editor Zed zu „Entwicklung". BleachBit zeigt nicht mehr „Empfohlen" an — Soplos Sys Cleaner ist der empfohlene Reiniger.</p>
+          <p xml:lang="it">Aggiunto Kudu, una suite di manutenzione tutto-in-uno, alla scheda Sicurezza, e l'editor di codice Zed a Sviluppo. BleachBit non mostra più "Consigliato" — Soplos Sys Cleaner è il pulitore consigliato.</p>
+          <p xml:lang="ru">В раздел «Безопасность» добавлен Kudu — универсальный набор для обслуживания системы, а в «Разработка» — редактор кода Zed. BleachBit больше не отмечен как «Рекомендуется» — рекомендуемым очистителем является Soplos Sys Cleaner.</p>
+          <p xml:lang="ro">Adaugat Kudu, o suita de intretinere all-in-one, in fila Securitate, si editorul de cod Zed in Dezvoltare. BleachBit nu mai afiseaza "Recomandat" — Soplos Sys Cleaner este curatatorul recomandat.</p>
+        </description>
+      </release>
       <release version="2.1.1-8" date="2026-08-03">
         <description>
           <p xml:lang="en">Fixed NVIDIA driver detection for professional and laptop GPUs: Quadro, Tesla and RTX A-series cards were read as the chip codename and ended up on the wrong branch, and the 610 and 590 buttons were greyed out on cards that support them. The GT 750M and unrecognised cards no longer get a branch that cannot build. Nouveau and the AMD stack are now detected correctly on Wayland, and the Nouveau button offers to remove the NVIDIA drivers instead of doing nothing. The CUDA 12 installer no longer leaves an unverified repository enabled.</p>
