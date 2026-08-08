@@ -141,7 +141,7 @@ MD5sum: 887ff2a767b107324eec9d97d759e567
 Description: Manage AppImage applications on Soplos Linux
 
 Package: soplos-debug
-Version: 1.0.0-2
+Version: 1.0.0-3
 Architecture: all
 Depends: bash (>= 5.0), coreutils, util-linux, pciutils, usbutils, dmidecode, pkexec, polkitd
 Recommends: smartmontools, efibootmgr, mokutil, lm-sensors, network-manager, btrfs-progs
@@ -149,11 +149,11 @@ Suggests: vulkan-tools, mesa-utils-extra, dkms
 Maintainer: Sergi Perich <info@soploslinux.com>
 Priority: optional
 Section: admin
-Filename: pool/main/s/soplos-debug/soplos-debug_1.0.0-2_all.deb
-Size: 22628
-SHA256: 940572225b05802e5e4d4282c2fd69c183bfb0521f51b0d69e852a7fd29d8c75
-SHA1: 8ea37b7e1a605d58ba7292a4434766381c332c9f
-MD5sum: 29ea8f55ac378bf1fa9e9e37c4b65542
+Filename: pool/main/s/soplos-debug/soplos-debug_1.0.0-3_all.deb
+Size: 23044
+SHA256: fc305fd9156c031d25c88a95320df33e8c6bd2a01b0585d678037a95122b1897
+SHA1: eb07802f28cb08c4e4cbbb6db4e1c40e05ae70fa
+MD5sum: ba7c6748e35ca30bd8e3c42e5a1b79d0
 Description: Informe de diagnóstico del sistema para Soplos Linux
  Recoge un retrato completo del hardware de la máquina y de sus fallos en un
  único archivo de texto que el usuario puede adjuntar a una petición de soporte.
