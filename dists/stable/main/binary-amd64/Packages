@@ -140,6 +140,40 @@ SHA1: 9d540dfa10fc3dc34291389f3092191f23a12bd5
 MD5sum: 887ff2a767b107324eec9d97d759e567
 Description: Manage AppImage applications on Soplos Linux
 
+Package: soplos-debug
+Version: 1.0.0-1
+Architecture: all
+Depends: bash (>= 5.0), coreutils, util-linux, pciutils, usbutils, dmidecode, pkexec, polkitd
+Recommends: smartmontools, efibootmgr, mokutil, lm-sensors, network-manager, btrfs-progs
+Suggests: vulkan-tools, mesa-utils-extra, dkms
+Maintainer: Sergi Perich <info@soploslinux.com>
+Priority: optional
+Section: admin
+Filename: pool/main/s/soplos-debug/soplos-debug_1.0.0-1_all.deb
+Size: 22060
+SHA256: 7f3ec3b1329e2e53b13f0240776442b62a58f4793b20eb3fbd23554c3df8ff96
+SHA1: 727b2d66cc51f137a2bd7dc39b98dbac58b4c4b2
+MD5sum: fb7d279d80e7b9d08b1bd98e76b4ae64
+Description: Informe de diagnóstico del sistema para Soplos Linux
+ Recoge un retrato completo del hardware de la máquina y de sus fallos en un
+ único archivo de texto que el usuario puede adjuntar a una petición de soporte.
+ .
+ Está pensado para el caso en que todavía nadie sabe qué está roto: en lugar de
+ responder a una pregunta concreta, informa de qué hardware hay, qué controlador
+ ha cargado el núcleo para cada dispositivo y qué ha fallado. El informe empieza
+ con la lista de anomalías detectadas, de modo que puede valorarse de un vistazo
+ sin necesidad de leer el resto.
+ .
+ Cubre placa base y BIOS, CPU, memoria, almacenamiento con estado SMART, el árbol
+ completo de dispositivos PCI y USB, firmware ausente, errores del núcleo,
+ gráficos, red, sonido, energía y temperaturas, arranque y paquetes. En una sesión
+ live recoge además el registro de Calamares.
+ .
+ Los datos personales (direcciones MAC, nombres de redes inalámbricas, números de
+ serie y ruta personal del usuario) se enmascaran antes de escribir el archivo,
+ porque estos informes acaban compartiéndose en canales públicos. No se envía
+ nada a ningún sitio.
+
 Package: soplos-grub-editor
 Version: 2.0.2-8
 Architecture: all

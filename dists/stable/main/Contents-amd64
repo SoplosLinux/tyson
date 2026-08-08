@@ -33,6 +33,7 @@ usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
 usr/bin/plasma-login-wallpaper	    kde/plasma-login-manager
 usr/bin/plasmalogin	    kde/plasma-login-manager
 usr/bin/soplos-appimage-manager	    utils/soplos-appimage-manager
+usr/bin/soplos-debug	    admin/soplos-debug
 usr/bin/soplos-grub-editor	    utils/soplos-grub-editor
 usr/bin/soplos-kernel-installer	    utils/soplos-kernel-installer
 usr/bin/soplos-plymouth-manager	    utils/soplos-plymouth-manager
@@ -71,6 +72,7 @@ usr/share/applications/org.soplos.systemservice.desktop	    utils/soplos-system-
 usr/share/applications/org.soplos.webappmanager.desktop	    utils/soplos-webapp-manager
 usr/share/applications/org.soplos.welcome.desktop	    utils/soplos-welcome
 usr/share/applications/org.soplos.welcomelive.desktop	    utils/soplos-welcome-live
+usr/share/applications/soplos-debug.desktop	    admin/soplos-debug
 usr/share/branding-soplos/Tyron.png	    misc/branding-soplos
 usr/share/branding-soplos/background-2.jpg	    misc/branding-soplos
 usr/share/branding-soplos/background.jpg	    misc/branding-soplos
@@ -117,6 +119,8 @@ usr/share/doc/grub-btrfs/initramfs-overlayfs.md	    admin/grub-btrfs
 usr/share/doc/plasma-login-manager/changelog.Debian.gz	    kde/plasma-login-manager
 usr/share/doc/plasma-login-manager/copyright	    kde/plasma-login-manager
 usr/share/doc/soplos-appimage-manager/copyright	    utils/soplos-appimage-manager
+usr/share/doc/soplos-debug/README.md	    admin/soplos-debug
+usr/share/doc/soplos-debug/copyright	    admin/soplos-debug
 usr/share/doc/soplos-grub-editor/copyright	    utils/soplos-grub-editor
 usr/share/doc/soplos-kernel-installer/copyright	    utils/soplos-kernel-installer
 usr/share/doc/soplos-plymouth-manager/copyright	    utils/soplos-plymouth-manager
