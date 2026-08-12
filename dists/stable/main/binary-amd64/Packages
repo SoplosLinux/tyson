@@ -16,17 +16,17 @@ Description: Branding package for Soplos Linux Tyson.
  Build date: 2025-07-27
 
 Package: fastfetch-soplos
-Version: 0.0.3-1
+Version: 0.0.4-1
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Depends: fastfetch
 Priority: optional
 Section: utils
-Filename: pool/main/f/fastfetch-soplos/fastfetch-soplos_0.0.3-1_all.deb
-Size: 1872
-SHA256: c3010dd8f63c3bddd044d4012f9acd51c0e3a6077b6ef0ba3dffeee0f5e4f58a
-SHA1: a0c5ea1d16f81e6f8059f547a3a06c969a5935e2
-MD5sum: ca5447fa892cfc5c246fc2de7a52e1c1
+Filename: pool/main/f/fastfetch-soplos/fastfetch-soplos_0.0.4-1_all.deb
+Size: 2028
+SHA256: 7ab3efd6ace9c642691013a1200a593190d9919d4eec172c4a8a90b39f4fce53
+SHA1: cb573fdf2b0b3f15d8ba6da600547ddad5b63f0b
+MD5sum: 6abb7fac953ebe6b2b96d127135f143e
 Description: Custom Fastfetch configuration for SopLOS
  This package provides a custom Fastfetch configuration and branding
  for SopLOS Linux, applied to both new and existing users.
