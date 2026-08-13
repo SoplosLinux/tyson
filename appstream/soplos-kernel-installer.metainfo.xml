@@ -166,6 +166,25 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.1-9" date="2026-08-13">
+      <description>
+        <p>Added unattended compilation of a whole kernel release, and fixed the x86-64 architecture level never being applied: kernels named v2, v3 and v4 were built at the v1 baseline.</p>
+        <p xml:lang="es">Añadida la compilación desatendida de una release completa de kernels, y corregido que el nivel de arquitectura x86-64 no se aplicara nunca: los kernels llamados v2, v3 y v4 se compilaban en la línea base v1.</p>
+        <p xml:lang="fr">Ajout de la compilation sans surveillance d'une version complète de noyaux, et correction du niveau d'architecture x86-64 qui n'était jamais appliqué : les noyaux nommés v2, v3 et v4 étaient compilés au niveau de base v1.</p>
+        <p xml:lang="de">Unbeaufsichtigtes Bauen eines kompletten Kernel-Releases hinzugefügt und behoben, dass die x86-64-Architekturebene nie angewendet wurde: Kernel mit den Namen v2, v3 und v4 wurden auf der v1-Basislinie gebaut.</p>
+        <p xml:lang="pt">Adicionada a compilação sem supervisão de uma versão completa de kernels, e corrigido o nível de arquitetura x86-64 que nunca era aplicado: os kernels chamados v2, v3 e v4 eram compilados na linha base v1.</p>
+        <p xml:lang="it">Aggiunta la compilazione non presidiata di un'intera release di kernel e corretto il livello di architettura x86-64 che non veniva mai applicato: i kernel chiamati v2, v3 e v4 venivano compilati sulla linea base v1.</p>
+        <p xml:lang="ro">Adaugata compilarea nesupravegheata a unei versiuni complete de nuclee si corectat nivelul de arhitectura x86-64 care nu se aplica niciodata: nucleele numite v2, v3 si v4 erau compilate pe linia de baza v1.</p>
+        <p xml:lang="ru">Добавлена автоматическая сборка целого выпуска ядер и исправлено то, что уровень архитектуры x86-64 никогда не применялся: ядра с именами v2, v3 и v4 собирались на базовом уровне v1.</p>
+        <ul>
+          <li>Stock mode can now build an entire release unattended: every variant and architecture level one after another, each from a clean build directory, saving the packages into per-version and per-level folders</li>
+          <li>The queue stops at the first failure and keeps that build directory, so the log and sources survive for inspection</li>
+          <li>Fixed the architecture level: it set `CONFIG_GENERIC_CPU{2,3,4}`, symbols that do not exist in mainline, so `olddefconfig` dropped them and every kernel was built at the v1 baseline</li>
+          <li>The level now comes from the Soplos x86-64 ISA level patch, and the build aborts if the symbol does not survive configuration instead of producing a mislabelled kernel</li>
+          <li>Translated the batch interface and six older strings that were still untranslated, across all eight languages</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.1-8" date="2026-07-28">
       <description>
         <p>Fixed the NVIDIA DKMS patch being silently skipped on the open kernel modules, the ones used by Turing and newer GPUs. It is now applied to both source layouts and only when the driver actually needs it.</p>

@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260812T171727
+Time: 20260813T144946
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -716,6 +716,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.1-9
+    date: '2026-08-13'
+    type: stable
+    description:
+      C: |-
+        Added unattended compilation of a whole kernel release, and fixed the x86-64 architecture level never being applied: kernels named v2, v3 and v4 were built at the v1 baseline.
+      es: |-
+        Añadida la compilación desatendida de una release completa de kernels, y corregido que el nivel de arquitectura x86-64 no se aplicara nunca: los kernels llamados v2, v3 y v4 se compilaban en la línea base v1.
+      fr: |-
+        Ajout de la compilation sans surveillance d'une version complète de noyaux, et correction du niveau d'architecture x86-64 qui n'était jamais appliqué : les noyaux nommés v2, v3 et v4 étaient compilés au niveau de base v1.
+      de: |-
+        Unbeaufsichtigtes Bauen eines kompletten Kernel-Releases hinzugefügt und behoben, dass die x86-64-Architekturebene nie angewendet wurde: Kernel mit den Namen v2, v3 und v4 wurden auf der v1-Basislinie gebaut.
+      pt: |-
+        Adicionada a compilação sem supervisão de uma versão completa de kernels, e corrigido o nível de arquitetura x86-64 que nunca era aplicado: os kernels chamados v2, v3 e v4 eram compilados na linha base v1.
+      it: |-
+        Aggiunta la compilazione non presidiata di un'intera release di kernel e corretto il livello di architettura x86-64 che non veniva mai applicato: i kernel chiamati v2, v3 e v4 venivano compilati sulla linea base v1.
+      ro: |-
+        Adaugata compilarea nesupravegheata a unei versiuni complete de nuclee si corectat nivelul de arhitectura x86-64 care nu se aplica niciodata: nucleele numite v2, v3 si v4 erau compilate pe linia de baza v1.
+      ru: |-
+        Добавлена автоматическая сборка целого выпуска ядер и исправлено то, что уровень архитектуры x86-64 никогда не применялся: ядра с именами v2, v3 и v4 собирались на базовом уровне v1.
   - version: 1.0.1-8
     date: '2026-07-28'
     type: stable

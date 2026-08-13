@@ -1059,6 +1059,7 @@ usr/share/soplos-kernel-installer/assets/themes/light.css	    utils/soplos-kerne
 usr/share/soplos-kernel-installer/config/__init__.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/config/constants.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/core/__init__.py	    utils/soplos-kernel-installer
+usr/share/soplos-kernel-installer/core/batch.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/core/common_types.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/core/downloader.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/core/history.py	    utils/soplos-kernel-installer
