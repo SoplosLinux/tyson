@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260814T122745
+Time: 20260817T131935
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -716,6 +716,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.2
+    date: '2026-08-17'
+    type: stable
+    description:
+      C: |-
+        Fixed the x86-64 ISA level (march) patch silently never applying on any kernel other than exactly 7.1.x, first surfaced by the release of kernel 7.2.
+      es: |-
+        Corregido que el parche de nivel ISA x86-64 (march) nunca llegaba a aplicarse en ningún kernel salvo exactamente 7.1.x, detectado al publicarse el kernel 7.2.
+      fr: |-
+        Correction du patch de niveau ISA x86-64 (march) qui ne s'appliquait jamais sur aucun noyau autre qu'exactement 7.1.x, révélée par la sortie du noyau 7.2.
+      de: |-
+        Behoben, dass der x86-64-ISA-Level-Patch (march) auf keinem anderen Kernel als genau 7.1.x jemals angewendet wurde, aufgedeckt durch die Veröffentlichung von Kernel 7.2.
+      pt: |-
+        Corrigido o facto de o patch de nível ISA x86-64 (march) nunca chegar a aplicar-se em nenhum kernel que não fosse exatamente 7.1.x, detetado com o lançamento do kernel 7.2.
+      it: |-
+        Corretto il fatto che la patch del livello ISA x86-64 (march) non si applicasse mai su nessun kernel diverso esattamente da 7.1.x, emerso con il rilascio del kernel 7.2.
+      ro: |-
+        Corectat faptul ca patch-ul nivelului ISA x86-64 (march) nu se aplica niciodata pe niciun kernel altul decat exact 7.1.x, descoperit odata cu lansarea kernelului 7.2.
+      ru: |-
+        Исправлено то, что патч уровня ISA x86-64 (march) никогда не применялся ни на одном ядре, кроме точно 7.1.x, — обнаружено при выходе ядра 7.2.
   - version: 1.0.1-9
     date: '2026-08-13'
     type: stable

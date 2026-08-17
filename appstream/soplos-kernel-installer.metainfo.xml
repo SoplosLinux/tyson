@@ -166,6 +166,44 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.2" date="2026-08-17">
+      <description>
+        <p>Fixed the x86-64 ISA level (march) patch silently never applying on any kernel other than exactly 7.1.x, first surfaced by the release of kernel 7.2.</p>
+        <p xml:lang="es">Corregido que el parche de nivel ISA x86-64 (march) nunca llegaba a aplicarse en ningún kernel salvo exactamente 7.1.x, detectado al publicarse el kernel 7.2.</p>
+        <p xml:lang="fr">Correction du patch de niveau ISA x86-64 (march) qui ne s'appliquait jamais sur aucun noyau autre qu'exactement 7.1.x, révélée par la sortie du noyau 7.2.</p>
+        <p xml:lang="de">Behoben, dass der x86-64-ISA-Level-Patch (march) auf keinem anderen Kernel als genau 7.1.x jemals angewendet wurde, aufgedeckt durch die Veröffentlichung von Kernel 7.2.</p>
+        <p xml:lang="pt">Corrigido o facto de o patch de nível ISA x86-64 (march) nunca chegar a aplicar-se em nenhum kernel que não fosse exatamente 7.1.x, detetado com o lançamento do kernel 7.2.</p>
+        <p xml:lang="it">Corretto il fatto che la patch del livello ISA x86-64 (march) non si applicasse mai su nessun kernel diverso esattamente da 7.1.x, emerso con il rilascio del kernel 7.2.</p>
+        <p xml:lang="ro">Corectat faptul ca patch-ul nivelului ISA x86-64 (march) nu se aplica niciodata pe niciun kernel altul decat exact 7.1.x, descoperit odata cu lansarea kernelului 7.2.</p>
+        <p xml:lang="ru">Исправлено то, что патч уровня ISA x86-64 (march) никогда не применялся ни на одном ядре, кроме точно 7.1.x, — обнаружено при выходе ядра 7.2.</p>
+        <ul>
+          <li>`_download_march()` requested a `7.x`-tagged fallback file for any kernel other than exactly 7.1.x, but that file never existed in soplos-cpu-kernel-patch — the download 404'd, and the build proceeded without the patch. Builds requesting v2/v3/v4 silently fell back to v1 with no visible error</li>
+          <li>Simplified the tag logic to always request the `7.x` file, which now exists and is verified to apply unchanged across 7.1.x and 7.2</li>
+          <li>BORE, X3D and Zen also needed their own rebases to build again on kernel 7.2 (in bore-soplos, x3d-soplos and zen-soplos) — no further code changes were needed here, the existing fallback chains already routed correctly</li>
+          <li xml:lang="es">`_download_march()` pedía un fichero de respaldo con etiqueta `7.x` para cualquier kernel que no fuera exactamente 7.1.x, pero ese fichero nunca existió en soplos-cpu-kernel-patch — la descarga daba 404 y el build seguía adelante sin el parche. Los builds que pedían v2/v3/v4 caían en silencio a v1 sin ningún error visible</li>
+          <li xml:lang="es">Simplificada la lógica de etiquetas para pedir siempre el fichero `7.x`, que ahora existe y está verificado que aplica sin cambios en 7.1.x y 7.2</li>
+          <li xml:lang="es">BORE, X3D y Zen también necesitaron su propio rebase para volver a compilar en el kernel 7.2 (en bore-soplos, x3d-soplos y zen-soplos) — no hizo falta tocar más código aquí, las cadenas de respaldo existentes ya enrutaban correctamente</li>
+          <li xml:lang="fr">`_download_march()` demandait un fichier de secours étiqueté `7.x` pour tout noyau autre qu'exactement 7.1.x, mais ce fichier n'a jamais existé dans soplos-cpu-kernel-patch — le téléchargement échouait en 404 et la compilation se poursuivait sans le patch. Les builds demandant v2/v3/v4 retombaient silencieusement sur v1 sans erreur visible</li>
+          <li xml:lang="fr">Logique d'étiquetage simplifiée pour toujours demander le fichier `7.x`, qui existe désormais et est vérifié comme s'appliquant sans changement sur 7.1.x et 7.2</li>
+          <li xml:lang="fr">BORE, X3D et Zen ont également nécessité leur propre rebase pour recompiler sur le noyau 7.2 (dans bore-soplos, x3d-soplos et zen-soplos) — aucun changement de code supplémentaire n'a été nécessaire ici, les chaînes de secours existantes acheminaient déjà correctement</li>
+          <li xml:lang="de">`_download_march()` forderte für jeden Kernel außer genau 7.1.x eine mit `7.x` getaggte Fallback-Datei an, die es in soplos-cpu-kernel-patch nie gab — der Download schlug mit 404 fehl, und der Build lief ohne den Patch weiter. Builds, die v2/v3/v4 anforderten, fielen still auf v1 zurück, ohne sichtbaren Fehler</li>
+          <li xml:lang="de">Tag-Logik vereinfacht, sodass immer die `7.x`-Datei angefordert wird, die jetzt existiert und nachweislich unverändert auf 7.1.x und 7.2 angewendet wird</li>
+          <li xml:lang="de">BORE, X3D und Zen benötigten ebenfalls ein eigenes Rebase, um auf Kernel 7.2 wieder zu bauen (in bore-soplos, x3d-soplos und zen-soplos) — hier war kein weiterer Code nötig, die bestehenden Fallback-Ketten leiteten bereits korrekt weiter</li>
+          <li xml:lang="pt">`_download_march()` pedia um ficheiro de reserva com etiqueta `7.x` para qualquer kernel que não fosse exatamente 7.1.x, mas esse ficheiro nunca existiu em soplos-cpu-kernel-patch — a transferência falhava com 404 e a compilação continuava sem o patch. As compilações que pediam v2/v3/v4 caíam silenciosamente para v1 sem qualquer erro visível</li>
+          <li xml:lang="pt">Simplificada a lógica de etiquetas para pedir sempre o ficheiro `7.x`, que agora existe e está verificado que se aplica sem alterações em 7.1.x e 7.2</li>
+          <li xml:lang="pt">O BORE, o X3D e o Zen também precisaram do seu próprio rebase para voltar a compilar no kernel 7.2 (em bore-soplos, x3d-soplos e zen-soplos) — não foi preciso mexer em mais código aqui, as cadeias de reserva existentes já encaminhavam corretamente</li>
+          <li xml:lang="it">`_download_march()` richiedeva un file di riserva con tag `7.x` per qualsiasi kernel diverso esattamente da 7.1.x, ma quel file non è mai esistito in soplos-cpu-kernel-patch — il download falliva con 404 e la build proseguiva senza la patch. Le build che richiedevano v2/v3/v4 ricadevano silenziosamente su v1 senza alcun errore visibile</li>
+          <li xml:lang="it">Semplificata la logica dei tag per richiedere sempre il file `7.x`, che ora esiste ed è verificato applicarsi invariato su 7.1.x e 7.2</li>
+          <li xml:lang="it">Anche BORE, X3D e Zen hanno richiesto un proprio rebase per tornare a compilare sul kernel 7.2 (in bore-soplos, x3d-soplos e zen-soplos) — qui non è stato necessario alcun ulteriore codice, le catene di riserva esistenti instradavano già correttamente</li>
+          <li xml:lang="ro">`_download_march()` solicita un fisier de rezerva etichetat `7.x` pentru orice kernel altul decat exact 7.1.x, dar acel fisier nu a existat niciodata in soplos-cpu-kernel-patch — descarcarea esua cu 404 si compilarea continua fara patch. Compilarile care solicitau v2/v3/v4 reveneau in tacere la v1 fara nicio eroare vizibila</li>
+          <li xml:lang="ro">Simplificata logica etichetelor pentru a solicita mereu fisierul `7.x`, care acum exista si este verificat ca se aplica neschimbat pe 7.1.x si 7.2</li>
+          <li xml:lang="ro">BORE, X3D si Zen au necesitat de asemenea propriul rebase pentru a compila din nou pe kernelul 7.2 (in bore-soplos, x3d-soplos si zen-soplos) — nu a fost nevoie de alt cod aici, lanturile de rezerva existente directionau deja corect</li>
+          <li xml:lang="ru">`_download_march()` запрашивал резервный файл с тегом `7.x` для любого ядра, кроме точно 7.1.x, но такого файла никогда не существовало в soplos-cpu-kernel-patch — загрузка возвращала 404, и сборка продолжалась без патча. Сборки, запрашивающие v2/v3/v4, незаметно откатывались к v1 без видимой ошибки</li>
+          <li xml:lang="ru">Упрощена логика тегов: теперь всегда запрашивается файл `7.x`, который теперь существует и проверен на неизменное применение к 7.1.x и 7.2</li>
+          <li xml:lang="ru">BORE, X3D и Zen также потребовали собственного ребейза для повторной сборки на ядре 7.2 (в bore-soplos, x3d-soplos и zen-soplos) — здесь дополнительный код не потребовался, существующие резервные цепочки уже маршрутизировали корректно</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.1-9" date="2026-08-13">
       <description>
         <p>Added unattended compilation of a whole kernel release, and fixed the x86-64 architecture level never being applied: kernels named v2, v3 and v4 were built at the v1 baseline.</p>
