@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.2-1" date="2026-08-17">
+        <description>
+          <p xml:lang="en">Fixed an NVIDIA DKMS build failure on kernel 7.2+ (missing include in os-interface.c), matching the fix already applied by soplos-kernel-installer.</p>
+          <p xml:lang="es">Corregido un fallo de compilación DKMS de NVIDIA en kernel 7.2+ (include faltante en os-interface.c), igualando el arreglo que ya aplicaba soplos-kernel-installer.</p>
+          <p xml:lang="fr">Correction d'un échec de compilation DKMS NVIDIA sur le noyau 7.2+ (include manquant dans os-interface.c), alignée sur le correctif déjà appliqué par soplos-kernel-installer.</p>
+          <p xml:lang="pt">Corrigida uma falha de compilação DKMS da NVIDIA no kernel 7.2+ (include em falta em os-interface.c), igualando a correção já aplicada pelo soplos-kernel-installer.</p>
+          <p xml:lang="de">Ein NVIDIA-DKMS-Kompilierungsfehler auf Kernel 7.2+ (fehlender Include in os-interface.c) wurde behoben, entsprechend dem bereits von soplos-kernel-installer angewendeten Fix.</p>
+          <p xml:lang="it">Corretto un errore di compilazione DKMS di NVIDIA sul kernel 7.2+ (include mancante in os-interface.c), allineato alla correzione già applicata da soplos-kernel-installer.</p>
+          <p xml:lang="ru">Исправлена ошибка сборки NVIDIA DKMS на ядре 7.2+ (отсутствующий include в os-interface.c), в соответствии с исправлением, уже применённым в soplos-kernel-installer.</p>
+          <p xml:lang="ro">Corectata o eroare de compilare DKMS NVIDIA pe kernelul 7.2+ (include lipsa in os-interface.c), aliniata cu remedierea deja aplicata de soplos-kernel-installer.</p>
+        </description>
+      </release>
       <release version="2.1.2" date="2026-08-14">
         <description>
           <p xml:lang="en">Fixed the XanMod and ROCm repositories, which were broken and made every system update fail: XanMod used a suite retired upstream, and ROCm pointed at a Debian suite AMD does not publish. Both are repaired on reinstall, and a notice offers to clean up the leftovers. The XanMod x64v4 variant, which upstream no longer builds, was replaced by RT, and variants are now blocked when the CPU cannot run them. Intel oneAPI installs the current toolkit instead of a 2025 alias. Cleaning old kernels no longer removes the Debian fallback. Added Drift and Prism to Multimedia.</p>

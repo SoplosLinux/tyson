@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260817T152559
+Time: 20260817T154329
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1354,6 +1354,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.2-1
+    date: '2026-08-17'
+    type: stable
+    description:
+      en: |-
+        Fixed an NVIDIA DKMS build failure on kernel 7.2+ (missing include in os-interface.c), matching the fix already applied by soplos-kernel-installer.
+      es: |-
+        Corregido un fallo de compilación DKMS de NVIDIA en kernel 7.2+ (include faltante en os-interface.c), igualando el arreglo que ya aplicaba soplos-kernel-installer.
+      fr: |-
+        Correction d'un échec de compilation DKMS NVIDIA sur le noyau 7.2+ (include manquant dans os-interface.c), alignée sur le correctif déjà appliqué par soplos-kernel-installer.
+      pt: |-
+        Corrigida uma falha de compilação DKMS da NVIDIA no kernel 7.2+ (include em falta em os-interface.c), igualando a correção já aplicada pelo soplos-kernel-installer.
+      de: |-
+        Ein NVIDIA-DKMS-Kompilierungsfehler auf Kernel 7.2+ (fehlender Include in os-interface.c) wurde behoben, entsprechend dem bereits von soplos-kernel-installer angewendeten Fix.
+      it: |-
+        Corretto un errore di compilazione DKMS di NVIDIA sul kernel 7.2+ (include mancante in os-interface.c), allineato alla correzione già applicata da soplos-kernel-installer.
+      ru: |-
+        Исправлена ошибка сборки NVIDIA DKMS на ядре 7.2+ (отсутствующий include в os-interface.c), в соответствии с исправлением, уже применённым в soplos-kernel-installer.
+      ro: |-
+        Corectata o eroare de compilare DKMS NVIDIA pe kernelul 7.2+ (include lipsa in os-interface.c), aliniata cu remedierea deja aplicata de soplos-kernel-installer.
+      C: |-
+        Fixed an NVIDIA DKMS build failure on kernel 7.2+ (missing include in os-interface.c), matching the fix already applied by soplos-kernel-installer.
   - version: 2.1.2
     date: '2026-08-14'
     type: stable
