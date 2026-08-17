@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260817T131935
+Time: 20260817T152559
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -716,6 +716,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.2-1
+    date: '2026-08-17'
+    type: stable
+    description:
+      C: Fixed NVIDIA DKMS builds failing on kernel 7.2+ with an implicit declaration
+        of 'strncpy' in os-interface.c.
+      es: |-
+        Corregido que las compilaciones DKMS de NVIDIA fallaran en el kernel 7.2+ por una declaracion implicita de 'strncpy' en os-interface.c.
+      fr: |-
+        Correction de l'echec des compilations DKMS NVIDIA sur le noyau 7.2+ du a une declaration implicite de 'strncpy' dans os-interface.c.
+      de: |-
+        Behoben, dass NVIDIA-DKMS-Builds auf Kernel 7.2+ wegen einer impliziten Deklaration von 'strncpy' in os-interface.c fehlschlugen.
+      pt: |-
+        Corrigido o facto de as compilacoes DKMS da NVIDIA falharem no kernel 7.2+ devido a uma declaracao implicita de 'strncpy' em os-interface.c.
+      it: |-
+        Corretto il fallimento delle build DKMS NVIDIA sul kernel 7.2+ causato da una dichiarazione implicita di 'strncpy' in os-interface.c.
+      ro: |-
+        Corectat faptul ca build-urile DKMS NVIDIA esuau pe kernelul 7.2+ din cauza unei declaratii implicite a 'strncpy' in os-interface.c.
+      ru: Исправлен сбой сборок NVIDIA DKMS на ядре 7.2+ из-за неявного объявления
+        функции 'strncpy' в os-interface.c.
   - version: 1.0.2
     date: '2026-08-17'
     type: stable

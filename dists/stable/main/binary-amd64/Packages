@@ -204,17 +204,17 @@ Description: GRUB theme package for Soplos Linux Tyson.
  Build date: 2026-03-07
 
 Package: soplos-kernel-installer
-Version: 1.0.2
+Version: 1.0.2-1
 Architecture: all
 Depends: python3 (>= 3.8), python3-gi, bc, binutils, bison, build-essential, coreutils, cpio, curl, debhelper-compat, dkms, dracut, fakeroot, flex, g++, gettext, gir1.2-gtk-3.0, git, grub-common, kmod, libelf-dev, libncurses-dev, libssl-dev, linux-libc-dev, mokutil, pahole | dwarves, patch, pkg-config, pkgconf, python3, python3-gi, python3-gi-cairo, python3-setuptools, rsync, sbsigntool, tar, wget, xz-utils, zstd
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-kernel-installer/soplos-kernel-installer_1.0.2_all.deb
-Size: 910984
-SHA256: d5a7d633d9de53ac3db19c0dc3df612ce2cab4d38be00d83979b6d2dcefa6a54
-SHA1: 56eadd60ef1f62c9c4f4c64bca824f3a1d7dd651
-MD5sum: 1afa1cebf7e300637d7860b45cb90d93
+Filename: pool/main/s/soplos-kernel-installer/soplos-kernel-installer_1.0.2-1_all.deb
+Size: 913576
+SHA256: e8a565dc565b78c545209049c17530f3d3184d10ef4052797bbed7f1c9dacfe5
+SHA1: c693eb9e110fff72fccc302ab232e84b316af219
+MD5sum: e2c81562c2cdeda82b8ec21c4dc330e2
 Description: Advanced graphical kernel manager for Soplos Linux
 
 Package: soplos-plasma-classic-black-theme

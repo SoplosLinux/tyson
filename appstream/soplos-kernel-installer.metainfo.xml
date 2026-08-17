@@ -166,6 +166,44 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.2-1" date="2026-08-17">
+      <description>
+        <p>Fixed NVIDIA DKMS builds failing on kernel 7.2+ with an implicit declaration of 'strncpy' in os-interface.c.</p>
+        <p xml:lang="es">Corregido que las compilaciones DKMS de NVIDIA fallaran en el kernel 7.2+ por una declaracion implicita de 'strncpy' en os-interface.c.</p>
+        <p xml:lang="fr">Correction de l'echec des compilations DKMS NVIDIA sur le noyau 7.2+ du a une declaration implicite de 'strncpy' dans os-interface.c.</p>
+        <p xml:lang="de">Behoben, dass NVIDIA-DKMS-Builds auf Kernel 7.2+ wegen einer impliziten Deklaration von 'strncpy' in os-interface.c fehlschlugen.</p>
+        <p xml:lang="pt">Corrigido o facto de as compilacoes DKMS da NVIDIA falharem no kernel 7.2+ devido a uma declaracao implicita de 'strncpy' em os-interface.c.</p>
+        <p xml:lang="it">Corretto il fallimento delle build DKMS NVIDIA sul kernel 7.2+ causato da una dichiarazione implicita di 'strncpy' in os-interface.c.</p>
+        <p xml:lang="ro">Corectat faptul ca build-urile DKMS NVIDIA esuau pe kernelul 7.2+ din cauza unei declaratii implicite a 'strncpy' in os-interface.c.</p>
+        <p xml:lang="ru">Исправлен сбой сборок NVIDIA DKMS на ядре 7.2+ из-за неявного объявления функции 'strncpy' в os-interface.c.</p>
+        <ul>
+          <li>`nvidia/os-interface.c` calls `strncpy()` without including `&lt;linux/string.h&gt;`, relying on some other kernel header (reached transitively through nv-linux.h) to provide the declaration. That transitive include disappeared starting with kernel 7.2, and GCC treats an implicit function declaration as a hard error, so DKMS builds failed outright</li>
+          <li>Added a new embedded compatibility patch (NV_STRING_H_PATCH) in core/nvidia_dkms_patch.py that adds the missing include, applied automatically alongside the existing VMA-locking fix — same mechanism, same idempotency guard, unrelated issue</li>
+          <li>Mirrored in the standalone nvidia-patches repo as Fix 4 (patches/nvidia-string-h-kernel7.2.patch)</li>
+          <li xml:lang="es">`nvidia/os-interface.c` llama a `strncpy()` sin incluir `&lt;linux/string.h&gt;`, dependiendo de que otro header del kernel (alcanzado de forma transitiva a traves de nv-linux.h) proporcionara la declaracion. Ese include transitivo desaparecio a partir del kernel 7.2, y GCC trata una declaracion implicita de funcion como un error grave, asi que las compilaciones DKMS fallaban directamente</li>
+          <li xml:lang="es">Añadido un nuevo parche de compatibilidad embebido (NV_STRING_H_PATCH) en core/nvidia_dkms_patch.py que agrega el include que falta, aplicado automaticamente junto al parche de VMA locking ya existente — mismo mecanismo, misma proteccion de idempotencia, problema no relacionado</li>
+          <li xml:lang="es">Reflejado en el repositorio independiente nvidia-patches como Fix 4 (patches/nvidia-string-h-kernel7.2.patch)</li>
+          <li xml:lang="fr">`nvidia/os-interface.c` appelle `strncpy()` sans inclure `&lt;linux/string.h&gt;`, en comptant sur un autre en-tete du noyau (atteint de maniere transitive via nv-linux.h) pour fournir la declaration. Cette inclusion transitive a disparu a partir du noyau 7.2, et GCC traite une declaration implicite de fonction comme une erreur bloquante, donc les compilations DKMS echouaient directement</li>
+          <li xml:lang="fr">Ajout d'un nouveau patch de compatibilite integre (NV_STRING_H_PATCH) dans core/nvidia_dkms_patch.py qui ajoute l'inclusion manquante, applique automatiquement avec le correctif VMA existant — meme mecanisme, meme protection d'idempotence, probleme non lie</li>
+          <li xml:lang="fr">Repercute dans le depot independant nvidia-patches en tant que Fix 4 (patches/nvidia-string-h-kernel7.2.patch)</li>
+          <li xml:lang="de">`nvidia/os-interface.c` ruft `strncpy()` auf, ohne `&lt;linux/string.h&gt;` einzubinden, und verlaesst sich darauf, dass ein anderer Kernel-Header (transitiv ueber nv-linux.h erreicht) die Deklaration bereitstellt. Dieser transitive Include verschwand ab Kernel 7.2, und GCC behandelt eine implizite Funktionsdeklaration als harten Fehler, sodass DKMS-Builds komplett fehlschlugen</li>
+          <li xml:lang="de">Ein neuer eingebetteter Kompatibilitatspatch (NV_STRING_H_PATCH) in core/nvidia_dkms_patch.py wurde hinzugefuegt, der den fehlenden Include ergaenzt, automatisch zusammen mit dem bestehenden VMA-Locking-Fix angewendet — gleicher Mechanismus, gleiche Idempotenz-Absicherung, unabhaengiges Problem</li>
+          <li xml:lang="de">Im eigenstaendigen Repository nvidia-patches als Fix 4 gespiegelt (patches/nvidia-string-h-kernel7.2.patch)</li>
+          <li xml:lang="pt">`nvidia/os-interface.c` chama `strncpy()` sem incluir `&lt;linux/string.h&gt;`, dependendo de outro cabecalho do kernel (alcancado de forma transitiva atraves de nv-linux.h) para fornecer a declaracao. Essa inclusao transitiva desapareceu a partir do kernel 7.2, e o GCC trata uma declaracao implicita de funcao como um erro grave, pelo que as compilacoes DKMS falhavam diretamente</li>
+          <li xml:lang="pt">Adicionado um novo patch de compatibilidade incorporado (NV_STRING_H_PATCH) em core/nvidia_dkms_patch.py que acrescenta a inclusao em falta, aplicado automaticamente juntamente com a correcao de VMA locking ja existente — mesmo mecanismo, mesma protecao de idempotencia, problema nao relacionado</li>
+          <li xml:lang="pt">Refletido no repositorio independente nvidia-patches como Fix 4 (patches/nvidia-string-h-kernel7.2.patch)</li>
+          <li xml:lang="it">`nvidia/os-interface.c` chiama `strncpy()` senza includere `&lt;linux/string.h&gt;`, affidandosi a un altro header del kernel (raggiunto in modo transitivo tramite nv-linux.h) per fornire la dichiarazione. Tale inclusione transitiva e scomparsa a partire dal kernel 7.2, e GCC tratta una dichiarazione implicita di funzione come un errore bloccante, quindi le build DKMS fallivano direttamente</li>
+          <li xml:lang="it">Aggiunta una nuova patch di compatibilita incorporata (NV_STRING_H_PATCH) in core/nvidia_dkms_patch.py che aggiunge l'inclusione mancante, applicata automaticamente insieme alla patch VMA gia esistente — stesso meccanismo, stessa protezione di idempotenza, problema non correlato</li>
+          <li xml:lang="it">Rispecchiato nel repository indipendente nvidia-patches come Fix 4 (patches/nvidia-string-h-kernel7.2.patch)</li>
+          <li xml:lang="ro">`nvidia/os-interface.c` apeleaza `strncpy()` fara a include `&lt;linux/string.h&gt;`, bazandu-se pe un alt header al kernelului (atins tranzitiv prin nv-linux.h) pentru a furniza declaratia. Acea includere tranzitiva a disparut incepand cu kernelul 7.2, iar GCC trateaza o declaratie implicita de functie ca o eroare grava, asa ca build-urile DKMS esuau direct</li>
+          <li xml:lang="ro">Adaugat un nou patch de compatibilitate incorporat (NV_STRING_H_PATCH) in core/nvidia_dkms_patch.py care adauga includerea lipsa, aplicat automat alaturi de patch-ul VMA existent — acelasi mecanism, aceeasi protectie de idempotenta, problema neinrudita</li>
+          <li xml:lang="ro">Reflectat in repository-ul independent nvidia-patches ca Fix 4 (patches/nvidia-string-h-kernel7.2.patch)</li>
+          <li xml:lang="ru">`nvidia/os-interface.c` вызывает `strncpy()` без подключения `&lt;linux/string.h&gt;`, полагаясь на то, что другой заголовок ядра (достигаемый транзитивно через nv-linux.h) предоставит объявление. Этот транзитивный инклюд исчез начиная с ядра 7.2, и GCC считает неявное объявление функции серьёзной ошибкой, поэтому сборки DKMS сразу завершались неудачей</li>
+          <li xml:lang="ru">Добавлен новый встроенный патч совместимости (NV_STRING_H_PATCH) в core/nvidia_dkms_patch.py, добавляющий недостающий инклюд, применяется автоматически вместе с уже существующим исправлением VMA-locking — тот же механизм, та же защита идемпотентности, не связанная проблема</li>
+          <li xml:lang="ru">Отражено в отдельном репозитории nvidia-patches как Fix 4 (patches/nvidia-string-h-kernel7.2.patch)</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.2" date="2026-08-17">
       <description>
         <p>Fixed the x86-64 ISA level (march) patch silently never applying on any kernel other than exactly 7.1.x, first surfaced by the release of kernel 7.2.</p>
