@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260817T154329
+Time: 20260818T091653
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -716,6 +716,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.2-2
+    date: '2026-08-18'
+    type: stable
+    description:
+      C: |-
+        The march (x86-64 psABI) selector is now available for every profile, not just Stock, and the Stock batch build gained kernel selection and resume.
+      es: |-
+        El selector de nivel march (x86-64 psABI) ya esta disponible en cualquier perfil, no solo en Stock, y el build por lotes de Stock incorpora seleccion de kernels y reanudar.
+      fr: |-
+        Le selecteur de niveau march (x86-64 psABI) est desormais disponible pour tous les profils, pas seulement Stock, et la compilation par lots Stock a gagne la selection des noyaux et la reprise.
+      de: |-
+        Der March-Level-Selector (x86-64 psABI) ist jetzt fuer jedes Profil verfuegbar, nicht nur fuer Stock, und der Stock-Stapelbau erhielt eine Kernauswahl und Fortsetzung.
+      pt: |-
+        O seletor de nivel march (x86-64 psABI) esta agora disponivel em qualquer perfil, nao apenas no Stock, e a compilacao em lote do Stock ganhou selecao de kernels e retomada.
+      it: |-
+        Il selettore di livello march (x86-64 psABI) e ora disponibile per qualsiasi profilo, non solo Stock, e la build in batch di Stock ha guadagnato la selezione dei kernel e la ripresa.
+      ro: |-
+        Selectorul de nivel march (x86-64 psABI) este acum disponibil pentru orice profil, nu doar Stock, iar build-ul in lot Stock a primit selectarea kernelurilor si reluarea.
+      ru: |-
+        Селектор уровня march (x86-64 psABI) теперь доступен для любого профиля, а не только Stock, а пакетная сборка Stock получила выбор ядер и возобновление.
   - version: 1.0.2-1
     date: '2026-08-17'
     type: stable

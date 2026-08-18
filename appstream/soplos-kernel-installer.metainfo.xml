@@ -166,6 +166,52 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.2-2" date="2026-08-18">
+      <description>
+        <p>The march (x86-64 psABI) selector is now available for every profile, not just Stock, and the Stock batch build gained kernel selection and resume.</p>
+        <p xml:lang="es">El selector de nivel march (x86-64 psABI) ya esta disponible en cualquier perfil, no solo en Stock, y el build por lotes de Stock incorpora seleccion de kernels y reanudar.</p>
+        <p xml:lang="fr">Le selecteur de niveau march (x86-64 psABI) est desormais disponible pour tous les profils, pas seulement Stock, et la compilation par lots Stock a gagne la selection des noyaux et la reprise.</p>
+        <p xml:lang="de">Der March-Level-Selector (x86-64 psABI) ist jetzt fuer jedes Profil verfuegbar, nicht nur fuer Stock, und der Stock-Stapelbau erhielt eine Kernauswahl und Fortsetzung.</p>
+        <p xml:lang="pt">O seletor de nivel march (x86-64 psABI) esta agora disponivel em qualquer perfil, nao apenas no Stock, e a compilacao em lote do Stock ganhou selecao de kernels e retomada.</p>
+        <p xml:lang="it">Il selettore di livello march (x86-64 psABI) e ora disponibile per qualsiasi profilo, non solo Stock, e la build in batch di Stock ha guadagnato la selezione dei kernel e la ripresa.</p>
+        <p xml:lang="ro">Selectorul de nivel march (x86-64 psABI) este acum disponibil pentru orice profil, nu doar Stock, iar build-ul in lot Stock a primit selectarea kernelurilor si reluarea.</p>
+        <p xml:lang="ru">Селектор уровня march (x86-64 psABI) теперь доступен для любого профиля, а не только Stock, а пакетная сборка Stock получила выбор ядер и возобновление.</p>
+        <ul>
+          <li>Added the march selector for every profile, kernel selection (checkboxes) for the Stock batch build, and a resume checkbox that skips kernels already built in the destination folder</li>
+          <li>Fixed the march selector and other profile-dependent UI never initializing for the default profile at launch (ProfileSelector's first radio button starts pre-active, so its own set_active never emitted 'toggled')</li>
+          <li>Fixed a V3/V4 build outside Stock mode never being reflected in the kernel's name</li>
+          <li>Fixed the batch "Build all 26 kernels" button keeping its label after narrowing the selection</li>
+          <li xml:lang="es">Añadido el selector de march para cualquier perfil, seleccion de kernels (casillas) para el build por lotes de Stock, y una casilla de reanudar que salta los kernels ya compilados en la carpeta de destino</li>
+          <li xml:lang="es">Corregido que el selector de march y otra UI dependiente del perfil nunca se inicializaran para el perfil por defecto al arrancar (el primer boton de radio de ProfileSelector nace activo, asi que su propio set_active nunca emitia 'toggled')</li>
+          <li xml:lang="es">Corregido que un build V3/V4 fuera del modo Stock nunca se reflejara en el nombre del kernel</li>
+          <li xml:lang="es">Corregido que el boton "Compilar los 26 kernels" del lote mantuviera su etiqueta tras acotar la seleccion</li>
+          <li xml:lang="fr">Ajout du selecteur de march pour tout profil, de la selection des noyaux (cases a cocher) pour la compilation par lots Stock, et d'une case de reprise qui ignore les noyaux deja compiles dans le dossier de destination</li>
+          <li xml:lang="fr">Correction du selecteur de march et d'autres elements d'interface dependant du profil qui ne s'initialisaient jamais pour le profil par defaut au demarrage</li>
+          <li xml:lang="fr">Correction d'une compilation V3/V4 hors du mode Stock jamais reflete dans le nom du noyau</li>
+          <li xml:lang="fr">Correction du bouton "Compiler les 26 noyaux" du lot qui gardait son libelle apres restriction de la selection</li>
+          <li xml:lang="de">March-Selector fuer jedes Profil, Kernauswahl (Kontrollkaestchen) fuer den Stock-Stapelbau und ein Fortsetzen-Kontrollkaestchen hinzugefuegt, das bereits im Zielordner erstellte Kernel ueberspringt</li>
+          <li xml:lang="de">Behoben, dass der March-Selector und andere profilabhaengige UI beim Start nie fuer das Standardprofil initialisiert wurden</li>
+          <li xml:lang="de">Behoben, dass ein V3/V4-Build ausserhalb des Stock-Modus nie im Kernelnamen widergespiegelt wurde</li>
+          <li xml:lang="de">Behoben, dass die Schaltflaeche "Alle 26 Kernel kompilieren" ihre Beschriftung nach Einschraenkung der Auswahl beibehielt</li>
+          <li xml:lang="pt">Adicionado o seletor de march para qualquer perfil, selecao de kernels (caixas de verificacao) para a compilacao em lote do Stock, e uma caixa de retomar que ignora os kernels ja compilados na pasta de destino</li>
+          <li xml:lang="pt">Corrigido o seletor de march e outra UI dependente do perfil nunca se inicializarem para o perfil padrao ao iniciar</li>
+          <li xml:lang="pt">Corrigido uma compilacao V3/V4 fora do modo Stock nunca ser refletida no nome do kernel</li>
+          <li xml:lang="pt">Corrigido o botao "Compilar os 26 kernels" do lote manter o seu rotulo apos restringir a selecao</li>
+          <li xml:lang="it">Aggiunto il selettore march per qualsiasi profilo, la selezione dei kernel (caselle di controllo) per la build in batch di Stock e una casella di ripresa che salta i kernel gia compilati nella cartella di destinazione</li>
+          <li xml:lang="it">Corretto il selettore march e altra UI dipendente dal profilo che non si inizializzava mai per il profilo predefinito all'avvio</li>
+          <li xml:lang="it">Corretto una build V3/V4 fuori dalla modalita Stock mai riflessa nel nome del kernel</li>
+          <li xml:lang="it">Corretto il pulsante "Compila tutti i 26 kernel" del batch che manteneva l'etichetta dopo aver ristretto la selezione</li>
+          <li xml:lang="ro">Adaugat selectorul de march pentru orice profil, selectarea kernelurilor (casete de bifat) pentru build-ul in lot Stock si o caseta de reluare care omite kernelurile deja compilate in folderul de destinatie</li>
+          <li xml:lang="ro">Corectat faptul ca selectorul de march si alte elemente UI dependente de profil nu se initializau niciodata pentru profilul implicit la pornire</li>
+          <li xml:lang="ro">Corectat faptul ca un build V3/V4 in afara modului Stock nu se reflecta niciodata in numele kernelului</li>
+          <li xml:lang="ro">Corectat butonul "Compileaza toate cele 26 de kernel-uri" din lot care isi pastra eticheta dupa restrangerea selectiei</li>
+          <li xml:lang="ru">Добавлен селектор march для любого профиля, выбор ядер (флажки) для пакетной сборки Stock и флажок возобновления, пропускающий ядра, уже собранные в папке назначения</li>
+          <li xml:lang="ru">Исправлено: селектор march и другой UI, зависящий от профиля, никогда не инициализировался для профиля по умолчанию при запуске</li>
+          <li xml:lang="ru">Исправлено: сборка V3/V4 вне режима Stock никогда не отражалась в имени ядра</li>
+          <li xml:lang="ru">Исправлена кнопка «Собрать все 26 ядер» в пакете, сохранявшая надпись после сужения выбора</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.2-1" date="2026-08-17">
       <description>
         <p>Fixed NVIDIA DKMS builds failing on kernel 7.2+ with an implicit declaration of 'strncpy' in os-interface.c.</p>
