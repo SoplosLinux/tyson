@@ -1495,6 +1495,7 @@ usr/share/soplos-welcome/assets/icons/gaming/gog.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/heroic.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/itch-io.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/lutris.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/gaming/mocktail.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/moonlight.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/performance.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/playonlinux.png	    utils/soplos-welcome
@@ -1568,6 +1569,7 @@ usr/share/soplos-welcome/assets/icons/security/stacer.png	    utils/soplos-welco
 usr/share/soplos-welcome/assets/icons/security/surfshark.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/sweeper.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/timeshift.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/security/vpn-unlimited.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/bazaar.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/discover.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/flatpak.png	    utils/soplos-welcome

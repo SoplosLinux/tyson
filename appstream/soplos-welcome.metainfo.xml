@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.2-2" date="2026-08-17">
+        <description>
+          <p xml:lang="en">GeForce NOW now installs NVIDIA's official native Flatpak app instead of the old WebApp shortcut. Added Mocktail to Gaming and VPN Unlimited to Security. The Gaming tab is now permanent instead of hidden. Fixed GeForce NOW showing the wrong install-method badge.</p>
+          <p xml:lang="es">GeForce NOW ahora instala la app Flatpak nativa oficial de NVIDIA en vez del antiguo acceso WebApp. Añadidos Mocktail a Gaming y VPN Unlimited a Seguridad. La pestaña Gaming ahora es permanente en vez de estar oculta. Corregido que GeForce NOW mostrara el badge de método de instalación equivocado.</p>
+          <p xml:lang="fr">GeForce NOW installe désormais l'application Flatpak native officielle de NVIDIA au lieu de l'ancien raccourci WebApp. Ajout de Mocktail à Gaming et de VPN Unlimited à Sécurité. L'onglet Gaming est désormais permanent au lieu d'être caché. Correction du badge de méthode d'installation erroné pour GeForce NOW.</p>
+          <p xml:lang="pt">O GeForce NOW agora instala a aplicação Flatpak nativa oficial da NVIDIA em vez do antigo atalho WebApp. Adicionados o Mocktail a Jogos e o VPN Unlimited a Segurança. O separador Jogos é agora permanente em vez de estar oculto. Corrigido o GeForce NOW mostrar o emblema de método de instalação errado.</p>
+          <p xml:lang="de">GeForce NOW installiert nun die offizielle native Flatpak-App von NVIDIA anstelle der alten WebApp-Verknüpfung. Mocktail zu Gaming und VPN Unlimited zu Sicherheit hinzugefügt. Der Gaming-Tab ist jetzt dauerhaft sichtbar statt versteckt. Behoben, dass GeForce NOW das falsche Installationsmethoden-Badge anzeigte.</p>
+          <p xml:lang="it">GeForce NOW ora installa l'app Flatpak nativa ufficiale di NVIDIA invece della vecchia scorciatoia WebApp. Aggiunti Mocktail a Gaming e VPN Unlimited a Sicurezza. La scheda Gaming è ora permanente invece che nascosta. Corretto il badge del metodo di installazione errato mostrato da GeForce NOW.</p>
+          <p xml:lang="ru">GeForce NOW теперь устанавливает официальное нативное Flatpak-приложение NVIDIA вместо старого веб-ярлыка. В раздел «Игры» добавлен Mocktail, в «Безопасность» — VPN Unlimited. Вкладка «Игры» теперь постоянная, а не скрытая. Исправлен неверный значок метода установки у GeForce NOW.</p>
+          <p xml:lang="ro">GeForce NOW instaleaza acum aplicatia Flatpak nativa oficiala de la NVIDIA in loc de vechea comanda rapida WebApp. Adaugat Mocktail in Gaming si VPN Unlimited in Securitate. Fila Gaming este acum permanenta in loc sa fie ascunsa. Corectata afisarea insignei gresite a metodei de instalare pentru GeForce NOW.</p>
+        </description>
+      </release>
       <release version="2.1.2-1" date="2026-08-17">
         <description>
           <p xml:lang="en">Fixed an NVIDIA DKMS build failure on kernel 7.2+ (missing include in os-interface.c), matching the fix already applied by soplos-kernel-installer.</p>
