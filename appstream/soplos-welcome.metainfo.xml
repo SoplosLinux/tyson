@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.2-3" date="2026-08-23">
+        <description>
+          <p xml:lang="en">Added Cloudflare WARP to the Security tab and KutEditor, a native podcast editor, to Recommended. KutEditor is built from source at install time since no prebuilt package exists upstream.</p>
+          <p xml:lang="es">Añadidos Cloudflare WARP a la pestaña Seguridad y KutEditor, un editor de podcasts nativo, a Recomendados. KutEditor se compila desde el código fuente al instalarlo, ya que no existe ningún paquete precompilado en su origen.</p>
+          <p xml:lang="fr">Ajout de Cloudflare WARP à l'onglet Sécurité et de KutEditor, un éditeur de podcasts natif, à Recommandé. KutEditor est compilé depuis les sources lors de l'installation, aucun paquet précompilé n'existant en amont.</p>
+          <p xml:lang="pt">Adicionados o Cloudflare WARP ao separador Segurança e o KutEditor, um editor de podcasts nativo, a Recomendado. O KutEditor é compilado a partir do código-fonte no momento da instalação, pois não existe nenhum pacote pré-compilado na origem.</p>
+          <p xml:lang="de">Cloudflare WARP wurde dem Tab „Sicherheit" hinzugefügt sowie KutEditor, ein nativer Podcast-Editor, zu „Empfohlen". KutEditor wird bei der Installation aus dem Quellcode kompiliert, da vom Entwickler kein vorkompiliertes Paket bereitgestellt wird.</p>
+          <p xml:lang="it">Aggiunto Cloudflare WARP alla scheda Sicurezza e KutEditor, un editor di podcast nativo, a Consigliati. KutEditor viene compilato dal codice sorgente al momento dell'installazione, poiché non esiste alcun pacchetto precompilato a monte.</p>
+          <p xml:lang="ru">В раздел «Безопасность» добавлен Cloudflare WARP, а в «Рекомендуемое» — KutEditor, нативный редактор подкастов. KutEditor собирается из исходного кода при установке, так как готового пакета от разработчика не существует.</p>
+          <p xml:lang="ro">Adaugat Cloudflare WARP in fila Securitate si KutEditor, un editor nativ de podcast-uri, in Recomandat. KutEditor este compilat din sursa la momentul instalarii, deoarece nu exista niciun pachet precompilat la sursa.</p>
+        </description>
+      </release>
       <release version="2.1.2-2" date="2026-08-17">
         <description>
           <p xml:lang="en">GeForce NOW now installs NVIDIA's official native Flatpak app instead of the old WebApp shortcut. Added Mocktail to Gaming and VPN Unlimited to Security. The Gaming tab is now permanent instead of hidden. Fixed GeForce NOW showing the wrong install-method badge.</p>
