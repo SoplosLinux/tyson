@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.2-4" date="2026-08-23">
+        <description>
+          <p xml:lang="en">Added NordVPN to the Security tab, installed from its own apt repository. KutEditor now installs as a normal package instead of being compiled on the user's machine. Fixed uninstallers that left files behind: Cloudflare WARP kept its signing key and asked for the password twice, and Portmaster and Kudu left their directories in /opt.</p>
+          <p xml:lang="es">Añadido NordVPN a la pestaña Seguridad, instalado desde su propio repositorio apt. KutEditor se instala ahora como un paquete normal en lugar de compilarse en el equipo del usuario. Corregidos los desinstaladores que dejaban restos: Cloudflare WARP conservaba su clave de firma y pedía la contraseña dos veces, y Portmaster y Kudu dejaban sus directorios en /opt.</p>
+          <p xml:lang="fr">Ajout de NordVPN à l'onglet Sécurité, installé depuis son propre dépôt apt. KutEditor s'installe désormais comme un paquet normal au lieu d'être compilé sur la machine de l'utilisateur. Correction des désinstallateurs qui laissaient des restes : Cloudflare WARP conservait sa clé de signature et demandait le mot de passe deux fois, et Portmaster et Kudu laissaient leurs répertoires dans /opt.</p>
+          <p xml:lang="pt">Adicionado o NordVPN ao separador Segurança, instalado a partir do seu próprio repositório apt. O KutEditor passa a instalar-se como um pacote normal em vez de ser compilado na máquina do utilizador. Corrigidos os desinstaladores que deixavam restos: o Cloudflare WARP mantinha a sua chave de assinatura e pedia a palavra-passe duas vezes, e o Portmaster e o Kudu deixavam os seus diretórios em /opt.</p>
+          <p xml:lang="de">NordVPN wurde dem Tab „Sicherheit" hinzugefügt und wird aus dem eigenen apt-Repository installiert. KutEditor wird nun als normales Paket installiert, statt auf dem Rechner des Benutzers kompiliert zu werden. Deinstallationsroutinen, die Reste hinterließen, wurden korrigiert: Cloudflare WARP behielt seinen Signaturschlüssel und fragte zweimal nach dem Passwort, und Portmaster und Kudu ließen ihre Verzeichnisse in /opt zurück.</p>
+          <p xml:lang="it">Aggiunto NordVPN alla scheda Sicurezza, installato dal proprio repository apt. KutEditor ora si installa come un normale pacchetto invece di essere compilato sulla macchina dell'utente. Corretti i disinstallatori che lasciavano residui: Cloudflare WARP conservava la sua chiave di firma e chiedeva la password due volte, e Portmaster e Kudu lasciavano le loro cartelle in /opt.</p>
+          <p xml:lang="ru">В раздел «Безопасность» добавлен NordVPN, устанавливаемый из собственного репозитория apt. KutEditor теперь устанавливается как обычный пакет, а не собирается на компьютере пользователя. Исправлены деинсталляторы, оставлявшие следы: Cloudflare WARP сохранял свой ключ подписи и дважды запрашивал пароль, а Portmaster и Kudu оставляли свои каталоги в /opt.</p>
+          <p xml:lang="ro">Adaugat NordVPN in fila Securitate, instalat din propriul depozit apt. KutEditor se instaleaza acum ca un pachet normal in loc sa fie compilat pe calculatorul utilizatorului. Corectate programele de dezinstalare care lasau resturi: Cloudflare WARP isi pastra cheia de semnatura si cerea parola de doua ori, iar Portmaster si Kudu isi lasau directoarele in /opt.</p>
+        </description>
+      </release>
       <release version="2.1.2-3" date="2026-08-23">
         <description>
           <p xml:lang="en">Added Cloudflare WARP to the Security tab and KutEditor, a native podcast editor, to Recommended. KutEditor is built from source at install time since no prebuilt package exists upstream.</p>

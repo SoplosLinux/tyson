@@ -1541,7 +1541,6 @@ usr/share/soplos-welcome/assets/icons/multimedia/handbrake.png	    utils/soplos-
 usr/share/soplos-welcome/assets/icons/multimedia/kdenlive.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/kodi.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/kuteditor.png	    utils/soplos-welcome
-usr/share/soplos-welcome/assets/icons/multimedia/kuteditor.svg	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/lmms.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/mixxx.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/mpv.png	    utils/soplos-welcome
@@ -1569,6 +1568,7 @@ usr/share/soplos-welcome/assets/icons/security/grub-btrfs.png	    utils/soplos-w
 usr/share/soplos-welcome/assets/icons/security/gufw.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/kudu.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/mozilla-vpn.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/security/nordvpn.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/one.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/portmaster.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/proton-vpn.png	    utils/soplos-welcome
@@ -1578,7 +1578,6 @@ usr/share/soplos-welcome/assets/icons/security/stacer.png	    utils/soplos-welco
 usr/share/soplos-welcome/assets/icons/security/surfshark.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/sweeper.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/timeshift.png	    utils/soplos-welcome
-usr/share/soplos-welcome/assets/icons/security/unnamed.webp	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/vpn-unlimited.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/bazaar.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/discover.png	    utils/soplos-welcome
