@@ -46,6 +46,7 @@ usr/bin/soplos-welcome	    utils/soplos-welcome
 usr/bin/soplos-welcome-live	    utils/soplos-welcome-live
 usr/bin/startplasma-login-wayland	    kde/plasma-login-manager
 usr/lib/kf6/kauth/libexec/kcmplasmalogin_authhelper	    kde/plasma-login-manager
+usr/lib/kuteditor/kuteditor	    sound/kuteditor
 usr/lib/kuteditor/libdeepfilter.so.0.5	    sound/kuteditor
 usr/lib/pam.d/plasmalogin	    kde/plasma-login-manager
 usr/lib/pam.d/plasmalogin-autologin	    kde/plasma-login-manager
