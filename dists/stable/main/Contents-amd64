@@ -29,6 +29,7 @@ etc/skel/.config/fish/conf.d/soplos_theme.fish	    utils/fish-soplos
 etc/skel/.config/fish/functions/fish_prompt.fish	    utils/fish-soplos
 etc/skel/.config/ghostty/config.ghostty	    utils/ghostty-soplos
 usr/bin/grub-btrfsd	    admin/grub-btrfs
+usr/bin/kuteditor	    sound/kuteditor
 usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
 usr/bin/plasma-login-wallpaper	    kde/plasma-login-manager
 usr/bin/plasmalogin	    kde/plasma-login-manager
@@ -45,6 +46,7 @@ usr/bin/soplos-welcome	    utils/soplos-welcome
 usr/bin/soplos-welcome-live	    utils/soplos-welcome-live
 usr/bin/startplasma-login-wayland	    kde/plasma-login-manager
 usr/lib/kf6/kauth/libexec/kcmplasmalogin_authhelper	    kde/plasma-login-manager
+usr/lib/kuteditor/libdeepfilter.so.0.5	    sound/kuteditor
 usr/lib/pam.d/plasmalogin	    kde/plasma-login-manager
 usr/lib/pam.d/plasmalogin-autologin	    kde/plasma-login-manager
 usr/lib/pam.d/plasmalogin-greeter	    kde/plasma-login-manager
@@ -62,6 +64,7 @@ usr/lib/x86_64-linux-gnu/libexec/plasmalogin-helper-start-x11user	    kde/plasma
 usr/lib/x86_64-linux-gnu/qt6/plugins/plasma/kcms/systemsettings/kcm_plasmalogin.so	    kde/plasma-login-manager
 usr/share/applications/com.soplos.msi-keyboard.desktop	    utils/msi-keyboard-gui
 usr/share/applications/kcm_plasmalogin.desktop	    kde/plasma-login-manager
+usr/share/applications/kuteditor.desktop	    sound/kuteditor
 usr/share/applications/org.soplos.appimagemanager.desktop	    utils/soplos-appimage-manager
 usr/share/applications/org.soplos.grubeditor.desktop	    utils/soplos-grub-editor
 usr/share/applications/org.soplos.kernel-installer.desktop	    utils/soplos-kernel-installer
@@ -116,6 +119,8 @@ usr/share/doc/grub-btrfs/README.md.gz	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/changelog.gz	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/copyright	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/initramfs-overlayfs.md	    admin/grub-btrfs
+usr/share/doc/kuteditor/changelog.Debian.gz	    sound/kuteditor
+usr/share/doc/kuteditor/copyright	    sound/kuteditor
 usr/share/doc/plasma-login-manager/changelog.Debian.gz	    kde/plasma-login-manager
 usr/share/doc/plasma-login-manager/copyright	    kde/plasma-login-manager
 usr/share/doc/soplos-appimage-manager/copyright	    utils/soplos-appimage-manager
@@ -221,6 +226,7 @@ usr/share/icons/hicolor/64x64/apps/org.soplos.systemservice.png	    utils/soplos
 usr/share/icons/hicolor/64x64/apps/org.soplos.webappmanager.png	    utils/soplos-webapp-manager
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
+usr/share/icons/hicolor/scalable/apps/kuteditor.svg	    sound/kuteditor
 usr/share/licenses/grub-btrfs/LICENSE	    admin/grub-btrfs
 usr/share/locale/ar/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ar/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
