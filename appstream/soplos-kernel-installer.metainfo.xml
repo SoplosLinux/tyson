@@ -166,6 +166,36 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.2-3" date="2026-08-28">
+      <description>
+        <p>CONFIG_CGROUP_DMEM is now enabled unconditionally on every build, ahead of the future gaming daemon needing it.</p>
+        <p xml:lang="es">CONFIG_CGROUP_DMEM ya se activa de forma incondicional en cada build, antes de que el futuro daemon de gaming lo necesite.</p>
+        <p xml:lang="fr">CONFIG_CGROUP_DMEM est desormais active de maniere inconditionnelle sur chaque build, avant que le futur daemon de gaming n'en ait besoin.</p>
+        <p xml:lang="de">CONFIG_CGROUP_DMEM wird jetzt bei jedem Build bedingungslos aktiviert, bevor der zukuenftige Gaming-Daemon es benoetigt.</p>
+        <p xml:lang="pt">O CONFIG_CGROUP_DMEM ja e ativado de forma incondicional em cada compilacao, antes de o futuro daemon de gaming precisar dele.</p>
+        <p xml:lang="it">CONFIG_CGROUP_DMEM viene ora abilitato incondizionatamente in ogni build, prima che il futuro daemon di gaming ne abbia bisogno.</p>
+        <p xml:lang="ro">CONFIG_CGROUP_DMEM este acum activat neconditionat la fiecare build, inainte ca viitorul daemon de gaming sa aiba nevoie de el.</p>
+        <p xml:lang="ru">CONFIG_CGROUP_DMEM теперь безусловно включается в каждой сборке — заранее, до того как он понадобится будущему игровому демону.</p>
+        <ul>
+          <li>Enabled CONFIG_CGROUP_DMEM (device/VRAM memory accounting cgroup) unconditionally in core/installer.py, disabled by default in the Debian base config — avoids a forced recompile-and-republish cycle once soplos-game-daemon needs it</li>
+          <li>A dropped symbol after olddefconfig only warns instead of aborting the build, since nothing depends on it yet</li>
+          <li xml:lang="es">Activado CONFIG_CGROUP_DMEM (cgroup de contabilidad de memoria de dispositivo/VRAM) de forma incondicional en core/installer.py, desactivado por defecto en la config base de Debian — evita un ciclo forzado de recompilar y republicar cuando soplos-game-daemon lo necesite</li>
+          <li xml:lang="es">Un simbolo descartado tras olddefconfig solo avisa en vez de abortar el build, ya que nada depende de el todavia</li>
+          <li xml:lang="fr">CONFIG_CGROUP_DMEM (cgroup de comptabilite de memoire de peripherique/VRAM) active de maniere inconditionnelle dans core/installer.py, desactive par defaut dans la config de base Debian — evite un cycle force de recompilation et republication quand soplos-game-daemon en aura besoin</li>
+          <li xml:lang="fr">Un symbole abandonne apres olddefconfig se contente d'avertir au lieu d'interrompre la compilation, car rien n'en depend encore</li>
+          <li xml:lang="de">CONFIG_CGROUP_DMEM (Cgroup fuer Geraete-/VRAM-Speicherabrechnung) bedingungslos in core/installer.py aktiviert, in der Debian-Basiskonfiguration standardmaessig deaktiviert — vermeidet einen erzwungenen Neukompilierungs- und Neuveroeffentlichungszyklus, sobald soplos-game-daemon es benoetigt</li>
+          <li xml:lang="de">Ein nach olddefconfig verworfenes Symbol fuehrt nur zu einer Warnung statt den Build abzubrechen, da noch nichts davon abhaengt</li>
+          <li xml:lang="pt">Ativado o CONFIG_CGROUP_DMEM (cgroup de contabilizacao de memoria de dispositivo/VRAM) de forma incondicional em core/installer.py, desativado por omissao na configuracao base do Debian — evita um ciclo forcado de recompilacao e nova publicacao quando o soplos-game-daemon precisar dele</li>
+          <li xml:lang="pt">Um simbolo descartado apos o olddefconfig apenas avisa em vez de abortar a compilacao, pois nada depende dele ainda</li>
+          <li xml:lang="it">Abilitato CONFIG_CGROUP_DMEM (cgroup di contabilizzazione della memoria del dispositivo/VRAM) incondizionatamente in core/installer.py, disabilitato per impostazione predefinita nella config di base Debian — evita un ciclo forzato di ricompilazione e ripubblicazione quando soplos-game-daemon ne avra bisogno</li>
+          <li xml:lang="it">Un simbolo scartato dopo olddefconfig si limita ad avvisare invece di interrompere la build, poiche nulla ne dipende ancora</li>
+          <li xml:lang="ro">Activat CONFIG_CGROUP_DMEM (cgroup de contabilizare a memoriei dispozitivului/VRAM) neconditionat in core/installer.py, dezactivat implicit in configuratia de baza Debian — evita un ciclu fortat de recompilare si republicare cand soplos-game-daemon va avea nevoie de el</li>
+          <li xml:lang="ro">Un simbol eliminat dupa olddefconfig doar avertizeaza in loc sa opreasca build-ul, deoarece nimic nu depinde inca de el</li>
+          <li xml:lang="ru">Включён CONFIG_CGROUP_DMEM (cgroup учёта памяти устройства/VRAM) безусловно в core/installer.py, по умолчанию отключён в базовой конфигурации Debian — избегает вынужденного цикла пересборки и повторной публикации, когда он понадобится soplos-game-daemon</li>
+          <li xml:lang="ru">Отброшенный после olddefconfig символ только выводит предупреждение, а не прерывает сборку, так как пока ничего от него не зависит</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.2-2" date="2026-08-18">
       <description>
         <p>The march (x86-64 psABI) selector is now available for every profile, not just Stock, and the Stock batch build gained kernel selection and resume.</p>

@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260823T224235
+Time: 20260828T170105
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -716,6 +716,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.2-3
+    date: '2026-08-28'
+    type: stable
+    description:
+      C: CONFIG_CGROUP_DMEM is now enabled unconditionally on every build, ahead of
+        the future gaming daemon needing it.
+      es: |-
+        CONFIG_CGROUP_DMEM ya se activa de forma incondicional en cada build, antes de que el futuro daemon de gaming lo necesite.
+      fr: |-
+        CONFIG_CGROUP_DMEM est desormais active de maniere inconditionnelle sur chaque build, avant que le futur daemon de gaming n'en ait besoin.
+      de: CONFIG_CGROUP_DMEM wird jetzt bei jedem Build bedingungslos aktiviert, bevor
+        der zukuenftige Gaming-Daemon es benoetigt.
+      pt: |-
+        O CONFIG_CGROUP_DMEM ja e ativado de forma incondicional em cada compilacao, antes de o futuro daemon de gaming precisar dele.
+      it: |-
+        CONFIG_CGROUP_DMEM viene ora abilitato incondizionatamente in ogni build, prima che il futuro daemon di gaming ne abbia bisogno.
+      ro: |-
+        CONFIG_CGROUP_DMEM este acum activat neconditionat la fiecare build, inainte ca viitorul daemon de gaming sa aiba nevoie de el.
+      ru: |-
+        CONFIG_CGROUP_DMEM теперь безусловно включается в каждой сборке — заранее, до того как он понадобится будущему игровому демону.
   - version: 1.0.2-2
     date: '2026-08-18'
     type: stable
