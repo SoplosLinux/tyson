@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260828T170105
+Time: 20260828T223909
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1394,8 +1394,30 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.2-5
+    date: '2026-08-29'
+    type: stable
+    description:
+      en: |-
+        The Liquorix kernel is no longer blocked on machines with an NVIDIA graphics card. There is no such incompatibility, and Liquorix now installs like any other kernel.
+      es: |-
+        El kernel Liquorix ya no se bloquea en equipos con tarjeta gráfica NVIDIA. Esa incompatibilidad no existe, y Liquorix se instala ahora como cualquier otro kernel.
+      fr: |-
+        Le noyau Liquorix n'est plus bloqué sur les machines équipées d'une carte graphique NVIDIA. Cette incompatibilité n'existe pas, et Liquorix s'installe désormais comme n'importe quel autre noyau.
+      pt: |-
+        O kernel Liquorix já não é bloqueado em máquinas com placa gráfica NVIDIA. Essa incompatibilidade não existe, e o Liquorix instala-se agora como qualquer outro kernel.
+      de: |-
+        Der Liquorix-Kernel wird auf Rechnern mit NVIDIA-Grafikkarte nicht mehr blockiert. Diese Inkompatibilität besteht nicht, und Liquorix lässt sich nun wie jeder andere Kernel installieren.
+      it: |-
+        Il kernel Liquorix non viene più bloccato sulle macchine con scheda grafica NVIDIA. Tale incompatibilità non esiste, e Liquorix ora si installa come qualsiasi altro kernel.
+      ru: |-
+        Ядро Liquorix больше не блокируется на компьютерах с видеокартой NVIDIA. Такой несовместимости не существует, и Liquorix теперь устанавливается как любое другое ядро.
+      ro: |-
+        Nucleul Liquorix nu mai este blocat pe calculatoarele cu placa grafica NVIDIA. Acea incompatibilitate nu exista, iar Liquorix se instaleaza acum ca orice alt nucleu.
+      C: |-
+        The Liquorix kernel is no longer blocked on machines with an NVIDIA graphics card. There is no such incompatibility, and Liquorix now installs like any other kernel.
   - version: 2.1.2-4
-    date: '2026-08-23'
+    date: '2026-08-28'
     type: stable
     description:
       en: |-
