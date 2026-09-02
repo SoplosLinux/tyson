@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260828T223909
+Time: 20260902T164155
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1394,6 +1394,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.2-6
+    date: '2026-09-02'
+    type: stable
+    description:
+      en: |-
+        Flatpak applications in the Security, Recommended and Gaming tabs are no longer reported as installed on systems without Flatpak: Welcome now explains that Flatpak and Flathub must be installed from the Software tab. The NVIDIA DKMS module now builds on XanMod kernels, and the Forums button opens the forum again.
+      es: |-
+        Las aplicaciones Flatpak de las pestañas Seguridad, Recomendados y Gaming ya no se dan por instaladas en sistemas sin Flatpak: ahora se explica que hay que instalar Flatpak y Flathub desde la pestaña Software. El módulo DKMS de NVIDIA ya compila en los kernels XanMod, y el botón de Foros vuelve a abrir el foro.
+      fr: |-
+        Les applications Flatpak des onglets Sécurité, Recommandé et Jeux ne sont plus considérées comme installées sur les systèmes sans Flatpak : il est désormais expliqué qu'il faut installer Flatpak et Flathub depuis l'onglet Logiciels. Le module DKMS de NVIDIA se compile maintenant sur les noyaux XanMod, et le bouton Forums ouvre à nouveau le forum.
+      pt: |-
+        As aplicações Flatpak dos separadores Segurança, Recomendado e Jogos deixam de ser dadas como instaladas em sistemas sem Flatpak: passa a explicar-se que é preciso instalar o Flatpak e o Flathub a partir do separador Software. O módulo DKMS da NVIDIA já compila nos kernels XanMod, e o botão Fóruns volta a abrir o fórum.
+      de: |-
+        Flatpak-Anwendungen in den Tabs „Sicherheit", „Empfohlen" und „Gaming" gelten auf Systemen ohne Flatpak nicht mehr als installiert: Es wird nun erklärt, dass Flatpak und Flathub über den Tab „Software" installiert werden müssen. Das NVIDIA-DKMS-Modul baut jetzt auch auf XanMod-Kerneln, und die Schaltfläche „Foren" öffnet das Forum wieder.
+      it: |-
+        Le applicazioni Flatpak nelle schede Sicurezza, Consigliati e Gaming non vengono più considerate installate sui sistemi senza Flatpak: ora viene spiegato che occorre installare Flatpak e Flathub dalla scheda Software. Il modulo DKMS di NVIDIA ora si compila sui kernel XanMod, e il pulsante Forum torna ad aprire il forum.
+      ru: |-
+        Приложения Flatpak в разделах «Безопасность», «Рекомендуемое» и «Игры» больше не считаются установленными в системах без Flatpak: теперь поясняется, что Flatpak и Flathub нужно установить из раздела «Программы». Модуль DKMS для NVIDIA теперь собирается на ядрах XanMod, а кнопка «Форумы» снова открывает форум.
+      ro: |-
+        Aplicatiile Flatpak din filele Securitate, Recomandat si Gaming nu mai sunt considerate instalate pe sistemele fara Flatpak: acum se explica faptul ca trebuie instalate Flatpak si Flathub din fila Software. Modulul DKMS NVIDIA se compileaza acum pe nucleele XanMod, iar butonul Forumuri deschide din nou forumul.
+      C: |-
+        Flatpak applications in the Security, Recommended and Gaming tabs are no longer reported as installed on systems without Flatpak: Welcome now explains that Flatpak and Flathub must be installed from the Software tab. The NVIDIA DKMS module now builds on XanMod kernels, and the Forums button opens the forum again.
   - version: 2.1.2-5
     date: '2026-08-29'
     type: stable
