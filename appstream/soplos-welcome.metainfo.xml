@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.2-7" date="2026-09-09">
+        <description>
+          <p xml:lang="en">Added Waydroid to Recommended → Development, with the binder_linux kernel module loaded and configured automatically so it works right after installing, and the Install button disabled with an explanation on kernels that don't support it yet.</p>
+          <p xml:lang="es">Añadido Waydroid a Recomendados → Desarrollo, con el módulo del kernel binder_linux cargado y configurado automáticamente para que funcione justo tras instalarlo, y el botón de Instalar deshabilitado con explicación en los kernels que aún no lo soportan.</p>
+          <p xml:lang="fr">Ajout de Waydroid à Recommandé → Développement, avec le module noyau binder_linux chargé et configuré automatiquement pour qu'il fonctionne juste après l'installation, et le bouton Installer désactivé avec une explication sur les noyaux qui ne le prennent pas encore en charge.</p>
+          <p xml:lang="pt">Adicionado o Waydroid a Recomendado → Desenvolvimento, com o módulo do kernel binder_linux carregado e configurado automaticamente para funcionar logo após a instalação, e o botão Instalar desativado com explicação nos kernels que ainda não o suportam.</p>
+          <p xml:lang="de">Waydroid wurde zu Empfohlen → Entwicklung hinzugefügt, wobei das Kernel-Modul binder_linux automatisch geladen und konfiguriert wird, damit es sofort nach der Installation funktioniert; die Schaltfläche „Installieren" ist bei Kerneln, die dies noch nicht unterstützen, mit einer Erklärung deaktiviert.</p>
+          <p xml:lang="it">Aggiunto Waydroid a Consigliati → Sviluppo, con il modulo del kernel binder_linux caricato e configurato automaticamente per funzionare subito dopo l'installazione, e il pulsante Installa disabilitato con una spiegazione sui kernel che non lo supportano ancora.</p>
+          <p xml:lang="ru">В раздел «Рекомендуемое» → «Разработка» добавлен Waydroid: модуль ядра binder_linux загружается и настраивается автоматически, чтобы всё работало сразу после установки, а кнопка «Установить» отключена с пояснением на ядрах, которые ещё не поддерживают эту функцию.</p>
+          <p xml:lang="ro">Adaugat Waydroid in Recomandat → Dezvoltare, cu modulul de kernel binder_linux incarcat si configurat automat pentru a functiona imediat dupa instalare, iar butonul Instaleaza este dezactivat cu o explicatie pe kernelurile care inca nu il suporta.</p>
+        </description>
+      </release>
       <release version="2.1.2-6" date="2026-09-02">
         <description>
           <p xml:lang="en">Flatpak applications in the Security, Recommended and Gaming tabs are no longer reported as installed on systems without Flatpak: Welcome now explains that Flatpak and Flathub must be installed from the Software tab. The NVIDIA DKMS module now builds on XanMod kernels, and the Forums button opens the forum again.</p>

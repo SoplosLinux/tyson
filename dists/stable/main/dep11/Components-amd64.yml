@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260907T165303
+Time: 20260909T185351
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -716,6 +716,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.2-4
+    date: '2026-09-09'
+    type: stable
+    description:
+      C: |-
+        CONFIG_ANDROID_BINDER_IPC is now enabled as a module on every build, giving Waydroid support with no kernel patch needed.
+      es: |-
+        CONFIG_ANDROID_BINDER_IPC ya se activa como modulo en cada build, dando soporte a Waydroid sin necesitar ningun parche de kernel.
+      fr: |-
+        CONFIG_ANDROID_BINDER_IPC est desormais active en tant que module sur chaque build, apportant le support de Waydroid sans aucun patch de noyau.
+      de: |-
+        CONFIG_ANDROID_BINDER_IPC wird jetzt bei jedem Build als Modul aktiviert und bietet Waydroid-Unterstuetzung ohne jeglichen Kernel-Patch.
+      pt: |-
+        O CONFIG_ANDROID_BINDER_IPC ja e ativado como modulo em cada compilacao, dando suporte ao Waydroid sem qualquer patch de kernel.
+      it: |-
+        CONFIG_ANDROID_BINDER_IPC viene ora abilitato come modulo in ogni build, offrendo il supporto a Waydroid senza alcuna patch del kernel.
+      ro: |-
+        CONFIG_ANDROID_BINDER_IPC este acum activat ca modul la fiecare build, oferind suport pentru Waydroid fara niciun patch de kernel.
+      ru: |-
+        CONFIG_ANDROID_BINDER_IPC теперь включается как модуль в каждой сборке, обеспечивая поддержку Waydroid без каких-либо патчей ядра.
   - version: 1.0.2-3
     date: '2026-08-28'
     type: stable
@@ -1394,6 +1414,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.2-7
+    date: '2026-09-09'
+    type: stable
+    description:
+      en: |-
+        Added Waydroid to Recommended → Development, with the binder_linux kernel module loaded and configured automatically so it works right after installing, and the Install button disabled with an explanation on kernels that don't support it yet.
+      es: |-
+        Añadido Waydroid a Recomendados → Desarrollo, con el módulo del kernel binder_linux cargado y configurado automáticamente para que funcione justo tras instalarlo, y el botón de Instalar deshabilitado con explicación en los kernels que aún no lo soportan.
+      fr: |-
+        Ajout de Waydroid à Recommandé → Développement, avec le module noyau binder_linux chargé et configuré automatiquement pour qu'il fonctionne juste après l'installation, et le bouton Installer désactivé avec une explication sur les noyaux qui ne le prennent pas encore en charge.
+      pt: |-
+        Adicionado o Waydroid a Recomendado → Desenvolvimento, com o módulo do kernel binder_linux carregado e configurado automaticamente para funcionar logo após a instalação, e o botão Instalar desativado com explicação nos kernels que ainda não o suportam.
+      de: |-
+        Waydroid wurde zu Empfohlen → Entwicklung hinzugefügt, wobei das Kernel-Modul binder_linux automatisch geladen und konfiguriert wird, damit es sofort nach der Installation funktioniert; die Schaltfläche „Installieren" ist bei Kerneln, die dies noch nicht unterstützen, mit einer Erklärung deaktiviert.
+      it: |-
+        Aggiunto Waydroid a Consigliati → Sviluppo, con il modulo del kernel binder_linux caricato e configurato automaticamente per funzionare subito dopo l'installazione, e il pulsante Installa disabilitato con una spiegazione sui kernel che non lo supportano ancora.
+      ru: |-
+        В раздел «Рекомендуемое» → «Разработка» добавлен Waydroid: модуль ядра binder_linux загружается и настраивается автоматически, чтобы всё работало сразу после установки, а кнопка «Установить» отключена с пояснением на ядрах, которые ещё не поддерживают эту функцию.
+      ro: |-
+        Adaugat Waydroid in Recomandat → Dezvoltare, cu modulul de kernel binder_linux incarcat si configurat automat pentru a functiona imediat dupa instalare, iar butonul Instaleaza este dezactivat cu o explicatie pe kernelurile care inca nu il suporta.
+      C: |-
+        Added Waydroid to Recommended → Development, with the binder_linux kernel module loaded and configured automatically so it works right after installing, and the Install button disabled with an explanation on kernels that don't support it yet.
   - version: 2.1.2-6
     date: '2026-09-02'
     type: stable

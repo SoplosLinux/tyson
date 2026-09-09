@@ -166,6 +166,28 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.2-4" date="2026-09-09">
+      <description>
+        <p>CONFIG_ANDROID_BINDER_IPC is now enabled as a module on every build, giving Waydroid support with no kernel patch needed.</p>
+        <p xml:lang="es">CONFIG_ANDROID_BINDER_IPC ya se activa como modulo en cada build, dando soporte a Waydroid sin necesitar ningun parche de kernel.</p>
+        <p xml:lang="fr">CONFIG_ANDROID_BINDER_IPC est desormais active en tant que module sur chaque build, apportant le support de Waydroid sans aucun patch de noyau.</p>
+        <p xml:lang="de">CONFIG_ANDROID_BINDER_IPC wird jetzt bei jedem Build als Modul aktiviert und bietet Waydroid-Unterstuetzung ohne jeglichen Kernel-Patch.</p>
+        <p xml:lang="pt">O CONFIG_ANDROID_BINDER_IPC ja e ativado como modulo em cada compilacao, dando suporte ao Waydroid sem qualquer patch de kernel.</p>
+        <p xml:lang="it">CONFIG_ANDROID_BINDER_IPC viene ora abilitato come modulo in ogni build, offrendo il supporto a Waydroid senza alcuna patch del kernel.</p>
+        <p xml:lang="ro">CONFIG_ANDROID_BINDER_IPC este acum activat ca modul la fiecare build, oferind suport pentru Waydroid fara niciun patch de kernel.</p>
+        <p xml:lang="ru">CONFIG_ANDROID_BINDER_IPC теперь включается как модуль в каждой сборке, обеспечивая поддержку Waydroid без каких-либо патчей ядра.</p>
+        <ul>
+          <li>Enabled CONFIG_ANDROID_BINDER_IPC as a module (=m) in core/installer.py, on purpose: users who never use Waydroid never load it, at no cost. Device names (binder,hwbinder,vndbinder) are left for whoever loads the module (modprobe options), not fixed at compile time</li>
+          <li xml:lang="es">Activado CONFIG_ANDROID_BINDER_IPC como modulo (=m) en core/installer.py, a proposito: quien nunca use Waydroid nunca lo carga, sin ningun coste. Los nombres de dispositivo (binder,hwbinder,vndbinder) se dejan para quien cargue el modulo (opciones de modprobe), no fijados en compilacion</li>
+          <li xml:lang="fr">CONFIG_ANDROID_BINDER_IPC active en tant que module (=m) dans core/installer.py, volontairement : ceux qui n'utilisent jamais Waydroid ne le chargent jamais, sans aucun cout. Les noms de peripheriques (binder,hwbinder,vndbinder) sont laisses a qui charge le module (options modprobe), non fixes a la compilation</li>
+          <li xml:lang="de">CONFIG_ANDROID_BINDER_IPC absichtlich als Modul (=m) in core/installer.py aktiviert: wer Waydroid nie nutzt, laedt es nie, ohne jegliche Kosten. Geraetenamen (binder,hwbinder,vndbinder) bleiben demjenigen ueberlassen, der das Modul laedt (modprobe-Optionen), nicht zur Kompilierzeit festgelegt</li>
+          <li xml:lang="pt">Ativado o CONFIG_ANDROID_BINDER_IPC como modulo (=m) em core/installer.py, de proposito: quem nunca usar o Waydroid nunca o carrega, sem qualquer custo. Os nomes dos dispositivos (binder,hwbinder,vndbinder) ficam a cargo de quem carregar o modulo (opcoes do modprobe), nao fixados na compilacao</li>
+          <li xml:lang="it">Abilitato CONFIG_ANDROID_BINDER_IPC come modulo (=m) in core/installer.py, di proposito: chi non usa mai Waydroid non lo carica mai, senza alcun costo. I nomi dei dispositivi (binder,hwbinder,vndbinder) sono lasciati a chi carica il modulo (opzioni modprobe), non fissati in compilazione</li>
+          <li xml:lang="ro">Activat CONFIG_ANDROID_BINDER_IPC ca modul (=m) in core/installer.py, intentionat: cine nu foloseste niciodata Waydroid nu il incarca niciodata, fara niciun cost. Numele dispozitivelor (binder,hwbinder,vndbinder) raman in seama celui care incarca modulul (optiuni modprobe), nefixate la compilare</li>
+          <li xml:lang="ru">Включён CONFIG_ANDROID_BINDER_IPC как модуль (=m) в core/installer.py, намеренно: те, кто никогда не использует Waydroid, никогда его не загружают, без каких-либо затрат. Имена устройств (binder,hwbinder,vndbinder) оставлены на усмотрение того, кто загружает модуль (параметры modprobe), а не фиксированы при компиляции</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.0.2-3" date="2026-08-28">
       <description>
         <p>CONFIG_CGROUP_DMEM is now enabled unconditionally on every build, ahead of the future gaming daemon needing it.</p>
