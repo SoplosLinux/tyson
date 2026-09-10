@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.soplos.kernel-installer</id>
+  <pkgname>soplos-kernel-installer</pkgname>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <project_group>org.soplos</project_group>
+
+  <name>Soplos Kernel Installer</name>
+  <name xml:lang="de">Soplos Kernel-Installer</name>
+  <name xml:lang="es">Instalador de Kernel Soplos</name>
+  <name xml:lang="fr">Installateur de Kernel Soplos</name>
+  <name xml:lang="it">Installatore Kernel Soplos</name>
+  <name xml:lang="pt">Instalador de Kernel Soplos</name>
+  <name xml:lang="ro">Instalator Kernel Soplos</name>
+  <name xml:lang="ru">Установщик ядра Soplos</name>
+
+  <summary>Advanced graphical kernel manager for Soplos Linux</summary>
+  <summary xml:lang="de">Erweiterter grafischer Kernel-Manager für Soplos Linux</summary>
+  <summary xml:lang="es">Gestor gráfico avanzado de kernels para Soplos Linux</summary>
+  <summary xml:lang="fr">Gestionnaire graphique avancé de noyaux pour Soplos Linux</summary>
+  <summary xml:lang="it">Gestore grafico avanzato del kernel per Soplos Linux</summary>
+  <summary xml:lang="pt">Gerenciador gráfico avançado de kernels para Soplos Linux</summary>
+  <summary xml:lang="ro">Manager grafic avansat de nuclee pentru Soplos Linux</summary>
+  <summary xml:lang="ru">Продвинутый графический менеджер ядер для Soplos Linux</summary>
+
+  <description>
+    <p>
+      Soplos Kernel Installer is a comprehensive graphical tool for downloading, patching, compiling and installing custom Linux kernels from kernel.org. 
+      It provides an intuitive interface for managing kernel versions, patches, and configurations with complete internationalization support for 8 languages.
+    </p>
+    <p xml:lang="de">
+      Soplos Kernel-Installer ist ein umfassendes grafisches Tool zur Konfiguration und Anpassung des GRUB2-Bootloaders. 
+      Mit vollständiger Internationalisierungsunterstützung für 8 Sprachen bietet es eine intuitive Benutzeroberfläche für die Verwaltung von Boot-Einstellungen, Themes, Schriftarten und benutzerdefinierten Einträgen.
+    </p>
+    <p xml:lang="es">
+      Soplos Kernel Installer es una herramienta gráfica integral para descargar, parchear, compilar e instalar kernels Linux personalizados desde kernel.org. 
+      Con soporte completo de internacionalización para 8 idiomas, proporciona una interfaz intuitiva para gestionar versiones de kernel, parches y configuraciones.
+    </p>
+    <p xml:lang="fr">
+      Soplos Kernel Installer est un outil graphique complet pour télécharger, patcher, compiler et installer des noyaux Linux personnalisés à partir de kernel.org. 
+      Avec un support complet d'internationalisation pour 8 langues, il fournit une interface intuitive pour gérer les versions de noyau, les patchs et les configurations.
+    </p>
+    <p xml:lang="it">
+      Soplos Kernel Installer è uno strumento grafico completo per scaricare, applicare patch, compilare e installare kernel Linux personalizzati da kernel.org. 
+      Con supporto completo di internazionalizzazione per 8 lingue, fornisce un'interfaccia intuitiva per gestire versioni del kernel, patch e configurazioni.
+    </p>
+    <p xml:lang="pt">
+      Soplos Kernel Installer é uma ferramenta gráfica abrangente para baixar, aplicar patches, compilar e instalar kernels Linux personalizados a partir do kernel.org. 
+      Com suporte completo de internacionalização para 8 idiomas, fornece uma interface intuitiva para gerenciar versões de kernel, patches e configurações.
+    </p>
+    <p xml:lang="ro">
+      Soplos Kernel Installer este un instrument grafic complet pentru descărcarea, aplicarea de patch-uri, compilarea și instalarea nucleelor Linux personalizate de pe kernel.org. 
+      Cu suport complet de internaționalizare pentru 8 limbi, oferă o interfață intuitivă pentru gestionarea versiunilor de nucleu, patch-urilor și configurațiilor.
+    </p>
+    <p xml:lang="ru">
+      Soplos Kernel Installer — это комплексный графический инструмент для загрузки, патчинга, компиляции и установки пользовательских ядер Linux с сайта kernel.org. 
+      С полным поддержкой интернационализации для 8 языков, он предоставляет интуитивный интерфейс для управления версиями ядра, патчами и конфигурациями.
+    </p>
+  </description>
+
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-kernel-installer/issues</url>
+
+  <launchable type="desktop-id">org.soplos.kernel-installer.desktop</launchable>
+
+  <developer_name>Sergi Perich</developer_name>
+
+  <content_rating type="oars-1.1" />
+
+  <categories>
+    <category>Settings</category>
+    <category>System</category>
+    <category>Utility</category>
+    <category>GTK</category>
+  </categories>
+
+  <requires>
+    <display_length compare="ge">800</display_length>
+    <memory compare="ge">1024</memory>
+  </requires>
+
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </recommends>
+
+  <keywords>
+    <keyword>kernel</keyword>
+    <keyword>installer</keyword>
+    <keyword>manager</keyword>
+    <keyword>compilation</keyword>
+    <keyword>patch</keyword>
+    <keyword>soplos</keyword>
+    <keyword xml:lang="es">kernel</keyword>
+    <keyword xml:lang="es">instalador</keyword>
+    <keyword xml:lang="es">gestor</keyword>
+    <keyword xml:lang="es">compilación</keyword>
+    <keyword xml:lang="es">parche</keyword>
+    <keyword xml:lang="fr">noyau</keyword>
+    <keyword xml:lang="fr">installateur</keyword>
+    <keyword xml:lang="fr">gestionnaire</keyword>
+    <keyword xml:lang="fr">compilation</keyword>
+    <keyword xml:lang="fr">patch</keyword>
+    <keyword xml:lang="de">kernel</keyword>
+    <keyword xml:lang="de">installer</keyword>
+    <keyword xml:lang="de">manager</keyword>
+    <keyword xml:lang="de">kompilierung</keyword>
+    <keyword xml:lang="de">patch</keyword>
+    <keyword xml:lang="pt">kernel</keyword>
+    <keyword xml:lang="pt">instalador</keyword>
+    <keyword xml:lang="pt">gerenciador</keyword>
+    <keyword xml:lang="pt">compilação</keyword>
+    <keyword xml:lang="pt">patch</keyword>
+    <keyword xml:lang="it">kernel</keyword>
+    <keyword xml:lang="it">installatore</keyword>
+    <keyword xml:lang="it">gestore</keyword>
+    <keyword xml:lang="it">compilazione</keyword>
+    <keyword xml:lang="it">patch</keyword>
+    <keyword xml:lang="ro">kernel</keyword>
+    <keyword xml:lang="ro">instalator</keyword>
+    <keyword xml:lang="ro">manager</keyword>
+    <keyword xml:lang="ro">compilare</keyword>
+    <keyword xml:lang="ro">patch</keyword>
+    <keyword xml:lang="ru">ядро</keyword>
+    <keyword xml:lang="ru">установщик</keyword>
+    <keyword xml:lang="ru">менеджер</keyword>
+    <keyword xml:lang="ru">компиляция</keyword>
+    <keyword xml:lang="ru">патч</keyword>
+  </keywords>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-kernel-installer/screenshots/screenshot01.png</image>
+      <caption>Main interface with kernel selection and featured channels</caption>
+      <caption xml:lang="es">Interfaz principal con selección de kernel y canales destacados</caption>
+      <caption xml:lang="fr">Interface principale avec sélection du noyau et canaux en vedette</caption>
+      <caption xml:lang="de">Hauptoberfläche mit Kernelauswahl und Top-Kanälen</caption>
+      <caption xml:lang="pt">Interface principal com seleção de kernel e canais em destaque</caption>
+      <caption xml:lang="it">Interfaccia principale con selezione del kernel e canali in primo piano</caption>
+      <caption xml:lang="ro">Interfața principală cu selecția nucleului și canale recomandate</caption>
+      <caption xml:lang="ru">Главный интерфейс с выбором ядра и избранными каналами</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-kernel-installer/screenshots/screenshot02.png</image>
+      <caption>Installation progress with integrated UI feedback</caption>
+      <caption xml:lang="es">Progreso de instalación con respuesta visual integrada</caption>
+      <caption xml:lang="fr">Progression de l'installation avec retour visuel intégré</caption>
+      <caption xml:lang="de">Installationsfortschritt mit integriertem UI-Feedback</caption>
+      <caption xml:lang="pt">Progresso da instalação com feedback visual integrado</caption>
+      <caption xml:lang="it">Avanzamento dell'installazione con feedback visivo integrato</caption>
+      <caption xml:lang="ro">Progresul instalării cu feedback vizual integrat</caption>
+      <caption xml:lang="ru">Прогресс установки с интегрированной обратной связью</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-kernel-installer/screenshots/screenshot03.png</image>
+      <caption>Real-time compilation window with detailed logs</caption>
+      <caption xml:lang="es">Ventana de compilación en tiempo real con registros detallados</caption>
+      <caption xml:lang="fr">Fenêtre de compilation en temps réel avec journaux détaillés</caption>
+      <caption xml:lang="de">Echtzeit-Kompilierungsfenster mit detaillierten Protokollen</caption>
+      <caption xml:lang="pt">Janela de compilação em tempo real com logs detalhados</caption>
+      <caption xml:lang="it">Finestra di compilazione in tempo reale con log dettagliati</caption>
+      <caption xml:lang="ro">Fereastra de compilare în timp real cu jurnale detaliate</caption>
+      <caption xml:lang="ru">Окно компиляции в реальном времени с подробными логами</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="1.0.2-5" date="2026-09-10">
+      <description>
+        <p>Fixed CONFIG_ANDROID_BINDER_IPC (it is a bool, not a tristate, so it could not be built as a module) and added a revision counter to the Stock batch build so recompiling the same kernel version is seen by apt as a real upgrade.</p>
+        <p xml:lang="es">Corregido CONFIG_ANDROID_BINDER_IPC (es un bool, no un tristate, no se podia compilar como modulo) y anadido un contador de revision al build por lotes de Stock para que recompilar la misma version de kernel se vea por apt como una actualizacion real.</p>
+        <p xml:lang="fr">Correction de CONFIG_ANDROID_BINDER_IPC (c'est un bool, pas un tristate, il ne pouvait pas etre compile en module) et ajout d'un compteur de revision a la compilation par lots Stock pour que recompiler la meme version de noyau soit vue par apt comme une veritable mise a jour.</p>
+        <p xml:lang="de">CONFIG_ANDROID_BINDER_IPC korrigiert (es ist ein Bool, kein Tristate, konnte nicht als Modul kompiliert werden) und ein Revisionszaehler zum Stock-Stapelbau hinzugefuegt, damit das Neukompilieren derselben Kernel-Version von apt als echtes Upgrade erkannt wird.</p>
+        <p xml:lang="pt">Corrigido o CONFIG_ANDROID_BINDER_IPC (e um bool, nao um tristate, nao podia ser compilado como modulo) e adicionado um contador de revisao a compilacao em lote do Stock para que recompilar a mesma versao de kernel seja vista pelo apt como uma atualizacao real.</p>
+        <p xml:lang="it">Corretto CONFIG_ANDROID_BINDER_IPC (e un bool, non un tristate, non poteva essere compilato come modulo) e aggiunto un contatore di revisione alla build in batch di Stock in modo che ricompilare la stessa versione del kernel sia vista da apt come un vero aggiornamento.</p>
+        <p xml:lang="ro">Corectat CONFIG_ANDROID_BINDER_IPC (este un bool, nu un tristate, nu putea fi compilat ca modul) si adaugat un contor de revizie la build-ul in lot Stock, astfel incat recompilarea aceleiasi versiuni de kernel sa fie vazuta de apt ca o actualizare reala.</p>
+        <p xml:lang="ru">Исправлен CONFIG_ANDROID_BINDER_IPC (это bool, а не tristate, его нельзя было собрать как модуль), и добавлен счётчик редакции в пакетную сборку Stock, чтобы пересборка той же версии ядра воспринималась apt как настоящее обновление.</p>
+        <ul>
+          <li>CONFIG_ANDROID_BINDER_IPC is a plain bool in drivers/android/Kconfig, not a tristate — the 1.0.2-4 attempt to build it as a module (--module) was an invalid value, silently normalized back to n by make olddefconfig. Every 7.2.4 kernel already published with that build never actually had Waydroid support. Now enabled with --enable, the only valid form, plus a post-olddefconfig check that warns instead of failing silently if it is ever dropped again</li>
+          <li>Stock batch build gained a revision counter: 0 (default) means a brand new kernel version, unchanged from before. 1, 2, 3... mean the 1st, 2nd, 3rd recompile of the same version with different patches, offset internally so entering 1 always produces a genuinely new, working package that apt/reprepro see as a real upgrade</li>
+          <li xml:lang="es">CONFIG_ANDROID_BINDER_IPC es un bool en drivers/android/Kconfig, no un tristate — el intento de 1.0.2-4 de compilarlo como modulo (--module) era un valor invalido, normalizado en silencio a n por make olddefconfig. Todos los kernels 7.2.4 ya publicados con ese build nunca tuvieron soporte real de Waydroid. Ahora se activa con --enable, la unica forma valida, mas una comprobacion tras olddefconfig que avisa en vez de fallar en silencio si se cae otra vez</li>
+          <li xml:lang="es">El build por lotes de Stock incorpora un contador de revision: 0 (por defecto) significa una version de kernel nueva, sin cambios respecto a antes. 1, 2, 3... significan la 1a, 2a, 3a recompilacion de la misma version con distintos parches, desplazado internamente para que poner 1 produzca siempre un paquete nuevo y funcional que apt/reprepro vean como una actualizacion real</li>
+          <li xml:lang="fr">CONFIG_ANDROID_BINDER_IPC est un bool dans drivers/android/Kconfig, pas un tristate — la tentative de 1.0.2-4 de le compiler en module (--module) etait une valeur invalide, normalisee silencieusement en n par make olddefconfig. Tous les noyaux 7.2.4 deja publies avec cette build n'ont jamais eu de veritable support Waydroid. Desormais active avec --enable, la seule forme valide, plus une verification apres olddefconfig qui avertit au lieu d'echouer silencieusement s'il est a nouveau abandonne</li>
+          <li xml:lang="fr">La compilation par lots Stock a gagne un compteur de revision : 0 (par defaut) signifie une nouvelle version de noyau, inchange par rapport a avant. 1, 2, 3... signifient la 1re, 2e, 3e recompilation de la meme version avec des correctifs differents, decale en interne pour qu'entrer 1 produise toujours un paquet reellement nouveau et fonctionnel que apt/reprepro voient comme une veritable mise a jour</li>
+          <li xml:lang="de">CONFIG_ANDROID_BINDER_IPC ist ein Bool in drivers/android/Kconfig, kein Tristate — der Versuch in 1.0.2-4, es als Modul zu kompilieren (--module), war ein ungueltiger Wert und wurde von make olddefconfig stillschweigend auf n zurueckgesetzt. Alle bereits veroeffentlichten 7.2.4-Kernel mit diesem Build hatten nie echte Waydroid-Unterstuetzung. Jetzt mit --enable aktiviert, der einzig gueltigen Form, plus eine Pruefung nach olddefconfig, die warnt statt stillschweigend zu scheitern, falls es erneut verworfen wird</li>
+          <li xml:lang="de">Der Stock-Stapelbau erhielt einen Revisionszaehler: 0 (Standard) bedeutet eine brandneue Kernel-Version, unveraendert gegenueber vorher. 1, 2, 3... bedeuten die 1., 2., 3. Neukompilierung derselben Version mit anderen Patches, intern versetzt, sodass die Eingabe von 1 immer ein wirklich neues, funktionierendes Paket erzeugt, das apt/reprepro als echtes Upgrade erkennen</li>
+          <li xml:lang="pt">O CONFIG_ANDROID_BINDER_IPC e um bool em drivers/android/Kconfig, nao um tristate — a tentativa da 1.0.2-4 de compila-lo como modulo (--module) era um valor invalido, normalizado silenciosamente para n pelo make olddefconfig. Todos os kernels 7.2.4 ja publicados com essa compilacao nunca tiveram suporte real ao Waydroid. Agora ativado com --enable, a unica forma valida, mais uma verificacao apos o olddefconfig que avisa em vez de falhar silenciosamente se for descartado novamente</li>
+          <li xml:lang="pt">A compilacao em lote do Stock ganhou um contador de revisao: 0 (padrao) significa uma versao de kernel totalmente nova, sem alteracoes em relacao a antes. 1, 2, 3... significam a 1a, 2a, 3a recompilacao da mesma versao com patches diferentes, deslocado internamente para que colocar 1 produza sempre um pacote realmente novo e funcional que o apt/reprepro veem como uma atualizacao real</li>
+          <li xml:lang="it">CONFIG_ANDROID_BINDER_IPC e un bool in drivers/android/Kconfig, non un tristate — il tentativo di 1.0.2-4 di compilarlo come modulo (--module) era un valore non valido, normalizzato silenziosamente a n da make olddefconfig. Tutti i kernel 7.2.4 gia pubblicati con quella build non hanno mai avuto un reale supporto a Waydroid. Ora abilitato con --enable, l'unica forma valida, piu un controllo dopo olddefconfig che avvisa invece di fallire silenziosamente se viene nuovamente scartato</li>
+          <li xml:lang="it">La build in batch di Stock ha guadagnato un contatore di revisione: 0 (predefinito) significa una versione del kernel completamente nuova, invariata rispetto a prima. 1, 2, 3... significano la 1a, 2a, 3a ricompilazione della stessa versione con patch diverse, sfalsato internamente in modo che inserire 1 produca sempre un pacchetto realmente nuovo e funzionante che apt/reprepro vedono come un vero aggiornamento</li>
+          <li xml:lang="ro">CONFIG_ANDROID_BINDER_IPC este un bool in drivers/android/Kconfig, nu un tristate — incercarea din 1.0.2-4 de a-l compila ca modul (--module) era o valoare invalida, normalizata in tacere la n de make olddefconfig. Toate kernelurile 7.2.4 deja publicate cu acel build nu au avut niciodata suport real pentru Waydroid. Acum activat cu --enable, singura forma valida, plus o verificare dupa olddefconfig care avertizeaza in loc sa esueze in tacere daca este eliminat din nou</li>
+          <li xml:lang="ro">Build-ul in lot Stock a primit un contor de revizie: 0 (implicit) inseamna o versiune de kernel complet noua, neschimbata fata de inainte. 1, 2, 3... inseamna a 1-a, a 2-a, a 3-a recompilare a aceleiasi versiuni cu patch-uri diferite, decalat intern astfel incat introducerea lui 1 sa produca intotdeauna un pachet cu adevarat nou si functional pe care apt/reprepro il vad ca o actualizare reala</li>
+          <li xml:lang="ru">CONFIG_ANDROID_BINDER_IPC — обычный bool в drivers/android/Kconfig, а не tristate — попытка в 1.0.2-4 собрать его как модуль (--module) была недопустимым значением, молча нормализованным в n через make olddefconfig. Все уже опубликованные ядра 7.2.4 с этой сборкой никогда не имели реальной поддержки Waydroid. Теперь включается через --enable, единственную допустимую форму, плюс проверка после olddefconfig, которая предупреждает вместо молчаливого отказа, если он снова будет отброшен</li>
+          <li xml:lang="ru">Пакетная сборка Stock получила счётчик редакции: 0 (по умолчанию) означает совершенно новую версию ядра, без изменений по сравнению с прежним. 1, 2, 3... означают 1-ю, 2-ю, 3-ю пересборку той же версии с другими патчами, со смещением внутри, чтобы ввод 1 всегда давал по-настоящему новый, рабочий пакет, который apt/reprepro видят как настоящее обновление</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2-4" date="2026-09-09">
+      <description>
+        <p>CONFIG_ANDROID_BINDER_IPC is now enabled as a module on every build, giving Waydroid support with no kernel patch needed.</p>
+        <p xml:lang="es">CONFIG_ANDROID_BINDER_IPC ya se activa como modulo en cada build, dando soporte a Waydroid sin necesitar ningun parche de kernel.</p>
+        <p xml:lang="fr">CONFIG_ANDROID_BINDER_IPC est desormais active en tant que module sur chaque build, apportant le support de Waydroid sans aucun patch de noyau.</p>
+        <p xml:lang="de">CONFIG_ANDROID_BINDER_IPC wird jetzt bei jedem Build als Modul aktiviert und bietet Waydroid-Unterstuetzung ohne jeglichen Kernel-Patch.</p>
+        <p xml:lang="pt">O CONFIG_ANDROID_BINDER_IPC ja e ativado como modulo em cada compilacao, dando suporte ao Waydroid sem qualquer patch de kernel.</p>
+        <p xml:lang="it">CONFIG_ANDROID_BINDER_IPC viene ora abilitato come modulo in ogni build, offrendo il supporto a Waydroid senza alcuna patch del kernel.</p>
+        <p xml:lang="ro">CONFIG_ANDROID_BINDER_IPC este acum activat ca modul la fiecare build, oferind suport pentru Waydroid fara niciun patch de kernel.</p>
+        <p xml:lang="ru">CONFIG_ANDROID_BINDER_IPC теперь включается как модуль в каждой сборке, обеспечивая поддержку Waydroid без каких-либо патчей ядра.</p>
+        <ul>
+          <li>Enabled CONFIG_ANDROID_BINDER_IPC as a module (=m) in core/installer.py, on purpose: users who never use Waydroid never load it, at no cost. Device names (binder,hwbinder,vndbinder) are left for whoever loads the module (modprobe options), not fixed at compile time</li>
+          <li xml:lang="es">Activado CONFIG_ANDROID_BINDER_IPC como modulo (=m) en core/installer.py, a proposito: quien nunca use Waydroid nunca lo carga, sin ningun coste. Los nombres de dispositivo (binder,hwbinder,vndbinder) se dejan para quien cargue el modulo (opciones de modprobe), no fijados en compilacion</li>
+          <li xml:lang="fr">CONFIG_ANDROID_BINDER_IPC active en tant que module (=m) dans core/installer.py, volontairement : ceux qui n'utilisent jamais Waydroid ne le chargent jamais, sans aucun cout. Les noms de peripheriques (binder,hwbinder,vndbinder) sont laisses a qui charge le module (options modprobe), non fixes a la compilation</li>
+          <li xml:lang="de">CONFIG_ANDROID_BINDER_IPC absichtlich als Modul (=m) in core/installer.py aktiviert: wer Waydroid nie nutzt, laedt es nie, ohne jegliche Kosten. Geraetenamen (binder,hwbinder,vndbinder) bleiben demjenigen ueberlassen, der das Modul laedt (modprobe-Optionen), nicht zur Kompilierzeit festgelegt</li>
+          <li xml:lang="pt">Ativado o CONFIG_ANDROID_BINDER_IPC como modulo (=m) em core/installer.py, de proposito: quem nunca usar o Waydroid nunca o carrega, sem qualquer custo. Os nomes dos dispositivos (binder,hwbinder,vndbinder) ficam a cargo de quem carregar o modulo (opcoes do modprobe), nao fixados na compilacao</li>
+          <li xml:lang="it">Abilitato CONFIG_ANDROID_BINDER_IPC come modulo (=m) in core/installer.py, di proposito: chi non usa mai Waydroid non lo carica mai, senza alcun costo. I nomi dei dispositivi (binder,hwbinder,vndbinder) sono lasciati a chi carica il modulo (opzioni modprobe), non fissati in compilazione</li>
+          <li xml:lang="ro">Activat CONFIG_ANDROID_BINDER_IPC ca modul (=m) in core/installer.py, intentionat: cine nu foloseste niciodata Waydroid nu il incarca niciodata, fara niciun cost. Numele dispozitivelor (binder,hwbinder,vndbinder) raman in seama celui care incarca modulul (optiuni modprobe), nefixate la compilare</li>
+          <li xml:lang="ru">Включён CONFIG_ANDROID_BINDER_IPC как модуль (=m) в core/installer.py, намеренно: те, кто никогда не использует Waydroid, никогда его не загружают, без каких-либо затрат. Имена устройств (binder,hwbinder,vndbinder) оставлены на усмотрение того, кто загружает модуль (параметры modprobe), а не фиксированы при компиляции</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2-3" date="2026-08-28">
+      <description>
+        <p>CONFIG_CGROUP_DMEM is now enabled unconditionally on every build, ahead of the future gaming daemon needing it.</p>
+        <p xml:lang="es">CONFIG_CGROUP_DMEM ya se activa de forma incondicional en cada build, antes de que el futuro daemon de gaming lo necesite.</p>
+        <p xml:lang="fr">CONFIG_CGROUP_DMEM est desormais active de maniere inconditionnelle sur chaque build, avant que le futur daemon de gaming n'en ait besoin.</p>
+        <p xml:lang="de">CONFIG_CGROUP_DMEM wird jetzt bei jedem Build bedingungslos aktiviert, bevor der zukuenftige Gaming-Daemon es benoetigt.</p>
+        <p xml:lang="pt">O CONFIG_CGROUP_DMEM ja e ativado de forma incondicional em cada compilacao, antes de o futuro daemon de gaming precisar dele.</p>
+        <p xml:lang="it">CONFIG_CGROUP_DMEM viene ora abilitato incondizionatamente in ogni build, prima che il futuro daemon di gaming ne abbia bisogno.</p>
+        <p xml:lang="ro">CONFIG_CGROUP_DMEM este acum activat neconditionat la fiecare build, inainte ca viitorul daemon de gaming sa aiba nevoie de el.</p>
+        <p xml:lang="ru">CONFIG_CGROUP_DMEM теперь безусловно включается в каждой сборке — заранее, до того как он понадобится будущему игровому демону.</p>
+        <ul>
+          <li>Enabled CONFIG_CGROUP_DMEM (device/VRAM memory accounting cgroup) unconditionally in core/installer.py, disabled by default in the Debian base config — avoids a forced recompile-and-republish cycle once soplos-game-daemon needs it</li>
+          <li>A dropped symbol after olddefconfig only warns instead of aborting the build, since nothing depends on it yet</li>
+          <li xml:lang="es">Activado CONFIG_CGROUP_DMEM (cgroup de contabilidad de memoria de dispositivo/VRAM) de forma incondicional en core/installer.py, desactivado por defecto en la config base de Debian — evita un ciclo forzado de recompilar y republicar cuando soplos-game-daemon lo necesite</li>
+          <li xml:lang="es">Un simbolo descartado tras olddefconfig solo avisa en vez de abortar el build, ya que nada depende de el todavia</li>
+          <li xml:lang="fr">CONFIG_CGROUP_DMEM (cgroup de comptabilite de memoire de peripherique/VRAM) active de maniere inconditionnelle dans core/installer.py, desactive par defaut dans la config de base Debian — evite un cycle force de recompilation et republication quand soplos-game-daemon en aura besoin</li>
+          <li xml:lang="fr">Un symbole abandonne apres olddefconfig se contente d'avertir au lieu d'interrompre la compilation, car rien n'en depend encore</li>
+          <li xml:lang="de">CONFIG_CGROUP_DMEM (Cgroup fuer Geraete-/VRAM-Speicherabrechnung) bedingungslos in core/installer.py aktiviert, in der Debian-Basiskonfiguration standardmaessig deaktiviert — vermeidet einen erzwungenen Neukompilierungs- und Neuveroeffentlichungszyklus, sobald soplos-game-daemon es benoetigt</li>
+          <li xml:lang="de">Ein nach olddefconfig verworfenes Symbol fuehrt nur zu einer Warnung statt den Build abzubrechen, da noch nichts davon abhaengt</li>
+          <li xml:lang="pt">Ativado o CONFIG_CGROUP_DMEM (cgroup de contabilizacao de memoria de dispositivo/VRAM) de forma incondicional em core/installer.py, desativado por omissao na configuracao base do Debian — evita um ciclo forcado de recompilacao e nova publicacao quando o soplos-game-daemon precisar dele</li>
+          <li xml:lang="pt">Um simbolo descartado apos o olddefconfig apenas avisa em vez de abortar a compilacao, pois nada depende dele ainda</li>
+          <li xml:lang="it">Abilitato CONFIG_CGROUP_DMEM (cgroup di contabilizzazione della memoria del dispositivo/VRAM) incondizionatamente in core/installer.py, disabilitato per impostazione predefinita nella config di base Debian — evita un ciclo forzato di ricompilazione e ripubblicazione quando soplos-game-daemon ne avra bisogno</li>
+          <li xml:lang="it">Un simbolo scartato dopo olddefconfig si limita ad avvisare invece di interrompere la build, poiche nulla ne dipende ancora</li>
+          <li xml:lang="ro">Activat CONFIG_CGROUP_DMEM (cgroup de contabilizare a memoriei dispozitivului/VRAM) neconditionat in core/installer.py, dezactivat implicit in configuratia de baza Debian — evita un ciclu fortat de recompilare si republicare cand soplos-game-daemon va avea nevoie de el</li>
+          <li xml:lang="ro">Un simbol eliminat dupa olddefconfig doar avertizeaza in loc sa opreasca build-ul, deoarece nimic nu depinde inca de el</li>
+          <li xml:lang="ru">Включён CONFIG_CGROUP_DMEM (cgroup учёта памяти устройства/VRAM) безусловно в core/installer.py, по умолчанию отключён в базовой конфигурации Debian — избегает вынужденного цикла пересборки и повторной публикации, когда он понадобится soplos-game-daemon</li>
+          <li xml:lang="ru">Отброшенный после olddefconfig символ только выводит предупреждение, а не прерывает сборку, так как пока ничего от него не зависит</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2-2" date="2026-08-18">
+      <description>
+        <p>The march (x86-64 psABI) selector is now available for every profile, not just Stock, and the Stock batch build gained kernel selection and resume.</p>
+        <p xml:lang="es">El selector de nivel march (x86-64 psABI) ya esta disponible en cualquier perfil, no solo en Stock, y el build por lotes de Stock incorpora seleccion de kernels y reanudar.</p>
+        <p xml:lang="fr">Le selecteur de niveau march (x86-64 psABI) est desormais disponible pour tous les profils, pas seulement Stock, et la compilation par lots Stock a gagne la selection des noyaux et la reprise.</p>
+        <p xml:lang="de">Der March-Level-Selector (x86-64 psABI) ist jetzt fuer jedes Profil verfuegbar, nicht nur fuer Stock, und der Stock-Stapelbau erhielt eine Kernauswahl und Fortsetzung.</p>
+        <p xml:lang="pt">O seletor de nivel march (x86-64 psABI) esta agora disponivel em qualquer perfil, nao apenas no Stock, e a compilacao em lote do Stock ganhou selecao de kernels e retomada.</p>
+        <p xml:lang="it">Il selettore di livello march (x86-64 psABI) e ora disponibile per qualsiasi profilo, non solo Stock, e la build in batch di Stock ha guadagnato la selezione dei kernel e la ripresa.</p>
+        <p xml:lang="ro">Selectorul de nivel march (x86-64 psABI) este acum disponibil pentru orice profil, nu doar Stock, iar build-ul in lot Stock a primit selectarea kernelurilor si reluarea.</p>
+        <p xml:lang="ru">Селектор уровня march (x86-64 psABI) теперь доступен для любого профиля, а не только Stock, а пакетная сборка Stock получила выбор ядер и возобновление.</p>
+        <ul>
+          <li>Added the march selector for every profile, kernel selection (checkboxes) for the Stock batch build, and a resume checkbox that skips kernels already built in the destination folder</li>
+          <li>Fixed the march selector and other profile-dependent UI never initializing for the default profile at launch (ProfileSelector's first radio button starts pre-active, so its own set_active never emitted 'toggled')</li>
+          <li>Fixed a V3/V4 build outside Stock mode never being reflected in the kernel's name</li>
+          <li>Fixed the batch "Build all 26 kernels" button keeping its label after narrowing the selection</li>
+          <li xml:lang="es">Añadido el selector de march para cualquier perfil, seleccion de kernels (casillas) para el build por lotes de Stock, y una casilla de reanudar que salta los kernels ya compilados en la carpeta de destino</li>
+          <li xml:lang="es">Corregido que el selector de march y otra UI dependiente del perfil nunca se inicializaran para el perfil por defecto al arrancar (el primer boton de radio de ProfileSelector nace activo, asi que su propio set_active nunca emitia 'toggled')</li>
+          <li xml:lang="es">Corregido que un build V3/V4 fuera del modo Stock nunca se reflejara en el nombre del kernel</li>
+          <li xml:lang="es">Corregido que el boton "Compilar los 26 kernels" del lote mantuviera su etiqueta tras acotar la seleccion</li>
+          <li xml:lang="fr">Ajout du selecteur de march pour tout profil, de la selection des noyaux (cases a cocher) pour la compilation par lots Stock, et d'une case de reprise qui ignore les noyaux deja compiles dans le dossier de destination</li>
+          <li xml:lang="fr">Correction du selecteur de march et d'autres elements d'interface dependant du profil qui ne s'initialisaient jamais pour le profil par defaut au demarrage</li>
+          <li xml:lang="fr">Correction d'une compilation V3/V4 hors du mode Stock jamais reflete dans le nom du noyau</li>
+          <li xml:lang="fr">Correction du bouton "Compiler les 26 noyaux" du lot qui gardait son libelle apres restriction de la selection</li>
+          <li xml:lang="de">March-Selector fuer jedes Profil, Kernauswahl (Kontrollkaestchen) fuer den Stock-Stapelbau und ein Fortsetzen-Kontrollkaestchen hinzugefuegt, das bereits im Zielordner erstellte Kernel ueberspringt</li>
+          <li xml:lang="de">Behoben, dass der March-Selector und andere profilabhaengige UI beim Start nie fuer das Standardprofil initialisiert wurden</li>
+          <li xml:lang="de">Behoben, dass ein V3/V4-Build ausserhalb des Stock-Modus nie im Kernelnamen widergespiegelt wurde</li>
+          <li xml:lang="de">Behoben, dass die Schaltflaeche "Alle 26 Kernel kompilieren" ihre Beschriftung nach Einschraenkung der Auswahl beibehielt</li>
+          <li xml:lang="pt">Adicionado o seletor de march para qualquer perfil, selecao de kernels (caixas de verificacao) para a compilacao em lote do Stock, e uma caixa de retomar que ignora os kernels ja compilados na pasta de destino</li>
+          <li xml:lang="pt">Corrigido o seletor de march e outra UI dependente do perfil nunca se inicializarem para o perfil padrao ao iniciar</li>
+          <li xml:lang="pt">Corrigido uma compilacao V3/V4 fora do modo Stock nunca ser refletida no nome do kernel</li>
+          <li xml:lang="pt">Corrigido o botao "Compilar os 26 kernels" do lote manter o seu rotulo apos restringir a selecao</li>
+          <li xml:lang="it">Aggiunto il selettore march per qualsiasi profilo, la selezione dei kernel (caselle di controllo) per la build in batch di Stock e una casella di ripresa che salta i kernel gia compilati nella cartella di destinazione</li>
+          <li xml:lang="it">Corretto il selettore march e altra UI dipendente dal profilo che non si inizializzava mai per il profilo predefinito all'avvio</li>
+          <li xml:lang="it">Corretto una build V3/V4 fuori dalla modalita Stock mai riflessa nel nome del kernel</li>
+          <li xml:lang="it">Corretto il pulsante "Compila tutti i 26 kernel" del batch che manteneva l'etichetta dopo aver ristretto la selezione</li>
+          <li xml:lang="ro">Adaugat selectorul de march pentru orice profil, selectarea kernelurilor (casete de bifat) pentru build-ul in lot Stock si o caseta de reluare care omite kernelurile deja compilate in folderul de destinatie</li>
+          <li xml:lang="ro">Corectat faptul ca selectorul de march si alte elemente UI dependente de profil nu se initializau niciodata pentru profilul implicit la pornire</li>
+          <li xml:lang="ro">Corectat faptul ca un build V3/V4 in afara modului Stock nu se reflecta niciodata in numele kernelului</li>
+          <li xml:lang="ro">Corectat butonul "Compileaza toate cele 26 de kernel-uri" din lot care isi pastra eticheta dupa restrangerea selectiei</li>
+          <li xml:lang="ru">Добавлен селектор march для любого профиля, выбор ядер (флажки) для пакетной сборки Stock и флажок возобновления, пропускающий ядра, уже собранные в папке назначения</li>
+          <li xml:lang="ru">Исправлено: селектор march и другой UI, зависящий от профиля, никогда не инициализировался для профиля по умолчанию при запуске</li>
+          <li xml:lang="ru">Исправлено: сборка V3/V4 вне режима Stock никогда не отражалась в имени ядра</li>
+          <li xml:lang="ru">Исправлена кнопка «Собрать все 26 ядер» в пакете, сохранявшая надпись после сужения выбора</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2-1" date="2026-08-17">
+      <description>
+        <p>Fixed NVIDIA DKMS builds failing on kernel 7.2+ with an implicit declaration of 'strncpy' in os-interface.c.</p>
+        <p xml:lang="es">Corregido que las compilaciones DKMS de NVIDIA fallaran en el kernel 7.2+ por una declaracion implicita de 'strncpy' en os-interface.c.</p>
+        <p xml:lang="fr">Correction de l'echec des compilations DKMS NVIDIA sur le noyau 7.2+ du a une declaration implicite de 'strncpy' dans os-interface.c.</p>
+        <p xml:lang="de">Behoben, dass NVIDIA-DKMS-Builds auf Kernel 7.2+ wegen einer impliziten Deklaration von 'strncpy' in os-interface.c fehlschlugen.</p>
+        <p xml:lang="pt">Corrigido o facto de as compilacoes DKMS da NVIDIA falharem no kernel 7.2+ devido a uma declaracao implicita de 'strncpy' em os-interface.c.</p>
+        <p xml:lang="it">Corretto il fallimento delle build DKMS NVIDIA sul kernel 7.2+ causato da una dichiarazione implicita di 'strncpy' in os-interface.c.</p>
+        <p xml:lang="ro">Corectat faptul ca build-urile DKMS NVIDIA esuau pe kernelul 7.2+ din cauza unei declaratii implicite a 'strncpy' in os-interface.c.</p>
+        <p xml:lang="ru">Исправлен сбой сборок NVIDIA DKMS на ядре 7.2+ из-за неявного объявления функции 'strncpy' в os-interface.c.</p>
+        <ul>
+          <li>`nvidia/os-interface.c` calls `strncpy()` without including `&lt;linux/string.h&gt;`, relying on some other kernel header (reached transitively through nv-linux.h) to provide the declaration. That transitive include disappeared starting with kernel 7.2, and GCC treats an implicit function declaration as a hard error, so DKMS builds failed outright</li>
+          <li>Added a new embedded compatibility patch (NV_STRING_H_PATCH) in core/nvidia_dkms_patch.py that adds the missing include, applied automatically alongside the existing VMA-locking fix — same mechanism, same idempotency guard, unrelated issue</li>
+          <li>Mirrored in the standalone nvidia-patches repo as Fix 4 (patches/nvidia-string-h-kernel7.2.patch)</li>
+          <li xml:lang="es">`nvidia/os-interface.c` llama a `strncpy()` sin incluir `&lt;linux/string.h&gt;`, dependiendo de que otro header del kernel (alcanzado de forma transitiva a traves de nv-linux.h) proporcionara la declaracion. Ese include transitivo desaparecio a partir del kernel 7.2, y GCC trata una declaracion implicita de funcion como un error grave, asi que las compilaciones DKMS fallaban directamente</li>
+          <li xml:lang="es">Añadido un nuevo parche de compatibilidad embebido (NV_STRING_H_PATCH) en core/nvidia_dkms_patch.py que agrega el include que falta, aplicado automaticamente junto al parche de VMA locking ya existente — mismo mecanismo, misma proteccion de idempotencia, problema no relacionado</li>
+          <li xml:lang="es">Reflejado en el repositorio independiente nvidia-patches como Fix 4 (patches/nvidia-string-h-kernel7.2.patch)</li>
+          <li xml:lang="fr">`nvidia/os-interface.c` appelle `strncpy()` sans inclure `&lt;linux/string.h&gt;`, en comptant sur un autre en-tete du noyau (atteint de maniere transitive via nv-linux.h) pour fournir la declaration. Cette inclusion transitive a disparu a partir du noyau 7.2, et GCC traite une declaration implicite de fonction comme une erreur bloquante, donc les compilations DKMS echouaient directement</li>
+          <li xml:lang="fr">Ajout d'un nouveau patch de compatibilite integre (NV_STRING_H_PATCH) dans core/nvidia_dkms_patch.py qui ajoute l'inclusion manquante, applique automatiquement avec le correctif VMA existant — meme mecanisme, meme protection d'idempotence, probleme non lie</li>
+          <li xml:lang="fr">Repercute dans le depot independant nvidia-patches en tant que Fix 4 (patches/nvidia-string-h-kernel7.2.patch)</li>
+          <li xml:lang="de">`nvidia/os-interface.c` ruft `strncpy()` auf, ohne `&lt;linux/string.h&gt;` einzubinden, und verlaesst sich darauf, dass ein anderer Kernel-Header (transitiv ueber nv-linux.h erreicht) die Deklaration bereitstellt. Dieser transitive Include verschwand ab Kernel 7.2, und GCC behandelt eine implizite Funktionsdeklaration als harten Fehler, sodass DKMS-Builds komplett fehlschlugen</li>
+          <li xml:lang="de">Ein neuer eingebetteter Kompatibilitatspatch (NV_STRING_H_PATCH) in core/nvidia_dkms_patch.py wurde hinzugefuegt, der den fehlenden Include ergaenzt, automatisch zusammen mit dem bestehenden VMA-Locking-Fix angewendet — gleicher Mechanismus, gleiche Idempotenz-Absicherung, unabhaengiges Problem</li>
+          <li xml:lang="de">Im eigenstaendigen Repository nvidia-patches als Fix 4 gespiegelt (patches/nvidia-string-h-kernel7.2.patch)</li>
+          <li xml:lang="pt">`nvidia/os-interface.c` chama `strncpy()` sem incluir `&lt;linux/string.h&gt;`, dependendo de outro cabecalho do kernel (alcancado de forma transitiva atraves de nv-linux.h) para fornecer a declaracao. Essa inclusao transitiva desapareceu a partir do kernel 7.2, e o GCC trata uma declaracao implicita de funcao como um erro grave, pelo que as compilacoes DKMS falhavam diretamente</li>
+          <li xml:lang="pt">Adicionado um novo patch de compatibilidade incorporado (NV_STRING_H_PATCH) em core/nvidia_dkms_patch.py que acrescenta a inclusao em falta, aplicado automaticamente juntamente com a correcao de VMA locking ja existente — mesmo mecanismo, mesma protecao de idempotencia, problema nao relacionado</li>
+          <li xml:lang="pt">Refletido no repositorio independente nvidia-patches como Fix 4 (patches/nvidia-string-h-kernel7.2.patch)</li>
+          <li xml:lang="it">`nvidia/os-interface.c` chiama `strncpy()` senza includere `&lt;linux/string.h&gt;`, affidandosi a un altro header del kernel (raggiunto in modo transitivo tramite nv-linux.h) per fornire la dichiarazione. Tale inclusione transitiva e scomparsa a partire dal kernel 7.2, e GCC tratta una dichiarazione implicita di funzione come un errore bloccante, quindi le build DKMS fallivano direttamente</li>
+          <li xml:lang="it">Aggiunta una nuova patch di compatibilita incorporata (NV_STRING_H_PATCH) in core/nvidia_dkms_patch.py che aggiunge l'inclusione mancante, applicata automaticamente insieme alla patch VMA gia esistente — stesso meccanismo, stessa protezione di idempotenza, problema non correlato</li>
+          <li xml:lang="it">Rispecchiato nel repository indipendente nvidia-patches come Fix 4 (patches/nvidia-string-h-kernel7.2.patch)</li>
+          <li xml:lang="ro">`nvidia/os-interface.c` apeleaza `strncpy()` fara a include `&lt;linux/string.h&gt;`, bazandu-se pe un alt header al kernelului (atins tranzitiv prin nv-linux.h) pentru a furniza declaratia. Acea includere tranzitiva a disparut incepand cu kernelul 7.2, iar GCC trateaza o declaratie implicita de functie ca o eroare grava, asa ca build-urile DKMS esuau direct</li>
+          <li xml:lang="ro">Adaugat un nou patch de compatibilitate incorporat (NV_STRING_H_PATCH) in core/nvidia_dkms_patch.py care adauga includerea lipsa, aplicat automat alaturi de patch-ul VMA existent — acelasi mecanism, aceeasi protectie de idempotenta, problema neinrudita</li>
+          <li xml:lang="ro">Reflectat in repository-ul independent nvidia-patches ca Fix 4 (patches/nvidia-string-h-kernel7.2.patch)</li>
+          <li xml:lang="ru">`nvidia/os-interface.c` вызывает `strncpy()` без подключения `&lt;linux/string.h&gt;`, полагаясь на то, что другой заголовок ядра (достигаемый транзитивно через nv-linux.h) предоставит объявление. Этот транзитивный инклюд исчез начиная с ядра 7.2, и GCC считает неявное объявление функции серьёзной ошибкой, поэтому сборки DKMS сразу завершались неудачей</li>
+          <li xml:lang="ru">Добавлен новый встроенный патч совместимости (NV_STRING_H_PATCH) в core/nvidia_dkms_patch.py, добавляющий недостающий инклюд, применяется автоматически вместе с уже существующим исправлением VMA-locking — тот же механизм, та же защита идемпотентности, не связанная проблема</li>
+          <li xml:lang="ru">Отражено в отдельном репозитории nvidia-patches как Fix 4 (patches/nvidia-string-h-kernel7.2.patch)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2" date="2026-08-17">
+      <description>
+        <p>Fixed the x86-64 ISA level (march) patch silently never applying on any kernel other than exactly 7.1.x, first surfaced by the release of kernel 7.2.</p>
+        <p xml:lang="es">Corregido que el parche de nivel ISA x86-64 (march) nunca llegaba a aplicarse en ningún kernel salvo exactamente 7.1.x, detectado al publicarse el kernel 7.2.</p>
+        <p xml:lang="fr">Correction du patch de niveau ISA x86-64 (march) qui ne s'appliquait jamais sur aucun noyau autre qu'exactement 7.1.x, révélée par la sortie du noyau 7.2.</p>
+        <p xml:lang="de">Behoben, dass der x86-64-ISA-Level-Patch (march) auf keinem anderen Kernel als genau 7.1.x jemals angewendet wurde, aufgedeckt durch die Veröffentlichung von Kernel 7.2.</p>
+        <p xml:lang="pt">Corrigido o facto de o patch de nível ISA x86-64 (march) nunca chegar a aplicar-se em nenhum kernel que não fosse exatamente 7.1.x, detetado com o lançamento do kernel 7.2.</p>
+        <p xml:lang="it">Corretto il fatto che la patch del livello ISA x86-64 (march) non si applicasse mai su nessun kernel diverso esattamente da 7.1.x, emerso con il rilascio del kernel 7.2.</p>
+        <p xml:lang="ro">Corectat faptul ca patch-ul nivelului ISA x86-64 (march) nu se aplica niciodata pe niciun kernel altul decat exact 7.1.x, descoperit odata cu lansarea kernelului 7.2.</p>
+        <p xml:lang="ru">Исправлено то, что патч уровня ISA x86-64 (march) никогда не применялся ни на одном ядре, кроме точно 7.1.x, — обнаружено при выходе ядра 7.2.</p>
+        <ul>
+          <li>`_download_march()` requested a `7.x`-tagged fallback file for any kernel other than exactly 7.1.x, but that file never existed in soplos-cpu-kernel-patch — the download 404'd, and the build proceeded without the patch. Builds requesting v2/v3/v4 silently fell back to v1 with no visible error</li>
+          <li>Simplified the tag logic to always request the `7.x` file, which now exists and is verified to apply unchanged across 7.1.x and 7.2</li>
+          <li>BORE, X3D and Zen also needed their own rebases to build again on kernel 7.2 (in bore-soplos, x3d-soplos and zen-soplos) — no further code changes were needed here, the existing fallback chains already routed correctly</li>
+          <li xml:lang="es">`_download_march()` pedía un fichero de respaldo con etiqueta `7.x` para cualquier kernel que no fuera exactamente 7.1.x, pero ese fichero nunca existió en soplos-cpu-kernel-patch — la descarga daba 404 y el build seguía adelante sin el parche. Los builds que pedían v2/v3/v4 caían en silencio a v1 sin ningún error visible</li>
+          <li xml:lang="es">Simplificada la lógica de etiquetas para pedir siempre el fichero `7.x`, que ahora existe y está verificado que aplica sin cambios en 7.1.x y 7.2</li>
+          <li xml:lang="es">BORE, X3D y Zen también necesitaron su propio rebase para volver a compilar en el kernel 7.2 (en bore-soplos, x3d-soplos y zen-soplos) — no hizo falta tocar más código aquí, las cadenas de respaldo existentes ya enrutaban correctamente</li>
+          <li xml:lang="fr">`_download_march()` demandait un fichier de secours étiqueté `7.x` pour tout noyau autre qu'exactement 7.1.x, mais ce fichier n'a jamais existé dans soplos-cpu-kernel-patch — le téléchargement échouait en 404 et la compilation se poursuivait sans le patch. Les builds demandant v2/v3/v4 retombaient silencieusement sur v1 sans erreur visible</li>
+          <li xml:lang="fr">Logique d'étiquetage simplifiée pour toujours demander le fichier `7.x`, qui existe désormais et est vérifié comme s'appliquant sans changement sur 7.1.x et 7.2</li>
+          <li xml:lang="fr">BORE, X3D et Zen ont également nécessité leur propre rebase pour recompiler sur le noyau 7.2 (dans bore-soplos, x3d-soplos et zen-soplos) — aucun changement de code supplémentaire n'a été nécessaire ici, les chaînes de secours existantes acheminaient déjà correctement</li>
+          <li xml:lang="de">`_download_march()` forderte für jeden Kernel außer genau 7.1.x eine mit `7.x` getaggte Fallback-Datei an, die es in soplos-cpu-kernel-patch nie gab — der Download schlug mit 404 fehl, und der Build lief ohne den Patch weiter. Builds, die v2/v3/v4 anforderten, fielen still auf v1 zurück, ohne sichtbaren Fehler</li>
+          <li xml:lang="de">Tag-Logik vereinfacht, sodass immer die `7.x`-Datei angefordert wird, die jetzt existiert und nachweislich unverändert auf 7.1.x und 7.2 angewendet wird</li>
+          <li xml:lang="de">BORE, X3D und Zen benötigten ebenfalls ein eigenes Rebase, um auf Kernel 7.2 wieder zu bauen (in bore-soplos, x3d-soplos und zen-soplos) — hier war kein weiterer Code nötig, die bestehenden Fallback-Ketten leiteten bereits korrekt weiter</li>
+          <li xml:lang="pt">`_download_march()` pedia um ficheiro de reserva com etiqueta `7.x` para qualquer kernel que não fosse exatamente 7.1.x, mas esse ficheiro nunca existiu em soplos-cpu-kernel-patch — a transferência falhava com 404 e a compilação continuava sem o patch. As compilações que pediam v2/v3/v4 caíam silenciosamente para v1 sem qualquer erro visível</li>
+          <li xml:lang="pt">Simplificada a lógica de etiquetas para pedir sempre o ficheiro `7.x`, que agora existe e está verificado que se aplica sem alterações em 7.1.x e 7.2</li>
+          <li xml:lang="pt">O BORE, o X3D e o Zen também precisaram do seu próprio rebase para voltar a compilar no kernel 7.2 (em bore-soplos, x3d-soplos e zen-soplos) — não foi preciso mexer em mais código aqui, as cadeias de reserva existentes já encaminhavam corretamente</li>
+          <li xml:lang="it">`_download_march()` richiedeva un file di riserva con tag `7.x` per qualsiasi kernel diverso esattamente da 7.1.x, ma quel file non è mai esistito in soplos-cpu-kernel-patch — il download falliva con 404 e la build proseguiva senza la patch. Le build che richiedevano v2/v3/v4 ricadevano silenziosamente su v1 senza alcun errore visibile</li>
+          <li xml:lang="it">Semplificata la logica dei tag per richiedere sempre il file `7.x`, che ora esiste ed è verificato applicarsi invariato su 7.1.x e 7.2</li>
+          <li xml:lang="it">Anche BORE, X3D e Zen hanno richiesto un proprio rebase per tornare a compilare sul kernel 7.2 (in bore-soplos, x3d-soplos e zen-soplos) — qui non è stato necessario alcun ulteriore codice, le catene di riserva esistenti instradavano già correttamente</li>
+          <li xml:lang="ro">`_download_march()` solicita un fisier de rezerva etichetat `7.x` pentru orice kernel altul decat exact 7.1.x, dar acel fisier nu a existat niciodata in soplos-cpu-kernel-patch — descarcarea esua cu 404 si compilarea continua fara patch. Compilarile care solicitau v2/v3/v4 reveneau in tacere la v1 fara nicio eroare vizibila</li>
+          <li xml:lang="ro">Simplificata logica etichetelor pentru a solicita mereu fisierul `7.x`, care acum exista si este verificat ca se aplica neschimbat pe 7.1.x si 7.2</li>
+          <li xml:lang="ro">BORE, X3D si Zen au necesitat de asemenea propriul rebase pentru a compila din nou pe kernelul 7.2 (in bore-soplos, x3d-soplos si zen-soplos) — nu a fost nevoie de alt cod aici, lanturile de rezerva existente directionau deja corect</li>
+          <li xml:lang="ru">`_download_march()` запрашивал резервный файл с тегом `7.x` для любого ядра, кроме точно 7.1.x, но такого файла никогда не существовало в soplos-cpu-kernel-patch — загрузка возвращала 404, и сборка продолжалась без патча. Сборки, запрашивающие v2/v3/v4, незаметно откатывались к v1 без видимой ошибки</li>
+          <li xml:lang="ru">Упрощена логика тегов: теперь всегда запрашивается файл `7.x`, который теперь существует и проверен на неизменное применение к 7.1.x и 7.2</li>
+          <li xml:lang="ru">BORE, X3D и Zen также потребовали собственного ребейза для повторной сборки на ядре 7.2 (в bore-soplos, x3d-soplos и zen-soplos) — здесь дополнительный код не потребовался, существующие резервные цепочки уже маршрутизировали корректно</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.1-9" date="2026-08-13">
+      <description>
+        <p>Added unattended compilation of a whole kernel release, and fixed the x86-64 architecture level never being applied: kernels named v2, v3 and v4 were built at the v1 baseline.</p>
+        <p xml:lang="es">Añadida la compilación desatendida de una release completa de kernels, y corregido que el nivel de arquitectura x86-64 no se aplicara nunca: los kernels llamados v2, v3 y v4 se compilaban en la línea base v1.</p>
+        <p xml:lang="fr">Ajout de la compilation sans surveillance d'une version complète de noyaux, et correction du niveau d'architecture x86-64 qui n'était jamais appliqué : les noyaux nommés v2, v3 et v4 étaient compilés au niveau de base v1.</p>
+        <p xml:lang="de">Unbeaufsichtigtes Bauen eines kompletten Kernel-Releases hinzugefügt und behoben, dass die x86-64-Architekturebene nie angewendet wurde: Kernel mit den Namen v2, v3 und v4 wurden auf der v1-Basislinie gebaut.</p>
+        <p xml:lang="pt">Adicionada a compilação sem supervisão de uma versão completa de kernels, e corrigido o nível de arquitetura x86-64 que nunca era aplicado: os kernels chamados v2, v3 e v4 eram compilados na linha base v1.</p>
+        <p xml:lang="it">Aggiunta la compilazione non presidiata di un'intera release di kernel e corretto il livello di architettura x86-64 che non veniva mai applicato: i kernel chiamati v2, v3 e v4 venivano compilati sulla linea base v1.</p>
+        <p xml:lang="ro">Adaugata compilarea nesupravegheata a unei versiuni complete de nuclee si corectat nivelul de arhitectura x86-64 care nu se aplica niciodata: nucleele numite v2, v3 si v4 erau compilate pe linia de baza v1.</p>
+        <p xml:lang="ru">Добавлена автоматическая сборка целого выпуска ядер и исправлено то, что уровень архитектуры x86-64 никогда не применялся: ядра с именами v2, v3 и v4 собирались на базовом уровне v1.</p>
+        <ul>
+          <li>Stock mode can now build an entire release unattended: every variant and architecture level one after another, each from a clean build directory, saving the packages into per-version and per-level folders</li>
+          <li>The queue stops at the first failure and keeps that build directory, so the log and sources survive for inspection</li>
+          <li>Fixed the architecture level: it set `CONFIG_GENERIC_CPU{2,3,4}`, symbols that do not exist in mainline, so `olddefconfig` dropped them and every kernel was built at the v1 baseline</li>
+          <li>The level now comes from the Soplos x86-64 ISA level patch, and the build aborts if the symbol does not survive configuration instead of producing a mislabelled kernel</li>
+          <li>Translated the batch interface and six older strings that were still untranslated, across all eight languages</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.1-8" date="2026-07-28">
+      <description>
+        <p>Fixed the NVIDIA DKMS patch being silently skipped on the open kernel modules, the ones used by Turing and newer GPUs. It is now applied to both source layouts and only when the driver actually needs it.</p>
+        <p xml:lang="es">Corregido que el parche DKMS de NVIDIA se saltara en silencio los módulos de kernel abiertos, que son los que usan las GPU Turing y posteriores. Ahora se aplica a las dos disposiciones de fuentes y solo cuando el driver lo necesita.</p>
+        <p xml:lang="fr">Correction du correctif DKMS NVIDIA ignoré silencieusement sur les modules de noyau ouverts, ceux utilisés par les GPU Turing et plus récents. Il est désormais appliqué aux deux arborescences de sources et uniquement lorsque le pilote en a besoin.</p>
+        <p xml:lang="de">Behoben: Der NVIDIA-DKMS-Patch wurde bei den offenen Kernel-Modulen stillschweigend übersprungen, also genau bei Turing-GPUs und neuer. Er wird nun auf beide Quellstrukturen angewendet und nur dann, wenn der Treiber ihn benötigt.</p>
+        <p xml:lang="pt">Corrigido o patch DKMS da NVIDIA ser ignorado em silêncio nos módulos de kernel abertos, que são os usados pelas GPU Turing e posteriores. Passa a ser aplicado às duas disposições de código e apenas quando o controlador precisa dele.</p>
+        <p xml:lang="it">Corretto il fatto che la patch DKMS di NVIDIA venisse saltata in silenzio sui moduli del kernel aperti, quelli usati dalle GPU Turing e successive. Ora viene applicata a entrambe le strutture dei sorgenti e solo quando il driver ne ha bisogno.</p>
+        <p xml:lang="ro">Corectat faptul ca patch-ul DKMS NVIDIA era omis in tacere pentru modulele de kernel deschise, cele folosite de placile Turing si mai noi. Acum se aplica ambelor structuri de surse si doar cand driverul are nevoie de el.</p>
+        <p xml:lang="ru">Исправлено: патч DKMS для NVIDIA молча пропускался для открытых модулей ядра, которые используются на Turing и новее. Теперь он применяется к обеим структурам исходников и только когда драйверу это действительно нужно.</p>
+        <ul>
+          <li>The patch walks both `/usr/src/nvidia-*/nvidia/` and `/usr/src/nvidia-*/kernel-open/nvidia/`, instead of only the first, which silently skipped every nvidia-open install</li>
+          <li>The patch is applied only when the source contains `VMA_LOCK_OFFSET`, removing the failed-patch warning on drivers that no longer use that API</li>
+          <li>Removed the unused constants `DRACUT_CONF_DIR` and `DRACUT_SOPLOS_CONF`</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.1-7" date="2026-07-26">
+      <description>
+        <p>Added a core count selector for compilation and profile/version filters in the Soplos Kernels tab, plus two related UI fixes.</p>
+        <p xml:lang="es">Añadido un selector de núcleos para la compilación y filtros de perfil/versión en la pestaña Kernels Soplos, más dos correcciones de interfaz relacionadas.</p>
+        <p xml:lang="fr">Ajout d'un sélecteur de cœurs pour la compilation et de filtres profil/version dans l'onglet Noyaux Soplos, plus deux corrections d'interface associées.</p>
+        <p xml:lang="de">Kernauswahl für die Kompilierung sowie Profil-/Versionsfilter im Tab Soplos-Kernel hinzugefügt, plus zwei zugehörige Oberflächenkorrekturen.</p>
+        <p xml:lang="pt">Adicionado um seletor de núcleos para a compilação e filtros de perfil/versão no separador Kernels Soplos, mais duas correções de interface relacionadas.</p>
+        <p xml:lang="it">Aggiunto un selettore di core per la compilazione e filtri profilo/versione nella scheda Kernel Soplos, più due correzioni dell'interfaccia correlate.</p>
+        <p xml:lang="ro">Adaugat un selector de nuclee pentru compilare si filtre de profil/versiune in tab-ul Kernels Soplos, plus doua corectii de interfata asociate.</p>
+        <p xml:lang="ru">Добавлен выбор количества ядер для компиляции и фильтры профиля/версии на вкладке Ядра Soplos, а также два связанных исправления интерфейса.</p>
+        <ul>
+          <li>Added a core count selector ("Cores to use for compilation") next to the cleanup option, defaulting to all logical cores — available in both regular profiles and Stock/developer mode, threaded through to `make -j`</li>
+          <li>Added Profile and Version (V1–V4) filter dropdowns in the Soplos Kernels tab, populated dynamically from the packages actually present in the repository</li>
+          <li>Fixed kernel list filters leaving the Install/Remove buttons blank until a manual refresh</li>
+          <li>Fixed the filters row being visually stuck to the kernel list with no clear boundary — now its own card</li>
+          <li xml:lang="es">Añadido un selector de número de núcleos («Núcleos a usar para compilar») junto a la opción de limpieza, con todos los núcleos lógicos por defecto — disponible tanto en perfiles normales como en modo Stock/desarrollador, aplicado hasta `make -j`</li>
+          <li xml:lang="es">Añadidos desplegables de filtro por Perfil y Versión (V1–V4) en la pestaña Kernels Soplos, rellenados dinámicamente según los paquetes realmente presentes en el repositorio</li>
+          <li xml:lang="es">Corregido que los filtros de la lista de kernels dejaban los botones Instalar/Eliminar en blanco hasta refrescar manualmente</li>
+          <li xml:lang="es">Corregido que la fila de filtros quedaba pegada visualmente a la lista de kernels sin ningún límite claro — ahora es su propia tarjeta</li>
+          <li xml:lang="fr">Ajout d'un sélecteur de nombre de cœurs (« Cœurs à utiliser pour la compilation ») à côté de l'option de nettoyage, tous les cœurs logiques par défaut — disponible en profils normaux comme en mode Stock/développeur, répercuté jusqu'à `make -j`</li>
+          <li xml:lang="fr">Ajout de listes déroulantes de filtre Profil et Version (V1–V4) dans l'onglet Noyaux Soplos, remplies dynamiquement à partir des paquets réellement présents dans le dépôt</li>
+          <li xml:lang="fr">Correction des filtres de la liste des noyaux qui laissaient les boutons Installer/Supprimer vides jusqu'à une actualisation manuelle</li>
+          <li xml:lang="fr">Correction de la ligne de filtres collée visuellement à la liste des noyaux sans limite claire — désormais sa propre carte</li>
+          <li xml:lang="de">Kernauswahl („Kerne für die Kompilierung“) neben der Bereinigungsoption hinzugefügt, standardmäßig alle logischen Kerne — verfügbar sowohl in regulären Profilen als auch im Stock-/Entwicklermodus, bis zu `make -j` durchgereicht</li>
+          <li xml:lang="de">Dropdown-Filter für Profil und Version (V1–V4) im Tab Soplos-Kernel hinzugefügt, dynamisch befüllt aus den tatsächlich im Repository vorhandenen Paketen</li>
+          <li xml:lang="de">Behoben, dass Kernel-Listenfilter die Schaltflächen Installieren/Entfernen bis zur manuellen Aktualisierung leer ließen</li>
+          <li xml:lang="de">Behoben, dass die Filterzeile visuell ohne klare Abgrenzung an der Kernel-Liste klebte — jetzt eigene Karte</li>
+          <li xml:lang="pt">Adicionado um seletor de número de núcleos («Núcleos a usar para a compilação») junto à opção de limpeza, com todos os núcleos lógicos por predefinição — disponível tanto em perfis normais como no modo Stock/programador, aplicado até ao `make -j`</li>
+          <li xml:lang="pt">Adicionados menus pendentes de filtro por Perfil e Versão (V1–V4) no separador Kernels Soplos, preenchidos dinamicamente a partir dos pacotes realmente presentes no repositório</li>
+          <li xml:lang="pt">Corrigido o facto de os filtros da lista de kernels deixarem os botões Instalar/Remover em branco até uma atualização manual</li>
+          <li xml:lang="pt">Corrigido o facto de a linha de filtros ficar visualmente colada à lista de kernels sem limite claro — agora é o seu próprio cartão</li>
+          <li xml:lang="it">Aggiunto un selettore del numero di core ("Core da usare per la compilazione") accanto all'opzione di pulizia, con tutti i core logici come predefinito — disponibile sia nei profili normali sia in modalità Stock/sviluppatore, applicato fino a `make -j`</li>
+          <li xml:lang="it">Aggiunti menu a tendina di filtro per Profilo e Versione (V1–V4) nella scheda Kernel Soplos, popolati dinamicamente in base ai pacchetti effettivamente presenti nel repository</li>
+          <li xml:lang="it">Corretto il fatto che i filtri dell'elenco kernel lasciavano i pulsanti Installa/Rimuovi vuoti fino a un aggiornamento manuale</li>
+          <li xml:lang="it">Corretto il fatto che la riga dei filtri restava visivamente attaccata all'elenco kernel senza un confine chiaro — ora è una scheda propria</li>
+          <li xml:lang="ro">Adaugat un selector al numarului de nuclee („Nuclee de folosit pentru compilare") langa optiunea de curatare, cu toate nucleele logice implicit — disponibil atat in profiluri normale cat si in modul Stock/dezvoltator, aplicat pana la `make -j`</li>
+          <li xml:lang="ro">Adaugate liste derulante de filtrare dupa Profil si Versiune (V1–V4) in tab-ul Kernels Soplos, populate dinamic din pachetele prezente efectiv in depozit</li>
+          <li xml:lang="ro">Corectat faptul ca filtrele listei de kernel-uri lasau butoanele Instalare/Eliminare goale pana la o reactualizare manuala</li>
+          <li xml:lang="ro">Corectat faptul ca randul de filtre ramanea lipit vizual de lista de kernel-uri fara o limita clara — acum este propriul sau card</li>
+          <li xml:lang="ru">Добавлен выбор количества ядер («Ядра для компиляции») рядом с опцией очистки, по умолчанию все логические ядра — доступно как в обычных профилях, так и в режиме Stock/разработчика, передаётся вплоть до `make -j`</li>
+          <li xml:lang="ru">Добавлены выпадающие фильтры по Профилю и Версии (V1–V4) на вкладке Ядра Soplos, заполняются динамически на основе реально присутствующих в репозитории пакетов</li>
+          <li xml:lang="ru">Исправлено то, что фильтры списка ядер оставляли кнопки «Установить»/«Удалить» пустыми до ручного обновления</li>
+          <li xml:lang="ru">Исправлено то, что строка фильтров визуально прилипала к списку ядер без чёткой границы — теперь это отдельная карточка</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.1-6" date="2026-07-26">
+      <description>
+        <p>Fixed BORE/Zen patch source fallback, fixed Zen's alternate scheduler never actually building, and added Soplos-maintained fallback patches for point releases upstream hasn't caught up with yet.</p>
+        <p xml:lang="es">Corregido el sistema de fuentes alternativas de parches BORE/Zen, corregido que el scheduler alternativo de Zen nunca llegaba a compilarse, y añadidos parches de respaldo mantenidos por Soplos para versiones que upstream aún no soporta.</p>
+        <p xml:lang="fr">Correction du système de sources de secours pour les patchs BORE/Zen, correction du planificateur alternatif de Zen qui n'était en fait jamais compilé, et ajout de patchs de secours maintenus par Soplos pour les versions que l'amont n'a pas encore rattrapées.</p>
+        <p xml:lang="de">Fallback-System für BORE/Zen-Patch-Quellen behoben, behoben dass Zens alternativer Scheduler nie tatsächlich gebaut wurde, und von Soplos gepflegte Fallback-Patches für Point-Releases hinzugefügt, die Upstream noch nicht unterstützt.</p>
+        <p xml:lang="pt">Corrigido o sistema de fontes alternativas de patches BORE/Zen, corrigido o facto de o escalonador alternativo do Zen nunca chegar a ser compilado, e adicionados patches de reserva mantidos pela Soplos para versões que o upstream ainda não suporta.</p>
+        <p xml:lang="it">Corretto il sistema di fonti alternative per le patch BORE/Zen, corretto il fatto che lo scheduler alternativo di Zen non veniva mai effettivamente compilato, e aggiunte patch di riserva mantenute da Soplos per le versioni non ancora supportate dall'upstream.</p>
+        <p xml:lang="ro">Corectat sistemul de surse alternative pentru patch-urile BORE/Zen, corectat faptul ca schedulerul alternativ al Zen nu se compila niciodata cu adevarat, si adaugate patch-uri de rezerva mentinute de Soplos pentru versiunile pe care upstream nu le suporta inca.</p>
+        <p xml:lang="ru">Исправлена система резервных источников патчей BORE/Zen, исправлено то, что альтернативный планировщик Zen на деле никогда не собирался, и добавлены резервные патчи, поддерживаемые Soplos, для версий, которые апстрим пока не поддерживает.</p>
+        <ul>
+          <li>Fixed patch source selection: a BORE/Zen source could download successfully and still fail to apply against the current kernel point release, only surfacing the failure too late to try another source — sources are now verified with a dry-run apply before being accepted, falling through automatically otherwise</li>
+          <li>Fixed Zen's alternate scheduler (BMQ/PDS) never actually being built: CONFIG_SCHED_ALT defaults to "n" in Zen's own Kconfig (unlike BORE's CONFIG_SCHED_BORE, which defaults to "y"), so selecting "zen" silently produced a kernel still running mainline CFS/EEVDF — CONFIG_SCHED_ALT and CONFIG_SCHED_PDS are now forced on when "zen" is selected. Confirmed on real hardware: PDS is genuinely active at boot, not just compiled in</li>
+          <li>Added SoplosLinux/bore-soplos as a third BORE fallback source, used only when neither firelzrd nor CachyOS have a working patch yet</li>
+          <li>Added SoplosLinux/zen-soplos as a Zen fallback source, used when zen-kernel/zen-kernel hasn't published a matching release yet</li>
+          <li xml:lang="es">Corregida la selección de fuente de parche: una fuente de BORE/Zen podía descargarse bien y aun así fallar al aplicarse contra la versión de kernel actual, mostrando el fallo demasiado tarde para probar otra fuente — ahora se verifican con una aplicación de prueba antes de aceptarse, pasando automáticamente a la siguiente si no</li>
+          <li xml:lang="es">Corregido que el scheduler alternativo de Zen (BMQ/PDS) nunca llegaba a compilarse: CONFIG_SCHED_ALT tiene «default n» en el propio Kconfig de Zen (a diferencia de CONFIG_SCHED_BORE, que tiene «default y»), así que seleccionar «zen» producía en silencio un kernel que seguía usando CFS/EEVDF de mainline — ahora se fuerzan CONFIG_SCHED_ALT y CONFIG_SCHED_PDS al seleccionar «zen». Confirmado en hardware real: PDS está realmente activo al arrancar, no solo compilado</li>
+          <li xml:lang="es">Añadido SoplosLinux/bore-soplos como tercera fuente de respaldo para BORE, usada solo cuando ni firelzrd ni CachyOS tienen todavía un parche funcional</li>
+          <li xml:lang="es">Añadido SoplosLinux/zen-soplos como fuente de respaldo para Zen, usada cuando zen-kernel/zen-kernel aún no ha publicado una versión compatible</li>
+          <li xml:lang="fr">Correction de la sélection de source de patch : une source BORE/Zen pouvait se télécharger correctement puis échouer à l'application sur la version actuelle du noyau, révélant l'échec trop tard pour essayer une autre source — les sources sont désormais vérifiées par une application à blanc avant d'être acceptées, avec repli automatique sinon</li>
+          <li xml:lang="fr">Correction du planificateur alternatif de Zen (BMQ/PDS) qui n'était en fait jamais compilé : CONFIG_SCHED_ALT a « default n » dans le Kconfig propre à Zen (contrairement à CONFIG_SCHED_BORE, qui a « default y »), donc sélectionner « zen » produisait silencieusement un noyau utilisant toujours CFS/EEVDF mainline — CONFIG_SCHED_ALT et CONFIG_SCHED_PDS sont désormais forcés lors de la sélection de « zen ». Confirmé sur matériel réel : PDS est réellement actif au démarrage, pas seulement compilé</li>
+          <li xml:lang="fr">Ajout de SoplosLinux/bore-soplos comme troisième source de secours pour BORE, utilisée uniquement si ni firelzrd ni CachyOS n'ont de patch fonctionnel</li>
+          <li xml:lang="fr">Ajout de SoplosLinux/zen-soplos comme source de secours pour Zen, utilisée si zen-kernel/zen-kernel n'a pas encore publié de version correspondante</li>
+          <li xml:lang="de">Patch-Quellenauswahl behoben: Eine BORE/Zen-Quelle konnte erfolgreich heruntergeladen werden und trotzdem beim Anwenden auf die aktuelle Kernel-Version fehlschlagen — der Fehler zeigte sich zu spät, um eine andere Quelle zu versuchen. Quellen werden jetzt vor der Annahme per Probelauf geprüft, sonst wird automatisch die nächste versucht</li>
+          <li xml:lang="de">Behoben, dass Zens alternativer Scheduler (BMQ/PDS) nie tatsächlich gebaut wurde: CONFIG_SCHED_ALT hat in Zens eigenem Kconfig „default n“ (anders als CONFIG_SCHED_BORE mit „default y“), sodass die Auswahl von „zen“ still einen Kernel erzeugte, der weiterhin mainline CFS/EEVDF nutzte — CONFIG_SCHED_ALT und CONFIG_SCHED_PDS werden jetzt bei Auswahl von „zen“ erzwungen. Auf echter Hardware bestätigt: PDS ist beim Booten wirklich aktiv, nicht nur einkompiliert</li>
+          <li xml:lang="de">SoplosLinux/bore-soplos als dritte Fallback-Quelle für BORE hinzugefügt, nur genutzt wenn weder firelzrd noch CachyOS einen funktionierenden Patch haben</li>
+          <li xml:lang="de">SoplosLinux/zen-soplos als Fallback-Quelle für Zen hinzugefügt, genutzt wenn zen-kernel/zen-kernel noch kein passendes Release veröffentlicht hat</li>
+          <li xml:lang="pt">Corrigida a seleção de fonte de patch: uma fonte BORE/Zen podia ser descarregada com sucesso e ainda assim falhar ao aplicar-se à versão atual do kernel, revelando a falha tarde demais para tentar outra fonte — as fontes agora são verificadas com uma aplicação de teste antes de serem aceites, passando automaticamente para a seguinte caso contrário</li>
+          <li xml:lang="pt">Corrigido o facto de o escalonador alternativo do Zen (BMQ/PDS) nunca chegar a ser compilado: CONFIG_SCHED_ALT tem «default n» no próprio Kconfig do Zen (ao contrário de CONFIG_SCHED_BORE, que tem «default y»), pelo que selecionar «zen» produzia silenciosamente um kernel que continuava a usar CFS/EEVDF do mainline — CONFIG_SCHED_ALT e CONFIG_SCHED_PDS são agora forçados ao selecionar «zen». Confirmado em hardware real: o PDS está genuinamente ativo no arranque, não apenas compilado</li>
+          <li xml:lang="pt">Adicionado o SoplosLinux/bore-soplos como terceira fonte de reserva para o BORE, usada apenas quando nem o firelzrd nem o CachyOS têm um patch funcional</li>
+          <li xml:lang="pt">Adicionado o SoplosLinux/zen-soplos como fonte de reserva para o Zen, usada quando o zen-kernel/zen-kernel ainda não publicou uma versão correspondente</li>
+          <li xml:lang="it">Corretta la selezione della fonte della patch: una fonte BORE/Zen poteva essere scaricata correttamente e comunque non applicarsi alla versione corrente del kernel, rivelando il fallimento troppo tardi per provare un'altra fonte — le fonti ora vengono verificate con un'applicazione di prova prima di essere accettate, passando automaticamente alla successiva in caso contrario</li>
+          <li xml:lang="it">Corretto il fatto che lo scheduler alternativo di Zen (BMQ/PDS) non veniva mai effettivamente compilato: CONFIG_SCHED_ALT ha «default n» nel Kconfig proprio di Zen (a differenza di CONFIG_SCHED_BORE, che ha «default y»), quindi selezionare «zen» produceva silenziosamente un kernel che continuava a usare CFS/EEVDF mainline — CONFIG_SCHED_ALT e CONFIG_SCHED_PDS vengono ora forzati selezionando «zen». Confermato su hardware reale: PDS è realmente attivo all'avvio, non solo compilato</li>
+          <li xml:lang="it">Aggiunto SoplosLinux/bore-soplos come terza fonte di riserva per BORE, usata solo quando né firelzrd né CachyOS hanno una patch funzionante</li>
+          <li xml:lang="it">Aggiunto SoplosLinux/zen-soplos come fonte di riserva per Zen, usata quando zen-kernel/zen-kernel non ha ancora pubblicato una versione corrispondente</li>
+          <li xml:lang="ro">Corectata selectia sursei de patch: o sursa BORE/Zen putea fi descarcata cu succes si totusi sa esueze la aplicare pe versiunea curenta de kernel, dezvaluind esecul prea tarziu pentru a incerca o alta sursa — sursele sunt acum verificate cu o aplicare de proba inainte de a fi acceptate, trecand automat la urmatoarea in caz contrar</li>
+          <li xml:lang="ro">Corectat faptul ca schedulerul alternativ al Zen (BMQ/PDS) nu se compila niciodata cu adevarat: CONFIG_SCHED_ALT are „default n" in Kconfig-ul propriu al Zen (spre deosebire de CONFIG_SCHED_BORE, care are „default y"), deci selectarea „zen" producea in tacere un kernel care folosea in continuare CFS/EEVDF mainline — CONFIG_SCHED_ALT si CONFIG_SCHED_PDS sunt acum fortate la selectarea „zen". Confirmat pe hardware real: PDS este cu adevarat activ la pornire, nu doar compilat</li>
+          <li xml:lang="ro">Adaugat SoplosLinux/bore-soplos ca a treia sursa de rezerva pentru BORE, folosita doar cand nici firelzrd, nici CachyOS nu au un patch functional</li>
+          <li xml:lang="ro">Adaugat SoplosLinux/zen-soplos ca sursa de rezerva pentru Zen, folosita cand zen-kernel/zen-kernel nu a publicat inca o versiune corespunzatoare</li>
+          <li xml:lang="ru">Исправлен выбор источника патча: источник BORE/Zen мог успешно скачаться, но не примениться к текущей версии ядра, а ошибка проявлялась слишком поздно, чтобы попробовать другой источник — теперь источники проверяются пробным применением перед принятием, иначе автоматически используется следующий</li>
+          <li xml:lang="ru">Исправлено то, что альтернативный планировщик Zen (BMQ/PDS) на деле никогда не собирался: CONFIG_SCHED_ALT в собственном Kconfig Zen имеет значение по умолчанию «n» (в отличие от CONFIG_SCHED_BORE, у которого «y»), поэтому выбор «zen» незаметно давал ядро, всё ещё работающее на mainline CFS/EEVDF — теперь CONFIG_SCHED_ALT и CONFIG_SCHED_PDS принудительно включаются при выборе «zen». Подтверждено на реальном оборудовании: PDS действительно активен при загрузке, а не просто скомпилирован</li>
+          <li xml:lang="ru">Добавлен SoplosLinux/bore-soplos как третий резервный источник для BORE, используется только если ни firelzrd, ни CachyOS не имеют рабочего патча</li>
+          <li xml:lang="ru">Добавлен SoplosLinux/zen-soplos как резервный источник для Zen, используется если zen-kernel/zen-kernel ещё не опубликовал подходящий релиз</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.1-5" date="2026-07-22">
+      <description>
+        <p>Changed the "Which kernel is right for my hardware?" popup: it now also shows the detected CPU model, GPU, and total RAM alongside the supported x86-64 architecture level.</p>
+        <p xml:lang="es">Cambiada la ventana «¿Qué kernel es el adecuado para mi hardware?»: ahora también muestra el modelo de CPU detectado, la GPU y la RAM total junto al nivel de arquitectura x86-64 soportado.</p>
+        <p xml:lang="fr">Modification de la fenêtre « Quel noyau convient à mon matériel ? » : elle affiche désormais aussi le modèle de CPU détecté, le GPU et la RAM totale en plus du niveau d'architecture x86-64 pris en charge.</p>
+        <p xml:lang="de">Fenster „Welcher Kernel ist der richtige für meine Hardware?“ geändert: Es zeigt jetzt zusätzlich zum unterstützten x86-64-Architekturlevel auch das erkannte CPU-Modell, die GPU und den gesamten RAM an.</p>
+        <p xml:lang="pt">Alterada a janela «Qual kernel é adequado para o meu hardware?»: agora também mostra o modelo de CPU detetado, a GPU e a RAM total, além do nível de arquitetura x86-64 suportado.</p>
+        <p xml:lang="it">Modificata la finestra «Quale kernel è adatto al mio hardware?»: ora mostra anche il modello di CPU rilevato, la GPU e la RAM totale insieme al livello di architettura x86-64 supportato.</p>
+        <p xml:lang="ro">Modificată fereastra „Ce kernel este potrivit pentru hardware-ul meu?”: acum afișează și modelul de CPU detectat, GPU-ul și RAM-ul total, pe lângă nivelul de arhitectură x86-64 acceptat.</p>
+        <p xml:lang="ru">Изменено окно «Какое ядро подходит для моего оборудования?»: теперь оно также показывает определённую модель процессора, видеокарту и общий объём ОЗУ наряду с поддерживаемым уровнем архитектуры x86-64.</p>
+      </description>
+    </release>
+    <release version="1.0.1-4" date="2026-07-20">
+      <description>
+        <p>Changed the "Which kernel is right for my hardware?" button: it no longer opens the wiki — it now detects the highest x86-64 architecture level (v1–v4) your CPU actually supports and shows it directly in the app.</p>
+        <p xml:lang="es">Cambiado el botón «¿Qué kernel es el adecuado para mi hardware?»: ya no abre la wiki — ahora detecta el nivel de arquitectura x86-64 más alto (v1–v4) que soporta realmente tu CPU y lo muestra directamente en la aplicación.</p>
+        <p xml:lang="fr">Modification du bouton « Quel noyau convient à mon matériel ? » : il n'ouvre plus le wiki — il détecte désormais le niveau d'architecture x86-64 le plus élevé (v1–v4) réellement pris en charge par votre CPU et l'affiche directement dans l'application.</p>
+        <p xml:lang="de">Schaltfläche „Welcher Kernel ist der richtige für meine Hardware?“ geändert: Sie öffnet nicht mehr das Wiki — sie erkennt jetzt die höchste x86-64-Architekturstufe (v1–v4), die deine CPU tatsächlich unterstützt, und zeigt sie direkt in der App an.</p>
+        <p xml:lang="pt">Alterado o botão «Qual kernel é adequado para o meu hardware?»: já não abre a wiki — agora deteta o nível de arquitetura x86-64 mais alto (v1–v4) que o seu CPU realmente suporta e mostra-o diretamente na aplicação.</p>
+        <p xml:lang="it">Modificato il pulsante «Quale kernel è adatto al mio hardware?»: non apre più la wiki — ora rileva il livello di architettura x86-64 più alto (v1–v4) effettivamente supportato dalla tua CPU e lo mostra direttamente nell'app.</p>
+        <p xml:lang="ro">Modificat butonul „Ce kernel este potrivit pentru hardware-ul meu?”: nu mai deschide wiki-ul — acum detectează cel mai înalt nivel de arhitectură x86-64 (v1–v4) acceptat efectiv de CPU-ul tău și îl afișează direct în aplicație.</p>
+        <p xml:lang="ru">Изменена кнопка «Какое ядро подходит для моего оборудования?»: она больше не открывает вики — теперь она определяет максимальный уровень архитектуры x86-64 (v1–v4), реально поддерживаемый вашим процессором, и показывает его прямо в приложении.</p>
+      </description>
+    </release>
+    <release version="1.0.1-3" date="2026-07-20">
+      <description>
+        <p>Fixed selecting X3D possibly leaving an incompatible patch checked, breaking the build.</p>
+        <p xml:lang="es">Corregido que al seleccionar X3D pudiera quedar marcado un parche incompatible, rompiendo la compilación.</p>
+        <p xml:lang="fr">Correction : sélectionner X3D pouvait laisser un patch incompatible coché, cassant la compilation.</p>
+        <p xml:lang="de">Behoben: Die Auswahl von X3D konnte einen inkompatiblen Patch aktiviert lassen und den Build beschädigen.</p>
+        <p xml:lang="pt">Corrigido: selecionar X3D podia deixar um patch incompatível marcado, quebrando a compilação.</p>
+        <p xml:lang="it">Corretto: selezionare X3D poteva lasciare selezionata una patch incompatibile, rompendo la build.</p>
+        <p xml:lang="ro">Corectat: selectarea X3D putea lasa bifat un patch incompatibil, stricand compilarea.</p>
+        <p xml:lang="ru">Исправлено: при выборе X3D мог оставаться отмеченным несовместимый патч, что ломало сборку.</p>
+        <ul>
+          <li>Selecting X3D force-enables BORE, but since that happened while patch-toggle signals were blocked, BORE's own "uncheck Zen (incompatible)" logic never ran — Zen could stay checked alongside BORE+X3D if it was already active</li>
+          <li>Now X3D's auto-select also clears whatever is incompatible with BORE</li>
+          <li xml:lang="es">Seleccionar X3D activa BORE automáticamente, pero como eso ocurría con las señales de los checkboxes bloqueadas, la propia lógica de BORE de "desmarcar Zen (incompatible)" nunca se ejecutaba — Zen podía quedar marcado junto a BORE+X3D si ya estaba activo</li>
+          <li xml:lang="es">Ahora la selección automática de X3D también desmarca lo incompatible con BORE</li>
+          <li xml:lang="fr">Sélectionner X3D active automatiquement BORE, mais comme cela se produisait pendant que les signaux des cases à cocher étaient bloqués, la logique propre de BORE « décocher Zen (incompatible) » ne s'exécutait jamais — Zen pouvait rester coché avec BORE+X3D s'il était déjà actif</li>
+          <li xml:lang="fr">La sélection automatique de X3D décoche désormais aussi tout ce qui est incompatible avec BORE</li>
+          <li xml:lang="de">Die Auswahl von X3D aktiviert automatisch BORE, aber da dies bei blockierten Checkbox-Signalen geschah, wurde BOREs eigene Logik zum „Zen deaktivieren (inkompatibel)“ nie ausgeführt — Zen konnte zusammen mit BORE+X3D aktiviert bleiben, falls es bereits aktiv war</li>
+          <li xml:lang="de">Die automatische Auswahl von X3D deaktiviert jetzt auch alles, was mit BORE inkompatibel ist</li>
+          <li xml:lang="pt">Selecionar X3D ativa automaticamente o BORE, mas como isso acontecia com os sinais das caixas de seleção bloqueados, a própria lógica do BORE de "desmarcar Zen (incompatível)" nunca era executada — o Zen podia continuar marcado junto com BORE+X3D se já estivesse ativo</li>
+          <li xml:lang="pt">Agora a seleção automática do X3D também desmarca o que for incompatível com o BORE</li>
+          <li xml:lang="it">Selezionare X3D attiva automaticamente BORE, ma poiché ciò avveniva con i segnali delle checkbox bloccati, la logica propria di BORE per "deselezionare Zen (incompatibile)" non veniva mai eseguita — Zen poteva restare selezionato insieme a BORE+X3D se era già attivo</li>
+          <li xml:lang="it">Ora la selezione automatica di X3D deseleziona anche tutto ciò che è incompatibile con BORE</li>
+          <li xml:lang="ro">Selectarea X3D activeaza automat BORE, dar deoarece acest lucru se intampla in timp ce semnalele checkbox-urilor erau blocate, logica proprie a BORE de a "debifa Zen (incompatibil)" nu se executa niciodata — Zen putea ramane bifat alaturi de BORE+X3D daca era deja activ</li>
+          <li xml:lang="ro">Acum selectia automata a X3D debifeaza si tot ce este incompatibil cu BORE</li>
+          <li xml:lang="ru">Выбор X3D автоматически включает BORE, но поскольку это происходило при заблокированных сигналах чекбоксов, собственная логика BORE «снять отметку с Zen (несовместимо)» никогда не выполнялась — Zen мог оставаться отмеченным вместе с BORE+X3D, если уже был активен</li>
+          <li xml:lang="ru">Теперь автоматический выбор X3D также снимает отметку со всего, что несовместимо с BORE</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.1-2" date="2026-07-18">
+      <description>
+        <p>Fixed a build-breaking configuration bug and improved gaming hardware support.</p>
+        <p xml:lang="es">Corregido un fallo de compilación en la configuración base y mejorado el soporte de hardware gaming.</p>
+        <p xml:lang="fr">Correction d'un bug de configuration bloquant la compilation et amélioration du support matériel gaming.</p>
+        <p xml:lang="de">Ein build-blockierender Konfigurationsfehler wurde behoben und die Unterstützung für Gaming-Hardware verbessert.</p>
+        <p xml:lang="pt">Corrigido um erro de configuração que bloqueava a compilação e melhorado o suporte a hardware gaming.</p>
+        <p xml:lang="it">Corretto un bug di configurazione che bloccava la build e migliorato il supporto hardware gaming.</p>
+        <p xml:lang="ro">Corectata o eroare de configurare care bloca compilarea si imbunatatit suportul pentru hardware de gaming.</p>
+        <p xml:lang="ru">Исправлена ошибка конфигурации, блокировавшая сборку, и улучшена поддержка игрового оборудования.</p>
+        <ul>
+          <li>Fixed the X3D VCache patch download to use per-kernel-version URLs instead of a single stale link</li>
+          <li>The base kernel configuration is now fetched fresh from Debian sid on every build instead of reusing a previously installed kernel's config, avoiding accumulated drift and missing support for recent hardware</li>
+          <li>Fixed a build failure caused by an inherited module signing key path that only existed inside Debian's own build system</li>
+          <li>Fixed patch tooltips (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache) never being translated — now properly localized in all 8 languages</li>
+          <li>Added ASUS ROG Ally and OneXPlayer/AYANEO embedded controller drivers (ASUS_ARMOURY, OXP_EC) to every build</li>
+          <li>The CPU architecture level selector now disables v1/v2 automatically when the X3D patch is selected, since X3D hardware requires at least x86-64-v3</li>
+          <li xml:lang="es">Corregida la descarga del parche X3D VCache: ahora usa URLs por versión de kernel en vez de un único enlace desactualizado</li>
+          <li xml:lang="es">La configuración base del kernel ahora se descarga siempre actualizada desde Debian sid en cada compilación, en vez de reutilizar la de un kernel instalado anteriormente, evitando degradación acumulada y falta de soporte de hardware reciente</li>
+          <li xml:lang="es">Corregido un fallo de compilación causado por una ruta de clave de firma de módulos heredada que solo existía dentro del propio sistema de compilación de Debian</li>
+          <li xml:lang="es">Corregidos los tooltips de los parches (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache), que nunca se traducían — ahora correctamente localizados en los 8 idiomas</li>
+          <li xml:lang="es">Añadidos los drivers de controladora embebida de ASUS ROG Ally y OneXPlayer/AYANEO (ASUS_ARMOURY, OXP_EC) a todas las compilaciones</li>
+          <li xml:lang="es">El selector de nivel de arquitectura de CPU ahora desactiva v1/v2 automáticamente al seleccionar el parche X3D, ya que el hardware X3D requiere como mínimo x86-64-v3</li>
+          <li xml:lang="fr">Correction du téléchargement du patch X3D VCache : utilise désormais des URL par version de noyau au lieu d'un lien unique obsolète</li>
+          <li xml:lang="fr">La configuration de base du noyau est désormais téléchargée à jour depuis Debian sid à chaque compilation, au lieu de réutiliser celle d'un noyau installé précédemment, évitant une dérive accumulée et un manque de support matériel récent</li>
+          <li xml:lang="fr">Correction d'un échec de compilation causé par un chemin de clé de signature de module hérité qui n'existait qu'au sein du système de compilation de Debian</li>
+          <li xml:lang="fr">Correction des infobulles des patchs (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache), jamais traduites — désormais correctement localisées dans les 8 langues</li>
+          <li xml:lang="fr">Ajout des pilotes du contrôleur embarqué ASUS ROG Ally et OneXPlayer/AYANEO (ASUS_ARMOURY, OXP_EC) à chaque compilation</li>
+          <li xml:lang="fr">Le sélecteur de niveau d'architecture CPU désactive désormais automatiquement v1/v2 lorsque le patch X3D est sélectionné, le matériel X3D nécessitant au minimum x86-64-v3</li>
+          <li xml:lang="de">Behoben: Download des X3D-VCache-Patches verwendet jetzt URLs pro Kernel-Version statt eines einzelnen veralteten Links</li>
+          <li xml:lang="de">Die Basis-Kernelkonfiguration wird jetzt bei jedem Build aktuell von Debian sid geladen, statt die eines zuvor installierten Kernels wiederzuverwenden — verhindert angesammelte Abweichungen und fehlende Unterstützung neuer Hardware</li>
+          <li xml:lang="de">Behoben: Build-Fehler durch einen geerbten Modul-Signaturschlüsselpfad, der nur innerhalb von Debians eigenem Build-System existierte</li>
+          <li xml:lang="de">Behoben: Patch-Tooltips (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache) wurden nie übersetzt — jetzt korrekt in allen 8 Sprachen lokalisiert</li>
+          <li xml:lang="de">ASUS ROG Ally und OneXPlayer/AYANEO Embedded-Controller-Treiber (ASUS_ARMOURY, OXP_EC) zu jedem Build hinzugefügt</li>
+          <li xml:lang="de">Die CPU-Architekturstufen-Auswahl deaktiviert jetzt automatisch v1/v2, wenn der X3D-Patch ausgewählt ist, da X3D-Hardware mindestens x86-64-v3 benötigt</li>
+          <li xml:lang="pt">Corrigida a descarga do patch X3D VCache: agora usa URLs por versão de kernel em vez de um único link desatualizado</li>
+          <li xml:lang="pt">A configuração base do kernel agora é sempre descarregada atualizada a partir do Debian sid em cada compilação, em vez de reutilizar a de um kernel instalado anteriormente, evitando desvio acumulado e falta de suporte a hardware recente</li>
+          <li xml:lang="pt">Corrigida uma falha de compilação causada por um caminho de chave de assinatura de módulo herdado que só existia dentro do próprio sistema de compilação do Debian</li>
+          <li xml:lang="pt">Corrigidas as dicas dos patches (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache), que nunca eram traduzidas — agora corretamente localizadas nos 8 idiomas</li>
+          <li xml:lang="pt">Adicionados os drivers de controlador incorporado da ASUS ROG Ally e OneXPlayer/AYANEO (ASUS_ARMOURY, OXP_EC) a todas as compilações</li>
+          <li xml:lang="pt">O seletor de nível de arquitetura de CPU agora desativa automaticamente v1/v2 ao selecionar o patch X3D, já que o hardware X3D requer no mínimo x86-64-v3</li>
+          <li xml:lang="it">Corretto il download della patch X3D VCache: ora usa URL per versione del kernel invece di un unico link obsoleto</li>
+          <li xml:lang="it">La configurazione base del kernel viene ora scaricata aggiornata da Debian sid ad ogni build, invece di riutilizzare quella di un kernel installato in precedenza, evitando degrado accumulato e mancanza di supporto per hardware recente</li>
+          <li xml:lang="it">Corretto un errore di build causato da un percorso di chiave di firma dei moduli ereditato che esisteva solo all'interno del sistema di build di Debian</li>
+          <li xml:lang="it">Corretti i tooltip delle patch (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache), mai tradotti — ora correttamente localizzati in tutte le 8 lingue</li>
+          <li xml:lang="it">Aggiunti i driver del controller embedded di ASUS ROG Ally e OneXPlayer/AYANEO (ASUS_ARMOURY, OXP_EC) a ogni build</li>
+          <li xml:lang="it">Il selettore del livello di architettura CPU ora disabilita automaticamente v1/v2 quando è selezionata la patch X3D, poiché l'hardware X3D richiede almeno x86-64-v3</li>
+          <li xml:lang="ro">Corectata descarcarea patch-ului X3D VCache: foloseste acum URL-uri per versiune de kernel in loc de un singur link invechit</li>
+          <li xml:lang="ro">Configuratia de baza a kernelului este acum descarcata actualizata de pe Debian sid la fiecare compilare, in loc sa refoloseasca cea a unui kernel instalat anterior, evitand degradarea acumulata si lipsa suportului pentru hardware recent</li>
+          <li xml:lang="ro">Corectata o eroare de compilare cauzata de o cale de cheie de semnare a modulelor mostenita care exista doar in propriul sistem de compilare Debian</li>
+          <li xml:lang="ro">Corectate indiciile parch-urilor (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache), niciodata traduse — acum corect localizate in toate cele 8 limbi</li>
+          <li xml:lang="ro">Adaugati driverele controllerului integrat ASUS ROG Ally si OneXPlayer/AYANEO (ASUS_ARMOURY, OXP_EC) la fiecare compilare</li>
+          <li xml:lang="ro">Selectorul nivelului de arhitectura CPU dezactiveaza acum automat v1/v2 cand este selectat patch-ul X3D, deoarece hardware-ul X3D necesita cel putin x86-64-v3</li>
+          <li xml:lang="ru">Исправлена загрузка патча X3D VCache: теперь используются URL для каждой версии ядра вместо одной устаревшей ссылки</li>
+          <li xml:lang="ru">Базовая конфигурация ядра теперь всегда загружается свежей из Debian sid при каждой сборке, вместо повторного использования конфигурации ранее установленного ядра — это предотвращает накопление устареваний и отсутствие поддержки нового оборудования</li>
+          <li xml:lang="ru">Исправлена ошибка сборки, вызванная унаследованным путём к ключу подписи модулей, существовавшим только внутри собственной системы сборки Debian</li>
+          <li xml:lang="ru">Исправлены всплывающие подсказки патчей (BORE, PREEMPT_RT, Zen, NTSYNC, X3D VCache), которые никогда не переводились — теперь корректно локализованы на всех 8 языках</li>
+          <li xml:lang="ru">Добавлены драйверы встроенного контроллера ASUS ROG Ally и OneXPlayer/AYANEO (ASUS_ARMOURY, OXP_EC) в каждую сборку</li>
+          <li xml:lang="ru">Переключатель уровня архитектуры CPU теперь автоматически отключает v1/v2 при выборе патча X3D, так как оборудование X3D требует минимум x86-64-v3</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.1-1" date="2026-07-16">
+      <description>
+        <p>Fixed Soplos Kernels tab not detecting march-level package variants and showing incorrect display names for them.</p>
+        <p xml:lang="es">Corregida la pestaña Kernels Soplos que no detectaba las variantes de paquete por nivel march y mostraba nombres incorrectos.</p>
+        <p xml:lang="fr">Correction de l'onglet Noyaux Soplos qui ne détectait pas les variantes de paquets par niveau march et affichait des noms incorrects.</p>
+        <p xml:lang="de">Behoben: Tab Soplos-Kernel erkannte March-Level-Paketvarianten nicht und zeigte falsche Anzeigenamen.</p>
+        <p xml:lang="pt">Corrigido o separador Kernels Soplos que não detetava as variantes de pacote por nível march e mostrava nomes incorretos.</p>
+        <p xml:lang="it">Corretto il tab Kernel Soplos che non rilevava le varianti di pacchetto per livello march e mostrava nomi errati.</p>
+        <p xml:lang="ro">Corectat fila Kerneluri Soplos care nu detecta variantele de pachete dupa nivelul march si afisa nume incorecte.</p>
+        <p xml:lang="ru">Исправлена вкладка «Ядра Soplos»: теперь корректно определяет варианты пакетов по уровню march и отображает правильные названия.</p>
+        <ul>
+          <li>Fixed package filter regex to accept march-level suffixes (v1–v4)</li>
+          <li>Fixed display name for march-level packages: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+          <li xml:lang="es">Corregido regex del filtro de paquetes para aceptar sufijos de nivel march (v1–v4)</li>
+          <li xml:lang="es">Corregido nombre de paquetes con nivel march: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+          <li xml:lang="fr">Correction du regex du filtre de paquets pour accepter les suffixes de niveau march (v1–v4)</li>
+          <li xml:lang="fr">Correction du nom des paquets avec niveau march: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+          <li xml:lang="de">Behoben: Paketfilter-Regex akzeptiert jetzt March-Level-Suffixe (v1–v4)</li>
+          <li xml:lang="de">Behoben: Anzeigename für March-Level-Pakete: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+          <li xml:lang="pt">Corrigido regex do filtro de pacotes para aceitar sufixos de nível march (v1–v4)</li>
+          <li xml:lang="pt">Corrigido nome de pacotes com nível march: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+          <li xml:lang="it">Corretto regex del filtro pacchetti per accettare suffissi di livello march (v1–v4)</li>
+          <li xml:lang="it">Corretto nome dei pacchetti con livello march: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+          <li xml:lang="ro">Corectat regex filtru pachete pentru a accepta sufixe de nivel march (v1–v4)</li>
+          <li xml:lang="ro">Corectat numele pachetelor cu nivel march: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+          <li xml:lang="ru">Исправлен regex фильтра пакетов для поддержки суффиксов уровня march (v1–v4)</li>
+          <li xml:lang="ru">Исправлены отображаемые имена пакетов с уровнем march: linux-soplos-v3 → "Stock V3", linux-soplos-bore-v3 → "BORE V3"</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.1" date="2026-07-16">
+      <description>
+        <p>Added x86-64 microarchitecture level selector in Stock mode, original X3D VCache scheduler patch for AMD Ryzen X3D processors, auto-generated kernel name in Stock mode, and a wiki info button in the Soplos Kernels tab.</p>
+        <p xml:lang="es">Añadido selector de nivel de arquitectura x86-64 en modo Stock, parche original del planificador X3D VCache para procesadores AMD Ryzen X3D, nombre de kernel autogenerado en modo Stock y botón de información wiki en la pestaña Kernels Soplos.</p>
+        <p xml:lang="fr">Ajout d'un sélecteur de niveau d'architecture x86-64 en mode Stock, d'un patch planificateur X3D VCache original pour les processeurs AMD Ryzen X3D, d'un nom de noyau généré automatiquement en mode Stock et d'un bouton d'information wiki dans l'onglet Noyaux Soplos.</p>
+        <p xml:lang="de">Hinzugefügt: x86-64-Architekturebene-Auswahl im Stock-Modus, originaler X3D-VCache-Scheduler-Patch für AMD-Ryzen-X3D-Prozessoren, automatisch generierter Kernel-Name im Stock-Modus und Wiki-Informationsschaltfläche im Tab Soplos-Kernel.</p>
+        <p xml:lang="pt">Adicionado seletor de nível de arquitetura x86-64 no modo Stock, patch original do escalonador X3D VCache para processadores AMD Ryzen X3D, nome de kernel gerado automaticamente no modo Stock e botão de informação wiki no separador Kernels Soplos.</p>
+        <p xml:lang="it">Aggiunto selettore del livello di architettura x86-64 in modalità Stock, patch originale dello scheduler X3D VCache per processori AMD Ryzen X3D, nome del kernel generato automaticamente in modalità Stock e pulsante informazioni wiki nella scheda Kernel Soplos.</p>
+        <p xml:lang="ro">Adaugat selector de nivel de arhitectura x86-64 in modul Stock, patch original de planificator X3D VCache pentru procesoare AMD Ryzen X3D, nume de kernel generat automat in modul Stock si buton de informatii wiki in fila Kerneluri Soplos.</p>
+        <p xml:lang="ru">Добавлены: выбор уровня архитектуры x86-64 в режиме Stock, оригинальный патч планировщика X3D VCache для процессоров AMD Ryzen X3D, автогенерация имени ядра в режиме Stock и кнопка информации о вики во вкладке «Ядра Soplos».</p>
+        <ul>
+          <li>Added x86-64 march level selector in Stock mode (v1 Generic / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li>Added X3D VCache scheduler patch for AMD Ryzen X3D dual-CCD processors (Stock mode only)</li>
+          <li>Added auto-generated kernel name in Stock mode based on patches and march level</li>
+          <li>Added wiki info button in Soplos Kernels tab linking to CPU Compatibility guide</li>
+          <li xml:lang="es">Añadido selector de nivel march x86-64 en modo Stock (v1 Genérico / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li xml:lang="es">Añadido parche del planificador X3D VCache para procesadores AMD Ryzen X3D de doble CCD (solo modo Stock)</li>
+          <li xml:lang="es">Añadido nombre de kernel autogenerado en modo Stock según parches y nivel march</li>
+          <li xml:lang="es">Añadido botón de información wiki en la pestaña Kernels Soplos con enlace a la guía de compatibilidad de CPU</li>
+          <li xml:lang="fr">Ajout du sélecteur de niveau march x86-64 en mode Stock (v1 Générique / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li xml:lang="fr">Ajout du patch planificateur X3D VCache pour processeurs AMD Ryzen X3D double CCD (mode Stock uniquement)</li>
+          <li xml:lang="fr">Ajout du nom de noyau généré automatiquement en mode Stock selon les patches et le niveau march</li>
+          <li xml:lang="fr">Ajout du bouton d'information wiki dans l'onglet Noyaux Soplos avec lien vers le guide de compatibilité CPU</li>
+          <li xml:lang="de">Hinzugefügt: x86-64-March-Ebene-Auswahl im Stock-Modus (v1 Generisch / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li xml:lang="de">Hinzugefügt: X3D-VCache-Scheduler-Patch für AMD-Ryzen-X3D-Dual-CCD-Prozessoren (nur Stock-Modus)</li>
+          <li xml:lang="de">Hinzugefügt: Automatisch generierter Kernel-Name im Stock-Modus nach Patches und March-Ebene</li>
+          <li xml:lang="de">Hinzugefügt: Wiki-Informationsschaltfläche im Tab Soplos-Kernel mit Link zur CPU-Kompatibilitätsanleitung</li>
+          <li xml:lang="pt">Adicionado seletor de nível march x86-64 no modo Stock (v1 Genérico / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li xml:lang="pt">Adicionado patch do escalonador X3D VCache para processadores AMD Ryzen X3D de CCD duplo (apenas modo Stock)</li>
+          <li xml:lang="pt">Adicionado nome de kernel gerado automaticamente no modo Stock conforme patches e nível march</li>
+          <li xml:lang="pt">Adicionado botão de informação wiki no separador Kernels Soplos com ligação ao guia de compatibilidade de CPU</li>
+          <li xml:lang="it">Aggiunto selettore del livello march x86-64 in modalità Stock (v1 Generico / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li xml:lang="it">Aggiunto patch dello scheduler X3D VCache per processori AMD Ryzen X3D dual CCD (solo modalità Stock)</li>
+          <li xml:lang="it">Aggiunto nome del kernel generato automaticamente in modalità Stock in base a patch e livello march</li>
+          <li xml:lang="it">Aggiunto pulsante informazioni wiki nella scheda Kernel Soplos con collegamento alla guida di compatibilità CPU</li>
+          <li xml:lang="ro">Adaugat selector de nivel march x86-64 in modul Stock (v1 Generic / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li xml:lang="ro">Adaugat patch de planificator X3D VCache pentru procesoare AMD Ryzen X3D cu CCD dual (numai modul Stock)</li>
+          <li xml:lang="ro">Adaugat nume de kernel generat automat in modul Stock in functie de patch-uri si nivelul march</li>
+          <li xml:lang="ro">Adaugat buton de informatii wiki in fila Kerneluri Soplos cu link catre ghidul de compatibilitate CPU</li>
+          <li xml:lang="ru">Добавлен выбор уровня march x86-64 в режиме Stock (v1 Универсальный / v2 SSE4.2+ / v3 AVX2+ / v4 AVX-512)</li>
+          <li xml:lang="ru">Добавлен патч планировщика X3D VCache для процессоров AMD Ryzen X3D с двумя CCD (только режим Stock)</li>
+          <li xml:lang="ru">Добавлена автогенерация имени ядра в режиме Stock на основе патчей и уровня march</li>
+          <li xml:lang="ru">Добавлена кнопка информации о вики во вкладке «Ядра Soplos» со ссылкой на руководство по совместимости CPU</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.0-4" date="2026-06-02">
+      <description>
+        <p>Fixed NVIDIA DKMS build failures when installing pre-built Soplos kernels on systems with NVIDIA drivers. The VMA compatibility patch is now applied before installation in the Soplos Kernels tab.</p>
+        <p xml:lang="es">Corregidos los fallos de compilación DKMS de NVIDIA al instalar kernels Soplos precompilados en sistemas con controladores NVIDIA. El parche de compatibilidad VMA ahora se aplica antes de la instalación en la pestaña Kernels Soplos.</p>
+        <p xml:lang="fr">Correction des échecs de compilation DKMS NVIDIA lors de l'installation de noyaux Soplos précompilés sur des systèmes avec des pilotes NVIDIA. Le patch de compatibilité VMA est maintenant appliqué avant l'installation dans l'onglet Noyaux Soplos.</p>
+        <p xml:lang="de">Behoben: NVIDIA DKMS-Build-Fehler beim Installieren vorkompilierter Soplos-Kernel auf Systemen mit NVIDIA-Treibern. Der VMA-Kompatibilitätspatch wird jetzt vor der Installation im Tab Soplos-Kernel angewendet.</p>
+        <p xml:lang="pt">Corrigidas falhas de compilação DKMS da NVIDIA ao instalar kernels Soplos pré-compilados em sistemas com controladores NVIDIA. O patch de compatibilidade VMA agora é aplicado antes da instalação no separador Kernels Soplos.</p>
+        <p xml:lang="it">Corretti i guasti di compilazione DKMS NVIDIA durante l'installazione di kernel Soplos precompilati su sistemi con driver NVIDIA. Il patch di compatibilità VMA viene ora applicato prima dell'installazione nella scheda Kernel Soplos.</p>
+        <p xml:lang="ro">Corectate erorile de compilare DKMS NVIDIA la instalarea kernelurilor Soplos precompilate pe sisteme cu drivere NVIDIA. Patch-ul de compatibilitate VMA este acum aplicat inainte de instalare in fila Kerneluri Soplos.</p>
+        <p xml:lang="ru">Исправлены сбои компиляции DKMS NVIDIA при установке предсобранных ядер Soplos на системах с драйверами NVIDIA. Патч совместимости VMA теперь применяется перед установкой во вкладке Ядра Soplos.</p>
+        <ul>
+          <li>Fixed NVIDIA DKMS patch not applied when installing pre-built Soplos kernels from repository tab</li>
+          <li>Fixed NVIDIA VMA patch using --fuzz=5 to cover 580 and 590 driver versions</li>
+          <li xml:lang="es">Corregido parche DKMS NVIDIA no aplicado al instalar kernels Soplos precompilados desde la pestana del repositorio</li>
+          <li xml:lang="es">Corregido parche VMA NVIDIA usando --fuzz=5 para cubrir versiones de driver 580 y 590</li>
+          <li xml:lang="fr">Correction du patch DKMS NVIDIA non applique lors de l'installation de noyaux Soplos precompiles depuis l'onglet depot</li>
+          <li xml:lang="fr">Correction du patch VMA NVIDIA avec --fuzz=5 pour couvrir les versions de pilote 580 et 590</li>
+          <li xml:lang="de">Behoben: NVIDIA DKMS-Patch nicht angewendet beim Installieren vorkompilierter Soplos-Kernel aus dem Repository-Tab</li>
+          <li xml:lang="de">Behoben: NVIDIA VMA-Patch mit --fuzz=5 fur 580- und 590-Treiberversionen</li>
+          <li xml:lang="pt">Corrigido patch DKMS NVIDIA nao aplicado ao instalar kernels Soplos precompilados do separador repositorio</li>
+          <li xml:lang="pt">Corrigido patch VMA NVIDIA com --fuzz=5 para versoes de driver 580 e 590</li>
+          <li xml:lang="it">Corretto patch DKMS NVIDIA non applicato durante l'installazione di kernel Soplos precompilati dalla scheda repository</li>
+          <li xml:lang="it">Corretto patch VMA NVIDIA con --fuzz=5 per le versioni driver 580 e 590</li>
+          <li xml:lang="ro">Corectat patch DKMS NVIDIA neaplicat la instalarea kernelurilor Soplos precompilate din fila depozit</li>
+          <li xml:lang="ro">Corectat patch VMA NVIDIA cu --fuzz=5 pentru versiunile de driver 580 si 590</li>
+          <li xml:lang="ru">Исправлен патч DKMS NVIDIA, не применявшийся при установке предсобранных ядер Soplos из вкладки репозитория</li>
+          <li xml:lang="ru">Исправлен патч VMA NVIDIA с --fuzz=5 для версий драйвера 580 и 590</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.0-3" date="2026-06-02">
+      <description>
+        <p>Fixed the Update button appearing incorrectly after updating a kernel, when the old vmlinuz was still present in /boot before reboot.</p>
+        <p xml:lang="es">Corregido el botón Actualizar que aparecía incorrectamente tras actualizar un kernel, cuando el vmlinuz antiguo aún estaba en /boot antes de reiniciar.</p>
+        <p xml:lang="fr">Correction du bouton Mettre à jour qui apparaissait incorrectement après la mise à jour d'un noyau, lorsque l'ancien vmlinuz était encore présent dans /boot avant le redémarrage.</p>
+        <p xml:lang="de">Behoben: Schaltfläche Aktualisieren erschien nach einem Kernel-Update fälschlicherweise, wenn der alte vmlinuz noch vor dem Neustart in /boot vorhanden war.</p>
+        <p xml:lang="pt">Corrigido o botão Atualizar que aparecia incorretamente após atualizar um kernel, quando o vmlinuz antigo ainda estava presente em /boot antes de reiniciar.</p>
+        <p xml:lang="it">Corretto il pulsante Aggiorna che appariva erroneamente dopo l'aggiornamento di un kernel, quando il vecchio vmlinuz era ancora presente in /boot prima del riavvio.</p>
+        <p xml:lang="ro">Corectat butonul Actualizare care aparea incorect dupa actualizarea unui kernel, cand vechiul vmlinuz era inca prezent in /boot inainte de repornire.</p>
+        <p xml:lang="ru">Исправлена кнопка «Обновить», появлявшаяся ошибочно после обновления ядра, когда старый vmlinuz ещё присутствовал в /boot до перезагрузки.</p>
+        <ul>
+          <li>Fixed Update button shown incorrectly after updating a kernel before reboot</li>
+          <li xml:lang="es">Corregido boton Actualizar mostrado incorrectamente tras actualizar un kernel antes de reiniciar</li>
+          <li xml:lang="fr">Correction du bouton Mettre a jour affiche incorrectement apres mise a jour avant redemarrage</li>
+          <li xml:lang="de">Behoben: Schaltflache Aktualisieren nach Kernel-Update vor Neustart falschlich angezeigt</li>
+          <li xml:lang="pt">Corrigido botao Atualizar exibido incorretamente apos atualizar kernel antes de reiniciar</li>
+          <li xml:lang="it">Corretto pulsante Aggiorna mostrato erroneamente dopo aggiornamento kernel prima del riavvio</li>
+          <li xml:lang="ro">Corectat butonul Actualizare afisat incorect dupa actualizarea kernelului inainte de repornire</li>
+          <li xml:lang="ru">Исправлена кнопка Обновить, ошибочно отображавшаяся после обновления ядра до перезагрузки</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.0-2" date="2026-06-02">
+      <description>
+        <p>Fixed the Update button not appearing in the Soplos Kernels tab when a newer version was available, fixed stale package data after actions, and fixed apt-cache output parsing on non-English systems.</p>
+        <p xml:lang="es">Corregido el botón Actualizar que no aparecía en la pestaña Kernels Soplos cuando había una versión más reciente disponible, corregidos los datos desactualizados tras acciones, y corregido el análisis de la salida de apt-cache en sistemas no ingleses.</p>
+        <p xml:lang="fr">Correction du bouton Mettre à jour absent dans l'onglet Noyaux Soplos, correction des données obsolètes après actions, et correction de l'analyse de la sortie apt-cache sur les systèmes non anglophones.</p>
+        <p xml:lang="de">Behoben: Schaltfläche Aktualisieren fehlte im Tab Soplos-Kernel; veraltete Paketdaten nach Aktionen; apt-cache-Ausgabe auf nicht-englischen Systemen wurde nicht korrekt ausgewertet.</p>
+        <p xml:lang="pt">Corrigido o botão Atualizar ausente na aba Kernels Soplos, corrigidos dados desatualizados após ações, e corrigida a análise da saída do apt-cache em sistemas não ingleses.</p>
+        <p xml:lang="it">Corretto il pulsante Aggiorna assente nella scheda Kernel Soplos, corretti dati non aggiornati dopo le azioni, e corretta l'analisi dell'output di apt-cache su sistemi non in inglese.</p>
+        <p xml:lang="ro">Corectat butonul Actualizare absent in fila Kerneluri Soplos, corectate datele expirate dupa actiuni si corectata analiza rezultatelor apt-cache pe sisteme non-engleze.</p>
+        <p xml:lang="ru">Исправлена отсутствующая кнопка «Обновить» во вкладке Ядра Soplos, устаревшие данные после действий и разбор вывода apt-cache на не-английских системах.</p>
+        <ul>
+          <li>Fixed Update button not appearing when a newer kernel version was available in the repository</li>
+          <li>Fixed stale package list after install, update or remove actions in Soplos Kernels tab</li>
+          <li>Fixed apt-cache policy and show output parsing on non-English systems by forcing LC_ALL=C</li>
+          <li xml:lang="es">Corregido el boton Actualizar que no aparecia cuando habia una version mas reciente en el repositorio</li>
+          <li xml:lang="es">Corregida la lista de paquetes desactualizada tras acciones de instalar, actualizar o eliminar</li>
+          <li xml:lang="es">Corregido el analisis de la salida de apt-cache en sistemas en espanol forzando LC_ALL=C</li>
+          <li xml:lang="fr">Correction du bouton Mettre a jour absent quand une version plus recente etait disponible</li>
+          <li xml:lang="fr">Correction de la liste de paquets obsolete apres installation, mise a jour ou suppression</li>
+          <li xml:lang="fr">Correction de l'analyse de la sortie apt-cache sur les systemes non anglophones via LC_ALL=C</li>
+          <li xml:lang="de">Behoben: Schaltflache Aktualisieren fehlte bei verfugbarer neuerer Version</li>
+          <li xml:lang="de">Behoben: Veraltete Paketliste nach Aktionen im Tab Soplos-Kernel</li>
+          <li xml:lang="de">Behoben: apt-cache-Ausgabe auf nicht-englischen Systemen durch Erzwingen von LC_ALL=C</li>
+          <li xml:lang="pt">Corrigido botao Atualizar ausente quando havia versao mais recente disponivel</li>
+          <li xml:lang="pt">Corrigida lista de pacotes desatualizada apos acoes de instalar, atualizar ou remover</li>
+          <li xml:lang="pt">Corrigida analise da saida apt-cache em sistemas nao ingleses com LC_ALL=C</li>
+          <li xml:lang="it">Corretto pulsante Aggiorna assente quando disponibile versione piu recente</li>
+          <li xml:lang="it">Corretta lista pacchetti non aggiornata dopo azioni nella scheda Kernel Soplos</li>
+          <li xml:lang="it">Corretta analisi output apt-cache su sistemi non inglesi tramite LC_ALL=C</li>
+          <li xml:lang="ro">Corectat butonul Actualizare absent cand era disponibila o versiune mai noua</li>
+          <li xml:lang="ro">Corectata lista de pachete expirata dupa actiuni in fila Kerneluri Soplos</li>
+          <li xml:lang="ro">Corectata analiza rezultatelor apt-cache pe sisteme non-engleze prin LC_ALL=C</li>
+          <li xml:lang="ru">Исправлена кнопка Обновить, отсутствовавшая при наличии более новой версии</li>
+          <li xml:lang="ru">Исправлен устаревший список пакетов после действий во вкладке Ядра Soplos</li>
+          <li xml:lang="ru">Исправлен разбор вывода apt-cache на не-английских системах через LC_ALL=C</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.0-1" date="2026-06-02">
+      <description>
+        <p>Added a "Remove repository" button in the Soplos Kernels tab to remove the repository source and its GPG key without affecting already installed kernels.</p>
+        <p xml:lang="es">Se ha añadido un botón "Eliminar repositorio" en la pestaña Soplos Kernels para eliminar la fuente del repositorio y su clave GPG sin afectar a los kernels ya instalados.</p>
+        <p xml:lang="fr">Ajout d'un bouton « Supprimer le dépôt » dans l'onglet Soplos Kernels pour supprimer la source du dépôt et sa clé GPG sans affecter les noyaux déjà installés.</p>
+        <p xml:lang="de">Schaltfläche „Repository entfernen" im Tab Soplos Kernels hinzugefügt — entfernt die Repository-Quelle und den GPG-Schlüssel, ohne bereits installierte Kernel zu beeinflussen.</p>
+        <p xml:lang="pt">Adicionado um botão "Remover repositório" no separador Soplos Kernels para remover a fonte do repositório e a sua chave GPG sem afetar os kernels já instalados.</p>
+        <p xml:lang="it">Aggiunto il pulsante "Rimuovi repository" nella scheda Soplos Kernels per rimuovere la sorgente del repository e la sua chiave GPG senza influire sui kernel già installati.</p>
+        <p xml:lang="ro">Adăugat butonul „Elimină depozitul" în fila Soplos Kernels pentru a elimina sursa depozitului și cheia GPG fără a afecta kernelurile deja instalate.</p>
+        <p xml:lang="ru">Добавлена кнопка «Удалить репозиторий» во вкладке Soplos Kernels для удаления источника репозитория и его GPG-ключа без затрагивания уже установленных ядер.</p>
+        <ul>
+          <li>Added "Remove repository" button in Soplos Kernels tab</li>
+          <li xml:lang="es">Añadido botón "Eliminar repositorio" en la pestaña Soplos Kernels</li>
+          <li xml:lang="fr">Ajout du bouton « Supprimer le dépôt » dans l'onglet Soplos Kernels</li>
+          <li xml:lang="de">Schaltfläche „Repository entfernen" im Tab Soplos Kernels hinzugefügt</li>
+          <li xml:lang="pt">Adicionado botão "Remover repositório" no separador Soplos Kernels</li>
+          <li xml:lang="it">Aggiunto pulsante "Rimuovi repository" nella scheda Soplos Kernels</li>
+          <li xml:lang="ro">Adăugat butonul „Elimină depozitul" în fila Soplos Kernels</li>
+          <li xml:lang="ru">Добавлена кнопка «Удалить репозиторий» во вкладке Soplos Kernels</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.0" date="2026-04-05">
+      <description>
+        <p>Initial release of Soplos Kernel Installer with comprehensive kernel management features including PREEMPT_RT integration, source reuse, and Secure Boot support.</p>
+        <p xml:lang="es">Lanzamiento inicial del Instalador de Kernel Soplos con funciones completas de gestión de kernels, incluyendo integración de PREEMPT_RT, reutilización de código fuente y soporte para Secure Boot.</p>
+        <p xml:lang="fr">Sortie initiale de l'Installateur de Kernel Soplos avec des fonctionnalités complètes de gestion des noyaux, y compris l'intégration de PREEMPT_RT, la réutilisation du code source et le support Secure Boot.</p>
+        <p xml:lang="de">Erstveröffentlichung des Soplos Kernel-Installers mit umfassenden Kernel-Verwaltungsfunktionen, einschließlich PREEMPT_RT-Integration, Quellcode-Wiederverwendung und Secure Boot-Unterstützung.</p>
+        <p xml:lang="pt">Lançamento inicial do Instalador de Kernel Soplos com recursos abrangentes de gerenciamento de kernel, incluindo integração PREEMPT_RT, reutilização de código-fonte e suporte a Secure Boot.</p>
+        <p xml:lang="it">Rilascio iniziale dell'Installatore Kernel Soplos con funzionalità complete di gestione del kernel, inclusa l'integrazione PREEMPT_RT, il riutilizzo del sorgente e il supporto Secure Boot.</p>
+        <p xml:lang="ro">Versiunea inițială a Instalatorului de Kernel Soplos cu funcții complete de gestionare a nucleelor, inclusiv integrarea PREEMPT_RT, reutilizarea sursei și suportul Secure Boot.</p>
+        <p xml:lang="ru">Первоначальный выпуск Установщика ядра Soplos с комплексными функциями управления ядрами, включая интеграцию PREEMPT_RT, повторное использование исходного кода и поддержку Secure Boot.</p>
+        <ul>
+          <li>Download kernels from stable, LTS, RC and Soplos featured channels</li>
+          <li>BORE, PREEMPT_RT, Zen and NTSYNC patch support from original sources</li>
+          <li>Gaming, Audio/Video, Minimal and Hardware Optimized profiles</li>
+          <li>Source reuse for faster recompilation with patch conflict detection</li>
+          <li>Expandable installation history with automatic kernel tagging</li>
+          <li>Secure Boot MOK signing with NVIDIA DKMS support</li>
+          <li>Automatic NVIDIA VMA API patch for kernel 7.0+ compatibility</li>
+          <li>DKMS MOK key enrollment prompt after installation when NVIDIA GPU detected — fixes NVENC and CUDA with Secure Boot</li>
+          <li>Option to save compiled .deb packages before build directory cleanup</li>
+          <li>MOK key storage path shown in key management dialog</li>
+          <li>Fixed all kernel profile compilation bugs (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li>Fixed GPU detection to avoid false positives from AMD CPU lines</li>
+          <li>Build directory cleanup checkbox now works correctly</li>
+          <li>EOL kernels from kernel.org now shown as "(EOL)" with a warning — previously hidden from the list</li>
+          <li>Mainline kernels (e.g. 7.0) no longer incorrectly shown as "(latest)"</li>
+          <li>Complete internationalization for 8 languages</li>
+          <li>Fixed MOK password shell injection — password safely escaped with shlex.quote()</li>
+          <li>Fixed install button allowing duplicate builds — now disabled on first click</li>
+          <li>Custom kernel name validated against allowed characters before install</li>
+          <li>remove_kernel() validates release string before building shell commands</li>
+          <li>Hidden "Soplos Stock" profile (Ctrl+Shift+D) for distributing vanilla kernels across all Soplos distributions</li>
+          <li>MOK dialog now explains the DKMS automatic rebuild cycle on each new kernel install</li>
+          <li>Second make olddefconfig pass after profile options — prevents interactive config prompts mid-build</li>
+          <li>9 missing i18n strings completed in all 8 languages</li>
+
+          <li xml:lang="es">Descarga kernels de canales stable, LTS, RC y Soplos featured</li>
+          <li xml:lang="es">Soporte de parches BORE, PREEMPT_RT, Zen y NTSYNC desde fuentes originales</li>
+          <li xml:lang="es">Perfiles optimizados para Gaming, Audio/Video, Oficina y Hardware</li>
+          <li xml:lang="es">Reutilización de fuentes para compilación rápida con detección de conflictos</li>
+          <li xml:lang="es">Historial de instalación expandible con etiquetado automático de kernels</li>
+          <li xml:lang="es">Firma MOK de Secure Boot con soporte para NVIDIA DKMS</li>
+          <li xml:lang="es">Parche VMA automático de NVIDIA para compatibilidad con kernel 7.0+</li>
+          <li xml:lang="es">Enroll automático de clave DKMS MOK tras instalación con GPU NVIDIA — soluciona NVENC y CUDA con Secure Boot</li>
+          <li xml:lang="es">Opción para guardar los paquetes .deb compilados antes de limpiar el directorio de build</li>
+          <li xml:lang="es">Ruta de almacenamiento de claves MOK visible en el diálogo de gestión</li>
+          <li xml:lang="es">Corregidos todos los bugs de compilación de perfiles de kernel (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li xml:lang="es">Corregida la detección de GPU para evitar falsos positivos por líneas de CPU AMD</li>
+          <li xml:lang="es">El checkbox de limpieza del directorio de build ahora funciona correctamente</li>
+          <li xml:lang="es">Los kernels EOL de kernel.org ahora aparecen como "(EOL)" con aviso — antes no se mostraban</li>
+          <li xml:lang="es">Los kernels mainline (p.ej. 7.0) ya no se muestran incorrectamente como "(último)"</li>
+          <li xml:lang="es">Internacionalización completa para 8 idiomas</li>
+          <li xml:lang="es">Inyección de contraseña MOK corregida — contraseña escapada de forma segura</li>
+          <li xml:lang="es">El botón de instalación se desactiva al primer clic para evitar builds duplicados</li>
+          <li xml:lang="es">El nombre del kernel se valida antes de instalar</li>
+          <li xml:lang="es">Perfil oculto "Soplos Stock" (Ctrl+Mayús+D) para distribuir kernels vanilla en todas las distribuciones Soplos</li>
+          <li xml:lang="es">El diálogo MOK explica ahora el ciclo de reconstrucción automática de DKMS en cada nuevo kernel</li>
+          <li xml:lang="es">Segunda pasada de make olddefconfig tras aplicar opciones de perfil — evita prompts interactivos durante el build</li>
+          <li xml:lang="es">9 cadenas i18n faltantes completadas en los 8 idiomas</li>
+
+          <li xml:lang="fr">Téléchargez des noyaux à partir des canaux stable, LTS, RC et Soplos</li>
+          <li xml:lang="fr">Support des patchs BORE, PREEMPT_RT, Zen et NTSYNC à partir des sources originales</li>
+          <li xml:lang="fr">Profils optimisés pour le jeu, l'audio/vidéo, le bureau et le matériel</li>
+          <li xml:lang="fr">Réutilisation des sources pour une recompilation plus rapide avec détection des conflits</li>
+          <li xml:lang="fr">Historique d'installation extensible avec étiquetage automatique des noyaux</li>
+          <li xml:lang="fr">Signature Secure Boot MOK avec support NVIDIA DKMS</li>
+          <li xml:lang="fr">Patch VMA automatique NVIDIA pour la compatibilité avec le noyau 7.0+</li>
+          <li xml:lang="fr">Enrôlement automatique de la clé DKMS MOK après installation avec GPU NVIDIA — corrige NVENC et CUDA avec Secure Boot</li>
+          <li xml:lang="fr">Option pour sauvegarder les paquets .deb compilés avant la suppression du répertoire de build</li>
+          <li xml:lang="fr">Chemin de stockage des clés MOK visible dans le dialogue de gestion</li>
+          <li xml:lang="fr">Correction de tous les bugs de compilation des profils noyau (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li xml:lang="fr">Détection GPU corrigée pour éviter les faux positifs des lignes CPU AMD</li>
+          <li xml:lang="fr">La case à cocher de nettoyage du répertoire de build fonctionne désormais correctement</li>
+          <li xml:lang="fr">Les noyaux EOL de kernel.org s'affichent désormais en "(EOL)" avec un avertissement — auparavant masqués</li>
+          <li xml:lang="fr">Les noyaux mainline (ex. 7.0) ne s'affichent plus incorrectement comme "(dernier)"</li>
+          <li xml:lang="fr">Internationalisation complète pour 8 langues</li>
+          <li xml:lang="fr">Injection de mot de passe MOK corrigée — mot de passe échappé de manière sécurisée</li>
+          <li xml:lang="fr">Le bouton d'installation est désactivé au premier clic pour éviter les builds en double</li>
+          <li xml:lang="fr">Le nom du noyau est validé avant l'installation</li>
+          <li xml:lang="fr">Profil caché "Soplos Stock" (Ctrl+Maj+D) pour distribuer des noyaux vanilla sur toutes les distributions Soplos</li>
+          <li xml:lang="fr">Le dialogue MOK explique désormais le cycle de reconstruction automatique DKMS à chaque nouveau noyau</li>
+          <li xml:lang="fr">Deuxième passe make olddefconfig après les options de profil — évite les prompts interactifs pendant le build</li>
+          <li xml:lang="fr">9 chaînes i18n manquantes complétées dans les 8 langues</li>
+
+          <li xml:lang="de">Kernel von stabilen, LTS, RC und Soplos Featured-Kanälen herunterladen</li>
+          <li xml:lang="de">BORE-, PREEMPT_RT-, Zen- und NTSYNC-Patch-Unterstützung von Originalquellen</li>
+          <li xml:lang="de">Gaming-, Audio/Video-, Minimal- und Hardware-optimierte Profile</li>
+          <li xml:lang="de">Quellcode-Wiederverwendung für schnellere Rekompilierung mit Patch-Konflikterkennung</li>
+          <li xml:lang="de">Erweiterbarer Installationsverlauf mit automatischer Kernel-Kennzeichnung</li>
+          <li xml:lang="de">Secure Boot MOK-Signierung mit NVIDIA DKMS-Unterstützung</li>
+          <li xml:lang="de">Automatischer NVIDIA VMA-Patch für Kernel 7.0+-Kompatibilität</li>
+          <li xml:lang="de">Automatische DKMS MOK-Schlüsselregistrierung nach der Installation mit NVIDIA GPU — behebt NVENC und CUDA mit Secure Boot</li>
+          <li xml:lang="de">Option zum Speichern kompilierter .deb-Pakete vor der Build-Verzeichnisbereinigung</li>
+          <li xml:lang="de">MOK-Schlüssel-Speicherpfad im Schlüsselverwaltungsdialog sichtbar</li>
+          <li xml:lang="de">Alle Kernel-Profil-Kompilierungsfehler behoben (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li xml:lang="de">GPU-Erkennung korrigiert, um Falschmeldungen durch AMD-CPU-Zeilen zu vermeiden</li>
+          <li xml:lang="de">Kontrollkästchen zur Build-Verzeichnisbereinigung funktioniert jetzt korrekt</li>
+          <li xml:lang="de">EOL-Kernel von kernel.org werden jetzt als "(EOL)" mit Warnung angezeigt — vorher ausgeblendet</li>
+          <li xml:lang="de">Mainline-Kernel (z.B. 7.0) werden nicht mehr fälschlicherweise als "(neueste)" angezeigt</li>
+          <li xml:lang="de">Vollständige Internationalisierung für 8 Sprachen</li>
+          <li xml:lang="de">MOK-Passwort-Injektion behoben — Passwort wird sicher maskiert</li>
+          <li xml:lang="de">Installationsschaltfläche beim ersten Klick deaktiviert, um doppelte Builds zu verhindern</li>
+          <li xml:lang="de">Kernel-Name wird vor der Installation validiert</li>
+          <li xml:lang="de">Verstecktes "Soplos Stock"-Profil (Strg+Umsch+D) zur Verteilung von Vanilla-Kerneln auf allen Soplos-Distributionen</li>
+          <li xml:lang="de">MOK-Dialog erklärt jetzt den automatischen DKMS-Neuerstellungszyklus bei jedem neuen Kernel</li>
+          <li xml:lang="de">Zweiter make olddefconfig-Durchlauf nach Profiloptionen — verhindert interaktive Eingabeaufforderungen während des Builds</li>
+          <li xml:lang="de">9 fehlende i18n-Strings in allen 8 Sprachen vervollständigt</li>
+
+          <li xml:lang="pt">Baixe kernels de canais estáveis, LTS, RC e destaques Soplos</li>
+          <li xml:lang="pt">Suporte a patches BORE, PREEMPT_RT, Zen e NTSYNC de fontes originais</li>
+          <li xml:lang="pt">Perfis para Gaming, Áudio/Vídeo, Escritório e Otimizado para Hardware</li>
+          <li xml:lang="pt">Reutilização de fontes para recompilação rápida com detecção de conflitos</li>
+          <li xml:lang="pt">Histórico de instalação expansível com marcação automática de kernel</li>
+          <li xml:lang="pt">Assinatura Secure Boot MOK com suporte NVIDIA DKMS</li>
+          <li xml:lang="pt">Patch VMA automático da NVIDIA para compatibilidade com kernel 7.0+</li>
+          <li xml:lang="pt">Enroll automático da chave DKMS MOK após instalação com GPU NVIDIA — corrige NVENC e CUDA com Secure Boot</li>
+          <li xml:lang="pt">Opção para salvar pacotes .deb compilados antes de limpar o diretório de build</li>
+          <li xml:lang="pt">Caminho de armazenamento das chaves MOK visível no diálogo de gestão</li>
+          <li xml:lang="pt">Corrigidos todos os bugs de compilação de perfis de kernel (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li xml:lang="pt">Detecção de GPU corrigida para evitar falsos positivos de linhas de CPU AMD</li>
+          <li xml:lang="pt">A caixa de seleção de limpeza do diretório de build agora funciona corretamente</li>
+          <li xml:lang="pt">Kernels EOL do kernel.org agora aparecem como "(EOL)" com aviso — antes estavam ocultos</li>
+          <li xml:lang="pt">Kernels mainline (ex. 7.0) não são mais exibidos incorretamente como "(mais recente)"</li>
+          <li xml:lang="pt">Internacionalização completa para 8 idiomas</li>
+          <li xml:lang="pt">Injeção de senha MOK corrigida — senha escapada de forma segura</li>
+          <li xml:lang="pt">Botão de instalação desativado no primeiro clique para evitar builds duplicados</li>
+          <li xml:lang="pt">Nome do kernel validado antes de instalar</li>
+          <li xml:lang="pt">Perfil oculto "Soplos Stock" (Ctrl+Shift+D) para distribuir kernels vanilla em todas as distribuições Soplos</li>
+          <li xml:lang="pt">Diálogo MOK agora explica o ciclo de reconstrução automática do DKMS a cada novo kernel</li>
+          <li xml:lang="pt">Segunda passagem de make olddefconfig após opções de perfil — evita prompts interativos durante o build</li>
+          <li xml:lang="pt">9 strings i18n ausentes completadas nos 8 idiomas</li>
+
+          <li xml:lang="it">Scarica i kernel dai canali stable, LTS, RC e Soplos</li>
+          <li xml:lang="it">Supporto patch BORE, PREEMPT_RT, Zen e NTSYNC dalle fonti originali</li>
+          <li xml:lang="it">Profili Gaming, Audio/Video, Minimal e Hardware Optimized</li>
+          <li xml:lang="it">Riutilizzo dei sorgenti per una ricompilazione più veloce con rilevamento dei conflitti</li>
+          <li xml:lang="it">Cronologia di installazione espandibile con tagging automatico del kernel</li>
+          <li xml:lang="it">Firma MOK di Secure Boot con supporto NVIDIA DKMS</li>
+          <li xml:lang="it">Patch VMA automatica NVIDIA per la compatibilità con kernel 7.0+</li>
+          <li xml:lang="it">Registrazione automatica della chiave DKMS MOK dopo l'installazione con GPU NVIDIA — risolve NVENC e CUDA con Secure Boot</li>
+          <li xml:lang="it">Opzione per salvare i pacchetti .deb compilati prima della pulizia della directory di build</li>
+          <li xml:lang="it">Percorso di archiviazione delle chiavi MOK visibile nella finestra di gestione</li>
+          <li xml:lang="it">Corretti tutti i bug di compilazione dei profili kernel (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li xml:lang="it">Rilevamento GPU corretto per evitare falsi positivi dalle righe CPU AMD</li>
+          <li xml:lang="it">La casella di controllo per la pulizia della directory di build ora funziona correttamente</li>
+          <li xml:lang="it">I kernel EOL di kernel.org ora mostrano "(EOL)" con avviso — prima erano nascosti</li>
+          <li xml:lang="it">I kernel mainline (es. 7.0) non vengono più visualizzati erroneamente come "(ultimo)"</li>
+          <li xml:lang="it">Internazionalizzazione completa per 8 lingue</li>
+          <li xml:lang="it">Iniezione password MOK corretta — password mascherata in modo sicuro</li>
+          <li xml:lang="it">Il pulsante di installazione è disabilitato al primo clic per evitare build duplicate</li>
+          <li xml:lang="it">Il nome del kernel viene validato prima dell'installazione</li>
+          <li xml:lang="it">Profilo nascosto "Soplos Stock" (Ctrl+Maiusc+D) per distribuire kernel vanilla su tutte le distribuzioni Soplos</li>
+          <li xml:lang="it">Il dialogo MOK spiega ora il ciclo di ricostruzione automatica DKMS ad ogni nuovo kernel</li>
+          <li xml:lang="it">Seconda passata make olddefconfig dopo le opzioni di profilo — evita prompt interattivi durante il build</li>
+          <li xml:lang="it">9 stringhe i18n mancanti completate in tutti gli 8 idiomi</li>
+
+          <li xml:lang="ro">Descărcați nuclee de pe canalele stable, LTS, RC și Soplos</li>
+          <li xml:lang="ro">Suport de patch-uri BORE, PREEMPT_RT, Zen și NTSYNC din surse originale</li>
+          <li xml:lang="ro">Profiluri pentru Jocuri, Audio/Video, Minimal și Optimizat pentru Hardware</li>
+          <li xml:lang="ro">Reutilizarea sursei pentru recompilare mai rapidă cu detectarea conflictelor</li>
+          <li xml:lang="ro">Istoric de instalare extensibil cu etichetare automată a nucleului</li>
+          <li xml:lang="ro">Semnătura Secure Boot MOK cu suport NVIDIA DKMS</li>
+          <li xml:lang="ro">Patch VMA automat NVIDIA pentru compatibilitate cu nucleul 7.0+</li>
+          <li xml:lang="ro">Înregistrare automată a cheii DKMS MOK după instalare cu GPU NVIDIA — rezolvă NVENC și CUDA cu Secure Boot</li>
+          <li xml:lang="ro">Opțiune pentru salvarea pachetelor .deb compilate înainte de ștergerea directorului de build</li>
+          <li xml:lang="ro">Calea de stocare a cheilor MOK vizibilă în dialogul de gestionare</li>
+          <li xml:lang="ro">Corectate toate erorile de compilare a profilurilor de nucleu (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li xml:lang="ro">Detectarea GPU corectată pentru a evita fals pozitivele din liniile CPU AMD</li>
+          <li xml:lang="ro">Bifa de curățare a directorului de build funcționează acum corect</li>
+          <li xml:lang="ro">Nucleele EOL de pe kernel.org apar acum ca "(EOL)" cu avertisment — anterior erau ascunse</li>
+          <li xml:lang="ro">Nucleele mainline (ex. 7.0) nu mai sunt afișate incorect ca "(cele mai recente)"</li>
+          <li xml:lang="ro">Internaționalizare completă pentru 8 limbi</li>
+          <li xml:lang="ro">Injecția parolei MOK corectată — parola mascată în siguranță</li>
+          <li xml:lang="ro">Butonul de instalare dezactivat la primul clic pentru a evita build-uri duplicate</li>
+          <li xml:lang="ro">Numele nucleului validat înainte de instalare</li>
+          <li xml:lang="ro">Profil ascuns "Soplos Stock" (Ctrl+Shift+D) pentru distribuirea nucleelor vanilla pe toate distribuțiile Soplos</li>
+          <li xml:lang="ro">Dialogul MOK explică acum ciclul de reconstruire automată DKMS la fiecare nucleu nou</li>
+          <li xml:lang="ro">A doua trecere make olddefconfig după opțiunile de profil — previne prompt-urile interactive în timpul build-ului</li>
+          <li xml:lang="ro">9 șiruri i18n lipsă completate în toate cele 8 limbi</li>
+
+          <li xml:lang="ru">Загрузка ядер из стабильных, LTS, RC и избранных каналов Soplos</li>
+          <li xml:lang="ru">Поддержка патчей BORE, PREEMPT_RT, Zen и NTSYNC из оригинальных источников</li>
+          <li xml:lang="ru">Профили для игр, Аудио/Видео, Минимальный и Оптимизированный для оборудования</li>
+          <li xml:lang="ru">Повторное использование исходников для быстрой компиляции с обнаружением конфликтов</li>
+          <li xml:lang="ru">Расширяемая история установки с автоматической маркировкой ядер</li>
+          <li xml:lang="ru">Подпись Secure Boot MOK с поддержкой NVIDIA DKMS</li>
+          <li xml:lang="ru">Автоматический патч VMA NVIDIA для совместимости с ядром 7.0+</li>
+          <li xml:lang="ru">Автоматическая регистрация ключа DKMS MOK после установки с GPU NVIDIA — исправляет NVENC и CUDA с Secure Boot</li>
+          <li xml:lang="ru">Возможность сохранить скомпилированные пакеты .deb перед очисткой директории сборки</li>
+          <li xml:lang="ru">Путь хранения ключей MOK отображается в диалоге управления ключами</li>
+          <li xml:lang="ru">Исправлены все ошибки компиляции профилей ядра (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li>
+          <li xml:lang="ru">Исправлено определение GPU для устранения ложных срабатываний от строк CPU AMD</li>
+          <li xml:lang="ru">Флажок очистки директории сборки теперь работает корректно</li>
+          <li xml:lang="ru">Ядра EOL с kernel.org теперь отображаются как "(EOL)" с предупреждением — ранее были скрыты</li>
+          <li xml:lang="ru">Ядра mainline (напр. 7.0) больше не отображаются ошибочно как "(последнее)"</li>
+          <li xml:lang="ru">Полная интернационализация на 8 языков</li>
+          <li xml:lang="ru">Исправлена инъекция пароля MOK — пароль безопасно экранируется</li>
+          <li xml:lang="ru">Кнопка установки отключается при первом нажатии во избежание дублирующих сборок</li>
+          <li xml:lang="ru">Имя ядра проверяется перед установкой</li>
+          <li xml:lang="ru">Скрытый профиль "Soplos Stock" (Ctrl+Shift+D) для распространения ванильных ядер во всех дистрибутивах Soplos</li>
+          <li xml:lang="ru">Диалог MOK теперь объясняет цикл автоматической пересборки DKMS при каждом новом ядре</li>
+          <li xml:lang="ru">Второй проход make olddefconfig после применения опций профиля — предотвращает интерактивные запросы во время сборки</li>
+          <li xml:lang="ru">9 недостающих строк i18n дополнены во всех 8 языках</li>
+
+          <li>Soplos Kernels tab — install pre-built Stock, Gaming (BORE+NTSYNC) and Real-Time (PREEMPT_RT) kernels from the official repository without compilation</li>
+          <li>Tabbed interface with Build Kernel and Soplos Kernels tabs</li>
+          <li>Persistent build history in ~/.local/share/soplos-kernel-installer/ — survives build directory cleanup</li>
+          <li>Clean compiled package naming — version no longer duplicated in filename</li>
+          <li>Fixed MOK signed kernel detection — now also physically verifies vmlinuz files</li>
+          <li>Fixed STOCK profile package naming — trailing dash removed when suffix is empty</li>
+          <li>Fixed Soplos Kernels detection via /boot filesystem check — works regardless of removal method</li>
+          <li>Fixed kernel history list refresh after Soplos Kernels tab actions</li>
+
+          <li xml:lang="es">Pestaña Soplos Kernels — instala kernels Stock, Gaming (BORE+NTSYNC) y Real-Time (PREEMPT_RT) desde el repositorio oficial sin compilar</li>
+          <li xml:lang="es">Interfaz con pestañas: Build Kernel y Soplos Kernels</li>
+          <li xml:lang="es">Historial persistente en ~/.local/share/soplos-kernel-installer/ — sobrevive a la limpieza del directorio de build</li>
+          <li xml:lang="es">Nombres de paquetes compilados limpios — la versión ya no aparece duplicada en el nombre de archivo</li>
+          <li xml:lang="es">Corrección en la detección de kernels firmados MOK — ahora verifica físicamente los archivos vmlinuz</li>
+          <li xml:lang="es">Corrección en el perfil STOCK — eliminado guion sobrante cuando el sufijo está vacío</li>
+          <li xml:lang="es">Detección de kernels Soplos mediante comprobación en /boot — funciona independientemente del método de desinstalación</li>
+          <li xml:lang="es">El historial de kernels se actualiza tras las acciones en la pestaña Soplos Kernels</li>
+
+          <li xml:lang="fr">Onglet Soplos Kernels — installe des noyaux Stock, Gaming (BORE+NTSYNC) et Real-Time (PREEMPT_RT) depuis le dépôt officiel sans compilation</li>
+          <li xml:lang="fr">Interface avec onglets : Build Kernel et Soplos Kernels</li>
+          <li xml:lang="fr">Historique persistant dans ~/.local/share/soplos-kernel-installer/ — survit au nettoyage du répertoire de build</li>
+          <li xml:lang="fr">Noms de paquets compilés propres — la version n'est plus dupliquée dans le nom de fichier</li>
+          <li xml:lang="fr">Correction de la détection des noyaux signés MOK — vérifie désormais physiquement les fichiers vmlinuz</li>
+          <li xml:lang="fr">Correction du profil STOCK — tiret superflu supprimé quand le suffixe est vide</li>
+          <li xml:lang="fr">Détection des noyaux Soplos via /boot — fonctionne quelle que soit la méthode de désinstallation</li>
+          <li xml:lang="fr">La liste de l'historique se rafraîchit après les actions dans l'onglet Soplos Kernels</li>
+
+          <li xml:lang="de">Soplos Kernels-Tab — installiert vorkompilierte Stock-, Gaming- (BORE+NTSYNC) und Real-Time-Kernel (PREEMPT_RT) aus dem offiziellen Repository ohne Kompilierung</li>
+          <li xml:lang="de">Tab-Oberfläche: Build Kernel und Soplos Kernels</li>
+          <li xml:lang="de">Persistenter Verlauf in ~/.local/share/soplos-kernel-installer/ — übersteht die Build-Verzeichnisbereinigung</li>
+          <li xml:lang="de">Saubere Paketnamen — die Version wird im Dateinamen nicht mehr dupliziert</li>
+          <li xml:lang="de">Korrektur der MOK-signierten Kernel-Erkennung — prüft jetzt physisch die vmlinuz-Dateien</li>
+          <li xml:lang="de">Korrektur des STOCK-Profils — überflüssiger Bindestrich bei leerem Suffix entfernt</li>
+          <li xml:lang="de">Soplos-Kernel-Erkennung über /boot — funktioniert unabhängig von der Deinstallationsmethode</li>
+          <li xml:lang="de">Kernel-Verlauf wird nach Aktionen im Soplos Kernels-Tab aktualisiert</li>
+
+          <li xml:lang="pt">Aba Soplos Kernels — instala kernels Stock, Gaming (BORE+NTSYNC) e Real-Time (PREEMPT_RT) do repositório oficial sem compilação</li>
+          <li xml:lang="pt">Interface com abas: Build Kernel e Soplos Kernels</li>
+          <li xml:lang="pt">Histórico persistente em ~/.local/share/soplos-kernel-installer/ — sobrevive à limpeza do diretório de build</li>
+          <li xml:lang="pt">Nomes de pacotes compilados limpos — a versão não aparece mais duplicada no nome do arquivo</li>
+          <li xml:lang="pt">Correção na detecção de kernels assinados MOK — agora verifica fisicamente os arquivos vmlinuz</li>
+          <li xml:lang="pt">Correção no perfil STOCK — hífen desnecessário removido quando o sufixo está vazio</li>
+          <li xml:lang="pt">Detecção de kernels Soplos via /boot — funciona independentemente do método de remoção</li>
+          <li xml:lang="pt">O histórico de kernels é atualizado após ações na aba Soplos Kernels</li>
+
+          <li xml:lang="it">Scheda Soplos Kernels — installa kernel Stock, Gaming (BORE+NTSYNC) e Real-Time (PREEMPT_RT) dal repository ufficiale senza compilazione</li>
+          <li xml:lang="it">Interfaccia a schede: Build Kernel e Soplos Kernels</li>
+          <li xml:lang="it">Cronologia persistente in ~/.local/share/soplos-kernel-installer/ — sopravvive alla pulizia della directory di build</li>
+          <li xml:lang="it">Nomi dei pacchetti compilati puliti — la versione non viene più duplicata nel nome del file</li>
+          <li xml:lang="it">Correzione del rilevamento dei kernel firmati MOK — ora verifica fisicamente i file vmlinuz</li>
+          <li xml:lang="it">Correzione del profilo STOCK — trattino superfluo rimosso quando il suffisso è vuoto</li>
+          <li xml:lang="it">Rilevamento dei kernel Soplos tramite /boot — funziona indipendentemente dal metodo di rimozione</li>
+          <li xml:lang="it">La cronologia dei kernel si aggiorna dopo le azioni nella scheda Soplos Kernels</li>
+
+          <li xml:lang="ro">Fila Soplos Kernels — instalează nuclee Stock, Gaming (BORE+NTSYNC) și Real-Time (PREEMPT_RT) din depozitul oficial fără compilare</li>
+          <li xml:lang="ro">Interfață cu file: Build Kernel și Soplos Kernels</li>
+          <li xml:lang="ro">Istoric persistent în ~/.local/share/soplos-kernel-installer/ — supraviețuiește curățării directorului de build</li>
+          <li xml:lang="ro">Nume de pachete compilate curate — versiunea nu mai apare duplicată în numele fișierului</li>
+          <li xml:lang="ro">Corectarea detectării nucleelor semnate MOK — verifică acum fizic fișierele vmlinuz</li>
+          <li xml:lang="ro">Corectarea profilului STOCK — linia de unire inutilă eliminată când sufixul este gol</li>
+          <li xml:lang="ro">Detectarea nucleelor Soplos prin /boot — funcționează indiferent de metoda de dezinstalare</li>
+          <li xml:lang="ro">Lista istoricului de nuclee se actualizează după acțiunile din fila Soplos Kernels</li>
+
+          <li xml:lang="ru">Вкладка Soplos Kernels — установка готовых ядер Stock, Gaming (BORE+NTSYNC) и Real-Time (PREEMPT_RT) из официального репозитория без компиляции</li>
+          <li xml:lang="ru">Интерфейс с вкладками: Build Kernel и Soplos Kernels</li>
+          <li xml:lang="ru">Постоянная история в ~/.local/share/soplos-kernel-installer/ — сохраняется после очистки директории сборки</li>
+          <li xml:lang="ru">Чистые имена скомпилированных пакетов — версия больше не дублируется в имени файла</li>
+          <li xml:lang="ru">Исправлено определение ядер с подписью MOK — теперь физически проверяет файлы vmlinuz</li>
+          <li xml:lang="ru">Исправлен профиль STOCK — лишний дефис убран при пустом суффиксе</li>
+          <li xml:lang="ru">Определение ядер Soplos через /boot — работает независимо от способа удаления</li>
+          <li xml:lang="ru">Список истории ядер обновляется после действий во вкладке Soplos Kernels</li>
+
+          <li>Dynamic Kernel List: Soplos Kernels tab reads available packages from apt-cache at runtime — new packages in the repository appear automatically</li>
+          <li>Refresh button in Soplos Kernels tab forces apt-get update and reloads the kernel list</li>
+          <li>Stock profile post-build: creates metapackage .deb and prompts to save all packages (image + headers + metapackage) to a folder — does not install the kernel</li>
+          <li>New pre-built kernel variants: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming renamed to linux-soplos-bore)</li>
+          <li>Fixed: kernel release now read from include/config/kernel.release in the source tree — correctly handles patch-injected version suffixes (e.g. zen1 from the Zen patch)</li>
+
+          <li xml:lang="es">Lista dinámica de kernels: la pestaña Soplos Kernels lee los paquetes disponibles de apt-cache en tiempo de ejecución — los nuevos paquetes del repositorio aparecen automáticamente</li>
+          <li xml:lang="es">El botón Actualizar de la pestaña Soplos Kernels fuerza apt-get update y recarga la lista de kernels</li>
+          <li xml:lang="es">Post-compilación con perfil Stock: crea el metapaquete .deb y ofrece guardar todos los paquetes (imagen + cabeceras + metapaquete) sin instalar el kernel</li>
+          <li xml:lang="es">Nuevas variantes de kernel precompilado: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming renombrado a linux-soplos-bore)</li>
+          <li xml:lang="es">Corregido: el nombre de release del kernel se lee ahora de include/config/kernel.release — maneja correctamente los sufijos de versión inyectados por parches (p.ej. zen1 del parche Zen)</li>
+
+          <li xml:lang="fr">Liste dynamique des noyaux: l'onglet Soplos Kernels lit les paquets disponibles depuis apt-cache à l'exécution — les nouveaux paquets du dépôt apparaissent automatiquement</li>
+          <li xml:lang="fr">Le bouton Actualiser de l'onglet Soplos Kernels force apt-get update et recharge la liste des noyaux</li>
+          <li xml:lang="fr">Post-compilation avec le profil Stock: crée le métapaquet .deb et propose de sauvegarder tous les paquets (image + en-têtes + métapaquet) sans installer le noyau</li>
+          <li xml:lang="fr">Nouvelles variantes de noyau précompilé: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming renommé en linux-soplos-bore)</li>
+          <li xml:lang="fr">Corrigé: le nom de release du noyau est maintenant lu depuis include/config/kernel.release — gère correctement les suffixes de version injectés par les patchs (ex. zen1 du patch Zen)</li>
+
+          <li xml:lang="de">Dynamische Kernel-Liste: Der Soplos Kernels-Tab liest verfügbare Pakete zur Laufzeit aus apt-cache — neue Pakete im Repository erscheinen automatisch</li>
+          <li xml:lang="de">Die Schaltfläche Aktualisieren im Soplos Kernels-Tab erzwingt apt-get update und lädt die Kernel-Liste neu</li>
+          <li xml:lang="de">Post-Build mit Stock-Profil: erstellt das Metapaket .deb und bietet an, alle Pakete (Image + Headers + Metapaket) in einem Ordner zu speichern — ohne den Kernel zu installieren</li>
+          <li xml:lang="de">Neue vorkompilierte Kernel-Varianten: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming in linux-soplos-bore umbenannt)</li>
+          <li xml:lang="de">Behoben: Kernel-Release-Name wird jetzt aus include/config/kernel.release gelesen — verarbeitet korrekt durch Patches injizierte Versionssuffixe (z.B. zen1 vom Zen-Patch)</li>
+
+          <li xml:lang="pt">Lista dinâmica de kernels: a aba Soplos Kernels lê os pacotes disponíveis do apt-cache em tempo de execução — novos pacotes no repositório aparecem automaticamente</li>
+          <li xml:lang="pt">O botão Atualizar da aba Soplos Kernels força apt-get update e recarrega a lista de kernels</li>
+          <li xml:lang="pt">Pós-build com o perfil Stock: cria o metapacote .deb e oferece salvar todos os pacotes (imagem + headers + metapacote) sem instalar o kernel</li>
+          <li xml:lang="pt">Novas variantes de kernel pré-compilado: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming renomeado para linux-soplos-bore)</li>
+          <li xml:lang="pt">Corrigido: o nome de release do kernel agora é lido de include/config/kernel.release — trata corretamente os sufixos de versão injetados por patches (ex. zen1 do patch Zen)</li>
+
+          <li xml:lang="it">Lista dinamica dei kernel: la scheda Soplos Kernels legge i pacchetti disponibili da apt-cache in fase di esecuzione — i nuovi pacchetti nel repository appaiono automaticamente</li>
+          <li xml:lang="it">Il pulsante Aggiorna nella scheda Soplos Kernels forza apt-get update e ricarica la lista dei kernel</li>
+          <li xml:lang="it">Post-build con il profilo Stock: crea il metapacchetto .deb e offre di salvare tutti i pacchetti (immagine + headers + metapacchetto) senza installare il kernel</li>
+          <li xml:lang="it">Nuove varianti di kernel precompilato: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming rinominato in linux-soplos-bore)</li>
+          <li xml:lang="it">Corretto: il nome di release del kernel viene ora letto da include/config/kernel.release — gestisce correttamente i suffissi di versione iniettati dai patch (es. zen1 dal patch Zen)</li>
+
+          <li xml:lang="ro">Listă dinamică de nuclee: fila Soplos Kernels citește pachetele disponibile din apt-cache la execuție — pachetele noi din depozit apar automat</li>
+          <li xml:lang="ro">Butonul Actualizare din fila Soplos Kernels forțează apt-get update și reîncarcă lista de nuclee</li>
+          <li xml:lang="ro">Post-compilare cu profilul Stock: creează metapachetul .deb și oferă salvarea tuturor pachetelor (imagine + antete + metapaket) fără a instala nucleul</li>
+          <li xml:lang="ro">Noi variante de nuclee precompilate: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming redenumit în linux-soplos-bore)</li>
+          <li xml:lang="ro">Corectat: numele de release al nucleului se citește acum din include/config/kernel.release — gestionează corect sufixele de versiune injectate de patch-uri (ex. zen1 de la patch-ul Zen)</li>
+
+          <li xml:lang="ru">Динамический список ядер: вкладка Soplos Kernels читает доступные пакеты из apt-cache в режиме реального времени — новые пакеты в репозитории появляются автоматически</li>
+          <li xml:lang="ru">Кнопка Обновить во вкладке Soplos Kernels запускает apt-get update и перезагружает список ядер</li>
+          <li xml:lang="ru">Пост-сборка с профилем Stock: создаёт метапакет .deb и предлагает сохранить все пакеты (образ + заголовки + метапакет) без установки ядра</li>
+          <li xml:lang="ru">Новые варианты готовых ядер: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming переименован в linux-soplos-bore)</li>
+          <li xml:lang="ru">Исправлено: имя релиза ядра теперь читается из include/config/kernel.release — корректно обрабатывает суффиксы версий, добавленные патчами (напр. zen1 от патча Zen)</li>
+
+          <li>Ctrl+Tab / Ctrl+Shift+Tab keyboard shortcuts to switch between tabs</li>
+          <li>Version number displayed next to each kernel name in the Soplos Kernels tab</li>
+          <li>Update button in Soplos Kernels tab — appears when a newer version is available in the repository, upgrades the metapackage and purges old kernel image and headers automatically</li>
+          <li>Fixed: Stock post-build package discovery now correctly handles patch-injected version suffixes (e.g. zen1 from the Zen patch) — image and headers are found reliably</li>
+          <li>Fixed: After updating a Soplos kernel, old image and headers packages for the same variant are purged without manual intervention</li>
+
+          <li xml:lang="es">Atajos de teclado Ctrl+Tab / Ctrl+Shift+Tab para cambiar de pestaña</li>
+          <li xml:lang="es">Versión disponible visible junto al nombre de cada kernel en la pestaña Soplos Kernels</li>
+          <li xml:lang="es">Botón Update en la pestaña Soplos Kernels — aparece cuando hay una versión más nueva en el repositorio, actualiza el metapaquete y purga automáticamente la imagen y cabeceras antiguas</li>
+          <li xml:lang="es">Corregido: la búsqueda de paquetes post-compilación Stock ahora maneja correctamente los sufijos de versión inyectados por parches (p.ej. zen1 del parche Zen)</li>
+          <li xml:lang="es">Corregido: tras actualizar un kernel Soplos, los paquetes de imagen y cabeceras del kernel anterior se purgan sin intervención manual</li>
+
+          <li xml:lang="fr">Raccourcis clavier Ctrl+Tab / Ctrl+Shift+Tab pour changer d'onglet</li>
+          <li xml:lang="fr">Version disponible affichée à côté du nom de chaque noyau dans l'onglet Soplos Kernels</li>
+          <li xml:lang="fr">Bouton Update dans l'onglet Soplos Kernels — apparaît quand une version plus récente est disponible dans le dépôt, met à jour le métapaquet et purge automatiquement l'ancienne image et les en-têtes</li>
+          <li xml:lang="fr">Corrigé: la recherche de paquets post-compilation Stock gère correctement les suffixes de version injectés par les patchs (ex. zen1 du patch Zen)</li>
+          <li xml:lang="fr">Corrigé: après la mise à jour d'un noyau Soplos, les anciens paquets image et en-têtes du même variant sont purgés sans intervention manuelle</li>
+
+          <li xml:lang="de">Tastenkürzel Ctrl+Tab / Ctrl+Shift+Tab zum Wechseln zwischen Tabs</li>
+          <li xml:lang="de">Verfügbare Version neben dem Namen jedes Kernels im Soplos Kernels-Tab angezeigt</li>
+          <li xml:lang="de">Update-Schaltfläche im Soplos Kernels-Tab — erscheint, wenn eine neuere Version im Repository verfügbar ist; aktualisiert das Metapaket und entfernt automatisch alte Kernel-Image und -Header</li>
+          <li xml:lang="de">Behoben: Die Paketsuche nach einem Stock-Build verarbeitet jetzt korrekt durch Patches injizierte Versionssuffixe (z.B. zen1 vom Zen-Patch)</li>
+          <li xml:lang="de">Behoben: Nach der Aktualisierung eines Soplos-Kernels werden alte Image- und Header-Pakete desselben Typs ohne manuelle Eingriffe bereinigt</li>
+
+          <li xml:lang="pt">Atalhos de teclado Ctrl+Tab / Ctrl+Shift+Tab para alternar entre abas</li>
+          <li xml:lang="pt">Versão disponível exibida ao lado do nome de cada kernel na aba Soplos Kernels</li>
+          <li xml:lang="pt">Botão Update na aba Soplos Kernels — aparece quando uma versão mais recente está disponível no repositório, atualiza o metapacote e purga automaticamente a imagem e headers antigos</li>
+          <li xml:lang="pt">Corrigido: a busca de pacotes pós-compilação Stock agora lida corretamente com sufixos de versão injetados por patches (ex. zen1 do patch Zen)</li>
+          <li xml:lang="pt">Corrigido: após atualizar um kernel Soplos, os pacotes de imagem e headers antigos do mesmo tipo são purgados sem intervenção manual</li>
+
+          <li xml:lang="it">Scorciatoie da tastiera Ctrl+Tab / Ctrl+Shift+Tab per passare tra le schede</li>
+          <li xml:lang="it">Versione disponibile visualizzata accanto al nome di ogni kernel nella scheda Soplos Kernels</li>
+          <li xml:lang="it">Pulsante Update nella scheda Soplos Kernels — appare quando è disponibile una versione più recente nel repository, aggiorna il metapacchetto e rimuove automaticamente immagine e header precedenti</li>
+          <li xml:lang="it">Corretto: la ricerca di pacchetti post-compilazione Stock ora gestisce correttamente i suffissi di versione iniettati dai patch (es. zen1 dal patch Zen)</li>
+          <li xml:lang="it">Corretto: dopo l'aggiornamento di un kernel Soplos, i vecchi pacchetti immagine e header dello stesso tipo vengono purgati senza intervento manuale</li>
+
+          <li xml:lang="ro">Scurtături de tastatură Ctrl+Tab / Ctrl+Shift+Tab pentru a comuta între file</li>
+          <li xml:lang="ro">Versiunea disponibilă afișată lângă numele fiecărui nucleu în fila Soplos Kernels</li>
+          <li xml:lang="ro">Buton Update în fila Soplos Kernels — apare când o versiune mai nouă este disponibilă în depozit, actualizează metapachetul și purgează automat imaginea și antetele vechi</li>
+          <li xml:lang="ro">Corectat: căutarea pachetelor post-compilare Stock gestionează acum corect sufixele de versiune injectate de patch-uri (ex. zen1 de la patch-ul Zen)</li>
+          <li xml:lang="ro">Corectat: după actualizarea unui nucleu Soplos, pachetele vechi de imagine și antete ale aceluiași tip sunt șterse fără intervenție manuală</li>
+
+          <li xml:lang="ru">Горячие клавиши Ctrl+Tab / Ctrl+Shift+Tab для переключения между вкладками</li>
+          <li xml:lang="ru">Доступная версия отображается рядом с названием каждого ядра во вкладке Soplos Kernels</li>
+          <li xml:lang="ru">Кнопка Update во вкладке Soplos Kernels — появляется, когда в репозитории доступна более новая версия; обновляет метапакет и автоматически удаляет старые образ и заголовки ядра</li>
+          <li xml:lang="ru">Исправлено: поиск пакетов после сборки Stock теперь корректно обрабатывает суффиксы версий, добавленные патчами (напр. zen1 от патча Zen)</li>
+          <li xml:lang="ru">Исправлено: после обновления ядра Soplos старые пакеты образа и заголовков того же типа удаляются без ручного вмешательства</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1"/>
+</component>
