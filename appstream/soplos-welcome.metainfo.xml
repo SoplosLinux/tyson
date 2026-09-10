@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.2-8" date="2026-09-10">
+        <description>
+          <p xml:lang="en">Adapted Waydroid support to Android Binder now being built into the kernel instead of a module, removing the obsolete modprobe steps and fixing the availability check.</p>
+          <p xml:lang="es">Adaptado el soporte de Waydroid a que Android Binder ahora va integrado en el kernel en vez de como módulo, quitando los pasos de modprobe obsoletos y corrigiendo la comprobación de disponibilidad.</p>
+          <p xml:lang="fr">Adaptation du support de Waydroid au fait qu'Android Binder soit désormais intégré au noyau plutôt qu'en module, suppression des étapes modprobe obsolètes et correction de la vérification de disponibilité.</p>
+          <p xml:lang="pt">Adaptado o suporte ao Waydroid ao facto de o Android Binder estar agora integrado no kernel em vez de ser um módulo, removendo os passos de modprobe obsoletos e corrigindo a verificação de disponibilidade.</p>
+          <p xml:lang="de">Waydroid-Unterstützung angepasst, da Android Binder nun fest in den Kernel eingebaut ist statt als Modul vorzuliegen — die überflüssigen modprobe-Schritte wurden entfernt und die Verfügbarkeitsprüfung korrigiert.</p>
+          <p xml:lang="it">Adattato il supporto a Waydroid al fatto che Android Binder è ora integrato nel kernel invece che come modulo, rimuovendo i passaggi modprobe obsoleti e correggendo il controllo di disponibilità.</p>
+          <p xml:lang="ru">Поддержка Waydroid адаптирована под то, что Android Binder теперь встроен в ядро, а не является модулем — убраны устаревшие шаги modprobe и исправлена проверка доступности.</p>
+          <p xml:lang="ro">Adaptat suportul pentru Waydroid la faptul ca Android Binder este acum integrat in kernel in loc sa fie modul, eliminand pasii modprobe invechiti si corectand verificarea disponibilitatii.</p>
+        </description>
+      </release>
       <release version="2.1.2-7" date="2026-09-09">
         <description>
           <p xml:lang="en">Added Waydroid to Recommended → Development, with the binder_linux kernel module loaded and configured automatically so it works right after installing, and the Install button disabled with an explanation on kernels that don't support it yet.</p>

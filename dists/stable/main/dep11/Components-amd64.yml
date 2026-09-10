@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260909T185351
+Time: 20260910T073946
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -716,6 +716,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.2-5
+    date: '2026-09-10'
+    type: stable
+    description:
+      C: |-
+        Fixed CONFIG_ANDROID_BINDER_IPC (it is a bool, not a tristate, so it could not be built as a module) and added a revision counter to the Stock batch build so recompiling the same kernel version is seen by apt as a real upgrade.
+      es: |-
+        Corregido CONFIG_ANDROID_BINDER_IPC (es un bool, no un tristate, no se podia compilar como modulo) y anadido un contador de revision al build por lotes de Stock para que recompilar la misma version de kernel se vea por apt como una actualizacion real.
+      fr: |-
+        Correction de CONFIG_ANDROID_BINDER_IPC (c'est un bool, pas un tristate, il ne pouvait pas etre compile en module) et ajout d'un compteur de revision a la compilation par lots Stock pour que recompiler la meme version de noyau soit vue par apt comme une veritable mise a jour.
+      de: |-
+        CONFIG_ANDROID_BINDER_IPC korrigiert (es ist ein Bool, kein Tristate, konnte nicht als Modul kompiliert werden) und ein Revisionszaehler zum Stock-Stapelbau hinzugefuegt, damit das Neukompilieren derselben Kernel-Version von apt als echtes Upgrade erkannt wird.
+      pt: |-
+        Corrigido o CONFIG_ANDROID_BINDER_IPC (e um bool, nao um tristate, nao podia ser compilado como modulo) e adicionado um contador de revisao a compilacao em lote do Stock para que recompilar a mesma versao de kernel seja vista pelo apt como uma atualizacao real.
+      it: |-
+        Corretto CONFIG_ANDROID_BINDER_IPC (e un bool, non un tristate, non poteva essere compilato come modulo) e aggiunto un contatore di revisione alla build in batch di Stock in modo che ricompilare la stessa versione del kernel sia vista da apt come un vero aggiornamento.
+      ro: |-
+        Corectat CONFIG_ANDROID_BINDER_IPC (este un bool, nu un tristate, nu putea fi compilat ca modul) si adaugat un contor de revizie la build-ul in lot Stock, astfel incat recompilarea aceleiasi versiuni de kernel sa fie vazuta de apt ca o actualizare reala.
+      ru: |-
+        Исправлен CONFIG_ANDROID_BINDER_IPC (это bool, а не tristate, его нельзя было собрать как модуль), и добавлен счётчик редакции в пакетную сборку Stock, чтобы пересборка той же версии ядра воспринималась apt как настоящее обновление.
   - version: 1.0.2-4
     date: '2026-09-09'
     type: stable
@@ -1414,6 +1434,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.2-8
+    date: '2026-09-10'
+    type: stable
+    description:
+      en: |-
+        Adapted Waydroid support to Android Binder now being built into the kernel instead of a module, removing the obsolete modprobe steps and fixing the availability check.
+      es: |-
+        Adaptado el soporte de Waydroid a que Android Binder ahora va integrado en el kernel en vez de como módulo, quitando los pasos de modprobe obsoletos y corrigiendo la comprobación de disponibilidad.
+      fr: |-
+        Adaptation du support de Waydroid au fait qu'Android Binder soit désormais intégré au noyau plutôt qu'en module, suppression des étapes modprobe obsolètes et correction de la vérification de disponibilité.
+      pt: |-
+        Adaptado o suporte ao Waydroid ao facto de o Android Binder estar agora integrado no kernel em vez de ser um módulo, removendo os passos de modprobe obsoletos e corrigindo a verificação de disponibilidade.
+      de: |-
+        Waydroid-Unterstützung angepasst, da Android Binder nun fest in den Kernel eingebaut ist statt als Modul vorzuliegen — die überflüssigen modprobe-Schritte wurden entfernt und die Verfügbarkeitsprüfung korrigiert.
+      it: |-
+        Adattato il supporto a Waydroid al fatto che Android Binder è ora integrato nel kernel invece che come modulo, rimuovendo i passaggi modprobe obsoleti e correggendo il controllo di disponibilità.
+      ru: |-
+        Поддержка Waydroid адаптирована под то, что Android Binder теперь встроен в ядро, а не является модулем — убраны устаревшие шаги modprobe и исправлена проверка доступности.
+      ro: |-
+        Adaptat suportul pentru Waydroid la faptul ca Android Binder este acum integrat in kernel in loc sa fie modul, eliminand pasii modprobe invechiti si corectand verificarea disponibilitatii.
+      C: |-
+        Adapted Waydroid support to Android Binder now being built into the kernel instead of a module, removing the obsolete modprobe steps and fixing the availability check.
   - version: 2.1.2-7
     date: '2026-09-09'
     type: stable
