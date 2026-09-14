@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260910T081607
+Time: 20260914T190028
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -716,6 +716,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.2-6
+    date: '2026-09-14'
+    type: stable
+    description:
+      C: |-
+        RC, LTS and EOL kernels shared the exact same Stock package name as the regular stable line, only the kernel version differing — unsafe two ways: an RC build could silently replace a stable kernel on a plain apt upgrade, and LTS/EOL versions compare as lower than the current stable, so reprepro refused to publish them.
+      es: |-
+        Los kernels RC, LTS y EOL compartian el mismo nombre de paquete Stock que la linea estable normal, solo cambiaba la version del kernel — inseguro por dos motivos: un build RC podia sustituir en silencio un kernel estable en un simple apt upgrade, y las versiones LTS/EOL comparan como inferiores a la estable actual, asi que reprepro se negaba a publicarlas.
+      fr: |-
+        Les noyaux RC, LTS et EOL partageaient exactement le meme nom de paquet Stock que la ligne stable habituelle, seule la version du noyau differait — dangereux de deux facons : un build RC pouvait remplacer silencieusement un noyau stable lors d'un simple apt upgrade, et les versions LTS/EOL sont comparees comme inferieures a la version stable actuelle, donc reprepro refusait de les publier.
+      de: |-
+        RC-, LTS- und EOL-Kernel teilten sich genau denselben Stock-Paketnamen wie die normale stabile Linie, nur die Kernel-Version unterschied sich — auf zwei Arten unsicher: ein RC-Build konnte einen stabilen Kernel bei einem einfachen apt upgrade stillschweigend ersetzen, und LTS/EOL-Versionen werden als niedriger als die aktuelle stabile Version verglichen, sodass reprepro sich weigerte, sie zu veroeffentlichen.
+      pt: |-
+        Os kernels RC, LTS e EOL partilhavam exatamente o mesmo nome de pacote Stock que a linha estavel normal, apenas a versao do kernel diferia — inseguro de duas formas: um build RC podia substituir silenciosamente um kernel estavel num simples apt upgrade, e as versoes LTS/EOL comparam como inferiores a estavel atual, entao o reprepro recusava-se a publica-las.
+      it: |-
+        I kernel RC, LTS ed EOL condividevano lo stesso nome di pacchetto Stock della normale linea stabile, cambiava solo la versione del kernel — pericoloso in due modi: una build RC poteva sostituire silenziosamente un kernel stabile con un semplice apt upgrade, e le versioni LTS/EOL vengono confrontate come inferiori rispetto alla stabile attuale, quindi reprepro rifiutava di pubblicarle.
+      ro: |-
+        Kernelurile RC, LTS si EOL foloseau exact acelasi nume de pachet Stock ca linia stabila obisnuita, doar versiunea kernelului difera — nesigur in doua moduri: un build RC putea inlocui in tacere un kernel stabil la un simplu apt upgrade, iar versiunile LTS/EOL sunt comparate ca fiind inferioare stabilei curente, asa ca reprepro refuza sa le publice.
+      ru: |-
+        Ядра RC, LTS и EOL использовали то же самое имя пакета Stock, что и обычная стабильная линия, отличалась только версия ядра — это небезопасно по двум причинам: RC-сборка могла незаметно заменить стабильное ядро при обычном apt upgrade, а версии LTS/EOL сравниваются как более низкие, чем текущая стабильная, поэтому reprepro отказывался их публиковать.
   - version: 1.0.2-5
     date: '2026-09-10'
     type: stable
