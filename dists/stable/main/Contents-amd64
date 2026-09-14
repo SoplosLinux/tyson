@@ -1573,6 +1573,7 @@ usr/share/soplos-welcome/assets/icons/multimedia/vlc.png	    utils/soplos-welcom
 usr/share/soplos-welcome/assets/icons/multimedia/zrythm.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/office/calligra.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/office/collabora.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/office/genoffice.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/office/jopdf.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/office/libreoffice.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/office/onlyoffice.png	    utils/soplos-welcome
@@ -1631,6 +1632,7 @@ usr/share/soplos-welcome/assets/themes/gaming-rgb.css	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/themes/light.css	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/vbox/VBoxLinuxAdditions.run	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/wallpapers/wallpapers.tar.xz	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/waydroid/bootanimation.zip	    utils/soplos-welcome
 usr/share/soplos-welcome/config/__init__.py	    utils/soplos-welcome
 usr/share/soplos-welcome/config/paths.py	    utils/soplos-welcome
 usr/share/soplos-welcome/config/software.py	    utils/soplos-welcome
