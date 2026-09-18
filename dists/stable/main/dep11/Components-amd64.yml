@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260918T124114
+Time: 20260918T143340
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop

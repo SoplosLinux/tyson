@@ -37,6 +37,7 @@ etc/skel/.config/fish/config.fish	    utils/fish-soplos
 etc/skel/.config/fish/conf.d/soplos_theme.fish	    utils/fish-soplos
 etc/skel/.config/fish/functions/fish_prompt.fish	    utils/fish-soplos
 etc/skel/.config/ghostty/config.ghostty	    utils/ghostty-soplos
+etc/update-motd.d/20-soplos-info	    admin/soplos-release
 usr/bin/grub-btrfsd	    admin/grub-btrfs
 usr/bin/kuteditor	    sound/kuteditor
 usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
