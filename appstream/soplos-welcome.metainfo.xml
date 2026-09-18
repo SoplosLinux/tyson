@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.3" date="2026-09-18">
+        <description>
+          <p xml:lang="en">Added two new categories to Recommended: Remote Desktops (Remmina, RustDesk, AnyDesk, NoMachine) and Virtualization (virt-manager, GNOME Boxes). Fixed the new categories not showing up, and a missing `wmctrl` dependency that could break Welcome on a bare Debian install.</p>
+          <p xml:lang="es">Añadidas dos categorías nuevas a Recomendados: Escritorios remotos (Remmina, RustDesk, AnyDesk, NoMachine) y Virtualización (virt-manager, GNOME Boxes). Corregido que las categorías nuevas no aparecieran, y una dependencia de `wmctrl` que faltaba y podía romper Welcome en una instalación de Debian limpia.</p>
+          <p xml:lang="fr">Ajout de deux nouvelles catégories à Recommandé : Bureaux distants (Remmina, RustDesk, AnyDesk, NoMachine) et Virtualisation (virt-manager, GNOME Boxes). Correction du fait que les nouvelles catégories ne s'affichaient pas, et d'une dépendance `wmctrl` manquante pouvant casser Welcome sur une installation Debian minimale.</p>
+          <p xml:lang="pt">Adicionadas duas novas categorias a Recomendado: Ambientes de trabalho remotos (Remmina, RustDesk, AnyDesk, NoMachine) e Virtualização (virt-manager, GNOME Boxes). Corrigido o facto de as novas categorias não aparecerem, e uma dependência `wmctrl` em falta que podia quebrar o Welcome numa instalação limpa do Debian.</p>
+          <p xml:lang="de">Zwei neue Kategorien zu Empfohlen hinzugefügt: Fernzugriff (Remmina, RustDesk, AnyDesk, NoMachine) und Virtualisierung (virt-manager, GNOME Boxes). Behoben, dass die neuen Kategorien nicht angezeigt wurden, sowie eine fehlende `wmctrl`-Abhängigkeit, die Welcome auf einer frischen Debian-Installation zum Absturz bringen konnte.</p>
+          <p xml:lang="it">Aggiunte due nuove categorie a Consigliati: Desktop remoti (Remmina, RustDesk, AnyDesk, NoMachine) e Virtualizzazione (virt-manager, GNOME Boxes). Corretto il mancato apparire delle nuove categorie, e una dipendenza `wmctrl` mancante che poteva rompere Welcome su un'installazione Debian pulita.</p>
+          <p xml:lang="ru">В раздел «Рекомендуемое» добавлены две новые категории: «Удалённые рабочие столы» (Remmina, RustDesk, AnyDesk, NoMachine) и «Виртуализация» (virt-manager, GNOME Boxes). Исправлено то, что новые категории не отображались, а также отсутствовавшая зависимость `wmctrl`, из-за которой Welcome мог не работать на чистой установке Debian.</p>
+          <p xml:lang="ro">Adaugate doua categorii noi in Recomandat: Desktop-uri la distanta (Remmina, RustDesk, AnyDesk, NoMachine) si Virtualizare (virt-manager, GNOME Boxes). Corectat faptul ca noile categorii nu apareau, si o dependenta `wmctrl` lipsa care putea strica Welcome pe o instalare Debian curata.</p>
+        </description>
+      </release>
       <release version="2.1.2-9" date="2026-09-15">
         <description>
           <p xml:lang="en">Fixed a missing safeguard that was silently hiding installation failures across the Recommended tab, then fixed the failures it revealed: Collabora Office, GeForce NOW, LMMS, amdgpu_top and CPU Power. Also fixed the DaVinci Resolve install button getting stuck after cancelling, and Snap Store asking for the password twice. Added GenOffice, an open-source AI office suite.</p>

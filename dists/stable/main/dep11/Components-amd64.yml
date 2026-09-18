@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260916T004331
+Time: 20260918T124114
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1476,6 +1476,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.3
+    date: '2026-09-18'
+    type: stable
+    description:
+      en: |-
+        Added two new categories to Recommended: Remote Desktops (Remmina, RustDesk, AnyDesk, NoMachine) and Virtualization (virt-manager, GNOME Boxes). Fixed the new categories not showing up, and a missing `wmctrl` dependency that could break Welcome on a bare Debian install.
+      es: |-
+        Añadidas dos categorías nuevas a Recomendados: Escritorios remotos (Remmina, RustDesk, AnyDesk, NoMachine) y Virtualización (virt-manager, GNOME Boxes). Corregido que las categorías nuevas no aparecieran, y una dependencia de `wmctrl` que faltaba y podía romper Welcome en una instalación de Debian limpia.
+      fr: |-
+        Ajout de deux nouvelles catégories à Recommandé : Bureaux distants (Remmina, RustDesk, AnyDesk, NoMachine) et Virtualisation (virt-manager, GNOME Boxes). Correction du fait que les nouvelles catégories ne s'affichaient pas, et d'une dépendance `wmctrl` manquante pouvant casser Welcome sur une installation Debian minimale.
+      pt: |-
+        Adicionadas duas novas categorias a Recomendado: Ambientes de trabalho remotos (Remmina, RustDesk, AnyDesk, NoMachine) e Virtualização (virt-manager, GNOME Boxes). Corrigido o facto de as novas categorias não aparecerem, e uma dependência `wmctrl` em falta que podia quebrar o Welcome numa instalação limpa do Debian.
+      de: |-
+        Zwei neue Kategorien zu Empfohlen hinzugefügt: Fernzugriff (Remmina, RustDesk, AnyDesk, NoMachine) und Virtualisierung (virt-manager, GNOME Boxes). Behoben, dass die neuen Kategorien nicht angezeigt wurden, sowie eine fehlende `wmctrl`-Abhängigkeit, die Welcome auf einer frischen Debian-Installation zum Absturz bringen konnte.
+      it: |-
+        Aggiunte due nuove categorie a Consigliati: Desktop remoti (Remmina, RustDesk, AnyDesk, NoMachine) e Virtualizzazione (virt-manager, GNOME Boxes). Corretto il mancato apparire delle nuove categorie, e una dipendenza `wmctrl` mancante che poteva rompere Welcome su un'installazione Debian pulita.
+      ru: |-
+        В раздел «Рекомендуемое» добавлены две новые категории: «Удалённые рабочие столы» (Remmina, RustDesk, AnyDesk, NoMachine) и «Виртуализация» (virt-manager, GNOME Boxes). Исправлено то, что новые категории не отображались, а также отсутствовавшая зависимость `wmctrl`, из-за которой Welcome мог не работать на чистой установке Debian.
+      ro: |-
+        Adaugate doua categorii noi in Recomandat: Desktop-uri la distanta (Remmina, RustDesk, AnyDesk, NoMachine) si Virtualizare (virt-manager, GNOME Boxes). Corectat faptul ca noile categorii nu apareau, si o dependenta `wmctrl` lipsa care putea strica Welcome pe o instalare Debian curata.
+      C: |-
+        Added two new categories to Recommended: Remote Desktops (Remmina, RustDesk, AnyDesk, NoMachine) and Virtualization (virt-manager, GNOME Boxes). Fixed the new categories not showing up, and a missing `wmctrl` dependency that could break Welcome on a bare Debian install.
   - version: 2.1.2-9
     date: '2026-09-15'
     type: stable

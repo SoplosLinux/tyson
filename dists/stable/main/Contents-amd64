@@ -1522,10 +1522,12 @@ usr/share/soplos-welcome/assets/icons/gaming/itch-io.png	    utils/soplos-welcom
 usr/share/soplos-welcome/assets/icons/gaming/lutris.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/mocktail.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/moonlight.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/gaming/openrgb.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/performance.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/playonlinux.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/ppsspp.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/prism.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/gaming/proton+.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/protonup.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/r2modman.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/gaming/retroarch.png	    utils/soplos-welcome
@@ -1579,6 +1581,10 @@ usr/share/soplos-welcome/assets/icons/office/libreoffice.png	    utils/soplos-we
 usr/share/soplos-welcome/assets/icons/office/onlyoffice.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/office/reader.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/office/wpsoffice.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/remotes/anydesk.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/remotes/nomachine.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/remotes/remmina.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/remotes/rustdesk.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/bleachbit.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/btrfs-assistant.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/security/clamtk.png	    utils/soplos-welcome
@@ -1613,6 +1619,8 @@ usr/share/soplos-welcome/assets/icons/soplos/soplos-grub-editor.png	    utils/so
 usr/share/soplos-welcome/assets/icons/soplos/soplos-layout-switcher.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/soplos/soplos-plymouth-manager.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/soplos/soplos-theme-manager.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/virtual/gnomeboxes.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/virtual/virtmanager.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/screenshots/screenshot01.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/screenshots/screenshot02.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/screenshots/screenshot03.png	    utils/soplos-welcome
