@@ -491,6 +491,21 @@ Description: Tablet and hybrid device support for Soplos Linux Tyson
  Tyson. Enables screen rotation via accelerometer, virtual keyboard with
  optimized layout and Qt theme integration.
 
+Package: telegram-desktop
+Version: 7.2.9
+Architecture: amd64
+Maintainer: Soplos Linux <contact@soplos.org>
+Depends: libc6, libatomic1, libblkid1, libbrotli1, libbz2-1.0, libcairo2, libdatrie1, libexpat1, libffi8, libfontconfig1, libfreetype6, libfribidi0, libglib2.0-0t64, libgraphite2-3, libharfbuzz0b, libmount1, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpcre2-8-0, libpixman-1-0, libpng16-16t64, libselinux1, libsystemd0, libthai0, libx11-6, libxau6, libxcb1, libxcb-render0, libxcb-shm0, libxdmcp6, libxext6, libxrender1, zlib1g
+Priority: optional
+Section: net
+Filename: pool/main/t/telegram-desktop/telegram-desktop_7.2.9_amd64.deb
+Size: 79516952
+SHA256: 0d1b493b9ee29dbd3987264c023d3f7b2402463b1c161afe919a7929a97121db
+SHA1: 5e3affc30ed07bf2bc8bcd07c7aa9726ab4d8140
+MD5sum: 26aa099b7d9f3bc64d5f4f8bf9107974
+Description: Telegram Desktop
+ Official Telegram Desktop client for Linux.
+
 Package: zram-soplos
 Version: 0.0.1-2
 Architecture: all

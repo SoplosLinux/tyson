@@ -38,6 +38,8 @@ etc/skel/.config/fish/conf.d/soplos_theme.fish	    utils/fish-soplos
 etc/skel/.config/fish/functions/fish_prompt.fish	    utils/fish-soplos
 etc/skel/.config/ghostty/config.ghostty	    utils/ghostty-soplos
 etc/update-motd.d/20-soplos-info	    admin/soplos-release
+opt/Telegram/Telegram	    net/telegram-desktop
+opt/Telegram/Updater	    net/telegram-desktop
 usr/bin/grub-btrfsd	    admin/grub-btrfs
 usr/bin/kuteditor	    sound/kuteditor
 usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
@@ -55,6 +57,7 @@ usr/bin/soplos-webapp-manager	    utils/soplos-webapp-manager
 usr/bin/soplos-welcome	    utils/soplos-welcome
 usr/bin/soplos-welcome-live	    utils/soplos-welcome-live
 usr/bin/startplasma-login-wayland	    kde/plasma-login-manager
+usr/bin/telegram-desktop	    net/telegram-desktop
 usr/lib/os-release	    admin/soplos-release
 usr/lib/kf6/kauth/libexec/kcmplasmalogin_authhelper	    kde/plasma-login-manager
 usr/lib/kuteditor/kuteditor	    sound/kuteditor
@@ -88,6 +91,7 @@ usr/share/applications/org.soplos.webappmanager.desktop	    utils/soplos-webapp-
 usr/share/applications/org.soplos.welcome.desktop	    utils/soplos-welcome
 usr/share/applications/org.soplos.welcomelive.desktop	    utils/soplos-welcome-live
 usr/share/applications/soplos-debug.desktop	    admin/soplos-debug
+usr/share/applications/telegram-desktop.desktop	    net/telegram-desktop
 usr/share/branding-soplos/Tyron.png	    misc/branding-soplos
 usr/share/branding-soplos/background-2.jpg	    misc/branding-soplos
 usr/share/branding-soplos/background.jpg	    misc/branding-soplos
