@@ -67,19 +67,19 @@ Description: Ghostty terminal configuration for SopLOS Tyson
  debian.griffo.io repository to install ghostty-tip.
 
 Package: grub-btrfs
-Version: 1.0.1
+Version: 4.14-1
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
-Installed-Size: 126
+Installed-Size: 124
 Depends: btrfs-progs, grub-common, bash (>= 4.0), inotify-tools, gawk
 Homepage: https://github.com/Antynea/grub-btrfs
 Priority: optional
 Section: admin
-Filename: pool/main/g/grub-btrfs/grub-btrfs_1.0.1_all.deb
-Size: 37072
-SHA256: e96041b9e56b9f2e3246777d26e4a645f70be183744357ef519415618a82a366
-SHA1: 9e01a2fb323dd11e8b9d8a605e62fceeb4995175
-MD5sum: 6f8f648ab68870539b9493c766271ca5
+Filename: pool/main/g/grub-btrfs/grub-btrfs_4.14-1_all.deb
+Size: 36484
+SHA256: 0540dd83913387ea6663d975407decb9eb03e77bfd52a6629e6fa333310721a8
+SHA1: 8042b85a3bd82fbb7347ffde9889f39608fb6e3a
+MD5sum: 36c55d989847e656679aece518fe02c9
 Description: Include btrfs snapshots in GRUB menu
  grub-btrfs improves the grub bootloader by adding a btrfs snapshots sub-menu,
  allowing the user to boot into snapshots.
@@ -130,10 +130,9 @@ MD5sum: 2830d0681c6260c58225ee9c440dedc4
 Description: Configure MSI keyboard RGB lighting
 
 Package: plasma-login-manager
-Version: 6.7.2-1-soplos
+Version: 6.7.4-soplos
 Architecture: amd64
 Maintainer: Sergi Perich <info@soploslinux.com>
-Installed-Size: 2295
 Depends: libc6 (>= 2.34), libkf6authcore6 (>= 6.26.0), libkf6configcore6 (>= 6.26.0), libkf6configgui6 (>= 6.26.0), libkf6configqml6 (>= 6.26.0), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.26.0), libkf6i18n6 (>= 6.26.0), libkf6kcmutilscore6 (>= 6.26.0), libkf6kcmutilsquick6 (>= 6.26.0), libkf6kiogui6 (>= 6.26.0), libkf6package6 (>= 6.26.0), libkf6screendpms8 (>= 4:6.7.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.26.0), libklookandfeel6 (>= 4:6.7.0), libkworkspace6-6 (>= 4:6.7.0), liblayershellqtinterface6 (>= 6.7.0), libpam0g (>= 0.99.7.1), libplasmaquick7 (>= 6.7.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0), libqt6gui6 (>= 6.10.0), libqt6network6 (>= 6.10.0), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0), libstdc++6 (>= 13.1), libsystemd0, libxau6 (>= 1:1.0.11), qt6-declarative-private-abi (= 6.10.2), systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, init-system-helpers (>= 1.54~), soplos-wallpapers01
 Recommends: plasma-workspace
 Conflicts: sddm
@@ -141,11 +140,11 @@ Replaces: sddm
 Homepage: https://invent.kde.org/plasma/plasma-login-manager
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-login-manager/plasma-login-manager_6.7.2-1-soplos_amd64.deb
-Size: 444520
-SHA256: 5df63d03a27a173fd0d66f594fdf56972fbb7368b004895f6235fddd41db74f2
-SHA1: a52607b27d219de7e8055e21c573ad8b64234366
-MD5sum: 7ffaa258be21ba7209318bd152e5c41b
+Filename: pool/main/p/plasma-login-manager/plasma-login-manager_6.7.4-soplos_amd64.deb
+Size: 444208
+SHA256: b4dcaaafb60c1f920854308c6dde9e8e5690dddcd2de90472bac6b7ba6848906
+SHA1: 728352500e7bffa25cff7008785df308b7b969b1
+MD5sum: 273f6d21f2726c97cd2686aab6847e62
 Description: Plasma Login Manager display manager
  Plasma Login provides a display manager for KDE Plasma, forked from
  SDDM, with a greeter, wallpaper plugin integration and a System

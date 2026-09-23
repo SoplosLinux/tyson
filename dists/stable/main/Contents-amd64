@@ -132,8 +132,7 @@ usr/share/dbus-1/system-services/org.kde.kcontrol.kcmplasmalogin.service	    kde
 usr/share/dbus-1/system.d/org.freedesktop.DisplayManager.conf	    kde/plasma-login-manager
 usr/share/dbus-1/system.d/org.kde.kcontrol.kcmplasmalogin.conf	    kde/plasma-login-manager
 usr/share/doc/grub-btrfs/README.md.gz	    admin/grub-btrfs
-usr/share/doc/grub-btrfs/changelog.gz	    admin/grub-btrfs
-usr/share/doc/grub-btrfs/copyright	    admin/grub-btrfs
+usr/share/doc/grub-btrfs/changelog.Debian.gz	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/initramfs-overlayfs.md	    admin/grub-btrfs
 usr/share/doc/kuteditor/changelog.Debian.gz	    sound/kuteditor
 usr/share/doc/kuteditor/copyright	    sound/kuteditor
