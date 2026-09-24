@@ -1611,6 +1611,7 @@ usr/share/soplos-welcome/assets/icons/security/timeshift.png	    utils/soplos-we
 usr/share/soplos-welcome/assets/icons/security/vpn-unlimited.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/bazaar.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/discover.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/software/easyflatpak.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/flatpak.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/gdebi.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/gnome-software.png	    utils/soplos-welcome
@@ -1618,6 +1619,7 @@ usr/share/soplos-welcome/assets/icons/software/reposelector.png	    utils/soplos
 usr/share/soplos-welcome/assets/icons/software/snap-store.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/snap.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/software/synaptic.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/software/warehouse.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/soplos/soplos-docklike.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/soplos/soplos-grub-editor.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/soplos/soplos-layout-switcher.png	    utils/soplos-welcome

@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.3-1" date="2026-09-24">
+        <description>
+          <p xml:lang="en">WhatsApp is now a WhatsApp Web desktop shortcut instead of an unofficial third-party Flatpak, and Telegram installs from Soplos's own apt repository. Added Warehouse, Easy Flatpak and Discover to the Software tab, with Repo Selector now first. Real translations added in all 8 languages for everything new since 2.1.3.</p>
+          <p xml:lang="es">WhatsApp ahora es un acceso directo a WhatsApp Web en vez de un Flatpak no oficial de terceros, y Telegram se instala desde el propio repositorio apt de Soplos. Añadidos Warehouse, Easy Flatpak y Discover a la pestaña Software, con Repo Selector ahora en primer lugar. Traducciones reales añadidas en los 8 idiomas para todo lo nuevo desde 2.1.3.</p>
+          <p xml:lang="fr">WhatsApp est désormais un raccourci de bureau vers WhatsApp Web au lieu d'un Flatpak tiers non officiel, et Telegram s'installe depuis le propre dépôt apt de Soplos. Ajout de Warehouse, Easy Flatpak et Discover à l'onglet Logiciels, avec Repo Selector désormais en premier. Traductions réelles ajoutées dans les 8 langues pour toutes les nouveautés depuis la 2.1.3.</p>
+          <p xml:lang="pt">O WhatsApp passa a ser um atalho de ambiente de trabalho para o WhatsApp Web em vez de um Flatpak não oficial de terceiros, e o Telegram instala-se a partir do próprio repositório apt do Soplos. Adicionados o Warehouse, o Easy Flatpak e o Discover ao separador Software, com o Repo Selector agora em primeiro lugar. Traduções reais adicionadas nos 8 idiomas para tudo o que é novo desde a 2.1.3.</p>
+          <p xml:lang="de">WhatsApp ist jetzt eine WhatsApp-Web-Desktopverknüpfung statt eines inoffiziellen Flatpaks von Drittanbietern, und Telegram wird aus dem eigenen Apt-Repository von Soplos installiert. Warehouse, Easy Flatpak und Discover wurden zum Tab „Software" hinzugefügt, Repo Selector steht nun an erster Stelle. Echte Übersetzungen in allen 8 Sprachen für alles Neue seit 2.1.3 hinzugefügt.</p>
+          <p xml:lang="it">WhatsApp è ora un collegamento desktop a WhatsApp Web invece di un Flatpak di terze parti non ufficiale, e Telegram si installa dal repository apt di Soplos. Aggiunti Warehouse, Easy Flatpak e Discover alla scheda Software, con Repo Selector ora al primo posto. Aggiunte traduzioni reali in tutte le 8 lingue per tutte le novità dalla 2.1.3.</p>
+          <p xml:lang="ru">WhatsApp теперь представляет собой ярлык WhatsApp Web на рабочем столе вместо неофициального стороннего Flatpak, а Telegram устанавливается из собственного apt-репозитория Soplos. В раздел «Программы» добавлены Warehouse, Easy Flatpak и Discover, Repo Selector теперь на первом месте. Добавлены настоящие переводы на все 8 языков для всего нового с версии 2.1.3.</p>
+          <p xml:lang="ro">WhatsApp este acum o comanda rapida pe desktop catre WhatsApp Web in loc de un Flatpak tert neoficial, iar Telegram se instaleaza din propriul depozit apt al Soplos. Adaugate Warehouse, Easy Flatpak si Discover in fila Software, cu Repo Selector acum pe primul loc. Adaugate traduceri reale in toate cele 8 limbi pentru tot ce este nou de la 2.1.3.</p>
+        </description>
+      </release>
       <release version="2.1.3" date="2026-09-18">
         <description>
           <p xml:lang="en">Added two new categories to Recommended: Remote Desktops (Remmina, RustDesk, AnyDesk, NoMachine) and Virtualization (virt-manager, GNOME Boxes). Fixed the new categories not showing up, and a missing `wmctrl` dependency that could break Welcome on a bare Debian install.</p>
