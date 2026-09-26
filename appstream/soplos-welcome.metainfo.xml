@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.3-2" date="2026-09-26">
+        <description>
+          <p xml:lang="en">Now depends on soplos-fontconfig-woff-fix to prevent Qt applications from crashing after Chromium 154-based browsers (Brave 1.96, Chrome 154) rewrite the user's font cache (fontconfig #565).</p>
+          <p xml:lang="es">Ahora depende de soplos-fontconfig-woff-fix para evitar que las aplicaciones Qt se cierren después de que navegadores basados en Chromium 154 (Brave 1.96, Chrome 154) sobrescriban la caché de fuentes del usuario (fontconfig #565).</p>
+          <p xml:lang="fr">Dépend désormais de soplos-fontconfig-woff-fix pour éviter que les applications Qt ne plantent après que les navigateurs basés sur Chromium 154 (Brave 1.96, Chrome 154) réécrivent le cache de polices de l'utilisateur (fontconfig #565).</p>
+          <p xml:lang="pt">Passa a depender do soplos-fontconfig-woff-fix para evitar que as aplicações Qt fechem após os navegadores baseados em Chromium 154 (Brave 1.96, Chrome 154) reescreverem a cache de tipos de letra do utilizador (fontconfig #565).</p>
+          <p xml:lang="de">Hängt jetzt von soplos-fontconfig-woff-fix ab, damit Qt-Anwendungen nicht mehr abstürzen, nachdem Chromium-154-basierte Browser (Brave 1.96, Chrome 154) den Schriftarten-Cache des Benutzers überschreiben (fontconfig #565).</p>
+          <p xml:lang="it">Ora dipende da soplos-fontconfig-woff-fix per evitare che le applicazioni Qt si arrestino in modo anomalo dopo che i browser basati su Chromium 154 (Brave 1.96, Chrome 154) sovrascrivono la cache dei font dell'utente (fontconfig #565).</p>
+          <p xml:lang="ru">Теперь зависит от soplos-fontconfig-woff-fix, чтобы приложения Qt не завершались аварийно после того, как браузеры на основе Chromium 154 (Brave 1.96, Chrome 154) перезаписывают кэш шрифтов пользователя (fontconfig #565).</p>
+          <p xml:lang="ro">Depinde acum de soplos-fontconfig-woff-fix pentru a preveni caderea aplicatiilor Qt dupa ce browserele bazate pe Chromium 154 (Brave 1.96, Chrome 154) rescriu memoria cache de fonturi a utilizatorului (fontconfig #565).</p>
+        </description>
+      </release>
       <release version="2.1.3-1" date="2026-09-24">
         <description>
           <p xml:lang="en">WhatsApp is now a WhatsApp Web desktop shortcut instead of an unofficial third-party Flatpak, and Telegram installs from Soplos's own apt repository. Added Warehouse, Easy Flatpak and Discover to the Software tab, with Repo Selector now first. Real translations added in all 8 languages for everything new since 2.1.3.</p>

@@ -1453,6 +1453,7 @@ usr/share/soplos-webapp-manager/utils/favicon.py	    utils/soplos-webapp-manager
 usr/share/soplos-welcome/CHANGELOG.md	    utils/soplos-welcome
 usr/share/soplos-welcome/LICENSE	    utils/soplos-welcome
 usr/share/soplos-welcome/README.md	    utils/soplos-welcome
+usr/share/soplos-welcome/informe-fallo-fuentes-soplos.pdf	    utils/soplos-welcome
 usr/share/soplos-welcome/main.py	    utils/soplos-welcome
 usr/share/soplos-welcome/requirements.txt	    utils/soplos-welcome
 usr/share/soplos-welcome/setup.py	    utils/soplos-welcome
