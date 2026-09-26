@@ -198,6 +198,26 @@ Description: Informe de diagnóstico del sistema para Soplos Linux
  porque estos informes acaban compartiéndose en canales públicos. No se envía
  nada a ningún sitio.
 
+Package: soplos-fontconfig-woff-fix
+Version: 1.0.0-1
+Architecture: all
+Depends: fontconfig-config
+Maintainer: Sergi Perich <info@sergiperich.es>
+Priority: optional
+Section: fonts
+Filename: pool/main/s/soplos-fontconfig-woff-fix/soplos-fontconfig-woff-fix_1.0.0-1_all.deb
+Size: 1114
+SHA256: 75fa82c095e7d4abbf704d20353c6b01d709ae658b44f65a8fd8d01f79150a14
+SHA1: 6d98c13b4f9f9890a58b2f02f4c36dc6f23c3983
+MD5sum: f568fedf3b1cd05c2fdb5d84acdbde32
+Description: Reject WOFF/WOFF2 web fonts in fontconfig
+ Workaround for fontconfig issue #565: applications bundling fontconfig
+ 2.18.3 (Chrome 154, Brave 1.96) replace the user's cache-9 files with
+ symlinks to cache-12. The host fontconfig 2.17 then exposes WOFF/WOFF2
+ fonts without family or charset, which win font matching and crash
+ Qt applications in FcCharSetHasChar. Rejecting these web fonts avoids
+ the crash. TTF/OTF versions of the same fonts are not affected.
+
 Package: soplos-grub-editor
 Version: 2.0.2-8
 Architecture: all
