@@ -72,12 +72,15 @@ usr/lib/systemd/user/plasma-login-kwin_wayland.service	    kde/plasma-login-mana
 usr/lib/systemd/user/plasma-login-wayland.target	    kde/plasma-login-manager
 usr/lib/systemd/user/plasma-login.service	    kde/plasma-login-manager
 usr/lib/systemd/user/plasma-wallpaper.service	    kde/plasma-login-manager
+usr/lib/systemd/user/soplos-fontcache-guard.path	    fonts/soplos-fontconfig-woff-fix
+usr/lib/systemd/user/soplos-fontcache-guard.service	    fonts/soplos-fontconfig-woff-fix
 usr/lib/sysusers.d/plasmalogin.conf	    kde/plasma-login-manager
 usr/lib/tmpfiles.d/plasmalogin.conf	    kde/plasma-login-manager
 usr/lib/x86_64-linux-gnu/libexec/plasma-login-greeter	    kde/plasma-login-manager
 usr/lib/x86_64-linux-gnu/libexec/plasmalogin-helper	    kde/plasma-login-manager
 usr/lib/x86_64-linux-gnu/libexec/plasmalogin-helper-start-x11user	    kde/plasma-login-manager
 usr/lib/x86_64-linux-gnu/qt6/plugins/plasma/kcms/systemsettings/kcm_plasmalogin.so	    kde/plasma-login-manager
+usr/libexec/soplos-fontcache-guard	    fonts/soplos-fontconfig-woff-fix
 usr/share/applications/com.soplos.msi-keyboard.desktop	    utils/msi-keyboard-gui
 usr/share/applications/kcm_plasmalogin.desktop	    kde/plasma-login-manager
 usr/share/applications/kuteditor.desktop	    sound/kuteditor

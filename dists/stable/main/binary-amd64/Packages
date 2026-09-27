@@ -199,17 +199,17 @@ Description: Informe de diagnóstico del sistema para Soplos Linux
  nada a ningún sitio.
 
 Package: soplos-fontconfig-woff-fix
-Version: 1.0.0-1
+Version: 1.0.0-2
 Architecture: all
-Depends: fontconfig-config
+Depends: fontconfig-config, fontconfig
 Maintainer: Sergi Perich <info@sergiperich.es>
 Priority: optional
 Section: fonts
-Filename: pool/main/s/soplos-fontconfig-woff-fix/soplos-fontconfig-woff-fix_1.0.0-1_all.deb
-Size: 1114
-SHA256: 75fa82c095e7d4abbf704d20353c6b01d709ae658b44f65a8fd8d01f79150a14
-SHA1: 6d98c13b4f9f9890a58b2f02f4c36dc6f23c3983
-MD5sum: f568fedf3b1cd05c2fdb5d84acdbde32
+Filename: pool/main/s/soplos-fontconfig-woff-fix/soplos-fontconfig-woff-fix_1.0.0-2_all.deb
+Size: 2332
+SHA256: e79ac8811fb6a9b61120da26972560bfbc8ad21ef7689df40ac695fb517c4914
+SHA1: d0a7d1960520b04de4937b81ae488a9964099db6
+MD5sum: ee009c4ce919ed3b9ac0030681c2d132
 Description: Reject WOFF/WOFF2 web fonts in fontconfig
  Workaround for fontconfig issue #565: applications bundling fontconfig
  2.18.3 (Chrome 154, Brave 1.96) replace the user's cache-9 files with
@@ -217,6 +217,11 @@ Description: Reject WOFF/WOFF2 web fonts in fontconfig
  fonts without family or charset, which win font matching and crash
  Qt applications in FcCharSetHasChar. Rejecting these web fonts avoids
  the crash. TTF/OTF versions of the same fonts are not affected.
+ .
+ A systemd user unit also removes the foreign cache-9 symlinks from the
+ user font cache as soon as they appear and rebuilds the host cache. This
+ protects Flatpak applications, which do not read the host fontconfig
+ configuration, and restores Type1 fonts.
 
 Package: soplos-grub-editor
 Version: 2.0.2-8
