@@ -2245,6 +2245,8 @@ usr/share/soplos-welcome/assets/icons/graphics/gimp.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/hugin.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/inkscape.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/krita.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/graphics/pantherfog.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/graphics/patchy.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/rapidraw.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/rawtherapee.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/hardware/amdgpu-top.png	    utils/soplos-welcome

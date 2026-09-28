@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260928T111547
+Time: 20260928T122543
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1496,6 +1496,23 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.3-3
+    date: '2026-09-28'
+    type: stable
+    description:
+      en: Added Fog Panther and Patchy, two image editors, to Recommended → Graphics.
+      es: Añadidos Fog Panther y Patchy, dos editores de imágenes, a Recomendados
+        → Gráficos.
+      fr: Ajout de Fog Panther et Patchy, deux éditeurs d'images, à Recommandé → Graphisme.
+      pt: Adicionados o Fog Panther e o Patchy, dois editores de imagens, a Recomendado
+        → Gráficos.
+      de: Fog Panther und Patchy, zwei Bildeditoren, zu Empfohlen → Grafik hinzugefügt.
+      it: Aggiunti Fog Panther e Patchy, due editor di immagini, a Consigliati → Grafica.
+      ru: В раздел «Рекомендуемое» → «Графика» добавлены Fog Panther и Patchy — два
+        графических редактора.
+      ro: Adaugate Fog Panther si Patchy, doua editoare de imagini, in Recomandat
+        → Grafica.
+      C: Added Fog Panther and Patchy, two image editors, to Recommended → Graphics.
   - version: 2.1.3-2
     date: '2026-09-26'
     type: stable
