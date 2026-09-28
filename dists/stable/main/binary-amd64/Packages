@@ -88,30 +88,6 @@ Description: Ghostty terminal configuration for SopLOS Tyson
  This package provides Ghostty terminal with the SopLOS theme and
  integrates it with KDE Plasma as the default terminal.
 
-Package: ghostty-tip
-Source: ghostty
-Version: 1.3.2~dev.20260927-1
-Architecture: amd64
-Maintainer: Sergi Perich <info@soploslinux.com>
-Installed-Size: 31446
-Depends: libadwaita-1-0 (>= 1.5~beta), libc6 (>= 2.43), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libglib2.0-0t64 (>= 2.76.0), libgtk-4-1 (>= 4.21.5), libgtk4-layer-shell0 (>= 1.0.2), libharfbuzz0b (>= 0.9.42), libonig5 (>= 6.9.5), libwayland-client0 (>= 1.3.0), libx11-6
-Conflicts: ghostty
-Replaces: ghostty
-Homepage: https://ghostty.org/
-Priority: optional
-Section: utils
-Filename: pool/main/g/ghostty/ghostty-tip_1.3.2~dev.20260927-1_amd64.deb
-Size: 16964512
-SHA256: 43dff3b23b6247d71d748d035a8014bcaa36a966733bd78d100cd84a6717a3aa
-SHA1: 09a2e3adb7c0908500da9db563f4f9d656e8c3ae
-MD5sum: 04dbb221ad2b344270ff2e23988682b5
-Description: Nightly build of the Ghostty terminal emulator
- Ghostty is a fast, feature-rich and cross-platform terminal emulator
- that uses platform-native UI and GPU acceleration. On Linux it is built
- on GTK4 and libadwaita.
- .
- Built from the upstream main branch at commit b40acce. It tracks the latest development code and may be unstable. Install the stable ghostty package for a release build.
-
 Package: grub-btrfs
 Version: 4.14-1
 Architecture: all

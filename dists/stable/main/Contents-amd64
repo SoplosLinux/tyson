@@ -41,7 +41,7 @@ etc/skel/.config/ghostty/config.ghostty	    utils/ghostty-soplos
 etc/update-motd.d/20-soplos-info	    admin/soplos-release
 opt/Telegram/Telegram	    net/telegram-desktop
 opt/Telegram/Updater	    net/telegram-desktop
-usr/bin/ghostty	    utils/ghostty,utils/ghostty-tip
+usr/bin/ghostty	    utils/ghostty
 usr/bin/grub-btrfsd	    admin/grub-btrfs
 usr/bin/kuteditor	    sound/kuteditor
 usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
@@ -69,7 +69,7 @@ usr/lib/pam.d/plasmalogin-autologin	    kde/plasma-login-manager
 usr/lib/pam.d/plasmalogin-greeter	    kde/plasma-login-manager
 usr/lib/systemd/system/grub-btrfsd.service	    admin/grub-btrfs
 usr/lib/systemd/system/plasmalogin.service	    kde/plasma-login-manager
-usr/lib/systemd/user/app-com.mitchellh.ghostty.service	    utils/ghostty,utils/ghostty-tip
+usr/lib/systemd/user/app-com.mitchellh.ghostty.service	    utils/ghostty
 usr/lib/systemd/user/plasma-login-kwin_wayland.service	    kde/plasma-login-manager
 usr/lib/systemd/user/plasma-login-wayland.target	    kde/plasma-login-manager
 usr/lib/systemd/user/plasma-login.service	    kde/plasma-login-manager
@@ -83,7 +83,7 @@ usr/lib/x86_64-linux-gnu/libexec/plasmalogin-helper	    kde/plasma-login-manager
 usr/lib/x86_64-linux-gnu/libexec/plasmalogin-helper-start-x11user	    kde/plasma-login-manager
 usr/lib/x86_64-linux-gnu/qt6/plugins/plasma/kcms/systemsettings/kcm_plasmalogin.so	    kde/plasma-login-manager
 usr/libexec/soplos-fontcache-guard	    fonts/soplos-fontconfig-woff-fix
-usr/share/applications/com.mitchellh.ghostty.desktop	    utils/ghostty,utils/ghostty-tip
+usr/share/applications/com.mitchellh.ghostty.desktop	    utils/ghostty
 usr/share/applications/com.soplos.msi-keyboard.desktop	    utils/msi-keyboard-gui
 usr/share/applications/kcm_plasmalogin.desktop	    kde/plasma-login-manager
 usr/share/applications/kuteditor.desktop	    sound/kuteditor
@@ -99,8 +99,8 @@ usr/share/applications/org.soplos.welcome.desktop	    utils/soplos-welcome
 usr/share/applications/org.soplos.welcomelive.desktop	    utils/soplos-welcome-live
 usr/share/applications/soplos-debug.desktop	    admin/soplos-debug
 usr/share/applications/telegram-desktop.desktop	    net/telegram-desktop
-usr/share/bash-completion/completions/ghostty.bash	    utils/ghostty,utils/ghostty-tip
-usr/share/bat/syntaxes/ghostty.sublime-syntax	    utils/ghostty,utils/ghostty-tip
+usr/share/bash-completion/completions/ghostty.bash	    utils/ghostty
+usr/share/bat/syntaxes/ghostty.sublime-syntax	    utils/ghostty
 usr/share/branding-soplos/Tyron.png	    misc/branding-soplos
 usr/share/branding-soplos/background-2.jpg	    misc/branding-soplos
 usr/share/branding-soplos/background.jpg	    misc/branding-soplos
@@ -137,14 +137,12 @@ usr/share/color-schemes/SoplosClassicDark.colors	    misc/soplos-plasma-classic-
 usr/share/color-schemes/SoplosClassicLight.colors	    misc/soplos-plasma-classic-white-theme
 usr/share/color-schemes/SoplosModernDark.colors	    misc/soplos-plasma-modern-black-themes
 usr/share/color-schemes/SoplosModernLight.colors	    misc/soplos-plasma-modern-white-themes
-usr/share/dbus-1/services/com.mitchellh.ghostty.service	    utils/ghostty,utils/ghostty-tip
+usr/share/dbus-1/services/com.mitchellh.ghostty.service	    utils/ghostty
 usr/share/dbus-1/system-services/org.kde.kcontrol.kcmplasmalogin.service	    kde/plasma-login-manager
 usr/share/dbus-1/system.d/org.freedesktop.DisplayManager.conf	    kde/plasma-login-manager
 usr/share/dbus-1/system.d/org.kde.kcontrol.kcmplasmalogin.conf	    kde/plasma-login-manager
 usr/share/doc/ghostty/changelog.Debian.gz	    utils/ghostty
 usr/share/doc/ghostty/copyright	    utils/ghostty
-usr/share/doc/ghostty-tip/changelog.Debian.gz	    utils/ghostty-tip
-usr/share/doc/ghostty-tip/copyright	    utils/ghostty-tip
 usr/share/doc/grub-btrfs/README.md.gz	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/changelog.Debian.gz	    admin/grub-btrfs
 usr/share/doc/grub-btrfs/initramfs-overlayfs.md	    admin/grub-btrfs
@@ -164,638 +162,484 @@ usr/share/doc/soplos-system-service/copyright	    utils/soplos-system-service
 usr/share/doc/soplos-webapp-manager/copyright	    utils/soplos-webapp-manager
 usr/share/doc/soplos-welcome/copyright	    utils/soplos-welcome
 usr/share/doc/soplos-welcome-live/copyright	    utils/soplos-welcome-live
-usr/share/fish/vendor_completions.d/ghostty.fish	    utils/ghostty,utils/ghostty-tip
+usr/share/fish/vendor_completions.d/ghostty.fish	    utils/ghostty
 usr/share/fontconfig/conf.avail/99-soplos-reject-woff.conf	    fonts/soplos-fontconfig-woff-fix
-usr/share/ghostty/doc/ghostty.1.html	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/doc/ghostty.1.md	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/doc/ghostty.5.html	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/doc/ghostty.5.md	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/shell-integration/bash/bash-preexec.sh	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/shell-integration/bash/ghostty.bash	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/shell-integration/elvish/lib/ghostty-integration.elv	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/shell-integration/fish/vendor_conf.d/ghostty-shell-integration.fish	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/shell-integration/nushell/vendor/autoload/ghostty.nu	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/shell-integration/zsh/.zshenv	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/shell-integration/zsh/ghostty-integration	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/0x96f	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/12-bit Rainbow	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/3024 Day	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/3024 Night	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Aardvark Blue	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Aardvark Ink	    utils/ghostty-tip
-usr/share/ghostty/themes/Abernathy	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Acid Lime	    utils/ghostty-tip
-usr/share/ghostty/themes/Adventure	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Adventure Time	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Adwaita	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Adwaita Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Afterglow	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Aizen Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Aizen Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Alabaster	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Alien Blood	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Amber CRT Retro	    utils/ghostty-tip
-usr/share/ghostty/themes/Andromeda	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Apple Classic	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Apple System Colors	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Apple System Colors Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Arcoiris	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Ardoise	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Argonaut	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Arthur	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Atelier Sulphurpool	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Atlas Ragnarok	    utils/ghostty-tip
-usr/share/ghostty/themes/Atom	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Atom One Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Atom One Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Aubade	    utils/ghostty-tip
-usr/share/ghostty/themes/Aura	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Aura Dark	    utils/ghostty-tip
-usr/share/ghostty/themes/Aurora	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Ayu	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Ayu Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Ayu Mirage	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Banana Blueberry	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Batman	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Belafonte Day	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Belafonte Night	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Birds Of Paradise	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Black Metal	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Black Metal (Bathory)	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Black Metal (Burzum)	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Black Metal (Dark Funeral)	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Black Metal (Gorgoroth)	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Black Metal (Immortal)	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Black Metal (Khold)	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Black Metal (Marduk)	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Black Metal (Mayhem)	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Black Metal (Nile)	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Black Metal (Venom)	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Blazer	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Blue Berry Pie	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Blue Dolphin	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Blue Matrix	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Bluloco Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Bluloco Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Borland	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Box	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Breadog	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Breeze	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Bright Lights	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Broadcast	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Brogrammer	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Builtin Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Builtin Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Builtin Pastel Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Builtin Tango Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Builtin Tango Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/C64	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/CGA	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/CLRS	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/CRT Amber	    utils/ghostty-tip
-usr/share/ghostty/themes/Calamity	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Carbonfox	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Cassette Tape	    utils/ghostty-tip
-usr/share/ghostty/themes/Catppuccin Frappe	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Catppuccin Latte	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Catppuccin Macchiato	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Catppuccin Mocha	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Catthode	    utils/ghostty-tip
-usr/share/ghostty/themes/Chalk	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Chalkboard	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Challenger Deep	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Chester	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Ciapre	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Citrus Ink	    utils/ghostty-tip
-usr/share/ghostty/themes/Citruszest	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Claude	    utils/ghostty-tip
-usr/share/ghostty/themes/Claude Dark	    utils/ghostty-tip
-usr/share/ghostty/themes/Claude Light	    utils/ghostty-tip
-usr/share/ghostty/themes/Clear Dark	    utils/ghostty-tip
-usr/share/ghostty/themes/Clear Light	    utils/ghostty-tip
-usr/share/ghostty/themes/Cobalt Neon	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Cobalt Next	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Cobalt Next Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Cobalt Next Minimal	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Cobalt2	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Coffee Theme	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Cool Night	    utils/ghostty-tip
-usr/share/ghostty/themes/Crayon Pony Fish	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Cursor Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Cursor Light	    utils/ghostty-tip
-usr/share/ghostty/themes/Cutie Pro	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Cyberdyne	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Cyberpunk	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Cyberpunk Scarlet Protocol	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Dalton Dark	    utils/ghostty-tip
-usr/share/ghostty/themes/Dark Modern	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Dark Pastel	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Dark+	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Darkermatrix	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Darkmatrix	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Darkside	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Dawnfox	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Daybreak	    utils/ghostty-tip
-usr/share/ghostty/themes/Dayfox	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Deep	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Desert	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Detuned	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Dimidium	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Dimmed Monokai	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Django	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Django Reborn Again	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Django Smooth	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Dogxi Misty	    utils/ghostty-tip
-usr/share/ghostty/themes/Doom One	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Doom Peacock	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Dot Gov	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Dracula	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Dracula+	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Driftwood	    utils/ghostty-tip
-usr/share/ghostty/themes/Duckbones	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Duotone Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Duskfox	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/ENCOM	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Earl Grey	    utils/ghostty-tip
-usr/share/ghostty/themes/Earthsong	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Eclipse	    utils/ghostty-tip
-usr/share/ghostty/themes/Electron Highlighter	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Electron Highlighter Day	    utils/ghostty-tip
-usr/share/ghostty/themes/Elegant	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Elemental	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Elementary	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Embark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Embers Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Emerald Synth	    utils/ghostty-tip
-usr/share/ghostty/themes/Espresso	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Espresso Libre	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Everblush	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Everforest Dark Hard	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Everforest Dark Med	    utils/ghostty-tip
-usr/share/ghostty/themes/Everforest Dark Soft	    utils/ghostty-tip
-usr/share/ghostty/themes/Everforest Light Hard	    utils/ghostty-tip
-usr/share/ghostty/themes/Everforest Light Med	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Everforest Light Soft	    utils/ghostty-tip
-usr/share/ghostty/themes/Fahrenheit	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Fairyfloss	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Farmhouse Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Farmhouse Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Fideloper	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Firefly Traditional	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Firefox Dev	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Firewatch	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Fish Tank	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Flat	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Flatland	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Flexoki Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Flexoki Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Floraverse	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Forest Blue	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Forge Ember	    utils/ghostty-tip
-usr/share/ghostty/themes/Framer	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Front End Delight	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Frostbyte	    utils/ghostty-tip
-usr/share/ghostty/themes/Fun Forrest	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Galaxy	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Galizur	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Ghostty Default Style Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/GitHub	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/GitHub Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/GitHub Dark Colorblind	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/GitHub Dark Default	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/GitHub Dark Dimmed	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/GitHub Dark High Contrast	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/GitHub Light Colorblind	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/GitHub Light Default	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/GitHub Light High Contrast	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/GitLab Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/GitLab Dark Grey	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/GitLab Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Glacier	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Gleam	    utils/ghostty-tip
-usr/share/ghostty/themes/Gleam Classic	    utils/ghostty-tip
-usr/share/ghostty/themes/Grape	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Graphite	    utils/ghostty-tip
-usr/share/ghostty/themes/Grass	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Green Phosphor CRT	    utils/ghostty-tip
-usr/share/ghostty/themes/Grey Green	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Grok Day	    utils/ghostty-tip
-usr/share/ghostty/themes/Grok Night	    utils/ghostty-tip
-usr/share/ghostty/themes/Gruber Darker	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Gruvbox Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Gruvbox Dark Hard	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Gruvbox Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Gruvbox Light Hard	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Gruvbox Material	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Gruvbox Material Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Gruvbox Material Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Guezwhoz	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/HaX0R Blue	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/HaX0R Gr33N	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/HaX0R R3D	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Hacktober	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Hardcore	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Harper	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Havn Daggry	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Havn Skumring	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Heeler	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Highway	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Hipster Green	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Hivacruz	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Homebrew	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Hopscotch	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Hopscotch.256	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Horizon	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Horizon Bright	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Hot Dog Stand	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Hot Dog Stand (Mustard)	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Hurtado	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Hybrid	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/IBM 5153 CGA	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/IBM 5153 CGA (Black)	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/IC Green PPL	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/IC Orange PPL	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/IR Black	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/IRIX Console	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/IRIX Terminal	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Iceberg Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Iceberg Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Idea	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Idle Toes	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Isocon Dark	    utils/ghostty-tip
-usr/share/ghostty/themes/Isocon Light	    utils/ghostty-tip
-usr/share/ghostty/themes/Jackie Brown	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Japanesque	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Jellybeans	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/JetBrains Darcula	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/JetBrains Islands Dark	    utils/ghostty-tip
-usr/share/ghostty/themes/JetCalm Light	    utils/ghostty-tip
-usr/share/ghostty/themes/Jubi	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Kanagawa Dragon	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Kanagawa Lotus	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Kanagawa Wave	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Kanagawabones	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Kanso Ink	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Kanso Mist	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Kanso Pearl	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Kanso Zen	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Karasu Night	    utils/ghostty-tip
-usr/share/ghostty/themes/Karasu Snow	    utils/ghostty-tip
-usr/share/ghostty/themes/Karma Dark	    utils/ghostty-tip
-usr/share/ghostty/themes/Karma Dark Dimmed	    utils/ghostty-tip
-usr/share/ghostty/themes/Karma Dark HC	    utils/ghostty-tip
-usr/share/ghostty/themes/Karma Light	    utils/ghostty-tip
-usr/share/ghostty/themes/Karma Light Dimmed	    utils/ghostty-tip
-usr/share/ghostty/themes/Karma Light HC	    utils/ghostty-tip
-usr/share/ghostty/themes/Keys Ocean Sunset	    utils/ghostty-tip
-usr/share/ghostty/themes/Keys Ocean Sunset HC	    utils/ghostty-tip
-usr/share/ghostty/themes/Kibble	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Kitty Default	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Kitty Low Contrast	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Klein Void	    utils/ghostty-tip
-usr/share/ghostty/themes/Kolorit	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Konsolas	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Kurokula	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Lab Fox	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Laser	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Later This Evening	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Lavandula	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Lemon Graphite	    utils/ghostty-tip
-usr/share/ghostty/themes/Letterpress	    utils/ghostty-tip
-usr/share/ghostty/themes/Light Owl	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Liquid Carbon	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Liquid Carbon Transparent	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/London Bonfire Night	    utils/ghostty-tip
-usr/share/ghostty/themes/London Columbia Road	    utils/ghostty-tip
-usr/share/ghostty/themes/London Embankment Dusk	    utils/ghostty-tip
-usr/share/ghostty/themes/London Soho Night	    utils/ghostty-tip
-usr/share/ghostty/themes/Lovelace	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Man Page	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Mariana	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Matcha Zen	    utils/ghostty-tip
-usr/share/ghostty/themes/Material	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Material Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Material Darker	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Material Design Colors	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Material Ocean	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Mathias	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Matrix	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Matte Black	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Medallion	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Melange Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Melange Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Mellifluous	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Mellow	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Mesila One	    utils/ghostty-tip
-usr/share/ghostty/themes/Miami Heat	    utils/ghostty-tip
-usr/share/ghostty/themes/Miasma	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Midnight Arcade	    utils/ghostty-tip
-usr/share/ghostty/themes/Midnight In Mojave	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Mirage	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Misterioso	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Modus Operandi	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Modus Operandi Deuteranopia	    utils/ghostty-tip
-usr/share/ghostty/themes/Modus Operandi Tinted	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Modus Operandi Tritanopia	    utils/ghostty-tip
-usr/share/ghostty/themes/Modus Vivendi	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Modus Vivendi Deuteranopia	    utils/ghostty-tip
-usr/share/ghostty/themes/Modus Vivendi Tinted	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Modus Vivendi Tritanopia	    utils/ghostty-tip
-usr/share/ghostty/themes/Molokai	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Mona Lisa	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Monokai Classic	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Monokai Pro	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Monokai Pro Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Monokai Pro Light Sun	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Monokai Pro Machine	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Monokai Pro Octagon	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Monokai Pro Ristretto	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Monokai Pro Spectrum	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Monokai Remastered	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Monokai Soda	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Monokai SublimeText	    utils/ghostty-tip
-usr/share/ghostty/themes/Monokai Vivid	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Monospace Dark	    utils/ghostty-tip
-usr/share/ghostty/themes/Monospace Light	    utils/ghostty-tip
-usr/share/ghostty/themes/Moonfly	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Moonwalk	    utils/ghostty-tip
-usr/share/ghostty/themes/N0Tch2K	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Nachtschicht	    utils/ghostty-tip
-usr/share/ghostty/themes/Nebula Drift	    utils/ghostty-tip
-usr/share/ghostty/themes/Neobones Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Neobones Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Neon	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Neon Purple	    utils/ghostty-tip
-usr/share/ghostty/themes/Neopolitan	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Neutron	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Night Lion V1	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Night Lion V2	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Night Owl	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Night Owlish Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Nightfox	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Niji	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/No Clown Fiesta	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/No Clown Fiesta Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Noctis	    utils/ghostty-tip
-usr/share/ghostty/themes/Noctis Azureus	    utils/ghostty-tip
-usr/share/ghostty/themes/Noctis Bordo	    utils/ghostty-tip
-usr/share/ghostty/themes/Noctis Hibernus	    utils/ghostty-tip
-usr/share/ghostty/themes/Noctis Lilac	    utils/ghostty-tip
-usr/share/ghostty/themes/Noctis Lux	    utils/ghostty-tip
-usr/share/ghostty/themes/Noctis Minimus	    utils/ghostty-tip
-usr/share/ghostty/themes/Noctis Obscuro	    utils/ghostty-tip
-usr/share/ghostty/themes/Noctis Sereno	    utils/ghostty-tip
-usr/share/ghostty/themes/Noctis Uva	    utils/ghostty-tip
-usr/share/ghostty/themes/Noctis Viola	    utils/ghostty-tip
-usr/share/ghostty/themes/Nocturnal Winter	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Nord	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Nord Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Nord Wave	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Nordfox	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Novel	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Nvim Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Nvim Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Obsidian	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Ocean	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Oceanic Material	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Oceanic Next	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Ollie	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/One Dark Two	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/One Double Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/One Double Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/One Half Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/One Half Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Onenord	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Onenord Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Opaline	    utils/ghostty-tip
-usr/share/ghostty/themes/Operator Mono Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Outrun Electric	    utils/ghostty-tip
-usr/share/ghostty/themes/Overnight Slumber	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Oxblood	    utils/ghostty-tip
-usr/share/ghostty/themes/Oxide	    utils/ghostty-tip
-usr/share/ghostty/themes/Oxocarbon	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Pale Night Hc	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Pandora	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Paraiso Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Patina	    utils/ghostty-tip
-usr/share/ghostty/themes/Patina Dark	    utils/ghostty-tip
-usr/share/ghostty/themes/Patina Dark Soft	    utils/ghostty-tip
-usr/share/ghostty/themes/Patina Lichen	    utils/ghostty-tip
-usr/share/ghostty/themes/Patina Light	    utils/ghostty-tip
-usr/share/ghostty/themes/Patina Moss	    utils/ghostty-tip
-usr/share/ghostty/themes/Patina Stellar	    utils/ghostty-tip
-usr/share/ghostty/themes/Paul Millr	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Pencil Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Pencil Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Peppermint	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Phala Green Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Piatto Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Pierre Dark	    utils/ghostty-tip
-usr/share/ghostty/themes/Pierre Light	    utils/ghostty-tip
-usr/share/ghostty/themes/Pnevma	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Poimandres	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Poimandres Darker	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Poimandres Storm	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Poimandres White	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Popping And Locking	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Porcelain	    utils/ghostty-tip
-usr/share/ghostty/themes/Powershell	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Primary	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Prism	    utils/ghostty-tip
-usr/share/ghostty/themes/Pro	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Pro Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Purple Portal	    utils/ghostty-tip
-usr/share/ghostty/themes/Purple Rain	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Purplepeter	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Pyrokai	    utils/ghostty-tip
-usr/share/ghostty/themes/Pyrokai Light	    utils/ghostty-tip
-usr/share/ghostty/themes/Rapture	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Raycast Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Raycast Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Rebecca	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Red Alert	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Red Planet	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Red Sands	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Relaxed	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Retro	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Retro Legends	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Rippedcasts	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Rose Pine	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Rose Pine Dawn	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Rose Pine Moon	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Rouge 2	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Royal	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Ryuuko	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Sakura	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Sandstone Classic	    utils/ghostty-tip
-usr/share/ghostty/themes/Sandstone Ink	    utils/ghostty-tip
-usr/share/ghostty/themes/Sandstone Warm	    utils/ghostty-tip
-usr/share/ghostty/themes/Sauber	    utils/ghostty-tip
-usr/share/ghostty/themes/Scarlet Protocol	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Sea Shells	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Seafoam Pastel	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/SeedFlip Abyss	    utils/ghostty-tip
-usr/share/ghostty/themes/SeedFlip Amethyst	    utils/ghostty-tip
-usr/share/ghostty/themes/SeedFlip Canopy	    utils/ghostty-tip
-usr/share/ghostty/themes/SeedFlip Carbon	    utils/ghostty-tip
-usr/share/ghostty/themes/SeedFlip Coral	    utils/ghostty-tip
-usr/share/ghostty/themes/SeedFlip Ember	    utils/ghostty-tip
-usr/share/ghostty/themes/SeedFlip Glacier	    utils/ghostty-tip
-usr/share/ghostty/themes/SeedFlip Inkwell	    utils/ghostty-tip
-usr/share/ghostty/themes/SeedFlip Ivory	    utils/ghostty-tip
-usr/share/ghostty/themes/SeedFlip Nightfall	    utils/ghostty-tip
-usr/share/ghostty/themes/SeedFlip Phosphor	    utils/ghostty-tip
-usr/share/ghostty/themes/SeedFlip Pulse	    utils/ghostty-tip
-usr/share/ghostty/themes/SeedFlip Ultraviolet	    utils/ghostty-tip
-usr/share/ghostty/themes/SeedFlip Voltage	    utils/ghostty-tip
-usr/share/ghostty/themes/SeedFlip Wavelength	    utils/ghostty-tip
-usr/share/ghostty/themes/Selenized Black	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Selenized Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Selenized Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Seoulbones Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Seoulbones Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Sequoia Monochrome Dark	    utils/ghostty-tip
-usr/share/ghostty/themes/Sequoia Monochrome Light	    utils/ghostty-tip
-usr/share/ghostty/themes/Sequoia Moonlight Dark	    utils/ghostty-tip
-usr/share/ghostty/themes/Sequoia Moonlight Light	    utils/ghostty-tip
-usr/share/ghostty/themes/Sequoia Retro Dark	    utils/ghostty-tip
-usr/share/ghostty/themes/Sequoia Retro Light	    utils/ghostty-tip
-usr/share/ghostty/themes/Serendipity Midnight	    utils/ghostty-tip
-usr/share/ghostty/themes/Serendipity Morning	    utils/ghostty-tip
-usr/share/ghostty/themes/Serendipity Sunset	    utils/ghostty-tip
-usr/share/ghostty/themes/Seti	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Shades Of Purple	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Shaman	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Shokunin	    utils/ghostty-tip
-usr/share/ghostty/themes/SilkCircuit Dawn	    utils/ghostty-tip
-usr/share/ghostty/themes/SilkCircuit Glow	    utils/ghostty-tip
-usr/share/ghostty/themes/SilkCircuit Neon	    utils/ghostty-tip
-usr/share/ghostty/themes/SilkCircuit Soft	    utils/ghostty-tip
-usr/share/ghostty/themes/SilkCircuit Vibrant	    utils/ghostty-tip
-usr/share/ghostty/themes/Slate	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Sleepy Hollow	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Smyck	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Snazzy	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Snazzy Soft	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Soft Server	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Solarized Darcula	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Solarized Dark Higher Contrast	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Solarized Dark Patched	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Solarized Osaka Night	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Sonokai	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Spacedust	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Spacegray	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Spacegray Bright	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Spacegray Eighties	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Spacegray Eighties Dull	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Spiderman	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Spring	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Square	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Squintless	    utils/ghostty-tip
-usr/share/ghostty/themes/Squirrelsong Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Srcery	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Starlight	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Sublette	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Subliminal	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Sugarplum	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Sumi Linen	    utils/ghostty-tip
-usr/share/ghostty/themes/Sumi Phosphor	    utils/ghostty-tip
-usr/share/ghostty/themes/Sundried	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Sunset Drive	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Symfonic	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Synthwave	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Synthwave Alpha	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Synthwave Everything	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Tango Adapted	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Tango Half Adapted	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Tearout	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Teerb	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Terafox	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Terminal Basic	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Terminal Basic Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Terminal Green 1999	    utils/ghostty-tip
-usr/share/ghostty/themes/Thayer Bright	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/The Hulk	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Tinacious Design Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Tinacious Design Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Token Dark	    utils/ghostty-tip
-usr/share/ghostty/themes/Token Light	    utils/ghostty-tip
-usr/share/ghostty/themes/TokyoNight	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/TokyoNight Day	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/TokyoNight Moon	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/TokyoNight Night	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/TokyoNight Storm	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Tomorrow	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Tomorrow Night	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Tomorrow Night Blue	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Tomorrow Night Bright	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Tomorrow Night Burns	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Tomorrow Night Eighties	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Toy Chest	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Trapped in Amber	    utils/ghostty-tip
-usr/share/ghostty/themes/Treehouse	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Twilight	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Ubuntu	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Ultra Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Ultra Violent	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Under The Sea	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Unikitty	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Urple	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Vague	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Vaporwave Sunset	    utils/ghostty-tip
-usr/share/ghostty/themes/Vaughn	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Velvet Court	    utils/ghostty-tip
-usr/share/ghostty/themes/Vercel	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Verdigris	    utils/ghostty-tip
-usr/share/ghostty/themes/Vesper	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Vibrant Ink	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Vimbones	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Violet Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Violet Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Violite	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Warm Burnout Dark	    utils/ghostty-tip
-usr/share/ghostty/themes/Warm Burnout Light	    utils/ghostty-tip
-usr/share/ghostty/themes/Warm Neon	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Wez	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Whimsy	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Wild Cherry	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Wilmersdorf	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Wombat	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Wryan	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Xcode Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Xcode Dark hc	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Xcode Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Xcode Light hc	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Xcode WWDC	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Y2K Chrome	    utils/ghostty-tip
-usr/share/ghostty/themes/Zenbones	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Zenbones Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Zenbones Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Zenburn	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Zenburned	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Zenwritten Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/Zenwritten Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/base16-icy	    utils/ghostty-tip
-usr/share/ghostty/themes/branch	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/cyberpunk-icy	    utils/ghostty-tip
-usr/share/ghostty/themes/datum (dark)	    utils/ghostty-tip
-usr/share/ghostty/themes/datum (light)	    utils/ghostty-tip
-usr/share/ghostty/themes/hazyland	    utils/ghostty-tip
-usr/share/ghostty/themes/iTerm2 Dark Background	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/iTerm2 Default	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/iTerm2 Light Background	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/iTerm2 Pastel Dark Background	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/iTerm2 Smoooooth	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/iTerm2 Solarized Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/iTerm2 Solarized Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/iTerm2 Tango Dark	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/iTerm2 Tango Light	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/novmbr	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/owl	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/traffic	    utils/ghostty,utils/ghostty-tip
-usr/share/ghostty/themes/urban	    utils/ghostty,utils/ghostty-tip
-usr/share/icons/hicolor/1024x1024/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
-usr/share/icons/hicolor/128x128/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
+usr/share/ghostty/doc/ghostty.1.html	    utils/ghostty
+usr/share/ghostty/doc/ghostty.1.md	    utils/ghostty
+usr/share/ghostty/doc/ghostty.5.html	    utils/ghostty
+usr/share/ghostty/doc/ghostty.5.md	    utils/ghostty
+usr/share/ghostty/shell-integration/bash/bash-preexec.sh	    utils/ghostty
+usr/share/ghostty/shell-integration/bash/ghostty.bash	    utils/ghostty
+usr/share/ghostty/shell-integration/elvish/lib/ghostty-integration.elv	    utils/ghostty
+usr/share/ghostty/shell-integration/fish/vendor_conf.d/ghostty-shell-integration.fish	    utils/ghostty
+usr/share/ghostty/shell-integration/nushell/vendor/autoload/ghostty.nu	    utils/ghostty
+usr/share/ghostty/shell-integration/zsh/.zshenv	    utils/ghostty
+usr/share/ghostty/shell-integration/zsh/ghostty-integration	    utils/ghostty
+usr/share/ghostty/themes/0x96f	    utils/ghostty
+usr/share/ghostty/themes/12-bit Rainbow	    utils/ghostty
+usr/share/ghostty/themes/3024 Day	    utils/ghostty
+usr/share/ghostty/themes/3024 Night	    utils/ghostty
+usr/share/ghostty/themes/Aardvark Blue	    utils/ghostty
+usr/share/ghostty/themes/Abernathy	    utils/ghostty
+usr/share/ghostty/themes/Adventure	    utils/ghostty
+usr/share/ghostty/themes/Adventure Time	    utils/ghostty
+usr/share/ghostty/themes/Adwaita	    utils/ghostty
+usr/share/ghostty/themes/Adwaita Dark	    utils/ghostty
+usr/share/ghostty/themes/Afterglow	    utils/ghostty
+usr/share/ghostty/themes/Aizen Dark	    utils/ghostty
+usr/share/ghostty/themes/Aizen Light	    utils/ghostty
+usr/share/ghostty/themes/Alabaster	    utils/ghostty
+usr/share/ghostty/themes/Alien Blood	    utils/ghostty
+usr/share/ghostty/themes/Andromeda	    utils/ghostty
+usr/share/ghostty/themes/Apple Classic	    utils/ghostty
+usr/share/ghostty/themes/Apple System Colors	    utils/ghostty
+usr/share/ghostty/themes/Apple System Colors Light	    utils/ghostty
+usr/share/ghostty/themes/Arcoiris	    utils/ghostty
+usr/share/ghostty/themes/Ardoise	    utils/ghostty
+usr/share/ghostty/themes/Argonaut	    utils/ghostty
+usr/share/ghostty/themes/Arthur	    utils/ghostty
+usr/share/ghostty/themes/Atelier Sulphurpool	    utils/ghostty
+usr/share/ghostty/themes/Atom	    utils/ghostty
+usr/share/ghostty/themes/Atom One Dark	    utils/ghostty
+usr/share/ghostty/themes/Atom One Light	    utils/ghostty
+usr/share/ghostty/themes/Aura	    utils/ghostty
+usr/share/ghostty/themes/Aurora	    utils/ghostty
+usr/share/ghostty/themes/Ayu	    utils/ghostty
+usr/share/ghostty/themes/Ayu Light	    utils/ghostty
+usr/share/ghostty/themes/Ayu Mirage	    utils/ghostty
+usr/share/ghostty/themes/Banana Blueberry	    utils/ghostty
+usr/share/ghostty/themes/Batman	    utils/ghostty
+usr/share/ghostty/themes/Belafonte Day	    utils/ghostty
+usr/share/ghostty/themes/Belafonte Night	    utils/ghostty
+usr/share/ghostty/themes/Birds Of Paradise	    utils/ghostty
+usr/share/ghostty/themes/Black Metal	    utils/ghostty
+usr/share/ghostty/themes/Black Metal (Bathory)	    utils/ghostty
+usr/share/ghostty/themes/Black Metal (Burzum)	    utils/ghostty
+usr/share/ghostty/themes/Black Metal (Dark Funeral)	    utils/ghostty
+usr/share/ghostty/themes/Black Metal (Gorgoroth)	    utils/ghostty
+usr/share/ghostty/themes/Black Metal (Immortal)	    utils/ghostty
+usr/share/ghostty/themes/Black Metal (Khold)	    utils/ghostty
+usr/share/ghostty/themes/Black Metal (Marduk)	    utils/ghostty
+usr/share/ghostty/themes/Black Metal (Mayhem)	    utils/ghostty
+usr/share/ghostty/themes/Black Metal (Nile)	    utils/ghostty
+usr/share/ghostty/themes/Black Metal (Venom)	    utils/ghostty
+usr/share/ghostty/themes/Blazer	    utils/ghostty
+usr/share/ghostty/themes/Blue Berry Pie	    utils/ghostty
+usr/share/ghostty/themes/Blue Dolphin	    utils/ghostty
+usr/share/ghostty/themes/Blue Matrix	    utils/ghostty
+usr/share/ghostty/themes/Bluloco Dark	    utils/ghostty
+usr/share/ghostty/themes/Bluloco Light	    utils/ghostty
+usr/share/ghostty/themes/Borland	    utils/ghostty
+usr/share/ghostty/themes/Box	    utils/ghostty
+usr/share/ghostty/themes/Breadog	    utils/ghostty
+usr/share/ghostty/themes/Breeze	    utils/ghostty
+usr/share/ghostty/themes/Bright Lights	    utils/ghostty
+usr/share/ghostty/themes/Broadcast	    utils/ghostty
+usr/share/ghostty/themes/Brogrammer	    utils/ghostty
+usr/share/ghostty/themes/Builtin Dark	    utils/ghostty
+usr/share/ghostty/themes/Builtin Light	    utils/ghostty
+usr/share/ghostty/themes/Builtin Pastel Dark	    utils/ghostty
+usr/share/ghostty/themes/Builtin Tango Dark	    utils/ghostty
+usr/share/ghostty/themes/Builtin Tango Light	    utils/ghostty
+usr/share/ghostty/themes/C64	    utils/ghostty
+usr/share/ghostty/themes/CGA	    utils/ghostty
+usr/share/ghostty/themes/CLRS	    utils/ghostty
+usr/share/ghostty/themes/Calamity	    utils/ghostty
+usr/share/ghostty/themes/Carbonfox	    utils/ghostty
+usr/share/ghostty/themes/Catppuccin Frappe	    utils/ghostty
+usr/share/ghostty/themes/Catppuccin Latte	    utils/ghostty
+usr/share/ghostty/themes/Catppuccin Macchiato	    utils/ghostty
+usr/share/ghostty/themes/Catppuccin Mocha	    utils/ghostty
+usr/share/ghostty/themes/Chalk	    utils/ghostty
+usr/share/ghostty/themes/Chalkboard	    utils/ghostty
+usr/share/ghostty/themes/Challenger Deep	    utils/ghostty
+usr/share/ghostty/themes/Chester	    utils/ghostty
+usr/share/ghostty/themes/Ciapre	    utils/ghostty
+usr/share/ghostty/themes/Citruszest	    utils/ghostty
+usr/share/ghostty/themes/Cobalt Neon	    utils/ghostty
+usr/share/ghostty/themes/Cobalt Next	    utils/ghostty
+usr/share/ghostty/themes/Cobalt Next Dark	    utils/ghostty
+usr/share/ghostty/themes/Cobalt Next Minimal	    utils/ghostty
+usr/share/ghostty/themes/Cobalt2	    utils/ghostty
+usr/share/ghostty/themes/Coffee Theme	    utils/ghostty
+usr/share/ghostty/themes/Crayon Pony Fish	    utils/ghostty
+usr/share/ghostty/themes/Cursor Dark	    utils/ghostty
+usr/share/ghostty/themes/Cutie Pro	    utils/ghostty
+usr/share/ghostty/themes/Cyberdyne	    utils/ghostty
+usr/share/ghostty/themes/Cyberpunk	    utils/ghostty
+usr/share/ghostty/themes/Cyberpunk Scarlet Protocol	    utils/ghostty
+usr/share/ghostty/themes/Dark Modern	    utils/ghostty
+usr/share/ghostty/themes/Dark Pastel	    utils/ghostty
+usr/share/ghostty/themes/Dark+	    utils/ghostty
+usr/share/ghostty/themes/Darkermatrix	    utils/ghostty
+usr/share/ghostty/themes/Darkmatrix	    utils/ghostty
+usr/share/ghostty/themes/Darkside	    utils/ghostty
+usr/share/ghostty/themes/Dawnfox	    utils/ghostty
+usr/share/ghostty/themes/Dayfox	    utils/ghostty
+usr/share/ghostty/themes/Deep	    utils/ghostty
+usr/share/ghostty/themes/Desert	    utils/ghostty
+usr/share/ghostty/themes/Detuned	    utils/ghostty
+usr/share/ghostty/themes/Dimidium	    utils/ghostty
+usr/share/ghostty/themes/Dimmed Monokai	    utils/ghostty
+usr/share/ghostty/themes/Django	    utils/ghostty
+usr/share/ghostty/themes/Django Reborn Again	    utils/ghostty
+usr/share/ghostty/themes/Django Smooth	    utils/ghostty
+usr/share/ghostty/themes/Doom One	    utils/ghostty
+usr/share/ghostty/themes/Doom Peacock	    utils/ghostty
+usr/share/ghostty/themes/Dot Gov	    utils/ghostty
+usr/share/ghostty/themes/Dracula	    utils/ghostty
+usr/share/ghostty/themes/Dracula+	    utils/ghostty
+usr/share/ghostty/themes/Duckbones	    utils/ghostty
+usr/share/ghostty/themes/Duotone Dark	    utils/ghostty
+usr/share/ghostty/themes/Duskfox	    utils/ghostty
+usr/share/ghostty/themes/ENCOM	    utils/ghostty
+usr/share/ghostty/themes/Earthsong	    utils/ghostty
+usr/share/ghostty/themes/Electron Highlighter	    utils/ghostty
+usr/share/ghostty/themes/Elegant	    utils/ghostty
+usr/share/ghostty/themes/Elemental	    utils/ghostty
+usr/share/ghostty/themes/Elementary	    utils/ghostty
+usr/share/ghostty/themes/Embark	    utils/ghostty
+usr/share/ghostty/themes/Embers Dark	    utils/ghostty
+usr/share/ghostty/themes/Espresso	    utils/ghostty
+usr/share/ghostty/themes/Espresso Libre	    utils/ghostty
+usr/share/ghostty/themes/Everblush	    utils/ghostty
+usr/share/ghostty/themes/Everforest Dark Hard	    utils/ghostty
+usr/share/ghostty/themes/Everforest Light Med	    utils/ghostty
+usr/share/ghostty/themes/Fahrenheit	    utils/ghostty
+usr/share/ghostty/themes/Fairyfloss	    utils/ghostty
+usr/share/ghostty/themes/Farmhouse Dark	    utils/ghostty
+usr/share/ghostty/themes/Farmhouse Light	    utils/ghostty
+usr/share/ghostty/themes/Fideloper	    utils/ghostty
+usr/share/ghostty/themes/Firefly Traditional	    utils/ghostty
+usr/share/ghostty/themes/Firefox Dev	    utils/ghostty
+usr/share/ghostty/themes/Firewatch	    utils/ghostty
+usr/share/ghostty/themes/Fish Tank	    utils/ghostty
+usr/share/ghostty/themes/Flat	    utils/ghostty
+usr/share/ghostty/themes/Flatland	    utils/ghostty
+usr/share/ghostty/themes/Flexoki Dark	    utils/ghostty
+usr/share/ghostty/themes/Flexoki Light	    utils/ghostty
+usr/share/ghostty/themes/Floraverse	    utils/ghostty
+usr/share/ghostty/themes/Forest Blue	    utils/ghostty
+usr/share/ghostty/themes/Framer	    utils/ghostty
+usr/share/ghostty/themes/Front End Delight	    utils/ghostty
+usr/share/ghostty/themes/Fun Forrest	    utils/ghostty
+usr/share/ghostty/themes/Galaxy	    utils/ghostty
+usr/share/ghostty/themes/Galizur	    utils/ghostty
+usr/share/ghostty/themes/Ghostty Default Style Dark	    utils/ghostty
+usr/share/ghostty/themes/GitHub	    utils/ghostty
+usr/share/ghostty/themes/GitHub Dark	    utils/ghostty
+usr/share/ghostty/themes/GitHub Dark Colorblind	    utils/ghostty
+usr/share/ghostty/themes/GitHub Dark Default	    utils/ghostty
+usr/share/ghostty/themes/GitHub Dark Dimmed	    utils/ghostty
+usr/share/ghostty/themes/GitHub Dark High Contrast	    utils/ghostty
+usr/share/ghostty/themes/GitHub Light Colorblind	    utils/ghostty
+usr/share/ghostty/themes/GitHub Light Default	    utils/ghostty
+usr/share/ghostty/themes/GitHub Light High Contrast	    utils/ghostty
+usr/share/ghostty/themes/GitLab Dark	    utils/ghostty
+usr/share/ghostty/themes/GitLab Dark Grey	    utils/ghostty
+usr/share/ghostty/themes/GitLab Light	    utils/ghostty
+usr/share/ghostty/themes/Glacier	    utils/ghostty
+usr/share/ghostty/themes/Grape	    utils/ghostty
+usr/share/ghostty/themes/Grass	    utils/ghostty
+usr/share/ghostty/themes/Grey Green	    utils/ghostty
+usr/share/ghostty/themes/Gruber Darker	    utils/ghostty
+usr/share/ghostty/themes/Gruvbox Dark	    utils/ghostty
+usr/share/ghostty/themes/Gruvbox Dark Hard	    utils/ghostty
+usr/share/ghostty/themes/Gruvbox Light	    utils/ghostty
+usr/share/ghostty/themes/Gruvbox Light Hard	    utils/ghostty
+usr/share/ghostty/themes/Gruvbox Material	    utils/ghostty
+usr/share/ghostty/themes/Gruvbox Material Dark	    utils/ghostty
+usr/share/ghostty/themes/Gruvbox Material Light	    utils/ghostty
+usr/share/ghostty/themes/Guezwhoz	    utils/ghostty
+usr/share/ghostty/themes/HaX0R Blue	    utils/ghostty
+usr/share/ghostty/themes/HaX0R Gr33N	    utils/ghostty
+usr/share/ghostty/themes/HaX0R R3D	    utils/ghostty
+usr/share/ghostty/themes/Hacktober	    utils/ghostty
+usr/share/ghostty/themes/Hardcore	    utils/ghostty
+usr/share/ghostty/themes/Harper	    utils/ghostty
+usr/share/ghostty/themes/Havn Daggry	    utils/ghostty
+usr/share/ghostty/themes/Havn Skumring	    utils/ghostty
+usr/share/ghostty/themes/Heeler	    utils/ghostty
+usr/share/ghostty/themes/Highway	    utils/ghostty
+usr/share/ghostty/themes/Hipster Green	    utils/ghostty
+usr/share/ghostty/themes/Hivacruz	    utils/ghostty
+usr/share/ghostty/themes/Homebrew	    utils/ghostty
+usr/share/ghostty/themes/Hopscotch	    utils/ghostty
+usr/share/ghostty/themes/Hopscotch.256	    utils/ghostty
+usr/share/ghostty/themes/Horizon	    utils/ghostty
+usr/share/ghostty/themes/Horizon Bright	    utils/ghostty
+usr/share/ghostty/themes/Hot Dog Stand	    utils/ghostty
+usr/share/ghostty/themes/Hot Dog Stand (Mustard)	    utils/ghostty
+usr/share/ghostty/themes/Hurtado	    utils/ghostty
+usr/share/ghostty/themes/Hybrid	    utils/ghostty
+usr/share/ghostty/themes/IBM 5153 CGA	    utils/ghostty
+usr/share/ghostty/themes/IBM 5153 CGA (Black)	    utils/ghostty
+usr/share/ghostty/themes/IC Green PPL	    utils/ghostty
+usr/share/ghostty/themes/IC Orange PPL	    utils/ghostty
+usr/share/ghostty/themes/IR Black	    utils/ghostty
+usr/share/ghostty/themes/IRIX Console	    utils/ghostty
+usr/share/ghostty/themes/IRIX Terminal	    utils/ghostty
+usr/share/ghostty/themes/Iceberg Dark	    utils/ghostty
+usr/share/ghostty/themes/Iceberg Light	    utils/ghostty
+usr/share/ghostty/themes/Idea	    utils/ghostty
+usr/share/ghostty/themes/Idle Toes	    utils/ghostty
+usr/share/ghostty/themes/Jackie Brown	    utils/ghostty
+usr/share/ghostty/themes/Japanesque	    utils/ghostty
+usr/share/ghostty/themes/Jellybeans	    utils/ghostty
+usr/share/ghostty/themes/JetBrains Darcula	    utils/ghostty
+usr/share/ghostty/themes/Jubi	    utils/ghostty
+usr/share/ghostty/themes/Kanagawa Dragon	    utils/ghostty
+usr/share/ghostty/themes/Kanagawa Lotus	    utils/ghostty
+usr/share/ghostty/themes/Kanagawa Wave	    utils/ghostty
+usr/share/ghostty/themes/Kanagawabones	    utils/ghostty
+usr/share/ghostty/themes/Kanso Ink	    utils/ghostty
+usr/share/ghostty/themes/Kanso Mist	    utils/ghostty
+usr/share/ghostty/themes/Kanso Pearl	    utils/ghostty
+usr/share/ghostty/themes/Kanso Zen	    utils/ghostty
+usr/share/ghostty/themes/Kibble	    utils/ghostty
+usr/share/ghostty/themes/Kitty Default	    utils/ghostty
+usr/share/ghostty/themes/Kitty Low Contrast	    utils/ghostty
+usr/share/ghostty/themes/Kolorit	    utils/ghostty
+usr/share/ghostty/themes/Konsolas	    utils/ghostty
+usr/share/ghostty/themes/Kurokula	    utils/ghostty
+usr/share/ghostty/themes/Lab Fox	    utils/ghostty
+usr/share/ghostty/themes/Laser	    utils/ghostty
+usr/share/ghostty/themes/Later This Evening	    utils/ghostty
+usr/share/ghostty/themes/Lavandula	    utils/ghostty
+usr/share/ghostty/themes/Light Owl	    utils/ghostty
+usr/share/ghostty/themes/Liquid Carbon	    utils/ghostty
+usr/share/ghostty/themes/Liquid Carbon Transparent	    utils/ghostty
+usr/share/ghostty/themes/Lovelace	    utils/ghostty
+usr/share/ghostty/themes/Man Page	    utils/ghostty
+usr/share/ghostty/themes/Mariana	    utils/ghostty
+usr/share/ghostty/themes/Material	    utils/ghostty
+usr/share/ghostty/themes/Material Dark	    utils/ghostty
+usr/share/ghostty/themes/Material Darker	    utils/ghostty
+usr/share/ghostty/themes/Material Design Colors	    utils/ghostty
+usr/share/ghostty/themes/Material Ocean	    utils/ghostty
+usr/share/ghostty/themes/Mathias	    utils/ghostty
+usr/share/ghostty/themes/Matrix	    utils/ghostty
+usr/share/ghostty/themes/Matte Black	    utils/ghostty
+usr/share/ghostty/themes/Medallion	    utils/ghostty
+usr/share/ghostty/themes/Melange Dark	    utils/ghostty
+usr/share/ghostty/themes/Melange Light	    utils/ghostty
+usr/share/ghostty/themes/Mellifluous	    utils/ghostty
+usr/share/ghostty/themes/Mellow	    utils/ghostty
+usr/share/ghostty/themes/Miasma	    utils/ghostty
+usr/share/ghostty/themes/Midnight In Mojave	    utils/ghostty
+usr/share/ghostty/themes/Mirage	    utils/ghostty
+usr/share/ghostty/themes/Misterioso	    utils/ghostty
+usr/share/ghostty/themes/Modus Operandi	    utils/ghostty
+usr/share/ghostty/themes/Modus Operandi Tinted	    utils/ghostty
+usr/share/ghostty/themes/Modus Vivendi	    utils/ghostty
+usr/share/ghostty/themes/Modus Vivendi Tinted	    utils/ghostty
+usr/share/ghostty/themes/Molokai	    utils/ghostty
+usr/share/ghostty/themes/Mona Lisa	    utils/ghostty
+usr/share/ghostty/themes/Monokai Classic	    utils/ghostty
+usr/share/ghostty/themes/Monokai Pro	    utils/ghostty
+usr/share/ghostty/themes/Monokai Pro Light	    utils/ghostty
+usr/share/ghostty/themes/Monokai Pro Light Sun	    utils/ghostty
+usr/share/ghostty/themes/Monokai Pro Machine	    utils/ghostty
+usr/share/ghostty/themes/Monokai Pro Octagon	    utils/ghostty
+usr/share/ghostty/themes/Monokai Pro Ristretto	    utils/ghostty
+usr/share/ghostty/themes/Monokai Pro Spectrum	    utils/ghostty
+usr/share/ghostty/themes/Monokai Remastered	    utils/ghostty
+usr/share/ghostty/themes/Monokai Soda	    utils/ghostty
+usr/share/ghostty/themes/Monokai Vivid	    utils/ghostty
+usr/share/ghostty/themes/Moonfly	    utils/ghostty
+usr/share/ghostty/themes/N0Tch2K	    utils/ghostty
+usr/share/ghostty/themes/Neobones Dark	    utils/ghostty
+usr/share/ghostty/themes/Neobones Light	    utils/ghostty
+usr/share/ghostty/themes/Neon	    utils/ghostty
+usr/share/ghostty/themes/Neopolitan	    utils/ghostty
+usr/share/ghostty/themes/Neutron	    utils/ghostty
+usr/share/ghostty/themes/Night Lion V1	    utils/ghostty
+usr/share/ghostty/themes/Night Lion V2	    utils/ghostty
+usr/share/ghostty/themes/Night Owl	    utils/ghostty
+usr/share/ghostty/themes/Night Owlish Light	    utils/ghostty
+usr/share/ghostty/themes/Nightfox	    utils/ghostty
+usr/share/ghostty/themes/Niji	    utils/ghostty
+usr/share/ghostty/themes/No Clown Fiesta	    utils/ghostty
+usr/share/ghostty/themes/No Clown Fiesta Light	    utils/ghostty
+usr/share/ghostty/themes/Nocturnal Winter	    utils/ghostty
+usr/share/ghostty/themes/Nord	    utils/ghostty
+usr/share/ghostty/themes/Nord Light	    utils/ghostty
+usr/share/ghostty/themes/Nord Wave	    utils/ghostty
+usr/share/ghostty/themes/Nordfox	    utils/ghostty
+usr/share/ghostty/themes/Novel	    utils/ghostty
+usr/share/ghostty/themes/Nvim Dark	    utils/ghostty
+usr/share/ghostty/themes/Nvim Light	    utils/ghostty
+usr/share/ghostty/themes/Obsidian	    utils/ghostty
+usr/share/ghostty/themes/Ocean	    utils/ghostty
+usr/share/ghostty/themes/Oceanic Material	    utils/ghostty
+usr/share/ghostty/themes/Oceanic Next	    utils/ghostty
+usr/share/ghostty/themes/Ollie	    utils/ghostty
+usr/share/ghostty/themes/One Dark Two	    utils/ghostty
+usr/share/ghostty/themes/One Double Dark	    utils/ghostty
+usr/share/ghostty/themes/One Double Light	    utils/ghostty
+usr/share/ghostty/themes/One Half Dark	    utils/ghostty
+usr/share/ghostty/themes/One Half Light	    utils/ghostty
+usr/share/ghostty/themes/Onenord	    utils/ghostty
+usr/share/ghostty/themes/Onenord Light	    utils/ghostty
+usr/share/ghostty/themes/Operator Mono Dark	    utils/ghostty
+usr/share/ghostty/themes/Overnight Slumber	    utils/ghostty
+usr/share/ghostty/themes/Oxocarbon	    utils/ghostty
+usr/share/ghostty/themes/Pale Night Hc	    utils/ghostty
+usr/share/ghostty/themes/Pandora	    utils/ghostty
+usr/share/ghostty/themes/Paraiso Dark	    utils/ghostty
+usr/share/ghostty/themes/Paul Millr	    utils/ghostty
+usr/share/ghostty/themes/Pencil Dark	    utils/ghostty
+usr/share/ghostty/themes/Pencil Light	    utils/ghostty
+usr/share/ghostty/themes/Peppermint	    utils/ghostty
+usr/share/ghostty/themes/Phala Green Dark	    utils/ghostty
+usr/share/ghostty/themes/Piatto Light	    utils/ghostty
+usr/share/ghostty/themes/Pnevma	    utils/ghostty
+usr/share/ghostty/themes/Poimandres	    utils/ghostty
+usr/share/ghostty/themes/Poimandres Darker	    utils/ghostty
+usr/share/ghostty/themes/Poimandres Storm	    utils/ghostty
+usr/share/ghostty/themes/Poimandres White	    utils/ghostty
+usr/share/ghostty/themes/Popping And Locking	    utils/ghostty
+usr/share/ghostty/themes/Powershell	    utils/ghostty
+usr/share/ghostty/themes/Primary	    utils/ghostty
+usr/share/ghostty/themes/Pro	    utils/ghostty
+usr/share/ghostty/themes/Pro Light	    utils/ghostty
+usr/share/ghostty/themes/Purple Rain	    utils/ghostty
+usr/share/ghostty/themes/Purplepeter	    utils/ghostty
+usr/share/ghostty/themes/Rapture	    utils/ghostty
+usr/share/ghostty/themes/Raycast Dark	    utils/ghostty
+usr/share/ghostty/themes/Raycast Light	    utils/ghostty
+usr/share/ghostty/themes/Rebecca	    utils/ghostty
+usr/share/ghostty/themes/Red Alert	    utils/ghostty
+usr/share/ghostty/themes/Red Planet	    utils/ghostty
+usr/share/ghostty/themes/Red Sands	    utils/ghostty
+usr/share/ghostty/themes/Relaxed	    utils/ghostty
+usr/share/ghostty/themes/Retro	    utils/ghostty
+usr/share/ghostty/themes/Retro Legends	    utils/ghostty
+usr/share/ghostty/themes/Rippedcasts	    utils/ghostty
+usr/share/ghostty/themes/Rose Pine	    utils/ghostty
+usr/share/ghostty/themes/Rose Pine Dawn	    utils/ghostty
+usr/share/ghostty/themes/Rose Pine Moon	    utils/ghostty
+usr/share/ghostty/themes/Rouge 2	    utils/ghostty
+usr/share/ghostty/themes/Royal	    utils/ghostty
+usr/share/ghostty/themes/Ryuuko	    utils/ghostty
+usr/share/ghostty/themes/Sakura	    utils/ghostty
+usr/share/ghostty/themes/Scarlet Protocol	    utils/ghostty
+usr/share/ghostty/themes/Sea Shells	    utils/ghostty
+usr/share/ghostty/themes/Seafoam Pastel	    utils/ghostty
+usr/share/ghostty/themes/Selenized Black	    utils/ghostty
+usr/share/ghostty/themes/Selenized Dark	    utils/ghostty
+usr/share/ghostty/themes/Selenized Light	    utils/ghostty
+usr/share/ghostty/themes/Seoulbones Dark	    utils/ghostty
+usr/share/ghostty/themes/Seoulbones Light	    utils/ghostty
+usr/share/ghostty/themes/Seti	    utils/ghostty
+usr/share/ghostty/themes/Shades Of Purple	    utils/ghostty
+usr/share/ghostty/themes/Shaman	    utils/ghostty
+usr/share/ghostty/themes/Slate	    utils/ghostty
+usr/share/ghostty/themes/Sleepy Hollow	    utils/ghostty
+usr/share/ghostty/themes/Smyck	    utils/ghostty
+usr/share/ghostty/themes/Snazzy	    utils/ghostty
+usr/share/ghostty/themes/Snazzy Soft	    utils/ghostty
+usr/share/ghostty/themes/Soft Server	    utils/ghostty
+usr/share/ghostty/themes/Solarized Darcula	    utils/ghostty
+usr/share/ghostty/themes/Solarized Dark Higher Contrast	    utils/ghostty
+usr/share/ghostty/themes/Solarized Dark Patched	    utils/ghostty
+usr/share/ghostty/themes/Solarized Osaka Night	    utils/ghostty
+usr/share/ghostty/themes/Sonokai	    utils/ghostty
+usr/share/ghostty/themes/Spacedust	    utils/ghostty
+usr/share/ghostty/themes/Spacegray	    utils/ghostty
+usr/share/ghostty/themes/Spacegray Bright	    utils/ghostty
+usr/share/ghostty/themes/Spacegray Eighties	    utils/ghostty
+usr/share/ghostty/themes/Spacegray Eighties Dull	    utils/ghostty
+usr/share/ghostty/themes/Spiderman	    utils/ghostty
+usr/share/ghostty/themes/Spring	    utils/ghostty
+usr/share/ghostty/themes/Square	    utils/ghostty
+usr/share/ghostty/themes/Squirrelsong Dark	    utils/ghostty
+usr/share/ghostty/themes/Srcery	    utils/ghostty
+usr/share/ghostty/themes/Starlight	    utils/ghostty
+usr/share/ghostty/themes/Sublette	    utils/ghostty
+usr/share/ghostty/themes/Subliminal	    utils/ghostty
+usr/share/ghostty/themes/Sugarplum	    utils/ghostty
+usr/share/ghostty/themes/Sundried	    utils/ghostty
+usr/share/ghostty/themes/Sunset Drive	    utils/ghostty
+usr/share/ghostty/themes/Symfonic	    utils/ghostty
+usr/share/ghostty/themes/Synthwave	    utils/ghostty
+usr/share/ghostty/themes/Synthwave Alpha	    utils/ghostty
+usr/share/ghostty/themes/Synthwave Everything	    utils/ghostty
+usr/share/ghostty/themes/Tango Adapted	    utils/ghostty
+usr/share/ghostty/themes/Tango Half Adapted	    utils/ghostty
+usr/share/ghostty/themes/Tearout	    utils/ghostty
+usr/share/ghostty/themes/Teerb	    utils/ghostty
+usr/share/ghostty/themes/Terafox	    utils/ghostty
+usr/share/ghostty/themes/Terminal Basic	    utils/ghostty
+usr/share/ghostty/themes/Terminal Basic Dark	    utils/ghostty
+usr/share/ghostty/themes/Thayer Bright	    utils/ghostty
+usr/share/ghostty/themes/The Hulk	    utils/ghostty
+usr/share/ghostty/themes/Tinacious Design Dark	    utils/ghostty
+usr/share/ghostty/themes/Tinacious Design Light	    utils/ghostty
+usr/share/ghostty/themes/TokyoNight	    utils/ghostty
+usr/share/ghostty/themes/TokyoNight Day	    utils/ghostty
+usr/share/ghostty/themes/TokyoNight Moon	    utils/ghostty
+usr/share/ghostty/themes/TokyoNight Night	    utils/ghostty
+usr/share/ghostty/themes/TokyoNight Storm	    utils/ghostty
+usr/share/ghostty/themes/Tomorrow	    utils/ghostty
+usr/share/ghostty/themes/Tomorrow Night	    utils/ghostty
+usr/share/ghostty/themes/Tomorrow Night Blue	    utils/ghostty
+usr/share/ghostty/themes/Tomorrow Night Bright	    utils/ghostty
+usr/share/ghostty/themes/Tomorrow Night Burns	    utils/ghostty
+usr/share/ghostty/themes/Tomorrow Night Eighties	    utils/ghostty
+usr/share/ghostty/themes/Toy Chest	    utils/ghostty
+usr/share/ghostty/themes/Treehouse	    utils/ghostty
+usr/share/ghostty/themes/Twilight	    utils/ghostty
+usr/share/ghostty/themes/Ubuntu	    utils/ghostty
+usr/share/ghostty/themes/Ultra Dark	    utils/ghostty
+usr/share/ghostty/themes/Ultra Violent	    utils/ghostty
+usr/share/ghostty/themes/Under The Sea	    utils/ghostty
+usr/share/ghostty/themes/Unikitty	    utils/ghostty
+usr/share/ghostty/themes/Urple	    utils/ghostty
+usr/share/ghostty/themes/Vague	    utils/ghostty
+usr/share/ghostty/themes/Vaughn	    utils/ghostty
+usr/share/ghostty/themes/Vercel	    utils/ghostty
+usr/share/ghostty/themes/Vesper	    utils/ghostty
+usr/share/ghostty/themes/Vibrant Ink	    utils/ghostty
+usr/share/ghostty/themes/Vimbones	    utils/ghostty
+usr/share/ghostty/themes/Violet Dark	    utils/ghostty
+usr/share/ghostty/themes/Violet Light	    utils/ghostty
+usr/share/ghostty/themes/Violite	    utils/ghostty
+usr/share/ghostty/themes/Warm Neon	    utils/ghostty
+usr/share/ghostty/themes/Wez	    utils/ghostty
+usr/share/ghostty/themes/Whimsy	    utils/ghostty
+usr/share/ghostty/themes/Wild Cherry	    utils/ghostty
+usr/share/ghostty/themes/Wilmersdorf	    utils/ghostty
+usr/share/ghostty/themes/Wombat	    utils/ghostty
+usr/share/ghostty/themes/Wryan	    utils/ghostty
+usr/share/ghostty/themes/Xcode Dark	    utils/ghostty
+usr/share/ghostty/themes/Xcode Dark hc	    utils/ghostty
+usr/share/ghostty/themes/Xcode Light	    utils/ghostty
+usr/share/ghostty/themes/Xcode Light hc	    utils/ghostty
+usr/share/ghostty/themes/Xcode WWDC	    utils/ghostty
+usr/share/ghostty/themes/Zenbones	    utils/ghostty
+usr/share/ghostty/themes/Zenbones Dark	    utils/ghostty
+usr/share/ghostty/themes/Zenbones Light	    utils/ghostty
+usr/share/ghostty/themes/Zenburn	    utils/ghostty
+usr/share/ghostty/themes/Zenburned	    utils/ghostty
+usr/share/ghostty/themes/Zenwritten Dark	    utils/ghostty
+usr/share/ghostty/themes/Zenwritten Light	    utils/ghostty
+usr/share/ghostty/themes/branch	    utils/ghostty
+usr/share/ghostty/themes/iTerm2 Dark Background	    utils/ghostty
+usr/share/ghostty/themes/iTerm2 Default	    utils/ghostty
+usr/share/ghostty/themes/iTerm2 Light Background	    utils/ghostty
+usr/share/ghostty/themes/iTerm2 Pastel Dark Background	    utils/ghostty
+usr/share/ghostty/themes/iTerm2 Smoooooth	    utils/ghostty
+usr/share/ghostty/themes/iTerm2 Solarized Dark	    utils/ghostty
+usr/share/ghostty/themes/iTerm2 Solarized Light	    utils/ghostty
+usr/share/ghostty/themes/iTerm2 Tango Dark	    utils/ghostty
+usr/share/ghostty/themes/iTerm2 Tango Light	    utils/ghostty
+usr/share/ghostty/themes/novmbr	    utils/ghostty
+usr/share/ghostty/themes/owl	    utils/ghostty
+usr/share/ghostty/themes/traffic	    utils/ghostty
+usr/share/ghostty/themes/urban	    utils/ghostty
+usr/share/icons/hicolor/1024x1024/apps/com.mitchellh.ghostty.png	    utils/ghostty
+usr/share/icons/hicolor/128x128/apps/com.mitchellh.ghostty.png	    utils/ghostty
 usr/share/icons/hicolor/128x128/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/128x128/apps/org.soplos-systemservice.png	    utils/soplos-system-service
 usr/share/icons/hicolor/128x128/apps/org.soplos.appimagemanager.png	    utils/soplos-appimage-manager
@@ -808,8 +652,8 @@ usr/share/icons/hicolor/128x128/apps/org.soplos.systemservice.png	    utils/sopl
 usr/share/icons/hicolor/128x128/apps/org.soplos.webappmanager.png	    utils/soplos-webapp-manager
 usr/share/icons/hicolor/128x128/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/128x128/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
-usr/share/icons/hicolor/128x128@2/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
-usr/share/icons/hicolor/16x16/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
+usr/share/icons/hicolor/128x128@2/apps/com.mitchellh.ghostty.png	    utils/ghostty
+usr/share/icons/hicolor/16x16/apps/com.mitchellh.ghostty.png	    utils/ghostty
 usr/share/icons/hicolor/16x16/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/16x16/apps/org.soplos-systemservice.png	    utils/soplos-system-service
 usr/share/icons/hicolor/16x16/apps/org.soplos.appimagemanager.png	    utils/soplos-appimage-manager
@@ -821,7 +665,7 @@ usr/share/icons/hicolor/16x16/apps/org.soplos.sys-cleaner.png	    utils/soplos-s
 usr/share/icons/hicolor/16x16/apps/org.soplos.webappmanager.png	    utils/soplos-webapp-manager
 usr/share/icons/hicolor/16x16/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/16x16/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
-usr/share/icons/hicolor/16x16@2/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
+usr/share/icons/hicolor/16x16@2/apps/com.mitchellh.ghostty.png	    utils/ghostty
 usr/share/icons/hicolor/22x22/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/22x22/apps/org.soplos-systemservice.png	    utils/soplos-system-service
 usr/share/icons/hicolor/22x22/apps/org.soplos.appimagemanager.png	    utils/soplos-appimage-manager
@@ -844,7 +688,7 @@ usr/share/icons/hicolor/24x24/apps/org.soplos.sys-cleaner.png	    utils/soplos-s
 usr/share/icons/hicolor/24x24/apps/org.soplos.webappmanager.png	    utils/soplos-webapp-manager
 usr/share/icons/hicolor/24x24/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/24x24/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
-usr/share/icons/hicolor/256x256/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
+usr/share/icons/hicolor/256x256/apps/com.mitchellh.ghostty.png	    utils/ghostty
 usr/share/icons/hicolor/256x256/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/256x256/apps/org.soplos-systemservice.png	    utils/soplos-system-service
 usr/share/icons/hicolor/256x256/apps/org.soplos.appimagemanager.png	    utils/soplos-appimage-manager
@@ -856,8 +700,8 @@ usr/share/icons/hicolor/256x256/apps/org.soplos.sys-cleaner.png	    utils/soplos
 usr/share/icons/hicolor/256x256/apps/org.soplos.webappmanager.png	    utils/soplos-webapp-manager
 usr/share/icons/hicolor/256x256/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/256x256/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
-usr/share/icons/hicolor/256x256@2/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
-usr/share/icons/hicolor/32x32/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
+usr/share/icons/hicolor/256x256@2/apps/com.mitchellh.ghostty.png	    utils/ghostty
+usr/share/icons/hicolor/32x32/apps/com.mitchellh.ghostty.png	    utils/ghostty
 usr/share/icons/hicolor/32x32/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/32x32/apps/org.soplos-systemservice.png	    utils/soplos-system-service
 usr/share/icons/hicolor/32x32/apps/org.soplos.appimagemanager.png	    utils/soplos-appimage-manager
@@ -869,7 +713,7 @@ usr/share/icons/hicolor/32x32/apps/org.soplos.sys-cleaner.png	    utils/soplos-s
 usr/share/icons/hicolor/32x32/apps/org.soplos.webappmanager.png	    utils/soplos-webapp-manager
 usr/share/icons/hicolor/32x32/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/32x32/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
-usr/share/icons/hicolor/32x32@2/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
+usr/share/icons/hicolor/32x32@2/apps/com.mitchellh.ghostty.png	    utils/ghostty
 usr/share/icons/hicolor/48x48/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/48x48/apps/org.soplos-systemservice.png	    utils/soplos-system-service
 usr/share/icons/hicolor/48x48/apps/org.soplos.appimagemanager.png	    utils/soplos-appimage-manager
@@ -882,7 +726,7 @@ usr/share/icons/hicolor/48x48/apps/org.soplos.systemservice.png	    utils/soplos
 usr/share/icons/hicolor/48x48/apps/org.soplos.webappmanager.png	    utils/soplos-webapp-manager
 usr/share/icons/hicolor/48x48/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/48x48/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
-usr/share/icons/hicolor/512x512/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
+usr/share/icons/hicolor/512x512/apps/com.mitchellh.ghostty.png	    utils/ghostty
 usr/share/icons/hicolor/64x64/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/64x64/apps/org.soplos-systemservice.png	    utils/soplos-system-service
 usr/share/icons/hicolor/64x64/apps/org.soplos.appimagemanager.png	    utils/soplos-appimage-manager
@@ -896,123 +740,118 @@ usr/share/icons/hicolor/64x64/apps/org.soplos.webappmanager.png	    utils/soplos
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
 usr/share/icons/hicolor/scalable/apps/kuteditor.svg	    sound/kuteditor
-usr/share/kio/servicemenus/com.mitchellh.ghostty.desktop	    utils/ghostty,utils/ghostty-tip
+usr/share/kio/servicemenus/com.mitchellh.ghostty.desktop	    utils/ghostty
 usr/share/licenses/grub-btrfs/LICENSE	    admin/grub-btrfs
 usr/share/locale/ar/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ar/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/az/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/az/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/be/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty-tip
-usr/share/locale/bg/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/bg/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/bg/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/bg/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/ca/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/ca/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/ca/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ca/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/ca@valencia/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ca@valencia/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/cs/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/cs/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/da/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty-tip
 usr/share/locale/da/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/da/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/de/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/de/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/de/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/de/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/es/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/es/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/es_AR/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
-usr/share/locale/es_BO/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
-usr/share/locale/es_ES/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
-usr/share/locale/eu/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty-tip
+usr/share/locale/es_AR/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
+usr/share/locale/es_BO/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
+usr/share/locale/es_ES/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/eu/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/eu/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/fi/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/fi/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/fr/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/fr/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/fr/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/fr/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/ga/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/ga/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/ga/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ga/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/gl/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/gl/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/he/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/he/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/he/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/he/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/hr/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
-usr/share/locale/hu/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/hr/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
+usr/share/locale/hu/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/hu/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/hu/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/ia/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ia/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/id/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/id/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/id/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/id/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/is/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/is/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/it/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/it/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/it/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/it/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/ja/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/ja/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/ja/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ja/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/ka/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ka/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/kk/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/kk/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/ko/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ko/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/ko_KR/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
-usr/share/locale/lt/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/ko_KR/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
+usr/share/locale/lt/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/lt/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/lt/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/lv/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/lv/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/lv/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/lv/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/mk/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
-usr/share/locale/nb/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/mk/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
+usr/share/locale/nb/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/nb/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/nb/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/nl/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/nl/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/nl/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/nl/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/nn/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/nn/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/pl/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/pl/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/pl/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/pl/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/pt/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/pt/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/pt_BR/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/pt_BR/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/pt_BR/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/pt_BR/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/ro/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ro/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/ru/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/ru/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/ru/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ru/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/sk/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/sk/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/sl/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/sl/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/sr/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty-tip
-usr/share/locale/sr@latin/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty-tip
 usr/share/locale/sv/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/sv/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/tr/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/tr/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/tr/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/tr/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/uk/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/uk/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/uk/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/uk/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/vi/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
-usr/share/locale/zh_CN/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/vi/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
+usr/share/locale/zh_CN/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/zh_CN/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/zh_CN/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/locale/zh_TW/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,utils/ghostty-tip
+usr/share/locale/zh_TW/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty
 usr/share/locale/zh_TW/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/zh_TW/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
-usr/share/man/man1/ghostty.1.gz	    utils/ghostty,utils/ghostty-tip
+usr/share/man/man1/ghostty.1.gz	    utils/ghostty
 usr/share/man/man1/soplos-appimage-manager.1.gz	    utils/soplos-appimage-manager
 usr/share/man/man1/soplos-grub-editor.1.gz	    utils/soplos-grub-editor
 usr/share/man/man1/soplos-kernel-installer.1.gz	    utils/soplos-kernel-installer
@@ -1022,10 +861,10 @@ usr/share/man/man1/soplos-sys-cleaner.1.gz	    utils/soplos-sys-cleaner
 usr/share/man/man1/soplos-webapp-manager.1.gz	    utils/soplos-webapp-manager
 usr/share/man/man1/soplos-welcome-live.1.gz	    utils/soplos-welcome-live
 usr/share/man/man1/soplos-welcome.1.gz	    utils/soplos-welcome
-usr/share/man/man5/ghostty.5.gz	    utils/ghostty,utils/ghostty-tip
+usr/share/man/man5/ghostty.5.gz	    utils/ghostty
 usr/share/man/man8/grub-btrfs.8.gz	    admin/grub-btrfs
 usr/share/man/man8/grub-btrfsd.8.gz	    admin/grub-btrfs
-usr/share/metainfo/com.mitchellh.ghostty.metainfo.xml	    utils/ghostty,utils/ghostty-tip
+usr/share/metainfo/com.mitchellh.ghostty.metainfo.xml	    utils/ghostty
 usr/share/metainfo/com.soplos.msi-keyboard.metainfo.xml	    utils/msi-keyboard-gui
 usr/share/metainfo/org.soplos.appimagemanager.metainfo.xml	    utils/soplos-appimage-manager
 usr/share/metainfo/org.soplos.grubeditor.metainfo.xml	    utils/soplos-grub-editor
@@ -1067,11 +906,11 @@ usr/share/msi-keyboard-gui/src/utils/config.py	    utils/msi-keyboard-gui
 usr/share/msi-keyboard-gui/src/utils/paths.py	    utils/msi-keyboard-gui
 usr/share/msi-keyboard-gui/src/widgets/__init__.py	    utils/msi-keyboard-gui
 usr/share/msi-keyboard-gui/src/widgets/keyboard_widget.py	    utils/msi-keyboard-gui
-usr/share/nautilus-python/extensions/ghostty.py	    utils/ghostty,utils/ghostty-tip
-usr/share/nvim/site/compiler/ghostty.vim	    utils/ghostty,utils/ghostty-tip
-usr/share/nvim/site/ftdetect/ghostty.vim	    utils/ghostty,utils/ghostty-tip
-usr/share/nvim/site/ftplugin/ghostty.vim	    utils/ghostty,utils/ghostty-tip
-usr/share/nvim/site/syntax/ghostty.vim	    utils/ghostty,utils/ghostty-tip
+usr/share/nautilus-python/extensions/ghostty.py	    utils/ghostty
+usr/share/nvim/site/compiler/ghostty.vim	    utils/ghostty
+usr/share/nvim/site/ftdetect/ghostty.vim	    utils/ghostty
+usr/share/nvim/site/ftplugin/ghostty.vim	    utils/ghostty
+usr/share/nvim/site/syntax/ghostty.vim	    utils/ghostty
 usr/share/pixmaps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/pixmaps/org.soplos-systemservice.png	    utils/soplos-system-service
 usr/share/pixmaps/org.soplos.appimagemanager.png	    utils/soplos-appimage-manager
@@ -2482,11 +2321,11 @@ usr/share/soplos-welcome-live/utils/language_changer.py	    utils/soplos-welcome
 usr/share/soplos-welcome-live/utils/numlockx_manager.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/session_manager.py	    utils/soplos-welcome-live
 usr/share/soplos-welcome-live/utils/update_gtk_bookmarks.py	    utils/soplos-welcome-live
-usr/share/terminfo/x/xterm-ghostty	    utils/ghostty,utils/ghostty-tip
-usr/share/vim/vimfiles/compiler/ghostty.vim	    utils/ghostty,utils/ghostty-tip
-usr/share/vim/vimfiles/ftdetect/ghostty.vim	    utils/ghostty,utils/ghostty-tip
-usr/share/vim/vimfiles/ftplugin/ghostty.vim	    utils/ghostty,utils/ghostty-tip
-usr/share/vim/vimfiles/syntax/ghostty.vim	    utils/ghostty,utils/ghostty-tip
+usr/share/terminfo/x/xterm-ghostty	    utils/ghostty
+usr/share/vim/vimfiles/compiler/ghostty.vim	    utils/ghostty
+usr/share/vim/vimfiles/ftdetect/ghostty.vim	    utils/ghostty
+usr/share/vim/vimfiles/ftplugin/ghostty.vim	    utils/ghostty
+usr/share/vim/vimfiles/syntax/ghostty.vim	    utils/ghostty
 usr/share/wallpapers/soplos/001.jpg	    misc/soplos-wallpapers01
 usr/share/wallpapers/soplos/002.jpg	    misc/soplos-wallpapers01
 usr/share/wallpapers/soplos/003.jpg	    misc/soplos-wallpapers01
@@ -2511,4 +2350,4 @@ usr/share/wallpapers/soplos/021.jpg	    misc/soplos-wallpapers02
 usr/share/wallpapers/soplos/022.jpg	    misc/soplos-wallpapers02
 usr/share/wallpapers/soplos/023.jpg	    misc/soplos-wallpapers02
 usr/share/wallpapers/soplos/024.jpg	    misc/soplos-wallpapers02
-usr/share/zsh/site-functions/_ghostty	    utils/ghostty,utils/ghostty-tip
+usr/share/zsh/site-functions/_ghostty	    utils/ghostty
