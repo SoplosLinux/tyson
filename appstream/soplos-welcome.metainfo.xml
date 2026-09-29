@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.3-4" date="2026-09-29">
+        <description>
+          <p xml:lang="en">Fixed DaVinci Resolve installs producing no .deb package on Resolve 21.1, caused by an outdated bundled makeresolvedeb script that didn't handle its new Immersive directory. Updated to match Welcome 3.0.</p>
+          <p xml:lang="es">Corregido que la instalación de DaVinci Resolve no generara ningún paquete .deb en Resolve 21.1, causado por una versión desactualizada del script makeresolvedeb incluido, que no sabía tratar su nueva carpeta Immersive. Actualizado para que coincida con Welcome 3.0.</p>
+          <p xml:lang="fr">Correction de l'installation de DaVinci Resolve qui ne produisait aucun paquet .deb sur Resolve 21.1, causée par une version obsolète du script makeresolvedeb intégré, qui ne gérait pas son nouveau dossier Immersive. Mis à jour pour correspondre à Welcome 3.0.</p>
+          <p xml:lang="pt">Corrigido o facto de a instalação do DaVinci Resolve não gerar nenhum pacote .deb no Resolve 21.1, causado por uma versão desatualizada do script makeresolvedeb incluído, que não sabia lidar com a sua nova pasta Immersive. Atualizado para corresponder ao Welcome 3.0.</p>
+          <p xml:lang="de">Behoben, dass die DaVinci-Resolve-Installation unter Resolve 21.1 kein .deb-Paket erzeugte, verursacht durch eine veraltete Version des mitgelieferten makeresolvedeb-Skripts, das den neuen Immersive-Ordner nicht kannte. Aktualisiert, passend zu Welcome 3.0.</p>
+          <p xml:lang="it">Corretto il fatto che l'installazione di DaVinci Resolve non generasse alcun pacchetto .deb su Resolve 21.1, causato da una versione obsoleta dello script makeresolvedeb incluso, che non gestiva la sua nuova cartella Immersive. Aggiornato per corrispondere a Welcome 3.0.</p>
+          <p xml:lang="ru">Исправлено отсутствие пакета .deb при установке DaVinci Resolve 21.1, вызванное устаревшей версией встроенного скрипта makeresolvedeb, который не умел работать с новой папкой Immersive. Обновлено в соответствии с Welcome 3.0.</p>
+          <p xml:lang="ro">Corectat faptul ca instalarea DaVinci Resolve nu genera niciun pachet .deb pe Resolve 21.1, cauzat de o versiune invechita a scriptului makeresolvedeb inclus, care nu stia sa gestioneze noul sau folder Immersive. Actualizat pentru a se potrivi cu Welcome 3.0.</p>
+        </description>
+      </release>
       <release version="2.1.3-3" date="2026-09-28">
         <description>
           <p xml:lang="en">Added Fog Panther and Patchy, two image editors, to Recommended → Graphics.</p>
