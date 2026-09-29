@@ -28,12 +28,15 @@ etc/apt/sources.list.d/tyson.sources	    admin/soplos-release
 etc/dconf/db/local.d/00-maliit	    utils/tablet-soplos
 etc/default/grub	    misc/soplos-grub-theme
 etc/default/grub-btrfs/config	    admin/grub-btrfs
+etc/dpkg/origins/soplos	    admin/soplos-release
 etc/dracut.conf.d/i18n.conf	    admin/soplos-release
 etc/dracut.conf.d/local.conf	    admin/soplos-release
 etc/dracut.conf.d/soplos.conf	    admin/soplos-release
 etc/fonts/conf.d/99-soplos-reject-woff.conf	    fonts/soplos-fontconfig-woff-fix
 etc/grub.d/05_soplos_theme	    misc/soplos-grub-theme
 etc/grub.d/41_snapshots-btrfs	    admin/grub-btrfs
+etc/kernel/postinst.d/zz-symlinks	    admin/soplos-release
+etc/kernel/postrm.d/zz-symlinks	    admin/soplos-release
 etc/skel/.zshrc	    utils/zsh-soplos
 etc/skel/.config/fastfetch/config.jsonc	    utils/fastfetch-soplos
 etc/skel/.config/fish/config.fish	    utils/fish-soplos
