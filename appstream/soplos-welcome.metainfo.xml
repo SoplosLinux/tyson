@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.3-5" date="2026-09-30">
+        <description>
+          <p xml:lang="en">Added Glassy Music, Orchard, Sonora and Concat to Recommended → Multimedia.</p>
+          <p xml:lang="es">Añadidos Glassy Music, Orchard, Sonora y Concat a Recomendados → Multimedia.</p>
+          <p xml:lang="fr">Ajout de Glassy Music, Orchard, Sonora et Concat à Recommandé → Multimédia.</p>
+          <p xml:lang="pt">Adicionados o Glassy Music, o Orchard, o Sonora e o Concat a Recomendado → Multimédia.</p>
+          <p xml:lang="de">Glassy Music, Orchard, Sonora und Concat zu Empfohlen → Multimedia hinzugefügt.</p>
+          <p xml:lang="it">Aggiunti Glassy Music, Orchard, Sonora e Concat a Consigliati → Multimedia.</p>
+          <p xml:lang="ru">В раздел «Рекомендуемое» → «Мультимедиа» добавлены Glassy Music, Orchard, Sonora и Concat.</p>
+          <p xml:lang="ro">Adaugate Glassy Music, Orchard, Sonora si Concat in Recomandat → Multimedia.</p>
+        </description>
+      </release>
       <release version="2.1.3-4" date="2026-09-29">
         <description>
           <p xml:lang="en">Fixed DaVinci Resolve installs producing no .deb package on Resolve 21.1, caused by an outdated bundled makeresolvedeb script that didn't handle its new Immersive directory. Updated to match Welcome 3.0.</p>

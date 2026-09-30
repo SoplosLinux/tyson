@@ -2269,8 +2269,10 @@ usr/share/soplos-welcome/assets/icons/kernels/org.soplos.kernel-installer.png	  
 usr/share/soplos-welcome/assets/icons/multimedia/ardour.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/audacity.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/bitwig-studio.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/multimedia/concat.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/davinci-resolve.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/drift.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/multimedia/glassy-music.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/handbrake.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/kdenlive.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/kodi.png	    utils/soplos-welcome
@@ -2280,9 +2282,11 @@ usr/share/soplos-welcome/assets/icons/multimedia/mixxx.png	    utils/soplos-welc
 usr/share/soplos-welcome/assets/icons/multimedia/mpv.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/obs-studio.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/openshot.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/multimedia/orchard.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/prism.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/reaper.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/shotcut.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/multimedia/sonora.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/spotify.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/vlc.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/zrythm.png	    utils/soplos-welcome

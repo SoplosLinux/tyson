@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20260930T101005
+Time: 20260930T105625
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1496,6 +1496,21 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.3-5
+    date: '2026-09-30'
+    type: stable
+    description:
+      en: Added Glassy Music, Orchard, Sonora and Concat to Recommended → Multimedia.
+      es: Añadidos Glassy Music, Orchard, Sonora y Concat a Recomendados → Multimedia.
+      fr: Ajout de Glassy Music, Orchard, Sonora et Concat à Recommandé → Multimédia.
+      pt: Adicionados o Glassy Music, o Orchard, o Sonora e o Concat a Recomendado
+        → Multimédia.
+      de: Glassy Music, Orchard, Sonora und Concat zu Empfohlen → Multimedia hinzugefügt.
+      it: Aggiunti Glassy Music, Orchard, Sonora e Concat a Consigliati → Multimedia.
+      ru: В раздел «Рекомендуемое» → «Мультимедиа» добавлены Glassy Music, Orchard,
+        Sonora и Concat.
+      ro: Adaugate Glassy Music, Orchard, Sonora si Concat in Recomandat → Multimedia.
+      C: Added Glassy Music, Orchard, Sonora and Concat to Recommended → Multimedia.
   - version: 2.1.3-4
     date: '2026-09-29'
     type: stable
