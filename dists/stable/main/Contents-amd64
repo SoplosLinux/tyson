@@ -901,6 +901,7 @@ usr/share/icons/hicolor/64x64/apps/org.soplos.webappmanager.png	    utils/soplos
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/64x64/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
 usr/share/icons/hicolor/scalable/apps/kuteditor.svg	    sound/kuteditor
+usr/share/keyrings/tyson.gpg	    admin/soplos-release
 usr/share/kio/servicemenus/com.mitchellh.ghostty.desktop	    utils/ghostty,utils/ghostty-tip
 usr/share/licenses/grub-btrfs/LICENSE	    admin/grub-btrfs
 usr/share/locale/ar/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
