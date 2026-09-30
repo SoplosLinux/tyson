@@ -15,6 +15,30 @@ Description: Branding package for Soplos Linux Tyson.
  This package provides the official branding (logos, themes, etc.) for Soplos Linux Tyson.
  Build date: 2025-07-27
 
+Package: btrfs-os-prober
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: os-prober, grub2-common, btrfs-progs, util-linux, coreutils
+Priority: optional
+Section: admin
+Filename: pool/main/b/btrfs-os-prober/btrfs-os-prober_1.0.0-1_all.deb
+Size: 5440
+SHA256: 9695a1b991da8c5d4416acd081c5cfc03893f0de23f790fbde4ffc739427a32e
+SHA1: b6d6884b106f36a3404698ab075943c843ce4b12
+MD5sum: aaa5ec23285f04d25dbfebddc701c460
+Description: btrfs subvolume detection for GRUB's os-prober on Soplos Linux
+ Soplos installers put the root filesystem in a "@" btrfs subvolume.
+ GRUB's own btrfs filesystem driver only exposes the volume's top level
+ (subvolid 5) to os-prober, so update-grub never finds /etc on another,
+ unmounted Soplos installation and silently leaves it out of the boot
+ menu unless its disk happens to already be mounted.
+ .
+ This package adds two grub.d scripts that mount the right subvolume
+ read-only around os-prober's own pass, and patches a bug in os-prober's
+ stock GRUB probe that otherwise reimports broken memtest86+ entries
+ from the other system's own grub.cfg.
+
 Package: fastfetch-soplos
 Version: 0.0.4-2
 Architecture: all

@@ -34,6 +34,8 @@ etc/dracut.conf.d/local.conf	    admin/soplos-release
 etc/dracut.conf.d/soplos.conf	    admin/soplos-release
 etc/fonts/conf.d/99-soplos-reject-woff.conf	    fonts/soplos-fontconfig-woff-fix
 etc/grub.d/05_soplos_theme	    misc/soplos-grub-theme
+etc/grub.d/29_premount	    admin/btrfs-os-prober
+etc/grub.d/31_premount_cleanup	    admin/btrfs-os-prober
 etc/grub.d/41_snapshots-btrfs	    admin/grub-btrfs
 etc/kernel/postinst.d/zz-symlinks	    admin/soplos-release
 etc/kernel/postrm.d/zz-symlinks	    admin/soplos-release
@@ -69,6 +71,7 @@ usr/lib/os-release	    admin/soplos-release
 usr/lib/kf6/kauth/libexec/kcmplasmalogin_authhelper	    kde/plasma-login-manager
 usr/lib/kuteditor/kuteditor	    sound/kuteditor
 usr/lib/kuteditor/libdeepfilter.so.0.5	    sound/kuteditor
+usr/lib/linux-boot-probes/mounted/40grub2	    admin/btrfs-os-prober
 usr/lib/pam.d/plasmalogin	    kde/plasma-login-manager
 usr/lib/pam.d/plasmalogin-autologin	    kde/plasma-login-manager
 usr/lib/pam.d/plasmalogin-greeter	    kde/plasma-login-manager
@@ -146,6 +149,7 @@ usr/share/dbus-1/services/com.mitchellh.ghostty.service	    utils/ghostty,utils/
 usr/share/dbus-1/system-services/org.kde.kcontrol.kcmplasmalogin.service	    kde/plasma-login-manager
 usr/share/dbus-1/system.d/org.freedesktop.DisplayManager.conf	    kde/plasma-login-manager
 usr/share/dbus-1/system.d/org.kde.kcontrol.kcmplasmalogin.conf	    kde/plasma-login-manager
+usr/share/doc/btrfs-os-prober/copyright	    admin/btrfs-os-prober
 usr/share/doc/ghostty/changelog.Debian.gz	    utils/ghostty
 usr/share/doc/ghostty/copyright	    utils/ghostty
 usr/share/doc/ghostty-tip/changelog.Debian.gz	    utils/ghostty-tip
