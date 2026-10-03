@@ -199,21 +199,19 @@ MD5sum: 2830d0681c6260c58225ee9c440dedc4
 Description: Configure MSI keyboard RGB lighting
 
 Package: plasma-login-manager
-Version: 6.7.4-1-soplos
+Version: 6.7.4-2-soplos
 Architecture: amd64
 Maintainer: Sergi Perich <info@soploslinux.com>
-Depends: libc6 (>= 2.34), libkf6authcore6 (>= 6.26.0), libkf6configcore6 (>= 6.26.0), libkf6configgui6 (>= 6.26.0), libkf6configqml6 (>= 6.26.0), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.26.0), libkf6i18n6 (>= 6.26.0), libkf6kcmutilscore6 (>= 6.26.0), libkf6kcmutilsquick6 (>= 6.26.0), libkf6kiogui6 (>= 6.26.0), libkf6package6 (>= 6.26.0), libkf6screendpms8 (>= 4:6.7.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.26.0), libklookandfeel6 (>= 4:6.7.0), libkworkspace6-6 (>= 4:6.7.0), liblayershellqtinterface6 (>= 6.7.0), libpam0g (>= 0.99.7.1), libplasmaquick7 (>= 6.7.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0), libqt6gui6 (>= 6.10.0), libqt6network6 (>= 6.10.0), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0), libstdc++6 (>= 13.1), libsystemd0, libxau6 (>= 1:1.0.11), qt6-declarative-private-abi (= 6.10.2), systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, init-system-helpers (>= 1.54~), soplos-wallpapers01
+Depends: libc6 (>= 2.34), libkf6authcore6 (>= 6.26.0), libkf6configcore6 (>= 6.26.0), libkf6configgui6 (>= 6.26.0), libkf6configqml6 (>= 6.26.0), libkf6coreaddons6 (>= 6.0.0), libkf6dbusaddons6 (>= 6.26.0), libkf6i18n6 (>= 6.26.0), libkf6kcmutilscore6 (>= 6.26.0), libkf6kcmutilsquick6 (>= 6.26.0), libkf6kiogui6 (>= 6.26.0), libkf6package6 (>= 6.26.0), libkf6screendpms8 (>= 4:6.7.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.26.0), libklookandfeel6 (>= 4:6.7.0), libkworkspace6-6 (>= 4:6.7.0), liblayershellqtinterface6 (>= 6.7.0), libpam0g (>= 0.99.7.1), libplasmaquick7 (>= 6.7.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0), libqt6gui6 (>= 6.10.0), libqt6network6 (>= 6.10.0), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0), libstdc++6 (>= 13.1), libsystemd0, libxau6 (>= 1:1.0.11), qt6-declarative-private-abi (= 6.11.2), systemd | systemd-standalone-tmpfiles | systemd-tmpfiles, init-system-helpers (>= 1.54~), soplos-wallpapers01
 Recommends: plasma-workspace
-Conflicts: sddm
-Replaces: sddm
 Homepage: https://invent.kde.org/plasma/plasma-login-manager
 Priority: optional
 Section: kde
-Filename: pool/main/p/plasma-login-manager/plasma-login-manager_6.7.4-1-soplos_amd64.deb
-Size: 444968
-SHA256: 4ea14690c10057c42f2f0204896a63f7251864cd2a9dab4b927efe7e8e6a923d
-SHA1: c705222597a5f8fcbc13eed5f275a3d55d8aef65
-MD5sum: ed81775f36a8723e6806dce76928641f
+Filename: pool/main/p/plasma-login-manager/plasma-login-manager_6.7.4-2-soplos_amd64.deb
+Size: 444868
+SHA256: d37cf7788c27ca1d406a70abc92e780a7de19980f652e95d7ef5491fc95278d4
+SHA1: 00e3087ba77afa814ffb220f607981bc6f0a8ae1
+MD5sum: c084128392a678b3adeb52463858ff2a
 Description: Plasma Login Manager display manager
  Plasma Login provides a display manager for KDE Plasma, forked from
  SDDM, with a greeter, wallpaper plugin integration and a System
