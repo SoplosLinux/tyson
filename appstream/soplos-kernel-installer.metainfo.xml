@@ -166,6 +166,18 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.2-9" date="2026-10-04">
+      <description>
+        <p>Added support for Linux 7.2.9 Zen patch (0001-zen-7.2.9.patch) in _download_zen_soplos(), checking exact kernel version patches before falling back to major_minor line patches.</p>
+        <p xml:lang="es">Anadido soporte para el parche Zen de Linux 7.2.9 (0001-zen-7.2.9.patch) en _download_zen_soplos(), comprobando parches por version exacta de kernel antes de recurrir a parches por linea major_minor.</p>
+        <p xml:lang="fr">Ajout du support pour le patch Zen Linux 7.2.9 (0001-zen-7.2.9.patch) dans _download_zen_soplos(), en verifiant les patchs par version exacte avant de basculer sur les patchs de ligne major_minor.</p>
+        <p xml:lang="de">Unterstuetzung fuer den Linux 7.2.9 Zen-Patch (0001-zen-7.2.9.patch) in _download_zen_soplos() hinzugefuegt, wobei exakte Kernelversionen vor dem Fallback auf major_minor-Patches geprueft werden.</p>
+        <p xml:lang="pt">Adicionado suporte para o patch Zen do Linux 7.2.9 (0001-zen-7.2.9.patch) em _download_zen_soplos(), verificando patches por versao exata antes de recorrer a patches de linha major_minor.</p>
+        <p xml:lang="it">Aggiunto il supporto per la patch Zen di Linux 7.2.9 (0001-zen-7.2.9.patch) in _download_zen_soplos(), verificando le patch per versione esatta prima di ricorrere a quelle di linea major_minor.</p>
+        <p xml:lang="ro">S-a adaugat suport pentru patch-ul Zen Linux 7.2.9 (0001-zen-7.2.9.patch) in _download_zen_soplos(), verificand mai intai patch-urile pentru versiunea exacta.</p>
+        <p xml:lang="ru">Добавлена поддержка патча Zen для Linux 7.2.9 (0001-zen-7.2.9.patch) в _download_zen_soplos() с проверкой точных версий ядер перед переходом на патчи линейки major_minor.</p>
+      </description>
+    </release>
     <release version="1.0.2-8" date="2026-10-03">
       <description>
         <p>Zen patch source priority was backwards: the installer tried zen-kernel/zen-kernel's own upstream releases first and only fell back to the Soplos-maintained zen-soplos rebase if no matching release existed. Kernel 7.2.9 V3/V4 builds failed because the official zen-kernel release for that version carries its own march mechanism in arch/x86/Makefile, which conflicts with Soplos' own x86-64 ISA-level patch applied afterward. zen-soplos is now tried first; zen-kernel/zen-kernel is only a fallback when zen-soplos has no patch for the line yet or it doesn't apply.</p>
