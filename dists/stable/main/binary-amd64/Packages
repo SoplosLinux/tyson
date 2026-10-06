@@ -489,6 +489,31 @@ SHA1: 067d327b34eedb5d60102cd59df6c811ba022033
 MD5sum: c9c644b1fa6cfbe56bba5ca43d5ec985
 Description: Graphical manager for systemd services on Soplos Linux
 
+Package: soplos-vmware-modules
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 24
+Depends: make, gcc, tar, kmod, coreutils
+Priority: optional
+Section: misc
+Filename: pool/main/s/soplos-vmware-modules/soplos-vmware-modules_1.0.0_amd64.deb
+Size: 4248
+SHA256: 569851991ab68ba3d70ed54346be83b98e189ec5e7f7f0a463a7f4ce3d438137
+SHA1: 26c48e95ccfbbd5ec1275f0f3b94a36aaa593ae3
+MD5sum: a6d7b3ed81c5f260713ee22537ad838c
+Description: VMware kernel modules builder for Soplos Linux
+ Builds and installs VMware Workstation host kernel modules (vmmon and
+ vmnet) for all installed kernels on Soplos Linux. The vmw_vmci module
+ is provided by the Soplos kernel itself.
+ .
+ Includes a hook in /etc/kernel/postinst.d/ that automatically rebuilds
+ the modules when a new kernel is installed, and a hook in
+ /etc/kernel/prerm.d/ that cleans up when a kernel is removed.
+ .
+ Also configures VMware module autoloading at boot and enables the
+ vmware.service systemd unit.
+
 Package: soplos-wallpapers01
 Version: 1.0.1
 Architecture: all

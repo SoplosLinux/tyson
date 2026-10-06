@@ -38,8 +38,10 @@ etc/grub.d/05_soplos_theme	    misc/soplos-grub-theme
 etc/grub.d/29_premount	    admin/btrfs-os-prober
 etc/grub.d/31_premount_cleanup	    admin/btrfs-os-prober
 etc/grub.d/41_snapshots-btrfs	    admin/grub-btrfs
+etc/kernel/postinst.d/soplos-vmware-modules	    misc/soplos-vmware-modules
 etc/kernel/postinst.d/zz-symlinks	    admin/soplos-release
 etc/kernel/postrm.d/zz-symlinks	    admin/soplos-release
+etc/kernel/prerm.d/soplos-vmware-modules	    misc/soplos-vmware-modules
 etc/skel/.zshrc	    utils/zsh-soplos
 etc/skel/.config/fastfetch/config.jsonc	    utils/fastfetch-soplos
 etc/skel/.config/fish/config.fish	    utils/fish-soplos
@@ -77,6 +79,7 @@ usr/lib/linux-boot-probes/mounted/40grub2	    admin/btrfs-os-prober
 usr/lib/pam.d/plasmalogin	    kde/plasma-login-manager
 usr/lib/pam.d/plasmalogin-autologin	    kde/plasma-login-manager
 usr/lib/pam.d/plasmalogin-greeter	    kde/plasma-login-manager
+usr/lib/soplos-vmware-modules/build-modules.sh	    misc/soplos-vmware-modules
 usr/lib/systemd/system/grub-btrfsd.service	    admin/grub-btrfs
 usr/lib/systemd/system/plasmalogin.service	    kde/plasma-login-manager
 usr/lib/systemd/user/app-com.mitchellh.ghostty.service	    utils/ghostty,utils/ghostty-tip
@@ -174,6 +177,7 @@ usr/share/doc/soplos-plymouth-manager/copyright	    utils/soplos-plymouth-manage
 usr/share/doc/soplos-repo-selector/copyright	    utils/soplos-repo-selector
 usr/share/doc/soplos-sys-cleaner/copyright	    utils/soplos-sys-cleaner
 usr/share/doc/soplos-system-service/copyright	    utils/soplos-system-service
+usr/share/doc/soplos-vmware-modules/changelog.gz	    misc/soplos-vmware-modules
 usr/share/doc/soplos-webapp-manager/copyright	    utils/soplos-webapp-manager
 usr/share/doc/soplos-welcome/copyright	    utils/soplos-welcome
 usr/share/doc/soplos-welcome-live/copyright	    utils/soplos-welcome-live
