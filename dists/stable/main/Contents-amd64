@@ -2273,10 +2273,13 @@ usr/share/soplos-welcome/assets/icons/graphics/gimp.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/hugin.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/inkscape.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/krita.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/graphics/lightcraft.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/pantherfog.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/patchy.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/graphics/photocraft.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/rapidraw.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/graphics/rawtherapee.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/graphics/vectorcraft.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/hardware/amdgpu-top.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/hardware/coolercontrol.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/hardware/cpupower.png	    utils/soplos-welcome
@@ -2290,6 +2293,8 @@ usr/share/soplos-welcome/assets/icons/multimedia/bitwig-studio.png	    utils/sop
 usr/share/soplos-welcome/assets/icons/multimedia/concat.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/davinci-resolve.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/drift.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/multimedia/effectcraft.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/multimedia/filmcraft.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/glassy-music.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/handbrake.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/multimedia/kdenlive.png	    utils/soplos-welcome
@@ -2314,6 +2319,7 @@ usr/share/soplos-welcome/assets/icons/office/genoffice.png	    utils/soplos-welc
 usr/share/soplos-welcome/assets/icons/office/jopdf.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/office/libreoffice.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/office/onlyoffice.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/office/printcraft.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/office/reader.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/office/wpsoffice.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/remotes/anydesk.png	    utils/soplos-welcome
@@ -2358,6 +2364,9 @@ usr/share/soplos-welcome/assets/icons/soplos/soplos-plymouth-manager.png	    uti
 usr/share/soplos-welcome/assets/icons/soplos/soplos-theme-manager.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/virtual/gnomeboxes.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/icons/virtual/virtmanager.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/virtual/virtualbox.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/virtual/vmware.png	    utils/soplos-welcome
+usr/share/soplos-welcome/assets/icons/virtual/waydroid.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/screenshots/screenshot01.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/screenshots/screenshot02.png	    utils/soplos-welcome
 usr/share/soplos-welcome/assets/screenshots/screenshot03.png	    utils/soplos-welcome
