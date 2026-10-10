@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.3-7" date="2026-10-10">
+        <description>
+          <p xml:lang="en">Fixed the Ralink/MediaTek Wi-Fi firmware button doing nothing, now installing firmware-mediatek instead of the discontinued firmware-ralink. Added a second Broadcom Wi-Fi button for the proprietary broadcom-sta-dkms driver, for chips not covered by the open b43 driver.</p>
+          <p xml:lang="es">Corregido que el botón de firmware Wi-Fi Ralink/MediaTek no hiciera nada, ahora instala firmware-mediatek en vez del descontinuado firmware-ralink. Añadido un segundo botón de Broadcom Wi-Fi para el driver propietario broadcom-sta-dkms, para chips que no cubre el driver abierto b43.</p>
+          <p xml:lang="fr">Correction du bouton de micrologiciel Wi-Fi Ralink/MediaTek qui ne faisait rien, il installe désormais firmware-mediatek au lieu de firmware-ralink, abandonné. Ajout d'un second bouton Broadcom Wi-Fi pour le pilote propriétaire broadcom-sta-dkms, pour les puces non couvertes par le pilote libre b43.</p>
+          <p xml:lang="pt">Corrigido o botão do firmware Wi-Fi Ralink/MediaTek que não fazia nada, agora instala o firmware-mediatek em vez do descontinuado firmware-ralink. Adicionado um segundo botão de Broadcom Wi-Fi para o controlador proprietário broadcom-sta-dkms, para chips não cobertos pelo controlador aberto b43.</p>
+          <p xml:lang="de">Behoben, dass die Wi-Fi-Firmware-Schaltfläche für Ralink/MediaTek nichts bewirkte — installiert nun firmware-mediatek statt des eingestellten firmware-ralink. Eine zweite Broadcom-Wi-Fi-Schaltfläche für den proprietären Treiber broadcom-sta-dkms hinzugefügt, für Chips, die der offene b43-Treiber nicht abdeckt.</p>
+          <p xml:lang="it">Corretto il pulsante del firmware Wi-Fi Ralink/MediaTek che non faceva nulla, ora installa firmware-mediatek al posto del dismesso firmware-ralink. Aggiunto un secondo pulsante Broadcom Wi-Fi per il driver proprietario broadcom-sta-dkms, per i chip non coperti dal driver open b43.</p>
+          <p xml:lang="ru">Исправлена кнопка прошивки Wi-Fi Ralink/MediaTek, которая ничего не делала — теперь устанавливается firmware-mediatek вместо прекратившего существование firmware-ralink. Добавлена вторая кнопка Broadcom Wi-Fi для проприетарного драйвера broadcom-sta-dkms, для чипов, не поддерживаемых открытым драйвером b43.</p>
+          <p xml:lang="ro">Corectat butonul de firmware Wi-Fi Ralink/MediaTek care nu facea nimic, acum instaleaza firmware-mediatek in loc de firmware-ralink, desfiintat. Adaugat un al doilea buton Broadcom Wi-Fi pentru driverul proprietar broadcom-sta-dkms, pentru chipurile neacoperite de driverul deschis b43.</p>
+        </description>
+      </release>
       <release version="2.1.3-6" date="2026-10-08">
         <description>
           <p xml:lang="en">Added PrintCraft, FilmCraft, EffectCraft, PhotoCraft, VectorCraft and LightCraft (clean-room Adobe-suite alternatives), VirtualBox, VirtualBox Extension Pack and VMware Workstation Pro. Waydroid moved to Virtualization. Audacity now installs from its official AppImage instead of an outdated apt package, and Google Antigravity installs from Google's official tarball instead of its discontinued apt repository.</p>
