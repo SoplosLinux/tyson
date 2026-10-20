@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20261018T144305
+Time: 20261020T121621
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -738,6 +738,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.3
+    date: '2026-10-20'
+    type: stable
+    description:
+      C: 'Added NVIDIA DKMS compatibility patch for Linux 7.3+ (Fix 5: dmem_cgroup_register_region
+        API change in os-interface.c).'
+      es: |-
+        Añadido parche de compatibilidad NVIDIA DKMS para Linux 7.3+ (Fix 5: cambio de API en dmem_cgroup_register_region en os-interface.c).
+      fr: |-
+        Ajout du patch de compatibilité NVIDIA DKMS pour Linux 7.3+ (Fix 5 : changement d'API dmem_cgroup_register_region dans os-interface.c).
+      de: |-
+        NVIDIA DKMS-Kompatibilitätspatch für Linux 7.3+ hinzugefügt (Fix 5: dmem_cgroup_register_region API-Änderung in os-interface.c).
+      pt: |-
+        Adicionado patch de compatibilidade NVIDIA DKMS para Linux 7.3+ (Fix 5: alteração da API dmem_cgroup_register_region em os-interface.c).
+      it: |-
+        Aggiunta patch di compatibilità NVIDIA DKMS per Linux 7.3+ (Fix 5: modifica dell'API dmem_cgroup_register_region in os-interface.c).
+      ro: |-
+        S-a adăugat patch-ul de compatibilitate NVIDIA DKMS pentru Linux 7.3+ (Fix 5: modificare API dmem_cgroup_register_region în os-interface.c).
+      ru: |-
+        Добавлен патч совместимости NVIDIA DKMS для Linux 7.3+ (Fix 5: изменение API dmem_cgroup_register_region в os-interface.c).
   - version: 1.0.2-9
     date: '2026-10-04'
     type: stable
@@ -1536,6 +1556,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.3-8
+    date: '2026-10-20'
+    type: stable
+    description:
+      en: |-
+        Added NVIDIA DKMS compatibility patch for Linux 7.3+ kernels (Fix 5: dmem_cgroup_register_region API change in os-interface.c).
+      es: |-
+        Añadido parche de compatibilidad NVIDIA DKMS para kernels Linux 7.3+ (Fix 5: cambio de API en dmem_cgroup_register_region en os-interface.c).
+      fr: |-
+        Ajout du patch de compatibilité NVIDIA DKMS pour les noyaux Linux 7.3+ (Fix 5 : changement d'API dmem_cgroup_register_region dans os-interface.c).
+      de: |-
+        NVIDIA DKMS-Kompatibilitätspatch für Linux 7.3+ Kernel hinzugefügt (Fix 5: dmem_cgroup_register_region API-Änderung in os-interface.c).
+      pt: |-
+        Adicionado patch de compatibilidade NVIDIA DKMS para kernels Linux 7.3+ (Fix 5: alteração da API dmem_cgroup_register_region em os-interface.c).
+      it: |-
+        Aggiunta patch di compatibilità NVIDIA DKMS per kernel Linux 7.3+ (Fix 5: modifica dell'API dmem_cgroup_register_region in os-interface.c).
+      ro: |-
+        S-a adăugat patch-ul de compatibilitate NVIDIA DKMS pentru kerneluri Linux 7.3+ (Fix 5: modificare API dmem_cgroup_register_region în os-interface.c).
+      ru: |-
+        Добавлен патч совместимости NVIDIA DKMS для ядер Linux 7.3+ (Fix 5: изменение API dmem_cgroup_register_region в os-interface.c).
+      C: |-
+        Added NVIDIA DKMS compatibility patch for Linux 7.3+ kernels (Fix 5: dmem_cgroup_register_region API change in os-interface.c).
   - version: 2.1.3-7
     date: '2026-10-10'
     type: stable

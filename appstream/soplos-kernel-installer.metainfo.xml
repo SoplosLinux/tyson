@@ -166,6 +166,18 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.3" date="2026-10-20">
+      <description>
+        <p>Added NVIDIA DKMS compatibility patch for Linux 7.3+ (Fix 5: dmem_cgroup_register_region API change in os-interface.c).</p>
+        <p xml:lang="es">Añadido parche de compatibilidad NVIDIA DKMS para Linux 7.3+ (Fix 5: cambio de API en dmem_cgroup_register_region en os-interface.c).</p>
+        <p xml:lang="fr">Ajout du patch de compatibilité NVIDIA DKMS pour Linux 7.3+ (Fix 5 : changement d'API dmem_cgroup_register_region dans os-interface.c).</p>
+        <p xml:lang="de">NVIDIA DKMS-Kompatibilitätspatch für Linux 7.3+ hinzugefügt (Fix 5: dmem_cgroup_register_region API-Änderung in os-interface.c).</p>
+        <p xml:lang="pt">Adicionado patch de compatibilidade NVIDIA DKMS para Linux 7.3+ (Fix 5: alteração da API dmem_cgroup_register_region em os-interface.c).</p>
+        <p xml:lang="it">Aggiunta patch di compatibilità NVIDIA DKMS per Linux 7.3+ (Fix 5: modifica dell'API dmem_cgroup_register_region in os-interface.c).</p>
+        <p xml:lang="ro">S-a adăugat patch-ul de compatibilitate NVIDIA DKMS pentru Linux 7.3+ (Fix 5: modificare API dmem_cgroup_register_region în os-interface.c).</p>
+        <p xml:lang="ru">Добавлен патч совместимости NVIDIA DKMS для Linux 7.3+ (Fix 5: изменение API dmem_cgroup_register_region в os-interface.c).</p>
+      </description>
+    </release>
     <release version="1.0.2-9" date="2026-10-04">
       <description>
         <p>Added support for Linux 7.2.9 Zen patch (0001-zen-7.2.9.patch) in _download_zen_soplos(), checking exact kernel version patches before falling back to major_minor line patches.</p>
