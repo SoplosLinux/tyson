@@ -166,6 +166,18 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.3-2" date="2026-10-22">
+      <description>
+        <p>Added the NVIDIA DKMS patches for kernels 7.2+: Fix 6 for the Debian 550 driver and Fix 7 for the 590 open modules. They are applied to the installed NVIDIA sources before a kernel is installed or updated.</p>
+        <p xml:lang="es">Añadidos los parches NVIDIA DKMS para kernels 7.2+: Fix 6 para el driver 550 de Debian y Fix 7 para los módulos abiertos 590. Se aplican a las fuentes NVIDIA instaladas antes de instalar o actualizar un kernel.</p>
+        <p xml:lang="fr">Ajout des correctifs NVIDIA DKMS pour les noyaux 7.2+ : Fix 6 pour le pilote 550 de Debian et Fix 7 pour les modules ouverts 590. Ils sont appliqués aux sources NVIDIA installées avant l'installation ou la mise à jour d'un noyau.</p>
+        <p xml:lang="de">NVIDIA-DKMS-Patches für Kernel 7.2+ hinzugefügt: Fix 6 für den Debian-Treiber 550 und Fix 7 für die offenen 590-Module. Sie werden auf die installierten NVIDIA-Quellen angewendet, bevor ein Kernel installiert oder aktualisiert wird.</p>
+        <p xml:lang="pt">Adicionados os patches NVIDIA DKMS para kernels 7.2+: Fix 6 para o driver 550 do Debian e Fix 7 para os módulos abertos 590. São aplicados às fontes NVIDIA instaladas antes de instalar ou atualizar um kernel.</p>
+        <p xml:lang="it">Aggiunte le patch NVIDIA DKMS per i kernel 7.2+: Fix 6 per il driver 550 di Debian e Fix 7 per i moduli aperti 590. Vengono applicate ai sorgenti NVIDIA installati prima di installare o aggiornare un kernel.</p>
+        <p xml:lang="ro">Au fost adăugate patch-urile NVIDIA DKMS pentru kernel 7.2+: Fix 6 pentru driverul 550 din Debian și Fix 7 pentru modulele deschise 590. Sunt aplicate surselor NVIDIA instalate înainte de instalarea sau actualizarea unui kernel.</p>
+        <p xml:lang="ru">Добавлены патчи NVIDIA DKMS для ядер 7.2+: Fix 6 для драйвера 550 из Debian и Fix 7 для открытых модулей 590. Они применяются к установленным исходным кодам NVIDIA перед установкой или обновлением ядра.</p>
+      </description>
+    </release>
     <release version="1.0.3-1" date="2026-10-21">
       <description>
         <p>Fixed the NVIDIA DKMS patch for the dmem cgroup API change in Linux 7.3+ (Fix 5): a wrong hunk header made patch reject it, so it was never applied. NVIDIA 610 modules now build on Linux 7.3.</p>

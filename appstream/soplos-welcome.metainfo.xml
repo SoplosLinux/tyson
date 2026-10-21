@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.4" date="2026-10-22">
+        <description>
+          <p xml:lang="en">Added the NVIDIA DKMS patches for kernels 7.2+: Fix 6 for the Debian 550 driver and Fix 7 for the 590 open modules. Driver installs now tolerate the first DKMS build failing, apply the patches and retry before the repository is removed, so the install no longer aborts before patching.</p>
+          <p xml:lang="es">Añadidos los parches NVIDIA DKMS para kernels 7.2+: Fix 6 para el driver 550 de Debian y Fix 7 para los módulos abiertos 590. La instalación del driver ahora tolera que falle la primera compilación DKMS, aplica los parches y reintenta antes de retirar el repositorio, de modo que ya no se aborta antes de parchear.</p>
+          <p xml:lang="fr">Ajout des correctifs NVIDIA DKMS pour les noyaux 7.2+ : Fix 6 pour le pilote 550 de Debian et Fix 7 pour les modules ouverts 590. L'installation du pilote tolère désormais l'échec de la première compilation DKMS, applique les correctifs et réessaie avant de retirer le dépôt, de sorte qu'elle ne s'interrompt plus avant le patch.</p>
+          <p xml:lang="de">NVIDIA-DKMS-Patches für Kernel 7.2+ hinzugefügt: Fix 6 für den Debian-Treiber 550 und Fix 7 für die offenen 590-Module. Die Treiberinstallation toleriert nun einen Fehlschlag des ersten DKMS-Builds, wendet die Patches an und versucht es erneut, bevor das Repository entfernt wird, sodass sie nicht mehr vor dem Patchen abbricht.</p>
+          <p xml:lang="pt">Adicionados os patches NVIDIA DKMS para kernels 7.2+: Fix 6 para o driver 550 do Debian e Fix 7 para os módulos abertos 590. A instalação do driver passa a tolerar a falha da primeira compilação DKMS, aplica os patches e tenta de novo antes de remover o repositório, pelo que já não é interrompida antes de aplicar os patches.</p>
+          <p xml:lang="it">Aggiunte le patch NVIDIA DKMS per i kernel 7.2+: Fix 6 per il driver 550 di Debian e Fix 7 per i moduli aperti 590. L'installazione del driver ora tollera il fallimento della prima compilazione DKMS, applica le patch e riprova prima di rimuovere il repository, quindi non si interrompe più prima di applicarle.</p>
+          <p xml:lang="ro">Au fost adăugate patch-urile NVIDIA DKMS pentru kernel 7.2+: Fix 6 pentru driverul 550 din Debian și Fix 7 pentru modulele deschise 590. Instalarea driverului tolerează acum eșecul primei compilări DKMS, aplică patch-urile și reîncearcă înainte de a elimina depozitul, astfel încât nu se mai oprește înainte de aplicarea lor.</p>
+          <p xml:lang="ru">Добавлены патчи NVIDIA DKMS для ядер 7.2+: Fix 6 для драйвера 550 из Debian и Fix 7 для открытых модулей 590. Установка драйвера теперь переносит сбой первой сборки DKMS, применяет патчи и повторяет попытку до удаления репозитория, поэтому больше не прерывается до применения патчей.</p>
+        </description>
+      </release>
       <release version="2.1.3-9" date="2026-10-21">
         <description>
           <p xml:lang="en">Fixed the NVIDIA DKMS patch for the dmem cgroup API change in Linux 7.3+ (Fix 5): a wrong hunk header made patch reject it, so it was never applied. NVIDIA 610 modules now build on Linux 7.3.</p>
