@@ -166,6 +166,18 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.3-1" date="2026-10-21">
+      <description>
+        <p>Fixed the NVIDIA DKMS patch for the dmem cgroup API change in Linux 7.3+ (Fix 5): a wrong hunk header made patch reject it, so it was never applied. NVIDIA 610 modules now build on Linux 7.3.</p>
+        <p xml:lang="es">Corregido el parche NVIDIA DKMS para el cambio de API de dmem cgroup en Linux 7.3+ (Fix 5): una cabecera de bloque incorrecta hacía que patch lo rechazara y nunca se aplicaba. Los módulos NVIDIA 610 ya compilan en Linux 7.3.</p>
+        <p xml:lang="fr">Correction du patch NVIDIA DKMS pour le changement d'API dmem cgroup de Linux 7.3+ (Fix 5) : un en-tête de bloc incorrect faisait rejeter le patch par patch, qui n'était donc jamais appliqué. Les modules NVIDIA 610 se compilent désormais sous Linux 7.3.</p>
+        <p xml:lang="de">NVIDIA-DKMS-Patch für die dmem-cgroup-API-Änderung in Linux 7.3+ korrigiert (Fix 5): Ein falscher Hunk-Header führte dazu, dass patch ihn ablehnte und er nie angewendet wurde. NVIDIA-610-Module lassen sich nun unter Linux 7.3 kompilieren.</p>
+        <p xml:lang="pt">Corrigido o patch NVIDIA DKMS para a alteração da API dmem cgroup no Linux 7.3+ (Fix 5): um cabeçalho de bloco incorreto fazia o patch ser rejeitado e nunca era aplicado. Os módulos NVIDIA 610 já compilam no Linux 7.3.</p>
+        <p xml:lang="it">Corretta la patch NVIDIA DKMS per la modifica dell'API dmem cgroup in Linux 7.3+ (Fix 5): un'intestazione di blocco errata faceva rifiutare la patch, che non veniva mai applicata. I moduli NVIDIA 610 ora si compilano su Linux 7.3.</p>
+        <p xml:lang="ro">S-a corectat patch-ul NVIDIA DKMS pentru modificarea API-ului dmem cgroup din Linux 7.3+ (Fix 5): un antet de bloc greșit făcea ca patch să îl respingă, deci nu era aplicat niciodată. Modulele NVIDIA 610 se compilează acum pe Linux 7.3.</p>
+        <p xml:lang="ru">Исправлен патч NVIDIA DKMS для изменения API dmem cgroup в Linux 7.3+ (Fix 5): неверный заголовок блока приводил к тому, что patch отклонял его, и он никогда не применялся. Модули NVIDIA 610 теперь собираются в Linux 7.3.</p>
+      </description>
+    </release>
     <release version="1.0.3" date="2026-10-20">
       <description>
         <p>Added NVIDIA DKMS compatibility patch for Linux 7.3+ (Fix 5: dmem_cgroup_register_region API change in os-interface.c).</p>
