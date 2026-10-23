@@ -166,6 +166,18 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.3-3" date="2026-10-23">
+      <description>
+        <p>Fixed a build that started without its dependencies: the installer ignored a failed dependency check, so a missing libelf-dev only showed up deep in the compilation. It now stops with a message, reinstalls libelf-dev when it lacks gelf.h, and a failing apt-get update no longer stops the install of the missing packages.</p>
+        <p xml:lang="es">Corregida una compilación que empezaba sin sus dependencias: el instalador ignoraba que la comprobación de dependencias fallara, así que la falta de libelf-dev solo se veía a mitad de la compilación. Ahora se detiene con un mensaje, reinstala libelf-dev cuando le falta gelf.h, y un apt-get update que falle ya no impide instalar los paquetes que faltan.</p>
+        <p xml:lang="fr">Correction d'une compilation qui démarrait sans ses dépendances : l'installateur ignorait l'échec de la vérification des dépendances, si bien que l'absence de libelf-dev n'apparaissait qu'en pleine compilation. Il s'arrête maintenant avec un message, réinstalle libelf-dev quand gelf.h lui manque, et un apt-get update qui échoue n'empêche plus d'installer les paquets manquants.</p>
+        <p xml:lang="de">Behoben: Ein Build startete ohne seine Abhängigkeiten. Der Installer ignorierte eine fehlgeschlagene Abhängigkeitsprüfung, sodass ein fehlendes libelf-dev erst mitten in der Kompilierung auffiel. Er stoppt jetzt mit einer Meldung, installiert libelf-dev neu, wenn gelf.h fehlt, und ein fehlgeschlagenes apt-get update verhindert die Installation der fehlenden Pakete nicht mehr.</p>
+        <p xml:lang="pt">Corrigida uma compilação que começava sem as suas dependências: o instalador ignorava a falha da verificação de dependências, pelo que a falta do libelf-dev só se via a meio da compilação. Agora pára com uma mensagem, reinstala o libelf-dev quando lhe falta o gelf.h, e um apt-get update que falhe já não impede a instalação dos pacotes em falta.</p>
+        <p xml:lang="it">Corretta una compilazione che partiva senza le sue dipendenze: l'installer ignorava il fallimento del controllo delle dipendenze, quindi la mancanza di libelf-dev emergeva solo a metà compilazione. Ora si ferma con un messaggio, reinstalla libelf-dev quando manca gelf.h, e un apt-get update che fallisce non impedisce più l'installazione dei pacchetti mancanti.</p>
+        <p xml:lang="ro">Corectată o compilare care pornea fără dependențele ei: instalatorul ignora eșecul verificării dependențelor, așa că lipsa libelf-dev apărea abia în mijlocul compilării. Acum se oprește cu un mesaj, reinstalează libelf-dev când îi lipsește gelf.h, iar un apt-get update care eșuează nu mai împiedică instalarea pachetelor lipsă.</p>
+        <p xml:lang="ru">Исправлена сборка, которая начиналась без нужных зависимостей: установщик игнорировал сбой проверки зависимостей, и нехватка libelf-dev обнаруживалась лишь посреди компиляции. Теперь он останавливается с сообщением, переустанавливает libelf-dev, если нет gelf.h, а неудачный apt-get update больше не мешает установить недостающие пакеты.</p>
+      </description>
+    </release>
     <release version="1.0.3-2" date="2026-10-22">
       <description>
         <p>Added the NVIDIA DKMS patches for kernels 7.2+: Fix 6 for the Debian 550 driver and Fix 7 for the 590 open modules. They are applied to the installed NVIDIA sources before a kernel is installed or updated.</p>
