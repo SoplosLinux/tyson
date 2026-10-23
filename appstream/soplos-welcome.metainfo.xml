@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.4-1" date="2026-10-23">
+        <description>
+          <p xml:lang="en">Added the Craft suite (WordCraft, GridCraft, DeckCraft, DesignCraft, FigCraft, SoundCraft, ArtCraft Launcher) to the Recommended tab and new game launchers (Epic Games Launcher, Xodus Nexus, ProtonPlus, OpenRGB, MSI Keyboard RGB) to the Gaming tab, matching Welcome 3.0. Translations updated for all 8 supported languages.</p>
+          <p xml:lang="es">Añadida la suite Craft (WordCraft, GridCraft, DeckCraft, DesignCraft, FigCraft, SoundCraft, ArtCraft Launcher) a la pestaña Recomendados y nuevos lanzadores de juegos (Epic Games Launcher, Xodus Nexus, ProtonPlus, OpenRGB, MSI Keyboard RGB) a la pestaña Gaming, en consonancia con Welcome 3.0. Traducciones actualizadas para los 8 idiomas soportados.</p>
+          <p xml:lang="fr">Ajout de la suite Craft (WordCraft, GridCraft, DeckCraft, DesignCraft, FigCraft, SoundCraft, ArtCraft Launcher) dans l'onglet Recommandés et de nouveaux lanceurs de jeux (Epic Games Launcher, Xodus Nexus, ProtonPlus, OpenRGB, MSI Keyboard RGB) dans l'onglet Gaming, en accord avec Welcome 3.0. Traductions mises à jour pour les 8 langues prises en charge.</p>
+          <p xml:lang="de">Die Craft-Suite (WordCraft, GridCraft, DeckCraft, DesignCraft, FigCraft, SoundCraft, ArtCraft Launcher) wurde dem Tab Empfohlen und neue Spiellauncher (Epic Games Launcher, Xodus Nexus, ProtonPlus, OpenRGB, MSI Keyboard RGB) dem Tab Gaming hinzugefügt, passend zu Welcome 3.0. Übersetzungen für alle 8 unterstützten Sprachen aktualisiert.</p>
+          <p xml:lang="pt">Adicionada a suite Craft (WordCraft, GridCraft, DeckCraft, DesignCraft, FigCraft, SoundCraft, ArtCraft Launcher) ao separador Recomendados e novos lançadores de jogos (Epic Games Launcher, Xodus Nexus, ProtonPlus, OpenRGB, MSI Keyboard RGB) ao separador Gaming, em linha com o Welcome 3.0. Traduções atualizadas para os 8 idiomas suportados.</p>
+          <p xml:lang="it">Aggiunta la suite Craft (WordCraft, GridCraft, DeckCraft, DesignCraft, FigCraft, SoundCraft, ArtCraft Launcher) alla scheda Raccomandati e nuovi launcher di giochi (Epic Games Launcher, Xodus Nexus, ProtonPlus, OpenRGB, MSI Keyboard RGB) alla scheda Gaming, in linea con Welcome 3.0. Traduzioni aggiornate per tutte le 8 lingue supportate.</p>
+          <p xml:lang="ro">Adăugată suita Craft (WordCraft, GridCraft, DeckCraft, DesignCraft, FigCraft, SoundCraft, ArtCraft Launcher) în fila Recomandate și noi lansatoare de jocuri (Epic Games Launcher, Xodus Nexus, ProtonPlus, OpenRGB, MSI Keyboard RGB) în fila Gaming, în conformitate cu Welcome 3.0. Traducerile au fost actualizate pentru toate cele 8 limbi acceptate.</p>
+          <p xml:lang="ru">В вкладку «Рекомендованные» добавлен пакет Craft (WordCraft, GridCraft, DeckCraft, DesignCraft, FigCraft, SoundCraft, ArtCraft Launcher), а в вкладку «Gaming» — новые лаунчеры игр (Epic Games Launcher, Xodus Nexus, ProtonPlus, OpenRGB, MSI Keyboard RGB), что соответствует Welcome 3.0. Переводы обновлены для всех 8 поддерживаемых языков.</p>
+        </description>
+      </release>
       <release version="2.1.4" date="2026-10-22">
         <description>
           <p xml:lang="en">Added the NVIDIA DKMS patches for kernels 7.2+: Fix 6 for the Debian 550 driver and Fix 7 for the 590 open modules. Driver installs now tolerate the first DKMS build failing, apply the patches and retry before the repository is removed, so the install no longer aborts before patching.</p>
