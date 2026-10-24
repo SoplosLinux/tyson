@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.4-2" date="2026-10-24">
+        <description>
+          <p xml:lang="en">Mac support in the hardware scan of the Drivers tab: on an Apple computer it offers mbpfan and TLP on MacBooks and the driver of the FaceTime HD camera (a community project, experimental). Translations updated for all 8 supported languages.</p>
+          <p xml:lang="es">Soporte para Mac en el escáner de hardware de la pestaña Controladores: en un ordenador Apple ofrece mbpfan y TLP en los MacBook y el driver de la cámara FaceTime HD (un proyecto de la comunidad, experimental). Traducciones actualizadas para los 8 idiomas soportados.</p>
+          <p xml:lang="fr">Prise en charge des Mac dans l'analyse du matériel de l'onglet Pilotes : sur un ordinateur Apple, elle propose mbpfan et TLP sur les MacBook et le pilote de la caméra FaceTime HD (un projet communautaire, expérimental). Traductions mises à jour pour les 8 langues prises en charge.</p>
+          <p xml:lang="de">Mac-Unterstützung im Hardware-Scan des Treiber-Tabs: Auf einem Apple-Computer werden mbpfan und TLP auf MacBooks sowie der Treiber der FaceTime-HD-Kamera (ein experimentelles Community-Projekt) angeboten. Übersetzungen für alle 8 unterstützten Sprachen aktualisiert.</p>
+          <p xml:lang="pt">Suporte para Mac na deteção de hardware do separador Controladores: num computador Apple oferece o mbpfan e o TLP nos MacBook e o controlador da câmara FaceTime HD (um projeto da comunidade, experimental). Traduções atualizadas para os 8 idiomas suportados.</p>
+          <p xml:lang="it">Supporto per Mac nel rilevamento hardware della scheda Driver: su un computer Apple offre mbpfan e TLP sui MacBook e il driver della fotocamera FaceTime HD (un progetto della comunità, sperimentale). Traduzioni aggiornate per tutte le 8 lingue supportate.</p>
+          <p xml:lang="ro">Suport pentru Mac în detectarea hardware din fila Drivere: pe un computer Apple oferă mbpfan și TLP pe MacBook și driverul camerei FaceTime HD (un proiect al comunității, experimental). Traducerile au fost actualizate pentru toate cele 8 limbi acceptate.</p>
+          <p xml:lang="ru">Поддержка Mac в сканировании оборудования на вкладке «Драйверы»: на компьютере Apple предлагаются mbpfan и TLP на MacBook и драйвер камеры FaceTime HD (экспериментальный проект сообщества). Переводы обновлены для всех 8 поддерживаемых языков.</p>
+        </description>
+      </release>
       <release version="2.1.4-1" date="2026-10-23">
         <description>
           <p xml:lang="en">Added the Craft suite (WordCraft, GridCraft, DeckCraft, DesignCraft, FigCraft, SoundCraft, ArtCraft Launcher) to the Recommended tab and new game launchers (Epic Games Launcher, Xodus Nexus, ProtonPlus, OpenRGB, MSI Keyboard RGB) to the Gaming tab, matching Welcome 3.0. Translations updated for all 8 supported languages.</p>
