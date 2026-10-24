@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.4-3" date="2026-10-24">
+        <description>
+          <p xml:lang="en">Added the Heronite game launcher, written in Rust, to the Gaming tab, matching Welcome 3.0. Translation updated for all 8 supported languages.</p>
+          <p xml:lang="es">Añadido el lanzador de juegos Heronite, escrito en Rust, a la pestaña Gaming, en consonancia con Welcome 3.0. Traducción actualizada para los 8 idiomas soportados.</p>
+          <p xml:lang="fr">Ajout du lanceur de jeux Heronite, écrit en Rust, dans l'onglet Gaming, en accord avec Welcome 3.0. Traduction mise à jour pour les 8 langues prises en charge.</p>
+          <p xml:lang="de">Der in Rust geschriebene Spiele-Launcher Heronite wurde dem Gaming-Tab hinzugefügt, passend zu Welcome 3.0. Übersetzung für alle 8 unterstützten Sprachen aktualisiert.</p>
+          <p xml:lang="pt">Adicionado o lançador de jogos Heronite, escrito em Rust, ao separador Gaming, em consonância com o Welcome 3.0. Tradução atualizada para os 8 idiomas suportados.</p>
+          <p xml:lang="it">Aggiunto il launcher di giochi Heronite, scritto in Rust, alla scheda Gaming, in linea con Welcome 3.0. Traduzione aggiornata per tutte le 8 lingue supportate.</p>
+          <p xml:lang="ro">Am adăugat lansatorul de jocuri Heronite, scris în Rust, în fila Gaming, în acord cu Welcome 3.0. Traducerea a fost actualizată pentru toate cele 8 limbi acceptate.</p>
+          <p xml:lang="ru">Лаунчер игр Heronite, написанный на Rust, добавлен на вкладку Gaming в соответствии с Welcome 3.0. Перевод обновлён для всех 8 поддерживаемых языков.</p>
+        </description>
+      </release>
       <release version="2.1.4-2" date="2026-10-24">
         <description>
           <p xml:lang="en">Mac support in the hardware scan of the Drivers tab: on an Apple computer it offers mbpfan and TLP on MacBooks and the driver of the FaceTime HD camera (a community project, experimental). Translations updated for all 8 supported languages.</p>
