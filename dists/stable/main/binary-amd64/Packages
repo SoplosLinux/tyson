@@ -72,21 +72,21 @@ Description: Fish shell configuration for SopLOS
  applied to both new and existing users. Sets Fish as the default shell.
 
 Package: ghostty
-Version: 1.3.1-1
+Version: 1.4.0-1
 Architecture: amd64
 Maintainer: Sergi Perich <info@soploslinux.com>
-Installed-Size: 29371
-Depends: libadwaita-1-0 (>= 1.5~beta), libc6 (>= 2.43), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libglib2.0-0t64 (>= 2.76.0), libgtk-4-1 (>= 4.19.3), libgtk4-layer-shell0 (>= 1.0.2), libharfbuzz0b (>= 0.9.42), libonig5 (>= 6.9.5), libwayland-client0 (>= 1.3.0), libx11-6
+Installed-Size: 31958
+Depends: libadwaita-1-0 (>= 1.5~beta), libc6 (>= 2.43), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libglib2.0-0t64 (>= 2.76.0), libgtk-4-1 (>= 4.21.5), libgtk4-layer-shell0 (>= 1.0.2), libharfbuzz0b (>= 0.9.42), libonig5 (>= 6.9.5), libwayland-client0 (>= 1.9.91), libx11-6
 Conflicts: ghostty-tip
 Replaces: ghostty-tip
 Homepage: https://ghostty.org/
 Priority: optional
 Section: utils
-Filename: pool/main/g/ghostty/ghostty_1.3.1-1_amd64.deb
-Size: 16172884
-SHA256: 84462323a33969e3fb3c65bbfaf30e27c1b3340bf090cf7c6fd96d2b1e1d8493
-SHA1: 72d532de2e44d788b0823bf4ff7a49ce4d550245
-MD5sum: e4a0c9447c8c5fcc8cb9a863a0c901dc
+Filename: pool/main/g/ghostty/ghostty_1.4.0-1_amd64.deb
+Size: 17031448
+SHA256: fb300237757f81e78ecc79d7d0f255bc8b0f9d643d2b5cef84129303e93110ca
+SHA1: 03c8289bbe8492e81d80769a0925d8497b483d08
+MD5sum: 17855b2392bcd07b50d69594ba2aa312
 Description: Fast, feature-rich GPU-accelerated terminal emulator
  Ghostty is a fast, feature-rich and cross-platform terminal emulator
  that uses platform-native UI and GPU acceleration. On Linux it is built
@@ -113,27 +113,27 @@ Description: Ghostty terminal configuration for SopLOS Tyson
  integrates it with KDE Plasma as the default terminal.
 
 Package: ghostty-tip
-Version: 1.3.2~dev.20260927-1
+Version: 1.4.1~dev.20261027-1
 Architecture: amd64
 Maintainer: Sergi Perich <info@soploslinux.com>
-Installed-Size: 31446
-Depends: libadwaita-1-0 (>= 1.5~beta), libc6 (>= 2.43), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libglib2.0-0t64 (>= 2.76.0), libgtk-4-1 (>= 4.21.5), libgtk4-layer-shell0 (>= 1.0.2), libharfbuzz0b (>= 0.9.42), libonig5 (>= 6.9.5), libwayland-client0 (>= 1.3.0), libx11-6
+Installed-Size: 31959
+Depends: libadwaita-1-0 (>= 1.5~beta), libc6 (>= 2.43), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.9.1), libglib2.0-0t64 (>= 2.76.0), libgtk-4-1 (>= 4.21.5), libgtk4-layer-shell0 (>= 1.0.2), libharfbuzz0b (>= 0.9.42), libonig5 (>= 6.9.5), libwayland-client0 (>= 1.9.91), libx11-6
 Conflicts: ghostty
 Replaces: ghostty
 Homepage: https://ghostty.org/
 Priority: optional
 Section: utils
-Filename: pool/main/g/ghostty-tip/ghostty-tip_1.3.2~dev.20260927-1_amd64.deb
-Size: 16964480
-SHA256: b445a882c0ccfde8e4b0b802c4371a63a03f522959145a5b6629e98f896eacf3
-SHA1: 48f97353d0e0dc0a6d33de6c6c9f0753fe831b50
-MD5sum: c8b1516d4227e4bc830cf7947d4fb16d
+Filename: pool/main/g/ghostty-tip/ghostty-tip_1.4.1~dev.20261027-1_amd64.deb
+Size: 17030120
+SHA256: ba2d42c6bfa86a3179d01d9dd974aab616926797b372cde6b86f0288e0bc1009
+SHA1: 833bd192274da71c984e65603412a05baa509306
+MD5sum: 2e673e9a0b2ba96e29c6c78c25f3585e
 Description: Nightly build of the Ghostty terminal emulator
  Ghostty is a fast, feature-rich and cross-platform terminal emulator
  that uses platform-native UI and GPU acceleration. On Linux it is built
  on GTK4 and libadwaita.
  .
- Built from the upstream main branch at commit b40acce. It tracks the latest development code and may be unstable. Install the stable ghostty package for a release build.
+ Built from the upstream main branch at commit 46e9dc9. It tracks the latest development code and may be unstable. Install the stable ghostty package for a release build.
 
 Package: grub-btrfs
 Version: 4.14-1
@@ -160,19 +160,19 @@ Description: Include btrfs snapshots in GRUB menu
  grub menu when snapshots are created or deleted.
 
 Package: kuteditor
-Version: 2.51-1
+Version: 2.56-1
 Architecture: amd64
 Maintainer: Sergi Perich <info@soploslinux.com>
-Installed-Size: 16648
+Installed-Size: 16652
 Depends: libc6 (>= 2.43), libgcc-s1 (>= 4.2), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6quickcontrols2-6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), librnnoise0 (>= 0.2+ds), libsamplerate0 (>= 0.1.7), libstdc++6 (>= 11), libtag2 (>= 2.0), qt6-base-private-abi (= 6.11.2), qt6-declarative-private-abi (= 6.11.2), pipewire-jack, qml6-module-qtqml, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, qml6-module-qtquick-dialogs, qml6-module-qt-labs-platform, libqt6svg6
 Homepage: https://github.com/ernestoacostame/kuteditor
 Priority: optional
 Section: sound
-Filename: pool/main/k/kuteditor/kuteditor_2.51-1_amd64.deb
-Size: 3836564
-SHA256: e1c44fde263a4c4d11b94c634b2a8a1ee09c57f974e3b63f307e9bb276dffa8c
-SHA1: 2dd795635e10e33a107ece3d33a1e0bbb448a3da
-MD5sum: dfa0c58bc5113e9f2ec20fbd50a98d26
+Filename: pool/main/k/kuteditor/kuteditor_2.56-1_amd64.deb
+Size: 3835808
+SHA256: 79eb884346843e22fdde1a07e15463269ede4fde73369651bca9bf53efe87b8e
+SHA1: 3039fe69d4a7a788b56314e1579628cab2b89cb8
+MD5sum: 385f25d0f0c92b19447915d06bcd869a
 Description: Native podcast editor with multitrack audio and chapters
  KutEditor is a Qt6/QML podcast editor with multitrack recording and
  editing, a per-track effects chain (compressor, limiter, equaliser,
@@ -608,18 +608,18 @@ Description: Tablet and hybrid device support for Soplos Linux Tyson
  optimized layout and Qt theme integration.
 
 Package: telegram-desktop
-Version: 7.2.9-1
+Version: 7.3.3-1
 Architecture: amd64
-Maintainer: Soplos Linux <contact@soplos.org>
-Installed-Size: 234464
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 257544
 Depends: libc6, libatomic1, libblkid1, libbrotli1, libbz2-1.0, libcairo2, libdatrie1, libexpat1, libffi8, libfontconfig1, libfreetype6, libfribidi0, libglib2.0-0t64, libgraphite2-3, libharfbuzz0b, libmount1, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpcre2-8-0, libpixman-1-0, libpng16-16t64, libselinux1, libsystemd0, libthai0, libx11-6, libxau6, libxcb1, libxcb-render0, libxcb-shm0, libxdmcp6, libxext6, libxrender1, zlib1g
 Priority: optional
 Section: net
-Filename: pool/main/t/telegram-desktop/telegram-desktop_7.2.9-1_amd64.deb
-Size: 79600740
-SHA256: 6df05271c7d9466004916f06cafe45c199bb9d07796e7cad2d49d3351152927a
-SHA1: a5a318a0459d32e1f3bf2112a5776d231f8b866c
-MD5sum: 94b78f4747104b1657412e3f8a5c6add
+Filename: pool/main/t/telegram-desktop/telegram-desktop_7.3.3-1_amd64.deb
+Size: 87638640
+SHA256: 954aa3c55f816a26e7a51974ea50e65cbbdcadd539fbf8a876ec86e484eebb6f
+SHA1: 490050721fa3d139d2b3347ee09e928f4afadd5c
+MD5sum: 05a4a532b79ea1691324209459377a8a
 Description: Telegram Desktop
  Official Telegram Desktop client for Linux.
 
