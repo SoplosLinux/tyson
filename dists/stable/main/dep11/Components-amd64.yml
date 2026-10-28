@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20261027T233538
+Time: 20261028T010905
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -1616,6 +1616,28 @@ Developer:
 Provides:
   - soplos-welcome
 Releases:
+  - version: 2.1.4-4
+    date: '2026-10-28'
+    type: stable
+    description:
+      en: |-
+        Google Antigravity installer now dynamically fetches the official tarball download URL from Google's CDN instead of using a hardcoded version.
+      es: |-
+        El instalador de Google Antigravity ahora obtiene dinámicamente la URL de descarga del tarball oficial desde el CDN de Google en vez de usar una versión hardcodeada.
+      fr: |-
+        L'installateur de Google Antigravity récupère désormais dynamiquement l'URL de téléchargement du tarball officiel depuis le CDN de Google au lieu d'utiliser une version codée en dur.
+      de: |-
+        Das Google Antigravity-Installationsprogramm ruft die offizielle Tarball-Download-URL jetzt dynamisch vom Google-CDN ab, anstatt eine fest codierte Version zu verwenden.
+      pt: |-
+        O instalador do Google Antigravity agora obtém dinamicamente o URL de descarregamento do tarball oficial a partir da CDN da Google em vez de utilizar uma versão fixa.
+      it: |-
+        Il programma di installazione di Google Antigravity ora ottiene dinamicamente l'URL di download del tarball ufficiale dalla CDN di Google invece di utilizzare una versione hardcoded.
+      ro: |-
+        Programul de instalare Google Antigravity obține acum dinamic adresa URL de descărcare a tarball-ului oficial din CDN-ul Google în loc să utilizeze o versiune fixă.
+      ru: |-
+        Установщик Google Antigravity теперь динамически получает официальный URL загрузки архива из CDN Google вместо использования жестко закодированной версии.
+      C: |-
+        Google Antigravity installer now dynamically fetches the official tarball download URL from Google's CDN instead of using a hardcoded version.
   - version: 2.1.4-3
     date: '2026-10-24'
     type: stable

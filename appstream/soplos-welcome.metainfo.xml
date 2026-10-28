@@ -273,6 +273,18 @@
   </developer>
 
   <releases>
+      <release version="2.1.4-4" date="2026-10-28">
+        <description>
+          <p xml:lang="en">Google Antigravity installer now dynamically fetches the official tarball download URL from Google's CDN instead of using a hardcoded version.</p>
+          <p xml:lang="es">El instalador de Google Antigravity ahora obtiene dinámicamente la URL de descarga del tarball oficial desde el CDN de Google en vez de usar una versión hardcodeada.</p>
+          <p xml:lang="fr">L'installateur de Google Antigravity récupère désormais dynamiquement l'URL de téléchargement du tarball officiel depuis le CDN de Google au lieu d'utiliser une version codée en dur.</p>
+          <p xml:lang="de">Das Google Antigravity-Installationsprogramm ruft die offizielle Tarball-Download-URL jetzt dynamisch vom Google-CDN ab, anstatt eine fest codierte Version zu verwenden.</p>
+          <p xml:lang="pt">O instalador do Google Antigravity agora obtém dinamicamente o URL de descarregamento do tarball oficial a partir da CDN da Google em vez de utilizar uma versão fixa.</p>
+          <p xml:lang="it">Il programma di installazione di Google Antigravity ora ottiene dinamicamente l'URL di download del tarball ufficiale dalla CDN di Google invece di utilizzare una versione hardcoded.</p>
+          <p xml:lang="ro">Programul de instalare Google Antigravity obține acum dinamic adresa URL de descărcare a tarball-ului oficial din CDN-ul Google în loc să utilizeze o versiune fixă.</p>
+          <p xml:lang="ru">Установщик Google Antigravity теперь динамически получает официальный URL загрузки архива из CDN Google вместо использования жестко закодированной версии.</p>
+        </description>
+      </release>
       <release version="2.1.4-3" date="2026-10-24">
         <description>
           <p xml:lang="en">Added the Heronite game launcher, written in Rust, to the Gaming tab, matching Welcome 3.0. Translation updated for all 8 supported languages.</p>
