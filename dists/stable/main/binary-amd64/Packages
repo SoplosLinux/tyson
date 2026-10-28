@@ -159,6 +159,29 @@ Description: Include btrfs snapshots in GRUB menu
  This package includes the grub-btrfsd daemon which automatically updates the
  grub menu when snapshots are created or deleted.
 
+Package: kora-soplos-icons
+Version: 1.0.0-3
+Architecture: all
+Depends: hicolor-icon-theme
+Recommends: breeze-icon-theme
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://github.com/SoplosLinux/kora-soplos-icons
+Priority: optional
+Section: x11
+Filename: pool/main/k/kora-soplos-icons/kora-soplos-icons_1.0.0-3_all.deb
+Size: 4850632
+SHA256: facbe1b66247598912e3d4164b798e571b4a09ef2f1ae04035cd2b8697de1a39
+SHA1: 6a90d7ee19970eaf9251134f3338ae441b3d79f1
+MD5sum: 658e4be600c612c8a002b45aa34bb3d7
+Description: Kora Soplos icon themes (dark and light) for Soplos Linux.
+ Icon themes for Soplos Linux based on the Kora icon theme and recolored
+ with the official Soplos palette. Two variants are installed in
+ /usr/share/icons: Kora Soplos Dark and Kora Soplos Light.
+ .
+ Based on Kora (https://github.com/bikass/kora). Soplos modifications by
+ Sergi Perich and Simnandez.
+ Build date: 2026-10-25
+
 Package: kuteditor
 Version: 2.56-1
 Architecture: amd64
