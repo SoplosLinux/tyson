@@ -45,6 +45,8 @@ etc/kernel/prerm.d/soplos-vmware-modules	    misc/soplos-vmware-modules
 etc/pam.d/plasmalogin	    kde/plasma-login-manager
 etc/pam.d/plasmalogin-autologin	    kde/plasma-login-manager
 etc/pam.d/plasmalogin-greeter	    kde/plasma-login-manager
+etc/pam.d/polkit-1	    admin/soplos-release
+etc/pam.d/systemd-user	    admin/soplos-release
 etc/skel/.zshrc	    utils/zsh-soplos
 etc/skel/.config/fastfetch/config.jsonc	    utils/fastfetch-soplos
 etc/skel/.config/fish/config.fish	    utils/fish-soplos
