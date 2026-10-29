@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20261029T133757
+Time: 20261029T162455
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -738,6 +738,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.3-6
+    date: '2026-10-29'
+    type: stable
+    description:
+      C: |-
+        Fixed the CPU temperature in the build panel, which could show a fixed board value instead of the processor. The CPU sensor (k10temp on AMD, coretemp on Intel) is now always preferred over the board's ACPI zone.
+      es: |-
+        Corregida la temperatura de la CPU en el panel de compilación, que podía mostrar un valor fijo de la placa en lugar del procesador. Ahora se prefiere siempre el sensor de la CPU (k10temp en AMD, coretemp en Intel) a la zona ACPI de la placa.
+      fr: |-
+        Correction de la température du processeur dans le panneau de compilation, qui pouvait afficher une valeur fixe de la carte mère au lieu du processeur. Le capteur du processeur (k10temp sur AMD, coretemp sur Intel) est désormais toujours préféré à la zone ACPI de la carte.
+      de: |-
+        Die CPU-Temperatur im Build-Panel wurde korrigiert; sie konnte einen festen Wert des Mainboards statt des Prozessors anzeigen. Der CPU-Sensor (k10temp bei AMD, coretemp bei Intel) wird jetzt immer der ACPI-Zone des Mainboards vorgezogen.
+      pt: |-
+        Corrigida a temperatura do processador no painel de compilação, que podia mostrar um valor fixo da placa em vez do processador. O sensor do processador (k10temp em AMD, coretemp em Intel) passa a ser sempre preferido à zona ACPI da placa.
+      it: |-
+        Corretta la temperatura della CPU nel pannello di compilazione, che poteva mostrare un valore fisso della scheda madre invece del processore. Il sensore della CPU (k10temp su AMD, coretemp su Intel) è ora sempre preferito alla zona ACPI della scheda.
+      ro: |-
+        Corectată temperatura procesorului din panoul de compilare, care putea afișa o valoare fixă a plăcii de bază în locul procesorului. Senzorul procesorului (k10temp pe AMD, coretemp pe Intel) este acum preferat întotdeauna zonei ACPI a plăcii.
+      ru: |-
+        Исправлена температура процессора на панели сборки: вместо процессора она могла показывать фиксированное значение материнской платы. Теперь датчик процессора (k10temp на AMD, coretemp на Intel) всегда предпочитается ACPI-зоне платы.
   - version: 1.0.3-5
     date: '2026-10-29'
     type: stable
