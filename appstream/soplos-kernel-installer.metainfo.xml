@@ -166,6 +166,18 @@
   </screenshots>
 
   <releases>
+    <release version="1.0.3-5" date="2026-10-29">
+      <description>
+        <p>Every kernel now has Binder for Waydroid: a kernel without it stops the build. The C driver is used while the kernel has it, and the Rust driver once it is removed upstream, so the Rust toolchain is now a build dependency. The X3D VCache patch uses the new files for 6.12 and 7.2, with fixed CCD load counters.</p>
+        <p xml:lang="es">Todos los kernels llevan ahora Binder para Waydroid: un kernel sin él detiene la compilación. Se usa el driver en C mientras el kernel lo tenga y el de Rust cuando se retire en upstream, así que el toolchain de Rust pasa a ser una dependencia de compilación. El parche X3D VCache usa los nuevos archivos para 6.12 y 7.2, con los contadores de carga de los CCD corregidos.</p>
+        <p xml:lang="fr">Tous les noyaux ont désormais Binder pour Waydroid : un noyau sans lui arrête la compilation. Le pilote en C est utilisé tant que le noyau l'a, puis celui en Rust quand il est retiré en amont ; la chaîne d'outils Rust devient donc une dépendance de compilation. Le correctif X3D VCache utilise les nouveaux fichiers pour 6.12 et 7.2, avec les compteurs de charge des CCD corrigés.</p>
+        <p xml:lang="de">Jeder Kernel hat jetzt Binder für Waydroid: Ein Kernel ohne ihn stoppt den Build. Der C-Treiber wird verwendet, solange der Kernel ihn hat, danach der Rust-Treiber, wenn er upstream entfernt wird; die Rust-Toolchain ist daher jetzt eine Build-Abhängigkeit. Der X3D-VCache-Patch nutzt die neuen Dateien für 6.12 und 7.2 mit korrigierten CCD-Lastzählern.</p>
+        <p xml:lang="pt">Todos os kernels têm agora Binder para o Waydroid: um kernel sem ele pára a compilação. Usa-se o driver em C enquanto o kernel o tiver e o de Rust quando for retirado upstream, pelo que o toolchain de Rust passa a ser uma dependência de compilação. O patch X3D VCache usa os novos ficheiros para 6.12 e 7.2, com os contadores de carga dos CCD corrigidos.</p>
+        <p xml:lang="it">Ogni kernel ora ha Binder per Waydroid: un kernel senza di esso ferma la compilazione. Si usa il driver in C finché il kernel lo ha e quello in Rust quando viene rimosso upstream, quindi la toolchain Rust diventa una dipendenza di compilazione. La patch X3D VCache usa i nuovi file per 6.12 e 7.2, con i contatori di carico dei CCD corretti.</p>
+        <p xml:lang="ro">Fiecare kernel are acum Binder pentru Waydroid: un kernel fără el oprește compilarea. Se folosește driverul în C cât timp kernelul îl are și cel în Rust după ce este eliminat upstream, așa că toolchain-ul Rust devine o dependență de compilare. Patch-ul X3D VCache folosește noile fișiere pentru 6.12 și 7.2, cu contoarele de încărcare ale CCD-urilor corectate.</p>
+        <p xml:lang="ru">Теперь каждое ядро содержит Binder для Waydroid: ядро без него останавливает сборку. Используется драйвер на C, пока он есть в ядре, а после его удаления в upstream — драйвер на Rust, поэтому инструментарий Rust стал зависимостью сборки. Патч X3D VCache использует новые файлы для 6.12 и 7.2 с исправленными счётчиками нагрузки CCD.</p>
+      </description>
+    </release>
     <release version="1.0.3-4" date="2026-10-29">
       <description>
         <p>A kernel is no longer built without a selected patch: a missing BORE, Zen or X3D patch, or a scheduler left disabled, now stops the build. Kernels built without a Secure Boot key no longer taint the kernel on module load. Removing a kernel no longer runs apt autoremove, every grubx64.efi is signed, and BORE comes from Soplos' own patches first.</p>
