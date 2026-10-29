@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: SoplosLinux
 MediaBaseUrl: https://raw.githubusercontent.com/SoplosLinux/tyson/main/media
-Time: 20261029T030343
+Time: 20261029T041819
 ---
 Type: desktop-application
 ID: org.soplos.reposelector.desktop
@@ -738,6 +738,26 @@ Url:
   homepage: https://soplos.org
   bugtracker: https://github.com/SoplosLinux/soplos-kernel-installer/issues
 Releases:
+  - version: 1.0.3-4
+    date: '2026-10-29'
+    type: stable
+    description:
+      C: |-
+        A kernel is no longer built without a selected patch: a missing BORE, Zen or X3D patch, or a scheduler left disabled, now stops the build. Kernels built without a Secure Boot key no longer taint the kernel on module load. Removing a kernel no longer runs apt autoremove, every grubx64.efi is signed, and BORE comes from Soplos' own patches first.
+      es: |-
+        Ya no se compila un kernel sin un parche seleccionado: si falta el parche BORE, Zen o X3D, o el planificador queda desactivado, la compilación se detiene. Los kernels compilados sin clave de Secure Boot ya no marcan el kernel como contaminado al cargar módulos. Quitar un kernel ya no ejecuta apt autoremove, se firman todos los grubx64.efi y BORE se descarga primero de los parches propios de Soplos.
+      fr: |-
+        Un noyau n'est plus compilé sans un correctif sélectionné : s'il manque le correctif BORE, Zen ou X3D, ou si l'ordonnanceur reste désactivé, la compilation s'arrête. Les noyaux compilés sans clé Secure Boot ne marquent plus le noyau comme corrompu au chargement des modules. Supprimer un noyau n'exécute plus apt autoremove, tous les grubx64.efi sont signés et BORE vient d'abord des correctifs de Soplos.
+      de: |-
+        Ein Kernel wird nicht mehr ohne einen ausgewählten Patch gebaut: Fehlt der BORE-, Zen- oder X3D-Patch oder bleibt der Scheduler deaktiviert, stoppt der Build. Ohne Secure-Boot-Schlüssel gebaute Kernel markieren den Kernel beim Laden von Modulen nicht mehr als verunreinigt. Das Entfernen eines Kernels führt kein apt autoremove mehr aus, alle grubx64.efi werden signiert und BORE kommt zuerst aus den eigenen Soplos-Patches.
+      pt: |-
+        Um kernel já não é compilado sem um patch selecionado: se faltar o patch BORE, Zen ou X3D, ou o escalonador ficar desativado, a compilação pára. Os kernels compilados sem chave de Secure Boot já não marcam o kernel como contaminado ao carregar módulos. Remover um kernel já não executa apt autoremove, todos os grubx64.efi são assinados e o BORE vem primeiro dos patches da Soplos.
+      it: |-
+        Un kernel non viene più compilato senza una patch selezionata: se manca la patch BORE, Zen o X3D, o lo scheduler resta disattivato, la compilazione si ferma. I kernel compilati senza chiave Secure Boot non contaminano più il kernel al caricamento dei moduli. Rimuovere un kernel non esegue più apt autoremove, tutti i grubx64.efi vengono firmati e BORE arriva prima dalle patch di Soplos.
+      ro: |-
+        Un kernel nu mai este compilat fără un patch selectat: dacă lipsește patch-ul BORE, Zen sau X3D, ori planificatorul rămâne dezactivat, compilarea se oprește. Kernelurile compilate fără cheie Secure Boot nu mai marchează kernelul ca afectat la încărcarea modulelor. Eliminarea unui kernel nu mai rulează apt autoremove, toate fișierele grubx64.efi sunt semnate, iar BORE vine mai întâi din patch-urile Soplos.
+      ru: |-
+        Ядро больше не собирается без выбранного патча: если нет патча BORE, Zen или X3D либо планировщик остаётся отключён, сборка останавливается. Ядра, собранные без ключа Secure Boot, больше не помечают ядро как испорченное при загрузке модулей. Удаление ядра больше не запускает apt autoremove, подписываются все grubx64.efi, а BORE сначала берётся из собственных патчей Soplos.
   - version: 1.0.3-3
     date: '2026-10-23'
     type: stable
