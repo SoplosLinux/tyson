@@ -13426,6 +13426,7 @@ usr/share/icons/kora-soplos-dark/mimetypes/scalable/application-x-smb-workgroup.
 usr/share/icons/kora-soplos-dark/mimetypes/scalable/application-x-snoop.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/mimetypes/scalable/application-x-sogouskin.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/mimetypes/scalable/application-x-solus-package.svg	    x11/kora-soplos-icons
+usr/share/icons/kora-soplos-dark/mimetypes/scalable/application-x-soplos-theme.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/mimetypes/scalable/application-x-source-rpm.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/mimetypes/scalable/application-x-spkac+base64.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/mimetypes/scalable/application-x-spkac.svg	    x11/kora-soplos-icons
@@ -36922,6 +36923,7 @@ usr/share/icons/kora-soplos-light/mimetypes/scalable/application-x-smb-workgroup
 usr/share/icons/kora-soplos-light/mimetypes/scalable/application-x-snoop.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/mimetypes/scalable/application-x-sogouskin.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/mimetypes/scalable/application-x-solus-package.svg	    x11/kora-soplos-icons
+usr/share/icons/kora-soplos-light/mimetypes/scalable/application-x-soplos-theme.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/mimetypes/scalable/application-x-source-rpm.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/mimetypes/scalable/application-x-spkac+base64.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/mimetypes/scalable/application-x-spkac.svg	    x11/kora-soplos-icons
