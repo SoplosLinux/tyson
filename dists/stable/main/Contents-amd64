@@ -335,6 +335,8 @@ usr/share/ghostty/themes/Cobalt Next Dark	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Cobalt Next Minimal	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Cobalt2	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Cobweb	    utils/ghostty,utils/ghostty-tip
+usr/share/ghostty/themes/Code 2026 Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Code 2026 Light	    utils/ghostty-tip
 usr/share/ghostty/themes/Coffee Theme	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Cold Storage	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Cool Night	    utils/ghostty,utils/ghostty-tip
@@ -587,6 +589,36 @@ usr/share/ghostty/themes/London Columbia Road	    utils/ghostty,utils/ghostty-ti
 usr/share/ghostty/themes/London Embankment Dusk	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/London Soho Night	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Lovelace	    utils/ghostty,utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Aurora Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Aurora Light	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Canopy Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Canopy Light	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Cherenkov Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Cherenkov Light	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Dusk Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Dusk Light	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Ember Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Ember Light	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Espresso Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Espresso Light	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Harbor Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Harbor Light	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Lagoon Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Lagoon Light	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Nebula Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Nebula Light	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Olive Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Olive Light	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Oxblood Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Oxblood Light	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Parchment Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Parchment Light	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Quartz Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Quartz Dark Contrast	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Quartz Light	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Quartz Light Contrast	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Rayleigh Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Lumina Rayleigh Light	    utils/ghostty-tip
 usr/share/ghostty/themes/Lunar Dust	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Madman's Diary	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Man Page	    utils/ghostty,utils/ghostty-tip
@@ -657,6 +689,9 @@ usr/share/ghostty/themes/Neon	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Neon Analog	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Neon Purple	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Neopolitan	    utils/ghostty,utils/ghostty-tip
+usr/share/ghostty/themes/Nephrite Forest	    utils/ghostty-tip
+usr/share/ghostty/themes/Nephrite Jade	    utils/ghostty-tip
+usr/share/ghostty/themes/Nephrite Mint	    utils/ghostty-tip
 usr/share/ghostty/themes/Neutron	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Night Lion V1	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Night Lion V2	    utils/ghostty,utils/ghostty-tip
@@ -910,6 +945,7 @@ usr/share/ghostty/themes/The Fog	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/The Hulk	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Thermal Receipt	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Thirteen	    utils/ghostty,utils/ghostty-tip
+usr/share/ghostty/themes/This One Goes to 11	    utils/ghostty-tip
 usr/share/ghostty/themes/Tinacious Design Dark	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Tinacious Design Light	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Token Dark	    utils/ghostty,utils/ghostty-tip
@@ -946,6 +982,7 @@ usr/share/ghostty/themes/Vaporwave Sunset	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Vaughn	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Velvet Court	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Vercel	    utils/ghostty,utils/ghostty-tip
+usr/share/ghostty/themes/Vercel Light	    utils/ghostty-tip
 usr/share/ghostty/themes/Verdigris	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Vesper	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Vibrant Ink	    utils/ghostty,utils/ghostty-tip
@@ -987,6 +1024,10 @@ usr/share/ghostty/themes/Y2K Chrome	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Yngwie's Strat	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Zacess Cream	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Zacess Dark	    utils/ghostty,utils/ghostty-tip
+usr/share/ghostty/themes/Zacess Deep Contrast Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Zacess Deep Contrast Light	    utils/ghostty-tip
+usr/share/ghostty/themes/Zacess High Contrast Dark	    utils/ghostty-tip
+usr/share/ghostty/themes/Zacess High Contrast Light	    utils/ghostty-tip
 usr/share/ghostty/themes/Zacess Light	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Zacess Yellow on Black	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/Zenbones	    utils/ghostty,utils/ghostty-tip
@@ -1001,6 +1042,7 @@ usr/share/ghostty/themes/branch	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/cyberpunk-icy	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/datum (dark)	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/datum (light)	    utils/ghostty,utils/ghostty-tip
+usr/share/ghostty/themes/everslate	    utils/ghostty-tip
 usr/share/ghostty/themes/eyesclosed	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/hazyland	    utils/ghostty,utils/ghostty-tip
 usr/share/ghostty/themes/iTerm2 Dark Background	    utils/ghostty,utils/ghostty-tip
