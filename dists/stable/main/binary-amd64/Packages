@@ -160,7 +160,7 @@ Description: Include btrfs snapshots in GRUB menu
  grub menu when snapshots are created or deleted.
 
 Package: kora-soplos-icons
-Version: 1.0.0-6
+Version: 1.0.0-7
 Architecture: all
 Depends: hicolor-icon-theme
 Recommends: breeze-icon-theme
@@ -168,11 +168,11 @@ Maintainer: Sergi Perich <info@soploslinux.com>
 Homepage: https://github.com/SoplosLinux/kora-soplos-icons
 Priority: optional
 Section: x11
-Filename: pool/main/k/kora-soplos-icons/kora-soplos-icons_1.0.0-6_all.deb
-Size: 4908264
-SHA256: 7a36974ce5e464a4c52525135ad2633ff82e5c0a469e110ee8ccd180e9863784
-SHA1: 369bf904dcd998bec4d2a76977276c11e3e80461
-MD5sum: 24e1ddbe86fe35e94fc422b9be785792
+Filename: pool/main/k/kora-soplos-icons/kora-soplos-icons_1.0.0-7_all.deb
+Size: 4907708
+SHA256: 7da0237c3024ee514ee4b35a125ca989650350ad54d632d14c3cc7a8ea2d3d18
+SHA1: df4f08c1adb7ff840197aeb76ab4acea0e3ccfe6
+MD5sum: 6c0df736abe2e1000c5ea6bbe44a9ea1
 Description: Kora Soplos icon themes (dark and light) for Soplos Linux.
  Icon themes for Soplos Linux based on the Kora icon theme and recolored
  with the official Soplos palette. Two variants are installed in
@@ -180,7 +180,7 @@ Description: Kora Soplos icon themes (dark and light) for Soplos Linux.
  .
  Based on Kora (https://github.com/bikass/kora). Soplos modifications by
  Sergi Perich and Simnandez.
- Build date: 2026-11-05
+ Build date: 2026-11-12
 
 Package: kuteditor
 Version: 2.71-1
@@ -632,6 +632,29 @@ Description: Tablet and hybrid device support for Soplos Linux Tyson
  This package provides support for hybrid and tablet devices on Soplos Linux
  Tyson. Enables screen rotation via accelerometer, virtual keyboard with
  optimized layout and Qt theme integration.
+
+Package: tela-soplos-icons
+Version: 1.0.0
+Architecture: all
+Depends: hicolor-icon-theme
+Recommends: adwaita-icon-theme, breeze-icon-theme
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://github.com/SoplosLinux/tela-soplos-icons
+Priority: optional
+Section: x11
+Filename: pool/main/t/tela-soplos-icons/tela-soplos-icons_1.0.0_all.deb
+Size: 2824092
+SHA256: e40d79a5a0da867b155bf416b79a2f86685482f2fee6b43bd456043a156f5e7b
+SHA1: 91056374203e33c3a8ad81d4845f28ba786c600f
+MD5sum: bd2741e46100337715cd8510763ef58b
+Description: Tela Soplos icon themes (default, dark and light) for Soplos Linux.
+ Icon themes for Soplos Linux based on the Tela ubuntu icon theme and
+ recolored with the official Soplos palette. Three variants are installed in
+ /usr/share/icons: Tela Soplos, Tela Soplos Dark and Tela Soplos Light.
+ .
+ Based on Tela (https://github.com/vinceliuice/Tela-icon-theme). Soplos
+ modifications by Sergi Perich and Simnandez.
+ Build date: 2026-11-12
 
 Package: telegram-desktop
 Version: 7.4.0-1
