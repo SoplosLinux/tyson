@@ -207,6 +207,57 @@ Description: Native podcast editor with multitrack audio and chapters
  implements, so no separate JACK server is required on a PipeWire
  system.
 
+Package: limine
+Version: 12.9.6-0soplos1
+Architecture: amd64
+Maintainer: Sergi Perich <info@soploslinux.com>
+Installed-Size: 1265
+Depends: libc6 (>= 2.34)
+Homepage: https://github.com/Limine-Bootloader/Limine
+Priority: optional
+Section: admin
+Filename: pool/main/l/limine/limine_12.9.6-0soplos1_amd64.deb
+Size: 525752
+SHA256: e9f0e287123f1f34c512228f581c3e608083f4dec21e9e06b259fee437f73a8b
+SHA1: 6a8c41dd528ddab80b3ddd1b555cc2e2916ca84d
+MD5sum: af8862b434b2da31f99f2c7ffeb6464d
+Description: modern, advanced, portable, multiprotocol bootloader
+ Limine is a modern, advanced, portable, multiprotocol bootloader and boot
+ manager. It boots Linux and other kernels on UEFI and legacy BIOS systems
+ and reads its own files, its configuration and the kernels from FAT
+ partitions.
+ .
+ This package ships the limine host tool and the x86 BIOS, x86-64 UEFI and
+ IA-32 UEFI ports, unmodified from upstream. It does not install anything
+ to a disk by itself: the limine-soplos package installs Limine on the
+ boot disk and keeps its menu in step with the installed kernels.
+
+Package: limine-soplos
+Version: 1.0.0
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: limine (>= 12), bash, coreutils, util-linux, mount, efibootmgr
+Recommends: os-prober
+Priority: optional
+Section: admin
+Filename: pool/main/l/limine-soplos/limine-soplos_1.0.0_all.deb
+Size: 11340
+SHA256: 630047984f9683824806f1280805882f3a407c16e79d7d1a32a33689fd6ab822
+SHA1: 81df4d2eb452b0863566d3539261fe7387f1f538
+MD5sum: 819c1933f1499e5a882fdb7a9c736ab7
+Description: Limine boot loader integration for Soplos Linux
+ Limine only reads FAT, so the kernels in /boot cannot be booted as they
+ are. This package keeps a copy of every installed kernel and its initrd
+ on the FAT partition Limine boots from, and writes limine.conf, whenever
+ a kernel is installed or removed or dracut rebuilds an initrd.
+ .
+ limine-install puts Limine on the boot disk (UEFI or BIOS) and
+ limine-update rewrites its menu: one entry per kernel with its recovery
+ mode, and the other systems found on the disks. The kernel command line
+ is read from /etc/kernel/cmdline and the settings from
+ /etc/default/limine. Nothing is changed on the disk until limine-install
+ is run.
+
 Package: msi-keyboard-gui
 Version: 1.0.9
 Architecture: all
@@ -358,6 +409,23 @@ SHA256: a3aedb366f5335f3279f1a615cedd2baddaeac0f08c10ae1d0d1fb9f79a1eac1
 SHA1: ca2e8b2a6da5dc547e3d342331e58ad90f5a1550
 MD5sum: d0da54cb763dab8c1213d4e3aa112ac8
 Description: Advanced graphical kernel manager for Soplos Linux
+
+Package: soplos-limine-theme
+Version: 1.0.0
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Depends: limine-soplos
+Priority: optional
+Section: admin
+Filename: pool/main/s/soplos-limine-theme/soplos-limine-theme_1.0.0_all.deb
+Size: 2006224
+SHA256: 12e0e717e2dc3d69f87ebb487af4c1b51ff5ea956a43852897b5147786e9a1f8
+SHA1: cb6b5f1f43a0c732e584f1c5abd5d2eb9cb9b7af
+MD5sum: c13a3c7d34afc35c30a0e01d419aad71
+Description: Soplos Linux look for the Limine boot menu
+ The background and the colours of the Soplos GRUB theme for the Limine
+ boot menu. limine-soplos reads them from /etc/limine-soplos/theme.conf
+ and copies the background to the FAT partition Limine boots from.
 
 Package: soplos-plasma-classic-black-theme
 Version: 0.0.3-4

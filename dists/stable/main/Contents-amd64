@@ -28,6 +28,7 @@ etc/os-release	    admin/soplos-release
 etc/apt/sources.list.d/tyson.sources	    admin/soplos-release
 etc/dconf/db/local.d/00-maliit	    utils/tablet-soplos
 etc/default/grub	    misc/soplos-grub-theme
+etc/default/limine	    admin/limine-soplos
 etc/default/grub-btrfs/config	    admin/grub-btrfs
 etc/dpkg/origins/soplos	    admin/soplos-release
 etc/dracut.conf.d/i18n.conf	    admin/soplos-release
@@ -39,9 +40,12 @@ etc/grub.d/29_premount	    admin/btrfs-os-prober
 etc/grub.d/31_premount_cleanup	    admin/btrfs-os-prober
 etc/grub.d/41_snapshots-btrfs	    admin/grub-btrfs
 etc/kernel/postinst.d/soplos-vmware-modules	    misc/soplos-vmware-modules
+etc/kernel/postinst.d/zz-limine-soplos	    admin/limine-soplos
 etc/kernel/postinst.d/zz-symlinks	    admin/soplos-release
+etc/kernel/postrm.d/zz-limine-soplos	    admin/limine-soplos
 etc/kernel/postrm.d/zz-symlinks	    admin/soplos-release
 etc/kernel/prerm.d/soplos-vmware-modules	    misc/soplos-vmware-modules
+etc/limine-soplos/theme.conf	    admin/soplos-limine-theme
 etc/pam.d/plasmalogin	    kde/plasma-login-manager
 etc/pam.d/plasmalogin-autologin	    kde/plasma-login-manager
 etc/pam.d/plasmalogin-greeter	    kde/plasma-login-manager
@@ -60,6 +64,7 @@ opt/Telegram/Updater	    net/telegram-desktop
 usr/bin/ghostty	    utils/ghostty,utils/ghostty-tip
 usr/bin/grub-btrfsd	    admin/grub-btrfs
 usr/bin/kuteditor	    sound/kuteditor
+usr/bin/limine	    admin/limine
 usr/bin/msi-keyboard-gui	    utils/msi-keyboard-gui
 usr/bin/plasma-login-wallpaper	    kde/plasma-login-manager
 usr/bin/plasmalogin	    kde/plasma-login-manager
@@ -80,9 +85,12 @@ usr/lib/os-release	    admin/soplos-release
 usr/lib/kf6/kauth/libexec/kcmplasmalogin_authhelper	    kde/plasma-login-manager
 usr/lib/kuteditor/kuteditor	    sound/kuteditor
 usr/lib/kuteditor/libdeepfilter.so.0.5	    sound/kuteditor
+usr/lib/limine-soplos/common.sh	    admin/limine-soplos
 usr/lib/linux-boot-probes/mounted/40grub2	    admin/btrfs-os-prober
 usr/lib/soplos-vmware-modules/build-modules.sh	    misc/soplos-vmware-modules
 usr/lib/systemd/system/grub-btrfsd.service	    admin/grub-btrfs
+usr/lib/systemd/system/limine-soplos-update.path	    admin/limine-soplos
+usr/lib/systemd/system/limine-soplos-update.service	    admin/limine-soplos
 usr/lib/systemd/system/plasmalogin.service	    kde/plasma-login-manager
 usr/lib/systemd/user/app-com.mitchellh.ghostty.service	    utils/ghostty,utils/ghostty-tip
 usr/lib/systemd/user/plasma-login-kwin_wayland.service	    kde/plasma-login-manager
@@ -98,6 +106,8 @@ usr/lib/x86_64-linux-gnu/libexec/plasmalogin-helper	    kde/plasma-login-manager
 usr/lib/x86_64-linux-gnu/libexec/plasmalogin-helper-start-x11user	    kde/plasma-login-manager
 usr/lib/x86_64-linux-gnu/qt6/plugins/plasma/kcms/systemsettings/kcm_plasmalogin.so	    kde/plasma-login-manager
 usr/libexec/soplos-fontcache-guard	    fonts/soplos-fontconfig-woff-fix
+usr/sbin/limine-install	    admin/limine-soplos
+usr/sbin/limine-update	    admin/limine-soplos
 usr/share/TelegramDesktop/externalupdater.d/soplos.conf	    net/telegram-desktop
 usr/share/applications/com.mitchellh.ghostty.desktop	    utils/ghostty,utils/ghostty-tip
 usr/share/applications/com.soplos.msi-keyboard.desktop	    utils/msi-keyboard-gui
@@ -171,6 +181,15 @@ usr/share/doc/kora-soplos-icons/changelog.gz	    x11/kora-soplos-icons
 usr/share/doc/kora-soplos-icons/copyright	    x11/kora-soplos-icons
 usr/share/doc/kuteditor/changelog.Debian.gz	    sound/kuteditor
 usr/share/doc/kuteditor/copyright	    sound/kuteditor
+usr/share/doc/limine/3RDPARTY.md.gz	    admin/limine
+usr/share/doc/limine/CONFIG.md.gz	    admin/limine
+usr/share/doc/limine/COPYING	    admin/limine
+usr/share/doc/limine/FAQ.md	    admin/limine
+usr/share/doc/limine/USAGE.md.gz	    admin/limine
+usr/share/doc/limine/changelog.Debian.gz	    admin/limine
+usr/share/doc/limine/changelog.gz	    admin/limine
+usr/share/doc/limine/copyright	    admin/limine
+usr/share/doc/limine-soplos/copyright	    admin/limine-soplos
 usr/share/doc/plasma-login-manager/changelog.Debian.gz	    kde/plasma-login-manager
 usr/share/doc/plasma-login-manager/copyright	    kde/plasma-login-manager
 usr/share/doc/soplos-appimage-manager/copyright	    utils/soplos-appimage-manager
@@ -178,6 +197,7 @@ usr/share/doc/soplos-debug/README.md	    admin/soplos-debug
 usr/share/doc/soplos-debug/copyright	    admin/soplos-debug
 usr/share/doc/soplos-grub-editor/copyright	    utils/soplos-grub-editor
 usr/share/doc/soplos-kernel-installer/copyright	    utils/soplos-kernel-installer
+usr/share/doc/soplos-limine-theme/copyright	    admin/soplos-limine-theme
 usr/share/doc/soplos-plymouth-manager/copyright	    utils/soplos-plymouth-manager
 usr/share/doc/soplos-repo-selector/copyright	    utils/soplos-repo-selector
 usr/share/doc/soplos-sys-cleaner/copyright	    utils/soplos-sys-cleaner
@@ -92447,6 +92467,9 @@ usr/share/icons/tela-soplos-light/24/panel/zim-panel.svg	    x11/tela-soplos-ico
 usr/share/keyrings/tyson.gpg	    admin/soplos-release
 usr/share/kio/servicemenus/com.mitchellh.ghostty.desktop	    utils/ghostty,utils/ghostty-tip
 usr/share/licenses/grub-btrfs/LICENSE	    admin/grub-btrfs
+usr/share/limine/BOOTIA32.EFI	    admin/limine
+usr/share/limine/BOOTX64.EFI	    admin/limine
+usr/share/limine/limine-bios.sys	    admin/limine
 usr/share/locale/ar/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/ar/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/locale/az/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
@@ -92562,6 +92585,7 @@ usr/share/locale/zh_TW/LC_MESSAGES/com.mitchellh.ghostty.mo	    utils/ghostty,ut
 usr/share/locale/zh_TW/LC_MESSAGES/kcm_plasmalogin.mo	    kde/plasma-login-manager
 usr/share/locale/zh_TW/LC_MESSAGES/plasma_login.mo	    kde/plasma-login-manager
 usr/share/man/man1/ghostty.1.gz	    utils/ghostty,utils/ghostty-tip
+usr/share/man/man1/limine.1.gz	    admin/limine
 usr/share/man/man1/soplos-appimage-manager.1.gz	    utils/soplos-appimage-manager
 usr/share/man/man1/soplos-grub-editor.1.gz	    utils/soplos-grub-editor
 usr/share/man/man1/soplos-kernel-installer.1.gz	    utils/soplos-kernel-installer
@@ -93371,6 +93395,7 @@ usr/share/soplos-kernel-installer/widgets/march_selector.py	    utils/soplos-ker
 usr/share/soplos-kernel-installer/widgets/patch_selector.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/widgets/profile_selector.py	    utils/soplos-kernel-installer
 usr/share/soplos-kernel-installer/widgets/version_picker.py	    utils/soplos-kernel-installer
+usr/share/soplos-limine-theme/background.png	    admin/soplos-limine-theme
 usr/share/soplos-plymouth-manager/CHANGELOG.md	    utils/soplos-plymouth-manager
 usr/share/soplos-plymouth-manager/LICENSE	    utils/soplos-plymouth-manager
 usr/share/soplos-plymouth-manager/README.md	    utils/soplos-plymouth-manager
