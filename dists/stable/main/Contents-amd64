@@ -11229,6 +11229,8 @@ usr/share/icons/kora-soplos-dark/apps/scalable/system-suspend.svg	    x11/kora-s
 usr/share/icons/kora-soplos-dark/apps/scalable/system-switch-java.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/apps/scalable/system-switch-user.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/apps/scalable/system-upgrade.svg	    x11/kora-soplos-icons
+usr/share/icons/kora-soplos-dark/apps/scalable/system-user-list.svg	    x11/kora-soplos-icons
+usr/share/icons/kora-soplos-dark/apps/scalable/system-user-prompt.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/apps/scalable/system-users.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/apps/scalable/system-utilities-logviewer.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-dark/apps/scalable/system76-driver.svg	    x11/kora-soplos-icons
@@ -34726,6 +34728,8 @@ usr/share/icons/kora-soplos-light/apps/scalable/system-suspend.svg	    x11/kora-
 usr/share/icons/kora-soplos-light/apps/scalable/system-switch-java.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/apps/scalable/system-switch-user.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/apps/scalable/system-upgrade.svg	    x11/kora-soplos-icons
+usr/share/icons/kora-soplos-light/apps/scalable/system-user-list.svg	    x11/kora-soplos-icons
+usr/share/icons/kora-soplos-light/apps/scalable/system-user-prompt.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/apps/scalable/system-users.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/apps/scalable/system-utilities-logviewer.svg	    x11/kora-soplos-icons
 usr/share/icons/kora-soplos-light/apps/scalable/system76-driver.svg	    x11/kora-soplos-icons

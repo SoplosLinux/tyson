@@ -160,7 +160,7 @@ Description: Include btrfs snapshots in GRUB menu
  grub menu when snapshots are created or deleted.
 
 Package: kora-soplos-icons
-Version: 1.0.0-7
+Version: 1.0.0-8
 Architecture: all
 Depends: hicolor-icon-theme
 Recommends: breeze-icon-theme
@@ -168,11 +168,11 @@ Maintainer: Sergi Perich <info@soploslinux.com>
 Homepage: https://github.com/SoplosLinux/kora-soplos-icons
 Priority: optional
 Section: x11
-Filename: pool/main/k/kora-soplos-icons/kora-soplos-icons_1.0.0-7_all.deb
-Size: 4907708
-SHA256: 7da0237c3024ee514ee4b35a125ca989650350ad54d632d14c3cc7a8ea2d3d18
-SHA1: df4f08c1adb7ff840197aeb76ab4acea0e3ccfe6
-MD5sum: 6c0df736abe2e1000c5ea6bbe44a9ea1
+Filename: pool/main/k/kora-soplos-icons/kora-soplos-icons_1.0.0-8_all.deb
+Size: 4886084
+SHA256: e830315dd9279b4bacc438cf14a9e48881f4278f41f58c7d2bdf538e342ec382
+SHA1: 43c1672715c7cd5f78bac267b8e713b73fee6d9c
+MD5sum: fd5b867cdfed9a3c8d4254836bd368a0
 Description: Kora Soplos icon themes (dark and light) for Soplos Linux.
  Icon themes for Soplos Linux based on the Kora icon theme and recolored
  with the official Soplos palette. Two variants are installed in
@@ -180,7 +180,7 @@ Description: Kora Soplos icon themes (dark and light) for Soplos Linux.
  .
  Based on Kora (https://github.com/bikass/kora). Soplos modifications by
  Sergi Perich and Simnandez.
- Build date: 2026-11-12
+ Build date: 2026-11-14
 
 Package: kuteditor
 Version: 2.71-1
