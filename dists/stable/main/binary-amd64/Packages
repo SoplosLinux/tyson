@@ -702,7 +702,7 @@ Description: Tablet and hybrid device support for Soplos Linux Tyson
  optimized layout and Qt theme integration.
 
 Package: tela-soplos-icons
-Version: 1.0.0-1
+Version: 1.0.0-2
 Architecture: all
 Depends: hicolor-icon-theme
 Recommends: adwaita-icon-theme, breeze-icon-theme
@@ -710,11 +710,11 @@ Maintainer: Sergi Perich <info@soploslinux.com>
 Homepage: https://github.com/SoplosLinux/tela-soplos-icons
 Priority: optional
 Section: x11
-Filename: pool/main/t/tela-soplos-icons/tela-soplos-icons_1.0.0-1_all.deb
-Size: 2823816
-SHA256: f21908aa75c47ad260bcd72c286731ee832c7c9f244c81e765b1127cfbbf17a0
-SHA1: 869b9e699120123085880ab40aadf8f9c924f0f3
-MD5sum: 24955f5227d8f93850d16576fb320455
+Filename: pool/main/t/tela-soplos-icons/tela-soplos-icons_1.0.0-2_all.deb
+Size: 2823928
+SHA256: cdae1dd1852b6ac283ce4098297de39f50f637b1c5a818392f427b08cbcc8843
+SHA1: b3a78c8bee65339d017747d92ba28a1947d85a1e
+MD5sum: 8e204d764a9d8e96752c7131679ae26d
 Description: Tela Soplos icon themes (default, dark and light) for Soplos Linux.
  Icon themes for Soplos Linux based on the Tela ubuntu icon theme and
  recolored with the official Soplos palette. Three variants are installed in
