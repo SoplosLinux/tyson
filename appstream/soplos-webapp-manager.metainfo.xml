@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.soplos.webappmanager</id>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>WebApp Manager</name>
+  <summary>Create and manage isolated Web Applications</summary>
+  <summary xml:lang="es">Crea y gestiona Aplicaciones Web aisladas</summary>
+  <summary xml:lang="fr">Créer et gérer des applications Web isolées</summary>
+  <summary xml:lang="de">Isolierte Webanwendungen erstellen und verwalten</summary>
+  <summary xml:lang="it">Crea e gestisci applicazioni web isolate</summary>
+  <summary xml:lang="pt">Criar e gerir aplicações Web isoladas</summary>
+  <summary xml:lang="ru">Создание и управление изолированными веб-приложениями</summary>
+  <summary xml:lang="ro">Creați și gestionați aplicații Web izolate</summary>
+  
+  <description>
+    <p>
+      Soplos WebApp Manager allows you to run websites as native desktop applications. 
+      It creates isolated browsing environments (SSBs) to ensure your webapps can't interact 
+      with the cookies or tabs from your main browsing sessions, increasing productivity and privacy.
+    </p>
+    <p xml:lang="es">
+      Soplos WebApp Manager le permite ejecutar sitios web como aplicaciones de escritorio nativas. 
+      Crea entornos de navegación aislados (SSBs) para asegurar que sus aplicaciones web no puedan 
+      interactuar con las cookies o pestañas de sus sesiones de navegación principales, aumentando 
+      la productividad y la privacidad.
+    </p>
+    <p xml:lang="fr">
+      Soplos WebApp Manager vous permet d'exécuter des sites Web en tant qu'applications de bureau natives. 
+      Il crée des environnements de navigation isolés (SSB) pour garantir que vos applications Web ne puissent 
+      pas interagir avec les cookies ou les onglets de vos sessions de navigation principales, augmentant 
+      ainsi la productivité et la confidentialité.
+    </p>
+    <p xml:lang="de">
+      Soplos WebApp Manager ermöglicht es Ihnen, Websites als native Desktop-Anwendungen auszuführen. 
+      Er erstellt isolierte Browserumgebungen (SSBs), um sicherzustellen, dass Ihre Web-Apps nicht mit 
+      den Cookies oder Tabs Ihrer Haupt-Browsersitzungen interagieren können, was die Produktivität 
+      und den Datenschutz erhöht.
+    </p>
+    <p xml:lang="it">
+      Soplos WebApp Manager ti permette di eseguire siti web come applicazioni desktop native. 
+      Crea ambienti di navigazione isolati (SSB) per garantire que le tue webapp non possano interagire 
+      con i cookie o le schede delle tue sessioni di navigazione principali, aumentando la produttività 
+      e la privacy.
+    </p>
+    <p xml:lang="pt">
+      O Soplos WebApp Manager permite executar sites como aplicações de desktop nativas. 
+      Cria ambientes de navegação isolados (SSBs) para garantir que as suas aplicações Web não possam 
+      interagir com os cookies ou separadores das suas sessões de navegação principais, aumentando 
+      a produtividade e a privacidade.
+    </p>
+    <p xml:lang="ru">
+      Soplos WebApp Manager позволяет запускать веб-сайты как нативные настольные приложения. 
+      Он создает изолированные среды просмотра (SSB), чтобы ваши веб-приложения не могли 
+      взаимодействовать с файлами cookie или вкладками ваших основных сеансов просмотра, 
+      повышая производительность и конфиденциальность.
+    </p>
+    <p xml:lang="ro">
+      Soplos WebApp Manager vă permite să rulați site-uri web ca aplicații desktop native. 
+      Acesta creează medii de navigare izolate (SSB) pentru a se asigura că aplicațiile dumneavoastră 
+      web nu pot interacționa cu modulele cookie sau filele din sesiunile principale de navigare, 
+      crescând productivitatea și confidențialitatea.
+    </p>
+    <p>Features:</p>
+    <p xml:lang="es">Características:</p>
+    <p xml:lang="fr">Fonctionnalités :</p>
+    <p xml:lang="de">Funktionen:</p>
+    <p xml:lang="it">Caratteristiche:</p>
+    <p xml:lang="pt">Características:</p>
+    <p xml:lang="ru">Возможности:</p>
+    <p xml:lang="ro">Caracteristici:</p>
+    <ul>
+      <li>Supports multiple browsers out-of-the-box (Firefox, Chrome, Brave, Epiphany, Vivaldi, etc).</li>
+      <li xml:lang="es">Soporta múltiples navegadores (Firefox, Chrome, Brave, Epiphany, Vivaldi, etc).</li>
+      <li xml:lang="fr">Prend en charge plusieurs navigateurs (Firefox, Chrome, Brave, Epiphany, Vivaldi, etc).</li>
+      <li xml:lang="de">Unterstützt mehrere Browser (Firefox, Chrome, Brave, Epiphany, Vivaldi, etc).</li>
+      <li xml:lang="it">Supporta più browser (Firefox, Chrome, Brave, Epiphany, Vivaldi, etc).</li>
+      <li xml:lang="pt">Suporta vários navegadores (Firefox, Chrome, Brave, Epiphany, Vivaldi, etc).</li>
+      <li xml:lang="ru">Поддержка нескольких браузеров (Firefox, Chrome, Brave, Epiphany, Vivaldi и др.).</li>
+      <li xml:lang="ro">Suportă mai multe browsere (Firefox, Chrome, Brave, Epiphany, Vivaldi etc).</li>
+      
+      <li>Full WebApp editing (Name, URL, Icon, Browser, and Navbar).</li>
+      <li xml:lang="es">Edición completa de WebApps (Nombre, URL, Icono, Navegador y Barra).</li>
+      <li xml:lang="fr">Édition complète des WebApps (Nom, URL, Icône, Navigateur et Barre).</li>
+      <li xml:lang="de">Vollständige WebApp-Bearbeitung (Name, URL, Symbol, Browser und Leiste).</li>
+      <li xml:lang="it">Modifica completa delle WebApp (Nome, URL, Icona, Browser e Barra).</li>
+      <li xml:lang="pt">Edição completa de WebApps (Nome, URL, Ícone, Navegador e Barra).</li>
+      <li xml:lang="ru">Полное редактирование веб-приложений (имя, URL, значок, браузер и панель).</li>
+      <li xml:lang="ro">Editare completă a aplicațiilor Web (Nume, URL, Pictogramă, Browser și Bară).</li>
+
+      <li>Extra browser parameters support (e.g. --start-maximized, --kiosk).</li>
+      <li xml:lang="es">Soporte para parámetros extra del navegador (ej. --start-maximized, --kiosk).</li>
+      <li xml:lang="fr">Paramètres supplémentaires du navigateur (ex. --start-maximized, --kiosk).</li>
+      <li xml:lang="de">Zusätzliche Browser-Parameter (z.B. --start-maximized, --kiosk).</li>
+      <li xml:lang="it">Supporto per parametri aggiuntivi del browser (es. --start-maximized, --kiosk).</li>
+      <li xml:lang="pt">Suporte para parâmetros extras do navegador (ex. --start-maximized, --kiosk).</li>
+      <li xml:lang="ru">Поддержка дополнительных параметров браузера (напр. --start-maximized, --kiosk).</li>
+      <li xml:lang="ro">Suport pentru parametri suplimentari ai browserului (de ex. --start-maximized, --kiosk).</li>
+
+      <li>Improved Wayland/Plasma 6 icon mapping and window association.</li>
+      <li xml:lang="es">Mapeo de iconos mejorado para Wayland y Plasma 6.</li>
+      <li xml:lang="fr">Amélioration du mappage des icônes pour Wayland et Plasma 6.</li>
+      <li xml:lang="de">Verbesserte Symbol-Zuordnung für Wayland und Plasma 6.</li>
+      <li xml:lang="it">Mappatura delle icone migliorata per Wayland e Plasma 6.</li>
+      <li xml:lang="pt">Mapeamento de ícones aprimorado para Wayland e Plasma 6.</li>
+      <li xml:lang="ru">Улучшенное сопоставление значков для Wayland и Plasma 6.</li>
+      <li xml:lang="ro">Mapare îmbunătățită a pictogramelor pentru Wayland și Plasma 6.</li>
+
+      <li>Smart Flatpak compatibility tracking.</li>
+      <li xml:lang="es">Seguimiento inteligente de compatibilidad con Flatpak.</li>
+      <li xml:lang="fr">Suivi intelligent de la compatibilité Flatpak.</li>
+      <li xml:lang="de">Intelligentes Tracking der Flatpak-Kompatibilität.</li>
+      <li xml:lang="it">Monitoraggio intelligente della compatibilità Flatpak.</li>
+      <li xml:lang="pt">Rastreamento inteligente de compatibilidade Flatpak.</li>
+      <li xml:lang="ru">Интеллектуальное отслеживание совместимости с Flatpak.</li>
+      <li xml:lang="ro">Urmărirea inteligentă a compatibilității Flatpak.</li>
+
+      <li>Auto-download of high quality 128px favicons natively.</li>
+      <li xml:lang="es">Descarga automática de favicons de alta calidad (128px) de forma nativa.</li>
+      <li xml:lang="fr">Téléchargement automatique de favicons 128px de haute qualité en mode natif.</li>
+      <li xml:lang="de">Automatischer Download von hochwertigen 128px-Favicons auf native Weise.</li>
+      <li xml:lang="it">Download automatico di favicon a 128px di alta qualità in modo nativo.</li>
+      <li xml:lang="pt">Download automático de favicons de 128px de alta qualidade nativamente.</li>
+      <li xml:lang="ru">Автоматическая загрузка высококачественных фавиконов (128px) нативным способом.</li>
+      <li xml:lang="ro">Descărcarea automată a faviconurilor de 128px de înaltă calitate în mod nativ.</li>
+
+      <li>Custom userChrome.css injection for pristine Firefox instances.</li>
+      <li xml:lang="es">Inyección de userChrome.css personalizado para instancias de Firefox integradas.</li>
+      <li xml:lang="fr">Injection de userChrome.css personnalisé pour des instances Firefox épurées.</li>
+      <li xml:lang="de">Injektion von benutzerdefiniertem userChrome.css für saubere Firefox-Instanzen.</li>
+      <li xml:lang="it">Iniezione di userChrome.css personalizzato per istanze di Firefox pulite.</li>
+      <li xml:lang="pt">Injeção de userChrome.css personalizado para instâncias integradas do Firefox.</li>
+      <li xml:lang="ru">Внедрение пользовательского userChrome.css для чистых экземпляров Firefox.</li>
+      <li xml:lang="ro">Injectarea de userChrome.css personalizat pentru instanțe de Firefox integrate.</li>
+    </ul>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-webapp-manager/main/assets/screenshots/screenshot1.png</image>
+      <caption>Main dashboard showing installed WebApps</caption>
+      <caption xml:lang="es">Panel principal mostrando las WebApps instaladas</caption>
+      <caption xml:lang="fr">Tableau de bord principal présentant les WebApps installées</caption>
+      <caption xml:lang="de">Haupt-Dashboard mit den installierten WebApps</caption>
+      <caption xml:lang="it">Dashboard principale con le WebApp installate</caption>
+      <caption xml:lang="pt">Painel principal mostrando os WebApps instalados</caption>
+      <caption xml:lang="ru">Главная панель со списком установленных веб-приложений</caption>
+      <caption xml:lang="ro">Panoul central care afișează aplicațiile Web instalate</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-webapp-manager/main/assets/screenshots/screenshot2.png</image>
+      <caption>WebApp creation dialog with browser selection</caption>
+      <caption xml:lang="es">Diálogo de creación de WebApp con selección de navegador</caption>
+      <caption xml:lang="fr">Dialogue de création WebApp avec sélection du navigateur</caption>
+      <caption xml:lang="de">WebApp-Erstellungsdialog mit Browser-Auswahl</caption>
+      <caption xml:lang="it">Finestra di creazione WebApp con selezione del browser</caption>
+      <caption xml:lang="pt">Diálogo de criação de WebApp com selección de navegador</caption>
+      <caption xml:lang="ru">Диалог создания веб-приложения с выбором браузера</caption>
+      <caption xml:lang="ro">Dialog pentru crearea aplicațiilor Web cu selectarea browserului</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-webapp-manager/main/assets/screenshots/screenshot3.png</image>
+      <caption>Web App window natively integrated into the system</caption>
+      <caption xml:lang="es">Ventana de Web App integrada nativamente en el sistema</caption>
+      <caption xml:lang="fr">Fenêtre de Web App intégrée nativement dans le système</caption>
+      <caption xml:lang="de">Nativ in das System integriertes Web-App-Fenster</caption>
+      <caption xml:lang="it">Finestra della Web App integrata nativamente nel sistema</caption>
+      <caption xml:lang="pt">Janela de Web App integrada nativamente ao sistema</caption>
+      <caption xml:lang="ru">Окно веб-приложения, нативно интегрированное в систему</caption>
+      <caption xml:lang="ro">Fereastră Web App integrată nativ în sistem</caption>
+    </screenshot>
+  </screenshots>
+
+  <launchable type="desktop-id">org.soplos.webappmanager.desktop</launchable>
+  
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-webapp-manager/issues</url>
+  <project_group>Soplos Linux</project_group>
+  <developer_name>Sergi Perich</developer_name>
+
+  <provides>
+    <binary>soplos-webapp-manager</binary>
+  </provides>
+  
+  <categories>
+    <category>System</category>
+    <category>Utility</category>
+  </categories>
+
+  <releases>
+    <release version="1.0.0-5" date="2026-07-07">
+      <description>
+        <p xml:lang="en">Build dependency python3-all replaced with python3.</p>
+        <p xml:lang="es">Se ha sustituido la dependencia de compilación python3-all por python3.</p>
+        <p xml:lang="fr">La dépendance de compilation python3-all a été remplacée par python3.</p>
+        <p xml:lang="pt">A dependência de compilação python3-all foi substituída por python3.</p>
+        <p xml:lang="de">Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.</p>
+        <p xml:lang="it">La dipendenza di compilazione python3-all è stata sostituita con python3.</p>
+        <p xml:lang="ru">Зависимость сборки python3-all заменена на python3.</p>
+        <p xml:lang="ro">Dependența de compilare python3-all a fost înlocuită cu python3.</p>
+      </description>
+    </release>
+    <release version="1.0.0-4" date="2026-04-30">
+      <description>
+        <p>Simplified the footer UI text to match the modern Soplos standard layout. Added icon persistence and fixed theme support.</p>
+        <p xml:lang="en">Simplified the footer UI text to match the modern Soplos standard layout. Added icon persistence and fixed theme support.</p>
+        <p xml:lang="es">Se ha simplificado el texto de la barra de estado. Añadida persistencia de iconos y soporte corregido para el tema claro/oscuro del sistema.</p>
+        <p xml:lang="fr">Le texte de la barre d'état a été simplifié. Ajout de la persistance des icônes et correction de la prise en charge du thème clair/sombre du système.</p>
+        <p xml:lang="pt">O texto da barra de status foi simplificado. Adicionada persistência de ícones e suporte corrigido para o tema claro/escuro do sistema.</p>
+        <p xml:lang="de">Der Text der Statusleiste wurde vereinfacht. Symbolpersistenz hinzugefügt und Unterstützung für helles/dunkles Systemdesign korrigiert.</p>
+        <p xml:lang="it">Il testo della barra di stato è stato semplificato. Aggiunta la persistenza delle icone e corretto il supporto per il tema chiaro/scuro del sistema.</p>
+        <p xml:lang="ru">Текст строки состояния был упрощен. Добавлено сохранение значков и исправлена поддержка светлой/темной темы системы.</p>
+        <p xml:lang="ro">Textul barei de stare a fost simplificat. S-a adăugat persistența pictogramelor și s-a corectat suportul pentru tema deschisă/închisă a sistemului.</p>
+        <ul>
+          <li>WebApp icons are now saved permanently in the local data folder instead of the cache folder.</li>
+          <li xml:lang="es">Los iconos de las WebApps se guardan de forma permanente en la carpeta local de datos en lugar de la caché.</li>
+          <li xml:lang="fr">Les icônes WebApp sont désormais enregistrées de manière permanente dans le dossier de données local au lieu du cache.</li>
+          <li xml:lang="de">WebApp-Symbole werden nun dauerhaft im lokalen Datenordner anstatt im Cache gespeichert.</li>
+          <li xml:lang="it">Le icone delle WebApp vengono ora salvate in modo permanente nella cartella dati locale anziché nella cache.</li>
+          <li xml:lang="pt">Os ícones dos WebApps agora são salvos permanentemente na pasta de dados local em vez do cache.</li>
+          <li xml:lang="ro">Pictogramele WebApp sunt acum salvate permanent în folderul de date local în loc de memoria cache.</li>
+          <li xml:lang="ru">Значки WebApp теперь сохраняются постоянно в локальной папке данных, а не в кеше.</li>
+          
+          <li>The application now correctly respects the system's light or dark GTK theme preference.</li>
+          <li xml:lang="es">La aplicación ahora respeta correctamente la preferencia del tema GTK claro u oscuro del sistema.</li>
+          <li xml:lang="fr">L'application respecte désormais correctement la préférence de thème clair ou sombre du système.</li>
+          <li xml:lang="de">Die Anwendung respektiert nun korrekt die Systemeinstellung für ein helles oder dunkles GTK-Design.</li>
+          <li xml:lang="it">L'applicazione ora rispetta correttamente la preferenza per il tema GTK chiaro o scuro del sistema.</li>
+          <li xml:lang="pt">O aplicativo agora respeita corretamente a preferência do tema claro ou escuro do sistema.</li>
+          <li xml:lang="ro">Aplicația respectă acum în mod corect preferința de temă deschisă sau închisă a sistemului.</li>
+          <li xml:lang="ru">Теперь приложение корректно учитывает системные настройки светлой или темной темы GTK.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.0-3" date="2026-03-22">
+      <description>
+        <p>Fixed background color inconsistency in the main window.</p>
+        <p xml:lang="es">Corregida la inconsistencia del color de fondo en la ventana principal.</p>
+        <p xml:lang="fr">Correction de l'incohérence de couleur de fond dans la fenêtre principale.</p>
+        <p xml:lang="de">Inkonsistenz der Hintergrundfarbe im Hauptfenster behoben.</p>
+        <p xml:lang="it">Corretta l'incongruenza del colore di sfondo nella finestra principale.</p>
+        <p xml:lang="pt">Corrigida a inconsistência da cor de fundo na janela principal.</p>
+        <p xml:lang="ru">Исправлена несоответствие цвета фона в главном окне.</p>
+        <p xml:lang="ro">Corectată inconsistența culorii de fundal în fereastra principală.</p>
+      </description>
+    </release>
+    <release version="1.0.0-2" date="2026-03-21">
+      <description>
+        <p>About dialog added with F1 shortcut and GNOME application menu action.</p>
+        <p xml:lang="es">Diálogo Acerca de añadido con atajo F1 y acción en el menú de aplicación GNOME.</p>
+        <p xml:lang="fr">Dialogue À propos ajouté avec raccourci F1 et action dans le menu application GNOME.</p>
+        <p xml:lang="de">Über-Dialog hinzugefügt mit F1-Tastenkürzel und GNOME-Anwendungsmenü-Aktion.</p>
+        <p xml:lang="it">Finestra di dialogo Informazioni aggiunta con scorciatoia F1 e azione nel menu applicazione GNOME.</p>
+        <p xml:lang="pt">Diálogo Sobre adicionado com atalho F1 e ação no menu de aplicação GNOME.</p>
+        <p xml:lang="ru">Добавлен диалог «О программе» с горячей клавишей F1 и действием в меню приложения GNOME.</p>
+        <p xml:lang="ro">Dialog Despre adăugat cu scurtătură F1 și acțiune în meniul aplicației GNOME.</p>
+      </description>
+    </release>
+    <release version="1.0.0-1" date="2026-03-10">
+      <description>
+        <p>Standardized Soplos UI with official footer and environment detection. Added Incognito mode and expanded browser flags help.</p>
+        <p xml:lang="es">UI de Soplos estandarizada con footer oficial y detección de entorno. Añadido modo incógnito y ayuda de parámetros de navegación ampliada.</p>
+        <p xml:lang="fr">Interface Soplos standardisée avec footer officiel et détection d'environnement. Ajout du mode incognito et aide aux paramètres de navigation étendue.</p>
+        <p xml:lang="de">Standardisierte Soplos-Benutzeroberfläche mit offizieller Fußzeile und Umgebungserkennung. Inkognito-Modus hinzugefügt und erweiterte Hilfe für Browser-Parameter.</p>
+        <p xml:lang="it">Interfaccia Soplos standardizzata con footer ufficiale e rilevamento dell'ambiente. Aggiunta modalità in incognito e guida ai parametri del browser espansa.</p>
+        <p xml:lang="pt">Interface Soplos padronizada com rodapé oficial e deteção de ambiente. Adicionado modo de navegação anônima e ajuda de parâmetros de navegador expandida.</p>
+        <p xml:lang="ro">Interfață Soplos standardizată cu subsol oficial și detectarea mediului. S-a adăugat modul incognito și ajutor extins pentru parametrii browserului.</p>
+        <p xml:lang="ru">Стандартизированный интерфейс Soplos с официальным футером и определением окружения. Добавлен режим инкогнито и расширенная справка по параметрам браузера.</p>
+        <ul>
+          <li>Official Soplos footer with system info and app version.</li>
+          <li xml:lang="es">Footer oficial de Soplos con info del sistema y versión de la app.</li>
+          <li xml:lang="fr">Footer officiel de Soplos avec info système et version de l'application.</li>
+          <li xml:lang="de">Offizielle Soplos-Fußzeile mit Systeminfo und App-Version.</li>
+          <li xml:lang="it">Footer ufficiale di Soplos con info di sistema e versione dell'app.</li>
+          <li xml:lang="pt">Rodapé oficial da Soplos com info do sistema e versão da aplicação.</li>
+          <li xml:lang="ro">Subsol oficial Soplos cu informații despre sistem și versiunea aplicației.</li>
+          <li xml:lang="ru">Официальный футер Soplos с информацией о системе и версии приложения.</li>
+          
+          <li>Real-time desktop environment and display protocol detection.</li>
+          <li xml:lang="es">Detección en tiempo real del escritorio y protocolo de pantalla.</li>
+          <li xml:lang="fr">Détection en temps réel de l'environnement de bureau et du protocole d'affichage.</li>
+          <li xml:lang="de">Echtzeit-Erkennung von Desktop-Umgebung und Display-Protokoll.</li>
+          <li xml:lang="it">Rilevamento in tempo reale dell'ambiente desktop e del protocollo di visualizzazione.</li>
+          <li xml:lang="pt">Deteção em tempo real de ambiente de desktop e protocolo de exibição.</li>
+          <li xml:lang="ro">Detectarea în timp real a mediului de desktop și a protocolului de afișare.</li>
+          <li xml:lang="ru">Определение окружения рабочего стола и протокола отображения в реальном времени.</li>
+
+          <li>Incognito mode support for isolated private sessions.</li>
+          <li xml:lang="es">Soporte para modo incógnito en sesiones privadas aisladas.</li>
+          <li xml:lang="fr">Prise en charge du mode incognito pour les sessions privées isolées.</li>
+          <li xml:lang="de">Unterstützung des Inkognito-Modus für isolierte private Sitzungen.</li>
+          <li xml:lang="it">Supporto per la modalità in incognito per sessioni private isolate.</li>
+          <li xml:lang="pt">Suporte para modo de navegação anônima para sessões privadas isoladas.</li>
+          <li xml:lang="ro">Suport pentru modul incognito pentru sesiuni private izolate.</li>
+          <li xml:lang="ru">Поддержка режима инкогнито для изолированных приватных сессий.</li>
+
+          <li>Enhanced browser flags help dialog with key parameters guide.</li>
+          <li xml:lang="es">Diálogo de ayuda de parámetros de navegador mejorado con guía de parámetros clave.</li>
+          <li xml:lang="fr">Dialogue d'aide aux paramètres du navigateur amélioré avec guide des paramètres clés.</li>
+          <li xml:lang="de">Verbesserter Hilfe-Dialog für Browser-Parameter mit Leitfaden für Schlüsselparameter.</li>
+          <li xml:lang="it">Finestra di aiuto ai parametri del browser migliorata con guida ai parametri chiave.</li>
+          <li xml:lang="pt">Diálogo de ajuda de parâmetros de navegador aprimorado com guia de parâmetros principais.</li>
+          <li xml:lang="ro">Dialog de ajutor pentru parametrii browserului îmbunătățit cu ghid de parametri cheie.</li>
+          <li xml:lang="ru">Улучшенный диалог справки по параметрам браузера с руководством по ключевым параметрам.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.0" date="2026-03-04">
+      <description>
+        <p>Initial release with advanced management features.</p>
+        <p xml:lang="es">Lanzamiento inicial con funciones de gestión avanzadas.</p>
+        <p xml:lang="fr">Sortie initiale avec des fonctions de gestion avancées.</p>
+        <p xml:lang="de">Erste Veröffentlichung mit erweiterten Verwaltungsfunktionen.</p>
+        <p xml:lang="it">Versione iniziale con funzioni di gestione avanzate.</p>
+        <p xml:lang="pt">Lançamento inicial com recursos avançados de gerenciamento.</p>
+        <p xml:lang="ru">Первый выпуск с расширенными функциями управления.</p>
+        <p xml:lang="ro">Lansare inițială cu funcții de gestionare avansate.</p>
+        <ul>
+          <li>Full WebApp editing (Name, URL, Icon, Browser, and Navbar).</li>
+          <li xml:lang="es">Edición completa de WebApps (Nombre, URL, Icono, Navegador y Barra).</li>
+          <li xml:lang="fr">Édition complète des WebApps (Nom, URL, Icône, Navigateur et Barre).</li>
+          <li xml:lang="de">Vollständige WebApp-Bearbeitung (Name, URL, Symbol, Browser und Leiste).</li>
+          <li xml:lang="it">Modifica completa delle WebApp (Nome, URL, Icona, Browser e Barra).</li>
+          <li xml:lang="pt">Edição completa de WebApps (Nome, URL, Ícone, Navegador e Barra).</li>
+          <li xml:lang="ru">Полное редактирование веб-приложений (имя, URL, значок, браузер и панель).</li>
+          <li xml:lang="ro">Editare completă a aplicațiilor Web (Nume, URL, Pictogramă, Browser și Bară).</li>
+
+          <li>Extra browser parameters support (e.g. --start-maximized, --kiosk).</li>
+          <li xml:lang="es">Soporte para parámetros extra del navegador (ej. --start-maximized, --kiosk).</li>
+          <li xml:lang="fr">Paramètres supplémentaires du navigateur (ex. --start-maximized, --kiosk).</li>
+          <li xml:lang="de">Zusätzliche Browser-Parameter (z.B. --start-maximized, --kiosk).</li>
+          <li xml:lang="it">Supporto per parametri aggiuntivi del browser (es. --start-maximized, --kiosk).</li>
+          <li xml:lang="pt">Suporte para parâmetros extras do navegador (ex. --start-maximized, --kiosk).</li>
+          <li xml:lang="ru">Поддержка дополнительных параметров браузера (напр. --start-maximized, --kiosk).</li>
+          <li xml:lang="ro">Suport pentru parametri suplimentari ai browserului (de ex. --start-maximized, --kiosk).</li>
+
+          <li>KDE Plasma 6 Wayland and XFCE icon mapping fixes.</li>
+          <li xml:lang="es">Correcciones de mapeo de iconos para KDE Plasma 6 Wayland y XFCE.</li>
+          <li xml:lang="fr">Corrections du mappage des icônes pour KDE Plasma 6 Wayland et XFCE.</li>
+          <li xml:lang="de">Fehlerbehebungen bei der Symbol-Zuordnung für KDE Plasma 6 Wayland und XFCE.</li>
+          <li xml:lang="it">Correzioni della mappatura delle icone per KDE Plasma 6 Wayland e XFCE.</li>
+          <li xml:lang="pt">Correções de mapeamento de ícones para KDE Plasma 6 Wayland e XFCE.</li>
+          <li xml:lang="ru">Исправления сопоставления значков для KDE Plasma 6 Wayland и XFCE.</li>
+          <li xml:lang="ro">Corecții de mapare a pictogramelor pentru KDE Plasma 6 Wayland și XFCE.</li>
+
+          <li>Auto favicon loading and GTK3 native integration.</li>
+          <li xml:lang="es">Carga automática de favicons e integración nativa con GTK3.</li>
+          <li xml:lang="fr">Chargement automatique des favicons et intégration native GTK3.</li>
+          <li xml:lang="de">Automatisches Laden von Favicons und native GTK3-Integration.</li>
+          <li xml:lang="it">Caricamento automatico delle favicon e integrazione nativa GTK3.</li>
+          <li xml:lang="pt">Carregamento automático de favicons e integração nativa GTK3.</li>
+          <li xml:lang="ru">Автоматическая загрузка фавиконов и нативная интеграция с GTK3.</li>
+          <li xml:lang="ro">Încărcarea automată a faviconurilor și integrarea nativă GTK3.</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

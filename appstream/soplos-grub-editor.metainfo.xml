@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.soplos.grubeditor</id>
+  <pkgname>soplos-grub-editor</pkgname>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <project_group>org.soploslinux</project_group>
+  
+  <name>Soplos GRUB Editor</name>
+  <name xml:lang="es">Editor GRUB de Soplos</name>
+  <name xml:lang="fr">Éditeur GRUB Soplos</name>
+  <name xml:lang="pt">Editor GRUB Soplos</name>
+  <name xml:lang="de">Soplos GRUB Editor</name>
+  <name xml:lang="it">Editor GRUB Soplos</name>
+  <name xml:lang="ru">Редактор GRUB Soplos</name>
+  <name xml:lang="ro">Editor GRUB Soplos</name>
+
+  <summary>Advanced GRUB configuration editor with complete internationalization</summary>
+  <summary xml:lang="es">Editor avanzado de configuración GRUB con internacionalización completa</summary>
+  <summary xml:lang="fr">Éditeur de configuration GRUB avancé avec internationalisation complète</summary>
+  <summary xml:lang="pt">Editor avançado de configuração GRUB com internacionalização completa</summary>
+  <summary xml:lang="de">Erweiterte GRUB-Konfigurationseditor mit vollständiger Internationalisierung</summary>
+  <summary xml:lang="it">Editor avanzato di configurazione GRUB con internazionalizzazione completa</summary>
+  <summary xml:lang="ru">Расширенный редактор конфигурации GRUB с полной интернационализацией</summary>
+  <summary xml:lang="ro">Editor avansat de configurare GRUB cu internaționalizare completă</summary>
+
+  <description>
+    <p>
+      Soplos GRUB Editor is a comprehensive graphical tool for configuring and customizing the GRUB2 bootloader. 
+      With complete internationalization support for 8 languages, it provides an intuitive interface for managing 
+      boot settings, themes, fonts, and custom entries.
+    </p>
+    <p xml:lang="es">
+      Soplos GRUB Editor es una herramienta gráfica integral para configurar y personalizar el gestor de arranque GRUB2. 
+      Con soporte completo de internacionalización para 8 idiomas, proporciona una interfaz intuitiva para gestionar 
+      configuraciones de arranque, temas, fuentes y entradas personalizadas.
+    </p>
+    <p xml:lang="fr">
+      Soplos GRUB Editor est un outil graphique complet pour configurer et personnaliser le chargeur de démarrage GRUB2. 
+      Avec un support complet d'internationalisation pour 8 langues, il fournit une interface intuitive pour gérer 
+      les paramètres de démarrage, les thèmes, les polices et les entrées personnalisées.
+    </p>
+    <p xml:lang="pt">
+      Soplos GRUB Editor é uma ferramenta gráfica abrangente para configurar e personalizar o gerenciador de inicialização GRUB2. 
+      Com suporte completo de internacionalização para 8 idiomas, fornece uma interface intuitiva para gerenciar 
+      configurações de inicialização, temas, fontes e entradas personalizadas.
+    </p>
+    <p xml:lang="de">
+      Soplos GRUB Editor ist ein umfassendes grafisches Tool zur Konfiguration und Anpassung des GRUB2-Bootloaders. 
+      Mit vollständiger Internationalisierungsunterstützung für 8 Sprachen bietet es eine intuitive Benutzeroberfläche 
+      zur Verwaltung von Boot-Einstellungen, Themes, Schriftarten und benutzerdefinierten Einträgen.
+    </p>
+    <p xml:lang="it">
+      Soplos GRUB Editor è uno strumento grafico completo per configurare e personalizzare il bootloader GRUB2. 
+      Con supporto completo per l'internazionalizzazione in 8 lingue, fornisce un'interfaccia intuitiva per gestire 
+      impostazioni di avvio, temi, font ed entrate personalizzate.
+    </p>
+    <p xml:lang="ru">
+      Soplos GRUB Editor - это комплексный графический инструмент для настройки и персонализации загрузчика GRUB2. 
+      С полной поддержкой интернационализации для 8 языков, он предоставляет интуитивный интерфейс для управления 
+      настройками загрузки, темами, шрифтами и пользовательскими записями.
+    </p>
+    <p xml:lang="ro">
+      Soplos GRUB Editor este un instrument grafic cuprinzător pentru configurarea și personalizarea încărcătorului de sistem GRUB2. 
+      Cu suport complet de internaționalizare pentru 8 limbi, oferă o interfață intuitivă pentru gestionarea 
+      setărilor de pornire, temelor, fonturilor și intrărilor personalizate.
+    </p>
+
+    <p>Key Features:</p>
+    <ul>
+      <li>Complete internationalization - 8 languages supported</li>
+      <li>Intuitive GTK3 interface with keyboard shortcuts</li>
+      <li>Theme management and installation</li>
+      <li>Custom font conversion and application</li>
+      <li>Background image configuration</li>
+      <li>Custom boot entry management</li>
+      <li>Advanced kernel parameter configuration</li>
+      <li>Automatic backup and restore functionality</li>
+      <li>Safe update-grub integration</li>
+      <li>Multi-OS detection support</li>
+    </ul>
+  </description>
+
+  <categories>
+    <category>System</category>
+    <category>Settings</category>
+    <category>Utility</category>
+  </categories>
+
+  <requires>
+    <display_length compare="ge">800</display_length>
+    <internet>offline-only</internet>
+    <memory compare="ge">256</memory>
+  </requires>
+
+  <keywords>
+    <keyword>grub</keyword>
+    <keyword>bootloader</keyword>
+    <keyword>boot</keyword>
+    <keyword>system</keyword>
+    <keyword>configure</keyword>
+    <keyword>settings</keyword>
+    <keyword>customize</keyword>
+    <keyword>theme</keyword>
+    <keyword>soplos</keyword>
+    <keyword xml:lang="es">arranque</keyword>
+    <keyword xml:lang="es">configurar</keyword>
+    <keyword xml:lang="es">tema</keyword>
+    <keyword xml:lang="fr">démarrage</keyword>
+    <keyword xml:lang="fr">configurer</keyword>
+    <keyword xml:lang="fr">thème</keyword>
+    <keyword xml:lang="pt">inicialização</keyword>
+    <keyword xml:lang="pt">configurar</keyword>
+    <keyword xml:lang="pt">tema</keyword>
+    <keyword xml:lang="de">start</keyword>
+    <keyword xml:lang="de">konfiguration</keyword>
+    <keyword xml:lang="de">thema</keyword>
+    <keyword xml:lang="it">avvio</keyword>
+    <keyword xml:lang="it">configurare</keyword>
+    <keyword xml:lang="it">tema</keyword>
+    <keyword xml:lang="ru">загрузка</keyword>
+    <keyword xml:lang="ru">настройка</keyword>
+    <keyword xml:lang="ru">тема</keyword>
+    <keyword xml:lang="ro">pornire</keyword>
+    <keyword xml:lang="ro">configurare</keyword>
+    <keyword xml:lang="ro">temă</keyword>
+  </keywords>
+
+  <translation type="gettext">
+    <locale>es</locale>
+    <locale>en</locale>
+    <locale>fr</locale>
+    <locale>pt</locale>
+    <locale>de</locale>
+    <locale>it</locale>
+    <locale>ru</locale>
+    <locale>ro</locale>
+  </translation>
+
+  <launchable type="desktop-id">org.soplos.grubeditor.desktop</launchable>
+
+  <icon type="stock">org.soplos.grubeditor</icon>
+  <icon type="remote" width="128" height="128">
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/icons/org.soplos.grubeditor.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>General configuration</caption>
+      <caption xml:lang="es">Configuración general</caption>
+      <caption xml:lang="fr">Configuration générale</caption>
+      <caption xml:lang="pt">Configuração geral</caption>
+      <caption xml:lang="de">Allgemeine Konfiguration</caption>
+      <caption xml:lang="it">Configurazione generale</caption>
+      <caption xml:lang="ru">Общая конфигурация</caption>
+      <caption xml:lang="ro">Configurare generală</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/screenshots/screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Boot entries</caption>
+      <caption xml:lang="es">Entradas de arranque</caption>
+      <caption xml:lang="fr">Entrées de démarrage</caption>
+      <caption xml:lang="pt">Entradas de inicialização</caption>
+      <caption xml:lang="de">Boot-Einträge</caption>
+      <caption xml:lang="it">Voci di avvio</caption>
+      <caption xml:lang="ru">Записи загрузки</caption>
+      <caption xml:lang="ro">Intrări de pornire</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/screenshots/screenshot2.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Theme, background and color selector</caption>
+      <caption xml:lang="es">Selector de temas, fondos y colores</caption>
+      <caption xml:lang="fr">Sélecteur de thèmes, arrière-plans et couleurs</caption>
+      <caption xml:lang="pt">Seletor de temas, fundos e cores</caption>
+      <caption xml:lang="de">Themen-, Hintergrund- und Farbauswahl</caption>
+      <caption xml:lang="it">Selettore di temi, sfondi e colori</caption>
+      <caption xml:lang="ru">Селектор тем, фонов и цветов</caption>
+      <caption xml:lang="ro">Selector de teme, fundaluri și culori</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/screenshots/screenshot3.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Typographic font converter</caption>
+      <caption xml:lang="es">Conversor de fuentes tipográficas</caption>
+      <caption xml:lang="fr">Convertisseur de polices typographiques</caption>
+      <caption xml:lang="pt">Conversor de fontes tipográficas</caption>
+      <caption xml:lang="de">Typografische Schriftarten-Konverter</caption>
+      <caption xml:lang="it">Convertitore di caratteri tipografici</caption>
+      <caption xml:lang="ru">Конвертер типографических шрифтов</caption>
+      <caption xml:lang="ro">Convertor de fonturi tipografice</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-grub-editor/screenshots/screenshot4.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-grub-editor/issues</url>
+  <url type="donation">https://paypal.me/isubdes</url>
+  <url type="contact">https://forums.soplos.org</url>
+  <url type="vcs-browser">https://github.com/SoplosLinux/tyron</url>
+
+  <developer id="org.soploslinux">
+    <name>Sergi Perich</name>
+    <name xml:lang="en">Sergi Perich</name>
+    <name xml:lang="es">Sergi Perich</name>
+    <name xml:lang="fr">Sergi Perich</name>
+    <name xml:lang="pt">Sergi Perich</name>
+    <name xml:lang="de">Sergi Perich</name>
+    <name xml:lang="it">Sergi Perich</name>
+    <name xml:lang="ru">Серги Перич</name>
+    <name xml:lang="ro">Sergi Perich</name>
+    <url type="homepage">https://soplos.org</url>
+  </developer>
+
+  <provides>
+    <binary>soplos-grub-editor</binary>
+    <size type="download">1203488</size>
+    <size type="installed">1631961</size>
+  </provides>
+
+  <releases>
+    <release version="2.0.2-8" date="2026-08-01">
+      <description>
+        <p xml:lang="en">New "Default Boot Mode" selector lets you choose between a fixed entry, the last installed kernel or the last booted kernel. Applying changes in General settings no longer pins the boot entry to the current kernel, which prevented newly installed kernels from ever being booted.</p>
+        <p xml:lang="es">El nuevo selector "Modo de arranque predeterminado" permite elegir entre una entrada fija, el último kernel instalado o el último kernel arrancado. Aplicar cambios en la configuración general ya no fija la entrada de arranque al kernel actual, lo que impedía que se arrancara nunca un kernel recién instalado.</p>
+        <p xml:lang="fr">Le nouveau sélecteur « Mode de démarrage par défaut » permet de choisir entre une entrée fixe, le dernier noyau installé ou le dernier noyau démarré. L'application des modifications dans les paramètres généraux ne fige plus l'entrée de démarrage sur le noyau actuel, ce qui empêchait tout noyau nouvellement installé d'être démarré.</p>
+        <p xml:lang="pt">O novo seletor "Modo de Arranque Padrão" permite escolher entre uma entrada fixa, o último kernel instalado ou o último kernel arrancado. Aplicar alterações nas definições gerais já não fixa a entrada de arranque no kernel atual, o que impedia que um kernel recém-instalado fosse arrancado.</p>
+        <p xml:lang="de">Die neue Auswahl „Standard-Boot-Modus“ erlaubt die Wahl zwischen einem festen Eintrag, dem zuletzt installierten Kernel oder dem zuletzt gestarteten Kernel. Das Anwenden von Änderungen in den allgemeinen Einstellungen legt den Boot-Eintrag nicht mehr auf den aktuellen Kernel fest, wodurch ein neu installierter Kernel nie gestartet wurde.</p>
+        <p xml:lang="it">Il nuovo selettore "Modalità di avvio predefinita" permette di scegliere tra una voce fissa, l'ultimo kernel installato o l'ultimo kernel avviato. Applicare le modifiche nelle impostazioni generali non fissa più la voce di avvio sul kernel attuale, il che impediva l'avvio di qualsiasi kernel appena installato.</p>
+        <p xml:lang="ru">Новый селектор «Режим загрузки по умолчанию» позволяет выбрать фиксированную запись, последнее установленное ядро или последнее загруженное ядро. Применение изменений в общих настройках больше не закрепляет загрузочную запись за текущим ядром, из-за чего только что установленное ядро никогда не загружалось.</p>
+        <p xml:lang="ro">Noul selector „Mod de boot implicit” permite alegerea între o intrare fixă, ultimul kernel instalat sau ultimul kernel pornit. Aplicarea modificărilor în setările generale nu mai fixează intrarea de pornire pe kernelul curent, ceea ce împiedica pornirea oricărui kernel nou instalat.</p>
+      </description>
+    </release>
+    <release version="2.0.2-7" date="2026-07-29">
+      <description>
+        <p xml:lang="en">Screen resolution is no longer saved using its translated label, custom boot entries can now be enabled, disabled and deleted, and the launcher wrapper registers the window under the same identifier as the desktop file.</p>
+        <p xml:lang="es">La resolución de pantalla ya no se guarda con su etiqueta traducida, las entradas de arranque personalizadas ahora se pueden activar, desactivar y eliminar, y el lanzador registra la ventana con el mismo identificador que el archivo de escritorio.</p>
+        <p xml:lang="fr">La résolution d'écran n'est plus enregistrée avec son libellé traduit, les entrées de démarrage personnalisées peuvent maintenant être activées, désactivées et supprimées, et le lanceur enregistre la fenêtre sous le même identifiant que le fichier de bureau.</p>
+        <p xml:lang="pt">A resolução de ecrã já não é guardada com o seu rótulo traduzido, as entradas de arranque personalizadas podem agora ser ativadas, desativadas e eliminadas, e o lançador regista a janela com o mesmo identificador do ficheiro de ambiente de trabalho.</p>
+        <p xml:lang="de">Die Bildschirmauflösung wird nicht mehr mit ihrer übersetzten Bezeichnung gespeichert, benutzerdefinierte Boot-Einträge können jetzt aktiviert, deaktiviert und gelöscht werden, und der Starter registriert das Fenster unter derselben Kennung wie die Desktop-Datei.</p>
+        <p xml:lang="it">La risoluzione dello schermo non viene più salvata con la sua etichetta tradotta, le voci di avvio personalizzate ora possono essere attivate, disattivate ed eliminate, e il lanciatore registra la finestra con lo stesso identificatore del file desktop.</p>
+        <p xml:lang="ru">Разрешение экрана больше не сохраняется с переведённой подписью, пользовательские загрузочные записи теперь можно включать, отключать и удалять, а лаунчер регистрирует окно с тем же идентификатором, что и файл рабочего стола.</p>
+        <p xml:lang="ro">Rezoluția ecranului nu mai este salvată cu eticheta sa tradusă, intrările de pornire personalizate pot fi acum activate, dezactivate și șterse, iar lansatorul înregistrează fereastra cu același identificator ca fișierul desktop.</p>
+      </description>
+    </release>
+    <release version="2.0.2-6" date="2026-07-23">
+      <description>
+        <p xml:lang="en">Boot Entries tab now works for real: memtest entries can be disabled or removed, custom entries can be added, and duplicate/mislabeled entries were fixed.</p>
+        <p xml:lang="es">La pestaña de Entradas de arranque ahora funciona de verdad: las entradas de memtest se pueden desactivar o eliminar, se pueden añadir entradas personalizadas, y se corrigieron entradas duplicadas o mal etiquetadas.</p>
+        <p xml:lang="fr">L'onglet Entrées de démarrage fonctionne enfin réellement : les entrées memtest peuvent être désactivées ou supprimées, des entrées personnalisées peuvent être ajoutées, et les entrées dupliquées ou mal étiquetées ont été corrigées.</p>
+        <p xml:lang="pt">A aba Entradas de arranque agora funciona de verdade: as entradas de memtest podem ser desativadas ou removidas, entradas personalizadas podem ser adicionadas, e entradas duplicadas ou mal rotuladas foram corrigidas.</p>
+        <p xml:lang="de">Der Tab „Boot-Einträge" funktioniert jetzt wirklich: Memtest-Einträge können deaktiviert oder entfernt werden, benutzerdefinierte Einträge können hinzugefügt werden, und doppelte oder falsch beschriftete Einträge wurden behoben.</p>
+        <p xml:lang="it">La scheda Voci di avvio ora funziona davvero: le voci memtest possono essere disattivate o rimosse, si possono aggiungere voci personalizzate, e sono state corrette voci duplicate o etichettate male.</p>
+        <p xml:lang="ru">Вкладка загрузочных записей теперь действительно работает: записи memtest можно отключать или удалять, можно добавлять пользовательские записи, исправлены дублирующиеся или неверно подписанные записи.</p>
+        <p xml:lang="ro">Fila Intrări de pornire funcționează acum cu adevărat: intrările memtest pot fi dezactivate sau eliminate, se pot adăuga intrări personalizate, iar intrările duplicate sau etichetate greșit au fost corectate.</p>
+      </description>
+    </release>
+    <release version="2.0.2-5" date="2026-07-07">
+      <description>
+        <p xml:lang="en">Build dependency python3-all replaced with python3.</p>
+        <p xml:lang="es">Se ha sustituido la dependencia de compilación python3-all por python3.</p>
+        <p xml:lang="fr">La dépendance de compilation python3-all a été remplacée par python3.</p>
+        <p xml:lang="pt">A dependência de compilação python3-all foi substituída por python3.</p>
+        <p xml:lang="de">Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.</p>
+        <p xml:lang="it">La dipendenza di compilazione python3-all è stata sostituita con python3.</p>
+        <p xml:lang="ru">Зависимость сборки python3-all заменена на python3.</p>
+        <p xml:lang="ro">Dependența de compilare python3-all a fost înlocuită cu python3.</p>
+      </description>
+    </release>
+    <release version="2.0.2-4" date="2026-05-22">
+      <description>
+        <p xml:lang="en">Aligned Tyson legacy 1.x release timeline to correct July 2025 timestamps and cleaned up obsolete metadata tags in metainfo.xml.</p>
+        <p xml:lang="es">Se ha alineado el cronograma de la rama legacy Tyson 1.x a las fechas correctas de julio de 2025 y se han eliminado elementos obsoletos de metainfo.xml.</p>
+        <p xml:lang="fr">Alignement de la chronologie des versions Tyson legacy 1.x sur les horodatages corrects de juillet 2025 et nettoyage des balises de métadonnées obsolètes dans metainfo.xml.</p>
+        <p xml:lang="pt">Alinhamento do cronograma de lançamento legacy Tyson 1.x para corrigir datas de julho de 2025 e limpeza de tags metainfo obsoletas em metainfo.xml.</p>
+        <p xml:lang="de">Tyson Legacy 1.x Veröffentlichungs-Zeitachse an korrekte Juli 2025 Zeitstempel angepasst und veraltete Metadaten-Tags in metainfo.xml bereinigt.</p>
+        <p xml:lang="it">Allineata la cronologia di rilascio legacy Tyson 1.x alle date corrette di luglio 2025 e ripuliti i tag di metadati obsoleti in metainfo.xml.</p>
+        <p xml:lang="ru">Выровнена временная шкала релизов Tyson legacy 1.x до правильных меток июля 2025 года и очищены устаревшие теги метаданных в metainfo.xml.</p>
+        <p xml:lang="ro">S-a aliniat cronologia de lansare legacy Tyson 1.x la marcajele temporale corecte din iulie 2025 și s-au curățat etichetele de metadate învechite în metainfo.xml.</p>
+      </description>
+    </release>
+    <release version="2.0.2-3" date="2026-05-18">
+      <description>
+        <p>Historical correction of Tyron legacy versioning: the August 2025 package mislabelled as 1.0.4 is now correctly documented as 1.0.9; the original Tyron 1.0.4 from May 2025 has been restored to the changelog.</p>
+        <p xml:lang="en">Historical correction of Tyron legacy versioning: the August 2025 package mislabelled as 1.0.4 is now correctly documented as 1.0.9; the original Tyron 1.0.4 from May 2025 has been restored to the changelog.</p>
+        <p xml:lang="es">Corrección histórica del versionado legacy de Tyron: el paquete de agosto 2025 etiquetado incorrectamente como 1.0.4 queda documentado como 1.0.9; la 1.0.4 original de mayo 2025 ha sido restaurada en el changelog.</p>
+        <p xml:lang="fr">Correction historique du versionnage legacy de Tyron : le paquet d'août 2025 mal étiqueté 1.0.4 est maintenant correctement documenté comme 1.0.9 ; le 1.0.4 original de mai 2025 a été restauré dans le changelog.</p>
+        <p xml:lang="pt">Correção histórica do versionamento legacy do Tyron: o pacote de agosto 2025 erroneamente etiquetado como 1.0.4 está agora corretamente documentado como 1.0.9; o 1.0.4 original de maio 2025 foi restaurado no changelog.</p>
+        <p xml:lang="de">Historische Korrektur der Legacy-Versionierung von Tyron: Das August-2025-Paket, das fälschlicherweise als 1.0.4 gekennzeichnet war, ist nun korrekt als 1.0.9 dokumentiert; das ursprüngliche Tyron 1.0.4 vom Mai 2025 wurde im Changelog wiederhergestellt.</p>
+        <p xml:lang="it">Correzione storica del versioning legacy di Tyron: il pacchetto di agosto 2025 etichettato erroneamente come 1.0.4 è ora correttamente documentato come 1.0.9; il 1.0.4 originale di maggio 2025 è stato ripristinato nel changelog.</p>
+        <p xml:lang="ru">Историческая коррекция устаревшей нумерации версий Tyron: пакет августа 2025 года, ошибочно обозначенный как 1.0.4, теперь правильно задокументирован как 1.0.9; оригинальная версия 1.0.4 от мая 2025 года восстановлена в changelog.</p>
+        <p xml:lang="ro">Corecție istorică a versionării legacy Tyron: pachetul din august 2025 etichetat greșit ca 1.0.4 este acum documentat corect ca 1.0.9; versiunea originală 1.0.4 din mai 2025 a fost restaurată în changelog.</p>
+      </description>
+    </release>
+    <release version="2.0.2-2" date="2026-04-30">
+      <description>
+        <p>Simplified the footer UI text to match the modern Soplos standard layout.</p>
+        <p xml:lang="en">Simplified the footer UI text to match the modern Soplos standard layout.</p>
+        <p xml:lang="es">Se ha simplificado el texto de la barra de estado para coincidir con el diseño estándar de Soplos.</p>
+        <p xml:lang="fr">Le texte de la barre d'état a été simplifié pour correspondre à la disposition standard moderne de Soplos.</p>
+        <p xml:lang="pt">O texto da barra de status foi simplificado para corresponder ao layout padrão moderno do Soplos.</p>
+        <p xml:lang="de">Der Text der Statusleiste wurde vereinfacht, um dem modernen Soplos-Standardlayout zu entsprechen.</p>
+        <p xml:lang="it">Il testo della barra di stato è stato semplificato per corrispondere al layout standard moderno di Soplos.</p>
+        <p xml:lang="ru">Текст строки состояния был упрощен, чтобы соответствовать современному стандартному макету Soplos.</p>
+        <p xml:lang="ro">Textul barei de stare a fost simplificat pentru a se potrivi cu aspectul standard modern Soplos.</p>
+      </description>
+    </release>
+    <release version="2.0.2-1" date="2026-03-21">
+      <description>
+        <p>About dialog, F1 shortcut, CSS architecture refactor, icon renaming and minor fixes.</p>
+        <p xml:lang="es">Diálogo Acerca de, atajo F1, refactorización CSS, renombrado de iconos y correcciones menores.</p>
+        <p xml:lang="fr">Dialogue À propos, raccourci F1, refactorisation CSS, renommage des icônes et corrections mineures.</p>
+        <p xml:lang="pt">Diálogo Sobre, atalho F1, refatoração CSS, renomeação de ícones e pequenas correções.</p>
+        <p xml:lang="de">Über-Dialog, F1-Tastenkürzel, CSS-Refactoring, Umbenennung von Icons und kleinere Korrekturen.</p>
+        <p xml:lang="it">Finestra di dialogo Informazioni, scorciatoia F1, refactoring CSS, rinominazione icone e correzioni minori.</p>
+        <p xml:lang="ru">Диалог «О программе», горячая клавиша F1, рефакторинг CSS, переименование иконок и незначительные исправления.</p>
+        <p xml:lang="ro">Dialog Despre, scurtătură F1, refactorizare CSS, redenumire icoane și corecții minore.</p>
+        <ul>
+          <li>F1 shortcut and GNOME menu About action open the About dialog</li>
+          <li xml:lang="es">El atajo F1 y la acción Acerca de del menú GNOME abren el diálogo Acerca de</li>
+          <li xml:lang="fr">Le raccourci F1 et l'action À propos du menu GNOME ouvrent le dialogue À propos</li>
+          <li xml:lang="pt">O atalho F1 e a ação Sobre do menu GNOME abrem o diálogo Sobre</li>
+          <li xml:lang="de">F1-Tastenkürzel und GNOME-Menü-Aktion „Über" öffnen den Über-Dialog</li>
+          <li xml:lang="it">La scorciatoia F1 e l'azione Informazioni del menu GNOME aprono il dialogo Informazioni</li>
+          <li xml:lang="ru">Горячая клавиша F1 и действие «О программе» в меню GNOME открывают диалог «О программе»</li>
+          <li xml:lang="ro">Scurtătura F1 și acțiunea Despre din meniul GNOME deschid dialogul Despre</li>
+
+          <li>Ctrl+Shift+Tab to navigate to previous tab</li>
+          <li xml:lang="es">Ctrl+Mayús+Tab para navegar a la pestaña anterior</li>
+          <li xml:lang="fr">Ctrl+Maj+Tab pour naviguer vers l'onglet précédent</li>
+          <li xml:lang="pt">Ctrl+Shift+Tab para navegar para a aba anterior</li>
+          <li xml:lang="de">Strg+Umschalt+Tab zum Navigieren zur vorherigen Registerkarte</li>
+          <li xml:lang="it">Ctrl+Maiusc+Tab per navigare alla scheda precedente</li>
+          <li xml:lang="ru">Ctrl+Shift+Tab для перехода к предыдущей вкладке</li>
+          <li xml:lang="ro">Ctrl+Shift+Tab pentru navigarea la tab-ul anterior</li>
+
+          <li>Notebook tab labels no longer appear orange in inactive tabs</li>
+          <li xml:lang="es">Las etiquetas de las pestañas del notebook ya no aparecen en naranja en pestañas inactivas</li>
+          <li xml:lang="fr">Les étiquettes des onglets du notebook n'apparaissent plus en orange dans les onglets inactifs</li>
+          <li xml:lang="pt">Os rótulos das abas do notebook não aparecem mais em laranja nas abas inativas</li>
+          <li xml:lang="de">Notebook-Tab-Labels erscheinen nicht mehr orange in inaktiven Tabs</li>
+          <li xml:lang="it">Le etichette delle schede del notebook non appaiono più arancioni nelle schede inattive</li>
+          <li xml:lang="ru">Метки вкладок notebook больше не отображаются оранжевыми в неактивных вкладках</li>
+          <li xml:lang="ro">Etichetele tab-urilor notebook nu mai apar portocalii în tab-urile inactive</li>
+
+          <li>CSS split into base.css (structural) and dark/light.css (color variables only)</li>
+          <li xml:lang="es">CSS dividido en base.css (estructural) y dark/light.css (solo variables de color)</li>
+          <li xml:lang="fr">CSS divisé en base.css (structurel) et dark/light.css (variables de couleur uniquement)</li>
+          <li xml:lang="pt">CSS dividido em base.css (estrutural) e dark/light.css (apenas variáveis de cor)</li>
+          <li xml:lang="de">CSS aufgeteilt in base.css (strukturell) und dark/light.css (nur Farbvariablen)</li>
+          <li xml:lang="it">CSS diviso in base.css (strutturale) e dark/light.css (solo variabili colore)</li>
+          <li xml:lang="ru">CSS разделён на base.css (структурный) и dark/light.css (только переменные цвета)</li>
+          <li xml:lang="ro">CSS împărțit în base.css (structural) și dark/light.css (doar variabile de culoare)</li>
+
+          <li>Icon files renamed from com.soplos to org.soplos for naming consistency</li>
+          <li xml:lang="es">Archivos de iconos renombrados de com.soplos a org.soplos para coherencia de nomenclatura</li>
+          <li xml:lang="fr">Fichiers d'icônes renommés de com.soplos à org.soplos pour la cohérence des noms</li>
+          <li xml:lang="pt">Arquivos de ícones renomeados de com.soplos para org.soplos para consistência de nomenclatura</li>
+          <li xml:lang="de">Icon-Dateien von com.soplos in org.soplos umbenannt für Namenskonsistenz</li>
+          <li xml:lang="it">File icone rinominati da com.soplos a org.soplos per coerenza di denominazione</li>
+          <li xml:lang="ru">Файлы иконок переименованы с com.soplos на org.soplos для единообразия именования</li>
+          <li xml:lang="ro">Fișierele de icoane redenumite de la com.soplos la org.soplos pentru coerența denumirii</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.0.2" date="2026-03-11">
+      <description>
+        <p>Support for hierarchical submenus, option to enable/disable them (GRUB_DISABLE_SUBMENU), silent update on startup and visual optimizations.</p>
+        <p xml:lang="es">Soporte para submenús jerárquicos, opción para activarlos/desactivarlos (GRUB_DISABLE_SUBMENU), actualización silenciosa al inicio y optimizaciones visuales.</p>
+        <p xml:lang="fr">Support des sous-menus hiérarchiques, option pour les activer/désactiver (GRUB_DISABLE_SUBMENU), mise à jour silencieuse au démarrage et optimisations visuelles.</p>
+        <p xml:lang="pt">Suporte para submenus hierárquicos, opção para ativá-los/desativá-los (GRUB_DISABLE_SUBMENU), atualização silenciosa na inicialização e otimizações visuais.</p>
+        <p xml:lang="de">Unterstützung für hierarchische Untermenüs, Option zum Aktivieren/Deaktivieren (GRUB_DISABLE_SUBMENU), stille Aktualisierung beim Start und visuelle Optimierungen.</p>
+        <p xml:lang="it">Supporto per sottomenu gerarchici, opzione per abilitarli/disabilitarli (GRUB_DISABLE_SUBMENU), aggiornamento silenzioso all'avvio e ottimizzazioni visuali.</p>
+        <p xml:lang="ru">Поддержка иерархических подменю, возможность их включения/отключения (GRUB_DISABLE_SUBMENU), тихое обновление при запуске и визуальные оптимизации.</p>
+        <p xml:lang="ro">Suport pentru submeniuri ierarhice, opțiune pentru activarea/dezactivarea acestora (GRUB_DISABLE_SUBMENU), actualizare silențioasă la pornire și optimizări vizuale.</p>
+        <ul>
+          <li>Full parsing of GRUB submenus</li>
+          <li xml:lang="es">Análisis completo de submenús de GRUB</li>
+          <li xml:lang="fr">Analyse complète des sous-menus GRUB</li>
+          <li xml:lang="pt">Análise completa de submenus do GRUB</li>
+          <li xml:lang="de">Vollständige Analyse von GRUB-Untermenüs</li>
+          <li xml:lang="it">Analisi completa dei sottomenu GRUB</li>
+          <li xml:lang="ru">Полный анализ подменю GRUB</li>
+          <li xml:lang="ro">Analiză completă a submeniurilor GRUB</li>
+
+          <li>Option to enable/disable submenus (GRUB_DISABLE_SUBMENU)</li>
+          <li xml:lang="es">Opción para activar/desactivar submenús (GRUB_DISABLE_SUBMENU)</li>
+          <li xml:lang="fr">Option pour activer/désactiver les sous-menus (GRUB_DISABLE_SUBMENU)</li>
+          <li xml:lang="pt">Opção para ativar/desativar submenus (GRUB_DISABLE_SUBMENU)</li>
+          <li xml:lang="de">Option zum Aktivieren/Deaktivieren von Untermenüs (GRUB_DISABLE_SUBMENU)</li>
+          <li xml:lang="it">Opzione per abilitare/disabilitare i sottomenu (GRUB_DISABLE_SUBMENU)</li>
+          <li xml:lang="ru">Возможность включения/отключения подменю (GRUB_DISABLE_SUBMENU)</li>
+          <li xml:lang="ro">Opțiune pentru activarea/dezactivarea submeniurilor (GRUB_DISABLE_SUBMENU)</li>
+
+          <li>Silent update-grub on application launch</li>
+          <li xml:lang="es">Ejecución silenciosa de update-grub al inicio</li>
+          <li xml:lang="fr">Mise à jour silencieuse de update-grub au démarrage</li>
+          <li xml:lang="pt">Execução silenciosa do update-grub na inicialização</li>
+          <li xml:lang="de">Stille Ausführung von update-grub beim Start</li>
+          <li xml:lang="it">Esecuzione silenziosa di update-grub all'avvio</li>
+          <li xml:lang="ru">Тихое обновление update-grub при запуске</li>
+          <li xml:lang="ro">Actualizare silențioasă update-grub la pornire</li>
+
+          <li>Compact UI for boot entries table</li>
+          <li xml:lang="es">Interfaz compacta para la tabla de entradas de arranque</li>
+          <li xml:lang="fr">Interface compacte pour le tableau des entrées de démarrage</li>
+          <li xml:lang="pt">Interface compacta para a tabela de entradas de inicialização</li>
+          <li xml:lang="de">Kompakte Benutzeroberfläche für die Boot-Eintragstabelle</li>
+          <li xml:lang="it">Interfaccia compatta per la tabella delle voci di avvio</li>
+          <li xml:lang="ru">Компактный интерфейс для таблицы записей загрузки</li>
+          <li xml:lang="ro">Interfață compactă pentru tabelul intrărilor de pornire</li>
+
+          <li>Hierarchical path display in selectors</li>
+          <li xml:lang="es">Visualización de rutas jerárquicas en los selectores</li>
+          <li xml:lang="fr">Affichage des chemins hiérarchiques dans les sélecteurs</li>
+          <li xml:lang="pt">Exibição de caminhos hierárquicos nos seletores</li>
+          <li xml:lang="de">Hierarchische Pfadanzeige in Selektoren</li>
+          <li xml:lang="it">Visualizzazione gerarchica dei percorsi nei selettori</li>
+          <li xml:lang="ru">Иерархическое отображение путей в селекторах</li>
+          <li xml:lang="ro">Afișare ierarhică a căilor în selectoare</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.0.1" date="2026-03-07">
+      <description>
+        <p>Fixes for GRUB boot failures, cache conflicts, and UX improvements for timeout settings.</p>
+        <p xml:lang="es">Correcciones para fallos de arranque de GRUB, conflictos de caché y mejoras de experiencia de usuario para el tiempo de espera (timeout).</p>
+        <p xml:lang="fr">Corrections de pannes de démarrage GRUB, de conflits de cache et améliorations de l'expérience utilisateur pour les paramètres de délai.</p>
+        <p xml:lang="pt">Correções para falhas de inicialização do GRUB, conflitos de cache e melhorias de UX para configurações de tempo limite.</p>
+        <p xml:lang="de">Korrekturen für GRUB-Startfehler, Cache-Konflikte und UX-Verbesserungen für Timeout-Einstellungen.</p>
+        <p xml:lang="it">Correzioni per errori di avvio di GRUB, conflitti di cache e miglioramenti dell'esperienza utente per le impostazioni di timeout.</p>
+        <p xml:lang="ru">Исправления сбоев загрузки GRUB, конфликтов кэша и улучшения UX для настроек времени ожидания.</p>
+        <p xml:lang="ro">Remedieri pentru erorile de pornire GRUB, conflictele cache și îmbunătățiri UX pentru setările timeout.</p>
+        <ul>
+          <li><em>Robust Theme Management</em>: Reliably disables Debian and Soplos script defaults.</li>
+          <li xml:lang="es"><em>Gestión de temas robusta</em>: Desactiva de forma fiable los scripts predeterminados de Debian y Soplos.</li>
+          <li xml:lang="fr"><em>Gestion robuste des thèmes</em>: Désactive de manière fiable les scripts par défaut de Debian et Soplos.</li>
+          <li xml:lang="pt"><em>Gerenciamento robusto de temas</em>: Desativa de forma confiável os padrões de script Debian e Soplos.</li>
+          <li xml:lang="de"><em>Robuste Themenverwaltung</em>: Deaktiviert zuverlässig die Standard-Skripte von Debian und Soplos.</li>
+          <li xml:lang="it"><em>Gestione robusta dei temi</em>: Disabilita in modo affidabile i valori predefiniti degli script Debian e Soplos.</li>
+          <li xml:lang="ru"><em>Надежное управление темами</em>: Надежно отключает скрипты Debian и Soplos по умолчанию.</li>
+          <li xml:lang="ro"><em>Gestionare robustă a temelor</em>: Dezactivează în mod fiabil scripturile implicite Debian și Soplos.</li>
+
+          <li><em>Cache Cleanup</em>: Prevents "invalid argument" crashes deleting stale `.background_cache` files.</li>
+          <li xml:lang="es"><em>Limpieza de caché</em>: Evita cierres por "invalid argument" eliminando archivos `.background_cache` obsoletos.</li>
+          <li xml:lang="fr"><em>Nettoyage du cache</em>: Prévient les plantages "argument invalide" lors de la suppression des fichiers `.background_cache` obsolètes.</li>
+          <li xml:lang="pt"><em>Limpeza de cache</em>: Evita falhas de "argumento inválido" ao excluir arquivos `.background_cache` obsoletos.</li>
+          <li xml:lang="de"><em>Cache-Bereinigung</em>: Verhindert Abstürze durch "ungültiges Argument" beim Löschen veralteter `.background_cache`-Dateien.</li>
+          <li xml:lang="it"><em>Pulizia della cache</em>: Previene i crash "argomento non valido" eliminando i file `.background_cache` obsoleti.</li>
+          <li xml:lang="ru"><em>Очистка кэша</em>: Предотвращает сбои "неверный аргумент" при удалении устаревших файлов `.background_cache`.</li>
+          <li xml:lang="ro"><em>Curățare cache</em>: Previne erorile de tip "argument invalid" la ștergerea fișierelor `.background_cache` vechi.</li>
+
+          <li><em>Smart UI</em>: Auto-disables "Show boot menu" when Timeout is 0.</li>
+          <li xml:lang="es"><em>Interfaz inteligente</em>: Desactiva automáticamente "Mostrar menú de arranque" cuando el tiempo de espera es 0.</li>
+          <li xml:lang="fr"><em>Interface intelligente</em>: Désactive automatiquement "Afficher le menu de démarrage" lorsque le délai est de 0.</li>
+          <li xml:lang="pt"><em>Interface inteligente</em>: Desativa automaticamente "Mostrar menu de inicialização" quando o tempo limite é 0.</li>
+          <li xml:lang="de"><em>Intelligente Benutzeroberfläche</em>: Deaktiviert automatisch "Boot-Menü anzeigen", wenn der Timeout 0 ist.</li>
+          <li xml:lang="it"><em>Interfaccia intelligente</em>: Disabilita automaticamente "Mostra menu di avvio" quando il Timeout è 0.</li>
+          <li xml:lang="ru"><em>Умный интерфейс</em>: Автоматически отключает "Показать меню загрузки", когда таймаут равен 0.</li>
+          <li xml:lang="ro"><em>Interfață inteligentă</em>: Dezactivează automat "Afișare meniu de pornire" când Timeout este 0.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.0.0" date="2026-01-10">
+      <description>
+        <p>Major Release - Complete Rewrite. Complete Internationalization (8 languages). Smart theme detection, GRUB theme manager, new resolutions, refined UI and improved desktop detection.</p>
+        <p xml:lang="es">Versión Mayor - Reescritura Completa. Internacionalización Completa (8 idiomas). Detección inteligente de temas, gestor de temas GRUB, nuevas resoluciones, interfaz refinada y detección de escritorio mejorada.</p>
+        <p xml:lang="en">Major Release - Complete Rewrite. Complete Internationalization (8 languages). Smart theme detection, GRUB theme manager, new resolutions, refined UI and improved desktop detection.</p>
+        <p xml:lang="fr">Version Majeure - Réécriture Complète. Internationalisation Complète (8 langues). Détection intelligente de thème, gestionnaire de thèmes GRUB, nouvelles résolutions, interface raffinée et détection de bureau améliorée.</p>
+        <p xml:lang="pt">Versão Maior - Reescrita Completa. Internacionalização Completa (8 idiomas). Detecção inteligente de temas, gerenciador de temas GRUB, novas resoluções, interface refinada e detecção de desktop aprimorada.</p>
+        <p xml:lang="de">Hauptversion - Komplette Neuschreibung. Vollständige Internationalisierung (8 Sprachen). Intelligente Themenerkennung, GRUB-Themenmanager, neue Auflösungen, verfeinerte Benutzeroberfläche und verbesserte Desktoperkennung.</p>
+        <p xml:lang="it">Versione Principale - Riscrittura Completa. Internazionalizzazione Completa (8 lingue). Rilevamento intelligente del tema, gestore temi GRUB, nuove risoluzioni, interfaccia raffinata e rilevamento desktop migliorato.</p>
+        <p xml:lang="ru">Основная версия - Полная переработка. Полная интернационализация (8 языков). Умное определение темы, менеджер тем GRUB, новые разрешения, улучшенный интерфейс и определение рабочего стола.</p>
+        <p xml:lang="ro">Versiune Majoră - Rescriere Completă. Internaționalizare Completă (8 limbi). Detectare inteligentă a temei, manager de teme GRUB, rezoluții noi, interfață rafinată și detectare desktop îmbunătățită.</p>
+        <ul>
+          <li>Smart light/dark theme detection (GNOME, KDE, XFCE)</li>
+          <li xml:lang="es">Detección inteligente de temas claros/oscuros (GNOME, KDE, XFCE)</li>
+          <li xml:lang="fr">Détection intelligente des thèmes clairs/sombres (GNOME, KDE, XFCE)</li>
+          <li xml:lang="pt">Detecção inteligente de temas claros/escuros (GNOME, KDE, XFCE)</li>
+          <li xml:lang="de">Intelligente Erkennung von hellen/dunklen Themen (GNOME, KDE, XFCE)</li>
+          <li xml:lang="it">Rilevamento intelligente del tema chiaro/scuro (GNOME, KDE, XFCE)</li>
+          <li xml:lang="ru">Интеллектуальное определение светлых/темных тем (GNOME, KDE, XFCE)</li>
+          <li xml:lang="ro">Detectare inteligentă a temelor deschise/întunecate (GNOME, KDE, XFCE)</li>
+
+          <li>Improved desktop &amp; environment detection</li>
+          <li xml:lang="es">Detección mejorada de escritorio y entorno</li>
+          <li xml:lang="fr">Détection améliorée du bureau et de l'environnement</li>
+          <li xml:lang="pt">Detecção aprimorada de desktop e ambiente</li>
+          <li xml:lang="de">Verbesserte Desktop- und Umgebungserkennung</li>
+          <li xml:lang="it">Rilevamento migliorato di desktop e ambiente</li>
+          <li xml:lang="ru">Улучшенное определение рабочего стола и среды</li>
+          <li xml:lang="ro">Detectare îmbunătățită a desktopului și a mediului</li>
+
+          <li>Refined UI layout with compact view</li>
+          <li xml:lang="es">Diseño de interfaz de usuario refinado con vista compacta</li>
+          <li xml:lang="fr">Disposition de l'interface utilisateur raffinée avec vue compacte</li>
+          <li xml:lang="pt">Layout de UI refinado com visualização compacta</li>
+          <li xml:lang="de">Verfeinertes UI-Layout mit kompakter Ansicht</li>
+          <li xml:lang="it">Layout UI raffinato con vista compatta</li>
+          <li xml:lang="ru">Улучшенный макет пользовательского интерфейса с компактным видом</li>
+          <li xml:lang="ro">Aspect UI rafinat cu vizualizare compactă</li>
+
+          <li>GRUB theme installer and remover</li>
+          <li xml:lang="es">Instalador y desinstalador de temas GRUB</li>
+          <li xml:lang="fr">Installateur et désinstallateur de thèmes GRUB</li>
+          <li xml:lang="pt">Instalador e removedor de temas GRUB</li>
+          <li xml:lang="de">GRUB-Themen-Installer und -Entferner</li>
+          <li xml:lang="it">Installatore e rimozione di temi GRUB</li>
+          <li xml:lang="ru">Установщик и удаление тем GRUB</li>
+          <li xml:lang="ro">Instalator și eliminator de teme GRUB</li>
+
+          <li>Expanded resolution support (16:9, 16:10, 4:3, 4K)</li>
+          <li xml:lang="es">Soporte de resolución expandido (16:9, 16:10, 4:3, 4K)</li>
+          <li xml:lang="fr">Prise en charge étendue des résolutions (16:9, 16:10, 4:3, 4K)</li>
+          <li xml:lang="pt">Suporte de resolução expandido (16:9, 16:10, 4:3, 4K)</li>
+          <li xml:lang="de">Erweiterte Auflösungsunterstützung (16:9, 16:10, 4:3, 4K)</li>
+          <li xml:lang="it">Supporto risoluzione esteso (16:9, 16:10, 4:3, 4K)</li>
+          <li xml:lang="ru">Расширенная поддержка разрешений (16:9, 16:10, 4:3, 4K)</li>
+          <li xml:lang="ro">Suport extins pentru rezoluții (16:9, 16:10, 4:3, 4K)</li>
+
+          <li>UUID control option</li>
+          <li xml:lang="es">Opción de control UUID</li>
+          <li xml:lang="fr">Option de contrôle UUID</li>
+          <li xml:lang="pt">Opção de controle UUID</li>
+          <li xml:lang="de">UUID-Kontrolloption</li>
+          <li xml:lang="it">Opzione di controllo UUID</li>
+          <li xml:lang="ru">Опция управления UUID</li>
+          <li xml:lang="ro">Opțiune de control UUID</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+  </content_rating>
+
+</component>

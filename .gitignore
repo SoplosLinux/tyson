@@ -1,0 +1,13 @@
+# Ignorar archivos temporales y de caché de Python
+*.pyc
+__pycache__/
+.DS_Store
+
+# Ignorar bases de datos y temporales de reprepro
+db/
+conf/
+tmp/
+incoming/
+
+# NO ignores archivos binarios, .deb, .gz, .yml, .tar.gz, ni nada dentro de dists/, pool/, appstream/, media/
+# Así aseguras que todos los archivos del repo APT se suben correctamente a GitHub.

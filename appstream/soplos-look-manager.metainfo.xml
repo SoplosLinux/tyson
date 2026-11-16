@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.soplos.lookmanager</id>
+  <pkgname>soplos-look-manager</pkgname>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <project_group>org.soplos</project_group>
+
+  <name>Soplos Look Manager</name>
+
+  <summary>Themes, wallpapers, icons, panels and login screen of Plasma</summary>
+  <summary xml:lang="es">Temas, fondos, iconos, paneles y pantalla de inicio de sesión de Plasma</summary>
+  <summary xml:lang="fr">Thèmes, fonds d'écran, icônes, panneaux et écran de connexion de Plasma</summary>
+  <summary xml:lang="pt">Temas, fundos, ícones, painéis e ecrã de início de sessão do Plasma</summary>
+  <summary xml:lang="de">Themen, Hintergründe, Symbole, Leisten und Anmeldebildschirm von Plasma</summary>
+  <summary xml:lang="it">Temi, sfondi, icone, pannelli e schermata di accesso di Plasma</summary>
+  <summary xml:lang="ru">Темы, обои, значки, панели и экран входа Plasma</summary>
+  <summary xml:lang="ro">Teme, fundaluri, pictograme, panouri și ecranul de autentificare ale Plasma</summary>
+
+  <description>
+    <p>Soplos Look Manager changes how Soplos Linux Tyson looks, from one window: the global theme, the wallpaper, the icons, the cursors, the GTK theme, the panels, the start-up screen and the login screen.</p>
+    <p xml:lang="es">Soplos Look Manager cambia el aspecto de Soplos Linux Tyson desde una sola ventana: el tema global, el fondo, los iconos, los cursores, el tema GTK, los paneles, la pantalla de arranque y la de inicio de sesión.</p>
+    <p xml:lang="fr">Soplos Look Manager change l'apparence de Soplos Linux Tyson depuis une seule fenêtre : le thème global, le fond d'écran, les icônes, les curseurs, le thème GTK, les panneaux, l'écran de démarrage et l'écran de connexion.</p>
+    <p xml:lang="de">Soplos Look Manager ändert das Aussehen von Soplos Linux Tyson in einem einzigen Fenster: das globale Thema, den Hintergrund, die Symbole, die Zeiger, das GTK-Thema, die Leisten, den Startbildschirm und den Anmeldebildschirm.</p>
+    <p xml:lang="pt">O Soplos Look Manager altera o aspeto do Soplos Linux Tyson numa só janela: o tema global, o fundo, os ícones, os cursores, o tema GTK, os painéis, o ecrã de arranque e o de início de sessão.</p>
+    <p xml:lang="it">Soplos Look Manager cambia l'aspetto di Soplos Linux Tyson da un'unica finestra: il tema globale, lo sfondo, le icone, i cursori, il tema GTK, i pannelli, la schermata di avvio e quella di accesso.</p>
+    <p xml:lang="ro">Soplos Look Manager schimbă aspectul Soplos Linux Tyson dintr-o singură fereastră: tema globală, fundalul, pictogramele, cursoarele, tema GTK, panourile, ecranul de pornire și cel de autentificare.</p>
+    <p xml:lang="ru">Soplos Look Manager меняет внешний вид Soplos Linux Tyson из одного окна: глобальную тему, обои, значки, курсоры, тему GTK, панели, экран запуска и экран входа.</p>
+    <ul>
+      <li>Chooses what is already installed, with a preview, and applies it with the tools of Plasma</li>
+      <li xml:lang="es">Elige entre lo que ya está instalado, con vista previa, y lo aplica con las herramientas de Plasma</li>
+      <li xml:lang="fr">Choisit parmi ce qui est déjà installé, avec un aperçu, et l'applique avec les outils de Plasma</li>
+      <li xml:lang="de">Wählt unter dem bereits Installierten aus, mit Vorschau, und wendet es mit den Werkzeugen von Plasma an</li>
+      <li xml:lang="pt">Escolhe entre o que já está instalado, com pré-visualização, e aplica-o com as ferramentas do Plasma</li>
+      <li xml:lang="it">Sceglie tra ciò che è già installato, con anteprima, e lo applica con gli strumenti di Plasma</li>
+      <li xml:lang="ro">Alege dintre ce este deja instalat, cu previzualizare, și aplică cu uneltele Plasma</li>
+      <li xml:lang="ru">Выбирает из уже установленного, с предпросмотром, и применяет средствами Plasma</li>
+      <li>Adds, changes and removes panels</li>
+      <li xml:lang="es">Añade, cambia y elimina paneles</li>
+      <li xml:lang="fr">Ajoute, modifie et supprime des panneaux</li>
+      <li xml:lang="de">Fügt Leisten hinzu, ändert und entfernt sie</li>
+      <li xml:lang="pt">Adiciona, altera e remove painéis</li>
+      <li xml:lang="it">Aggiunge, modifica e rimuove pannelli</li>
+      <li xml:lang="ro">Adaugă, modifică și elimină panouri</li>
+      <li xml:lang="ru">Добавляет, изменяет и удаляет панели</li>
+      <li>Changes the picture of the login screen of Plasma Login Manager</li>
+      <li xml:lang="es">Cambia la imagen de la pantalla de inicio de sesión de Plasma Login Manager</li>
+      <li xml:lang="fr">Change l'image de l'écran de connexion de Plasma Login Manager</li>
+      <li xml:lang="de">Ändert das Bild des Anmeldebildschirms von Plasma Login Manager</li>
+      <li xml:lang="pt">Altera a imagem do ecrã de início de sessão do Plasma Login Manager</li>
+      <li xml:lang="it">Cambia l'immagine della schermata di accesso di Plasma Login Manager</li>
+      <li xml:lang="ro">Schimbă imaginea ecranului de autentificare Plasma Login Manager</li>
+      <li xml:lang="ru">Меняет изображение экрана входа Plasma Login Manager</li>
+      <li>Manages virtual desktops, window behavior and rules, desktop effects, KWin scripts and the task switcher</li>
+      <li xml:lang="es">Gestiona escritorios virtuales, comportamiento y reglas de las ventanas, efectos del escritorio, guiones de KWin y el selector de tareas</li>
+      <li xml:lang="fr">Gère les bureaux virtuels, le comportement et les règles des fenêtres, les effets de bureau, les scripts KWin et le sélecteur de tâches</li>
+      <li xml:lang="de">Verwaltet virtuelle Arbeitsflächen, Fensterverhalten und Fensterregeln, Desktop-Effekte, KWin-Skripte und den Aufgabenumschalter</li>
+      <li xml:lang="pt">Gere áreas de trabalho virtuais, comportamento e regras das janelas, efeitos do ambiente de trabalho, scripts do KWin e o seletor de tarefas</li>
+      <li xml:lang="it">Gestisce desktop virtuali, comportamento e regole delle finestre, effetti del desktop, script di KWin e il selettore delle attività</li>
+      <li xml:lang="ro">Gestionează desktopuri virtuale, comportamentul și regulile ferestrelor, efecte de desktop, scripturi KWin și selectorul de activități</li>
+      <li xml:lang="ru">Управляет виртуальными рабочими столами, поведением и правилами окон, эффектами, скриптами KWin и переключателем задач</li>
+      <li>Installs from the store of KDE or from a file, and removes what is installed</li>
+      <li xml:lang="es">Instala desde la tienda de KDE o desde un archivo, y elimina lo instalado</li>
+      <li xml:lang="fr">Installe depuis la boutique de KDE ou depuis un fichier, et supprime ce qui est installé</li>
+      <li xml:lang="de">Installiert aus dem KDE-Store oder aus einer Datei und entfernt Installiertes</li>
+      <li xml:lang="pt">Instala a partir da loja do KDE ou de um ficheiro, e remove o que está instalado</li>
+      <li xml:lang="it">Installa dallo store di KDE o da un file, e rimuove ciò che è installato</li>
+      <li xml:lang="ro">Instalează din magazinul KDE sau dintr-un fișier și elimină ce este instalat</li>
+      <li xml:lang="ru">Устанавливает из магазина KDE или из файла и удаляет установленное</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">soplos-look-manager.desktop</launchable>
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-look-manager-3.0/issues</url>
+  <developer id="org.soplos">
+    <name>Sergi Perich</name>
+  </developer>
+  <content_rating type="oars-1.1"/>
+  <categories>
+    <category>Settings</category>
+    <category>DesktopSettings</category>
+  </categories>
+  <provides>
+    <binary>soplos-look-manager</binary>
+  </provides>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>The global themes of Plasma, applied with the choice of what to apply</caption>
+      <caption xml:lang="es">Los temas globales de Plasma, aplicados eligiendo qué aplicar</caption>
+      <caption xml:lang="de">Die globalen Designs von Plasma, angewendet mit der Wahl, was angewendet wird</caption>
+      <caption xml:lang="fr">Les thèmes globaux de Plasma, appliqués en choisissant ce qu'il faut appliquer</caption>
+      <caption xml:lang="it">I temi globali di Plasma, applicati scegliendo cosa applicare</caption>
+      <caption xml:lang="pt">Os temas globais do Plasma, aplicados escolhendo o que aplicar</caption>
+      <caption xml:lang="ro">Temele globale ale Plasma, aplicate alegând ce se aplică</caption>
+      <caption xml:lang="ru">Глобальные темы Plasma с выбором того, что применять</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-look-manager-3.0/main/src-tauri/resources/screenshots/screenshot01.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Color schemes, drawn with their colors</caption>
+      <caption xml:lang="es">Esquemas de color, dibujados con sus colores</caption>
+      <caption xml:lang="de">Farbschemata, mit ihren Farben gezeichnet</caption>
+      <caption xml:lang="fr">Les jeux de couleurs, dessinés avec leurs couleurs</caption>
+      <caption xml:lang="it">Schemi di colore, disegnati con i loro colori</caption>
+      <caption xml:lang="pt">Esquemas de cores, desenhados com as suas cores</caption>
+      <caption xml:lang="ro">Scheme de culori, desenate cu culorile lor</caption>
+      <caption xml:lang="ru">Цветовые схемы, нарисованные своими цветами</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-look-manager-3.0/main/src-tauri/resources/screenshots/screenshot02.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>The style of the controls of the applications</caption>
+      <caption xml:lang="es">El estilo de los controles de las aplicaciones</caption>
+      <caption xml:lang="de">Der Stil der Bedienelemente der Anwendungen</caption>
+      <caption xml:lang="fr">Le style des contrôles des applications</caption>
+      <caption xml:lang="it">Lo stile dei controlli delle applicazioni</caption>
+      <caption xml:lang="pt">O estilo dos controlos das aplicações</caption>
+      <caption xml:lang="ro">Stilul controalelor aplicațiilor</caption>
+      <caption xml:lang="ru">Стиль элементов управления приложений</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-look-manager-3.0/main/src-tauri/resources/screenshots/screenshot03.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Plasma style: the themes of the panel and the widgets</caption>
+      <caption xml:lang="es">Estilo de Plasma: los temas del panel y de los elementos gráficos</caption>
+      <caption xml:lang="de">Plasma-Stil: die Designs der Leiste und der Widgets</caption>
+      <caption xml:lang="fr">Style de Plasma : les thèmes du panneau et des composants graphiques</caption>
+      <caption xml:lang="it">Stile di Plasma: i temi del pannello e dei widget</caption>
+      <caption xml:lang="pt">Estilo do Plasma: os temas do painel e dos elementos gráficos</caption>
+      <caption xml:lang="ro">Stilul Plasma: temele panoului și ale widgeturilor</caption>
+      <caption xml:lang="ru">Стиль Plasma: темы панели и виджетов</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-look-manager-3.0/main/src-tauri/resources/screenshots/screenshot04.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Window decorations</caption>
+      <caption xml:lang="es">Decoraciones de las ventanas</caption>
+      <caption xml:lang="de">Fensterdekorationen</caption>
+      <caption xml:lang="fr">Décorations des fenêtres</caption>
+      <caption xml:lang="it">Decorazioni delle finestre</caption>
+      <caption xml:lang="pt">Decorações das janelas</caption>
+      <caption xml:lang="ro">Decorațiunile ferestrelor</caption>
+      <caption xml:lang="ru">Оформление окон</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-look-manager-3.0/main/src-tauri/resources/screenshots/screenshot05.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Icon themes, each with some of its icons</caption>
+      <caption xml:lang="es">Temas de iconos, cada uno con algunos de sus iconos</caption>
+      <caption xml:lang="de">Symboldesigns, jedes mit einigen seiner Symbole</caption>
+      <caption xml:lang="fr">Thèmes d'icônes, chacun avec quelques-unes de ses icônes</caption>
+      <caption xml:lang="it">Temi di icone, ognuno con alcune delle sue icone</caption>
+      <caption xml:lang="pt">Temas de ícones, cada um com alguns dos seus ícones</caption>
+      <caption xml:lang="ro">Teme de pictograme, fiecare cu câteva dintre pictogramele sale</caption>
+      <caption xml:lang="ru">Темы значков, каждая с несколькими своими значками</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-look-manager-3.0/main/src-tauri/resources/screenshots/screenshot06.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Cursor themes, each with some of its cursors</caption>
+      <caption xml:lang="es">Temas de cursores, cada uno con algunos de sus cursores</caption>
+      <caption xml:lang="de">Zeigerdesigns, jedes mit einigen seiner Zeiger</caption>
+      <caption xml:lang="fr">Thèmes de curseurs, chacun avec quelques-uns de ses curseurs</caption>
+      <caption xml:lang="it">Temi di cursori, ognuno con alcuni dei suoi cursori</caption>
+      <caption xml:lang="pt">Temas de cursores, cada um com alguns dos seus cursores</caption>
+      <caption xml:lang="ro">Teme de cursoare, fiecare cu câteva dintre cursoarele sale</caption>
+      <caption xml:lang="ru">Темы курсоров, каждая с несколькими своими курсорами</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-look-manager-3.0/main/src-tauri/resources/screenshots/screenshot07.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>GTK themes, for GTK 3, GTK 4 and libadwaita</caption>
+      <caption xml:lang="es">Temas GTK, para GTK 3, GTK 4 y libadwaita</caption>
+      <caption xml:lang="de">GTK-Designs für GTK 3, GTK 4 und libadwaita</caption>
+      <caption xml:lang="fr">Thèmes GTK, pour GTK 3, GTK 4 et libadwaita</caption>
+      <caption xml:lang="it">Temi GTK, per GTK 3, GTK 4 e libadwaita</caption>
+      <caption xml:lang="pt">Temas GTK, para GTK 3, GTK 4 e libadwaita</caption>
+      <caption xml:lang="ro">Teme GTK, pentru GTK 3, GTK 4 și libadwaita</caption>
+      <caption xml:lang="ru">Темы GTK для GTK 3, GTK 4 и libadwaita</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-look-manager-3.0/main/src-tauri/resources/screenshots/screenshot08.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>System sounds</caption>
+      <caption xml:lang="es">Sonidos del sistema</caption>
+      <caption xml:lang="de">Systemklänge</caption>
+      <caption xml:lang="fr">Sons du système</caption>
+      <caption xml:lang="it">Suoni di sistema</caption>
+      <caption xml:lang="pt">Sons do sistema</caption>
+      <caption xml:lang="ro">Sunetele sistemului</caption>
+      <caption xml:lang="ru">Системные звуки</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-look-manager-3.0/main/src-tauri/resources/screenshots/screenshot09.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>The wallpapers of the system and of the user</caption>
+      <caption xml:lang="es">Los fondos de pantalla del sistema y del usuario</caption>
+      <caption xml:lang="de">Die Hintergrundbilder des Systems und des Benutzers</caption>
+      <caption xml:lang="fr">Les fonds d'écran du système et de l'utilisateur</caption>
+      <caption xml:lang="it">Gli sfondi del sistema e dell'utente</caption>
+      <caption xml:lang="pt">Os fundos de ecrã do sistema e do utilizador</caption>
+      <caption xml:lang="ro">Fundalurile sistemului și ale utilizatorului</caption>
+      <caption xml:lang="ru">Обои системы и пользователя</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-look-manager-3.0/main/src-tauri/resources/screenshots/screenshot10.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Panel layout: the elements of the panel, its position and its size</caption>
+      <caption xml:lang="es">Disposición del panel: los elementos del panel, su posición y su tamaño</caption>
+      <caption xml:lang="de">Leistenanordnung: die Elemente der Leiste, ihre Position und ihre Größe</caption>
+      <caption xml:lang="fr">Disposition du panneau : ses éléments, sa position et sa taille</caption>
+      <caption xml:lang="it">Disposizione del pannello: i suoi elementi, la posizione e la dimensione</caption>
+      <caption xml:lang="pt">Disposição do painel: os seus elementos, a posição e o tamanho</caption>
+      <caption xml:lang="ro">Aranjarea panoului: elementele lui, poziția și dimensiunea</caption>
+      <caption xml:lang="ru">Компоновка панели: её элементы, положение и размер</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-look-manager-3.0/main/src-tauri/resources/screenshots/screenshot11.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Panel layout: length, alignment, look and behavior</caption>
+      <caption xml:lang="es">Disposición del panel: longitud, alineación, aspecto y comportamiento</caption>
+      <caption xml:lang="de">Leistenanordnung: Länge, Ausrichtung, Aussehen und Verhalten</caption>
+      <caption xml:lang="fr">Disposition du panneau : longueur, alignement, apparence et comportement</caption>
+      <caption xml:lang="it">Disposizione del pannello: lunghezza, allineamento, aspetto e comportamento</caption>
+      <caption xml:lang="pt">Disposição do painel: comprimento, alinhamento, aspeto e comportamento</caption>
+      <caption xml:lang="ro">Aranjarea panoului: lungime, aliniere, aspect și comportament</caption>
+      <caption xml:lang="ru">Компоновка панели: длина, выравнивание, вид и поведение</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-look-manager-3.0/main/src-tauri/resources/screenshots/screenshot12.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Window behavior: focus, placement and snapping</caption>
+      <caption xml:lang="es">Comportamiento de las ventanas: foco, colocación y ajuste</caption>
+      <caption xml:lang="de">Fensterverhalten: Fokus, Platzierung und Einrasten</caption>
+      <caption xml:lang="fr">Comportement des fenêtres : focus, placement et magnétisme</caption>
+      <caption xml:lang="it">Comportamento delle finestre: focus, posizionamento e aggancio</caption>
+      <caption xml:lang="pt">Comportamento das janelas: foco, posicionamento e encaixe</caption>
+      <caption xml:lang="ro">Comportamentul ferestrelor: focalizare, plasare și aliniere</caption>
+      <caption xml:lang="ru">Поведение окон: фокус, размещение и привязка</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-look-manager-3.0/main/src-tauri/resources/screenshots/screenshot13.png</image>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="3.0.0" date="2026-11-16">
+      <description>
+        <p>First stable release. Every page was tried on a Plasma desktop, the window behavior and the window rules included, and the program comes with its manual page.</p>
+      </description>
+    </release>
+    <release version="3.0.0-beta" date="2026-11-12">
+      <description>
+        <p>First beta. The Windows group is complete: virtual desktops, window behavior, window rules, desktop effects, KWin scripts and the task switcher. What the pages list can be installed from the store of KDE or from a file, and removed, and the sections of the sidebar fold.</p>
+      </description>
+    </release>
+    <release version="3.0.0-1-alpha" date="2026-11-11">
+      <description>
+        <p>Every wallpaper has its own card with its picture, kept in a small copy so the list scrolls smoothly, and the icon, cursor and GTK themes show what they look like. Applying a global theme asks what to apply, as System Settings does: the appearance, and the layout of the desktop and the panels. The cursor themes that cannot be applied and the GTK themes with no appearance are not offered. The panels have the options of Plasma (alignment, width, offset, opacity) and a dock style, and a new panel can be an empty one. The pages of the Global theme of System Settings that were missing are there: colors, application style, Plasma style, window decorations and sounds. New pages for virtual desktops, desktop effects, KWin scripts and the task switcher, the sections of the sidebar fold, and what is listed can be installed from the store of KDE or from a file, and removed.</p>
+      </description>
+    </release>
+    <release version="3.0.0-alpha" date="2026-11-08">
+      <description>
+        <p>First version. Global themes, wallpapers, icon themes, cursor themes, GTK themes, panels, start-up screen and the login screen of Plasma Login Manager. Not yet tested on a Plasma desktop.</p>
+      </description>
+    </release>
+  </releases>
+</component>

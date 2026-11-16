@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.soplos.msi-keyboard.desktop</id>
+  <pkgname>msi-keyboard-gui</pkgname>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <project_group>com.soploslinux</project_group>
+  
+  <name>MSI Keyboard RGB Controller</name>
+  <name xml:lang="es">Controlador RGB Teclado MSI</name>
+  <name xml:lang="fr">Contrôleur RGB Clavier MSI</name>
+  <name xml:lang="pt">Controlador RGB de Teclado MSI</name>
+  <name xml:lang="de">MSI-Tastatur-RGB-Controller</name>
+  <name xml:lang="it">Controller RGB Tastiera MSI</name>
+  <name xml:lang="ru">Контроллер RGB клавиатуры MSI</name>
+  <name xml:lang="ro">Controler RGB tastatură MSI</name>
+
+  <summary>Configure MSI keyboard RGB lighting</summary>
+  <summary xml:lang="es">Configurar iluminación RGB del teclado MSI</summary>
+  <summary xml:lang="fr">Configurer l'éclairage RGB du clavier MSI</summary>
+  <summary xml:lang="pt">Configurar a iluminação RGB do teclado MSI</summary>
+  <summary xml:lang="de">MSI-Tastatur-RGB-Beleuchtung konfigurieren</summary>
+  <summary xml:lang="it">Configura l'illuminazione RGB della tastiera MSI</summary>
+  <summary xml:lang="ru">Настройка RGB-подсветки клавиатуры MSI</summary>
+  <summary xml:lang="ro">Configurează iluminarea RGB a tastaturii MSI</summary>
+
+  <description>
+    <p>A graphical tool to configure MSI keyboard RGB lighting with zone-based color control, intensity adjustment and multiple lighting modes.</p>
+    <p xml:lang="es">Una herramienta gráfica para configurar la iluminación RGB de teclados MSI con control de colores por zonas, ajuste de intensidad y múltiples modos de iluminación.</p>
+    <p xml:lang="fr">Un outil graphique pour configurer l'éclairage RGB du clavier MSI avec contrôle des couleurs par zone, réglage de l'intensité et plusieurs modes d'éclairage.</p>
+    <p xml:lang="pt">Uma ferramenta gráfica para configurar a iluminação RGB do teclado MSI com controle de cores por zona, ajuste de intensidade e vários modos de iluminação.</p>
+    <p xml:lang="de">Ein grafisches Tool zur Konfiguration der RGB-Beleuchtung der MSI-Tastatur mit zonenbasierter Farbsteuerung, Intensitätsanpassung und mehreren Beleuchtungsmodi.</p>
+    <p xml:lang="it">Uno strumento grafico per configurare l'illuminazione RGB della tastiera MSI con controllo dei colori per zona, regolazione dell'intensità e molteplici modalità di illuminazione.</p>
+    <p xml:lang="ru">Графический инструмент для настройки RGB-подсветки клавиатуры MSI с управлением цветом по зонам, регулировкой интенсивности и несколькими режимами подсветки.</p>
+    <p xml:lang="ro">Un instrument grafic pentru configurarea iluminării RGB a tastaturii MSI cu control pe zone, ajustarea intensității și multiple moduri de iluminare.</p>
+  </description>
+
+  <categories>
+    <category>Settings</category>
+    <category>HardwareSettings</category>
+    <category>System</category>
+  </categories>
+
+  <requires>
+    <id>udev</id>
+    <id>python3</id>
+    <id>python3-pyqt5</id>
+    <id>python3-dbus</id>
+    <id>python3-gi</id>
+    <id>libusb-1.0-0</id>
+  </requires>
+
+  <keywords>
+    <keyword>keyboard</keyword>
+    <keyword xml:lang="en">keyboard</keyword>
+    <keyword>RGB</keyword>
+    <keyword xml:lang="en">RGB</keyword>
+    <keyword>MSI</keyword>
+    <keyword xml:lang="en">MSI</keyword>
+    <keyword>lighting</keyword>
+    <keyword xml:lang="en">lighting</keyword>
+    <keyword>color</keyword>
+    <keyword xml:lang="en">color</keyword>
+    <keyword>backlight</keyword>
+    <keyword xml:lang="en">backlight</keyword>
+    <keyword>zones</keyword>
+    <keyword xml:lang="en">zones</keyword>
+    <keyword>effects</keyword>
+    <keyword xml:lang="en">effects</keyword>
+    <keyword>hardware</keyword>
+    <keyword xml:lang="en">hardware</keyword>
+    <keyword>configuration</keyword>
+    <keyword xml:lang="en">configuration</keyword>
+    <keyword>settings</keyword>
+    <keyword xml:lang="en">settings</keyword>
+    <keyword xml:lang="es">teclado</keyword>
+    <keyword xml:lang="es">iluminación</keyword>
+    <keyword xml:lang="es">color</keyword>
+    <keyword xml:lang="es">retroiluminación</keyword>
+    <keyword xml:lang="es">zonas</keyword>
+    <keyword xml:lang="es">efectos</keyword>
+    <keyword xml:lang="es">hardware</keyword>
+    <keyword xml:lang="es">configuración</keyword>
+    <keyword xml:lang="es">ajustes</keyword>
+    <keyword xml:lang="fr">clavier</keyword>
+    <keyword xml:lang="fr">éclairage</keyword>
+    <keyword xml:lang="fr">couleur</keyword>
+    <keyword xml:lang="fr">rétroéclairage</keyword>
+    <keyword xml:lang="fr">zones</keyword>
+    <keyword xml:lang="fr">effets</keyword>
+    <keyword xml:lang="fr">matériel</keyword>
+    <keyword xml:lang="fr">configuration</keyword>
+    <keyword xml:lang="fr">paramètres</keyword>
+    <keyword xml:lang="pt">teclado</keyword>
+    <keyword xml:lang="pt">iluminação</keyword>
+    <keyword xml:lang="pt">cor</keyword>
+    <keyword xml:lang="pt">retroiluminação</keyword>
+    <keyword xml:lang="pt">zonas</keyword>
+    <keyword xml:lang="pt">efeitos</keyword>
+    <keyword xml:lang="pt">hardware</keyword>
+    <keyword xml:lang="pt">configuração</keyword>
+    <keyword xml:lang="pt">definições</keyword>
+    <keyword xml:lang="de">tastatur</keyword>
+    <keyword xml:lang="de">beleuchtung</keyword>
+    <keyword xml:lang="de">farbe</keyword>
+    <keyword xml:lang="de">hintergrundbeleuchtung</keyword>
+    <keyword xml:lang="de">zonen</keyword>
+    <keyword xml:lang="de">effekte</keyword>
+    <keyword xml:lang="de">hardware</keyword>
+    <keyword xml:lang="de">konfiguration</keyword>
+    <keyword xml:lang="de">einstellungen</keyword>
+    <keyword xml:lang="it">tastiera</keyword>
+    <keyword xml:lang="it">illuminazione</keyword>
+    <keyword xml:lang="it">colore</keyword>
+    <keyword xml:lang="it">retroilluminazione</keyword>
+    <keyword xml:lang="it">zone</keyword>
+    <keyword xml:lang="it">effetti</keyword>
+    <keyword xml:lang="it">hardware</keyword>
+    <keyword xml:lang="it">configurazione</keyword>
+    <keyword xml:lang="it">impostazioni</keyword>
+    <keyword xml:lang="ru">клавиатура</keyword>
+    <keyword xml:lang="ru">подсветка</keyword>
+    <keyword xml:lang="ru">цвет</keyword>
+    <keyword xml:lang="ru">зоны</keyword>
+    <keyword xml:lang="ru">эффекты</keyword>
+    <keyword xml:lang="ru">оборудование</keyword>
+    <keyword xml:lang="ru">настройка</keyword>
+    <keyword xml:lang="ru">параметры</keyword>
+    <keyword xml:lang="ro">tastatură</keyword>
+    <keyword xml:lang="ro">iluminare</keyword>
+    <keyword xml:lang="ro">culoare</keyword>
+    <keyword xml:lang="ro">iluminare de fundal</keyword>
+    <keyword xml:lang="ro">zone</keyword>
+    <keyword xml:lang="ro">efecte</keyword>
+    <keyword xml:lang="ro">hardware</keyword>
+    <keyword xml:lang="ro">configurare</keyword>
+    <keyword xml:lang="ro">setări</keyword>
+  </keywords>
+
+  <translation type="gettext">
+    <locale>es</locale>
+    <locale>en</locale>
+    <locale>fr</locale>
+    <locale>pt</locale>
+    <locale>de</locale>
+    <locale>it</locale>
+    <locale>ru</locale>
+    <locale>ro</locale>
+  </translation>
+
+  <launchable type="desktop-id">com.soplos.msi-keyboard.desktop</launchable>
+
+  <!-- Icono de stock preferido -->
+  <icon type="stock">com.soplos.msi-keyboard</icon>
+  <!-- Icono remoto como fallback -->
+  <icon type="remote">
+    <url>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/icons/com.soplos.msi-keyboard.png</url>
+  </icon>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window: keyboard color selection</caption>
+      <caption xml:lang="en">Main window: keyboard color selection</caption>
+      <caption xml:lang="es">Ventana principal: selección de color del teclado</caption>
+      <caption xml:lang="fr">Fenêtre principale : sélection de la couleur du clavier</caption>
+      <caption xml:lang="pt">Janela principal: seleção de cor do teclado</caption>
+      <caption xml:lang="de">Hauptfenster: Tastaturfarbauswahl</caption>
+      <caption xml:lang="it">Finestra principale: selezione colore tastiera</caption>
+      <caption xml:lang="ru">Главное окно: выбор цвета клавиатуры</caption>
+      <caption xml:lang="ro">Fereastra principală: selecția culorii tastaturii</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot1.png</image>
+    </screenshot>
+    <screenshot type="normal">
+      <caption>Advanced effects and zone configuration</caption>
+      <caption xml:lang="en">Advanced effects and zone configuration</caption>
+      <caption xml:lang="es">Configuración avanzada de efectos y zonas</caption>
+      <caption xml:lang="fr">Configuration avancée des effets et des zones</caption>
+      <caption xml:lang="pt">Configuração avançada de efeitos e zonas</caption>
+      <caption xml:lang="de">Erweiterte Effekte- und Zonen-Konfiguration</caption>
+      <caption xml:lang="it">Configurazione avanzata di effetti e zone</caption>
+      <caption xml:lang="ru">Расширенная настройка эффектов и зон</caption>
+      <caption xml:lang="ro">Configurare avansată a efectelor și zonelor</caption>
+      <image>https://raw.githubusercontent.com/SoplosLinux/tyson/main/media/msi-keyboard-gui/screenshots/screenshot2.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://soploslinux.com/tyson</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/tyson/issues</url>
+  <url type="donation">https://www.paypal.com/paypalme/isubdes</url>
+  <url type="contact">https://soploslinux.com/foros/</url>
+
+  <developer id="com.soploslinux">
+    <name>Sergi Perich</name>
+    <name xml:lang="en">Sergi Perich</name>
+    <url type="homepage">https://soploslinux.com</url>
+  </developer>
+
+  <provides>
+    <binary>msi-keyboard-gui</binary>
+  </provides>
+
+  <releases>
+    <release version="1.0.9" date="2025-07-27">
+      <description>
+        <p>Nuevo icono de programa.</p>
+        <p xml:lang="es">Cambio de icono del programa.</p>
+        <p xml:lang="en">Program icon changed.</p>
+        <p xml:lang="fr">Changement d'icône du programme.</p>
+        <p xml:lang="pt">Ícone do programa alterado.</p>
+        <p xml:lang="de">Programmsymbol geändert.</p>
+        <p xml:lang="it">Cambiata l'icona del programma.</p>
+        <p xml:lang="ru">Изменена иконка программы.</p>
+        <p xml:lang="ro">S-a schimbat pictograma programului.</p>
+      </description>
+    </release>
+    <release version="1.0.8" date="2025-07-15">
+      <description>
+        <p>Metainfo finalized and validated for AppStream/DEP-11.</p>
+        <p xml:lang="es">Metainfo finalizado y validado para AppStream/DEP-11.</p>
+        <p xml:lang="fr">Metainfo finalisé et validé pour AppStream/DEP-11.</p>
+        <p xml:lang="pt">Metainfo finalizado e validado para AppStream/DEP-11.</p>
+        <p xml:lang="de">Metainfo für AppStream/DEP-11 finalisiert und validiert.</p>
+        <p xml:lang="it">Metainfo finalizzato e validato per AppStream/DEP-11.</p>
+        <p xml:lang="ru">Metainfo завершён и проверен для AppStream/DEP-11.</p>
+        <p xml:lang="ro">Metainfo finalizat și validat pentru AppStream/DEP-11.</p>
+        <p>Program icons implemented in 48x48, 64x64 and 128x128 for integration and compatibility with software centers (Discover, GNOME Software, etc).</p>
+        <p xml:lang="es">Implementados los iconos del programa en 48x48, 64x64 y 128x128 para integración y compatibilidad con centros de software (Discover, GNOME Software, etc).</p>
+        <p xml:lang="fr">Icônes du programme implémentées en 48x48, 64x64 et 128x128 pour l'intégration et la compatibilité avec les centres logiciels (Discover, GNOME Software, etc).</p>
+        <p xml:lang="pt">Ícones do programa implementados em 48x48, 64x64 e 128x128 para integração e compatibilidade com centros de software (Discover, GNOME Software, etc).</p>
+        <p xml:lang="de">Programmsymbole in 48x48, 64x64 und 128x128 für die Integration und Kompatibilität mit Software-Centern (Discover, GNOME Software, etc) implementiert.</p>
+        <p xml:lang="it">Icone del programma implementate in 48x48, 64x64 e 128x128 per l'integrazione e la compatibilità con i centri software (Discover, GNOME Software, ecc).</p>
+        <p xml:lang="ru">Иконки программы реализованы в 48x48, 64x64 и 128x128 для интеграции и совместимости с центрами ПО (Discover, GNOME Software и др.).</p>
+        <p xml:lang="ro">Pictogramele programului implementate în 48x48, 64x64 și 128x128 pentru integrare și compatibilitate cu centrele software (Discover, GNOME Software, etc).</p>
+      </description>
+    </release>
+    <release version="1.0.7" date="2025-07-14">
+      <description>
+        <p>Final metainfo corrections to ensure appearance in software centers (AppStream/Discover/GNOME Software).</p>
+        <p xml:lang="es">Correcciones finales en el metainfo para garantizar la aparición en centros de software (AppStream/Discover/GNOME Software).</p>
+        <p xml:lang="fr">Corrections finales du metainfo pour garantir l'apparition dans les centres logiciels (AppStream/Discover/GNOME Software).</p>
+        <p xml:lang="pt">Correções finais no metainfo para garantir a aparição nos centros de software (AppStream/Discover/GNOME Software).</p>
+        <p xml:lang="de">Letzte Metainfo-Korrekturen, um die Anzeige in Software-Centern (AppStream/Discover/GNOME Software) sicherzustellen.</p>
+        <p xml:lang="it">Correzioni finali al metainfo per garantire la visualizzazione nei centri software (AppStream/Discover/GNOME Software).</p>
+        <p xml:lang="ru">Финальные исправления metainfo для отображения в центрах программного обеспечения (AppStream/Discover/GNOME Software).</p>
+        <p xml:lang="ro">Corecții finale la metainfo pentru a asigura apariția în centrele software (AppStream/Discover/GNOME Software).</p>
+      </description>
+    </release>
+    <release version="1.0.6" date="2025-07-13">
+      <description>
+        <p>Metainfo data corrected for proper display in AppStream/Discover.</p>
+        <p xml:lang="en">Metainfo data corrected for proper display in AppStream/Discover.</p>
+        <p xml:lang="es">Corregidos los datos del metainfo para que se muestren de forma correcta en AppStream/Discover.</p>
+        <p xml:lang="fr">Données metainfo corrigées pour un affichage correct dans AppStream/Discover.</p>
+        <p xml:lang="pt">Dados do metainfo corrigidos para exibição adequada no AppStream/Discover.</p>
+        <p xml:lang="de">Metainfo-Daten für die korrekte Anzeige in AppStream/Discover korrigiert.</p>
+        <p xml:lang="it">Dati metainfo corretti per la corretta visualizzazione in AppStream/Discover.</p>
+        <p xml:lang="ru">Исправлены данные metainfo для правильного отображения в AppStream/Discover.</p>
+        <p xml:lang="ro">Datele metainfo corectate pentru afișare corectă în AppStream/Discover.</p>
+      </description>
+    </release>
+    <release version="1.0.5" date="2025-07-05">
+      <description>
+        <p>Unified script for all systemd operations with single pkexec authentication, fixing multiple password prompts.</p>
+        <p xml:lang="en">Unified script for all systemd operations with single pkexec authentication, fixing multiple password prompts.</p>
+        <p xml:lang="es">Script unificado para todas las operaciones systemd con una sola autenticación pkexec, eliminando múltiples solicitudes de contraseña.</p>
+        <p xml:lang="fr">Script unifié pour toutes les opérations systemd avec une seule authentification pkexec, éliminant les multiples demandes de mot de passe.</p>
+        <p xml:lang="pt">Script unificado para todas as operações systemd com uma única autenticação pkexec, eliminando múltiplos pedidos de senha.</p>
+        <p xml:lang="de">Vereinheitlichtes Skript für alle systemd-Operationen mit einmaliger pkexec-Authentifizierung, wodurch mehrere Passwortabfragen entfallen.</p>
+        <p xml:lang="it">Script unificato per tutte le operazioni systemd con un'unica autenticazione pkexec, eliminando richieste multiple di password.</p>
+        <p xml:lang="ru">Унифицированный скрипт для всех операций systemd с одной аутентификацией pkexec, устраняя множественные запросы пароля.</p>
+        <p xml:lang="ro">Script unificat pentru toate operațiunile systemd cu o singură autentificare pkexec, eliminând solicitările multiple de parolă.</p>
+        <ul>
+          <li>Eliminación automática de archivos temporales después de crear servicios.</li>
+          <li>Mejoras en el manejo de errores y estabilidad general del sistema.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.4" date="2025-07-05">
+      <description>
+        <p>Use pkexec for graphical authentication when creating systemd services, fixing permission issues in GUI.</p>
+        <p xml:lang="en">Use pkexec for graphical authentication when creating systemd services, fixing permission issues in GUI.</p>
+        <p xml:lang="es">Uso de pkexec para autenticación gráfica al crear servicios systemd, solucionando problemas de permisos en GUI.</p>
+        <p xml:lang="fr">Utilisation de pkexec pour l'authentification graphique lors de la création de services systemd, résolvant les problèmes d'autorisations dans l'interface graphique.</p>
+        <p xml:lang="pt">Uso do pkexec para autenticação gráfica ao criar serviços systemd, corrigindo problemas de permissões na interface gráfica.</p>
+        <p xml:lang="de">Verwendung von pkexec für die grafische Authentifizierung beim Erstellen von systemd-Diensten, wodurch Berechtigungsprobleme in der GUI behoben werden.</p>
+        <p xml:lang="it">Utilizzo di pkexec per l'autenticazione grafica durante la creazione di servizi systemd, risolvendo problemi di permessi nella GUI.</p>
+        <p xml:lang="ru">Использование pkexec для графической аутентификации при создании сервисов systemd, устраняя проблемы с разрешениями в GUI.</p>
+        <p xml:lang="ro">Utilizarea pkexec pentru autentificare grafică la crearea serviciilor systemd, rezolvând problemele de permisiuni în interfața grafică.</p>
+        <ul>
+          <li>Mejor manejo de cancelación de autenticación por parte del usuario.</li>
+          <li>Correcciones menores y mejoras de estabilidad.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.3" date="2025-06-26">
+      <description>
+        <p>Automatic generation and update of systemd service when applying configuration from the graphical interface.</p>
+        <p xml:lang="en">Automatic generation and update of systemd service when applying configuration from the graphical interface.</p>
+        <p xml:lang="es">Generación y actualización automática del servicio systemd al aplicar la configuración desde la interfaz gráfica.</p>
+        <p xml:lang="fr">Génération et mise à jour automatiques du service systemd lors de l'application de la configuration depuis l'interface graphique.</p>
+        <p xml:lang="pt">Geração e atualização automática do serviço systemd ao aplicar a configuração a partir da interface gráfica.</p>
+        <p xml:lang="de">Automatische Erstellung und Aktualisierung des systemd-Dienstes beim Anwenden der Konfiguration aus der grafischen Oberfläche.</p>
+        <p xml:lang="it">Generazione e aggiornamento automatico del servizio systemd durante l'applicazione della configurazione dall'interfaccia grafica.</p>
+        <p xml:lang="ru">Автоматическое создание и обновление службы systemd при применении конфигурации из графического интерфейса.</p>
+        <p xml:lang="ro">Generare și actualizare automată a serviciului systemd la aplicarea configurației din interfața grafică.</p>
+        <ul>
+          <li>El servicio systemd se habilita pentru aplicația configurației RGB al arrancar el sistema.</li>
+          <li>Correcciones menores y mejoras de integración.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2" date="2025-06-24">
+      <description>
+        <p>Minor improvements and metadata updates</p>
+        <p xml:lang="en">Minor improvements and metadata updates</p>
+        <p xml:lang="es">Mejoras menores y actualización de metadatos</p>
+        <p xml:lang="fr">Améliorations mineures et mise à jour des métadonnées</p>
+        <p xml:lang="pt">Pequenas melhorias e atualização de metadados</p>
+        <p xml:lang="de">Kleinere Verbesserungen und Metadatenaktualisierungen</p>
+        <p xml:lang="it">Miglioramenti minori e aggiornamento dei metadati</p>
+        <p xml:lang="ru">Незначительные улучшения и обновление метаданных</p>
+        <p xml:lang="ro">Îmbunătățiri minore și actualizare a metadatelor</p>
+        <ul>
+          <li>Actualización de versión y metadatos</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.1" date="2025-06-24">
+      <description>
+        <p>Visible in KDE Discover and other AppStream-based stores</p>
+        <p xml:lang="en">Visible in KDE Discover and other AppStream-based stores</p>
+        <p xml:lang="es">Ahora visible in Discover y otras tiendas AppStream</p>
+        <p xml:lang="fr">Désormais visible dans Discover et d'autres boutiques AppStream</p>
+        <p xml:lang="pt">Agora visível no Discover e em outras lojas AppStream</p>
+        <p xml:lang="de">Jetzt sichtbar in Discover und anderen AppStream-Shops</p>
+        <p xml:lang="it">Ora visibile in Discover e in altri store AppStream</p>
+        <p xml:lang="ru">Теперь отображается в Discover и других магазинах AppStream</p>
+        <p xml:lang="ro">Acum vizibil în Discover și în alte magazine AppStream</p>
+        <ul>
+          <li>Mejoras en los metadatos AppStream</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.0" date="2024-12-19">
+      <description>
+        <p>Initial release</p>
+        <p xml:lang="en">Initial release</p>
+        <p xml:lang="es">Lanzamiento inicial</p>
+        <p xml:lang="fr">Première version</p>
+        <p xml:lang="pt">Lançamento inicial</p>
+        <p xml:lang="de">Erstveröffentlichung</p>
+        <p xml:lang="it">Rilascio iniziale</p>
+        <p xml:lang="ru">Первый выпуск</p>
+        <p xml:lang="ro">Lansare inițială</p>
+        <p xml:lang="en">Includes the following features:</p>
+        <ul>
+          <li>Visual zone-based RGB configuration</li>
+          <li>Intensity control</li>
+          <li>Multiple lighting modes</li>
+          <li>Configuration save/load</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1">
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="sex-themes">none</content_attribute>
+  </content_rating>
+</component>

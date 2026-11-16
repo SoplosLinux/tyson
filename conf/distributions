@@ -1,0 +1,14 @@
+Origin: SoplosLinux
+Label: SoplosLinux
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64
+Components: main
+Description: Repositorio de SoplosLinux
+SignWith: 8845419F1DEE4B64
+Pull: stable
+# Configuración AppStream para GNOME Software y Discover
+Contents: . .gz
+ContentsComponents: main
+ContentsArchitectures: amd64

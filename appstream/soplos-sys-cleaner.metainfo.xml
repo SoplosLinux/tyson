@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.soplos.sys-cleaner</id>
+  <pkgname>soplos-sys-cleaner</pkgname>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <project_group>org.soplos</project_group>
+  
+  <name>Soplos Sys Cleaner</name>
+  <name xml:lang="es">Soplos Limpiador del Sistema</name>
+  <name xml:lang="fr">Nettoyeur du système Soplos</name>
+  <name xml:lang="de">Soplos Systemreiniger</name>
+  <name xml:lang="pt">Soplos Limpador de Sistema</name>
+  <name xml:lang="it">Soplos Pulitore di Sistema</name>
+  <name xml:lang="ro">Curățătorul sistemului Soplos</name>
+  <name xml:lang="ru">Очиститель системы Soplos</name>
+
+  <summary>System cleaner and optimizer for Soplos Linux</summary>
+  <summary xml:lang="es">Limpiador y optimizador de sistema para Soplos Linux</summary>
+  <summary xml:lang="fr">Nettoyeur et optimiseur de système pour Soplos Linux</summary>
+  <summary xml:lang="de">Systemreiniger und Optimierer für Soplos Linux</summary>
+  <summary xml:lang="pt">Limpador e otimizador de sistema para Soplos Linux</summary>
+  <summary xml:lang="it">Pulitore e ottimizzatore di sistema per Soplos Linux</summary>
+  <summary xml:lang="ro">Curățător și optimizator de sistem pentru Soplos Linux</summary>
+  <summary xml:lang="ru">Очистка и оптимизация системы для Soplos Linux</summary>
+
+  <description>
+    <p>Soplos Sys Cleaner is an advanced system maintenance tool for Soplos Linux distributions. It safely removes unnecessary files, clears cache, uninstalls old kernels, and optimizes the system.</p>
+    <p xml:lang="es">Soplos Sys Cleaner es una herramienta avanzada de mantenimiento del sistema para distribuciones Soplos Linux. Elimina de forma segura archivos innecesarios, borra la caché, desinstala núcleos antiguos y optimiza el sistema.</p>
+    <p xml:lang="fr">Soplos Sys Cleaner est un outil de maintenance système avancé pour les distributions Linux Soplos. Il supprime en toute sécurité les fichiers inutiles, vide le cache, désinstalle les anciens noyaux et optimise le système.</p>
+    <p xml:lang="de">Soplos Sys Cleaner ist ein fortschrittliches Systemwartungstool für Soplos Linux-Distributionen. Es entfernt sicher unnötige Dateien, leert den Cache, deinstalliert alte Kernel und optimiert das System.</p>
+    <p xml:lang="pt">O Soplos Sys Cleaner é uma ferramenta avançada de manutenção do sistema para distribuições Soplos Linux. Ele remove com segurança arquivos desnecessários, limpa o cache, desinstala kernels antigos e otimiza o sistema.</p>
+    <p xml:lang="it">Soplos Sys Cleaner è uno strumento avanzato di manutenzione del sistema per le distribuzioni Linux Soplos. Rimuove in modo sicuro i file non necessari, cancella la cache, disinstalla i vecchi kernel e ottimizza il sistema.</p>
+    <p xml:lang="ro">Soplos Sys Cleaner este un instrument avansat de întreținere a sistemului pentru distribuțiile Linux Soplos. Elimină în siguranță fișierele inutile, golește memoria cache, dezinstalează vechile nuclee și optimizează sistemul.</p>
+    <p xml:lang="ru">Soplos Sys Cleaner — это усовершенствованный инструмент обслуживания системы для дистрибутивов Soplos Linux. Он безопасно удаляет ненужные файлы, очищает кэш, удаляет старые ядра и оптимизирует систему.</p>
+  </description>
+
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-sys-cleaner/issues</url>
+
+  <launchable type="desktop-id">org.soplos.sys-cleaner.desktop</launchable>
+
+  <developer_name>Sergi Perich</developer_name>
+
+  <content_rating type="oars-1.1" />
+
+  <categories>
+    <category>Settings</category>
+    <category>System</category>
+    <category>Utility</category>
+    <category>GTK</category>
+  </categories>
+
+  <requires>
+    <display_length compare="ge">800</display_length>
+    <memory compare="ge">512</memory>
+  </requires>
+
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </recommends>
+
+  <keywords>
+    <keyword>cleaner</keyword>
+    <keyword>system</keyword>
+    <keyword>maintenance</keyword>
+    <keyword>soplos</keyword>
+    <keyword>optimizer</keyword>
+    <keyword xml:lang="es">limpiador</keyword>
+    <keyword xml:lang="es">sistema</keyword>
+    <keyword xml:lang="es">mantenimiento</keyword>
+    <keyword xml:lang="es">optimizador</keyword>
+    <keyword xml:lang="fr">nettoyeur</keyword>
+    <keyword xml:lang="fr">système</keyword>
+    <keyword xml:lang="fr">maintenance</keyword>
+    <keyword xml:lang="fr">optimiseur</keyword>
+    <keyword xml:lang="de">reiniger</keyword>
+    <keyword xml:lang="de">system</keyword>
+    <keyword xml:lang="de">wartung</keyword>
+    <keyword xml:lang="de">optimierer</keyword>
+    <keyword xml:lang="pt">limpador</keyword>
+    <keyword xml:lang="pt">sistema</keyword>
+    <keyword xml:lang="pt">manutenção</keyword>
+    <keyword xml:lang="pt">otimizador</keyword>
+    <keyword xml:lang="it">pulitore</keyword>
+    <keyword xml:lang="it">sistema</keyword>
+    <keyword xml:lang="it">manutenzione</keyword>
+    <keyword xml:lang="it">ottimizzatore</keyword>
+    <keyword xml:lang="ro">curățător</keyword>
+    <keyword xml:lang="ro">sistem</keyword>
+    <keyword xml:lang="ro">întreținere</keyword>
+    <keyword xml:lang="ro">optimizator</keyword>
+    <keyword xml:lang="ru">очиститель</keyword>
+    <keyword xml:lang="ru">система</keyword>
+    <keyword xml:lang="ru">обслуживание</keyword>
+    <keyword xml:lang="ru">оптимизатор</keyword>
+  </keywords>
+
+  <screenshots>
+    <!-- User mode screenshots (01–06) -->
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot01.png</image>
+      <caption>User mode overview with system summary</caption>
+      <caption xml:lang="es">Resumen en modo usuario con datos del sistema</caption>
+      <caption xml:lang="fr">Vue d'ensemble en mode utilisateur avec résumé système</caption>
+      <caption xml:lang="de">Benutzermodusübersicht mit Systemzusammenfassung</caption>
+      <caption xml:lang="pt">Visão geral em modo utilizador com resumo do sistema</caption>
+      <caption xml:lang="it">Panoramica in modalità utente con riepilogo del sistema</caption>
+      <caption xml:lang="ro">Prezentare generală în modul utilizator cu rezumatul sistemului</caption>
+      <caption xml:lang="ru">Обзор в режиме пользователя с сводкой системы</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot02.png</image>
+      <caption>Installed apps manager with search and selective uninstall</caption>
+      <caption xml:lang="es">Gestor de apps instaladas con búsqueda y desinstalación selectiva</caption>
+      <caption xml:lang="fr">Gestionnaire d'applications installées avec recherche et désinstallation sélective</caption>
+      <caption xml:lang="de">Manager für installierte Apps mit Suche und selektiver Deinstallation</caption>
+      <caption xml:lang="pt">Gestor de apps instaladas com pesquisa e desinstalação seletiva</caption>
+      <caption xml:lang="it">Gestore app installate con ricerca e disinstallazione selettiva</caption>
+      <caption xml:lang="ro">Manager aplicații instalate cu căutare și dezinstalare selectivă</caption>
+      <caption xml:lang="ru">Менеджер установленных приложений с поиском и выборочным удалением</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot03.png</image>
+      <caption>Flatpak unused runtimes cleanup</caption>
+      <caption xml:lang="es">Limpieza de runtimes de Flatpak no usados</caption>
+      <caption xml:lang="fr">Nettoyage des runtimes Flatpak inutilisés</caption>
+      <caption xml:lang="de">Bereinigung ungenutzter Flatpak-Laufzeitumgebungen</caption>
+      <caption xml:lang="pt">Limpeza de runtimes Flatpak não utilizados</caption>
+      <caption xml:lang="it">Pulizia dei runtime Flatpak inutilizzati</caption>
+      <caption xml:lang="ro">Curățarea runtime-urilor Flatpak neutilizate</caption>
+      <caption xml:lang="ru">Очистка неиспользуемых сред выполнения Flatpak</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot04.png</image>
+      <caption>Snap old revisions removal</caption>
+      <caption xml:lang="es">Eliminación de revisiones antiguas de Snap</caption>
+      <caption xml:lang="fr">Suppression des anciennes révisions Snap</caption>
+      <caption xml:lang="de">Entfernung alter Snap-Revisionen</caption>
+      <caption xml:lang="pt">Remoção de revisões antigas de Snap</caption>
+      <caption xml:lang="it">Rimozione delle revisioni vecchie di Snap</caption>
+      <caption xml:lang="ro">Eliminarea reviziilor vechi Snap</caption>
+      <caption xml:lang="ru">Удаление старых ревизий Snap</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot05.png</image>
+      <caption>User cache cleanup by application folder</caption>
+      <caption xml:lang="es">Limpieza de caché de usuario por carpeta de aplicación</caption>
+      <caption xml:lang="fr">Nettoyage du cache utilisateur par dossier d'application</caption>
+      <caption xml:lang="de">Benutzer-Cache-Bereinigung nach Anwendungsordner</caption>
+      <caption xml:lang="pt">Limpeza da cache do utilizador por pasta de aplicação</caption>
+      <caption xml:lang="it">Pulizia della cache utente per cartella applicazione</caption>
+      <caption xml:lang="ro">Curățarea cache-ului utilizatorului pe folder de aplicație</caption>
+      <caption xml:lang="ru">Очистка кэша пользователя по папкам приложений</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot06.png</image>
+      <caption>User trash management</caption>
+      <caption xml:lang="es">Gestión de la papelera del usuario</caption>
+      <caption xml:lang="fr">Gestion de la corbeille utilisateur</caption>
+      <caption xml:lang="de">Verwaltung des Benutzer-Papierkorbs</caption>
+      <caption xml:lang="pt">Gestão da reciclagem do utilizador</caption>
+      <caption xml:lang="it">Gestione del cestino utente</caption>
+      <caption xml:lang="ro">Gestionarea coșului de gunoi al utilizatorului</caption>
+      <caption xml:lang="ru">Управление корзиной пользователя</caption>
+    </screenshot>
+    <!-- Administrator mode screenshots (07–14) -->
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot07.png</image>
+      <caption>Administrator mode overview with full scan results</caption>
+      <caption xml:lang="es">Resumen en modo administrador con resultados completos del escaneo</caption>
+      <caption xml:lang="fr">Vue d'ensemble en mode administrateur avec résultats complets</caption>
+      <caption xml:lang="de">Administratormodusübersicht mit vollständigen Scan-Ergebnissen</caption>
+      <caption xml:lang="pt">Visão geral em modo administrador com resultados completos</caption>
+      <caption xml:lang="it">Panoramica in modalità amministratore con risultati completi</caption>
+      <caption xml:lang="ro">Prezentare generală în modul administrator cu rezultate complete</caption>
+      <caption xml:lang="ru">Обзор в режиме администратора с полными результатами сканирования</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot08.png</image>
+      <caption>GPU drivers cleanup with hardware protection</caption>
+      <caption xml:lang="es">Limpieza de drivers GPU con protección de hardware</caption>
+      <caption xml:lang="fr">Nettoyage des pilotes GPU avec protection matérielle</caption>
+      <caption xml:lang="de">GPU-Treiber-Bereinigung mit Hardwareschutz</caption>
+      <caption xml:lang="pt">Limpeza de drivers GPU com proteção de hardware</caption>
+      <caption xml:lang="it">Pulizia dei driver GPU con protezione hardware</caption>
+      <caption xml:lang="ro">Curățarea driverelor GPU cu protecție hardware</caption>
+      <caption xml:lang="ru">Очистка драйверов GPU с защитой оборудования</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot09.png</image>
+      <caption>Removable firmware families with disk usage</caption>
+      <caption xml:lang="es">Familias de firmware extraíbles con uso de disco</caption>
+      <caption xml:lang="fr">Familles de micrologiciels amovibles avec utilisation du disque</caption>
+      <caption xml:lang="de">Entfernbare Firmware-Familien mit Festplattennutzung</caption>
+      <caption xml:lang="pt">Famílias de firmware removíveis com uso de disco</caption>
+      <caption xml:lang="it">Famiglie di firmware rimovibili con utilizzo del disco</caption>
+      <caption xml:lang="ro">Familii de firmware detașabile cu utilizarea discului</caption>
+      <caption xml:lang="ru">Съёмные семейства прошивок с использованием диска</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot10.png</image>
+      <caption>Installed kernels management and removal</caption>
+      <caption xml:lang="es">Gestión y eliminación de kernels instalados</caption>
+      <caption xml:lang="fr">Gestion et suppression des noyaux installés</caption>
+      <caption xml:lang="de">Verwaltung und Entfernung installierter Kernel</caption>
+      <caption xml:lang="pt">Gestão e remoção de kernels instalados</caption>
+      <caption xml:lang="it">Gestione e rimozione dei kernel installati</caption>
+      <caption xml:lang="ro">Gestionarea și eliminarea nucleelor instalate</caption>
+      <caption xml:lang="ru">Управление и удаление установленных ядер</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot11.png</image>
+      <caption>Languages and documentation cleanup with locale protection</caption>
+      <caption xml:lang="es">Limpieza de idiomas y documentación con protección de locale</caption>
+      <caption xml:lang="fr">Nettoyage des langues et de la documentation avec protection des paramètres régionaux</caption>
+      <caption xml:lang="de">Bereinigung von Sprachen und Dokumentation mit Locale-Schutz</caption>
+      <caption xml:lang="pt">Limpeza de idiomas e documentação com proteção de locale</caption>
+      <caption xml:lang="it">Pulizia di lingue e documentazione con protezione delle impostazioni locali</caption>
+      <caption xml:lang="ro">Curățarea limbilor și documentației cu protecția setărilor locale</caption>
+      <caption xml:lang="ru">Очистка языков и документации с защитой локали</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot12.png</image>
+      <caption>APT cache selective .deb file removal</caption>
+      <caption xml:lang="es">Eliminación selectiva de archivos .deb de la caché APT</caption>
+      <caption xml:lang="fr">Suppression sélective de fichiers .deb du cache APT</caption>
+      <caption xml:lang="de">Selektive Entfernung von .deb-Dateien aus dem APT-Cache</caption>
+      <caption xml:lang="pt">Remoção seletiva de ficheiros .deb da cache APT</caption>
+      <caption xml:lang="it">Rimozione selettiva di file .deb dalla cache APT</caption>
+      <caption xml:lang="ro">Eliminarea selectivă a fișierelor .deb din memoria cache APT</caption>
+      <caption xml:lang="ru">Выборочное удаление файлов .deb из кэша APT</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot13.png</image>
+      <caption>Temporary files scanner and cleanup</caption>
+      <caption xml:lang="es">Escáner y limpieza de archivos temporales</caption>
+      <caption xml:lang="fr">Analyseur et nettoyage des fichiers temporaires</caption>
+      <caption xml:lang="de">Scanner und Bereinigung temporärer Dateien</caption>
+      <caption xml:lang="pt">Scanner e limpeza de ficheiros temporários</caption>
+      <caption xml:lang="it">Scanner e pulizia dei file temporanei</caption>
+      <caption xml:lang="ro">Scanner și curățarea fișierelor temporare</caption>
+      <caption xml:lang="ru">Сканер и очистка временных файлов</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-sys-cleaner/main/assets/screenshots/screenshot14.png</image>
+      <caption>System logs viewer and cleanup</caption>
+      <caption xml:lang="es">Visor y limpieza de registros del sistema</caption>
+      <caption xml:lang="fr">Visionneuse et nettoyage des journaux système</caption>
+      <caption xml:lang="de">System-Log-Viewer und Bereinigung</caption>
+      <caption xml:lang="pt">Visualizador e limpeza dos registos do sistema</caption>
+      <caption xml:lang="it">Visualizzatore e pulizia dei log di sistema</caption>
+      <caption xml:lang="ro">Vizualizator și curățarea jurnalelor de sistem</caption>
+      <caption xml:lang="ru">Просмотрщик и очистка системных журналов</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="1.0.3-4" date="2026-08-02">
+      <description>
+        <p>Theming release: light/dark detection routed per desktop environment (XFCE, Plasma, GNOME), light theme completed to full parity with the dark one.</p>
+        <p xml:lang="es">Versión de temas: detección de claro/oscuro enrutada por escritorio (XFCE, Plasma, GNOME), tema claro completado a paridad total con el oscuro.</p>
+        <p xml:lang="fr">Version thématique : détection clair/sombre routée par environnement de bureau (XFCE, Plasma, GNOME), thème clair complété à parité totale avec le sombre.</p>
+        <p xml:lang="de">Themen-Version: Hell-/Dunkel-Erkennung je Desktop-Umgebung geroutet (XFCE, Plasma, GNOME), helles Thema auf volle Parität mit dem dunklen gebracht.</p>
+        <p xml:lang="pt">Versão de temas: deteção de claro/escuro encaminhada por ambiente de trabalho (XFCE, Plasma, GNOME), tema claro completado até à paridade total com o escuro.</p>
+        <p xml:lang="it">Versione dei temi: rilevamento chiaro/scuro instradato per ambiente desktop (XFCE, Plasma, GNOME), tema chiaro completato alla piena parità con quello scuro.</p>
+        <p xml:lang="ro">Versiune de teme: detectarea luminos/întunecat rutată pe mediu desktop (XFCE, Plasma, GNOME), tema luminoasă completată la paritate totală cu cea întunecată.</p>
+        <p xml:lang="ru">Версия оформления: определение светлой/тёмной темы направляется по среде рабочего стола (XFCE, Plasma, GNOME), светлая тема доведена до полного соответствия тёмной.</p>
+        <ul>
+          <li>Changed: light/dark theme detection is now routed per desktop environment — XFCE reads the active GTK theme name from xfconf-query, Plasma reads ColorScheme from kdeglobals with a window-background luminance fallback, GNOME reads color-scheme. Ported from soplos-welcome</li>
+          <li>Fixed: the light theme was incomplete compared to the dark one, so uncovered widgets fell back to the system theme and clashed — light.css is now at full parity with dark.css</li>
+          <li>Note: the theme is detected once at startup; switching the desktop between light and dark with the application open does not restyle the running window</li>
+
+          <li xml:lang="es">Cambiado: la detección de tema claro/oscuro ahora se enruta por escritorio — XFCE lee el nombre del tema GTK activo con xfconf-query, Plasma lee ColorScheme de kdeglobals con respaldo por luminancia del fondo de ventana, GNOME lee color-scheme. Portado desde soplos-welcome</li>
+          <li xml:lang="es">Corregido: el tema claro estaba incompleto frente al oscuro, por lo que los widgets no cubiertos caían al tema del sistema y desentonaban — light.css ahora está a paridad total con dark.css</li>
+          <li xml:lang="es">Nota: el tema se detecta una sola vez al arrancar; cambiar el escritorio entre claro y oscuro con la aplicación abierta no reestiliza la ventana en ejecución</li>
+
+          <li xml:lang="fr">Modifié : la détection du thème clair/sombre est désormais routée par environnement de bureau — XFCE lit le nom du thème GTK actif via xfconf-query, Plasma lit ColorScheme depuis kdeglobals avec un repli sur la luminance du fond de fenêtre, GNOME lit color-scheme. Porté depuis soplos-welcome</li>
+          <li xml:lang="fr">Corrigé : le thème clair était incomplet par rapport au sombre, les widgets non couverts retombaient sur le thème du système et juraient — light.css est désormais à parité totale avec dark.css</li>
+          <li xml:lang="fr">Note : le thème est détecté une seule fois au démarrage ; basculer le bureau entre clair et sombre avec l'application ouverte ne restyle pas la fenêtre en cours</li>
+
+          <li xml:lang="de">Geändert: die Hell-/Dunkel-Erkennung wird nun je Desktop-Umgebung geroutet — XFCE liest den aktiven GTK-Themennamen über xfconf-query, Plasma liest ColorScheme aus kdeglobals mit Rückfall auf die Luminanz des Fensterhintergrunds, GNOME liest color-scheme. Portiert von soplos-welcome</li>
+          <li xml:lang="de">Behoben: das helle Thema war gegenüber dem dunklen unvollständig, nicht abgedeckte Widgets fielen auf das Systemthema zurück und passten nicht — light.css ist nun auf voller Parität mit dark.css</li>
+          <li xml:lang="de">Hinweis: das Thema wird einmalig beim Start erkannt; ein Wechsel des Desktops zwischen hell und dunkel bei geöffneter Anwendung gestaltet das laufende Fenster nicht neu</li>
+
+          <li xml:lang="pt">Alterado: a deteção de tema claro/escuro é agora encaminhada por ambiente de trabalho — o XFCE lê o nome do tema GTK ativo com xfconf-query, o Plasma lê ColorScheme de kdeglobals com recurso à luminância do fundo da janela, o GNOME lê color-scheme. Portado do soplos-welcome</li>
+          <li xml:lang="pt">Corrigido: o tema claro estava incompleto face ao escuro, pelo que os widgets não cobertos recorriam ao tema do sistema e destoavam — light.css está agora em paridade total com dark.css</li>
+          <li xml:lang="pt">Nota: o tema é detetado uma única vez ao arrancar; alternar o ambiente de trabalho entre claro e escuro com a aplicação aberta não reestiliza a janela em execução</li>
+
+          <li xml:lang="it">Modificato: il rilevamento del tema chiaro/scuro è ora instradato per ambiente desktop — XFCE legge il nome del tema GTK attivo tramite xfconf-query, Plasma legge ColorScheme da kdeglobals con ripiego sulla luminanza dello sfondo della finestra, GNOME legge color-scheme. Portato da soplos-welcome</li>
+          <li xml:lang="it">Corretto: il tema chiaro era incompleto rispetto a quello scuro, quindi i widget non coperti ripiegavano sul tema di sistema e stonavano — light.css è ora in piena parità con dark.css</li>
+          <li xml:lang="it">Nota: il tema viene rilevato una sola volta all'avvio; cambiare il desktop tra chiaro e scuro con l'applicazione aperta non ridisegna la finestra in esecuzione</li>
+
+          <li xml:lang="ro">Modificat: detectarea temei luminoase/întunecate este acum rutată pe mediu desktop — XFCE citește numele temei GTK active prin xfconf-query, Plasma citește ColorScheme din kdeglobals cu revenire la luminanța fundalului ferestrei, GNOME citește color-scheme. Portat din soplos-welcome</li>
+          <li xml:lang="ro">Remediat: tema luminoasă era incompletă față de cea întunecată, astfel încât widgeturile neacoperite reveneau la tema sistemului și nu se potriveau — light.css este acum la paritate totală cu dark.css</li>
+          <li xml:lang="ro">Notă: tema este detectată o singură dată la pornire; schimbarea desktopului între luminos și întunecat cu aplicația deschisă nu restilizează fereastra în execuție</li>
+
+          <li xml:lang="ru">Изменено: определение светлой/тёмной темы теперь направляется по среде рабочего стола — XFCE читает имя активной темы GTK через xfconf-query, Plasma читает ColorScheme из kdeglobals с запасным вариантом по яркости фона окна, GNOME читает color-scheme. Портировано из soplos-welcome</li>
+          <li xml:lang="ru">Исправлено: светлая тема была неполной по сравнению с тёмной, поэтому неохваченные виджеты возвращались к системной теме и выбивались из оформления — light.css теперь полностью соответствует dark.css</li>
+          <li xml:lang="ru">Примечание: тема определяется один раз при запуске; переключение рабочего стола между светлым и тёмным при открытом приложении не меняет оформление текущего окна</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.3-3" date="2026-07-22">
+      <description>
+        <p>Bugfix release: reverted the --root Administrator launcher (D-Bus instance conflict), fixed false firmware locks for intel/iwlwifi/nvidia, fixed VirtualBox uninstall feedback.</p>
+        <p xml:lang="es">Versión de corrección: revertido el lanzador --root de Administrador (conflicto de instancia D-Bus), corregidos los bloqueos falsos de firmware intel/iwlwifi/nvidia, corregido el aviso de desinstalación de VirtualBox.</p>
+        <p xml:lang="fr">Version corrective : lanceur Administrateur --root annulé (conflit d'instance D-Bus), verrouillages erronés du firmware intel/iwlwifi/nvidia corrigés, retour d'information de désinstallation de VirtualBox corrigé.</p>
+        <p xml:lang="de">Fehlerbehebungsversion: --root-Administrator-Starter zurückgenommen (D-Bus-Instanzkonflikt), fälschliche Firmware-Sperren für intel/iwlwifi/nvidia behoben, Rückmeldung zur VirtualBox-Deinstallation behoben.</p>
+        <p xml:lang="pt">Versão de correção: lançador --root de Administrador revertido (conflito de instância D-Bus), bloqueios falsos de firmware intel/iwlwifi/nvidia corrigidos, feedback de desinstalação do VirtualBox corrigido.</p>
+        <p xml:lang="it">Versione correttiva: launcher Amministratore --root annullato (conflitto di istanza D-Bus), blocchi falsi del firmware intel/iwlwifi/nvidia corretti, feedback di disinstallazione di VirtualBox corretto.</p>
+        <p xml:lang="ro">Versiune de corectare: lansatorul Administrator --root anulat (conflict de instanță D-Bus), blocările false ale firmware-ului intel/iwlwifi/nvidia remediate, feedback-ul de dezinstalare VirtualBox remediat.</p>
+        <p xml:lang="ru">Версия с исправлениями: отменён запуск администратора --root (конфликт экземпляров D-Bus), исправлены ложные блокировки прошивки intel/iwlwifi/nvidia, исправлена обратная связь при удалении VirtualBox.</p>
+        <ul>
+          <li>Removed: --root launch flag and Administrator .desktop launcher — caused a D-Bus instance conflict that opened user mode instead of Administrator mode; the leftover launcher file is now cleaned up automatically the next time a root session starts</li>
+          <li>Fixed: intel/iwlwifi/nvidia firmware falsely locked as required with no matching real hardware — a loaded-but-unused kernel module (e.g. nouveau/iwlwifi on a VM) was trusted for its full theoretical firmware list instead of what the system actually needs</li>
+          <li>Fixed: intel firmware family was still locked by an emulated Intel chipset/audio device — now requires a genuine Intel network-class device, same as iwlwifi</li>
+          <li>Fixed: VirtualBox Guest Additions uninstall result was silently discarded when triggered from "Remove orphaned packages" — its error, if any, is now shown</li>
+
+          <li xml:lang="es">Eliminado: flag de arranque --root y lanzador .desktop de Administrador — causaba un conflicto de instancia D-Bus que abría el modo usuario en vez del modo Administrador; el archivo residual del lanzador ahora se limpia automáticamente la próxima vez que se inicia una sesión root</li>
+          <li xml:lang="es">Corregido: el firmware intel/iwlwifi/nvidia se bloqueaba como necesario sin hardware real correspondiente — un módulo del kernel cargado pero sin usar (ej. nouveau/iwlwifi en una VM) se aceptaba con toda su lista teórica de firmware en vez de lo que el sistema realmente necesita</li>
+          <li xml:lang="es">Corregido: la familia de firmware intel seguía bloqueada por un chipset/audio Intel emulado — ahora requiere un dispositivo de red Intel real, igual que iwlwifi</li>
+          <li xml:lang="es">Corregido: el resultado de la desinstalación de VirtualBox Guest Additions se descartaba en silencio al activarse desde "Eliminar paquetes huérfanos" — su error, si lo hay, ahora se muestra</li>
+
+          <li xml:lang="fr">Supprimé : option de lancement --root et lanceur .desktop Administrateur — provoquait un conflit d'instance D-Bus qui ouvrait le mode utilisateur au lieu du mode Administrateur ; le fichier de lanceur résiduel est désormais nettoyé automatiquement au prochain démarrage d'une session root</li>
+          <li xml:lang="fr">Corrigé : le firmware intel/iwlwifi/nvidia était verrouillé comme nécessaire sans matériel réel correspondant — un module noyau chargé mais inutilisé (ex. nouveau/iwlwifi sur une VM) était accepté avec toute sa liste théorique de firmware au lieu de ce dont le système a réellement besoin</li>
+          <li xml:lang="fr">Corrigé : la famille de firmware intel restait verrouillée par un chipset/périphérique audio Intel émulé — nécessite désormais un véritable périphérique réseau Intel, comme iwlwifi</li>
+          <li xml:lang="fr">Corrigé : le résultat de la désinstallation de VirtualBox Guest Additions était silencieusement ignoré lorsqu'il était déclenché depuis "Supprimer les paquets orphelins" — son erreur, le cas échéant, est désormais affichée</li>
+
+          <li xml:lang="de">Entfernt: --root-Startoption und Administrator-.desktop-Starter — verursachte einen D-Bus-Instanzkonflikt, der den Benutzermodus statt des Administratormodus öffnete; die verbleibende Starter-Datei wird nun beim nächsten Start einer Root-Sitzung automatisch entfernt</li>
+          <li xml:lang="de">Behoben: intel/iwlwifi/nvidia-Firmware wurde ohne passende echte Hardware fälschlich als benötigt gesperrt — ein geladenes, aber ungenutztes Kernelmodul (z. B. nouveau/iwlwifi in einer VM) wurde mit seiner vollständigen theoretischen Firmware-Liste akzeptiert statt mit dem, was das System tatsächlich braucht</li>
+          <li xml:lang="de">Behoben: die Firmware-Familie intel wurde weiterhin durch ein emuliertes Intel-Chipsatz-/Audiogerät gesperrt — erfordert nun ein echtes Intel-Netzwerkgerät, genau wie iwlwifi</li>
+          <li xml:lang="de">Behoben: das Ergebnis der VirtualBox-Guest-Additions-Deinstallation wurde beim Auslösen über "Verwaiste Pakete entfernen" stillschweigend verworfen — ein etwaiger Fehler wird nun angezeigt</li>
+
+          <li xml:lang="pt">Removido: opção de arranque --root e lançador .desktop de Administrador — causava um conflito de instância D-Bus que abria o modo utilizador em vez do modo Administrador; o arquivo residual do lançador agora é limpo automaticamente na próxima vez que uma sessão root é iniciada</li>
+          <li xml:lang="pt">Corrigido: o firmware intel/iwlwifi/nvidia era bloqueado como necessário sem hardware real correspondente — um módulo do kernel carregado mas não utilizado (ex. nouveau/iwlwifi numa VM) era aceite com toda a sua lista teórica de firmware em vez do que o sistema realmente precisa</li>
+          <li xml:lang="pt">Corrigido: a família de firmware intel continuava bloqueada por um chipset/dispositivo de áudio Intel emulado — agora exige um dispositivo de rede Intel real, tal como o iwlwifi</li>
+          <li xml:lang="pt">Corrigido: o resultado da desinstalação do VirtualBox Guest Additions era descartado silenciosamente ao ser acionado a partir de "Remover pacotes órfãos" — o seu erro, se houver, agora é mostrado</li>
+
+          <li xml:lang="it">Rimosso: opzione di avvio --root e launcher .desktop Amministratore — causava un conflitto di istanza D-Bus che apriva la modalità utente invece della modalità Amministratore; il file del launcher residuo viene ora rimosso automaticamente al prossimo avvio di una sessione root</li>
+          <li xml:lang="it">Corretto: il firmware intel/iwlwifi/nvidia veniva bloccato come necessario senza hardware reale corrispondente — un modulo del kernel caricato ma inutilizzato (es. nouveau/iwlwifi su una VM) veniva accettato con l'intera lista teorica di firmware invece di ciò che il sistema necessita realmente</li>
+          <li xml:lang="it">Corretto: la famiglia di firmware intel rimaneva bloccata da un chipset/dispositivo audio Intel emulato — ora richiede un vero dispositivo di rete Intel, come iwlwifi</li>
+          <li xml:lang="it">Corretto: il risultato della disinstallazione di VirtualBox Guest Additions veniva scartato silenziosamente quando attivato da "Rimuovi pacchetti orfani" — il suo errore, se presente, viene ora mostrato</li>
+
+          <li xml:lang="ro">Eliminat: opțiunea de pornire --root și lansatorul .desktop Administrator — provoca un conflict de instanță D-Bus care deschidea modul utilizator în loc de modul Administrator; fișierul rezidual al lansatorului este acum curățat automat la următoarea pornire a unei sesiuni root</li>
+          <li xml:lang="ro">Remediat: firmware-ul intel/iwlwifi/nvidia era blocat fals ca necesar fără hardware real corespunzător — un modul de kernel încărcat dar neutilizat (ex. nouveau/iwlwifi pe o VM) era acceptat cu întreaga listă teoretică de firmware în loc de ceea ce sistemul are cu adevărat nevoie</li>
+          <li xml:lang="ro">Remediat: familia de firmware intel rămânea blocată de un chipset/dispozitiv audio Intel emulat — necesită acum un dispozitiv de rețea Intel real, la fel ca iwlwifi</li>
+          <li xml:lang="ro">Remediat: rezultatul dezinstalării VirtualBox Guest Additions era ignorat silențios când era declanșat din "Elimină pachetele orfane" — eroarea sa, dacă există, este acum afișată</li>
+
+          <li xml:lang="ru">Удалено: флаг запуска --root и ярлык .desktop администратора — вызывал конфликт экземпляров D-Bus, из-за которого открывался пользовательский режим вместо режима администратора; оставшийся файл ярлыка теперь автоматически удаляется при следующем запуске root-сессии</li>
+          <li xml:lang="ru">Исправлено: прошивка intel/iwlwifi/nvidia ложно блокировалась как необходимая при отсутствии соответствующего реального оборудования — загруженный, но неиспользуемый модуль ядра (напр. nouveau/iwlwifi в VM) принимался со всем своим теоретическим списком прошивок вместо того, что системе реально нужно</li>
+          <li xml:lang="ru">Исправлено: семейство прошивок intel по-прежнему блокировалось эмулированным чипсетом/аудиоустройством Intel — теперь требуется настоящее сетевое устройство Intel, как и для iwlwifi</li>
+          <li xml:lang="ru">Исправлено: результат удаления VirtualBox Guest Additions незаметно отбрасывался при запуске из "Удалить неиспользуемые пакеты" — теперь его ошибка, если есть, отображается</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.3-2" date="2026-07-21">
+      <description>
+        <p>Feature release: --root launch flag with Administrator .desktop launcher, duplicate VM guest package fix, Intel GPU firmware false-positive lock fix.</p>
+        <p xml:lang="es">Versión con novedades: flag de arranque --root con lanzador .desktop de Administrador, corrección de paquetes de VM duplicados, corrección del bloqueo falso de firmware de GPU Intel.</p>
+        <p xml:lang="fr">Version avec nouveautés : option de lancement --root avec lanceur .desktop Administrateur, correction des paquets VM dupliqués, correction du verrouillage erroné du firmware GPU Intel.</p>
+        <p xml:lang="de">Version mit Neuerungen: --root-Startoption mit Administrator-.desktop-Starter, Korrektur doppelter VM-Gastpakete, Korrektur der fälschlichen Intel-GPU-Firmware-Sperre.</p>
+        <p xml:lang="pt">Versão com novidades: opção de arranque --root com lançador .desktop de Administrador, correção de pacotes de VM duplicados, correção do bloqueio falso do firmware da GPU Intel.</p>
+        <p xml:lang="it">Versione con novità: opzione di avvio --root con launcher .desktop Amministratore, correzione dei pacchetti VM duplicati, correzione del blocco falso del firmware GPU Intel.</p>
+        <p xml:lang="ro">Versiune cu noutăți: opțiune de pornire --root cu lansator .desktop Administrator, remedierea pachetelor VM duplicate, remedierea blocării false a firmware-ului GPU Intel.</p>
+        <p xml:lang="ru">Версия с нововведениями: флаг запуска --root с ярлыком .desktop администратора, исправление дублирующихся пакетов VM, исправление ложной блокировки прошивки Intel GPU.</p>
+        <ul>
+          <li>Added: --root launch flag and new Administrator .desktop launcher — opens the app directly in Administrator mode via pkexec, auto-created the first time a root session is established</li>
+          <li>Fixed: spice-vdagent/spice-webdavd appeared twice in the Drivers tab on non-KVM/QEMU guests (e.g. VMware), also breaking "Select all" for one of the duplicate rows</li>
+          <li>Fixed: Intel GPU firmware (i915) was locked as required even without a real Intel GPU, when a VM exposes an emulated Intel-vendor chipset device</li>
+
+          <li xml:lang="es">Añadido: flag de arranque --root y nuevo lanzador .desktop de Administrador — abre la app directamente en modo Administrador vía pkexec, creado automáticamente la primera vez que se establece una sesión root</li>
+          <li xml:lang="es">Corregido: spice-vdagent/spice-webdavd aparecían duplicados en la pestaña Drivers en invitados que no son KVM/QEMU (ej. VMware), rompiendo también "Seleccionar todo" para una de las filas duplicadas</li>
+          <li xml:lang="es">Corregido: el firmware de GPU Intel (i915) se bloqueaba como necesario aunque no hubiera GPU Intel real, cuando una VM expone un chipset con vendor Intel emulado</li>
+
+          <li xml:lang="fr">Ajouté : option de lancement --root et nouveau lanceur .desktop Administrateur — ouvre l'application directement en mode Administrateur via pkexec, créé automatiquement la première fois qu'une session root est établie</li>
+          <li xml:lang="fr">Corrigé : spice-vdagent/spice-webdavd apparaissaient en double dans l'onglet Pilotes sur les invités non KVM/QEMU (ex. VMware), cassant aussi "Tout sélectionner" pour l'une des lignes dupliquées</li>
+          <li xml:lang="fr">Corrigé : le firmware GPU Intel (i915) était verrouillé comme nécessaire même sans GPU Intel réel, lorsqu'une VM expose un chipset à identifiant Intel émulé</li>
+
+          <li xml:lang="de">Hinzugefügt: --root-Startoption und neuer Administrator-.desktop-Starter — öffnet die App direkt im Administratormodus über pkexec, automatisch erstellt beim ersten Aufbau einer Root-Sitzung</li>
+          <li xml:lang="de">Behoben: spice-vdagent/spice-webdavd erschienen doppelt im Treiber-Tab bei Nicht-KVM/QEMU-Gästen (z. B. VMware), was auch "Alle auswählen" für eine der doppelten Zeilen kaputt machte</li>
+          <li xml:lang="de">Behoben: Intel-GPU-Firmware (i915) wurde als benötigt gesperrt, auch ohne echte Intel-GPU, wenn eine VM einen emulierten Chipsatz mit Intel-Kennung zeigt</li>
+
+          <li xml:lang="pt">Adicionado: opção de arranque --root e novo lançador .desktop de Administrador — abre a app diretamente em modo Administrador via pkexec, criado automaticamente na primeira vez que se estabelece uma sessão root</li>
+          <li xml:lang="pt">Corrigido: spice-vdagent/spice-webdavd apareciam duplicados na aba Drivers em convidados que não são KVM/QEMU (ex. VMware), quebrando também "Selecionar tudo" para uma das linhas duplicadas</li>
+          <li xml:lang="pt">Corrigido: o firmware da GPU Intel (i915) era bloqueado como necessário mesmo sem uma GPU Intel real, quando uma VM expõe um chipset com ID Intel emulado</li>
+
+          <li xml:lang="it">Aggiunto: opzione di avvio --root e nuovo launcher .desktop Amministratore — apre l'app direttamente in modalità Amministratore tramite pkexec, creato automaticamente alla prima creazione di una sessione root</li>
+          <li xml:lang="it">Corretto: spice-vdagent/spice-webdavd apparivano duplicati nella scheda Driver sui guest non KVM/QEMU (es. VMware), rompendo anche "Seleziona tutto" per una delle righe duplicate</li>
+          <li xml:lang="it">Corretto: il firmware GPU Intel (i915) veniva bloccato come necessario anche senza una vera GPU Intel, quando una VM espone un chipset con ID vendor Intel emulato</li>
+
+          <li xml:lang="ro">Adăugat: opțiune de pornire --root și nou lansator .desktop Administrator — deschide aplicația direct în modul Administrator prin pkexec, creat automat prima dată când se stabilește o sesiune root</li>
+          <li xml:lang="ro">Remediat: spice-vdagent/spice-webdavd apăreau duplicate în fila Drivere pe oaspeți non-KVM/QEMU (ex. VMware), stricând și "Selectează tot" pentru unul dintre rândurile duplicate</li>
+          <li xml:lang="ro">Remediat: firmware-ul GPU Intel (i915) era blocat ca necesar chiar și fără o GPU Intel reală, când o VM expune un chipset cu ID Intel emulat</li>
+
+          <li xml:lang="ru">Добавлено: флаг запуска --root и новый ярлык .desktop администратора — открывает приложение сразу в режиме администратора через pkexec, создаётся автоматически при первом установлении root-сессии</li>
+          <li xml:lang="ru">Исправлено: spice-vdagent/spice-webdavd дублировались на вкладке Драйверы на гостевых системах, отличных от KVM/QEMU (напр. VMware), что также ломало «Выбрать всё» для одной из повторяющихся строк</li>
+          <li xml:lang="ru">Исправлено: прошивка GPU Intel (i915) блокировалась как необходимая даже без реального GPU Intel, когда VM показывает эмулированный чипсет с идентификатором Intel</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.3-1" date="2026-07-21">
+      <description>
+        <p>Bug fix release: NVIDIA firmware/driver purge, virt-viewer false positive, orphaned dracut.conf.d cleanup, full VirtualBox Guest Additions uninstall, temporary firmware warning, unified package/module mapping.</p>
+        <p xml:lang="es">Versión de correcciones: purga de firmware/driver NVIDIA, falso positivo de virt-viewer, limpieza de dracut.conf.d huérfanos, desinstalación completa de VirtualBox Guest Additions, aviso de firmware temporal, mapeo de paquetes/módulos unificado.</p>
+        <p xml:lang="fr">Version de corrections : purge du firmware/pilote NVIDIA, faux positif de virt-viewer, nettoyage des dracut.conf.d orphelins, désinstallation complète de VirtualBox Guest Additions, avertissement de firmware temporaire, mapping paquet/module unifié.</p>
+        <p xml:lang="de">Fehlerbehebungsversion: NVIDIA-Firmware/Treiber-Bereinigung, virt-viewer-Fehlalarm, Bereinigung verwaister dracut.conf.d, vollständige Deinstallation von VirtualBox Guest Additions, Warnung für temporäre Firmware, vereinheitlichtes Paket-Modul-Mapping.</p>
+        <p xml:lang="pt">Versão de correções: purga de firmware/driver NVIDIA, falso positivo do virt-viewer, limpeza de dracut.conf.d órfãos, desinstalação completa das VirtualBox Guest Additions, aviso de firmware temporário, mapeamento de pacotes/módulos unificado.</p>
+        <p xml:lang="it">Versione di correzioni: pulizia firmware/driver NVIDIA, falso positivo di virt-viewer, pulizia dei dracut.conf.d orfani, disinstallazione completa delle VirtualBox Guest Additions, avviso di firmware temporaneo, mappatura pacchetto/modulo unificata.</p>
+        <p xml:lang="ro">Versiune de remedieri: curățarea firmware-ului/driverului NVIDIA, fals pozitiv virt-viewer, curățarea fișierelor dracut.conf.d orfane, dezinstalarea completă a VirtualBox Guest Additions, avertisment de firmware temporar, mapare pachet/modul unificată.</p>
+        <p xml:lang="ru">Версия исправлений: очистка прошивки/драйвера NVIDIA, ложное срабатывание virt-viewer, очистка осиротевших dracut.conf.d, полное удаление VirtualBox Guest Additions, предупреждение о временной прошивке, унифицированное сопоставление пакетов/модулей.</p>
+        <ul>
+          <li>Fixed: NVIDIA firmware deletion left the driver package fully installed if it wasn't the dedicated firmware-* package — now purges the full driver stack before touching files</li>
+          <li>Fixed: virt-viewer/virt-manager/libvirt-clients false positive — these are remote clients (e.g. Proxmox), not tied to local KVM support, no longer flagged as unused</li>
+          <li>Fixed: orphaned /etc/dracut.conf.d/*.conf from driver installers (nvidia.conf, blacklist-nouveau.conf) were never detected or cleaned. Now scanned and removed, with a hard exclusion for distro-policy files (soplos.conf, i18n.conf, local.conf)</li>
+          <li>Fixed: VirtualBox Guest Additions were never fully uninstalled — only leftover service/autostart files were removed. Now runs the official uninstall.sh/rcvboxadd cleanup first when present</li>
+          <li>Added: firmware families without a dedicated package (bundled in firmware-linux-nonfree/firmware-misc-nonfree) are now marked "temporary" via real dpkg -S ownership lookup — removing them only reclaims space until the next package update</li>
+          <li>Changed: unified the package-kernel-module mapping across hardware.py, cache.py and root_helper.py into a single source of truth — the two files had already drifted out of sync</li>
+
+          <li xml:lang="es">Corregido: al eliminar firmware de NVIDIA el paquete del driver quedaba totalmente instalado si no era el paquete firmware-* dedicado — ahora purga todo el stack del driver antes de tocar archivos</li>
+          <li xml:lang="es">Corregido: falso positivo de virt-viewer/virt-manager/libvirt-clients — son clientes remotos (ej. Proxmox), no dependen de KVM local, ya no se marcan como no usados</li>
+          <li xml:lang="es">Corregido: los .conf huérfanos de /etc/dracut.conf.d/ dejados por instaladores de drivers (nvidia.conf, blacklist-nouveau.conf) nunca se detectaban ni limpiaban. Ahora se escanean y eliminan, con exclusión estricta para archivos de política de la distro (soplos.conf, i18n.conf, local.conf)</li>
+          <li xml:lang="es">Corregido: las VirtualBox Guest Additions nunca se desinstalaban del todo — solo se eliminaban los archivos de servicio/autostart sobrantes. Ahora ejecuta primero el uninstall.sh oficial (o rcvboxadd cleanup) cuando está presente</li>
+          <li xml:lang="es">Añadido: las familias de firmware sin paquete dedicado (incluidas en firmware-linux-nonfree/firmware-misc-nonfree) ahora se marcan como "temporales" mediante una consulta real a dpkg -S — eliminarlas solo libera espacio hasta la próxima actualización del paquete</li>
+          <li xml:lang="es">Cambiado: unificado el mapeo paquete-módulo del kernel entre hardware.py, cache.py y root_helper.py en una única fuente de verdad — los dos archivos ya se habían desincronizado</li>
+
+          <li xml:lang="fr">Corrigé : la suppression du firmware NVIDIA laissait le paquet du pilote entièrement installé s'il ne s'agissait pas du paquet firmware-* dédié — purge désormais l'ensemble de la pile du pilote avant de toucher aux fichiers</li>
+          <li xml:lang="fr">Corrigé : faux positif pour virt-viewer/virt-manager/libvirt-clients — ce sont des clients distants (ex. Proxmox), indépendants du support KVM local, ils ne sont plus signalés comme inutilisés</li>
+          <li xml:lang="fr">Corrigé : les fichiers .conf orphelins de /etc/dracut.conf.d/ laissés par les installateurs de pilotes (nvidia.conf, blacklist-nouveau.conf) n'étaient jamais détectés ni nettoyés. Désormais analysés et supprimés, avec une exclusion stricte pour les fichiers de politique de la distribution (soplos.conf, i18n.conf, local.conf)</li>
+          <li xml:lang="fr">Corrigé : les VirtualBox Guest Additions n'étaient jamais complètement désinstallées — seuls les fichiers de service/autostart restants étaient supprimés. Exécute désormais d'abord le uninstall.sh officiel (ou rcvboxadd cleanup) si présent</li>
+          <li xml:lang="fr">Ajouté : les familles de firmware sans paquet dédié (incluses dans firmware-linux-nonfree/firmware-misc-nonfree) sont désormais marquées "temporaires" via une recherche réelle du propriétaire avec dpkg -S — les supprimer ne libère de l'espace que jusqu'à la prochaine mise à jour du paquet</li>
+          <li xml:lang="fr">Modifié : mapping paquet-module du noyau unifié entre hardware.py, cache.py et root_helper.py en une seule source de vérité — les deux fichiers avaient déjà divergé</li>
+
+          <li xml:lang="de">Behoben: Beim Löschen der NVIDIA-Firmware blieb das Treiberpaket vollständig installiert, wenn es nicht das dedizierte firmware-*-Paket war — jetzt wird der gesamte Treiber-Stack vor dem Löschen von Dateien entfernt</li>
+          <li xml:lang="de">Behoben: Fehlalarm bei virt-viewer/virt-manager/libvirt-clients — dies sind entfernte Client-Tools (z. B. Proxmox), unabhängig von lokaler KVM-Unterstützung, werden nicht mehr als ungenutzt markiert</li>
+          <li xml:lang="de">Behoben: verwaiste .conf-Dateien in /etc/dracut.conf.d/ von Treiberinstallern (nvidia.conf, blacklist-nouveau.conf) wurden nie erkannt oder bereinigt. Werden jetzt gescannt und entfernt, mit einer festen Ausschlussliste für Distro-Richtliniendateien (soplos.conf, i18n.conf, local.conf)</li>
+          <li xml:lang="de">Behoben: VirtualBox Guest Additions wurden nie vollständig deinstalliert — nur verbleibende Dienst-/Autostart-Dateien wurden entfernt. Führt jetzt zuerst das offizielle uninstall.sh (oder rcvboxadd cleanup) aus, falls vorhanden</li>
+          <li xml:lang="de">Hinzugefügt: Firmware-Familien ohne dediziertes Paket (gebündelt in firmware-linux-nonfree/firmware-misc-nonfree) werden jetzt über eine echte dpkg -S-Eigentümerabfrage als "vorübergehend" markiert — das Entfernen gibt nur bis zum nächsten Paket-Update Speicherplatz frei</li>
+          <li xml:lang="de">Geändert: Paket-Kernelmodul-Zuordnung über hardware.py, cache.py und root_helper.py in einer einzigen Quelle der Wahrheit vereinheitlicht — die beiden Dateien waren bereits auseinandergedriftet</li>
+
+          <li xml:lang="pt">Corrigido: a remoção do firmware NVIDIA deixava o pacote do driver totalmente instalado se não fosse o pacote firmware-* dedicado — agora purga toda a pilha do driver antes de tocar nos arquivos</li>
+          <li xml:lang="pt">Corrigido: falso positivo de virt-viewer/virt-manager/libvirt-clients — são clientes remotos (ex. Proxmox), não dependem de suporte KVM local, não são mais marcados como não utilizados</li>
+          <li xml:lang="pt">Corrigido: arquivos .conf órfãos em /etc/dracut.conf.d/ deixados por instaladores de drivers (nvidia.conf, blacklist-nouveau.conf) nunca eram detetados ou limpos. Agora são verificados e removidos, com exclusão rígida para arquivos de política da distro (soplos.conf, i18n.conf, local.conf)</li>
+          <li xml:lang="pt">Corrigido: as VirtualBox Guest Additions nunca eram totalmente desinstaladas — só os arquivos de serviço/autostart remanescentes eram removidos. Agora executa primeiro o uninstall.sh oficial (ou rcvboxadd cleanup) quando presente</li>
+          <li xml:lang="pt">Adicionado: famílias de firmware sem pacote dedicado (incluídas em firmware-linux-nonfree/firmware-misc-nonfree) agora são marcadas como "temporárias" via consulta real a dpkg -S — removê-las só liberta espaço até a próxima atualização do pacote</li>
+          <li xml:lang="pt">Alterado: unificado o mapeamento pacote-módulo do kernel entre hardware.py, cache.py e root_helper.py numa única fonte de verdade — os dois arquivos já tinham divergido</li>
+
+          <li xml:lang="it">Corretto: l'eliminazione del firmware NVIDIA lasciava il pacchetto del driver completamente installato se non era il pacchetto firmware-* dedicato — ora elimina l'intero stack del driver prima di toccare i file</li>
+          <li xml:lang="it">Corretto: falso positivo per virt-viewer/virt-manager/libvirt-clients — sono client remoti (es. Proxmox), non legati al supporto KVM locale, non più segnalati come inutilizzati</li>
+          <li xml:lang="it">Corretto: i file .conf orfani in /etc/dracut.conf.d/ lasciati dagli installer dei driver (nvidia.conf, blacklist-nouveau.conf) non venivano mai rilevati né puliti. Ora vengono scansionati e rimossi, con un'esclusione rigida per i file di policy della distro (soplos.conf, i18n.conf, local.conf)</li>
+          <li xml:lang="it">Corretto: le VirtualBox Guest Additions non venivano mai disinstallate completamente — venivano rimossi solo i file di servizio/autostart residui. Ora esegue prima il uninstall.sh ufficiale (o rcvboxadd cleanup) se presente</li>
+          <li xml:lang="it">Aggiunto: le famiglie di firmware senza un pacchetto dedicato (incluse in firmware-linux-nonfree/firmware-misc-nonfree) sono ora contrassegnate come "temporanee" tramite una vera verifica del proprietario con dpkg -S — rimuoverle libera spazio solo fino al prossimo aggiornamento del pacchetto</li>
+          <li xml:lang="it">Modificato: unificata la mappatura pacchetto-modulo del kernel tra hardware.py, cache.py e root_helper.py in un'unica fonte di verità — i due file erano già disallineati</li>
+
+          <li xml:lang="ro">Remediat: ștergerea firmware-ului NVIDIA lăsa pachetul driverului complet instalat dacă nu era pachetul firmware-* dedicat — acum se elimină întregul set de pachete ale driverului înainte de a atinge fișierele</li>
+          <li xml:lang="ro">Remediat: fals pozitiv pentru virt-viewer/virt-manager/libvirt-clients — acestea sunt clienți la distanță (ex. Proxmox), independenți de suportul KVM local, nu mai sunt marcați ca nefolosiți</li>
+          <li xml:lang="ro">Remediat: fișierele .conf orfane din /etc/dracut.conf.d/ lăsate de instalatoarele de drivere (nvidia.conf, blacklist-nouveau.conf) nu erau niciodată detectate sau curățate. Acum sunt scanate și eliminate, cu o excludere strictă pentru fișierele de politică ale distribuției (soplos.conf, i18n.conf, local.conf)</li>
+          <li xml:lang="ro">Remediat: VirtualBox Guest Additions nu erau niciodată complet dezinstalate — erau eliminate doar fișierele rămase de serviciu/autostart. Acum rulează mai întâi uninstall.sh oficial (sau rcvboxadd cleanup) dacă este prezent</li>
+          <li xml:lang="ro">Adăugat: familiile de firmware fără un pachet dedicat (incluse în firmware-linux-nonfree/firmware-misc-nonfree) sunt acum marcate drept "temporare" printr-o verificare reală a proprietarului cu dpkg -S — eliminarea lor eliberează spațiu doar până la următoarea actualizare a pachetului</li>
+          <li xml:lang="ro">Modificat: unificată maparea pachet-modul de kernel din hardware.py, cache.py și root_helper.py într-o singură sursă de adevăr — cele două fișiere se desincronizaseră deja</li>
+
+          <li xml:lang="ru">Исправлено: удаление прошивки NVIDIA оставляло пакет драйвера полностью установленным, если это был не выделенный пакет firmware-* — теперь перед удалением файлов очищается весь стек драйвера</li>
+          <li xml:lang="ru">Исправлено: ложное срабатывание для virt-viewer/virt-manager/libvirt-clients — это удалённые клиенты (напр. Proxmox), не зависящие от локальной поддержки KVM, больше не помечаются как неиспользуемые</li>
+          <li xml:lang="ru">Исправлено: осиротевшие файлы .conf в /etc/dracut.conf.d/, оставленные установщиками драйверов (nvidia.conf, blacklist-nouveau.conf), никогда не обнаруживались и не удалялись. Теперь сканируются и удаляются, с жёстким исключением для файлов политики дистрибутива (soplos.conf, i18n.conf, local.conf)</li>
+          <li xml:lang="ru">Исправлено: VirtualBox Guest Additions никогда не удалялись полностью — удалялись только оставшиеся файлы служб/автозапуска. Теперь сначала запускается официальный uninstall.sh (или rcvboxadd cleanup), если он присутствует</li>
+          <li xml:lang="ru">Добавлено: семейства прошивок без выделенного пакета (входящие в firmware-linux-nonfree/firmware-misc-nonfree) теперь помечаются как «временные» через реальную проверку владельца через dpkg -S — их удаление освобождает место только до следующего обновления пакета</li>
+          <li xml:lang="ru">Изменено: объединено сопоставление пакет-модуль ядра между hardware.py, cache.py и root_helper.py в единый источник истины — эти два файла уже разошлись</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.3" date="2026-07-07">
+      <description>
+        <p>Build dependency update: python3-all replaced with python3.</p>
+        <p xml:lang="es">Actualización de dependencia de compilación: python3-all sustituido por python3.</p>
+        <p xml:lang="fr">Mise à jour de la dépendance de compilation : python3-all remplacé par python3.</p>
+        <p xml:lang="de">Aktualisierung der Build-Abhängigkeit: python3-all wurde durch python3 ersetzt.</p>
+        <p xml:lang="pt">Atualização da dependência de compilação: python3-all substituído por python3.</p>
+        <p xml:lang="it">Aggiornamento della dipendenza di compilazione: python3-all sostituito con python3.</p>
+        <p xml:lang="ro">Actualizare a dependenței de compilare: python3-all înlocuit cu python3.</p>
+        <p xml:lang="ru">Обновление зависимости сборки: python3-all заменён на python3.</p>
+      </description>
+    </release>
+    <release version="1.0.2-9" date="2026-06-29">
+      <description>
+        <p>Security and logic fix: Protected active Soplos kernel DKMS modules (NVIDIA, v4l2loopback) from being incorrectly flagged as orphans.</p>
+        <p xml:lang="es">Corrección de seguridad y lógica: Protección de los módulos DKMS activos del kernel de Soplos (NVIDIA, v4l2loopback) para evitar que se marquen incorrectamente como huérfanos.</p>
+        <p xml:lang="fr">Correction de sécurité et de logique : Protection des modules DKMS actifs du noyau Soplos (NVIDIA, v4l2loopback) pour éviter qu'ils ne soient signalés à tort comme orphelins.</p>
+        <p xml:lang="de">Sicherheits- und Logik-Fix: Schutz aktiver Soplos-Kernel-DKMS-Module (NVIDIA, v4l2loopback) vor fälschlicher Markierung als Waisen.</p>
+        <p xml:lang="pt">Correção de segurança e lógica: Proteção de módulos DKMS ativos do kernel Soplos (NVIDIA, v4l2loopback) para evitar que sejam marcados incorretamente como órfãos.</p>
+        <p xml:lang="it">Correzione di sicurezza e logica: Protezione dei moduli DKMS attivi del kernel Soplos (NVIDIA, v4l2loopback) per evitare che vengano erroneamente segnalati come orfani.</p>
+        <p xml:lang="ro">Remediere de securitate și logică: Protejarea modulelor DKMS active ale nucleului Soplos (NVIDIA, v4l2loopback) pentru a preveni marcarea incorectă a acestora ca fiind orfane.</p>
+        <p xml:lang="ru">Исправление безопасности и логики: Защита активных DKMS-модулей ядра Soplos (NVIDIA, v4l2loopback) от ошибочной пометки как сирот.</p>
+        <ul>
+          <li>Fixed: DKMS orphan scanner incorrectly handled Soplos kernel versions causing false positives</li>
+          <li xml:lang="es">Corregido: el escáner de huérfanos DKMS manejaba incorrectamente las versiones del kernel de Soplos causando falsos positivos</li>
+          <li xml:lang="fr">Corrigé : le scanner d'orphelins DKMS gérait mal les versions du noyau Soplos, causant des faux positifs</li>
+          <li xml:lang="de">Behoben: Der DKMS-Waisen-Scanner behandelte Soplos-Kernel-Versionen falsch, was zu falschen Positiven führte</li>
+          <li xml:lang="pt">Corrigido: o scanner de órfãos DKMS lidava incorretamente com versões do kernel Soplos, causando falsos positivos</li>
+          <li xml:lang="it">Corretto: lo scanner degli orfani DKMS gestiva in modo errato le versioni del kernel Soplos causando falsi positivi</li>
+          <li xml:lang="ro">Remediat: scanerul de orfani DKMS a tratat incorect versiunile de nucleu Soplos, cauzând rezultate fals pozitive</li>
+          <li xml:lang="ru">Исправлено: сканер осиротевших модулей DKMS неправильно обрабатывал версии ядра Soplos, вызывая ложные срабатывания</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2-8" date="2026-06-29">
+      <description>
+        <p>Bug fix release: 10 correctness bugs fixed across the kernel scanner, DKMS orphan detector, APT cache cleaner, hardware detection label, locale size scanner, modprobe detection, and driver removal flow.</p>
+        <p xml:lang="es">Versión de correcciones: 10 bugs de corrección en el escáner de kernels, detector de huérfanos DKMS, limpiador de caché APT, label de detección de hardware, escáner de tamaño de locales, detección de modprobe y flujo de eliminación de drivers.</p>
+        <p xml:lang="fr">Version de corrections : 10 bugs de correction dans le scanner de noyaux, le détecteur d'orphelins DKMS, le nettoyeur de cache APT, le label de détection matérielle, le scanner de taille des locales, la détection de modprobe et le flux de suppression des pilotes.</p>
+        <p xml:lang="de">Fehlerbehebungsversion: 10 Korrektheitsfehler behoben im Kernel-Scanner, DKMS-Waisen-Detektor, APT-Cache-Reiniger, Hardware-Erkennungslabel, Locale-Größen-Scanner, Modprobe-Erkennung und Treiber-Entfernungsablauf.</p>
+        <p xml:lang="pt">Versão de correções: 10 bugs de correção no scanner de kernels, detector de órfãos DKMS, limpador de cache APT, label de deteção de hardware, scanner de tamanho de locales, deteção de modprobe e fluxo de remoção de drivers.</p>
+        <p xml:lang="it">Versione di correzioni: 10 bug di correttezza corretti nel scanner dei kernel, rilevatore di orfani DKMS, pulitore della cache APT, etichetta di rilevamento hardware, scanner delle dimensioni delle locale, rilevamento modprobe e flusso di rimozione dei driver.</p>
+        <p xml:lang="ro">Versiune de remedieri: 10 erori de corectitudine remediate în scannerul de nuclee, detectorul de orfani DKMS, curățătorul cache-ului APT, eticheta de detectare hardware, scannerul de dimensiune locale, detectarea modprobe și fluxul de eliminare a driverelor.</p>
+        <p xml:lang="ru">Версия исправлений: исправлено 10 ошибок корректности в сканере ядер, детекторе осиротевших DKMS-модулей, очистителе кэша APT, метке обнаружения оборудования, сканере размеров локалей, обнаружении modprobe и потоке удаления драйверов.</p>
+        <ul>
+          <li>Fixed: kernel active detection used substring match — old kernel could be marked as active and protected from removal</li>
+          <li>Fixed: _clean_file in root_helper mishandled commented module lines — orphaned comments not removed, valid comments incorrectly deleted</li>
+          <li>Fixed: clean_module_refs and apt_autoremove dispatched concurrently to root_helper, causing JSON protocol corruption on the stdin/stdout pipe</li>
+          <li>Fixed: hardware detection label included non-GPU PCI vendors (e.g. virtio devices on KVM hosts shown as QEMU/KVM GPU)</li>
+          <li>Fixed: VM guest type (VirtualBox, VMware, Hyper-V etc.) was never shown in the Detected hardware label</li>
+          <li>Fixed: locale sizes reported as 0 KB when du returned exit code 1 on partial read errors — locales disappeared from the cleanup list</li>
+          <li>Fixed: DKMS orphan scanner only checked the running kernel — compiled modules for other installed kernels were never detected</li>
+          <li>Fixed: apt_purge was dispatched after a failed DKMS cleanup step, leaving the system with purged packages but an outdated initrd. Also fixed: rebuild_initrd is now True when APT packages follow a successful DKMS step</li>
+          <li>Fixed: module name detection in modprobe.d used plain substring — 'wl' matched inside 'brcmwl', potentially deleting valid config files. Now uses word-boundary regex</li>
+          <li>Fixed: service/autostart files flagged as orphaned when a co-owning package was still installed — vboxadd.service appeared as orphan when virtualbox-guest-utils was removed but virtualbox-guest-dkms was still present, causing DKMS to keep compiling vboxguest</li>
+
+          <li xml:lang="es">Corregido: la detección del kernel activo usaba comparación por subcadena — un kernel antiguo podía marcarse como activo y protegerse de la eliminación</li>
+          <li xml:lang="es">Corregido: _clean_file en root_helper manejaba mal las líneas de módulos comentadas — los comentarios huérfanos no se eliminaban y los comentarios válidos se borraban incorrectamente</li>
+          <li xml:lang="es">Corregido: clean_module_refs y apt_autoremove se enviaban concurrentemente al root_helper, causando corrupción del protocolo JSON en el pipe stdin/stdout</li>
+          <li xml:lang="es">Corregido: el label de detección de hardware incluía vendors PCI que no son GPU (p. ej. dispositivos virtio en hosts KVM mostrados como GPU QEMU/KVM)</li>
+          <li xml:lang="es">Corregido: el tipo de VM guest (VirtualBox, VMware, Hyper-V, etc.) nunca se mostraba en el label Hardware detectado</li>
+          <li xml:lang="es">Corregido: los tamaños de locale se reportaban como 0 KB cuando du devolvía código 1 por errores parciales de lectura — las locales desaparecían de la lista de limpieza</li>
+          <li xml:lang="es">Corregido: el scanner de módulos DKMS huérfanos solo comprobaba el kernel activo — los módulos compilados para otros kernels instalados nunca se detectaban</li>
+          <li xml:lang="es">Corregido: apt_purge se ejecutaba tras un paso DKMS fallido, dejando el sistema con paquetes eliminados pero initrd obsoleto. También corregido: rebuild_initrd es ahora True cuando los paquetes APT siguen a un paso DKMS exitoso</li>
+          <li xml:lang="es">Corregido: la detección de módulos en modprobe.d usaba subcadena pura — 'wl' coincidía dentro de 'brcmwl', pudiendo borrar archivos de configuración válidos. Ahora usa regex de límite de palabra</li>
+          <li xml:lang="es">Corregido: archivos de servicio/autostart marcados como huérfanos cuando un paquete co-propietario seguía instalado — vboxadd.service aparecía como huérfano cuando virtualbox-guest-utils se eliminaba pero virtualbox-guest-dkms seguía presente, haciendo que DKMS siguiera compilando vboxguest</li>
+
+          <li xml:lang="fr">Corrigé : la détection du noyau actif utilisait une correspondance par sous-chaîne — un ancien noyau pouvait être marqué comme actif et protégé contre la suppression</li>
+          <li xml:lang="fr">Corrigé : _clean_file dans root_helper gérait mal les lignes de modules commentées — les commentaires orphelins n'étaient pas supprimés et les commentaires valides étaient incorrectement effacés</li>
+          <li xml:lang="fr">Corrigé : clean_module_refs et apt_autoremove étaient envoyés simultanément au root_helper, causant une corruption du protocole JSON sur le pipe stdin/stdout</li>
+          <li xml:lang="fr">Corrigé : l'étiquette de détection matérielle incluait des vendeurs PCI non-GPU (ex. dispositifs virtio sur hôtes KVM affichés comme GPU QEMU/KVM)</li>
+          <li xml:lang="fr">Corrigé : le type de VM invitée (VirtualBox, VMware, Hyper-V, etc.) n'était jamais affiché dans l'étiquette Matériel détecté</li>
+          <li xml:lang="fr">Corrigé : les tailles des locales étaient rapportées comme 0 Ko quand du retournait le code 1 pour des erreurs de lecture partielles — les locales disparaissaient de la liste de nettoyage</li>
+          <li xml:lang="fr">Corrigé : le scanner de modules DKMS orphelins ne vérifiait que le noyau actif — les modules compilés pour d'autres noyaux installés n'étaient jamais détectés</li>
+          <li xml:lang="fr">Corrigé : apt_purge était exécuté après un échec de l'étape DKMS, laissant le système avec des paquets supprimés mais un initrd obsolète. Aussi corrigé : rebuild_initrd est maintenant True quand des paquets APT suivent une étape DKMS réussie</li>
+          <li xml:lang="fr">Corrigé : la détection des modules dans modprobe.d utilisait une sous-chaîne — 'wl' correspondait dans 'brcmwl', pouvant supprimer des fichiers de configuration valides. Utilise maintenant une regex de limite de mot</li>
+          <li xml:lang="fr">Corrigé : fichiers de service/autostart marqués comme orphelins quand un paquet co-propriétaire était encore installé — vboxadd.service apparaissait comme orphelin quand virtualbox-guest-utils était supprimé mais virtualbox-guest-dkms était encore présent, causant la recompilation de vboxguest par DKMS</li>
+
+          <li xml:lang="de">Behoben: Kernel-Aktiverkennung verwendete Teilstring-Vergleich — ein alter Kernel konnte als aktiv markiert und vor der Entfernung geschützt werden</li>
+          <li xml:lang="de">Behoben: _clean_file in root_helper behandelte kommentierte Modulzeilen falsch — verwaiste Kommentare wurden nicht entfernt, gültige Kommentare fälschlicherweise gelöscht</li>
+          <li xml:lang="de">Behoben: clean_module_refs und apt_autoremove wurden gleichzeitig an root_helper gesendet, was zu JSON-Protokollkorruption auf dem stdin/stdout-Pipe führte</li>
+          <li xml:lang="de">Behoben: Hardware-Erkennungslabel enthielt Nicht-GPU-PCI-Anbieter (z. B. Virtio-Geräte auf KVM-Hosts als QEMU/KVM-GPU angezeigt)</li>
+          <li xml:lang="de">Behoben: VM-Gast-Typ (VirtualBox, VMware, Hyper-V usw.) wurde nie im Label "Erkannte Hardware" angezeigt</li>
+          <li xml:lang="de">Behoben: Locale-Größen wurden als 0 KB gemeldet, wenn du Code 1 bei partiellen Lesefehlern zurückgab — Locales verschwanden aus der Bereinigungsliste</li>
+          <li xml:lang="de">Behoben: DKMS-Waisen-Scanner prüfte nur den laufenden Kernel — kompilierte Module für andere installierte Kernel wurden nie erkannt</li>
+          <li xml:lang="de">Behoben: apt_purge wurde nach einem fehlgeschlagenen DKMS-Schritt ausgeführt, was das System mit entfernten Paketen aber veraltetem initrd zurückließ. Auch behoben: rebuild_initrd ist jetzt True, wenn APT-Pakete einem erfolgreichen DKMS-Schritt folgen</li>
+          <li xml:lang="de">Behoben: Modul-Erkennung in modprobe.d verwendete einfache Teilstring-Suche — 'wl' traf in 'brcmwl', konnte gültige Konfigurationsdateien löschen. Jetzt mit Wortgrenze-Regex</li>
+          <li xml:lang="de">Behoben: Service/Autostart-Dateien als verwaist markiert, wenn ein mitbesitzendes Paket noch installiert war — vboxadd.service erschien als verwaist wenn virtualbox-guest-utils entfernt aber virtualbox-guest-dkms noch vorhanden war, sodass DKMS vboxguest weiter kompilierte</li>
+
+          <li xml:lang="pt">Corrigido: a deteção do kernel ativo usava comparação por subcadeia — um kernel antigo podia ser marcado como ativo e protegido da remoção</li>
+          <li xml:lang="pt">Corrigido: _clean_file em root_helper tratava mal as linhas de módulos comentadas — comentários órfãos não eram removidos e comentários válidos eram incorretamente apagados</li>
+          <li xml:lang="pt">Corrigido: clean_module_refs e apt_autoremove eram enviados concorrentemente para o root_helper, causando corrupção do protocolo JSON no pipe stdin/stdout</li>
+          <li xml:lang="pt">Corrigido: o label de deteção de hardware incluía vendors PCI não-GPU (ex. dispositivos virtio em hosts KVM mostrados como GPU QEMU/KVM)</li>
+          <li xml:lang="pt">Corrigido: o tipo de VM convidada (VirtualBox, VMware, Hyper-V, etc.) nunca era mostrado no label Hardware detetado</li>
+          <li xml:lang="pt">Corrigido: os tamanhos de locale eram reportados como 0 KB quando du retornava código 1 por erros de leitura parciais — as locales desapareciam da lista de limpeza</li>
+          <li xml:lang="pt">Corrigido: o scanner de módulos DKMS órfãos só verificava o kernel ativo — módulos compilados para outros kernels instalados nunca eram detetados</li>
+          <li xml:lang="pt">Corrigido: apt_purge era executado após um passo DKMS falhado, deixando o sistema com pacotes removidos mas initrd desatualizado. Também corrigido: rebuild_initrd é agora True quando pacotes APT seguem um passo DKMS bem-sucedido</li>
+          <li xml:lang="pt">Corrigido: a deteção de módulos em modprobe.d usava subcadeia pura — 'wl' coincidia dentro de 'brcmwl', podendo apagar ficheiros de configuração válidos. Usa agora regex de limite de palavra</li>
+          <li xml:lang="pt">Corrigido: ficheiros de serviço/autostart marcados como órfãos quando um pacote co-proprietário ainda estava instalado — vboxadd.service aparecia como órfão quando virtualbox-guest-utils era removido mas virtualbox-guest-dkms ainda estava presente, fazendo o DKMS continuar a compilar vboxguest</li>
+
+          <li xml:lang="it">Corretto: il rilevamento del kernel attivo usava la corrispondenza per sottostringa — un kernel vecchio poteva essere contrassegnato come attivo e protetto dalla rimozione</li>
+          <li xml:lang="it">Corretto: _clean_file in root_helper gestiva male le righe di moduli commentate — i commenti orfani non venivano rimossi e i commenti validi venivano eliminati erroneamente</li>
+          <li xml:lang="it">Corretto: clean_module_refs e apt_autoremove venivano inviati contemporaneamente a root_helper, causando corruzione del protocollo JSON sulla pipe stdin/stdout</li>
+          <li xml:lang="it">Corretto: l'etichetta di rilevamento hardware includeva vendor PCI non-GPU (es. dispositivi virtio su host KVM mostrati come GPU QEMU/KVM)</li>
+          <li xml:lang="it">Corretto: il tipo di VM ospite (VirtualBox, VMware, Hyper-V, ecc.) non veniva mai mostrato nell'etichetta Hardware rilevato</li>
+          <li xml:lang="it">Corretto: le dimensioni delle locale venivano riportate come 0 KB quando du restituiva codice 1 per errori di lettura parziali — le locale sparivano dall'elenco di pulizia</li>
+          <li xml:lang="it">Corretto: lo scanner di moduli DKMS orfani controllava solo il kernel in esecuzione — i moduli compilati per altri kernel installati non venivano mai rilevati</li>
+          <li xml:lang="it">Corretto: apt_purge veniva eseguito dopo un passo DKMS fallito, lasciando il sistema con pacchetti rimossi ma initrd obsoleto. Anche corretto: rebuild_initrd è ora True quando i pacchetti APT seguono un passo DKMS riuscito</li>
+          <li xml:lang="it">Corretto: il rilevamento dei moduli in modprobe.d usava ricerca per sottostringa — 'wl' corrispondeva all'interno di 'brcmwl', potendo eliminare file di configurazione validi. Ora usa regex con limite di parola</li>
+          <li xml:lang="it">Corretto: file di servizio/autostart contrassegnati come orfani quando un pacchetto co-proprietario era ancora installato — vboxadd.service appariva come orfano quando virtualbox-guest-utils veniva rimosso ma virtualbox-guest-dkms era ancora presente, facendo sì che DKMS continuasse a compilare vboxguest</li>
+
+          <li xml:lang="ro">Rezolvat: detectarea kernelului activ folosea potrivire prin subșir — un nucleu vechi putea fi marcat ca activ și protejat de eliminare</li>
+          <li xml:lang="ro">Rezolvat: _clean_file în root_helper trata incorect liniile de module comentate — comentariile orfane nu erau eliminate și comentariile valide erau șterse incorect</li>
+          <li xml:lang="ro">Rezolvat: clean_module_refs și apt_autoremove erau trimise concurent la root_helper, cauzând coruperea protocolului JSON pe pipe-ul stdin/stdout</li>
+          <li xml:lang="ro">Rezolvat: eticheta de detectare hardware includea vendori PCI non-GPU (ex. dispozitive virtio pe gazde KVM afișate ca GPU QEMU/KVM)</li>
+          <li xml:lang="ro">Rezolvat: tipul de VM invitat (VirtualBox, VMware, Hyper-V etc.) nu era niciodată afișat în eticheta Hardware detectat</li>
+          <li xml:lang="ro">Rezolvat: dimensiunile locale erau raportate ca 0 KB când du returna codul 1 pentru erori de citire parțiale — localele dispăreau din lista de curățare</li>
+          <li xml:lang="ro">Rezolvat: scannerul de module DKMS orfane verifica doar nucleul activ — modulele compilate pentru alte nuclee instalate nu erau niciodată detectate</li>
+          <li xml:lang="ro">Rezolvat: apt_purge era executat după un pas DKMS eșuat, lăsând sistemul cu pachete eliminate dar initrd învechit. De asemenea rezolvat: rebuild_initrd este acum True când pachetele APT urmează un pas DKMS reușit</li>
+          <li xml:lang="ro">Rezolvat: detectarea modulelor în modprobe.d folosea subșir simplu — 'wl' se potrivea în 'brcmwl', putând șterge fișiere de configurare valide. Acum folosește regex cu limită de cuvânt</li>
+          <li xml:lang="ro">Rezolvat: fișierele de serviciu/autostart marcate ca orfane când un pachet co-proprietar era încă instalat — vboxadd.service apărea ca orfan când virtualbox-guest-utils era eliminat dar virtualbox-guest-dkms era încă prezent, făcând DKMS să continue să compileze vboxguest</li>
+
+          <li xml:lang="ru">Исправлено: обнаружение активного ядра использовало поиск подстроки — старое ядро могло быть помечено как активное и защищено от удаления</li>
+          <li xml:lang="ru">Исправлено: _clean_file в root_helper неправильно обрабатывал закомментированные строки модулей — осиротевшие комментарии не удалялись, а действительные комментарии ошибочно удалялись</li>
+          <li xml:lang="ru">Исправлено: clean_module_refs и apt_autoremove отправлялись в root_helper одновременно, вызывая повреждение протокола JSON в пайпе stdin/stdout</li>
+          <li xml:lang="ru">Исправлено: метка обнаружения оборудования включала PCI-вендоры не-GPU (напр. устройства virtio на KVM-хостах отображались как GPU QEMU/KVM)</li>
+          <li xml:lang="ru">Исправлено: тип гостевой ВМ (VirtualBox, VMware, Hyper-V и др.) никогда не отображался в метке «Обнаруженное оборудование»</li>
+          <li xml:lang="ru">Исправлено: размеры локалей сообщались как 0 КБ когда du возвращал код 1 при частичных ошибках чтения — локали исчезали из списка очистки</li>
+          <li xml:lang="ru">Исправлено: сканер осиротевших DKMS-модулей проверял только работающее ядро — скомпилированные модули для других установленных ядер никогда не обнаруживались</li>
+          <li xml:lang="ru">Исправлено: apt_purge выполнялся после неудачного шага DKMS, оставляя систему с удалёнными пакетами но устаревшим initrd. Также исправлено: rebuild_initrd теперь True когда пакеты APT следуют за успешным шагом DKMS</li>
+          <li xml:lang="ru">Исправлено: обнаружение модулей в modprobe.d использовало простой поиск подстроки — 'wl' совпадал внутри 'brcmwl', что могло удалять действительные файлы конфигурации. Теперь использует regex с границей слова</li>
+          <li xml:lang="ru">Исправлено: файлы служб/автозапуска помечались как осиротевшие когда совладелец-пакет был ещё установлен — vboxadd.service появлялся как осиротевший когда virtualbox-guest-utils удалялся но virtualbox-guest-dkms ещё присутствовал, из-за чего DKMS продолжал компилировать vboxguest</li>
+
+          <li>Fixed: CPU temperature always showed 20°C on boards where thermal_zone0 maps to acpitz (a stub driver). The overview panel now searches /sys/class/hwmon/ prioritizing k10temp (AMD Tctl), then coretemp (Intel Package/Core 0), then other common drivers, falling back to acpitz/thermal_zone only as a last resort</li>
+          <li xml:lang="es">Corregido: la temperatura de CPU siempre mostraba 20°C en placas donde thermal_zone0 mapea a acpitz (un driver stub). El panel de resumen ahora busca en /sys/class/hwmon/ priorizando k10temp (AMD Tctl), luego coretemp (Intel Package/Core 0), luego otros drivers comunes, usando acpitz/thermal_zone solo como último recurso</li>
+          <li xml:lang="fr">Corrigé : la température CPU affichait toujours 20°C sur les cartes où thermal_zone0 mappe sur acpitz (un pilote stub). Le panneau de résumé recherche maintenant dans /sys/class/hwmon/ en priorisant k10temp (AMD Tctl), puis coretemp (Intel Package/Core 0), puis d'autres pilotes courants, en utilisant acpitz/thermal_zone uniquement en dernier recours</li>
+          <li xml:lang="de">Behoben: CPU-Temperatur zeigte immer 20°C auf Boards, bei denen thermal_zone0 auf acpitz (einen Stub-Treiber) abbildet. Das Übersichtspanel sucht jetzt in /sys/class/hwmon/ und priorisiert k10temp (AMD Tctl), dann coretemp (Intel Package/Core 0), dann andere gängige Treiber, und verwendet acpitz/thermal_zone nur als letzten Ausweg</li>
+          <li xml:lang="pt">Corrigido: a temperatura da CPU mostrava sempre 20°C em placas onde thermal_zone0 mapeia para acpitz (um driver stub). O painel de resumo procura agora em /sys/class/hwmon/ priorizando k10temp (AMD Tctl), depois coretemp (Intel Package/Core 0), depois outros drivers comuns, usando acpitz/thermal_zone apenas como último recurso</li>
+          <li xml:lang="it">Corretto: la temperatura della CPU mostrava sempre 20°C sulle schede dove thermal_zone0 mappa su acpitz (un driver stub). Il pannello di riepilogo cerca ora in /sys/class/hwmon/ dando priorità a k10temp (AMD Tctl), poi coretemp (Intel Package/Core 0), poi altri driver comuni, usando acpitz/thermal_zone solo come ultima risorsa</li>
+          <li xml:lang="ro">Rezolvat: temperatura CPU afișa întotdeauna 20°C pe plăcile unde thermal_zone0 mapează la acpitz (un driver stub). Panoul de rezumat caută acum în /sys/class/hwmon/ prioritizând k10temp (AMD Tctl), apoi coretemp (Intel Package/Core 0), apoi alți drivere comune, folosind acpitz/thermal_zone doar ca ultimă soluție</li>
+          <li xml:lang="ru">Исправлено: температура ЦП всегда показывала 20°C на платах где thermal_zone0 указывает на acpitz (заглушка-драйвер). Панель обзора теперь ищет в /sys/class/hwmon/ с приоритетом k10temp (AMD Tctl), затем coretemp (Intel Package/Core 0), затем другие распространённые драйверы, используя acpitz/thermal_zone только в крайнем случае</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2-7" date="2026-06-24">
+      <description>
+        <p>Bug fix release: VirtualBox (and other hypervisor) guest service files are no longer shown as orphaned when running inside a virtual machine. Duplicate entries for the same file are also fixed.</p>
+        <p xml:lang="es">Versión de correcciones: los archivos de servicios guest de VirtualBox (y otros hipervisores) ya no se muestran como huérfanos cuando el sistema corre dentro de una máquina virtual. También se corrigen las entradas duplicadas para el mismo archivo.</p>
+        <p xml:lang="fr">Version de corrections : les fichiers de services invités VirtualBox (et autres hyperviseurs) ne sont plus affichés comme orphelins lors de l'exécution dans une machine virtuelle. Les entrées en double pour le même fichier sont également corrigées.</p>
+        <p xml:lang="de">Fehlerbehebungsversion: VirtualBox- (und andere Hypervisor-) Gast-Service-Dateien werden nicht mehr als verwaist angezeigt, wenn das System in einer virtuellen Maschine läuft. Doppelte Einträge für dieselbe Datei werden ebenfalls behoben.</p>
+        <p xml:lang="pt">Versão de correções: os ficheiros de serviços guest do VirtualBox (e outros hipervisores) já não são mostrados como órfãos quando o sistema corre numa máquina virtual. As entradas duplicadas para o mesmo ficheiro também são corrigidas.</p>
+        <p xml:lang="it">Versione di correzioni: i file di servizi guest di VirtualBox (e altri hypervisor) non vengono più mostrati come orfani quando il sistema è in esecuzione in una macchina virtuale. Vengono corrette anche le voci duplicate per lo stesso file.</p>
+        <p xml:lang="ro">Versiune de remedieri: fișierele de servicii guest VirtualBox (și ale altor hipervizoare) nu mai sunt afișate ca orfane când sistemul rulează într-o mașină virtuală. Intrările duplicate pentru același fișier sunt de asemenea remediate.</p>
+        <p xml:lang="ru">Версия исправлений: файлы гостевых служб VirtualBox (и других гипервизоров) больше не отображаются как осиротевшие при работе внутри виртуальной машины. Также исправлены дублирующиеся записи для одного и того же файла.</p>
+        <ul>
+          <li>Fixed: VirtualBox guest service files (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) shown as orphaned when running inside VirtualBox — orphan detector now receives vm_guest_type from systemd-detect-virt and protects all files belonging to the current guest platform (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li>Fixed: 98vboxadd-xclient appeared twice in the orphaned list — /etc/X11/Xsession.d/98vboxadd-xclient was listed in both virtualbox-guest-x11 and virtualbox-guest-utils entries; added path deduplication so each file is reported at most once</li>
+
+          <li xml:lang="es">Corregido: los archivos de servicios guest de VirtualBox (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) se mostraban como huérfanos al correr dentro de VirtualBox — el detector de huérfanos ahora recibe vm_guest_type de systemd-detect-virt y protege todos los archivos de la plataforma guest actual (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li xml:lang="es">Corregido: 98vboxadd-xclient aparecía dos veces en la lista de huérfanos — /etc/X11/Xsession.d/98vboxadd-xclient estaba en las entradas de virtualbox-guest-x11 y virtualbox-guest-utils; añadida deduplicación por path para que cada archivo aparezca como máximo una vez</li>
+
+          <li xml:lang="fr">Corrigé : les fichiers de services invités VirtualBox (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) s'affichaient comme orphelins lors de l'exécution dans VirtualBox — le détecteur d'orphelins reçoit maintenant vm_guest_type de systemd-detect-virt et protège tous les fichiers de la plateforme invitée actuelle (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li xml:lang="fr">Corrigé : 98vboxadd-xclient apparaissait deux fois dans la liste des orphelins — /etc/X11/Xsession.d/98vboxadd-xclient était listé dans les entrées de virtualbox-guest-x11 et virtualbox-guest-utils ; déduplication par chemin ajoutée pour que chaque fichier n'apparaisse qu'une fois</li>
+
+          <li xml:lang="de">Behoben: VirtualBox-Gast-Servicedateien (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) wurden als verwaist angezeigt, wenn das System in VirtualBox lief — der Waisen-Detektor empfängt jetzt vm_guest_type von systemd-detect-virt und schützt alle Dateien der aktuellen Gast-Plattform (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li xml:lang="de">Behoben: 98vboxadd-xclient erschien zweimal in der Waisenliste — /etc/X11/Xsession.d/98vboxadd-xclient war in den Einträgen für virtualbox-guest-x11 und virtualbox-guest-utils aufgeführt; Pfad-Deduplizierung hinzugefügt, damit jede Datei höchstens einmal gemeldet wird</li>
+
+          <li xml:lang="pt">Corrigido: os ficheiros de serviços guest do VirtualBox (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) eram mostrados como órfãos ao correr dentro do VirtualBox — o detector de órfãos recebe agora vm_guest_type do systemd-detect-virt e protege todos os ficheiros da plataforma guest atual (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li xml:lang="pt">Corrigido: 98vboxadd-xclient aparecia duas vezes na lista de órfãos — /etc/X11/Xsession.d/98vboxadd-xclient estava listado nas entradas de virtualbox-guest-x11 e virtualbox-guest-utils; adicionada deduplicação por path para que cada ficheiro apareça no máximo uma vez</li>
+
+          <li xml:lang="it">Corretto: i file di servizi guest di VirtualBox (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) venivano mostrati come orfani quando il sistema era in esecuzione in VirtualBox — il rilevatore di orfani riceve ora vm_guest_type da systemd-detect-virt e protegge tutti i file della piattaforma guest corrente (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li xml:lang="it">Corretto: 98vboxadd-xclient appariva due volte nell'elenco degli orfani — /etc/X11/Xsession.d/98vboxadd-xclient era elencato nelle voci di virtualbox-guest-x11 e virtualbox-guest-utils; aggiunta deduplicazione per percorso affinché ogni file venga segnalato al massimo una volta</li>
+
+          <li xml:lang="ro">Rezolvat: fișierele de servicii guest VirtualBox (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) erau afișate ca orfane când sistemul rula în VirtualBox — detectorul de orfane primește acum vm_guest_type de la systemd-detect-virt și protejează toate fișierele platformei guest curente (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li xml:lang="ro">Rezolvat: 98vboxadd-xclient apărea de două ori în lista de orfane — /etc/X11/Xsession.d/98vboxadd-xclient era listat atât în intrările virtualbox-guest-x11 cât și virtualbox-guest-utils; adăugată deduplicare după cale pentru ca fiecare fișier să fie raportat cel mult o dată</li>
+
+          <li xml:lang="ru">Исправлено: файлы гостевых служб VirtualBox (vboxadd.service, 98vboxadd-xclient, vboxclient.desktop) отображались как осиротевшие при работе внутри VirtualBox — детектор осиротевших файлов теперь получает vm_guest_type от systemd-detect-virt и защищает все файлы текущей гостевой платформы (oracle/VirtualBox, vmware, microsoft/Hyper-V, kvm/qemu)</li>
+          <li xml:lang="ru">Исправлено: 98vboxadd-xclient появлялся дважды в списке осиротевших файлов — /etc/X11/Xsession.d/98vboxadd-xclient был перечислен в записях и virtualbox-guest-x11, и virtualbox-guest-utils; добавлена дедупликация по пути, чтобы каждый файл сообщался не более одного раза</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2-6" date="2026-06-14">
+      <description>
+        <p>Bug fix release: SPICE guest tools (spice-vdagent, spice-webdavd) are no longer shown as removable when running inside a KVM/QEMU virtual machine in virt-manager.</p>
+        <p xml:lang="es">Versión de correcciones: las herramientas SPICE (spice-vdagent, spice-webdavd) ya no se muestran como eliminables cuando el sistema corre dentro de una máquina virtual KVM/QEMU en virt-manager.</p>
+        <p xml:lang="fr">Version de corrections : les outils SPICE (spice-vdagent, spice-webdavd) ne sont plus affichés comme supprimables lors de l'exécution dans une machine virtuelle KVM/QEMU dans virt-manager.</p>
+        <p xml:lang="de">Fehlerbehebungsversion: SPICE-Gast-Tools (spice-vdagent, spice-webdavd) werden nicht mehr als entfernbar angezeigt, wenn das System in einer KVM/QEMU-VM in virt-manager läuft.</p>
+        <p xml:lang="pt">Versão de correções: as ferramentas SPICE (spice-vdagent, spice-webdavd) já não são mostradas como removíveis quando o sistema corre numa máquina virtual KVM/QEMU no virt-manager.</p>
+        <p xml:lang="it">Versione di correzioni: gli strumenti SPICE (spice-vdagent, spice-webdavd) non vengono più mostrati come rimovibili quando il sistema è in esecuzione in una macchina virtuale KVM/QEMU in virt-manager.</p>
+        <p xml:lang="ro">Versiune de remedieri: instrumentele SPICE (spice-vdagent, spice-webdavd) nu mai sunt afișate ca eliminabile când sistemul rulează într-o mașină virtuală KVM/QEMU în virt-manager.</p>
+        <p xml:lang="ru">Версия исправлений: инструменты SPICE (spice-vdagent, spice-webdavd) больше не отображаются как удаляемые при работе внутри виртуальной машины KVM/QEMU в virt-manager.</p>
+        <ul>
+          <li>Fixed: spice-vdagent and spice-webdavd shown as removable in KVM/QEMU VMs — VM_GUEST_PACKAGES had separate kvm and qemu entries with identical package lists; detecting kvm only protected the kvm entry while qemu caused the same packages to appear removable. Detecting kvm now also protects qemu packages and vice versa</li>
+
+          <li xml:lang="es">Corregido: spice-vdagent y spice-webdavd se mostraban como eliminables en VMs KVM/QEMU — VM_GUEST_PACKAGES tenía entradas separadas kvm y qemu con los mismos paquetes; detectar kvm solo protegía la entrada kvm mientras que qemu hacía que los mismos paquetes aparecieran como eliminables. Detectar kvm ahora también protege los paquetes de qemu y viceversa</li>
+
+          <li xml:lang="fr">Corrigé : spice-vdagent et spice-webdavd s'affichaient comme supprimables dans les VM KVM/QEMU — VM_GUEST_PACKAGES avait des entrées kvm et qemu séparées avec les mêmes paquets ; détecter kvm ne protégeait que l'entrée kvm tandis que qemu faisait apparaître les mêmes paquets comme supprimables. Détecter kvm protège maintenant aussi les paquets qemu et vice versa</li>
+
+          <li xml:lang="de">Behoben: spice-vdagent und spice-webdavd wurden in KVM/QEMU-VMs als entfernbar angezeigt — VM_GUEST_PACKAGES hatte separate kvm- und qemu-Einträge mit identischen Paketen; die Erkennung von kvm schützte nur den kvm-Eintrag, während qemu dieselben Pakete als entfernbar anzeigte. Die Erkennung von kvm schützt jetzt auch qemu-Pakete und umgekehrt</li>
+
+          <li xml:lang="pt">Corrigido: spice-vdagent e spice-webdavd eram mostrados como removíveis em VMs KVM/QEMU — VM_GUEST_PACKAGES tinha entradas separadas kvm e qemu com os mesmos pacotes; detetar kvm só protegia a entrada kvm enquanto qemu fazia os mesmos pacotes aparecer como removíveis. Detetar kvm agora também protege os pacotes qemu e vice-versa</li>
+
+          <li xml:lang="it">Corretto: spice-vdagent e spice-webdavd venivano mostrati come rimovibili nelle VM KVM/QEMU — VM_GUEST_PACKAGES aveva voci separate kvm e qemu con gli stessi pacchetti; rilevare kvm proteggeva solo la voce kvm mentre qemu faceva apparire gli stessi pacchetti come rimovibili. Rilevare kvm ora protegge anche i pacchetti qemu e viceversa</li>
+
+          <li xml:lang="ro">Rezolvat: spice-vdagent și spice-webdavd erau afișate ca eliminabile în VM-urile KVM/QEMU — VM_GUEST_PACKAGES avea intrări separate kvm și qemu cu aceleași pachete; detectarea kvm proteja doar intrarea kvm în timp ce qemu făcea ca aceleași pachete să apară ca eliminabile. Detectarea kvm protejează acum și pachetele qemu și invers</li>
+
+          <li xml:lang="ru">Исправлено: spice-vdagent и spice-webdavd отображались как удаляемые в ВМ KVM/QEMU — VM_GUEST_PACKAGES имел отдельные записи kvm и qemu с одинаковыми пакетами; обнаружение kvm защищало только запись kvm, тогда как qemu делал те же пакеты удаляемыми. Теперь обнаружение kvm также защищает пакеты qemu и наоборот</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2-5" date="2026-06-12">
+      <description>
+        <p>Bug fix release: firmware removal is now permanent — the Firmwares tab purges the owning APT package instead of only deleting files, preventing restored firmware on every apt upgrade.</p>
+        <p xml:lang="es">Versión de correcciones: la eliminación de firmwares ahora es permanente — la pestaña Firmwares purga el paquete APT propietario en lugar de solo borrar archivos, evitando que los firmwares se restauren en cada apt upgrade.</p>
+        <p xml:lang="fr">Version de corrections : la suppression des micrologiciels est désormais permanente — l'onglet Micrologiciels purge le paquet APT propriétaire au lieu de simplement supprimer les fichiers, évitant la restauration des micrologiciels à chaque apt upgrade.</p>
+        <p xml:lang="de">Fehlerbehebungsversion: Firmware-Entfernung ist jetzt dauerhaft — der Firmware-Tab löscht das zugehörige APT-Paket statt nur Dateien zu entfernen, was eine Wiederherstellung der Firmware bei jedem apt upgrade verhindert.</p>
+        <p xml:lang="pt">Versão de correções: a remoção de firmwares é agora permanente — o separador Firmwares purga o pacote APT proprietário em vez de apenas apagar ficheiros, evitando que os firmwares sejam restaurados em cada apt upgrade.</p>
+        <p xml:lang="it">Versione di correzioni: la rimozione del firmware è ora permanente — la scheda Firmware elimina il pacchetto APT proprietario invece di cancellare solo i file, evitando il ripristino del firmware ad ogni apt upgrade.</p>
+        <p xml:lang="ro">Versiune de remedieri: eliminarea firmware-ului este acum permanentă — fila Firmware șterge pachetul APT proprietar în loc să elimine doar fișierele, prevenind restaurarea firmware-ului la fiecare apt upgrade.</p>
+        <p xml:lang="ru">Версия исправлений: удаление прошивок теперь постоянное — вкладка «Прошивки» удаляет пакет APT-владелец вместо простого удаления файлов, предотвращая восстановление прошивок при каждом apt upgrade.</p>
+        <ul>
+          <li>Fixed: firmware removal was not permanent — files were restored on every apt upgrade because the owning packages (firmware-realtek, firmware-amd-graphics, firmware-iwlwifi, etc.) were never removed. The action now runs apt purge for the owning package when all its firmware directories are selected for removal. Generic bundles (firmware-linux-nonfree, firmware-misc-nonfree) are not purged as they contain firmware for many unrelated hardware families</li>
+
+          <li xml:lang="es">Corregido: la eliminación de firmwares no era permanente — los archivos se restauraban en cada apt upgrade porque los paquetes propietarios (firmware-realtek, firmware-amd-graphics, firmware-iwlwifi, etc.) nunca se eliminaban. La acción ahora ejecuta apt purge del paquete propietario cuando todos sus directorios de firmware se seleccionan para eliminar. Los bundles genéricos (firmware-linux-nonfree, firmware-misc-nonfree) no se purgan ya que contienen firmware para muchos tipos de hardware</li>
+
+          <li xml:lang="fr">Corrigé : la suppression des micrologiciels n'était pas permanente — les fichiers étaient restaurés à chaque apt upgrade car les paquets propriétaires (firmware-realtek, firmware-amd-graphics, firmware-iwlwifi, etc.) n'étaient jamais supprimés. L'action exécute maintenant apt purge du paquet propriétaire quand tous ses répertoires sont sélectionnés. Les bundles génériques (firmware-linux-nonfree, firmware-misc-nonfree) ne sont pas purgés car ils contiennent des micrologiciels pour de nombreux types de matériel</li>
+
+          <li xml:lang="de">Behoben: Firmware-Entfernung war nicht dauerhaft — Dateien wurden bei jedem apt upgrade wiederhergestellt, da die Eigentümerpakete (firmware-realtek, firmware-amd-graphics, firmware-iwlwifi usw.) nie entfernt wurden. Die Aktion führt jetzt apt purge für das Eigentümerpaket aus, wenn alle seine Firmware-Verzeichnisse zur Entfernung ausgewählt werden. Generische Pakete (firmware-linux-nonfree, firmware-misc-nonfree) werden nicht gelöscht, da sie Firmware für viele verschiedene Hardware-Typen enthalten</li>
+
+          <li xml:lang="pt">Corrigido: a remoção de firmwares não era permanente — os ficheiros eram restaurados em cada apt upgrade porque os pacotes proprietários (firmware-realtek, firmware-amd-graphics, firmware-iwlwifi, etc.) nunca eram removidos. A ação executa agora apt purge do pacote proprietário quando todos os seus diretórios de firmware são selecionados. Os bundles genéricos (firmware-linux-nonfree, firmware-misc-nonfree) não são purgados pois contêm firmware para muitos tipos de hardware</li>
+
+          <li xml:lang="it">Corretto: la rimozione del firmware non era permanente — i file venivano ripristinati ad ogni apt upgrade poiché i pacchetti proprietari (firmware-realtek, firmware-amd-graphics, firmware-iwlwifi, ecc.) non venivano mai rimossi. L'azione ora esegue apt purge del pacchetto proprietario quando tutte le sue directory firmware sono selezionate. I bundle generici (firmware-linux-nonfree, firmware-misc-nonfree) non vengono purgati poiché contengono firmware per molti tipi di hardware</li>
+
+          <li xml:lang="ro">Rezolvat: eliminarea firmware-ului nu era permanentă — fișierele erau restaurate la fiecare apt upgrade deoarece pachetele proprietare (firmware-realtek, firmware-amd-graphics, firmware-iwlwifi etc.) nu erau niciodată eliminate. Acțiunea execută acum apt purge pentru pachetul proprietar când toate directoarele sale de firmware sunt selectate. Bundle-urile generice (firmware-linux-nonfree, firmware-misc-nonfree) nu sunt șterse deoarece conțin firmware pentru multe tipuri de hardware</li>
+
+          <li xml:lang="ru">Исправлено: удаление прошивок не было постоянным — файлы восстанавливались при каждом apt upgrade, поскольку пакеты-владельцы (firmware-realtek, firmware-amd-graphics, firmware-iwlwifi и др.) никогда не удалялись. Теперь действие выполняет apt purge пакета-владельца, когда все его директории прошивок выбраны для удаления. Универсальные пакеты (firmware-linux-nonfree, firmware-misc-nonfree) не удаляются, так как содержат прошивки для многих типов оборудования</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2-4" date="2026-06-09">
+      <description>
+        <p>Bug fix release: DKMS orphan detection no longer shows active installed drivers as orphans, and old compiled DKMS versions left after driver upgrades are now correctly detected.</p>
+        <p xml:lang="es">Versión de correcciones: la detección de módulos DKMS huérfanos ya no muestra como huérfanos los drivers instalados y activos, y las versiones compiladas antiguas que quedan tras actualizar drivers se detectan correctamente.</p>
+        <p xml:lang="fr">Version de corrections : la détection des modules DKMS orphelins n'affiche plus les pilotes actifs comme orphelins, et les anciennes versions compilées laissées après les mises à jour des pilotes sont correctement détectées.</p>
+        <p xml:lang="de">Fehlerbehebungsversion: DKMS-Waisenerkennung zeigt aktive Treiber nicht mehr als Waisen an, und alte kompilierte DKMS-Versionen nach Treiberaktualisierungen werden korrekt erkannt.</p>
+        <p xml:lang="pt">Versão de correções: a deteção de módulos DKMS órfãos já não mostra como órfãos os drivers instalados e ativos, e as versões compiladas antigas após atualizações de drivers são detetadas corretamente.</p>
+        <p xml:lang="it">Versione di correzioni: il rilevamento dei moduli DKMS orfani non mostra più i driver attivi come orfani, e le vecchie versioni compilate rimaste dopo gli aggiornamenti dei driver vengono rilevate correttamente.</p>
+        <p xml:lang="ro">Versiune de remedieri: detectarea modulelor DKMS orfane nu mai afișează driverele active ca orfane, iar versiunile compilate vechi rămase după actualizările driverelor sunt detectate corect.</p>
+        <p xml:lang="ru">Версия исправлений: обнаружение осиротевших DKMS-модулей больше не показывает активные драйверы как осиротевшие, а старые скомпилированные версии после обновления драйверов теперь обнаруживаются корректно.</p>
+        <ul>
+          <li>Fixed: DKMS orphan detector was showing active installed NVIDIA (and other) drivers as orphans — the DKMS directory name (e.g. nvidia) did not match the package name tried (nvidia-dkms). Added DKMS_MODULE_PACKAGES mapping covering NVIDIA, VirtualBox guest, Broadcom, ZFS, v4l2loopback and other known mismatches</li>
+          <li>Fixed: DKMS orphan detector was not detecting old compiled versions left after a driver upgrade (e.g. nvidia 580.126.20 lingering after upgrade to 580.159.04) — now checks /usr/src/module-version/ presence and compares installed package version</li>
+
+          <li xml:lang="es">Corregido: el detector de módulos DKMS huérfanos mostraba los drivers NVIDIA (y otros) instalados y activos como huérfanos — el nombre del directorio DKMS (p. ej. nvidia) no coincidía con el nombre de paquete buscado (nvidia-dkms)</li>
+          <li xml:lang="es">Corregido: el detector no encontraba versiones compiladas antiguas que quedan tras actualizar el driver (p. ej. nvidia 580.126.20 al actualizar a 580.159.04)</li>
+
+          <li xml:lang="fr">Corrigé : le détecteur DKMS affichait les pilotes NVIDIA actifs comme orphelins — le nom du répertoire DKMS (ex. nvidia) ne correspondait pas au nom du paquet (nvidia-dkms)</li>
+          <li xml:lang="fr">Corrigé : le détecteur ne trouvait pas les anciennes versions compilées après mise à jour d'un pilote (ex. nvidia 580.126.20 après mise à jour vers 580.159.04)</li>
+
+          <li xml:lang="de">Behoben: DKMS-Detektor zeigte aktive NVIDIA-Treiber als Waisen — DKMS-Verzeichnisname (z. B. nvidia) stimmte nicht mit Paketnamen (nvidia-dkms) überein</li>
+          <li xml:lang="de">Behoben: Detektor erkannte keine alten kompilierten Versionen nach Treiber-Upgrade (z. B. nvidia 580.126.20 nach Upgrade auf 580.159.04)</li>
+
+          <li xml:lang="pt">Corrigido: o detetor DKMS mostrava os drivers NVIDIA ativos como órfãos — o nome do diretório DKMS (ex. nvidia) não coincidia com o nome do pacote (nvidia-dkms)</li>
+          <li xml:lang="pt">Corrigido: o detetor não encontrava versões compiladas antigas após atualizar o driver (ex. nvidia 580.126.20 ao atualizar para 580.159.04)</li>
+
+          <li xml:lang="it">Corretto: il rilevatore DKMS mostrava i driver NVIDIA attivi come orfani — il nome della directory DKMS (es. nvidia) non corrispondeva al nome del pacchetto (nvidia-dkms)</li>
+          <li xml:lang="it">Corretto: il rilevatore non trovava le versioni compilate vecchie dopo un aggiornamento del driver (es. nvidia 580.126.20 dopo aggiornamento a 580.159.04)</li>
+
+          <li xml:lang="ro">Rezolvat: detectorul DKMS afișa driverele NVIDIA active ca orfane — numele directorului DKMS (ex. nvidia) nu corespundea cu numele pachetului (nvidia-dkms)</li>
+          <li xml:lang="ro">Rezolvat: detectorul nu găsea versiunile vechi compilate după actualizarea unui driver (ex. nvidia 580.126.20 după actualizarea la 580.159.04)</li>
+
+          <li xml:lang="ru">Исправлено: детектор DKMS отображал активные драйверы NVIDIA как осиротевшие — имя директории DKMS (напр. nvidia) не совпадало с именем пакета (nvidia-dkms)</li>
+          <li xml:lang="ru">Исправлено: детектор не находил старые скомпилированные версии после обновления драйвера (напр. nvidia 580.126.20 после обновления до 580.159.04)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2-3" date="2026-06-04">
+      <description>
+        <p>Bug fix and cleanup release: orphaned DKMS modules, systemd services, X11/XDG autostart files and module references left after driver removal are now detected and cleaned. Fixes VBoxClient boot notifications on systems where VirtualBox guest packages were removed.</p>
+        <p xml:lang="es">Versión de correcciones y limpieza: módulos DKMS huérfanos, servicios systemd, ficheros de autostart X11/XDG y referencias de módulos que quedan tras desinstalar drivers ahora se detectan y eliminan. Corrige las notificaciones de VBoxClient al arrancar en sistemas donde se eliminaron los paquetes de guest de VirtualBox.</p>
+        <p xml:lang="fr">Version de corrections et nettoyage : les modules DKMS orphelins, services systemd, fichiers d'autostart X11/XDG et références de modules laissés après la suppression des pilotes sont maintenant détectés et nettoyés. Corrige les notifications VBoxClient au démarrage sur les systèmes où les paquets invités VirtualBox ont été supprimés.</p>
+        <p xml:lang="de">Fehlerbehebungs- und Bereinigungsversion: verwaiste DKMS-Module, systemd-Dienste, X11/XDG-Autostartdateien und Modulreferenzen nach der Treiberentfernung werden jetzt erkannt und bereinigt. Behebt VBoxClient-Benachrichtigungen beim Start auf Systemen, bei denen VirtualBox-Gast-Pakete entfernt wurden.</p>
+        <p xml:lang="pt">Versão de correções e limpeza: módulos DKMS órfãos, serviços systemd, ficheiros de autostart X11/XDG e referências de módulos deixados após a remoção de drivers são agora detetados e limpos. Corrige notificações do VBoxClient no arranque em sistemas onde os pacotes guest do VirtualBox foram removidos.</p>
+        <p xml:lang="it">Versione di correzioni e pulizia: moduli DKMS orfani, servizi systemd, file di autostart X11/XDG e riferimenti a moduli lasciati dopo la rimozione dei driver vengono ora rilevati e puliti. Corregge le notifiche VBoxClient all'avvio sui sistemi in cui i pacchetti guest di VirtualBox sono stati rimossi.</p>
+        <p xml:lang="ro">Versiune de remedieri și curățare: modulele DKMS orfane, serviciile systemd, fișierele de autostart X11/XDG și referințele la module rămase după eliminarea driverelor sunt acum detectate și curățate. Remediază notificările VBoxClient la pornire pe sistemele unde pachetele guest VirtualBox au fost eliminate.</p>
+        <p xml:lang="ru">Версия исправлений и очистки: осиротевшие DKMS-модули, службы systemd, файлы автозапуска X11/XDG и ссылки на модули, оставшиеся после удаления драйверов, теперь обнаруживаются и удаляются. Исправляет уведомления VBoxClient при загрузке на системах, где были удалены пакеты гостевых дополнений VirtualBox.</p>
+        <ul>
+          <li>Added: orphaned DKMS module detection in Drivers tab — compiled .ko files in /var/lib/dkms/ with no installed source package, removed via dkms remove + dracut -f</li>
+          <li>Added: orphaned reference scanner covering /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, systemd unit files, and X11/XDG autostart files — shown in APT Cache orphaned packages section</li>
+          <li>Added: automatic cleanup of module references after driver removal before dracut -f (covers VirtualBox, VMware, Broadcom, Hyper-V)</li>
+          <li>Fixed: VBoxClient boot notifications after removing virtualbox-guest-x11 — caused by orphaned /etc/X11/Xsession.d/98vboxadd-xclient and /etc/xdg/autostart/vboxclient.desktop</li>
+          <li>Fixed: full coverage for VMware (vmtoolsd.service, vmware-vmblock-fuse.service, vmware-user.desktop, 70vmware-user), NVIDIA (nvidia-persistenced.service, nvidia-hibernate/resume/suspend.service, modprobe.d/nvidia-blacklist-nouveau.conf), Broadcom (modprobe.d/blacklist-bcm43.conf, wl.conf) and Hyper-V daemon services</li>
+          <li>Fixed: users who removed drivers before this release can clean up leftover references from APT Cache — Orphaned packages without reinstalling anything</li>
+
+          <li xml:lang="es">Añadido: detección de módulos DKMS huérfanos en la pestaña Drivers — archivos .ko compilados en /var/lib/dkms/ sin paquete fuente instalado, eliminados con dkms remove + dracut -f</li>
+          <li xml:lang="es">Añadido: escáner de referencias huérfanas en /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, servicios systemd y ficheros de autostart X11/XDG — mostrados en la sección de paquetes huérfanos del Caché APT</li>
+          <li xml:lang="es">Añadido: limpieza automática de referencias de módulos tras eliminar drivers antes de dracut -f (cubre VirtualBox, VMware, Broadcom, Hyper-V)</li>
+          <li xml:lang="es">Corregido: notificaciones de VBoxClient al arrancar tras eliminar virtualbox-guest-x11 — causadas por /etc/X11/Xsession.d/98vboxadd-xclient y /etc/xdg/autostart/vboxclient.desktop huérfanos</li>
+          <li xml:lang="es">Corregido: cobertura completa para VMware (vmtoolsd.service, vmware-vmblock-fuse.service, vmware-user.desktop), NVIDIA (nvidia-persistenced.service, modprobe.d/nvidia-blacklist-nouveau.conf), Broadcom (modprobe.d/blacklist-bcm43.conf) e Hyper-V</li>
+          <li xml:lang="es">Corregido: los usuarios que eliminaron drivers antes de esta versión pueden limpiar las referencias desde Caché APT — Paquetes huérfanos sin reinstalar nada</li>
+
+          <li xml:lang="fr">Ajouté : détection des modules DKMS orphelins dans l'onglet Pilotes — fichiers .ko compilés dans /var/lib/dkms/ sans paquet source installé, supprimés via dkms remove + dracut -f</li>
+          <li xml:lang="fr">Ajouté : scanner de références orphelines dans /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, unités systemd et fichiers d'autostart X11/XDG — affichés dans la section paquets orphelins du Cache APT</li>
+          <li xml:lang="fr">Ajouté : nettoyage automatique des références de modules après suppression des pilotes avant dracut -f</li>
+          <li xml:lang="fr">Corrigé : notifications VBoxClient au démarrage après suppression de virtualbox-guest-x11 — causées par /etc/X11/Xsession.d/98vboxadd-xclient et /etc/xdg/autostart/vboxclient.desktop orphelins</li>
+          <li xml:lang="fr">Corrigé : le même nettoyage s'applique aux fichiers autostart de VMware et aux services Hyper-V</li>
+          <li xml:lang="fr">Corrigé : les utilisateurs ayant supprimé des pilotes avant cette version peuvent nettoyer les références depuis Cache APT — Paquets orphelins</li>
+
+          <li xml:lang="de">Hinzugefügt: Erkennung verwaister DKMS-Module im Treiber-Tab — kompilierte .ko-Dateien in /var/lib/dkms/ ohne installiertes Quellpaket, entfernt über dkms remove + dracut -f</li>
+          <li xml:lang="de">Hinzugefügt: Scanner für verwaiste Referenzen in /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, systemd-Einheiten und X11/XDG-Autostartdateien</li>
+          <li xml:lang="de">Hinzugefügt: automatische Bereinigung von Modulreferenzen nach Treiberentfernung vor dracut -f</li>
+          <li xml:lang="de">Behoben: VBoxClient-Benachrichtigungen nach Entfernung von virtualbox-guest-x11 — verursacht durch verwaiste /etc/X11/Xsession.d/98vboxadd-xclient und /etc/xdg/autostart/vboxclient.desktop</li>
+          <li xml:lang="de">Behoben: vollständige Abdeckung für VMware, NVIDIA (nvidia-persistenced.service, modprobe.d/nvidia-blacklist-nouveau.conf), Broadcom (modprobe.d/blacklist-bcm43.conf) und Hyper-V</li>
+          <li xml:lang="de">Behoben: Benutzer, die Treiber vor diesem Release entfernt haben, können Referenzen über APT-Cache — Verwaiste Pakete bereinigen</li>
+
+          <li xml:lang="pt">Adicionado: deteção de módulos DKMS órfãos no separador Drivers — ficheiros .ko compilados em /var/lib/dkms/ sem pacote fonte instalado, removidos com dkms remove + dracut -f</li>
+          <li xml:lang="pt">Adicionado: scanner de referências órfãs em /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, unidades systemd e ficheiros de autostart X11/XDG</li>
+          <li xml:lang="pt">Adicionado: limpeza automática de referências de módulos após remoção de drivers antes de dracut -f</li>
+          <li xml:lang="pt">Corrigido: notificações do VBoxClient no arranque após remover virtualbox-guest-x11 — causadas por /etc/X11/Xsession.d/98vboxadd-xclient e /etc/xdg/autostart/vboxclient.desktop órfãos</li>
+          <li xml:lang="pt">Corrigido: cobertura completa para VMware, NVIDIA (nvidia-persistenced.service, modprobe.d/nvidia-blacklist-nouveau.conf), Broadcom (modprobe.d/blacklist-bcm43.conf) e Hyper-V</li>
+          <li xml:lang="pt">Corrigido: utilizadores que removeram drivers antes desta versão podem limpar referências em Cache APT — Pacotes órfãos</li>
+
+          <li xml:lang="it">Aggiunto: rilevamento moduli DKMS orfani nella scheda Driver — file .ko compilati in /var/lib/dkms/ senza pacchetto sorgente installato, rimossi con dkms remove + dracut -f</li>
+          <li xml:lang="it">Aggiunto: scanner di riferimenti orfani in /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, unità systemd e file di autostart X11/XDG</li>
+          <li xml:lang="it">Aggiunto: pulizia automatica dei riferimenti ai moduli dopo la rimozione dei driver prima di dracut -f</li>
+          <li xml:lang="it">Corretto: notifiche VBoxClient all'avvio dopo la rimozione di virtualbox-guest-x11 — causate da /etc/X11/Xsession.d/98vboxadd-xclient e /etc/xdg/autostart/vboxclient.desktop orfani</li>
+          <li xml:lang="it">Corretto: copertura completa per VMware, NVIDIA (nvidia-persistenced.service, modprobe.d/nvidia-blacklist-nouveau.conf), Broadcom (modprobe.d/blacklist-bcm43.conf) e Hyper-V</li>
+          <li xml:lang="it">Corretto: gli utenti che hanno rimosso i driver prima di questa versione possono pulire i riferimenti da Cache APT — Pacchetti orfani</li>
+
+          <li xml:lang="ro">Adăugat: detectare module DKMS orfane în fila Drivere — fișiere .ko compilate în /var/lib/dkms/ fără pachet sursă instalat, eliminate cu dkms remove + dracut -f</li>
+          <li xml:lang="ro">Adăugat: scanner de referințe orfane în /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, unități systemd și fișiere de autostart X11/XDG</li>
+          <li xml:lang="ro">Adăugat: curățare automată a referințelor la module după eliminarea driverelor înainte de dracut -f</li>
+          <li xml:lang="ro">Rezolvat: notificări VBoxClient la pornire după eliminarea virtualbox-guest-x11 — cauzate de /etc/X11/Xsession.d/98vboxadd-xclient și /etc/xdg/autostart/vboxclient.desktop orfane</li>
+          <li xml:lang="ro">Rezolvat: acoperire completă pentru VMware, NVIDIA (nvidia-persistenced.service, modprobe.d/nvidia-blacklist-nouveau.conf), Broadcom (modprobe.d/blacklist-bcm43.conf) și Hyper-V</li>
+          <li xml:lang="ro">Rezolvat: utilizatorii care au eliminat drivere înainte de această versiune pot curăța referințele din Cache APT — Pachete orfane</li>
+
+          <li xml:lang="ru">Добавлено: обнаружение осиротевших DKMS-модулей во вкладке «Драйверы» — скомпилированные .ko-файлы в /var/lib/dkms/ без установленного исходного пакета, удаляются через dkms remove + dracut -f</li>
+          <li xml:lang="ru">Добавлено: сканер осиротевших ссылок в /etc/modules, /etc/modules-load.d/, /etc/modprobe.d/, юнитах systemd и файлах автозапуска X11/XDG</li>
+          <li xml:lang="ru">Добавлено: автоматическая очистка ссылок на модули после удаления драйверов перед dracut -f</li>
+          <li xml:lang="ru">Исправлено: уведомления VBoxClient при загрузке после удаления virtualbox-guest-x11 — вызваны осиротевшими /etc/X11/Xsession.d/98vboxadd-xclient и /etc/xdg/autostart/vboxclient.desktop</li>
+          <li xml:lang="ru">Исправлено: полное покрытие для VMware, NVIDIA (nvidia-persistenced.service, modprobe.d/nvidia-blacklist-nouveau.conf), Broadcom (modprobe.d/blacklist-bcm43.conf) и Hyper-V</li>
+          <li xml:lang="ru">Исправлено: пользователи, удалившие драйверы до этого выпуска, могут очистить ссылки через Кэш APT — Осиротевшие пакеты</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2-2" date="2026-05-29">
+      <description>
+        <p>Bug fix and driver detection improvement release: Intel GPU false positive in VMs fixed, VM guest tool packages now managed via systemd-detect-virt, printer and input device driver detection added, progress bar and select-all checkbox state bugs fixed.</p>
+        <p xml:lang="es">Versión de correcciones y mejoras de detección de drivers: falso positivo de Intel GPU en VMs corregido, paquetes de herramientas de VM guest gestionados ahora via systemd-detect-virt, detección de drivers de impresoras y dispositivos de entrada añadida, bugs de barra de progreso y checkbox "Seleccionar todo" corregidos.</p>
+        <p xml:lang="fr">Version de corrections et améliorations de détection des pilotes : faux positif du GPU Intel dans les VM corrigé, paquets d'outils VM invités gérés via systemd-detect-virt, détection des pilotes d'imprimantes et de périphériques d'entrée ajoutée, bugs de la barre de progression et de la case à cocher corrigés.</p>
+        <p xml:lang="de">Fehlerbehebungs- und Treiber-Erkennungsversion: Intel-GPU-Falscherkennung in VMs behoben, VM-Gast-Toolpakete werden jetzt über systemd-detect-virt verwaltet, Drucker- und Eingabegeräte-Treibererkennung hinzugefügt, Fortschrittsbalken- und Auswahlfeld-Fehler behoben.</p>
+        <p xml:lang="pt">Versão de correções e melhorias de deteção de controladores: falso positivo da GPU Intel em VMs corrigido, pacotes de ferramentas de VM convidada geridos via systemd-detect-virt, deteção de controladores de impressoras e dispositivos de entrada adicionada, bugs da barra de progresso e da caixa de seleção corrigidos.</p>
+        <p xml:lang="it">Versione di correzioni e miglioramenti del rilevamento dei driver: falso positivo della GPU Intel nelle VM corretto, pacchetti degli strumenti VM ospite ora gestiti tramite systemd-detect-virt, rilevamento dei driver per stampanti e dispositivi di input aggiunto, bug della barra di avanzamento e della casella di selezione corretti.</p>
+        <p xml:lang="ro">Versiune de remedieri și îmbunătățiri ale detecției driverelor: fals pozitiv GPU Intel în mașini virtuale remediat, pachetele de instrumente VM invitat gestionate acum prin systemd-detect-virt, detectare adăugată pentru drivere de imprimantă și dispozitive de intrare, erori ale barei de progres și casetei de selectare remediate.</p>
+        <p xml:lang="ru">Версия исправлений и улучшений обнаружения драйверов: исправлен ложноположительный результат GPU Intel в ВМ, пакеты инструментов гостевых ВМ теперь управляются через systemd-detect-virt, добавлено обнаружение драйверов принтеров и устройств ввода, исправлены ошибки прогресс-бара и чекбокса выбора всех элементов.</p>
+        <ul>
+          <li>Fixed: Intel GPU packages no longer protected by chipset-only Intel devices in VMs (new lspci -n class 03xx check)</li>
+          <li>Fixed: VM guest tool packages now managed via systemd-detect-virt, not PCI vendor — resolves VirtualBox VMSVGA false positive</li>
+          <li>Fixed: root_helper.py was not updated with gpu_pci_vendors/vm_guest_type — all Drivers tab fixes now apply in production</li>
+          <li>Fixed: dracut_fw_dirs now exported from root_helper, firmware protection set correctly rebuilt client-side</li>
+          <li>Fixed: progress bar no longer shows 100% during indeterminate operations</li>
+          <li>Fixed: "Select all" checkbox now resets after cleanup completes in all tabs</li>
+          <li>Added: Broadcom proprietary WiFi driver packages (PCI 14e4)</li>
+          <li>Added: Wacom tablet driver packages (USB 056a)</li>
+          <li>Added: Printer driver packages for HP, Epson, Canon, Brother, Samsung, Kyocera (USB vendor detection)</li>
+          <li>Added: Full VM guest tools coverage — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+
+          <li xml:lang="es">Corregido: los paquetes de GPU Intel ya no quedan protegidos por dispositivos de chipset Intel en máquinas virtuales (nueva comprobación de clase PCI 03xx con lspci -n)</li>
+          <li xml:lang="es">Corregido: los paquetes de herramientas de VM guest ahora se gestionan via systemd-detect-virt, no por vendor PCI — resuelve el falso positivo de VirtualBox con VMSVGA</li>
+          <li xml:lang="es">Corregido: root_helper.py no estaba actualizado con gpu_pci_vendors/vm_guest_type — todas las correcciones de la pestaña Drivers ahora se aplican en producción</li>
+          <li xml:lang="es">Corregido: dracut_fw_dirs ahora se exporta desde root_helper, el protection set de firmwares se reconstruye correctamente en el cliente</li>
+          <li xml:lang="es">Corregido: la barra de progreso ya no muestra 100% durante operaciones indeterminadas</li>
+          <li xml:lang="es">Corregido: el checkbox "Seleccionar todo" ahora se desmarca al completar la limpieza en todas las pestañas</li>
+          <li xml:lang="es">Añadido: paquetes de driver WiFi Broadcom propietario (PCI 14e4)</li>
+          <li xml:lang="es">Añadido: paquetes de driver para tabletas Wacom (USB 056a)</li>
+          <li xml:lang="es">Añadido: paquetes de driver de impresoras para HP, Epson, Canon, Brother, Samsung, Kyocera (detección por vendor USB)</li>
+          <li xml:lang="es">Añadido: cobertura completa de herramientas de VM guest — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+
+          <li xml:lang="fr">Corrigé : les paquets GPU Intel ne sont plus protégés par des périphériques de chipset Intel dans les VM (nouvelle vérification de classe PCI 03xx via lspci -n)</li>
+          <li xml:lang="fr">Corrigé : les paquets d'outils VM invités sont désormais gérés via systemd-detect-virt, pas par le vendeur PCI — résout le faux positif VirtualBox avec VMSVGA</li>
+          <li xml:lang="fr">Corrigé : root_helper.py n'était pas mis à jour avec gpu_pci_vendors/vm_guest_type — toutes les corrections de l'onglet Pilotes s'appliquent maintenant en production</li>
+          <li xml:lang="fr">Corrigé : dracut_fw_dirs est maintenant exporté depuis root_helper, l'ensemble de protection des firmwares est correctement reconstruit côté client</li>
+          <li xml:lang="fr">Corrigé : la barre de progression n'affiche plus 100% pendant les opérations indéterminées</li>
+          <li xml:lang="fr">Corrigé : la case "Tout sélectionner" se décoche maintenant à la fin du nettoyage dans tous les onglets</li>
+          <li xml:lang="fr">Ajouté : paquets de pilotes WiFi Broadcom propriétaires (PCI 14e4)</li>
+          <li xml:lang="fr">Ajouté : paquets de pilotes pour tablettes Wacom (USB 056a)</li>
+          <li xml:lang="fr">Ajouté : paquets de pilotes d'imprimantes pour HP, Epson, Canon, Brother, Samsung, Kyocera (détection par vendeur USB)</li>
+          <li xml:lang="fr">Ajouté : couverture complète des outils VM invités — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+
+          <li xml:lang="de">Behoben: Intel-GPU-Pakete werden nicht mehr durch reine Chipsatz-Intel-Geräte in VMs geschützt (neue PCI-Klasse-03xx-Prüfung via lspci -n)</li>
+          <li xml:lang="de">Behoben: VM-Gast-Tool-Pakete werden jetzt über systemd-detect-virt verwaltet, nicht über PCI-Vendor — behebt VirtualBox-VMSVGA-Falscherkennung</li>
+          <li xml:lang="de">Behoben: root_helper.py war nicht mit gpu_pci_vendors/vm_guest_type aktualisiert — alle Korrekturen im Treiber-Tab greifen jetzt in der Produktion</li>
+          <li xml:lang="de">Behoben: dracut_fw_dirs wird jetzt aus root_helper exportiert, der Firmware-Schutz-Set wird clientseitig korrekt neu aufgebaut</li>
+          <li xml:lang="de">Behoben: Fortschrittsbalken zeigt bei unbestimmten Vorgängen nicht mehr 100% an</li>
+          <li xml:lang="de">Behoben: Das Kontrollkästchen "Alle auswählen" wird nach Abschluss der Bereinigung in allen Tabs zurückgesetzt</li>
+          <li xml:lang="de">Hinzugefügt: Broadcom proprietäre WLAN-Treiberpakete (PCI 14e4)</li>
+          <li xml:lang="de">Hinzugefügt: Wacom-Tablet-Treiberpakete (USB 056a)</li>
+          <li xml:lang="de">Hinzugefügt: Druckertreiberpakete für HP, Epson, Canon, Brother, Samsung, Kyocera (USB-Vendor-Erkennung)</li>
+          <li xml:lang="de">Hinzugefügt: vollständige VM-Gast-Tool-Abdeckung — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+
+          <li xml:lang="pt">Corrigido: os pacotes GPU Intel já não ficam protegidos por dispositivos de chipset Intel em VMs (nova verificação de classe PCI 03xx via lspci -n)</li>
+          <li xml:lang="pt">Corrigido: os pacotes de ferramentas de VM convidada são agora geridos via systemd-detect-virt, não por vendor PCI — resolve o falso positivo do VirtualBox com VMSVGA</li>
+          <li xml:lang="pt">Corrigido: root_helper.py não estava atualizado com gpu_pci_vendors/vm_guest_type — todas as correções da aba Drivers aplicam-se agora em produção</li>
+          <li xml:lang="pt">Corrigido: dracut_fw_dirs é agora exportado a partir do root_helper, o conjunto de proteção de firmwares é reconstruído corretamente no cliente</li>
+          <li xml:lang="pt">Corrigido: a barra de progresso já não mostra 100% durante operações indeterminadas</li>
+          <li xml:lang="pt">Corrigido: a caixa "Selecionar tudo" é agora desmarcada ao concluir a limpeza em todos os separadores</li>
+          <li xml:lang="pt">Adicionado: pacotes de driver WiFi Broadcom proprietário (PCI 14e4)</li>
+          <li xml:lang="pt">Adicionado: pacotes de driver para tablets Wacom (USB 056a)</li>
+          <li xml:lang="pt">Adicionado: pacotes de driver de impressoras para HP, Epson, Canon, Brother, Samsung, Kyocera (deteção por vendor USB)</li>
+          <li xml:lang="pt">Adicionado: cobertura completa de ferramentas de VM convidada — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+
+          <li xml:lang="it">Corretto: i pacchetti GPU Intel non sono più protetti da dispositivi chipset Intel nelle VM (nuovo controllo classe PCI 03xx via lspci -n)</li>
+          <li xml:lang="it">Corretto: i pacchetti degli strumenti VM ospite sono ora gestiti tramite systemd-detect-virt, non dal vendor PCI — risolve il falso positivo di VirtualBox con VMSVGA</li>
+          <li xml:lang="it">Corretto: root_helper.py non era aggiornato con gpu_pci_vendors/vm_guest_type — tutte le correzioni della scheda Driver si applicano ora in produzione</li>
+          <li xml:lang="it">Corretto: dracut_fw_dirs viene ora esportato da root_helper, il set di protezione firmware viene ricostruito correttamente lato client</li>
+          <li xml:lang="it">Corretto: la barra di avanzamento non mostra più 100% durante le operazioni indeterminate</li>
+          <li xml:lang="it">Corretto: la casella "Seleziona tutto" si deseleziona al completamento della pulizia in tutte le schede</li>
+          <li xml:lang="it">Aggiunto: pacchetti driver WiFi Broadcom proprietari (PCI 14e4)</li>
+          <li xml:lang="it">Aggiunto: pacchetti driver per tablet Wacom (USB 056a)</li>
+          <li xml:lang="it">Aggiunto: pacchetti driver stampanti per HP, Epson, Canon, Brother, Samsung, Kyocera (rilevamento per vendor USB)</li>
+          <li xml:lang="it">Aggiunto: copertura completa degli strumenti VM ospite — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+
+          <li xml:lang="ro">Rezolvat: pachetele GPU Intel nu mai sunt protejate de dispozitivele chipset Intel în VM-uri (nouă verificare clasă PCI 03xx via lspci -n)</li>
+          <li xml:lang="ro">Rezolvat: pachetele de instrumente VM invitat sunt acum gestionate prin systemd-detect-virt, nu prin vendor PCI — rezolvă fals pozitivul VirtualBox cu VMSVGA</li>
+          <li xml:lang="ro">Rezolvat: root_helper.py nu era actualizat cu gpu_pci_vendors/vm_guest_type — toate corecțiile filei Drivere se aplică acum în producție</li>
+          <li xml:lang="ro">Rezolvat: dracut_fw_dirs este acum exportat din root_helper, setul de protecție firmware este reconstruit corect pe client</li>
+          <li xml:lang="ro">Rezolvat: bara de progres nu mai afișează 100% în timpul operațiunilor nedeterminate</li>
+          <li xml:lang="ro">Rezolvat: caseta "Selectează tot" se debifează acum la finalizarea curățării în toate filele</li>
+          <li xml:lang="ro">Adăugat: pachete driver WiFi Broadcom proprietar (PCI 14e4)</li>
+          <li xml:lang="ro">Adăugat: pachete driver pentru tablete Wacom (USB 056a)</li>
+          <li xml:lang="ro">Adăugat: pachete driver imprimante pentru HP, Epson, Canon, Brother, Samsung, Kyocera (detecție după vendor USB)</li>
+          <li xml:lang="ro">Adăugat: acoperire completă instrumente VM invitat — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+
+          <li xml:lang="ru">Исправлено: пакеты GPU Intel больше не защищаются из-за устройств чипсета Intel в ВМ (новая проверка класса PCI 03xx через lspci -n)</li>
+          <li xml:lang="ru">Исправлено: пакеты инструментов гостевых ВМ теперь управляются через systemd-detect-virt, а не по PCI-вендору — устраняет ложноположительный результат VirtualBox с VMSVGA</li>
+          <li xml:lang="ru">Исправлено: root_helper.py не был обновлён с gpu_pci_vendors/vm_guest_type — все исправления вкладки «Драйверы» теперь применяются в production</li>
+          <li xml:lang="ru">Исправлено: dracut_fw_dirs теперь экспортируется из root_helper, набор защиты прошивок корректно пересоздаётся на стороне клиента</li>
+          <li xml:lang="ru">Исправлено: прогресс-бар больше не показывает 100% во время неопределённых операций</li>
+          <li xml:lang="ru">Исправлено: чекбокс «Выбрать всё» теперь сбрасывается после завершения очистки во всех вкладках</li>
+          <li xml:lang="ru">Добавлено: пакеты проприетарного WiFi-драйвера Broadcom (PCI 14e4)</li>
+          <li xml:lang="ru">Добавлено: пакеты драйвера для планшетов Wacom (USB 056a)</li>
+          <li xml:lang="ru">Добавлено: пакеты драйверов принтеров для HP, Epson, Canon, Brother, Samsung, Kyocera (определение по USB-вендору)</li>
+          <li xml:lang="ru">Добавлено: полное покрытие инструментов гостевых ВМ — VirtualBox, VMware, KVM/QEMU (SPICE), Hyper-V, Xen</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2-1" date="2026-04-17">
+      <description>
+        <p>Bug fix and improvement release: Snap tab redesigned with full uninstall support, improved VM guest detection for all hypervisors, kernel removal now properly regenerates initramfs and updates GRUB, and all apt-get commands replaced with apt.</p>
+        <p xml:lang="es">Versión de correcciones y mejoras: pestaña Snap rediseñada con desinstalación completa, detección mejorada de VM guest para todos los hipervisores, la eliminación de kernels regenera el initramfs y actualiza GRUB correctamente, y se reemplazó apt-get por apt.</p>
+        <p xml:lang="fr">Version de corrections et améliorations : onglet Snap repensé avec désinstallation complète, détection améliorée des VM invitées pour tous les hyperviseurs, la suppression de noyaux régénère maintenant l'initramfs et met à jour GRUB, et toutes les commandes apt-get remplacées par apt.</p>
+        <p xml:lang="de">Fehlerbehebungs- und Verbesserungsversion: Snap-Tab mit vollständiger Deinstallationsunterstützung neu gestaltet, verbesserte Gast-VM-Erkennung für alle Hypervisoren, Kernel-Entfernung generiert jetzt Initramfs neu und aktualisiert GRUB, und alle apt-get-Befehle durch apt ersetzt.</p>
+        <p xml:lang="pt">Versão de correções e melhorias: separador Snap redesenhado com suporte de desinstalação completa, deteção melhorada de VM convidada para todos os hipervisores, a remoção de kernels agora regenera o initramfs e atualiza o GRUB, e todos os comandos apt-get substituídos por apt.</p>
+        <p xml:lang="it">Versione di correzioni e miglioramenti: scheda Snap riprogettata con supporto per la disinstallazione completa, rilevamento migliorato della VM ospite per tutti gli hypervisor, la rimozione del kernel ora rigenera l'initramfs e aggiorna GRUB, e tutti i comandi apt-get sostituiti con apt.</p>
+        <p xml:lang="ro">Versiune de remedieri și îmbunătățiri: fila Snap reproiectată cu suport complet de dezinstalare, detectare îmbunătățită a VM-ului invitat pentru toți hipervizoarele, eliminarea kernelului regenerează acum initramfs și actualizează GRUB, și toate comenzile apt-get înlocuite cu apt.</p>
+        <p xml:lang="ru">Версия с исправлениями и улучшениями: вкладка Snap переработана с поддержкой полного удаления, улучшенное обнаружение гостевых ВМ для всех гипервизоров, удаление ядра теперь правильно перегенерирует initramfs и обновляет GRUB, все команды apt-get заменены на apt.</p>
+        <ul>
+          <li>Snap tab redesigned: two sections (installed snaps with --purge uninstall + old revisions), matching Flatpak tab design</li>
+          <li>VM guest detection via systemd-detect-virt: KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels and more</li>
+          <li>Added Red Hat/Virtio PCI vendor 1af4 to hardware map for QEMU/KVM guest recognition</li>
+          <li>Fixed: kernel removal now runs dracut -f and update-grub after apt purge</li>
+          <li>Fixed: all apt-get replaced with apt throughout the root helper</li>
+          <li>Fixed: 27 untranslated strings added to all 8 language dictionaries</li>
+
+          <li xml:lang="es">Pestaña Snap rediseñada: dos secciones (snaps instalados con desinstalación --purge + revisiones antiguas), igual que Flatpak</li>
+          <li xml:lang="es">Detección de VM guest via systemd-detect-virt: KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels y más</li>
+          <li xml:lang="es">Añadido vendor PCI Red Hat/Virtio 1af4 al mapa de hardware para reconocer guests QEMU/KVM</li>
+          <li xml:lang="es">Corregido: la eliminación de kernels ahora ejecuta dracut -f y update-grub tras apt purge</li>
+          <li xml:lang="es">Corregido: apt-get reemplazado por apt en todo el helper de root</li>
+          <li xml:lang="es">Corregido: 27 strings sin traducir añadidos a los 8 diccionarios de idioma</li>
+
+          <li xml:lang="fr">Onglet Snap repensé : deux sections (snaps installés avec désinstallation --purge + anciennes révisions), identique à l'onglet Flatpak</li>
+          <li xml:lang="fr">Détection VM invitée via systemd-detect-virt : KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels et plus</li>
+          <li xml:lang="fr">Ajout du vendeur PCI Red Hat/Virtio 1af4 à la carte matérielle pour la reconnaissance des invités QEMU/KVM</li>
+          <li xml:lang="fr">Corrigé : la suppression du noyau exécute maintenant dracut -f et update-grub après apt purge</li>
+          <li xml:lang="fr">Corrigé : apt-get remplacé par apt dans tout le helper root</li>
+          <li xml:lang="fr">Corrigé : 27 chaînes non traduites ajoutées aux 8 dictionnaires de langues</li>
+
+          <li xml:lang="de">Snap-Tab neu gestaltet: zwei Bereiche (installierte Snaps mit --purge-Deinstallation + alte Revisionen), passend zum Flatpak-Tab</li>
+          <li xml:lang="de">Gast-VM-Erkennung via systemd-detect-virt: KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels und mehr</li>
+          <li xml:lang="de">Red Hat/Virtio PCI-Anbieter 1af4 zur Hardware-Karte für QEMU/KVM-Gast-Erkennung hinzugefügt</li>
+          <li xml:lang="de">Behoben: Kernel-Entfernung führt jetzt dracut -f und update-grub nach apt purge aus</li>
+          <li xml:lang="de">Behoben: apt-get durch apt im gesamten Root-Helper ersetzt</li>
+          <li xml:lang="de">Behoben: 27 nicht übersetzte Zeichenketten zu allen 8 Sprachwörterbüchern hinzugefügt</li>
+
+          <li xml:lang="pt">Separador Snap redesenhado: duas secções (snaps instalados com desinstalação --purge + revisões antigas), igual ao separador Flatpak</li>
+          <li xml:lang="pt">Deteção de VM convidada via systemd-detect-virt: KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels e mais</li>
+          <li xml:lang="pt">Adicionado fornecedor PCI Red Hat/Virtio 1af4 ao mapa de hardware para reconhecimento de convidados QEMU/KVM</li>
+          <li xml:lang="pt">Corrigido: a remoção do kernel agora executa dracut -f e update-grub após apt purge</li>
+          <li xml:lang="pt">Corrigido: apt-get substituído por apt em todo o helper root</li>
+          <li xml:lang="pt">Corrigido: 27 strings não traduzidas adicionadas aos 8 dicionários de idiomas</li>
+
+          <li xml:lang="it">Scheda Snap riprogettata: due sezioni (snap installati con disinstallazione --purge + vecchie revisioni), uguale alla scheda Flatpak</li>
+          <li xml:lang="it">Rilevamento VM ospite via systemd-detect-virt: KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels e altro</li>
+          <li xml:lang="it">Aggiunto fornitore PCI Red Hat/Virtio 1af4 alla mappa hardware per il riconoscimento degli ospiti QEMU/KVM</li>
+          <li xml:lang="it">Corretto: la rimozione del kernel esegue ora dracut -f e update-grub dopo apt purge</li>
+          <li xml:lang="it">Corretto: apt-get sostituito con apt in tutto l'helper root</li>
+          <li xml:lang="it">Corretto: 27 stringhe non tradotte aggiunte a tutti gli 8 dizionari delle lingue</li>
+
+          <li xml:lang="ro">Fila Snap reproiectată: două secțiuni (snap-uri instalate cu dezinstalare --purge + revizii vechi), similar cu fila Flatpak</li>
+          <li xml:lang="ro">Detectarea VM invitat via systemd-detect-virt: KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels și altele</li>
+          <li xml:lang="ro">Adăugat furnizor PCI Red Hat/Virtio 1af4 la harta hardware pentru recunoașterea oaspeților QEMU/KVM</li>
+          <li xml:lang="ro">Rezolvat: eliminarea kernelului execută acum dracut -f și update-grub după apt purge</li>
+          <li xml:lang="ro">Rezolvat: apt-get înlocuit cu apt în tot helperul root</li>
+          <li xml:lang="ro">Rezolvat: 27 de șiruri netraduse adăugate la toate cele 8 dicționare de limbi</li>
+
+          <li xml:lang="ru">Вкладка Snap переработана: два раздела (установленные snaps с удалением --purge + старые ревизии), аналогично вкладке Flatpak</li>
+          <li xml:lang="ru">Обнаружение гостевой ВМ через systemd-detect-virt: KVM, QEMU, VMware, VirtualBox, Hyper-V, Xen, Parallels и другие</li>
+          <li xml:lang="ru">Добавлен PCI-вендор Red Hat/Virtio 1af4 в карту оборудования для распознавания гостей QEMU/KVM</li>
+          <li xml:lang="ru">Исправлено: удаление ядра теперь выполняет dracut -f и update-grub после apt purge</li>
+          <li xml:lang="ru">Исправлено: apt-get заменён на apt во всём root helper</li>
+          <li xml:lang="ru">Исправлено: 27 непереведённых строк добавлено во все 8 языковых словарей</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2" date="2026-03-29">
+      <description>
+        <p>Major feature update: Installed Apps tab, Snap support, firmware sizes, selective APT cache cleanup, auto-scan on launch, GPU/KVM firmware protection and overview improvements.</p>
+        <p xml:lang="es">Actualización mayor: pestaña de Apps instaladas, soporte Snap, tamaños de firmware, limpieza selectiva de caché APT, escaneo automático al inicio, protección de firmware GPU/KVM y mejoras en el resumen.</p>
+        <p xml:lang="fr">Mise à jour majeure : onglet Applications installées, support Snap, tailles des firmwares, nettoyage sélectif du cache APT, analyse automatique au démarrage, protection des firmwares GPU/KVM et améliorations de l'aperçu.</p>
+        <p xml:lang="de">Großes Funktionsupdate: Tab für installierte Apps, Snap-Unterstützung, Firmware-Größen, selektive APT-Cache-Bereinigung, automatischer Scan beim Start, GPU/KVM-Firmware-Schutz und Übersichtsverbesserungen.</p>
+        <p xml:lang="pt">Atualização maior: separador de Apps instaladas, suporte a Snap, tamanhos de firmware, limpeza seletiva da cache APT, análise automática ao iniciar, proteção de firmware GPU/KVM e melhorias no resumo.</p>
+        <p xml:lang="it">Aggiornamento importante: scheda App installate, supporto Snap, dimensioni firmware, pulizia selettiva della cache APT, scansione automatica all'avvio, protezione firmware GPU/KVM e miglioramenti alla panoramica.</p>
+        <p xml:lang="ro">Actualizare majoră: filă Aplicații instalate, suport Snap, dimensiuni firmware, curățare selectivă a cache-ului APT, scanare automată la pornire, protecție firmware GPU/KVM și îmbunătățiri ale rezumatului.</p>
+        <p xml:lang="ru">Крупное обновление: вкладка установленных приложений, поддержка Snap, размеры прошивок, выборочная очистка кэша APT, автосканирование при запуске, защита прошивок GPU/KVM и улучшения обзора.</p>
+        <ul>
+          <li>Added Installed Apps tab with search and selective uninstall</li>
+          <li>Added Snap old revisions tab in user mode, consistent with Flatpak</li>
+          <li>Firmware families now show disk usage in the Firmwares tab</li>
+          <li>APT Cache tab now lists individual .deb files for selective removal</li>
+          <li>User-mode scan starts automatically on launch</li>
+          <li>Fixed AMD/GPU and KVM/VMware/VirtualBox firmware and driver protection</li>
+          <li>Overview cards now follow tab order in both user and root modes</li>
+          <li>Added Select all docs button in Languages tab</li>
+          <li>Fixed: Flatpak tab redesigned with two sections — installed apps and unused runtimes</li>
+          <li>Fixed: Flatpak sizes now read actual disk usage; previously always showed 0 B</li>
+          <li>Fixed: Flatpak unused runtime detection now delegates to flatpak's own logic</li>
+          <li>Fixed: Firmware and kernel packages no longer appear in the Installed Apps tab</li>
+          <li>Fixed: Progress bar no longer stuck at 100% after scan completion</li>
+
+          <li xml:lang="es">Añadida pestaña de Apps instaladas con búsqueda y desinstalación selectiva</li>
+          <li xml:lang="es">Añadida pestaña de revisiones antiguas de Snap en modo usuario, coherente con Flatpak</li>
+          <li xml:lang="es">Las familias de firmware ahora muestran su uso de disco en la pestaña Firmwares</li>
+          <li xml:lang="es">La pestaña Caché APT ahora lista los archivos .deb individuales para eliminación selectiva</li>
+          <li xml:lang="es">El escaneo en modo usuario ahora se inicia automáticamente al abrir la aplicación</li>
+          <li xml:lang="es">Corregida la protección de firmware y drivers de AMD/GPU y KVM/VMware/VirtualBox</li>
+          <li xml:lang="es">Las tarjetas del resumen ahora siguen el orden de las pestañas en modo usuario y root</li>
+          <li xml:lang="es">Añadido botón de seleccionar toda la documentación en la pestaña de Idiomas</li>
+          <li xml:lang="es">Corregido: la pestaña Flatpak rediseñada con dos secciones — apps instaladas y runtimes sin uso</li>
+          <li xml:lang="es">Corregido: los tamaños en Flatpak ahora muestran el uso real de disco; antes mostraban 0 B</li>
+          <li xml:lang="es">Corregido: la detección de runtimes sin uso delega en la lógica interna de flatpak</li>
+          <li xml:lang="es">Corregido: los paquetes de firmware y kernel ya no aparecen en la pestaña Apps instaladas</li>
+          <li xml:lang="es">Corregido: la barra de progreso ya no se queda fija al 100% tras el escaneo</li>
+
+          <li xml:lang="fr">Ajout d'un onglet Applications installées avec recherche et désinstallation sélective</li>
+          <li xml:lang="fr">Ajout d'un onglet révisions Snap anciennes en mode utilisateur, cohérent avec Flatpak</li>
+          <li xml:lang="fr">Les familles de firmware affichent désormais leur espace disque dans l'onglet Firmwares</li>
+          <li xml:lang="fr">L'onglet Cache APT liste maintenant les fichiers .deb individuels pour une suppression sélective</li>
+          <li xml:lang="fr">L'analyse en mode utilisateur démarre automatiquement au lancement</li>
+          <li xml:lang="fr">Correction de la protection des firmwares et pilotes AMD/GPU et KVM/VMware/VirtualBox</li>
+          <li xml:lang="fr">Les cartes de l'aperçu suivent désormais l'ordre des onglets en mode utilisateur et root</li>
+          <li xml:lang="fr">Ajout d'un bouton pour sélectionner toute la documentation dans l'onglet Langues</li>
+          <li xml:lang="fr">Corrigé : onglet Flatpak repensé avec deux sections — apps installées et runtimes inutilisés</li>
+          <li xml:lang="fr">Corrigé : les tailles Flatpak affichent désormais l'espace disque réel ; auparavant toujours 0 o</li>
+          <li xml:lang="fr">Corrigé : la détection des runtimes inutilisés délègue à la logique interne de flatpak</li>
+          <li xml:lang="fr">Corrigé : les paquets firmware et kernel n'apparaissent plus dans l'onglet Apps installées</li>
+          <li xml:lang="fr">Corrigé : la barre de progression ne reste plus bloquée à 100 % après l'analyse</li>
+
+          <li xml:lang="de">Tab für installierte Apps mit Suche und selektiver Deinstallation hinzugefügt</li>
+          <li xml:lang="de">Tab für alte Snap-Revisionen im Benutzermodus hinzugefügt, konsistent mit Flatpak</li>
+          <li xml:lang="de">Firmware-Familien zeigen jetzt ihre Festplattennutzung im Firmwares-Tab</li>
+          <li xml:lang="de">APT-Cache-Tab listet jetzt einzelne .deb-Dateien zur selektiven Löschung auf</li>
+          <li xml:lang="de">Der Benutzermodus-Scan startet beim Start automatisch</li>
+          <li xml:lang="de">Firmware- und Treiberschutz für AMD/GPU und KVM/VMware/VirtualBox korrigiert</li>
+          <li xml:lang="de">Übersichtskarten folgen jetzt der Tab-Reihenfolge im Benutzer- und Root-Modus</li>
+          <li xml:lang="de">Schaltfläche zur Auswahl aller Dokumentation im Sprachen-Tab hinzugefügt</li>
+          <li xml:lang="de">Behoben: Flatpak-Tab neu gestaltet mit zwei Bereichen — installierte Apps und ungenutzte Runtimes</li>
+          <li xml:lang="de">Behoben: Flatpak-Größen zeigen jetzt echte Festplattennutzung; zuvor immer 0 B angezeigt</li>
+          <li xml:lang="de">Behoben: Erkennung ungenutzter Runtimes delegiert an flatpaks eigene Logik</li>
+          <li xml:lang="de">Behoben: Firmware- und Kernel-Pakete erscheinen nicht mehr im Tab Installierte Apps</li>
+          <li xml:lang="de">Behoben: Fortschrittsbalken bleibt nach dem Scan nicht mehr bei 100% stehen</li>
+
+          <li xml:lang="pt">Adicionado separador de Apps instaladas com pesquisa e desinstalação seletiva</li>
+          <li xml:lang="pt">Adicionado separador de revisões antigas do Snap no modo utilizador, coerente com o Flatpak</li>
+          <li xml:lang="pt">As famílias de firmware mostram agora o uso de disco no separador Firmwares</li>
+          <li xml:lang="pt">O separador Cache APT lista agora ficheiros .deb individuais para remoção seletiva</li>
+          <li xml:lang="pt">A análise em modo utilizador inicia automaticamente ao abrir a aplicação</li>
+          <li xml:lang="pt">Corrigida a proteção de firmware e drivers AMD/GPU e KVM/VMware/VirtualBox</li>
+          <li xml:lang="pt">Os cartões do resumo seguem agora a ordem dos separadores nos modos utilizador e root</li>
+          <li xml:lang="pt">Adicionado botão para selecionar toda a documentação no separador de Idiomas</li>
+          <li xml:lang="pt">Corrigido: separador Flatpak redesenhado com duas secções — apps instaladas e runtimes não utilizados</li>
+          <li xml:lang="pt">Corrigido: os tamanhos Flatpak mostram agora o uso real de disco; antes mostravam sempre 0 B</li>
+          <li xml:lang="pt">Corrigido: a deteção de runtimes não utilizados delega na lógica interna do flatpak</li>
+          <li xml:lang="pt">Corrigido: pacotes de firmware e kernel já não aparecem no separador Apps instaladas</li>
+          <li xml:lang="pt">Corrigido: a barra de progresso já não fica presa a 100% após a análise</li>
+
+          <li xml:lang="it">Aggiunta scheda App installate con ricerca e disinstallazione selettiva</li>
+          <li xml:lang="it">Aggiunta scheda revisioni Snap precedenti in modalità utente, coerente con Flatpak</li>
+          <li xml:lang="it">Le famiglie di firmware mostrano ora l'utilizzo del disco nella scheda Firmware</li>
+          <li xml:lang="it">La scheda Cache APT elenca ora i singoli file .deb per la rimozione selettiva</li>
+          <li xml:lang="it">La scansione in modalità utente si avvia automaticamente all'apertura</li>
+          <li xml:lang="it">Corretta la protezione di firmware e driver AMD/GPU e KVM/VMware/VirtualBox</li>
+          <li xml:lang="it">Le schede del riepilogo seguono ora l'ordine delle schede in modalità utente e root</li>
+          <li xml:lang="it">Aggiunto pulsante per selezionare tutta la documentazione nella scheda Lingue</li>
+          <li xml:lang="it">Corretto: scheda Flatpak riprogettata con due sezioni — app installate e runtime non utilizzati</li>
+          <li xml:lang="it">Corretto: le dimensioni Flatpak mostrano ora l'uso reale del disco; prima mostravano sempre 0 B</li>
+          <li xml:lang="it">Corretto: il rilevamento dei runtime non utilizzati delega alla logica interna di flatpak</li>
+          <li xml:lang="it">Corretto: i pacchetti firmware e kernel non appaiono più nella scheda App installate</li>
+          <li xml:lang="it">Corretto: la barra di avanzamento non rimane più bloccata al 100% dopo la scansione</li>
+
+          <li xml:lang="ro">Adăugat tab Aplicații instalate cu căutare și dezinstalare selectivă</li>
+          <li xml:lang="ro">Adăugat tab cu revizii vechi Snap în modul utilizator, consistent cu Flatpak</li>
+          <li xml:lang="ro">Familiile de firmware afișează acum utilizarea discului în fila Firmware</li>
+          <li xml:lang="ro">Fila Cache APT listează acum fișierele .deb individuale pentru ștergere selectivă</li>
+          <li xml:lang="ro">Scanarea în modul utilizator pornește automat la lansare</li>
+          <li xml:lang="ro">Corectată protecția firmware și driverelor AMD/GPU și KVM/VMware/VirtualBox</li>
+          <li xml:lang="ro">Cardurile din rezumat urmează acum ordinea filelor în modurile utilizator și root</li>
+          <li xml:lang="ro">Adăugat buton pentru selectarea întregii documentații în fila Limbi</li>
+          <li xml:lang="ro">Rezolvat: fila Flatpak reproiectată cu două secțiuni — aplicații instalate și runtime-uri neutilizate</li>
+          <li xml:lang="ro">Rezolvat: dimensiunile Flatpak afișează acum utilizarea reală a discului; anterior afișau întotdeauna 0 B</li>
+          <li xml:lang="ro">Rezolvat: detectarea runtime-urilor neutilizate deleagă la logica internă a flatpak</li>
+          <li xml:lang="ro">Rezolvat: pachetele firmware și kernel nu mai apar în fila Aplicații instalate</li>
+          <li xml:lang="ro">Rezolvat: bara de progres nu mai rămâne blocată la 100% după scanare</li>
+
+          <li xml:lang="ru">Добавлена вкладка установленных приложений с поиском и выборочным удалением</li>
+          <li xml:lang="ru">Добавлена вкладка старых ревизий Snap в режиме пользователя, аналогично Flatpak</li>
+          <li xml:lang="ru">Семейства прошивок теперь отображают занимаемое место на диске во вкладке Прошивки</li>
+          <li xml:lang="ru">Вкладка кэша APT теперь перечисляет отдельные файлы .deb для выборочного удаления</li>
+          <li xml:lang="ru">Сканирование в режиме пользователя запускается автоматически при открытии</li>
+          <li xml:lang="ru">Исправлена защита прошивок и драйверов AMD/GPU и KVM/VMware/VirtualBox</li>
+          <li xml:lang="ru">Карточки обзора теперь следуют порядку вкладок в режимах пользователя и root</li>
+          <li xml:lang="ru">Добавлена кнопка выбора всей документации во вкладке Языки</li>
+          <li xml:lang="ru">Исправлено: вкладка Flatpak переработана с двумя разделами — установленные приложения и неиспользуемые среды</li>
+          <li xml:lang="ru">Исправлено: размеры Flatpak теперь отображают реальное использование диска; ранее всегда показывали 0 Б</li>
+          <li xml:lang="ru">Исправлено: обнаружение неиспользуемых сред делегировано внутренней логике flatpak</li>
+          <li xml:lang="ru">Исправлено: пакеты прошивок и ядер больше не появляются во вкладке Установленные приложения</li>
+          <li xml:lang="ru">Исправлено: индикатор выполнения больше не застревает на 100% после сканирования</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.1" date="2026-03-25">
+      <description>
+        <p>Major update introducing Dual-Layer Scanning (User vs Root modes) to eliminate password prompts on startup.</p>
+        <p xml:lang="es">Actualización mayor que introduce el Escaneo de Doble Capa (Usuario vs Root) para eliminar peticiones de contraseña al inicio.</p>
+        <p xml:lang="fr">Mise à jour majeure introduisant l'Analyse à Double Couche (Utilisateur vs Root) pour éliminer les invites de mot de passe au démarrage.</p>
+        <p xml:lang="de">Wichtiges Update mit Zweischicht-Scan (Benutzer- vs. Root-Modus) zur Vermeidung von Passwortabfragen beim Start.</p>
+        <p xml:lang="pt">Grande atualização introduzindo a Verificação de Dupla Camada (modos de Utilizador vs Root) para eliminar pedidos de palavra-passe no arranque.</p>
+        <p xml:lang="it">Importante aggiornamento che introduce la Scansione a Doppio Strato (Utente vs Root) per eliminare le richieste di password all'avvio.</p>
+        <p xml:lang="ro">Actualizare majoră care introduce scanarea pe Două Niveluri (Utilizator vs Root) pentru eliminarea solicitărilor de parolă la pornire.</p>
+        <p xml:lang="ru">Крупное обновление, представляющее Двухслойное Сканирование (режимы Пользователя и Root) для устранения запросов пароля при запуске.</p>
+        <ul>
+          <li>Added Flatpak unused runtimes cleaning</li>
+          <li>Added specific User Cache and Trash cleanup tabs working without root privileges</li>
+          <li>Dynamic UI tabs that reveal critical system features only after explicit root authorization</li>
+          <li>Fixed repeated pkexec password prompts when refreshing UI after cleanup tasks</li>
+          <li>Fixed Kernels tab appearing empty due to data mapping errors</li>
+
+          <li xml:lang="es">Añadida limpieza de runtimes Flatpak sin uso</li>
+          <li xml:lang="es">Añadidas pestañas específicas de Caché de Usuario y Papelera que funcionan sin privilegios de administrador</li>
+          <li xml:lang="es">Pestañas de interfaz dinámicas que revelan funciones críticas del sistema solo tras autorización root explícita</li>
+          <li xml:lang="es">Corregidas las peticiones repetidas de contraseña (pkexec) al refrescar la interfaz tras la limpieza</li>
+          <li xml:lang="es">Corregida la pestaña de Kernels que aparecía vacía debido a errores de mapeo de datos</li>
+
+          <li xml:lang="fr">Ajout du nettoyage des environnements d'exécution Flatpak inutilisés</li>
+          <li xml:lang="fr">Ajout d'onglets spécifiques pour le nettoyage du cache utilisateur et de la corbeille fonctionnant sans privilèges administration</li>
+          <li xml:lang="fr">Onglets d'interface dynamiques révélant les fonctions système critiques uniquement après autorisation root explicite</li>
+          <li xml:lang="fr">Correction des invites de mot de passe répétées lors de l'actualisation de l'interface après nettoyage</li>
+          <li xml:lang="fr">Correction de l'onglet Noyaux apparaissant vide en raison d'erreurs de mappage de données</li>
+
+          <li xml:lang="de">Bereinigung ungenutzter Flatpak-Runtimes hinzugefügt</li>
+          <li xml:lang="de">Spezifische Tabs für Benutzer-Cache und Papierkorb hinzugefügt, die ohne Root-Rechte funktionieren</li>
+          <li xml:lang="de">Dynamische UI-Tabs, die kritische Systemfunktionen erst nach expliziter Root-Autorisierung anzeigen</li>
+          <li xml:lang="de">Wiederholte Passwortabfragen nach der UI-Aktualisierung behoben</li>
+          <li xml:lang="de">Leerer Kernel-Tab aufgrund von Datenzuordnungsfehlern behoben</li>
+
+          <li xml:lang="pt">Adicionada limpeza de runtimes Flatpak não utilizados</li>
+          <li xml:lang="pt">Adicionadas abas específicas para limpeza de Cache de Utilizador e Lixeira a funcionar sem privilégios de administrador</li>
+          <li xml:lang="pt">Abas dinâmicas que revelam funcionalidades críticas do sistema apenas após autorização explícita de root</li>
+          <li xml:lang="pt">Corrigidos pedidos repetidos de palavra-passe ao atualizar a interface após as tarefas de limpeza</li>
+          <li xml:lang="pt">Corrigida a aba Kernels que aparecia vazia devido a erros de mapeamento de dados</li>
+
+          <li xml:lang="it">Aggiunta pulizia dei runtime Flatpak non utilizzati</li>
+          <li xml:lang="it">Aggiunte schede specifiche per la pulizia della Cache Utente e del Cestino funzionanti senza privilegi di root</li>
+          <li xml:lang="it">Schede dinamiche che rivelano funzionalità critiche del sistema solo dopo l'autorizzazione esplicita di root</li>
+          <li xml:lang="it">Corrette le richieste ripetute di password durante l'aggiornamento dell'interfaccia dopo la pulizia</li>
+          <li xml:lang="it">Corretta la scheda Kernel che appariva vuota a causa di errori di mappatura dei dati</li>
+
+          <li xml:lang="ro">Curățare Flatpak pentru a elimina formatele neutilizate</li>
+          <li xml:lang="ro">File specifice pentru curățarea memoriei Cache a utilizatorului și a Coșului de gunoi, care funcționează fără privilegii de root</li>
+          <li xml:lang="ro">File dinamice care dezvăluie funcționalități critice ale sistemului doar după autorizare root explicită</li>
+          <li xml:lang="ro">Corectate solicitările repetate de parolă la actualizarea interfeței după curățare</li>
+          <li xml:lang="ro">Fila Nucleelor (Kernels) apărea goală din cauza unor erori de mapare a datelor – rezolvat</li>
+
+          <li xml:lang="ru">Добавлена очистка неиспользуемых сред выполнения Flatpak</li>
+          <li xml:lang="ru">Добавлены вкладки очистки кэша пользователя и корзины, работающие без прав root</li>
+          <li xml:lang="ru">Динамические вкладки интерфейса, отображающие системные функции только после явной авторизации root</li>
+          <li xml:lang="ru">Исправлены повторяющиеся запросы пароля при обновлении интерфейса после задач очистки</li>
+          <li xml:lang="ru">Исправлена вкладка "Ядра", отображавшаяся пустой из-за ошибок сопоставления данных</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.0-2" date="2026-03-20">
+      <description>
+        <p>Fixed About dialog credits panel on KDE: the credits area now displays with an opaque dark background and square corners instead of transparent or rounded-corner artifacts. App icon standardized to 48×48 pixels.</p>
+        <p xml:lang="es">Corregido el panel de créditos del diálogo Acerca de en KDE: el área de créditos ahora se muestra con fondo oscuro opaco y esquinas rectas en lugar de artefactos transparentes o con esquinas redondeadas. Icono estandarizado a 48×48 píxeles.</p>
+        <p xml:lang="fr">Correction du panneau de crédits du dialogue À propos sous KDE : la zone de crédits s'affiche maintenant avec un fond sombre opaque et des coins carrés au lieu d'artefacts transparents ou arrondis. Icône standardisée à 48×48 pixels.</p>
+        <p xml:lang="pt">Corrigido o painel de créditos do diálogo Sobre no KDE: a área de créditos agora é exibida com fundo escuro opaco e cantos retos em vez de artefatos transparentes ou com cantos arredondados. Ícone padronizado para 48×48 pixels.</p>
+        <p xml:lang="de">Korrektur des Kredit-Panels im Über-Dialog unter KDE: Der Kredit-Bereich wird jetzt mit opakem dunklem Hintergrund und eckigen Ecken dargestellt statt transparenter oder gerundeter Artefakte. App-Symbol auf 48×48 Pixel standardisiert.</p>
+        <p xml:lang="it">Corretto il pannello crediti della finestra Info su KDE: l'area dei crediti ora mostra uno sfondo scuro opaco e angoli quadrati invece di artefatti trasparenti o con angoli arrotondati. Icona standardizzata a 48×48 pixel.</p>
+        <p xml:lang="ru">Исправлена панель авторов в диалоге «О программе» в KDE: область авторов теперь отображается с непрозрачным тёмным фоном и прямыми углами вместо прозрачных или скруглённых артефактов. Значок стандартизирован до 48×48 пикселей.</p>
+        <p xml:lang="ro">Corectat panoul de credite din dialogul Despre pe KDE: zona de credite se afișează acum cu fundal întunecat opac și colțuri drepte în loc de artefacte transparente sau cu colțuri rotunjite. Pictogramă standardizată la 48×48 pixeli.</p>
+      </description>
+    </release>
+    <release version="1.0.0-1" date="2026-03-20">
+      <description>
+        <p>Initial release of Soplos Sys Cleaner.</p>
+        <p xml:lang="es">Lanzamiento inicial de Soplos Sys Cleaner.</p>
+        <p xml:lang="fr">Sortie initiale de Soplos Sys Cleaner.</p>
+        <p xml:lang="de">Erste Version von Soplos Sys Cleaner.</p>
+        <p xml:lang="pt">Lançamento inicial do Soplos Sys Cleaner.</p>
+        <p xml:lang="it">Rilascio iniziale di Soplos Sys Cleaner.</p>
+        <p xml:lang="ro">Versiunea inițială a Soplos Sys Cleaner.</p>
+        <p xml:lang="ru">Первоначальный выпуск Soplos Sys Cleaner.</p>
+        <ul>
+          <li>Advanced GPU drivers and firmware cleanup tailored for Soplos Linux</li>
+          <li>Old kernel removal with direct initramfs integration (dracut.conf.d/soplos.conf)</li>
+          <li>System cache and temporary files cleaning</li>
+          <li>Recursive __pycache__ cleaning support</li>
+          <li>New intelligent cleanup tab for locales and translations</li>
+          <li>Professional HeaderBar matching WebApp Manager</li>
+          <li>Extended hardware monitoring (Temperature, GPU, Disk)</li>
+          <li>Native UI fitting the Soplos v2.0 standard across all desktop environments</li>
+          <li>Available in 8 languages</li>
+
+          <li xml:lang="es">Limpieza avanzada de drivers GPU y firmware adaptada para Soplos Linux</li>
+          <li xml:lang="es">Eliminación de kernels antiguos con integración directa en initramfs (dracut.conf.d/soplos.conf)</li>
+          <li xml:lang="es">Limpieza de caché del sistema y archivos temporales</li>
+          <li xml:lang="es">Soporte para limpieza recursiva de __pycache__</li>
+          <li xml:lang="es">Nueva pestaña de limpieza inteligente para locales y traducciones</li>
+          <li xml:lang="es">HeaderBar profesional a juego con WebApp Manager</li>
+          <li xml:lang="es">Monitoreo de hardware extendido (Temperatura, GPU, Disco)</li>
+          <li xml:lang="es">Interfaz nativa adaptada al estándar v2.0 de Soplos en todos los entornos de escritorio</li>
+          <li xml:lang="es">Disponible en 8 idiomas</li>
+
+          <li xml:lang="fr">Nettoyage avancé des pilotes GPU et micrologiciels adapté pour Soplos Linux</li>
+          <li xml:lang="fr">Suppression d'anciens noyaux avec intégration directe dans initramfs (dracut.conf.d/soplos.conf)</li>
+          <li xml:lang="fr">Nettoyage du cache système et des fichiers temporaires</li>
+          <li xml:lang="fr">Support de nettoyage récursif __pycache__</li>
+          <li xml:lang="fr">Nouvel onglet de nettoyage intelligent des locales et des traductions</li>
+          <li xml:lang="fr">HeaderBar professionnelle assortie à WebApp Manager</li>
+          <li xml:lang="fr">Surveillance matérielle étendue (Température, GPU, Disque)</li>
+          <li xml:lang="fr">Interface utilisateur native adaptée à la norme Soplos v2.0 dans tous les environnements de bureau</li>
+          <li xml:lang="fr">Disponible en 8 langues</li>
+
+          <li xml:lang="de">Erweiterte Bereinigung von GPU-Treibern und Firmware, maßgeschneidert für Soplos Linux</li>
+          <li xml:lang="de">Entfernung alter Kernel mit direkter initramfs-Integration (dracut.conf.d/soplos.conf)</li>
+          <li xml:lang="de">Bereinigung von System-Cache und temporären Dateien</li>
+          <li xml:lang="de">Unterstützung für rekursive __pycache__-Bereinigung</li>
+          <li xml:lang="de">Neue intelligente Registerkarte zur Bereinigung von Gebietsschemata und Übersetzungen</li>
+          <li xml:lang="de">Professionelle HeaderBar passend zum WebApp Manager</li>
+          <li xml:lang="de">Erweiterte Hardware-Überwachung (Temperatur, GPU, Festplatte)</li>
+          <li xml:lang="de">Native Benutzeroberfläche nach dem Soplos v2.0-Standard in allen Desktop-Umgebungen</li>
+          <li xml:lang="de">Verfügbar in 8 Sprachen</li>
+
+          <li xml:lang="pt">Limpeza avançada de drivers GPU e firmware adaptada para o Soplos Linux</li>
+          <li xml:lang="pt">Remoção de kernels antigos com integração direta no initramfs (dracut.conf.d/soplos.conf)</li>
+          <li xml:lang="pt">Limpeza de cache do sistema e ficheiros temporários</li>
+          <li xml:lang="pt">Suporte para limpeza recursiva de __pycache__</li>
+          <li xml:lang="pt">Nova aba de limpeza inteligente para idiomas e traduções</li>
+          <li xml:lang="pt">HeaderBar profissional combinando com o WebApp Manager</li>
+          <li xml:lang="pt">Monitoramento de hardware estendido (Temperatura, GPU, Disco)</li>
+          <li xml:lang="pt">Interface nativa adaptada ao padrão v2.0 do Soplos em todos os ambientes de trabalho</li>
+          <li xml:lang="pt">Disponível em 8 idiomas</li>
+
+          <li xml:lang="it">Pulizia avanzata di driver GPU e firmware adattata per Soplos Linux</li>
+          <li xml:lang="it">Rimozione di vecchi kernel con integrazione diretta in initramfs (dracut.conf.d/soplos.conf)</li>
+          <li xml:lang="it">Pulizia della cache di sistema e dei file temporanei</li>
+          <li xml:lang="it">Supporto per la pulizia ricorsiva di __pycache__</li>
+          <li xml:lang="it">Nuova scheda di pulizia intelligente per impostazioni locali e traduzioni</li>
+          <li xml:lang="it">HeaderBar professionale abbinata a WebApp Manager</li>
+          <li xml:lang="it">Monitoraggio hardware esteso (Temperatura, GPU, Disco)</li>
+          <li xml:lang="it">Interfaccia nativa adattata allo standard v2.0 di Soplos in tutti gli ambienti desktop</li>
+          <li xml:lang="it">Disponibile in 8 lingue</li>
+
+          <li xml:lang="ro">Curățare avansată a driverelor GPU și a firmware-ului adaptată pentru Soplos Linux</li>
+          <li xml:lang="ro">Eliminarea kernel-urilor vechi cu integrare directă în initramfs (dracut.conf.d/soplos.conf)</li>
+          <li xml:lang="ro">Curățarea cache-ului sistemului și a fișierelor temporare</li>
+          <li xml:lang="ro">Suport pentru curățarea recursivă __pycache__</li>
+          <li xml:lang="ro">Filă nouă de curățare inteligentă pentru localizări și traduceri</li>
+          <li xml:lang="ro">HeaderBar profesional asortat cu WebApp Manager</li>
+          <li xml:lang="ro">Monitorizare hardware extinsă (Temperatură, GPU, Disc)</li>
+          <li xml:lang="ro">Interfață nativă adaptată la standardul v2.0 Soplos în toate mediile desktop</li>
+          <li xml:lang="ro">Disponibil în 8 limbi</li>
+
+          <li xml:lang="ru">Расширенная очистка драйверов GPU и прошивок, адаптированная для Soplos Linux</li>
+          <li xml:lang="ru">Удаление старых ядер с прямой интеграцией в initramfs (dracut.conf.d/soplos.conf)</li>
+          <li xml:lang="ru">Очистка системного кэша и временных файлов</li>
+          <li xml:lang="ru">Рекурсивная очистка __pycache__</li>
+          <li xml:lang="ru">Новая вкладка интеллектуальной очистки локалей и переводов</li>
+          <li xml:lang="ru">Профессиональный заголовок (HeaderBar), как в WebApp Manager</li>
+          <li xml:lang="ru">Расширенный мониторинг оборудования (Температура, GPU, Диск)</li>
+          <li xml:lang="ru">Нативный интерфейс по стандарту Soplos v2.0 для всех рабочих сред</li>
+          <li xml:lang="ru">Доступно на 8 языках</li>
+
+          <li>Added keyboard shortcuts: Ctrl+W to close, Ctrl+R to rescan, Ctrl+1–7 for tab navigation</li>
+          <li>Scan icon in Overview tab enlarged to 128px for better visibility</li>
+          <li>Fixed: action buttons now re-enable after failed or cancelled operations</li>
+          <li>Fixed: progress bar now closes after kernel cleanup completes</li>
+          <li>Fixed: translatable strings in GPU Drivers and Firmware tabs corrected to English</li>
+          <li>Fixed: socket files and symlinks excluded from Temp Files scanner</li>
+          <li>Fixed: temp file deletion uses pkexec fallback for root-owned files</li>
+          <li>Fixed: APT Cache scanner now includes package lists size</li>
+          <li>Fixed: Languages tab uses lazy loading to prevent post-scan UI freeze</li>
+          <li>Fixed: system usage metrics timer moved to background thread</li>
+          <li>Improved: fmt_size() consolidated in utils/constants.py, eliminating duplication across 6 files</li>
+          <li>Improved: duplicate constants and unused functions removed</li>
+          <li>Improved: Overview card strings fully translatable in all 8 languages</li>
+
+          <li xml:lang="es">Atajos de teclado añadidos: Ctrl+W para cerrar, Ctrl+R para reescanear, Ctrl+1–7 para navegar entre pestañas</li>
+          <li xml:lang="es">Icono de escaneo en la pestaña General ampliado a 128px para mayor visibilidad</li>
+          <li xml:lang="es">Corregido: los botones de acción se reactivan tras operaciones fallidas o canceladas</li>
+          <li xml:lang="es">Corregido: la barra de progreso se cierra tras completar la limpieza de kernels</li>
+          <li xml:lang="es">Corregido: textos traducibles en las pestañas de Drivers GPU y Firmware corregidos a inglés</li>
+          <li xml:lang="es">Corregido: archivos de socket y enlaces simbólicos excluidos del escáner de archivos temporales</li>
+          <li xml:lang="es">Corregido: eliminación de temporales usa pkexec para archivos de root</li>
+          <li xml:lang="es">Corregido: la caché APT ahora incluye el tamaño de las listas de paquetes</li>
+          <li xml:lang="es">Corregido: pestaña Idiomas usa carga diferida para evitar el freeze post-escaneo</li>
+          <li xml:lang="es">Corregido: métricas del sistema movidas a hilo en segundo plano</li>
+          <li xml:lang="es">Mejorado: fmt_size() consolidada en utils/constants.py, eliminando duplicación en 6 archivos</li>
+          <li xml:lang="es">Mejorado: constantes duplicadas y funciones sin uso eliminadas</li>
+          <li xml:lang="es">Mejorado: cadenas de las tarjetas del Resumen totalmente traducibles en los 8 idiomas</li>
+
+          <li xml:lang="fr">Raccourcis clavier ajoutés : Ctrl+W pour fermer, Ctrl+R pour relancer l'analyse, Ctrl+1–7 pour naviguer entre les onglets</li>
+          <li xml:lang="fr">Icône d'analyse dans l'onglet Aperçu agrandie à 128px pour une meilleure visibilité</li>
+          <li xml:lang="fr">Corrigé : les boutons d'action se réactivent après des opérations échouées ou annulées</li>
+          <li xml:lang="fr">Corrigé : la barre de progression se ferme après la fin du nettoyage du noyau</li>
+          <li xml:lang="fr">Corrigé : les chaînes traduisibles dans les onglets Pilotes GPU et Micrologiciel corrigées en anglais</li>
+          <li xml:lang="fr">Corrigé : fichiers socket et liens symboliques exclus du scanner de fichiers temporaires</li>
+          <li xml:lang="fr">Corrigé : suppression des temporaires utilise pkexec pour les fichiers root</li>
+          <li xml:lang="fr">Corrigé : le cache APT inclut désormais la taille des listes de paquets</li>
+          <li xml:lang="fr">Corrigé : l'onglet Langues utilise le chargement différé pour éviter le gel post-analyse</li>
+          <li xml:lang="fr">Corrigé : métriques système déplacées dans un thread d'arrière-plan</li>
+          <li xml:lang="fr">Amélioré : fmt_size() consolidée dans utils/constants.py, supprimant la duplication dans 6 fichiers</li>
+          <li xml:lang="fr">Amélioré : constantes dupliquées et fonctions inutilisées supprimées</li>
+          <li xml:lang="fr">Amélioré : chaînes des cartes de la vue d'ensemble entièrement traduisibles dans les 8 langues</li>
+
+          <li xml:lang="de">Tastaturkürzel hinzugefügt: Strg+W zum Schließen, Strg+R zum erneuten Scannen, Strg+1–7 zur Tab-Navigation</li>
+          <li xml:lang="de">Scan-Symbol auf der Übersicht-Registerkarte auf 128px vergrößert für bessere Sichtbarkeit</li>
+          <li xml:lang="de">Behoben: Aktionsschaltflächen werden nach fehlgeschlagenen oder abgebrochenen Vorgängen wieder aktiviert</li>
+          <li xml:lang="de">Behoben: Die Fortschrittsleiste schließt sich nach abgeschlossener Kernel-Bereinigung</li>
+          <li xml:lang="de">Behoben: Übersetzbare Zeichenfolgen in GPU-Treiber- und Firmware-Registerkarten auf Englisch korrigiert</li>
+          <li xml:lang="de">Behoben: Socket-Dateien und Symlinks vom Temp-Scanner ausgeschlossen</li>
+          <li xml:lang="de">Behoben: Temp-Löschung nutzt pkexec-Fallback für Root-Dateien</li>
+          <li xml:lang="de">Behoben: APT-Cache-Scanner enthält jetzt die Größe der Paketlisten</li>
+          <li xml:lang="de">Behoben: Sprachen-Registerkarte verwendet Lazy Loading zur Vermeidung von UI-Hänger nach dem Scan</li>
+          <li xml:lang="de">Behoben: Systemmetriken in Hintergrund-Thread verschoben</li>
+          <li xml:lang="de">Verbessert: fmt_size() in utils/constants.py konsolidiert, Duplizierung in 6 Dateien beseitigt</li>
+          <li xml:lang="de">Verbessert: Doppelte Konstanten und ungenutzte Funktionen entfernt</li>
+          <li xml:lang="de">Verbessert: Übersichtskarten-Strings in allen 8 Sprachen vollständig übersetzbar</li>
+
+          <li xml:lang="pt">Atalhos de teclado adicionados: Ctrl+W para fechar, Ctrl+R para reescanear, Ctrl+1–7 para navegar entre separadores</li>
+          <li xml:lang="pt">Ícone de análise no separador Visão Geral aumentado para 128px para maior visibilidade</li>
+          <li xml:lang="pt">Corrigido: os botões de ação voltam a ficar ativos após operações falhadas ou canceladas</li>
+          <li xml:lang="pt">Corrigido: a barra de progresso fecha após a conclusão da limpeza de kernels</li>
+          <li xml:lang="pt">Corrigido: textos traduzíveis nos separadores Drivers GPU e Firmware corrigidos para inglês</li>
+          <li xml:lang="pt">Corrigido: ficheiros socket e links simbólicos excluídos do scanner de ficheiros temporários</li>
+          <li xml:lang="pt">Corrigido: eliminação de temporários usa pkexec para ficheiros root</li>
+          <li xml:lang="pt">Corrigido: cache APT inclui agora o tamanho das listas de pacotes</li>
+          <li xml:lang="pt">Corrigido: separador Idiomas usa carregamento diferido para evitar freeze pós-análise</li>
+          <li xml:lang="pt">Corrigido: métricas do sistema movidas para thread em segundo plano</li>
+          <li xml:lang="pt">Melhorado: fmt_size() consolidada em utils/constants.py, eliminando duplicação em 6 ficheiros</li>
+          <li xml:lang="pt">Melhorado: constantes duplicadas e funções sem uso removidas</li>
+          <li xml:lang="pt">Melhorado: strings dos cartões da visão geral totalmente traduzíveis nos 8 idiomas</li>
+
+          <li xml:lang="it">Scorciatoie da tastiera aggiunte: Ctrl+W per chiudere, Ctrl+R per ripetere la scansione, Ctrl+1–7 per navigare tra le schede</li>
+          <li xml:lang="it">Icona di scansione nella scheda Panoramica ingrandita a 128px per una migliore visibilità</li>
+          <li xml:lang="it">Corretto: i pulsanti di azione si riattivano dopo operazioni non riuscite o annullate</li>
+          <li xml:lang="it">Corretto: la barra di avanzamento si chiude al termine della pulizia del kernel</li>
+          <li xml:lang="it">Corretto: le stringhe traducibili nelle schede Driver GPU e Firmware corrette in inglese</li>
+          <li xml:lang="it">Corretto: file socket e link simbolici esclusi dallo scanner dei file temporanei</li>
+          <li xml:lang="it">Corretto: eliminazione temporanei usa pkexec per file di root</li>
+          <li xml:lang="it">Corretto: cache APT include ora la dimensione delle liste pacchetti</li>
+          <li xml:lang="it">Corretto: scheda Lingue usa caricamento lazy per evitare freeze post-scansione</li>
+          <li xml:lang="it">Corretto: metriche di sistema spostate in thread in background</li>
+          <li xml:lang="it">Migliorato: fmt_size() consolidata in utils/constants.py, eliminando la duplicazione in 6 file</li>
+          <li xml:lang="it">Migliorato: costanti duplicate e funzioni inutilizzate rimosse</li>
+          <li xml:lang="it">Migliorato: stringhe delle schede panoramica completamente traducibili in tutte le 8 lingue</li>
+
+          <li xml:lang="ro">Comenzi rapide adăugate: Ctrl+W pentru închidere, Ctrl+R pentru rescanare, Ctrl+1–7 pentru navigarea între file</li>
+          <li xml:lang="ro">Pictograma de scanare din fila Prezentare generală mărită la 128px pentru o mai bună vizibilitate</li>
+          <li xml:lang="ro">Rezolvat: butoanele de acțiune se reactivează după operațiuni eșuate sau anulate</li>
+          <li xml:lang="ro">Rezolvat: bara de progres se închide după finalizarea curățării kernel-ului</li>
+          <li xml:lang="ro">Rezolvat: șirurile traductibile din filele Drivere GPU și Firmware corectate în engleză</li>
+          <li xml:lang="ro">Rezolvat: fișierele socket și legăturile simbolice excluse din scanerul de fișiere temporare</li>
+          <li xml:lang="ro">Rezolvat: ștergerea temporarelor folosește pkexec pentru fișierele root</li>
+          <li xml:lang="ro">Rezolvat: cache-ul APT include acum dimensiunea listelor de pachete</li>
+          <li xml:lang="ro">Rezolvat: fila Limbi folosește încărcare leneșă pentru a preveni înghețarea după scanare</li>
+          <li xml:lang="ro">Rezolvat: metricile sistemului mutate într-un fir de fundal</li>
+          <li xml:lang="ro">Îmbunătățit: fmt_size() consolidată în utils/constants.py, eliminând duplicarea în 6 fișiere</li>
+          <li xml:lang="ro">Îmbunătățit: constante duplicate și funcții neutilizate eliminate</li>
+          <li xml:lang="ro">Îmbunătățit: șirurile cardurilor din prezentarea generală complet traductibile în toate cele 8 limbi</li>
+
+          <li xml:lang="ru">Добавлены сочетания клавиш: Ctrl+W — закрыть, Ctrl+R — повторить сканирование, Ctrl+1–7 — навигация по вкладкам</li>
+          <li xml:lang="ru">Значок сканирования на вкладке «Обзор» увеличен до 128px для лучшей видимости</li>
+          <li xml:lang="ru">Исправлено: кнопки действий снова активируются после неудачных или отменённых операций</li>
+          <li xml:lang="ru">Исправлено: полоса прогресса закрывается после завершения очистки ядер</li>
+          <li xml:lang="ru">Исправлено: переводимые строки во вкладках «Драйверы GPU» и «Прошивки» исправлены на английский</li>
+          <li xml:lang="ru">Исправлено: файлы сокетов и символические ссылки исключены из сканера временных файлов</li>
+          <li xml:lang="ru">Исправлено: удаление временных файлов использует pkexec для файлов root</li>
+          <li xml:lang="ru">Исправлено: сканер кэша APT теперь учитывает размер списков пакетов</li>
+          <li xml:lang="ru">Исправлено: вкладка «Языки» использует отложенную загрузку для предотвращения зависания после сканирования</li>
+          <li xml:lang="ru">Исправлено: метрики системы перенесены в фоновый поток</li>
+          <li xml:lang="ru">Улучшено: fmt_size() вынесена в utils/constants.py, устранено дублирование в 6 файлах</li>
+          <li xml:lang="ru">Улучшено: удалены дублирующиеся константы и неиспользуемые функции</li>
+          <li xml:lang="ru">Улучшено: строки карточек обзора полностью переводимы на все 8 языков</li>
+
+          <li>Added Ctrl+Tab / Ctrl+Shift+Tab shortcuts to cycle between tabs</li>
+          <li>Added F1 shortcut to open the About dialog</li>
+          <li>Fixed: GNOME HeaderBar now displays with correct dark background</li>
+          <li>Fixed: GNOME CSD window controls no longer affected by global button CSS</li>
+
+          <li xml:lang="es">Añadidos atajos Ctrl+Tab / Ctrl+Shift+Tab para cambiar de pestaña</li>
+          <li xml:lang="es">Añadido atajo F1 para abrir el diálogo Acerca de</li>
+          <li xml:lang="es">Corregido: el HeaderBar en GNOME ahora muestra el fondo oscuro correcto</li>
+          <li xml:lang="es">Corregido: los controles CSD de GNOME ya no se ven afectados por el CSS global de botones</li>
+
+          <li xml:lang="fr">Ajout des raccourcis Ctrl+Tab / Ctrl+Shift+Tab pour naviguer entre les onglets</li>
+          <li xml:lang="fr">Ajout du raccourci F1 pour ouvrir la boîte de dialogue À propos</li>
+          <li xml:lang="fr">Corrigé : la HeaderBar sous GNOME affiche désormais le fond sombre correct</li>
+          <li xml:lang="fr">Corrigé : les contrôles CSD de GNOME ne sont plus affectés par le CSS global des boutons</li>
+
+          <li xml:lang="de">Tastaturkürzel Strg+Tab / Strg+Umschalt+Tab zum Wechseln zwischen Registerkarten hinzugefügt</li>
+          <li xml:lang="de">Tastaturkürzel F1 zum Öffnen des Über-Dialogs hinzugefügt</li>
+          <li xml:lang="de">Behoben: Die HeaderBar unter GNOME zeigt jetzt den korrekten dunklen Hintergrund</li>
+          <li xml:lang="de">Behoben: GNOME-CSD-Steuerelemente werden nicht mehr durch das globale Button-CSS beeinflusst</li>
+
+          <li xml:lang="pt">Adicionados atalhos Ctrl+Tab / Ctrl+Shift+Tab para navegar entre separadores</li>
+          <li xml:lang="pt">Adicionado atalho F1 para abrir o diálogo Sobre</li>
+          <li xml:lang="pt">Corrigido: a HeaderBar no GNOME apresenta agora o fundo escuro correto</li>
+          <li xml:lang="pt">Corrigido: os controlos CSD do GNOME já não são afetados pelo CSS global de botões</li>
+
+          <li xml:lang="it">Aggiunte scorciatoie Ctrl+Tab / Ctrl+Shift+Tab per navigare tra le schede</li>
+          <li xml:lang="it">Aggiunta scorciatoia F1 per aprire la finestra Info</li>
+          <li xml:lang="it">Corretto: la HeaderBar su GNOME ora mostra lo sfondo scuro corretto</li>
+          <li xml:lang="it">Corretto: i controlli CSD di GNOME non sono più influenzati dal CSS globale dei pulsanti</li>
+
+          <li xml:lang="ro">Adăugate comenzi rapide Ctrl+Tab / Ctrl+Shift+Tab pentru navigarea între file</li>
+          <li xml:lang="ro">Adăugată comanda rapidă F1 pentru deschiderea dialogului Despre</li>
+          <li xml:lang="ro">Rezolvat: HeaderBar-ul în GNOME afișează acum fundalul întunecat corect</li>
+          <li xml:lang="ro">Rezolvat: controalele CSD GNOME nu mai sunt afectate de CSS-ul global al butoanelor</li>
+
+          <li xml:lang="ru">Добавлены сочетания клавиш Ctrl+Tab / Ctrl+Shift+Tab для переключения между вкладками</li>
+          <li xml:lang="ru">Добавлено сочетание F1 для открытия диалога «О программе»</li>
+          <li xml:lang="ru">Исправлено: HeaderBar в GNOME теперь отображает правильный тёмный фон</li>
+          <li xml:lang="ru">Исправлено: элементы управления CSD GNOME больше не затронуты глобальным CSS кнопок</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+</component>

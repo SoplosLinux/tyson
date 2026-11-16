@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.soplos.store</id>
+  <pkgname>soplos-store</pkgname>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <project_group>org.soplos</project_group>
+
+  <name>Soplos Store</name>
+  <name xml:lang="es">Soplos Store</name>
+  <name xml:lang="en">Soplos Store</name>
+  <name xml:lang="fr">Soplos Store</name>
+  <name xml:lang="de">Soplos Store</name>
+  <name xml:lang="pt">Soplos Store</name>
+  <name xml:lang="it">Soplos Store</name>
+  <name xml:lang="ro">Soplos Store</name>
+  <name xml:lang="ru">Soplos Store</name>
+
+  <summary>Software store for Soplos Linux</summary>
+  <summary xml:lang="es">Tienda de software para Soplos Linux</summary>
+  <summary xml:lang="en">Software store for Soplos Linux</summary>
+  <summary xml:lang="fr">Boutique de logiciels pour Soplos Linux</summary>
+  <summary xml:lang="de">Software-Center für Soplos Linux</summary>
+  <summary xml:lang="pt">Loja de aplicações para o Soplos Linux</summary>
+  <summary xml:lang="it">Gestore di software per Soplos Linux</summary>
+  <summary xml:lang="ro">Magazin de aplicații pentru Soplos Linux</summary>
+  <summary xml:lang="ru">Центр приложений для Soplos Linux</summary>
+
+  <description>
+    <p>
+      Soplos Store finds, installs, updates and removes applications
+      from APT, Flatpak, Snap and AppImages in one place. Featured apps, popular apps and
+      categories come from public databases (Debian AppStream, Flathub and
+      the Snap Store), with ratings from ODRS, and an app available from
+      several sources appears once with a choice of where to install it.
+    </p>
+    <p>
+      It also shows a tray icon when updates are available, and it opens
+      .deb, .flatpak, .flatpakref, .snap and .AppImage files.
+    </p>
+    <p xml:lang="es">
+      Soplos Store busca, instala, actualiza y desinstala aplicaciones
+      de APT, Flatpak, Snap y AppImages en un solo lugar. Las aplicaciones destacadas,
+      populares y categorías provienen de bases de datos públicas (Debian AppStream,
+      Flathub y Snap Store), con valoraciones de ODRS.
+    </p>
+    <p xml:lang="es">
+      También incluye un notificador en la bandeja del sistema cuando hay actualizaciones
+      disponibles y permite instalar directamente paquetes .deb, .flatpak, .flatpakref, .snap y .AppImage.
+    </p>
+    <p xml:lang="fr">
+      Soplos Store recherche, installe, met à jour et supprime des applications
+      provenant d'APT, Flatpak, Snap et AppImage en un seul endroit. Les applications en vedette,
+      populaires et les catégories proviennent de bases de données publiques avec les évaluations ODRS.
+    </p>
+    <p xml:lang="de">
+      Soplos Store findet, installiert, aktualisiert und entfernt Anwendungen
+      aus APT, Flatpak, Snap und AppImages an einem zentralen Ort. Empfohlene Apps,
+      beliebte Apps und Kategorien stammen aus öffentlichen Datenbanken mit ODRS-Bewertungen.
+    </p>
+    <p xml:lang="pt">
+      O Soplos Store pesquisa, instala, atualiza e remove aplicações
+      do APT, Flatpak, Snap e AppImages num único local. Aplicações em destaque,
+      populares e categorias provêm de bases de dados públicas com classificações ODRS.
+    </p>
+    <p xml:lang="it">
+      Soplos Store cerca, installa, aggiorna e rimuove applicazioni
+      da APT, Flatpak, Snap e AppImage in un unico posto. Le applicazioni in evidenza,
+      popolari e categorie provengono da database pubblici con valutazioni ODRS.
+    </p>
+    <p xml:lang="ro">
+      Soplos Store găsește, instalează, actualizează și elimină aplicații
+      din APT, Flatpak, Snap și AppImage într-un singur loc. Aplicațiile recomandate,
+      populare și categoriile provin din baze de date publice cu evaluări ODRS.
+    </p>
+    <p xml:lang="ru">
+      Soplos Store находит, устанавливает, обновляет и удаляет приложения
+      из APT, Flatpak, Snap и AppImage в одном месте. Популярные приложения,
+      рекомендации и категории загружаются из публичных баз данных с оценками ODRS.
+    </p>
+  </description>
+
+  <categories>
+    <category>System</category>
+    <category>PackageManager</category>
+  </categories>
+
+  <keywords>
+    <keyword>software</keyword>
+    <keyword>store</keyword>
+    <keyword>install</keyword>
+    <keyword>apps</keyword>
+    <keyword>deb</keyword>
+    <keyword>flatpak</keyword>
+    <keyword>snap</keyword>
+    <keyword>appimage</keyword>
+    <keyword xml:lang="es">software</keyword>
+    <keyword xml:lang="es">tienda</keyword>
+    <keyword xml:lang="es">instalar</keyword>
+    <keyword xml:lang="es">aplicaciones</keyword>
+    <keyword xml:lang="es">deb</keyword>
+    <keyword xml:lang="es">flatpak</keyword>
+    <keyword xml:lang="es">snap</keyword>
+    <keyword xml:lang="es">appimage</keyword>
+    <keyword xml:lang="fr">logiciel</keyword>
+    <keyword xml:lang="fr">boutique</keyword>
+    <keyword xml:lang="fr">logithèque</keyword>
+    <keyword xml:lang="fr">installer</keyword>
+    <keyword xml:lang="fr">applications</keyword>
+    <keyword xml:lang="fr">deb</keyword>
+    <keyword xml:lang="fr">flatpak</keyword>
+    <keyword xml:lang="fr">snap</keyword>
+    <keyword xml:lang="fr">appimage</keyword>
+    <keyword xml:lang="de">software</keyword>
+    <keyword xml:lang="de">center</keyword>
+    <keyword xml:lang="de">laden</keyword>
+    <keyword xml:lang="de">installieren</keyword>
+    <keyword xml:lang="de">apps</keyword>
+    <keyword xml:lang="de">deb</keyword>
+    <keyword xml:lang="de">flatpak</keyword>
+    <keyword xml:lang="de">snap</keyword>
+    <keyword xml:lang="de">appimage</keyword>
+    <keyword xml:lang="pt">software</keyword>
+    <keyword xml:lang="pt">loja</keyword>
+    <keyword xml:lang="pt">instalar</keyword>
+    <keyword xml:lang="pt">aplicações</keyword>
+    <keyword xml:lang="pt">aplicativos</keyword>
+    <keyword xml:lang="pt">deb</keyword>
+    <keyword xml:lang="pt">flatpak</keyword>
+    <keyword xml:lang="pt">snap</keyword>
+    <keyword xml:lang="pt">appimage</keyword>
+    <keyword xml:lang="it">software</keyword>
+    <keyword xml:lang="it">gestore</keyword>
+    <keyword xml:lang="it">negozio</keyword>
+    <keyword xml:lang="it">installare</keyword>
+    <keyword xml:lang="it">applicazioni</keyword>
+    <keyword xml:lang="it">deb</keyword>
+    <keyword xml:lang="it">flatpak</keyword>
+    <keyword xml:lang="it">snap</keyword>
+    <keyword xml:lang="it">appimage</keyword>
+    <keyword xml:lang="ro">software</keyword>
+    <keyword xml:lang="ro">magazin</keyword>
+    <keyword xml:lang="ro">instalare</keyword>
+    <keyword xml:lang="ro">aplicații</keyword>
+    <keyword xml:lang="ro">deb</keyword>
+    <keyword xml:lang="ro">flatpak</keyword>
+    <keyword xml:lang="ro">snap</keyword>
+    <keyword xml:lang="ro">appimage</keyword>
+    <keyword xml:lang="ru">программы</keyword>
+    <keyword xml:lang="ru">приложения</keyword>
+    <keyword xml:lang="ru">центр</keyword>
+    <keyword xml:lang="ru">магазин</keyword>
+    <keyword xml:lang="ru">установка</keyword>
+    <keyword xml:lang="ru">deb</keyword>
+    <keyword xml:lang="ru">flatpak</keyword>
+    <keyword xml:lang="ru">snap</keyword>
+    <keyword xml:lang="ru">appimage</keyword>
+  </keywords>
+
+  <launchable type="desktop-id">soplos-store.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-store/main/src-tauri/resources/screenshots/screenshot01.png</image>
+      <caption>Explore: a carousel of highlighted apps for each section</caption>
+      <caption xml:lang="es">Explorar: carrusel de aplicaciones destacadas para cada sección</caption>
+      <caption xml:lang="en">Explore: a carousel of highlighted apps for each section</caption>
+      <caption xml:lang="fr">Explorer : carrousel d'applications en vedette</caption>
+      <caption xml:lang="de">Entdecken: Karussell mit empfohlenen Anwendungen</caption>
+      <caption xml:lang="pt">Explorar: carrossel de aplicações em destaque</caption>
+      <caption xml:lang="it">Esplora: carosello di applicazioni in evidenza</caption>
+      <caption xml:lang="ro">Explorare: carusel cu aplicații recomandate</caption>
+      <caption xml:lang="ru">Обзор: карусель рекомендуемых приложений</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-store/main/src-tauri/resources/screenshots/screenshot02.png</image>
+      <caption>App page: screenshots, ratings, details and links</caption>
+      <caption xml:lang="es">Ficha de la aplicación: capturas, valoraciones, detalles y enlaces</caption>
+      <caption xml:lang="en">App page: screenshots, ratings, details and links</caption>
+      <caption xml:lang="fr">Fiche de l'application : captures, avis, détails et liens</caption>
+      <caption xml:lang="de">App-Seite: Bildschirmfotos, Bewertungen, Details und Links</caption>
+      <caption xml:lang="pt">Página da aplicação: capturas, classificações, detalhes e ligações</caption>
+      <caption xml:lang="it">Scheda applicazione: schermate, valutazioni, dettagli e collegamenti</caption>
+      <caption xml:lang="ro">Pagina aplicației: capturi, evaluări, detalii și linkuri</caption>
+      <caption xml:lang="ru">Страница приложения: скриншоты, оценки, сведения и ссылки</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-store/main/src-tauri/resources/screenshots/screenshot03.png</image>
+      <caption>Categories: complete catalog by software category</caption>
+      <caption xml:lang="es">Categorías: catálogo completo por categoría de software</caption>
+      <caption xml:lang="en">Categories: complete catalog by software category</caption>
+      <caption xml:lang="fr">Catégories : catalogue complet par catégorie de logiciels</caption>
+      <caption xml:lang="de">Kategorien: vollständiger Katalog nach Softwarekategorie</caption>
+      <caption xml:lang="pt">Categorias: catálogo completo por categoria de software</caption>
+      <caption xml:lang="it">Categorie: catalogo completo per categoria software</caption>
+      <caption xml:lang="ro">Categorii: catalog complet pe categorii de software</caption>
+      <caption xml:lang="ru">Категории: полный каталог по категориям программ</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-store/main/src-tauri/resources/screenshots/screenshot04.png</image>
+      <caption>Category page: subcategories, top rated apps and filters</caption>
+      <caption xml:lang="es">Página de categoría: subcategorías, apps mejor valoradas y filtros</caption>
+      <caption xml:lang="en">Category page: subcategories, top rated apps and filters</caption>
+      <caption xml:lang="fr">Page de catégorie : sous-catégories, applications les mieux notées et filtres</caption>
+      <caption xml:lang="de">Kategorieseite: Unterkategorien, bestbewertete Apps und Filter</caption>
+      <caption xml:lang="pt">Página de categoria: subcategorias, aplicações mais bem avaliadas e filtros</caption>
+      <caption xml:lang="it">Pagina di categoria: sottocategorie, app più votate e filtri</caption>
+      <caption xml:lang="ro">Pagina categoriei: subcategorii, aplicații de top și filtre</caption>
+      <caption xml:lang="ru">Страница категории: подкатегории, лучшие приложения и фильтры</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-store/main/src-tauri/resources/screenshots/screenshot05.png</image>
+      <caption>Installed apps: manage and search installed software across sources</caption>
+      <caption xml:lang="es">Aplicaciones instaladas: gestión y búsqueda de software instalado</caption>
+      <caption xml:lang="en">Installed apps: manage and search installed software across sources</caption>
+      <caption xml:lang="fr">Applications installées : gestion et recherche de logiciels installés</caption>
+      <caption xml:lang="de">Installierte Apps: Verwaltung und Suche installierter Software</caption>
+      <caption xml:lang="pt">Aplicações instaladas: gestão e pesquisa de software instalado</caption>
+      <caption xml:lang="it">Applicazioni installate: gestione e ricerca del software installato</caption>
+      <caption xml:lang="ro">Aplicații instalate: gestionarea și căutarea software-ului instalat</caption>
+      <caption xml:lang="ru">Установленные приложения: управление и поиск установленных программ</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-store/main/src-tauri/resources/screenshots/screenshot06.png</image>
+      <caption>Batch uninstall: select multiple installed apps for bulk removal</caption>
+      <caption xml:lang="es">Desinstalación múltiple: selección de varias aplicaciones para desinstalación por lotes</caption>
+      <caption xml:lang="en">Batch uninstall: select multiple installed apps for bulk removal</caption>
+      <caption xml:lang="fr">Désinstallation groupée : sélection multiple pour suppression par lots</caption>
+      <caption xml:lang="de">Mehrfachdeinstallation: mehrere installierte Apps zur Sammelentfernung auswählen</caption>
+      <caption xml:lang="pt">Desinstalação múltipla: selecionar várias aplicações para remoção em lote</caption>
+      <caption xml:lang="it">Disinstallazione multipla: seleziona più applicazioni da rimuovere in blocco</caption>
+      <caption xml:lang="ro">Dezinstalare multiplă: selectarea mai multor aplicații pentru eliminare în bloc</caption>
+      <caption xml:lang="ru">Массовое удаление: выбор нескольких приложений для пакетного удаления</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-store/main/src-tauri/resources/screenshots/screenshot07.png</image>
+      <caption>Updates: pending updates with real-time progress logging</caption>
+      <caption xml:lang="es">Actualizaciones: actualizaciones pendientes con registro de progreso en tiempo real</caption>
+      <caption xml:lang="en">Updates: pending updates with real-time progress logging</caption>
+      <caption xml:lang="fr">Mises à jour : mises à jour en attente avec suivi en direct</caption>
+      <caption xml:lang="de">Aktualisierungen: ausstehende Updates mit Echtzeit-Fortschrittsanzeige</caption>
+      <caption xml:lang="pt">Atualizações: atualizações pendentes com registo de progresso em tempo real</caption>
+      <caption xml:lang="it">Aggiornamenti: aggiornamenti in sospeso con avanzamento in tempo reale</caption>
+      <caption xml:lang="ro">Actualizări: actualizări în așteptare cu jurnal de progres în timp real</caption>
+      <caption xml:lang="ru">Обновления: ожидающие обновления с отслеживанием прогресса в реальном времени</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-store/main/src-tauri/resources/screenshots/screenshot08.png</image>
+      <caption>Up to date: clean unified view when all packages are up to date</caption>
+      <caption xml:lang="es">Todo al día: vista limpia y unificada cuando el sistema está actualizado</caption>
+      <caption xml:lang="en">Up to date: clean unified view when all packages are up to date</caption>
+      <caption xml:lang="fr">À jour : vue unifiée lorsque tous les paquets sont à jour</caption>
+      <caption xml:lang="de">Auf dem neuesten Stand: saubere Ansicht, wenn alles aktualisiert ist</caption>
+      <caption xml:lang="pt">Atualizado: vista unificada quando todos os pacotes estão atualizados</caption>
+      <caption xml:lang="it">Aggiornato: vista unificata quando tutti i pacchetti sono aggiornati</caption>
+      <caption xml:lang="ro">La zi: vizualizare unificată când toate pachetele sunt actualizate</caption>
+      <caption xml:lang="ru">Всё обновлено: единое представление, когда система обновлена</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-store/main/src-tauri/resources/screenshots/screenshot09.png</image>
+      <caption>Settings: manage software sources, update checks and maintenance</caption>
+      <caption xml:lang="es">Ajustes: gestión de orígenes de software, comprobaciones y mantenimiento</caption>
+      <caption xml:lang="en">Settings: manage software sources, update checks and maintenance</caption>
+      <caption xml:lang="fr">Paramètres : gestion des sources de logiciels, vérifications et maintenance</caption>
+      <caption xml:lang="de">Einstellungen: Softwarequellen verwalten, Update-Prüfungen und Wartung</caption>
+      <caption xml:lang="pt">Definições: gestão de origens de software, verificações e manutenção</caption>
+      <caption xml:lang="it">Impostazioni: gestione sorgenti software, verifiche e manutenzione</caption>
+      <caption xml:lang="ro">Setări: gestionarea surselor de software, verificări și întreținere</caption>
+      <caption xml:lang="ru">Настройки: управление источниками программ, проверки и обслуживание</caption>
+    </screenshot>
+  </screenshots>
+
+  <provides>
+    <binary>soplos-store</binary>
+  </provides>
+
+  <url type="homepage">https://soplos.org</url>
+
+  <developer id="org.soplos">
+    <name>Sergi Perich</name>
+  </developer>
+
+  <releases>
+    <release version="3.0.0" date="2026-11-16">
+      <description>
+        <p>First stable release. An installed application can be opened from its page in the store, with the new Open button next to Uninstall.</p>
+      </description>
+    </release>
+    <release version="3.0.1-5-beta" date="2026-11-14">
+      <description>
+        <p>The NVIDIA drivers work with the three boot loaders of Soplos Linux Installer, GRUB, Limine and systemd-boot. The NVIDIA 620 branch replaces 590 and 610, and the GTX 1650 and 1660 get it instead of nouveau.</p>
+      </description>
+    </release>
+    <release version="3.0.1-4-beta" date="2026-11-12">
+      <description>
+        <p>Removing LibreOffice from Installed apps removes the whole suite, and not only its metapackage, which left the rest installed.</p>
+      </description>
+    </release>
+    <release version="3.0.1-3-beta" date="2026-11-04">
+      <description>
+        <p>New 2-in-1 laptops page in Drivers, no more web engine menu on right click, and a revised manual page.</p>
+      </description>
+    </release>
+    <release version="3.0.1-2-beta" date="2026-10-29">
+      <description>
+        <p>The window no longer has the frame of the system: it is a card with rounded corners and its own minimize, maximize and close buttons.</p>
+      </description>
+    </release>
+    <release version="3.0.1-1-beta" date="2026-10-28">
+      <description>
+        <p>New application icon, new hero image and new screenshots, taken with the interface in English.</p>
+      </description>
+    </release>
+    <release version="3.0.1-beta" date="2026-10-28">
+      <description>
+        <p>Updates held back by apt because of their dependencies are no longer listed, and a package that needs a renamed library replaced is now shown, with what goes out and what comes in, and can be installed.</p>
+        <p>Each update button has its own progress line, read from what apt reports for that package, and the bar with the actions stays at the top of a long list.</p>
+        <p>The home page and the banners now take apps from every source you have, APT, Flatpak and Snap, and nothing from Flathub or the Snap Store when that source is not installed.</p>
+        <p>New switches in Settings to show or hide Flatpak, Snap and AppImage, the Featured, Popular and Trending sections, and the Drivers section.</p>
+        <p>The Flatpak install scope is only asked when Flathub is set up for both the user and the system; with only one of them, the app is installed there without asking.</p>
+      </description>
+    </release>
+    <release version="3.0.0-9-beta" date="2026-10-24">
+      <description>
+        <p>Settings flows into two columns on a wide window and the page of a package file uses the whole width, so a maximized window is no longer left half empty.</p>
+      </description>
+    </release>
+    <release version="3.0.0-8-beta" date="2026-10-24">
+      <description>
+        <p>Updates: the button of each app says what is happening (Preparing, Downloading, Installing) and a thin bar under its row shows how far it is, also for "Update all". Apps waiting for their turn say so, and the button no longer goes back to "Update" before the page says everything is up to date.</p>
+        <p>Drivers: new "Apple Mac" section in the Laptops page, with mbpfan and the FaceTime HD camera driver (a community project, experimental).</p>
+      </description>
+    </release>
+    <release version="3.0.0-7-beta" date="2026-10-23">
+      <description>
+        <p>The window follows the light or dark theme of the desktop (Xfce, Plasma and GNOME), with an Appearance setting to choose Automatic, Light or Dark.</p>
+        <p>One output log for everything an update runs, with a fixed height and its own scroll, instead of losing the output of the first job when the next one starts.</p>
+        <p>Drivers: international pages for Epson, Brother and Canon, and Wacom unified in a single card.</p>
+      </description>
+    </release>
+    <release version="3.0.0-6-beta" date="2026-10-23">
+      <description>
+        <p>Drivers: every maker now points to its official page for Linux, checked one by one, in the language of the visitor's country.</p>
+        <p>Links to drivers kept by the community, such as AVerMedia, Parblo and ASUS, are marked as such on their card.</p>
+        <p>New: Slimbook, Ralink, and Scarlett for Focusrite audio interfaces. Official logos for the makers and tools of every page.</p>
+        <p>Makers that have no Linux driver were removed from the pages.</p>
+      </description>
+    </release>
+    <release version="3.0.0-5-beta" date="2026-10-22">
+      <description>
+        <p>Drivers now has all fifteen categories: graphics, printers, scanners, graphics tablets, labels, capture cards, gaming peripherals, Wi-Fi and Bluetooth, laptops, pro audio, network, fingerprint readers, UPS, RGB and cooling, and virtual machines, each with the official logo of its makers and tools.</p>
+        <p>More graphics tools: ROCm for AMD, oneAPI and compute for Intel, and the CUDA Toolkit, installed from their official repositories.</p>
+        <p>The Updates page now looks for real every time it opens, and the background check refreshes the package lists first, so the notification and the list agree.</p>
+        <p>The Categories page uses the same cards as Drivers.</p>
+      </description>
+    </release>
+    <release version="3.0.0-4-beta" date="2026-10-22">
+      <description>
+        <p>New Drivers page: category cards, with graphics ready first. Your graphics card in a hero that moves through NVIDIA, AMD, Intel and virtual machine tools, with a section per brand.</p>
+        <p>NVIDIA branches with the kernel 7.x patches, CUDA Toolkit, AMD ROCm from Debian, and Intel compute, oneVPL and oneAPI stacks from their official repositories.</p>
+        <p>AppImage updates through Soplos AppImage Manager, and a single stored result shared by the Updates page and the tray notifier.</p>
+        <p>Firmware updates switch in Settings, with a time limit so an unreachable LVFS cannot hold the checks.</p>
+      </description>
+    </release>
+    <release version="3.0.0-3-beta" date="2026-10-19">
+      <description>
+        <p>Direct update check on Updates tab mount with permanent top header and unified layout.</p>
+        <p>Full two-way synchronization between Store settings and systemd user timer (soplos-store-updates.timer).</p>
+        <p>Hourly update check option added across Settings and systemd timer integration.</p>
+        <p>Corrected JobAction types in TypeScript to support firmware LVFS testing channels.</p>
+      </description>
+    </release>
+    <release version="3.0.0-2-beta" date="2026-10-19">
+      <description>
+        <p>Unified updates view with streamlined states, removing layout duplication and jumpiness.</p>
+        <p>Stabilized batch uninstall in Installed tab with dedicated selection mode and card tap selection.</p>
+        <p>Full 8-language internationalization across desktop launchers and AppStream metadata.</p>
+        <p>Complete documentation with manual page (soplos-store.1) and 9-screenshot application showcase.</p>
+      </description>
+    </release>
+    <release version="3.0.0-1-beta" date="2026-10-18">
+      <description>
+        <p>Passwordless APT refresh via Polkit, 1-minute startup timer, and reliable notifications across Xfce, Plasma, and GNOME.</p>
+        <p>Multi-selection checkboxes and batch uninstallation in Installed tab across mixed package sources.</p>
+        <p>Full AppImage support: discovery in Installed tab and direct installation of .AppImage files into ~/AppImages with desktop integration.</p>
+        <p>Unified LibreOffice suite display and robust desktop file discovery for installed GUI applications.</p>
+      </description>
+    </release>
+    <release version="3.0.0-beta" date="2026-10-17">
+      <description>
+        <p>Renamed from Soplos Software Center to Soplos Store.</p>
+        <p>Firmware updates through fwupd, subcategories, a fuller app page and a systemd timer for the update checks.</p>
+      </description>
+    </release>
+    <release version="3.0.0-alpha" date="2026-10-16">
+      <description>
+        <p>First release of Soplos Store, built with Tauri 2, a Rust backend and a Svelte frontend.</p>
+        <p>Explore carousels, a catalog built from Debian's AppStream metadata, Flathub and the Snap Store with ratings from ODRS, search, categories, install, uninstall and update for APT, Flatpak and Snap, an update notifier and settings.</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1" />
+</component>
