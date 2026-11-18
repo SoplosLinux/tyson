@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: "SoplosLinux"
 MediaBaseUrl: "https://raw.githubusercontent.com/SoplosLinux/tyson/main/media"
-Time: 20261116T203222
+Time: 20261118T053630
 ---
 Type: desktop-application
 ID: "com.mitchellh.ghostty"
