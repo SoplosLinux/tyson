@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: "SoplosLinux"
 MediaBaseUrl: "https://raw.githubusercontent.com/SoplosLinux/tyson/main/media"
-Time: 20261118T053630
+Time: 20261118T163629
 ---
 Type: desktop-application
 ID: "com.mitchellh.ghostty"
@@ -102,6 +102,132 @@ Releases:
   - version: "1.0.1"
     type: stable
     unix-timestamp: 1735603200
+ContentRating:
+  oars-1.1: {}
+---
+Type: desktop-application
+ID: "io.github.ernestoacostame.kuteditor"
+Package: "kuteditor"
+Name:
+  C: "KutEditor"
+  de: "KutEditor"
+  es: "KutEditor"
+  fr: "KutEditor"
+  it: "KutEditor"
+  pt: "KutEditor"
+  ro: "KutEditor"
+  ru: "KutEditor"
+Summary:
+  C: "Podcast editor for Linux"
+  de: "Podcast-Editor für Linux"
+  es: "Editor de pódcasts para Linux"
+  fr: "Éditeur de podcasts pour Linux"
+  it: "Editor di podcast per Linux"
+  pt: "Editor de podcasts para Linux"
+  ro: "Editor de podcasturi pentru Linux"
+  ru: "Редактор подкастов для Linux"
+Description:
+  C: "<p>KutEditor is the desktop editor of the KutStudio suite for podcast creators. It brings together audio editing, the metadata of each episode and publishing in one window.</p><ul><li>Multitrack audio editing and recording</li><li>Chapters (Podcasting 2.0), timestamps, artwork and script for each episode</li><li>Upload and publish episodes to a KutPod server in one click</li><li>Several podcast projects without signing in and out</li></ul>"
+  de: "<p>KutEditor ist der Desktop-Editor der KutStudio-Suite für Podcast-Macher. Er vereint Audiobearbeitung, die Metadaten jeder Folge und die Veröffentlichung in einem Fenster.</p><ul><li>Mehrspurige Audiobearbeitung und -aufnahme</li><li>Kapitel (Podcasting 2.0), Zeitmarken, Cover und Skript für jede Folge</li><li>Folgen mit einem Klick auf einen KutPod-Server hochladen und veröffentlichen</li><li>Mehrere Podcast-Projekte ohne An- und Abmelden</li></ul>"
+  es: "<p>KutEditor es el editor de escritorio de la suite KutStudio para creadores de pódcasts. Reúne en una sola ventana la edición de audio, los metadatos de cada episodio y la publicación.</p><ul><li>Edición y grabación de audio multipista</li><li>Capítulos (Podcasting 2.0), marcas de tiempo, arte y guion de cada episodio</li><li>Subida y publicación de episodios en un servidor KutPod con un clic</li><li>Varios proyectos de pódcast sin iniciar y cerrar sesión</li></ul>"
+  fr: "<p>KutEditor est l'éditeur de bureau de la suite KutStudio pour les créateurs de podcasts. Il réunit dans une seule fenêtre le montage audio, les métadonnées de chaque épisode et la publication.</p><ul><li>Montage et enregistrement audio multipiste</li><li>Chapitres (Podcasting 2.0), horodatages, illustration et script de chaque épisode</li><li>Envoi et publication des épisodes sur un serveur KutPod en un clic</li><li>Plusieurs projets de podcast sans se connecter et se déconnecter</li></ul>"
+  it: "<p>KutEditor è l'editor desktop della suite KutStudio per chi crea podcast. Riunisce in una sola finestra il montaggio audio, i metadati di ogni episodio e la pubblicazione.</p><ul><li>Montaggio e registrazione audio multitraccia</li><li>Capitoli (Podcasting 2.0), marcatori temporali, copertina e copione di ogni episodio</li><li>Caricamento e pubblicazione degli episodi su un server KutPod con un clic</li><li>Più progetti di podcast senza accedere e uscire</li></ul>"
+  pt: "<p>O KutEditor é o editor de ambiente de trabalho da suite KutStudio para criadores de podcasts. Reúne numa só janela a edição de áudio, os metadados de cada episódio e a publicação.</p><ul><li>Edição e gravação de áudio multipista</li><li>Capítulos (Podcasting 2.0), marcas de tempo, arte e guião de cada episódio</li><li>Envio e publicação de episódios num servidor KutPod com um clique</li><li>Vários projetos de podcast sem iniciar e terminar sessão</li></ul>"
+  ro: "<p>KutEditor este editorul desktop al suitei KutStudio pentru creatorii de podcasturi. Reunește într-o singură fereastră editarea audio, metadatele fiecărui episod și publicarea.</p><ul><li>Editare și înregistrare audio multipistă</li><li>Capitole (Podcasting 2.0), marcaje temporale, copertă și scenariu pentru fiecare episod</li><li>Încărcarea și publicarea episoadelor pe un server KutPod cu un clic</li><li>Mai multe proiecte de podcast fără autentificare și deconectare</li></ul>"
+  ru: "<p>KutEditor — настольный редактор пакета KutStudio для авторов подкастов. Он объединяет в одном окне монтаж звука, метаданные каждого выпуска и публикацию.</p><ul><li>Многодорожечный монтаж и запись звука</li><li>Главы (Podcasting 2.0), метки времени, обложка и сценарий каждого выпуска</li><li>Загрузка и публикация выпусков на сервер KutPod одним щелчком</li><li>Несколько проектов подкастов без входа и выхода из учётной записи</li></ul>"
+ProjectLicense: "GPL-3.0-or-later"
+Developer:
+  id: "io.github.ernestoacostame"
+  name:
+    C: "Ernesto Acosta"
+Url:
+  homepage: "https://github.com/ernestoacostame/kuteditor"
+  bugtracker: "https://github.com/ernestoacostame/kuteditor/issues"
+  vcs-browser: "https://github.com/ernestoacostame/kuteditor"
+Categories:
+  - "AudioVideo"
+  - "Audio"
+  - "AudioVideoEditing"
+Keywords:
+  C:
+    - "podcast"
+    - "audio"
+    - "editor"
+    - "recording"
+    - "kutpod"
+  de:
+    - "Podcast"
+    - "Audio"
+    - "Editor"
+    - "Aufnahme"
+    - "kutpod"
+  es:
+    - "pódcast"
+    - "audio"
+    - "editor"
+    - "grabación"
+    - "kutpod"
+  fr:
+    - "podcast"
+    - "audio"
+    - "éditeur"
+    - "enregistrement"
+    - "kutpod"
+  it:
+    - "podcast"
+    - "audio"
+    - "editor"
+    - "registrazione"
+    - "kutpod"
+  pt:
+    - "podcast"
+    - "áudio"
+    - "editor"
+    - "gravação"
+    - "kutpod"
+  ro:
+    - "podcast"
+    - "audio"
+    - "editor"
+    - "înregistrare"
+    - "kutpod"
+  ru:
+    - "подкаст"
+    - "аудио"
+    - "редактор"
+    - "запись"
+    - "kutpod"
+Icon:
+  cached:
+    - name: "kuteditor.png"
+      width: 48
+      height: 48
+    - name: "kuteditor.png"
+      width: 64
+      height: 64
+    - name: "kuteditor.png"
+      width: 128
+      height: 128
+  remote:
+    - url: "kuteditor/icons/48x48/kuteditor.png"
+      width: 48
+      height: 48
+    - url: "kuteditor/icons/64x64/kuteditor.png"
+      width: 64
+      height: 64
+    - url: "kuteditor/icons/128x128/kuteditor.png"
+      width: 128
+      height: 128
+Launchable:
+  desktop-id:
+    - "kuteditor.desktop"
+Provides:
+  binaries:
+    - "kuteditor"
+Releases:
+  - version: "2.74"
+    type: stable
+    unix-timestamp: 1794787200
 ContentRating:
   oars-1.1: {}
 ---

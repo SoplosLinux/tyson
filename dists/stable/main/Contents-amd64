@@ -92646,6 +92646,7 @@ usr/share/man/man8/grub-btrfs.8.gz	    admin/grub-btrfs
 usr/share/man/man8/grub-btrfsd.8.gz	    admin/grub-btrfs
 usr/share/metainfo/com.mitchellh.ghostty.metainfo.xml	    utils/ghostty,utils/ghostty-tip
 usr/share/metainfo/com.soplos.msi-keyboard.metainfo.xml	    utils/msi-keyboard-gui
+usr/share/metainfo/io.github.ernestoacostame.kuteditor.metainfo.xml	    sound/kuteditor
 usr/share/metainfo/org.soplos.appimagemanager.metainfo.xml	    utils/soplos-appimage-manager
 usr/share/metainfo/org.soplos.grubeditor.metainfo.xml	    utils/soplos-grub-editor
 usr/share/metainfo/org.soplos.kernel-installer.metainfo.xml	    utils/soplos-kernel-installer

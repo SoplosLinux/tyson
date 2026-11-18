@@ -181,19 +181,19 @@ Description: Kora Soplos icon themes (dark and light) for Soplos Linux.
  Build date: 2026-11-16
 
 Package: kuteditor
-Version: 2.71-1
+Version: 2.74-1
 Architecture: amd64
 Maintainer: Sergi Perich <info@soploslinux.com>
-Installed-Size: 16756
+Installed-Size: 16802
 Depends: libc6 (>= 2.43), libgcc-s1 (>= 4.2), libqt6core6t64 (>= 6.11.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6quickcontrols2-6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), librnnoise0 (>= 0.2+ds), libsamplerate0 (>= 0.1.7), libstdc++6 (>= 11), libtag2 (>= 2.0), qt6-base-private-abi (= 6.11.2), qt6-declarative-private-abi (= 6.11.2), pipewire-jack, qml6-module-qtqml, qml6-module-qtcore, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, qml6-module-qtquick-dialogs, qml6-module-qt-labs-platform, libqt6svg6
 Homepage: https://github.com/ernestoacostame/kuteditor
 Priority: optional
 Section: sound
-Filename: pool/main/k/kuteditor/kuteditor_2.71-1_amd64.deb
-Size: 3898212
-SHA256: 079590318d3c62776eac0a62aece4926bc4fa28412dbda3cf1c8a22e2a8da7fa
-SHA1: 8c2fa3398485d175dbc6e139083ee24842115b9b
-MD5sum: 901d2493f6b590fe5bed66a333b451bb
+Filename: pool/main/k/kuteditor/kuteditor_2.74-1_amd64.deb
+Size: 3912564
+SHA256: 6ab5b91d25f70a4120ed35b6503a83586ccb4fe28c9b35c4d9dacb56c8da14ab
+SHA1: 3d4569e1d50c5b278a37a04d935963d91409b6c3
+MD5sum: 6f7e7f21ab754a2c1109aee2897eef7f
 Description: Native podcast editor with multitrack audio and chapters
  KutEditor is a Qt6/QML podcast editor with multitrack recording and
  editing, a per-track effects chain (compressor, limiter, equaliser,
@@ -206,19 +206,19 @@ Description: Native podcast editor with multitrack audio and chapters
  system.
 
 Package: limine
-Version: 12.9.6-0soplos1
+Version: 12.10.0-0soplos1
 Architecture: amd64
 Maintainer: Sergi Perich <info@soploslinux.com>
-Installed-Size: 1265
+Installed-Size: 1297
 Depends: libc6 (>= 2.34)
 Homepage: https://github.com/Limine-Bootloader/Limine
 Priority: optional
 Section: admin
-Filename: pool/main/l/limine/limine_12.9.6-0soplos1_amd64.deb
-Size: 525752
-SHA256: e9f0e287123f1f34c512228f581c3e608083f4dec21e9e06b259fee437f73a8b
-SHA1: 6a8c41dd528ddab80b3ddd1b555cc2e2916ca84d
-MD5sum: af8862b434b2da31f99f2c7ffeb6464d
+Filename: pool/main/l/limine/limine_12.10.0-0soplos1_amd64.deb
+Size: 541952
+SHA256: c90817df1d3c6cdd540d77162792bc1b07674bc09bc872dc48194960542a4e88
+SHA1: 3807528592020f56656024fc5d977eb4d6e796b5
+MD5sum: c5164265088be308e82dda6b9a3522ec
 Description: modern, advanced, portable, multiprotocol bootloader
  Limine is a modern, advanced, portable, multiprotocol bootloader and boot
  manager. It boots Linux and other kernels on UEFI and legacy BIOS systems
@@ -742,18 +742,18 @@ Description: Tela Soplos icon themes (default, dark and light) for Soplos Linux.
  Build date: 2026-11-16
 
 Package: telegram-desktop
-Version: 7.4.0-1
+Version: 7.4.4-1
 Architecture: amd64
 Maintainer: Sergi Perich <info@soploslinux.com>
-Installed-Size: 266056
+Installed-Size: 266400
 Depends: libc6, libatomic1, libblkid1, libbrotli1, libbz2-1.0, libcairo2, libdatrie1, libexpat1, libffi8, libfontconfig1, libfreetype6, libfribidi0, libglib2.0-0t64, libgraphite2-3, libharfbuzz0b, libmount1, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpcre2-8-0, libpixman-1-0, libpng16-16t64, libselinux1, libsystemd0, libthai0, libx11-6, libxau6, libxcb1, libxcb-render0, libxcb-shm0, libxdmcp6, libxext6, libxrender1, zlib1g
 Priority: optional
 Section: net
-Filename: pool/main/t/telegram-desktop/telegram-desktop_7.4.0-1_amd64.deb
-Size: 90583332
-SHA256: c96f9ed7accebb9a2be80628b825262b93b56a1b0549e366c59b0d7d63ef34dc
-SHA1: f9d8a53dc98b55cce43fb236bda0fbdef3be5316
-MD5sum: 6589406240beae5338088d56247d4439
+Filename: pool/main/t/telegram-desktop/telegram-desktop_7.4.4-1_amd64.deb
+Size: 90699268
+SHA256: c9bfaf9da634c4fd17fbf3e6352fdd3a93c46e84fca14dce73cbb870202f45f5
+SHA1: d547d15c5d9f12e942cfbc5996afa1b3301f6009
+MD5sum: c9108c2821b30e94d12cf9d957e11763
 Description: Telegram Desktop
  Official Telegram Desktop client for Linux.
 

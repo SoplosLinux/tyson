@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Upstream ships no AppStream data; this file is added by the Soplos package
+     so the software centers can show KutEditor. -->
+<component type="desktop-application">
+  <id>io.github.ernestoacostame.kuteditor</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <name>KutEditor</name>
+  <name xml:lang="es">KutEditor</name>
+  <name xml:lang="fr">KutEditor</name>
+  <name xml:lang="de">KutEditor</name>
+  <name xml:lang="pt">KutEditor</name>
+  <name xml:lang="it">KutEditor</name>
+  <name xml:lang="ro">KutEditor</name>
+  <name xml:lang="ru">KutEditor</name>
+
+  <summary>Podcast editor for Linux</summary>
+  <summary xml:lang="es">Editor de pódcasts para Linux</summary>
+  <summary xml:lang="fr">Éditeur de podcasts pour Linux</summary>
+  <summary xml:lang="de">Podcast-Editor für Linux</summary>
+  <summary xml:lang="pt">Editor de podcasts para Linux</summary>
+  <summary xml:lang="it">Editor di podcast per Linux</summary>
+  <summary xml:lang="ro">Editor de podcasturi pentru Linux</summary>
+  <summary xml:lang="ru">Редактор подкастов для Linux</summary>
+
+  <developer id="io.github.ernestoacostame">
+    <name>Ernesto Acosta</name>
+  </developer>
+
+  <description>
+    <p>KutEditor is the desktop editor of the KutStudio suite for podcast creators. It brings together audio editing, the metadata of each episode and publishing in one window.</p>
+    <p xml:lang="es">KutEditor es el editor de escritorio de la suite KutStudio para creadores de pódcasts. Reúne en una sola ventana la edición de audio, los metadatos de cada episodio y la publicación.</p>
+    <p xml:lang="fr">KutEditor est l'éditeur de bureau de la suite KutStudio pour les créateurs de podcasts. Il réunit dans une seule fenêtre le montage audio, les métadonnées de chaque épisode et la publication.</p>
+    <p xml:lang="de">KutEditor ist der Desktop-Editor der KutStudio-Suite für Podcast-Macher. Er vereint Audiobearbeitung, die Metadaten jeder Folge und die Veröffentlichung in einem Fenster.</p>
+    <p xml:lang="pt">O KutEditor é o editor de ambiente de trabalho da suite KutStudio para criadores de podcasts. Reúne numa só janela a edição de áudio, os metadados de cada episódio e a publicação.</p>
+    <p xml:lang="it">KutEditor è l'editor desktop della suite KutStudio per chi crea podcast. Riunisce in una sola finestra il montaggio audio, i metadati di ogni episodio e la pubblicazione.</p>
+    <p xml:lang="ro">KutEditor este editorul desktop al suitei KutStudio pentru creatorii de podcasturi. Reunește într-o singură fereastră editarea audio, metadatele fiecărui episod și publicarea.</p>
+    <p xml:lang="ru">KutEditor — настольный редактор пакета KutStudio для авторов подкастов. Он объединяет в одном окне монтаж звука, метаданные каждого выпуска и публикацию.</p>
+    <ul>
+      <li>Multitrack audio editing and recording</li>
+      <li xml:lang="es">Edición y grabación de audio multipista</li>
+      <li xml:lang="fr">Montage et enregistrement audio multipiste</li>
+      <li xml:lang="de">Mehrspurige Audiobearbeitung und -aufnahme</li>
+      <li xml:lang="pt">Edição e gravação de áudio multipista</li>
+      <li xml:lang="it">Montaggio e registrazione audio multitraccia</li>
+      <li xml:lang="ro">Editare și înregistrare audio multipistă</li>
+      <li xml:lang="ru">Многодорожечный монтаж и запись звука</li>
+      <li>Chapters (Podcasting 2.0), timestamps, artwork and script for each episode</li>
+      <li xml:lang="es">Capítulos (Podcasting 2.0), marcas de tiempo, arte y guion de cada episodio</li>
+      <li xml:lang="fr">Chapitres (Podcasting 2.0), horodatages, illustration et script de chaque épisode</li>
+      <li xml:lang="de">Kapitel (Podcasting 2.0), Zeitmarken, Cover und Skript für jede Folge</li>
+      <li xml:lang="pt">Capítulos (Podcasting 2.0), marcas de tempo, arte e guião de cada episódio</li>
+      <li xml:lang="it">Capitoli (Podcasting 2.0), marcatori temporali, copertina e copione di ogni episodio</li>
+      <li xml:lang="ro">Capitole (Podcasting 2.0), marcaje temporale, copertă și scenariu pentru fiecare episod</li>
+      <li xml:lang="ru">Главы (Podcasting 2.0), метки времени, обложка и сценарий каждого выпуска</li>
+      <li>Upload and publish episodes to a KutPod server in one click</li>
+      <li xml:lang="es">Subida y publicación de episodios en un servidor KutPod con un clic</li>
+      <li xml:lang="fr">Envoi et publication des épisodes sur un serveur KutPod en un clic</li>
+      <li xml:lang="de">Folgen mit einem Klick auf einen KutPod-Server hochladen und veröffentlichen</li>
+      <li xml:lang="pt">Envio e publicação de episódios num servidor KutPod com um clique</li>
+      <li xml:lang="it">Caricamento e pubblicazione degli episodi su un server KutPod con un clic</li>
+      <li xml:lang="ro">Încărcarea și publicarea episoadelor pe un server KutPod cu un clic</li>
+      <li xml:lang="ru">Загрузка и публикация выпусков на сервер KutPod одним щелчком</li>
+      <li>Several podcast projects without signing in and out</li>
+      <li xml:lang="es">Varios proyectos de pódcast sin iniciar y cerrar sesión</li>
+      <li xml:lang="fr">Plusieurs projets de podcast sans se connecter et se déconnecter</li>
+      <li xml:lang="de">Mehrere Podcast-Projekte ohne An- und Abmelden</li>
+      <li xml:lang="pt">Vários projetos de podcast sem iniciar e terminar sessão</li>
+      <li xml:lang="it">Più progetti di podcast senza accedere e uscire</li>
+      <li xml:lang="ro">Mai multe proiecte de podcast fără autentificare și deconectare</li>
+      <li xml:lang="ru">Несколько проектов подкастов без входа и выхода из учётной записи</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">kuteditor.desktop</launchable>
+  <icon type="stock">kuteditor</icon>
+
+  <categories>
+    <category>AudioVideo</category>
+    <category>Audio</category>
+    <category>AudioVideoEditing</category>
+  </categories>
+
+  <keywords>
+    <keyword>podcast</keyword>
+    <keyword>audio</keyword>
+    <keyword>editor</keyword>
+    <keyword>recording</keyword>
+    <keyword>kutpod</keyword>
+    <keyword xml:lang="es">pódcast</keyword>
+    <keyword xml:lang="es">audio</keyword>
+    <keyword xml:lang="es">editor</keyword>
+    <keyword xml:lang="es">grabación</keyword>
+    <keyword xml:lang="es">kutpod</keyword>
+    <keyword xml:lang="fr">podcast</keyword>
+    <keyword xml:lang="fr">audio</keyword>
+    <keyword xml:lang="fr">éditeur</keyword>
+    <keyword xml:lang="fr">enregistrement</keyword>
+    <keyword xml:lang="fr">kutpod</keyword>
+    <keyword xml:lang="de">Podcast</keyword>
+    <keyword xml:lang="de">Audio</keyword>
+    <keyword xml:lang="de">Editor</keyword>
+    <keyword xml:lang="de">Aufnahme</keyword>
+    <keyword xml:lang="de">kutpod</keyword>
+    <keyword xml:lang="pt">podcast</keyword>
+    <keyword xml:lang="pt">áudio</keyword>
+    <keyword xml:lang="pt">editor</keyword>
+    <keyword xml:lang="pt">gravação</keyword>
+    <keyword xml:lang="pt">kutpod</keyword>
+    <keyword xml:lang="it">podcast</keyword>
+    <keyword xml:lang="it">audio</keyword>
+    <keyword xml:lang="it">editor</keyword>
+    <keyword xml:lang="it">registrazione</keyword>
+    <keyword xml:lang="it">kutpod</keyword>
+    <keyword xml:lang="ro">podcast</keyword>
+    <keyword xml:lang="ro">audio</keyword>
+    <keyword xml:lang="ro">editor</keyword>
+    <keyword xml:lang="ro">înregistrare</keyword>
+    <keyword xml:lang="ro">kutpod</keyword>
+    <keyword xml:lang="ru">подкаст</keyword>
+    <keyword xml:lang="ru">аудио</keyword>
+    <keyword xml:lang="ru">редактор</keyword>
+    <keyword xml:lang="ru">запись</keyword>
+    <keyword xml:lang="ru">kutpod</keyword>
+  </keywords>
+
+  <url type="homepage">https://github.com/ernestoacostame/kuteditor</url>
+  <url type="bugtracker">https://github.com/ernestoacostame/kuteditor/issues</url>
+  <url type="vcs-browser">https://github.com/ernestoacostame/kuteditor</url>
+
+  <provides>
+    <binary>kuteditor</binary>
+    <mediatype>application/x-podcastproj</mediatype>
+  </provides>
+
+  <requires>
+    <display_length compare="ge">768</display_length>
+  </requires>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </supports>
+
+  <content_rating type="oars-1.1" />
+
+  <releases>
+    <release version="2.74" date="2026-11-16" />
+  </releases>
+</component>
