@@ -25,6 +25,7 @@ etc/issue.net	    admin/soplos-release
 etc/lsb-release	    admin/soplos-release
 etc/motd	    admin/soplos-release
 etc/os-release	    admin/soplos-release
+etc/apt/apt.conf.d/20soplos-store	    admin/soplos-store
 etc/apt/sources.list.d/tyson.sources	    admin/soplos-release
 etc/dconf/db/local.d/00-maliit	    utils/tablet-soplos
 etc/default/grub	    misc/soplos-grub-theme
@@ -59,6 +60,7 @@ etc/skel/.config/fish/functions/fish_prompt.fish	    utils/fish-soplos
 etc/skel/.config/ghostty/config.ghostty	    utils/ghostty-soplos
 etc/tdesktop/externalupdater	    net/telegram-desktop
 etc/update-motd.d/20-soplos-info	    admin/soplos-release
+etc/xdg/autostart/soplos-store-tray.desktop	    admin/soplos-store
 opt/Telegram/Telegram	    net/telegram-desktop
 opt/Telegram/Updater	    net/telegram-desktop
 usr/bin/ghostty	    utils/ghostty,utils/ghostty-tip
@@ -102,6 +104,7 @@ usr/bin/soplos-kernel-installer	    utils/soplos-kernel-installer
 usr/bin/soplos-look-manager	    utils/soplos-look-manager
 usr/bin/soplos-plymouth-manager	    utils/soplos-plymouth-manager
 usr/bin/soplos-repo-selector	    utils/soplos-repo-selector
+usr/bin/soplos-store	    admin/soplos-store
 usr/bin/soplos-sys-cleaner	    utils/soplos-sys-cleaner
 usr/bin/soplos-system-service	    utils/soplos-system-service
 usr/bin/soplos-webapp-manager	    utils/soplos-webapp-manager
@@ -141,6 +144,8 @@ usr/lib/systemd/user/plasma-login.service	    kde/plasma-login-manager
 usr/lib/systemd/user/plasma-wallpaper.service	    kde/plasma-login-manager
 usr/lib/systemd/user/soplos-fontcache-guard.path	    fonts/soplos-fontconfig-woff-fix
 usr/lib/systemd/user/soplos-fontcache-guard.service	    fonts/soplos-fontconfig-woff-fix
+usr/lib/systemd/user/soplos-store-updates.service	    admin/soplos-store
+usr/lib/systemd/user/soplos-store-updates.timer	    admin/soplos-store
 usr/lib/sysusers.d/plasmalogin.conf	    kde/plasma-login-manager
 usr/lib/tmpfiles.d/plasmalogin.conf	    kde/plasma-login-manager
 usr/lib/x86_64-linux-gnu/libexec/plasma-login-greeter	    kde/plasma-login-manager
@@ -167,6 +172,7 @@ usr/share/applications/org.soplos.welcomelive.desktop	    utils/soplos-welcome-l
 usr/share/applications/org.telegram.desktop.desktop	    net/telegram-desktop
 usr/share/applications/soplos-debug.desktop	    admin/soplos-debug
 usr/share/applications/soplos-look-manager.desktop	    utils/soplos-look-manager
+usr/share/applications/soplos-store.desktop	    admin/soplos-store
 usr/share/applications/soplos-welcome.desktop	    utils/soplos-welcome
 usr/share/bash-completion/completions/ghostty.bash	    utils/ghostty,utils/ghostty-tip
 usr/share/bat/syntaxes/ghostty.sublime-syntax	    utils/ghostty,utils/ghostty-tip
@@ -265,6 +271,17 @@ usr/share/doc/soplos-look-manager/screenshots/screenshot12.png	    utils/soplos-
 usr/share/doc/soplos-look-manager/screenshots/screenshot13.png	    utils/soplos-look-manager
 usr/share/doc/soplos-plymouth-manager/copyright	    utils/soplos-plymouth-manager
 usr/share/doc/soplos-repo-selector/copyright	    utils/soplos-repo-selector
+usr/share/doc/soplos-store/changelog.gz	    admin/soplos-store
+usr/share/doc/soplos-store/copyright	    admin/soplos-store
+usr/share/doc/soplos-store/screenshots/screenshot01.png	    admin/soplos-store
+usr/share/doc/soplos-store/screenshots/screenshot02.png	    admin/soplos-store
+usr/share/doc/soplos-store/screenshots/screenshot03.png	    admin/soplos-store
+usr/share/doc/soplos-store/screenshots/screenshot04.png	    admin/soplos-store
+usr/share/doc/soplos-store/screenshots/screenshot05.png	    admin/soplos-store
+usr/share/doc/soplos-store/screenshots/screenshot06.png	    admin/soplos-store
+usr/share/doc/soplos-store/screenshots/screenshot07.png	    admin/soplos-store
+usr/share/doc/soplos-store/screenshots/screenshot08.png	    admin/soplos-store
+usr/share/doc/soplos-store/screenshots/screenshot09.png	    admin/soplos-store
 usr/share/doc/soplos-sys-cleaner/copyright	    utils/soplos-sys-cleaner
 usr/share/doc/soplos-system-service/copyright	    utils/soplos-system-service
 usr/share/doc/soplos-vmware-modules/changelog.gz	    misc/soplos-vmware-modules
@@ -1172,6 +1189,7 @@ usr/share/icons/hicolor/128x128/apps/org.soplos.webappmanager.png	    utils/sopl
 usr/share/icons/hicolor/128x128/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
 usr/share/icons/hicolor/128x128/apps/org.telegram.desktop.png	    net/telegram-desktop
 usr/share/icons/hicolor/128x128/apps/soplos-look-manager.png	    utils/soplos-look-manager
+usr/share/icons/hicolor/128x128/apps/soplos-store.png	    admin/soplos-store
 usr/share/icons/hicolor/128x128/apps/soplos-welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/128x128@2/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
 usr/share/icons/hicolor/16x16/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
@@ -1221,6 +1239,7 @@ usr/share/icons/hicolor/256x256/apps/org.soplos.welcomelive.png	    utils/soplos
 usr/share/icons/hicolor/256x256/apps/org.telegram.desktop.png	    net/telegram-desktop
 usr/share/icons/hicolor/256x256@2/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
 usr/share/icons/hicolor/256x256@2/apps/soplos-look-manager.png	    utils/soplos-look-manager
+usr/share/icons/hicolor/256x256@2/apps/soplos-store.png	    admin/soplos-store
 usr/share/icons/hicolor/256x256@2/apps/soplos-welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/32x32/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
 usr/share/icons/hicolor/32x32/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
@@ -1235,6 +1254,7 @@ usr/share/icons/hicolor/32x32/apps/org.soplos.webappmanager.png	    utils/soplos
 usr/share/icons/hicolor/32x32/apps/org.soplos.welcomelive.png	    utils/soplos-welcome-live
 usr/share/icons/hicolor/32x32/apps/org.telegram.desktop.png	    net/telegram-desktop
 usr/share/icons/hicolor/32x32/apps/soplos-look-manager.png	    utils/soplos-look-manager
+usr/share/icons/hicolor/32x32/apps/soplos-store.png	    admin/soplos-store
 usr/share/icons/hicolor/32x32/apps/soplos-welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/32x32@2/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
 usr/share/icons/hicolor/48x48/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
@@ -1252,6 +1272,7 @@ usr/share/icons/hicolor/48x48/apps/org.telegram.desktop.png	    net/telegram-des
 usr/share/icons/hicolor/512x512/apps/com.mitchellh.ghostty.png	    utils/ghostty,utils/ghostty-tip
 usr/share/icons/hicolor/512x512/apps/org.telegram.desktop.png	    net/telegram-desktop
 usr/share/icons/hicolor/512x512/apps/soplos-look-manager.png	    utils/soplos-look-manager
+usr/share/icons/hicolor/512x512/apps/soplos-store.png	    admin/soplos-store
 usr/share/icons/hicolor/512x512/apps/soplos-welcome.png	    utils/soplos-welcome
 usr/share/icons/hicolor/64x64/apps/com.soplos.msi-keyboard.png	    utils/msi-keyboard-gui
 usr/share/icons/hicolor/64x64/apps/org.soplos-systemservice.png	    utils/soplos-system-service
@@ -92672,6 +92693,7 @@ usr/share/man/man1/soplos-kernel-installer.1.gz	    utils/soplos-kernel-installe
 usr/share/man/man1/soplos-look-manager.1.gz	    utils/soplos-look-manager
 usr/share/man/man1/soplos-plymouth-manager.1.gz	    utils/soplos-plymouth-manager
 usr/share/man/man1/soplos-repo-selector.1.gz	    utils/soplos-repo-selector
+usr/share/man/man1/soplos-store.1.gz	    admin/soplos-store
 usr/share/man/man1/soplos-sys-cleaner.1.gz	    utils/soplos-sys-cleaner
 usr/share/man/man1/soplos-webapp-manager.1.gz	    utils/soplos-webapp-manager
 usr/share/man/man1/soplos-welcome-live.1.gz	    utils/soplos-welcome-live
@@ -92688,6 +92710,7 @@ usr/share/metainfo/org.soplos.kernel-installer.metainfo.xml	    utils/soplos-ker
 usr/share/metainfo/org.soplos.lookmanager.metainfo.xml	    utils/soplos-look-manager
 usr/share/metainfo/org.soplos.plymouthmanager.metainfo.xml	    utils/soplos-plymouth-manager
 usr/share/metainfo/org.soplos.reposelector.metainfo.xml	    utils/soplos-repo-selector
+usr/share/metainfo/org.soplos.store.metainfo.xml	    admin/soplos-store
 usr/share/metainfo/org.soplos.sys-cleaner.metainfo.xml	    utils/soplos-sys-cleaner
 usr/share/metainfo/org.soplos.systemservice.metainfo.xml	    utils/soplos-system-service
 usr/share/metainfo/org.soplos.webappmanager.metainfo.xml	    utils/soplos-webapp-manager
@@ -93305,6 +93328,7 @@ usr/share/plymouth/themes/soplos/soplos.script	    misc/soplos-plymouth-theme
 usr/share/polkit-1/actions/org.kde.kcontrol.kcmplasmalogin.policy	    kde/plasma-login-manager
 usr/share/polkit-1/actions/org.scx.Loader.policy	    admin/scx-loader
 usr/share/polkit-1/actions/org.soplos.lookmanager.policy	    utils/soplos-look-manager
+usr/share/polkit-1/actions/org.soplos.store.policy	    admin/soplos-store
 usr/share/polkit-1/actions/org.soplos.welcome.policy	    utils/soplos-welcome
 usr/share/polkit-1/rules.d/10-soplos-packagekit.rules	    admin/soplos-release
 usr/share/scx_loader/config.toml	    admin/scx-loader

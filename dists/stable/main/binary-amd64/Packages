@@ -632,6 +632,23 @@ SHA1: f53920e2f335dd58cf5793cc79b16ab13de8c1b1
 MD5sum: a3aef252642a88f8a6cf8cf8eea53484
 Description: Advanced APT repository manager for Soplos Linux
 
+Package: soplos-store
+Version: 3.0.0
+Architecture: amd64
+Installed-Size: 10192
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://soplos.org
+Depends: pkexec, fwupd, appstream, packagekit, libwebkit2gtk-4.1-0, libgtk-3-0
+Priority: optional
+Section: admin
+Filename: pool/main/s/soplos-store/soplos-store_3.0.0_amd64.deb
+Size: 5535964
+SHA256: 59c6865b185823265d099ce8eb7d4e6006488be90878d6c0fa5a4b8e3340f252
+SHA1: dd4a520aa34f10430b14020407a62c12191a7581
+MD5sum: b04464e5b305048c1bc54be1c82134bb
+Description: Software store for Soplos Linux
+ Find, install, update and remove applications from APT, Flatpak, Snap and AppImages in one place.
+
 Package: soplos-sys-cleaner
 Version: 1.0.3-4
 Architecture: all
