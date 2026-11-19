@@ -505,68 +505,68 @@ Description: Themes and layout manager for Soplos Linux Plasma
  Soplos Look Manager changes how Soplos Linux Tyson looks: global themes, wallpapers, icons, cursors, the panel layout, the start-up screen and the Plasma Login Manager.
 
 Package: soplos-plasma-classic-black-theme
-Version: 0.0.3-4
+Version: 0.0.3-5
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Replaces: soplos-color-scheme
 Conflicts: soplos-color-scheme
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-plasma-classic-black-theme/soplos-plasma-classic-black-theme_0.0.3-4_all.deb
-Size: 4420764
-SHA256: c0124ac65deaddfbe0d1913738c44f4abdea701e4977401202849f2b65745322
-SHA1: 458d597ec945919a3dc00907b4a9cd0aab0e5789
-MD5sum: 81022698e362161f8395d838ae64ab0a
+Filename: pool/main/s/soplos-plasma-classic-black-theme/soplos-plasma-classic-black-theme_0.0.3-5_all.deb
+Size: 4420768
+SHA256: 4c9c02ca6d084cdbfb424354bf9abdbf518c78a580dcd77037cfaa71cf284e4c
+SHA1: a1bbf0330da2a65212c1e13d83cf82a413f33569
+MD5sum: e2bdd75ceb7bc77fec94b06028dbc4c7
 Description: Soplos Classic Black global theme for KDE Plasma 6.
  This package provides the Soplos Classic Black global theme for KDE Plasma 6, including color schemes, desktop theme, and look-and-feel configuration.
- Build date: 2026-05-23
+ Build date: 2026-11-14
 
 Package: soplos-plasma-classic-white-theme
-Version: 0.0.3-4
+Version: 0.0.3-5
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Replaces: soplos-color-scheme
 Conflicts: soplos-color-scheme
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-plasma-classic-white-theme/soplos-plasma-classic-white-theme_0.0.3-4_all.deb
-Size: 4502612
-SHA256: 20e944993bef52ad2acda1c708df4c3f52f5fe13765f9413a7f92c1ce0de350a
-SHA1: 35342a3d237144d4b095793571b6b3a6c08cca5c
-MD5sum: 307935a4d09413d031db94ac2d84c982
+Filename: pool/main/s/soplos-plasma-classic-white-theme/soplos-plasma-classic-white-theme_0.0.3-5_all.deb
+Size: 4502576
+SHA256: d0ae21272c42166e7239a3a79b4e68b818fd617024281fa86da94802c37a523b
+SHA1: 4cf448ca5c9ffd5dc55115e997466eaf94f9a623
+MD5sum: 5cfe043b0262067c856fa246879711a0
 Description: Soplos Classic White global theme for KDE Plasma 6.
  This package provides the Soplos Classic White global theme for KDE Plasma 6, including color schemes, desktop theme, and look-and-feel configuration.
- Build date: 2026-05-23
+ Build date: 2026-11-14
 
 Package: soplos-plasma-modern-black-themes
-Version: 0.0.3-4
+Version: 0.0.3-5
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-plasma-modern-black-themes/soplos-plasma-modern-black-themes_0.0.3-4_all.deb
-Size: 4764344
-SHA256: f8a41e0b5bc672d56612b3d17ac790c5566bcd258c239eace59b4eb757a03acb
-SHA1: a1716ba1dffb6dea67b472f3f11bc42def80fa24
-MD5sum: e5afc8829138e65516f2c4d5cc1885da
+Filename: pool/main/s/soplos-plasma-modern-black-themes/soplos-plasma-modern-black-themes_0.0.3-5_all.deb
+Size: 4764304
+SHA256: caf1a20bb1cffe6c4a90db77dc90e79141fc03097c66db397e49dd16b4c2d60a
+SHA1: 1b1da1f3a3fc4127cb2fbf9ae9bb86fae320cb41
+MD5sum: 8dfe3c077e0d6039826e78ffeb32bf22
 Description: Soplos Modern Black global theme for KDE Plasma 6.
  This package provides the Soplos Modern Black global theme for KDE Plasma 6, including color schemes, desktop theme, and look-and-feel configuration.
- Build date: 2026-04-30
+ Build date: 2026-11-14
 
 Package: soplos-plasma-modern-white-themes
-Version: 0.0.3-4
+Version: 0.0.3-5
 Architecture: all
 Maintainer: Sergi Perich <info@soploslinux.com>
 Priority: optional
 Section: misc
-Filename: pool/main/s/soplos-plasma-modern-white-themes/soplos-plasma-modern-white-themes_0.0.3-4_all.deb
-Size: 4843180
-SHA256: 7dc8ec8b170c05cbbd670289bb8d29fbf4e87cc3da6813b6063d02de34191203
-SHA1: d99224eac9ebceb1e36c1ac7848d438c908d8c82
-MD5sum: dfec0a02ad9fa8b244285641e84b2680
+Filename: pool/main/s/soplos-plasma-modern-white-themes/soplos-plasma-modern-white-themes_0.0.3-5_all.deb
+Size: 4843232
+SHA256: 08d826d280e9fd553e478658f50c03afdbbe863437390b347acb526dd0153f6c
+SHA1: bf15f33619c39618160b898d893cfa41c98378d0
+MD5sum: 84d29bc3db15fd0cec1d9f64f97ceb05
 Description: Soplos Modern White global theme for KDE Plasma 6.
  This package provides the Soplos Modern White global theme for KDE Plasma 6, including color schemes, desktop theme, and look-and-feel configuration.
- Build date: 2026-04-30
+ Build date: 2026-11-14
 
 Package: soplos-plymouth-manager
 Version: 2.0.0-8
