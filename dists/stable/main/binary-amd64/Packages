@@ -751,19 +751,19 @@ MD5sum: 256cdd00a4b79cdd5025b5208eaffed4
 Description: Create and manage isolated Web Applications
 
 Package: soplos-welcome
-Version: 3.0.0
+Version: 3.0.0-1
 Architecture: amd64
-Installed-Size: 65789
+Installed-Size: 65838
 Maintainer: Sergi Perich <info@soploslinux.com>
 Homepage: https://soplos.org
 Depends: curl, wget, pkexec | policykit-1, libwebkit2gtk-4.1-0, libgtk-3-0
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome/soplos-welcome_3.0.0_amd64.deb
-Size: 61946904
-SHA256: 0178ba3d7faa76a812a2e1a27224e36b738f2b7de2235e260d1a2aa8c50391ab
-SHA1: 56b47037a2963d5c4da046c20cef3f39bfa2b366
-MD5sum: 22b6bb7cdd636a676b394ec81ce3f3e8
+Filename: pool/main/s/soplos-welcome/soplos-welcome_3.0.0-1_amd64.deb
+Size: 61998760
+SHA256: 185441f6dfd5a6ff41b8dbe98206e16dad980fb81054cbdf18063c20802856e4
+SHA1: 6083c4cc4b5b3c1562e8559871f2fe0ac825d68b
+MD5sum: 7a8d122cc50fd95af7e83a44005f4b55
 Description: Welcome screen for Soplos Linux
  A welcome application for new users of Soplos Linux. Provides easy access to common system configuration and software installation tasks.
 

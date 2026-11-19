@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: "SoplosLinux"
 MediaBaseUrl: "https://raw.githubusercontent.com/SoplosLinux/tyson/main/media"
-Time: 20261119T032022
+Time: 20261119T034801
 ---
 Type: desktop-application
 ID: "com.mitchellh.ghostty"
@@ -3948,20 +3948,20 @@ Keywords:
     - "ядра"
 Icon:
   cached:
-    - name: "org.soplos.welcome.png"
+    - name: "soplos-welcome.png"
       width: 48
       height: 48
-    - name: "org.soplos.welcome.png"
+    - name: "soplos-welcome.png"
       width: 64
       height: 64
     - name: "soplos-welcome.png"
       width: 128
       height: 128
   remote:
-    - url: "soplos-welcome/icons/48x48/org.soplos.welcome.png"
+    - url: "soplos-welcome/icons/48x48/soplos-welcome.png"
       width: 48
       height: 48
-    - url: "soplos-welcome/icons/64x64/org.soplos.welcome.png"
+    - url: "soplos-welcome/icons/64x64/soplos-welcome.png"
       width: 64
       height: 64
     - url: "soplos-welcome/icons/128x128/soplos-welcome.png"
@@ -4088,6 +4088,11 @@ Screenshots:
       width: 1100
       height: 720
 Releases:
+  - version: "3.0.0-1"
+    type: stable
+    unix-timestamp: 1795046400
+    description:
+      C: "<p>Soplos Gaming Panel in the Gaming page, first among the programs, installed from the Soplos repository.</p>"
   - version: "3.0.0"
     type: stable
     unix-timestamp: 1794700800

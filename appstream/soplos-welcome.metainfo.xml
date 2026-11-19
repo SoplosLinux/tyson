@@ -254,6 +254,11 @@
   </developer>
 
   <releases>
+    <release version="3.0.0-1" date="2026-11-19">
+      <description>
+        <p>Soplos Gaming Panel in the Gaming page, first among the programs, installed from the Soplos repository.</p>
+      </description>
+    </release>
     <release version="3.0.0" date="2026-11-15">
       <description>
         <p>First stable release of Soplos Welcome 3.0. The Epic Games Launcher installs from Epic's own Linux package, Antigravity follows its latest release, and every download address was checked.</p>
