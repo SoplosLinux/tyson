@@ -486,6 +486,23 @@ Description: Soplos Linux look for the Limine boot menu
  boot menu. limine-soplos reads them from /etc/limine-soplos/theme.conf
  and copies the background to the FAT partition Limine boots from.
 
+Package: soplos-linux-installer
+Version: 3.0.0
+Architecture: amd64
+Installed-Size: 15472
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://soplos.org
+Depends: sudo, curl, util-linux, parted, dosfstools, e2fsprogs, btrfs-progs, xfsprogs, f2fs-tools, jfsutils, exfatprogs, squashfs-tools, cryptsetup, ntfs-3g, efibootmgr, libwebkit2gtk-4.1-0, libgtk-3-0
+Priority: optional
+Section: admin
+Filename: pool/main/s/soplos-linux-installer/soplos-linux-installer_3.0.0_amd64.deb
+Size: 11706162
+SHA256: 1c8c12ead77d9e538c0e5e888a6826ec88e855c150d003ad948b5c49709a61e6
+SHA1: 9d0672d2696e7d57b4934bf87f93a4270f35f9db
+MD5sum: 1465f5734467cbe663345412be5f961d
+Description: Installer of Soplos Linux
+ The installer of Soplos Linux. It copies the system to the disk, lets you choose GRUB, systemd-boot or Limine as the boot loader, and installs the drivers the hardware needs.
+
 Package: soplos-look-manager
 Version: 3.0.0
 Architecture: amd64
@@ -768,18 +785,22 @@ Description: Welcome screen for Soplos Linux
  A welcome application for new users of Soplos Linux. Provides easy access to common system configuration and software installation tasks.
 
 Package: soplos-welcome-live
-Version: 2.0.2-8
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, locales, python3, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools, x11-xkb-utils
-Maintainer: Sergi Perich <info@sergiperich.es>
+Version: 3.0.0
+Architecture: amd64
+Installed-Size: 7489
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://soplos.org
+Depends: sudo, pkexec | policykit-1, util-linux, locales, x11-xkb-utils, xdg-user-dirs, libwebkit2gtk-4.1-0, libgtk-3-0
+Recommends: gparted, soplos-linux-installer, numlockx
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_2.0.2-8_all.deb
-Size: 1261656
-SHA256: f3529d11ac7b4e1ff2b99ebc2cace194c05a54d76ad49e555c88fa09c19266b5
-SHA1: ab35b0974fcf55beb8f8fa66fe5638c9ec0fa88f
-MD5sum: 32d3cc6eaf26c93338a6980db3286e38
-Description: Welcome application for Soplos Linux Live with CHROOT recovery and BTRFS support
+Filename: pool/main/s/soplos-welcome-live/soplos-welcome-live_3.0.0_amd64.deb
+Size: 3962874
+SHA256: d46991296732e3fda92a512c7b72112f33a16909c50cb2ff2c72a032a8f8a238
+SHA1: 5284d62718dc025686ecc104b3a76af2c9ba68dc
+MD5sum: 963e5ef9d3aa74890c578ec0714dbbfc
+Description: Welcome screen for Soplos Linux live sessions
+ The welcome screen of the Soplos Linux live session. Install Soplos Linux, repair an installed system, partition disks, and change the language and keyboard of the live session.
 
 Package: tablet-soplos
 Version: 0.0.1-2

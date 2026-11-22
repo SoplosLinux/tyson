@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: "SoplosLinux"
 MediaBaseUrl: "https://raw.githubusercontent.com/SoplosLinux/tyson/main/media"
-Time: 20261120T131551
+Time: 20261122T024403
 ---
 Type: desktop-application
 ID: "com.mitchellh.ghostty"
@@ -1606,6 +1606,134 @@ Releases:
       pt: "<p>Lançamento inicial do Instalador de Kernel Soplos com recursos abrangentes de gerenciamento de kernel, incluindo integração PREEMPT_RT, reutilização de código-fonte e suporte a Secure Boot.</p><ul><li>Baixe kernels de canais estáveis, LTS, RC e destaques Soplos</li><li>Suporte a patches BORE, PREEMPT_RT, Zen e NTSYNC de fontes originais</li><li>Perfis para Gaming, Áudio/Vídeo, Escritório e Otimizado para Hardware</li><li>Reutilização de fontes para recompilação rápida com detecção de conflitos</li><li>Histórico de instalação expansível com marcação automática de kernel</li><li>Assinatura Secure Boot MOK com suporte NVIDIA DKMS</li><li>Patch VMA automático da NVIDIA para compatibilidade com kernel 7.0+</li><li>Enroll automático da chave DKMS MOK após instalação com GPU NVIDIA — corrige NVENC e CUDA com Secure Boot</li><li>Opção para salvar pacotes .deb compilados antes de limpar o diretório de build</li><li>Caminho de armazenamento das chaves MOK visível no diálogo de gestão</li><li>Corrigidos todos os bugs de compilação de perfis de kernel (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li><li>Detecção de GPU corrigida para evitar falsos positivos de linhas de CPU AMD</li><li>A caixa de seleção de limpeza do diretório de build agora funciona corretamente</li><li>Kernels EOL do kernel.org agora aparecem como \"(EOL)\" com aviso — antes estavam ocultos</li><li>Kernels mainline (ex. 7.0) não são mais exibidos incorretamente como \"(mais recente)\"</li><li>Internacionalização completa para 8 idiomas</li><li>Injeção de senha MOK corrigida — senha escapada de forma segura</li><li>Botão de instalação desativado no primeiro clique para evitar builds duplicados</li><li>Nome do kernel validado antes de instalar</li><li>Perfil oculto \"Soplos Stock\" (Ctrl+Shift+D) para distribuir kernels vanilla em todas as distribuições Soplos</li><li>Diálogo MOK agora explica o ciclo de reconstrução automática do DKMS a cada novo kernel</li><li>Segunda passagem de make olddefconfig após opções de perfil — evita prompts interativos durante o build</li><li>9 strings i18n ausentes completadas nos 8 idiomas</li><li>Aba Soplos Kernels — instala kernels Stock, Gaming (BORE+NTSYNC) e Real-Time (PREEMPT_RT) do repositório oficial sem compilação</li><li>Interface com abas: Build Kernel e Soplos Kernels</li><li>Histórico persistente em ~/.local/share/soplos-kernel-installer/ — sobrevive à limpeza do diretório de build</li><li>Nomes de pacotes compilados limpos — a versão não aparece mais duplicada no nome do arquivo</li><li>Correção na detecção de kernels assinados MOK — agora verifica fisicamente os arquivos vmlinuz</li><li>Correção no perfil STOCK — hífen desnecessário removido quando o sufixo está vazio</li><li>Detecção de kernels Soplos via /boot — funciona independentemente do método de remoção</li><li>O histórico de kernels é atualizado após ações na aba Soplos Kernels</li><li>Lista dinâmica de kernels: a aba Soplos Kernels lê os pacotes disponíveis do apt-cache em tempo de execução — novos pacotes no repositório aparecem automaticamente</li><li>O botão Atualizar da aba Soplos Kernels força apt-get update e recarrega a lista de kernels</li><li>Pós-build com o perfil Stock: cria o metapacote .deb e oferece salvar todos os pacotes (imagem + headers + metapacote) sem instalar o kernel</li><li>Novas variantes de kernel pré-compilado: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming renomeado para linux-soplos-bore)</li><li>Corrigido: o nome de release do kernel agora é lido de include/config/kernel.release — trata corretamente os sufixos de versão injetados por patches (ex. zen1 do patch Zen)</li><li>Atalhos de teclado Ctrl+Tab / Ctrl+Shift+Tab para alternar entre abas</li><li>Versão disponível exibida ao lado do nome de cada kernel na aba Soplos Kernels</li><li>Botão Update na aba Soplos Kernels — aparece quando uma versão mais recente está disponível no repositório, atualiza o metapacote e purga automaticamente a imagem e headers antigos</li><li>Corrigido: a busca de pacotes pós-compilação Stock agora lida corretamente com sufixos de versão injetados por patches (ex. zen1 do patch Zen)</li><li>Corrigido: após atualizar um kernel Soplos, os pacotes de imagem e headers antigos do mesmo tipo são purgados sem intervenção manual</li></ul>"
       ro: "<p>Versiunea inițială a Instalatorului de Kernel Soplos cu funcții complete de gestionare a nucleelor, inclusiv integrarea PREEMPT_RT, reutilizarea sursei și suportul Secure Boot.</p><ul><li>Descărcați nuclee de pe canalele stable, LTS, RC și Soplos</li><li>Suport de patch-uri BORE, PREEMPT_RT, Zen și NTSYNC din surse originale</li><li>Profiluri pentru Jocuri, Audio/Video, Minimal și Optimizat pentru Hardware</li><li>Reutilizarea sursei pentru recompilare mai rapidă cu detectarea conflictelor</li><li>Istoric de instalare extensibil cu etichetare automată a nucleului</li><li>Semnătura Secure Boot MOK cu suport NVIDIA DKMS</li><li>Patch VMA automat NVIDIA pentru compatibilitate cu nucleul 7.0+</li><li>Înregistrare automată a cheii DKMS MOK după instalare cu GPU NVIDIA — rezolvă NVENC și CUDA cu Secure Boot</li><li>Opțiune pentru salvarea pachetelor .deb compilate înainte de ștergerea directorului de build</li><li>Calea de stocare a cheilor MOK vizibilă în dialogul de gestionare</li><li>Corectate toate erorile de compilare a profilurilor de nucleu (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li><li>Detectarea GPU corectată pentru a evita fals pozitivele din liniile CPU AMD</li><li>Bifa de curățare a directorului de build funcționează acum corect</li><li>Nucleele EOL de pe kernel.org apar acum ca \"(EOL)\" cu avertisment — anterior erau ascunse</li><li>Nucleele mainline (ex. 7.0) nu mai sunt afișate incorect ca \"(cele mai recente)\"</li><li>Internaționalizare completă pentru 8 limbi</li><li>Injecția parolei MOK corectată — parola mascată în siguranță</li><li>Butonul de instalare dezactivat la primul clic pentru a evita build-uri duplicate</li><li>Numele nucleului validat înainte de instalare</li><li>Profil ascuns \"Soplos Stock\" (Ctrl+Shift+D) pentru distribuirea nucleelor vanilla pe toate distribuțiile Soplos</li><li>Dialogul MOK explică acum ciclul de reconstruire automată DKMS la fiecare nucleu nou</li><li>A doua trecere make olddefconfig după opțiunile de profil — previne prompt-urile interactive în timpul build-ului</li><li>9 șiruri i18n lipsă completate în toate cele 8 limbi</li><li>Fila Soplos Kernels — instalează nuclee Stock, Gaming (BORE+NTSYNC) și Real-Time (PREEMPT_RT) din depozitul oficial fără compilare</li><li>Interfață cu file: Build Kernel și Soplos Kernels</li><li>Istoric persistent în ~/.local/share/soplos-kernel-installer/ — supraviețuiește curățării directorului de build</li><li>Nume de pachete compilate curate — versiunea nu mai apare duplicată în numele fișierului</li><li>Corectarea detectării nucleelor semnate MOK — verifică acum fizic fișierele vmlinuz</li><li>Corectarea profilului STOCK — linia de unire inutilă eliminată când sufixul este gol</li><li>Detectarea nucleelor Soplos prin /boot — funcționează indiferent de metoda de dezinstalare</li><li>Lista istoricului de nuclee se actualizează după acțiunile din fila Soplos Kernels</li><li>Listă dinamică de nuclee: fila Soplos Kernels citește pachetele disponibile din apt-cache la execuție — pachetele noi din depozit apar automat</li><li>Butonul Actualizare din fila Soplos Kernels forțează apt-get update și reîncarcă lista de nuclee</li><li>Post-compilare cu profilul Stock: creează metapachetul .deb și oferă salvarea tuturor pachetelor (imagine + antete + metapaket) fără a instala nucleul</li><li>Noi variante de nuclee precompilate: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming redenumit în linux-soplos-bore)</li><li>Corectat: numele de release al nucleului se citește acum din include/config/kernel.release — gestionează corect sufixele de versiune injectate de patch-uri (ex. zen1 de la patch-ul Zen)</li><li>Scurtături de tastatură Ctrl+Tab / Ctrl+Shift+Tab pentru a comuta între file</li><li>Versiunea disponibilă afișată lângă numele fiecărui nucleu în fila Soplos Kernels</li><li>Buton Update în fila Soplos Kernels — apare când o versiune mai nouă este disponibilă în depozit, actualizează metapachetul și purgează automat imaginea și antetele vechi</li><li>Corectat: căutarea pachetelor post-compilare Stock gestionează acum corect sufixele de versiune injectate de patch-uri (ex. zen1 de la patch-ul Zen)</li><li>Corectat: după actualizarea unui nucleu Soplos, pachetele vechi de imagine și antete ale aceluiași tip sunt șterse fără intervenție manuală</li></ul>"
       ru: "<p>Первоначальный выпуск Установщика ядра Soplos с комплексными функциями управления ядрами, включая интеграцию PREEMPT_RT, повторное использование исходного кода и поддержку Secure Boot.</p><ul><li>Загрузка ядер из стабильных, LTS, RC и избранных каналов Soplos</li><li>Поддержка патчей BORE, PREEMPT_RT, Zen и NTSYNC из оригинальных источников</li><li>Профили для игр, Аудио/Видео, Минимальный и Оптимизированный для оборудования</li><li>Повторное использование исходников для быстрой компиляции с обнаружением конфликтов</li><li>Расширяемая история установки с автоматической маркировкой ядер</li><li>Подпись Secure Boot MOK с поддержкой NVIDIA DKMS</li><li>Автоматический патч VMA NVIDIA для совместимости с ядром 7.0+</li><li>Автоматическая регистрация ключа DKMS MOK после установки с GPU NVIDIA — исправляет NVENC и CUDA с Secure Boot</li><li>Возможность сохранить скомпилированные пакеты .deb перед очисткой директории сборки</li><li>Путь хранения ключей MOK отображается в диалоге управления ключами</li><li>Исправлены все ошибки компиляции профилей ядра (PREEMPT_DYNAMIC, THP, DEBUG_INFO)</li><li>Исправлено определение GPU для устранения ложных срабатываний от строк CPU AMD</li><li>Флажок очистки директории сборки теперь работает корректно</li><li>Ядра EOL с kernel.org теперь отображаются как \"(EOL)\" с предупреждением — ранее были скрыты</li><li>Ядра mainline (напр. 7.0) больше не отображаются ошибочно как \"(последнее)\"</li><li>Полная интернационализация на 8 языков</li><li>Исправлена инъекция пароля MOK — пароль безопасно экранируется</li><li>Кнопка установки отключается при первом нажатии во избежание дублирующих сборок</li><li>Имя ядра проверяется перед установкой</li><li>Скрытый профиль \"Soplos Stock\" (Ctrl+Shift+D) для распространения ванильных ядер во всех дистрибутивах Soplos</li><li>Диалог MOK теперь объясняет цикл автоматической пересборки DKMS при каждом новом ядре</li><li>Второй проход make olddefconfig после применения опций профиля — предотвращает интерактивные запросы во время сборки</li><li>9 недостающих строк i18n дополнены во всех 8 языках</li><li>Вкладка Soplos Kernels — установка готовых ядер Stock, Gaming (BORE+NTSYNC) и Real-Time (PREEMPT_RT) из официального репозитория без компиляции</li><li>Интерфейс с вкладками: Build Kernel и Soplos Kernels</li><li>Постоянная история в ~/.local/share/soplos-kernel-installer/ — сохраняется после очистки директории сборки</li><li>Чистые имена скомпилированных пакетов — версия больше не дублируется в имени файла</li><li>Исправлено определение ядер с подписью MOK — теперь физически проверяет файлы vmlinuz</li><li>Исправлен профиль STOCK — лишний дефис убран при пустом суффиксе</li><li>Определение ядер Soplos через /boot — работает независимо от способа удаления</li><li>Список истории ядер обновляется после действий во вкладке Soplos Kernels</li><li>Динамический список ядер: вкладка Soplos Kernels читает доступные пакеты из apt-cache в режиме реального времени — новые пакеты в репозитории появляются автоматически</li><li>Кнопка Обновить во вкладке Soplos Kernels запускает apt-get update и перезагружает список ядер</li><li>Пост-сборка с профилем Stock: создаёт метапакет .deb и предлагает сохранить все пакеты (образ + заголовки + метапакет) без установки ядра</li><li>Новые варианты готовых ядер: linux-soplos-bore, linux-soplos-bore-ntsync, linux-soplos-zen, linux-soplos-ntsync (linux-soplos-gaming переименован в linux-soplos-bore)</li><li>Исправлено: имя релиза ядра теперь читается из include/config/kernel.release — корректно обрабатывает суффиксы версий, добавленные патчами (напр. zen1 от патча Zen)</li><li>Горячие клавиши Ctrl+Tab / Ctrl+Shift+Tab для переключения между вкладками</li><li>Доступная версия отображается рядом с названием каждого ядра во вкладке Soplos Kernels</li><li>Кнопка Update во вкладке Soplos Kernels — появляется, когда в репозитории доступна более новая версия; обновляет метапакет и автоматически удаляет старые образ и заголовки ядра</li><li>Исправлено: поиск пакетов после сборки Stock теперь корректно обрабатывает суффиксы версий, добавленные патчами (напр. zen1 от патча Zen)</li><li>Исправлено: после обновления ядра Soplos старые пакеты образа и заголовков того же типа удаляются без ручного вмешательства</li></ul>"
+ContentRating:
+  oars-1.1: {}
+---
+Type: desktop-application
+ID: "org.soplos.linuxinstaller"
+Package: "soplos-linux-installer"
+Name:
+  C: "Soplos Linux Installer"
+  de: "Soplos Linux Installationsprogramm"
+  es: "Instalador de Soplos Linux"
+  fr: "Installateur de Soplos Linux"
+  it: "Installazione di Soplos Linux"
+  pt: "Instalador do Soplos Linux"
+  ro: "Programul de instalare Soplos Linux"
+  ru: "Установщик Soplos Linux"
+Summary:
+  C: "Installer of Soplos Linux for Tyron, Tyson and Boro"
+  de: "Installationsprogramm von Soplos Linux für Tyron, Tyson und Boro"
+  es: "Instalador de Soplos Linux para Tyron, Tyson y Boro"
+  fr: "Installateur de Soplos Linux pour Tyron, Tyson et Boro"
+  it: "Programma di installazione di Soplos Linux per Tyron, Tyson e Boro"
+  pt: "Instalador do Soplos Linux para Tyron, Tyson e Boro"
+  ro: "Programul de instalare Soplos Linux pentru Tyron, Tyson și Boro"
+  ru: "Установщик Soplos Linux для Tyron, Tyson и Boro"
+Description:
+  C: "<p>Soplos Linux Installer installs Tyron (Xfce), Tyson (Plasma) and Boro (GNOME) from the live session. It replaces Calamares and can be used with the keyboard only.</p><p>It chooses the boot loader, the kind of installation and the kernel for the processor, prepares the disk before touching it and shows a summary of everything that will be done.</p><ul><li>Boot loader of your choice: GRUB, systemd-boot or Limine on UEFI; GRUB or Limine on BIOS</li><li>Minimal, standard or complete installation, with the Soplos kernel for the processor: stock, BORE + NTsync, Zen, RT or X3D, latest or LTS</li><li>Erase the disk, install alongside another system or partition by hand: btrfs with the @ and @home subvolumes, ext4, xfs, F2FS or JFS, optional encryption and swap</li><li>Partitions of data kept as they are, with exFAT, NTFS or FAT32, mounted with nofail</li><li>The drivers of the hardware are detected and installed during the installation</li><li>A presentation of Soplos Linux while the system is installed</li><li>Usable with the keyboard only: Alt + the underlined letter, Alt+Left and Alt+Right, Alt+1 to Alt+7</li><li>Available in 8 languages (ES, EN, FR, PT, DE, IT, RO, RU)</li></ul>"
+  de: "<p>Das Soplos Linux Installationsprogramm installiert Tyron (Xfce), Tyson (Plasma) und Boro (GNOME) aus der Live-Sitzung. Es ersetzt Calamares und lässt sich nur mit der Tastatur bedienen.</p><p>Es wählt den Bootloader, die Art der Installation und den Kernel für den Prozessor, bereitet den Datenträger vor, bevor er angefasst wird, und zeigt eine Zusammenfassung von allem, was geschehen wird.</p><ul><li>Bootloader nach Wahl: GRUB, systemd-boot oder Limine auf UEFI; GRUB oder Limine auf BIOS</li><li>Minimale, Standard- oder vollständige Installation, mit dem Soplos-Kernel für den Prozessor: stock, BORE + NTsync, Zen, RT oder X3D, neueste Version oder LTS</li><li>Datenträger löschen, neben einem anderen System installieren oder von Hand partitionieren: btrfs mit den Subvolumes @ und @home, ext4, xfs, F2FS oder JFS, optionale Verschlüsselung und Swap</li><li>Datenpartitionen bleiben, wie sie sind, mit exFAT, NTFS oder FAT32, eingebunden mit nofail</li><li>Die Treiber der Hardware werden erkannt und während der Installation eingerichtet</li><li>Eine Vorstellung von Soplos Linux, während das System installiert wird</li><li>Nur mit der Tastatur bedienbar: Alt + der unterstrichene Buchstabe, Alt+Links und Alt+Rechts, Alt+1 bis Alt+7</li><li>In 8 Sprachen verfügbar (ES, EN, FR, PT, DE, IT, RO, RU)</li></ul>"
+  es: "<p>El Instalador de Soplos Linux instala Tyron (Xfce), Tyson (Plasma) y Boro (GNOME) desde la sesión Live. Sustituye a Calamares y se puede usar solo con el teclado.</p><p>Elige el cargador de arranque, el tipo de instalación y el kernel para el procesador, prepara el disco antes de tocarlo y muestra un resumen de todo lo que hará.</p><ul><li>Cargador de arranque a elegir: GRUB, systemd-boot o Limine en UEFI; GRUB o Limine en BIOS</li><li>Instalación mínima, estándar o completa, con el kernel Soplos para el procesador: stock, BORE + NTsync, Zen, RT o X3D, última versión o LTS</li><li>Borrar el disco, instalar junto a otro sistema o particionar a mano: btrfs con los subvolúmenes @ y @home, ext4, xfs, F2FS o JFS, cifrado y swap opcionales</li><li>Particiones de datos que se conservan tal cual, con exFAT, NTFS o FAT32, montadas con nofail</li><li>Los controladores del hardware se detectan y se instalan durante la instalación</li><li>Una presentación de Soplos Linux mientras se instala el sistema</li><li>Se puede usar solo con el teclado: Alt + la letra subrayada, Alt+Izquierda y Alt+Derecha, Alt+1 a Alt+7</li><li>Disponible en 8 idiomas (ES, EN, FR, PT, DE, IT, RO, RU)</li></ul>"
+  fr: "<p>L'installateur de Soplos Linux installe Tyron (Xfce), Tyson (Plasma) et Boro (GNOME) depuis la session live. Il remplace Calamares et peut s'utiliser uniquement au clavier.</p><p>Il choisit le chargeur d'amorçage, le type d'installation et le noyau pour le processeur, prépare le disque avant d'y toucher et affiche un résumé de tout ce qui sera fait.</p><ul><li>Chargeur d'amorçage au choix : GRUB, systemd-boot ou Limine en UEFI ; GRUB ou Limine en BIOS</li><li>Installation minimale, standard ou complète, avec le noyau Soplos pour le processeur : stock, BORE + NTsync, Zen, RT ou X3D, dernière version ou LTS</li><li>Effacer le disque, installer à côté d'un autre système ou partitionner à la main : btrfs avec les sous-volumes @ et @home, ext4, xfs, F2FS ou JFS, chiffrement et swap en option</li><li>Des partitions de données conservées telles quelles, avec exFAT, NTFS ou FAT32, montées avec nofail</li><li>Les pilotes du matériel sont détectés et installés pendant l'installation</li><li>Une présentation de Soplos Linux pendant l'installation du système</li><li>Utilisable uniquement au clavier : Alt + la lettre soulignée, Alt+Gauche et Alt+Droite, Alt+1 à Alt+7</li><li>Disponible en 8 langues (ES, EN, FR, PT, DE, IT, RO, RU)</li></ul>"
+  it: "<p>Il programma di installazione di Soplos Linux installa Tyron (Xfce), Tyson (Plasma) e Boro (GNOME) dalla sessione live. Sostituisce Calamares e si può usare solo con la tastiera.</p><p>Sceglie il caricatore di avvio, il tipo di installazione e il kernel per il processore, prepara il disco prima di toccarlo e mostra un riepilogo di tutto ciò che verrà fatto.</p><ul><li>Caricatore di avvio a scelta: GRUB, systemd-boot o Limine su UEFI; GRUB o Limine su BIOS</li><li>Installazione minima, standard o completa, con il kernel Soplos per il processore: stock, BORE + NTsync, Zen, RT o X3D, ultima versione o LTS</li><li>Cancellare il disco, installare accanto a un altro sistema o partizionare a mano: btrfs con i sottovolumi @ e @home, ext4, xfs, F2FS o JFS, cifratura e swap opzionali</li><li>Partizioni di dati mantenute così come sono, con exFAT, NTFS o FAT32, montate con nofail</li><li>I driver dell'hardware vengono rilevati e installati durante l'installazione</li><li>Una presentazione di Soplos Linux mentre il sistema viene installato</li><li>Si può usare solo con la tastiera: Alt + la lettera sottolineata, Alt+Sinistra e Alt+Destra, Alt+1 fino a Alt+7</li><li>Disponibile in 8 lingue (ES, EN, FR, PT, DE, IT, RO, RU)</li></ul>"
+  pt: "<p>O Instalador do Soplos Linux instala o Tyron (Xfce), o Tyson (Plasma) e o Boro (GNOME) a partir da sessão live. Substitui o Calamares e pode ser usado apenas com o teclado.</p><p>Escolhe o carregador de arranque, o tipo de instalação e o kernel para o processador, prepara o disco antes de lhe tocar e mostra um resumo de tudo o que vai ser feito.</p><ul><li>Carregador de arranque à escolha: GRUB, systemd-boot ou Limine em UEFI; GRUB ou Limine em BIOS</li><li>Instalação mínima, padrão ou completa, com o kernel Soplos para o processador: stock, BORE + NTsync, Zen, RT ou X3D, mais recente ou LTS</li><li>Apagar o disco, instalar ao lado de outro sistema ou particionar à mão: btrfs com os subvolumes @ e @home, ext4, xfs, F2FS ou JFS, encriptação e swap opcionais</li><li>Partições de dados mantidas como estão, com exFAT, NTFS ou FAT32, montadas com nofail</li><li>Os controladores do hardware são detetados e instalados durante a instalação</li><li>Uma apresentação do Soplos Linux enquanto o sistema é instalado</li><li>Pode ser usado apenas com o teclado: Alt + a letra sublinhada, Alt+Esquerda e Alt+Direita, Alt+1 a Alt+7</li><li>Disponível em 8 idiomas (ES, EN, FR, PT, DE, IT, RO, RU)</li></ul>"
+  ro: "<p>Programul de instalare Soplos Linux instalează Tyron (Xfce), Tyson (Plasma) și Boro (GNOME) din sesiunea live. Înlocuiește Calamares și poate fi folosit doar cu tastatura.</p><p>Alege bootloaderul, tipul de instalare și kernelul pentru procesor, pregătește discul înainte de a-l atinge și arată un rezumat al tot ce se va face.</p><ul><li>Bootloader la alegere: GRUB, systemd-boot sau Limine pe UEFI; GRUB sau Limine pe BIOS</li><li>Instalare minimă, standard sau completă, cu kernelul Soplos pentru procesor: stock, BORE + NTsync, Zen, RT sau X3D, cea mai recentă sau LTS</li><li>Șterge discul, instalează lângă alt sistem sau partiționează manual: btrfs cu subvolumele @ și @home, ext4, xfs, F2FS sau JFS, criptare și swap opționale</li><li>Partiții de date păstrate așa cum sunt, cu exFAT, NTFS sau FAT32, montate cu nofail</li><li>Driverele hardware sunt detectate și instalate în timpul instalării</li><li>O prezentare a Soplos Linux în timp ce sistemul este instalat</li><li>Poate fi folosit doar cu tastatura: Alt + litera subliniată, Alt+Stânga și Alt+Dreapta, Alt+1 până la Alt+7</li><li>Disponibil în 8 limbi (ES, EN, FR, PT, DE, IT, RO, RU)</li></ul>"
+  ru: "<p>Установщик Soplos Linux ставит Tyron (Xfce), Tyson (Plasma) и Boro (GNOME) из live-сессии. Он заменяет Calamares и работает только с клавиатуры.</p><p>Он выбирает загрузчик, тип установки и ядро для процессора, готовит диск, прежде чем что-то тронуть, и показывает сводку всего, что будет сделано.</p><ul><li>Загрузчик на выбор: GRUB, systemd-boot или Limine на UEFI; GRUB или Limine на BIOS</li><li>Минимальная, стандартная или полная установка, с ядром Soplos для процессора: stock, BORE + NTsync, Zen, RT или X3D, последняя версия или LTS</li><li>Стереть диск, установить рядом с другой системой или разметить вручную: btrfs с подтомами @ и @home, ext4, xfs, F2FS или JFS, необязательные шифрование и swap</li><li>Разделы данных сохраняются как есть, с exFAT, NTFS или FAT32, монтируются с nofail</li><li>Драйверы оборудования определяются и устанавливаются во время установки</li><li>Показывается презентация Soplos Linux, пока идёт установка</li><li>Управление только с клавиатуры: Alt + подчёркнутая буква, Alt+Влево и Alt+Вправо, Alt+1 до Alt+7</li><li>Доступно на 8 языках (ES, EN, FR, PT, DE, IT, RO, RU)</li></ul>"
+ProjectLicense: "GPL-3.0-or-later"
+Developer:
+  id: "org.soplos"
+  name:
+    C: "Sergi Perich"
+Url:
+  homepage: "https://soplos.org"
+  bugtracker: "https://github.com/SoplosLinux/soplos-linux-installer-3.0/issues"
+  donation: "https://soplos.org/community/donate/"
+  contact: "https://soplos.org/wiki/contact/"
+Categories:
+  - "System"
+  - "Utility"
+Keywords:
+  C:
+    - "installer"
+    - "install"
+    - "partitioning"
+    - "boot loader"
+    - "kernel"
+    - "soplos"
+  de:
+    - "installationsprogramm"
+    - "installieren"
+    - "partitionierung"
+    - "bootloader"
+    - "kernel"
+  es:
+    - "instalador"
+    - "instalar"
+    - "particiones"
+    - "cargador de arranque"
+    - "kernel"
+  fr:
+    - "installateur"
+    - "installer"
+    - "partitionnement"
+    - "chargeur d'amorçage"
+    - "noyau"
+  it:
+    - "installazione"
+    - "installare"
+    - "partizionamento"
+    - "caricatore di avvio"
+    - "kernel"
+  pt:
+    - "instalador"
+    - "instalar"
+    - "particionamento"
+    - "carregador de arranque"
+    - "kernel"
+  ro:
+    - "instalare"
+    - "partiționare"
+    - "bootloader"
+    - "kernel"
+  ru:
+    - "установщик"
+    - "установка"
+    - "разметка диска"
+    - "загрузчик"
+    - "ядро"
+Icon:
+  cached:
+    - name: "soplos-linux-installer.png"
+      width: 48
+      height: 48
+    - name: "soplos-linux-installer.png"
+      width: 64
+      height: 64
+    - name: "soplos-linux-installer.png"
+      width: 128
+      height: 128
+  remote:
+    - url: "soplos-linux-installer/icons/48x48/soplos-linux-installer.png"
+      width: 48
+      height: 48
+    - url: "soplos-linux-installer/icons/64x64/soplos-linux-installer.png"
+      width: 64
+      height: 64
+    - url: "soplos-linux-installer/icons/128x128/soplos-linux-installer.png"
+      width: 128
+      height: 128
+Launchable:
+  desktop-id:
+    - "soplos-linux-installer.desktop"
+Provides:
+  binaries:
+    - "soplos-linux-installer"
+Releases:
+  - version: "3.0.0"
+    type: stable
+    unix-timestamp: 1794873600
+    description:
+      C: "<p>First stable release. It installs Tyron, Tyson and Boro with the boot loader you choose, the kernel for the level of the processor and the drivers the hardware needs, and it replaces Calamares.</p><p>Manual partitioning covers every mount point of Calamares and partitions of data of your own, with F2FS and JFS for the system and exFAT, NTFS and FAT32 for data.</p>"
 ContentRating:
   oars-1.1: {}
 ---
@@ -4114,499 +4242,245 @@ Name:
   ro: "Bun venit la Soplos Live"
   ru: "Добро пожаловать в Soplos Live"
 Summary:
-  C: "Welcome application for Soplos Linux Live with CHROOT recovery and BTRFS support"
-  de: "Willkommensanwendung für Soplos Linux Live mit CHROOT-Wiederherstellung und BTRFS-Unterstützung"
-  es: "Aplicación de bienvenida para Soplos Linux Live con recuperación CHROOT y soporte BTRFS"
-  fr: "Application d'accueil pour Soplos Linux Live avec récupération CHROOT et support BTRFS"
-  it: "Applicazione di benvenuto per Soplos Linux Live con recupero CHROOT e supporto BTRFS"
-  pt: "Aplicação de boas-vindas para Soplos Linux Live com recuperação CHROOT e suporte BTRFS"
-  ro: "Aplicație de bun venit pentru Soplos Linux Live cu recuperare CHROOT și suport BTRFS"
-  ru: "Приложение приветствия для Soplos Linux Live с восстановлением CHROOT и поддержкой BTRFS"
+  C: "Welcome screen of the Soplos Linux live session"
+  de: "Willkommensbildschirm der Soplos-Linux-Live-Sitzung"
+  es: "Pantalla de bienvenida de la sesión live de Soplos Linux"
+  fr: "Écran de bienvenue de la session live de Soplos Linux"
+  it: "Schermata di benvenuto della sessione live di Soplos Linux"
+  pt: "Ecrã de boas-vindas da sessão live do Soplos Linux"
+  ro: "Ecranul de bun venit al sesiunii live Soplos Linux"
+  ru: "Экран приветствия live-сессии Soplos Linux"
 Description:
-  C: "<p>Soplos Welcome Live 2.0 provides a comprehensive welcome experience for Soplos Linux Live Environment. Built with the same modular architecture as Soplos Welcome 2.0, it offers universal desktop compatibility and professional system recovery tools.</p><ul><li>Universal desktop support: XFCE (Tyron), KDE Plasma (Tyson), GNOME (Boro)</li><li>Complete X11 and Wayland compatibility</li><li>Calamares installer integration</li><li>Advanced CHROOT recovery system with intelligent partition detection</li><li>Full BTRFS support including subvolume detection and mounting</li><li>GParted integration for professional disk management</li><li>Complete internationalization with 8 languages</li><li>GNU Gettext professional translation system</li></ul>"
-  es: "<p>Soplos Welcome Live 2.0 proporciona una experiencia de bienvenida completa para el entorno Live de Soplos Linux. Construida con la misma arquitectura modular que Soplos Welcome 2.0, ofrece compatibilidad universal con escritorios y herramientas profesionales de recuperación del sistema.</p>"
-  fr: "<p>Soplos Welcome Live 2.0 offre une expérience de bienvenue complète pour l'environnement Live de Soplos Linux. Construite avec la même architecture modulaire que Soplos Welcome 2.0, elle offre une compatibilité universelle avec les bureaux et des outils professionnels de récupération système.</p>"
-ProjectLicense: "GPL-3.0+"
+  C: "<p>Soplos Welcome Live is the first thing you see in the Soplos Linux live session. Install Soplos, repair a system you already have without knowing any command, partition disks and change the language and keyboard of the session.</p><ul><li>Works on Xfce (Tyron), Plasma (Tyson) and GNOME (Boro), on X11 and Wayland</li><li>Simple rescue: the computer does not start, a forgotten password, a failed update</li><li>Finds the installed systems by itself, including BTRFS subvolumes</li><li>Language and keyboard change with automatic migration of the user folders</li><li>Available in 8 languages (ES, EN, FR, PT, DE, IT, RU, RO)</li></ul>"
+  de: "<p>Soplos Welcome Live ist das Erste, was du in der Live-Sitzung von Soplos Linux siehst. Installiere Soplos, repariere ein vorhandenes System ohne einen einzigen Befehl zu kennen, partitioniere Festplatten und ändere Sprache und Tastatur der Sitzung.</p><ul><li>Läuft unter Xfce (Tyron), Plasma (Tyson) und GNOME (Boro), mit X11 und Wayland</li><li>Einfache Rettung: der Computer startet nicht, ein vergessenes Passwort, ein fehlgeschlagenes Update</li><li>Findet installierte Systeme selbst, einschließlich BTRFS-Subvolumes</li><li>Wechsel von Sprache und Tastatur mit automatischer Migration der Benutzerordner</li><li>In 8 Sprachen verfügbar (ES, EN, FR, PT, DE, IT, RU, RO)</li></ul>"
+  es: "<p>Soplos Welcome Live es lo primero que ves en la sesión live de Soplos Linux. Instala Soplos, repara un sistema que ya tengas sin saber ningún comando, particiona discos y cambia el idioma y el teclado de la sesión.</p><ul><li>Funciona en Xfce (Tyron), Plasma (Tyson) y GNOME (Boro), con X11 y Wayland</li><li>Rescate sencillo: el equipo no arranca, una contraseña olvidada, una actualización fallida</li><li>Encuentra solo los sistemas instalados, incluidos los subvolúmenes BTRFS</li><li>Cambio de idioma y teclado con migración automática de las carpetas del usuario</li><li>Disponible en 8 idiomas (ES, EN, FR, PT, DE, IT, RU, RO)</li></ul>"
+  fr: "<p>Soplos Welcome Live est la première chose que vous voyez dans la session live de Soplos Linux. Installez Soplos, réparez un système que vous avez déjà sans connaître aucune commande, partitionnez des disques et changez la langue et le clavier de la session.</p><ul><li>Fonctionne sur Xfce (Tyron), Plasma (Tyson) et GNOME (Boro), avec X11 et Wayland</li><li>Secours simple : l'ordinateur ne démarre pas, un mot de passe oublié, une mise à jour qui a échoué</li><li>Trouve tout seul les systèmes installés, sous-volumes BTRFS compris</li><li>Changement de langue et de clavier avec migration automatique des dossiers de l'utilisateur</li><li>Disponible en 8 langues (ES, EN, FR, PT, DE, IT, RU, RO)</li></ul>"
+  it: "<p>Soplos Welcome Live è la prima cosa che vedi nella sessione live di Soplos Linux. Installa Soplos, ripara un sistema che hai già senza conoscere alcun comando, partiziona i dischi e cambia la lingua e la tastiera della sessione.</p><ul><li>Funziona su Xfce (Tyron), Plasma (Tyson) e GNOME (Boro), con X11 e Wayland</li><li>Ripristino semplice: il computer non si avvia, una password dimenticata, un aggiornamento fallito</li><li>Trova da solo i sistemi installati, compresi i sottovolumi BTRFS</li><li>Cambio di lingua e tastiera con migrazione automatica delle cartelle dell'utente</li><li>Disponibile in 8 lingue (ES, EN, FR, PT, DE, IT, RU, RO)</li></ul>"
+  pt: "<p>O Soplos Welcome Live é a primeira coisa que vê na sessão live do Soplos Linux. Instale o Soplos, repare um sistema que já tenha sem saber nenhum comando, particione discos e altere o idioma e o teclado da sessão.</p><ul><li>Funciona em Xfce (Tyron), Plasma (Tyson) e GNOME (Boro), com X11 e Wayland</li><li>Resgate simples: o computador não arranca, uma palavra-passe esquecida, uma atualização falhada</li><li>Encontra sozinho os sistemas instalados, incluindo os subvolumes BTRFS</li><li>Alteração do idioma e do teclado com migração automática das pastas do utilizador</li><li>Disponível em 8 idiomas (ES, EN, FR, PT, DE, IT, RU, RO)</li></ul>"
+  ro: "<p>Soplos Welcome Live este primul lucru pe care îl vezi în sesiunea live Soplos Linux. Instalează Soplos, repară un sistem pe care îl ai deja fără să știi nicio comandă, partiționează discuri și schimbă limba și tastatura sesiunii.</p><ul><li>Funcționează pe Xfce (Tyron), Plasma (Tyson) și GNOME (Boro), cu X11 și Wayland</li><li>Salvare simplă: computerul nu pornește, o parolă uitată, o actualizare eșuată</li><li>Găsește singur sistemele instalate, inclusiv subvolumele BTRFS</li><li>Schimbarea limbii și a tastaturii cu migrarea automată a folderelor utilizatorului</li><li>Disponibil în 8 limbi (ES, EN, FR, PT, DE, IT, RU, RO)</li></ul>"
+  ru: "<p>Soplos Welcome Live — первое, что вы видите в live-сессии Soplos Linux. Установите Soplos, почините уже установленную систему, не зная ни одной команды, разметьте диски и измените язык и клавиатуру сессии.</p><ul><li>Работает в Xfce (Tyron), Plasma (Tyson) и GNOME (Boro), с X11 и Wayland</li><li>Простое восстановление: компьютер не запускается, забытый пароль, неудачное обновление</li><li>Сам находит установленные системы, включая подтома BTRFS</li><li>Смена языка и клавиатуры с автоматическим переносом папок пользователя</li><li>Доступно на 8 языках (ES, EN, FR, PT, DE, IT, RU, RO)</li></ul>"
+ProjectLicense: "GPL-3.0-or-later"
 Developer:
   id: "org.soplos"
   name:
     C: "Sergi Perich"
 Url:
   homepage: "https://soplos.org"
-  bugtracker: "https://github.com/SoplosLinux/soplos-welcome-live/issues"
+  bugtracker: "https://github.com/SoplosLinux/soplos-welcome-live-3.0/issues"
   donation: "https://soplos.org/community/donate/"
-  help: "https://soplos.org"
+  contact: "https://soplos.org/wiki/contact/"
 Categories:
   - "System"
-  - "Settings"
   - "Utility"
 Keywords:
   C:
     - "welcome"
     - "live"
     - "install"
+    - "rescue"
     - "chroot"
-    - "recovery"
-    - "btrfs"
     - "soplos"
   de:
     - "willkommen"
     - "installation"
-    - "wiederherstellung"
+    - "rettung"
   es:
     - "bienvenida"
     - "instalar"
-    - "recuperación"
+    - "rescate"
   fr:
     - "bienvenue"
     - "installer"
-    - "récupération"
+    - "secours"
   it:
     - "benvenuto"
     - "installare"
-    - "recupero"
+    - "ripristino"
   pt:
     - "boas-vindas"
     - "instalar"
-    - "recuperação"
+    - "resgate"
   ro:
     - "bun venit"
     - "instalare"
-    - "recuperare"
+    - "salvare"
   ru:
     - "приветствие"
     - "установка"
     - "восстановление"
 Icon:
   cached:
-    - name: "org.soplos.welcomelive.png"
+    - name: "soplos-welcome-live.png"
       width: 48
       height: 48
-    - name: "org.soplos.welcomelive.png"
+    - name: "soplos-welcome-live.png"
       width: 64
       height: 64
-    - name: "org.soplos.welcomelive.png"
+    - name: "soplos-welcome-live.png"
       width: 128
       height: 128
   remote:
-    - url: "soplos-welcome-live/icons/48x48/org.soplos.welcomelive.png"
+    - url: "soplos-welcome-live/icons/48x48/soplos-welcome-live.png"
       width: 48
       height: 48
-    - url: "soplos-welcome-live/icons/64x64/org.soplos.welcomelive.png"
+    - url: "soplos-welcome-live/icons/64x64/soplos-welcome-live.png"
       width: 64
       height: 64
-    - url: "soplos-welcome-live/icons/128x128/org.soplos.welcomelive.png"
+    - url: "soplos-welcome-live/icons/128x128/soplos-welcome-live.png"
       width: 128
       height: 128
 Launchable:
   desktop-id:
-    - "org.soplos.welcomelive.desktop"
+    - "soplos-welcome-live.desktop"
 Provides:
   binaries:
     - "soplos-welcome-live"
 Screenshots:
   - default: true
     caption:
-      C: "Main window with installation, rescue and hardware info tools"
-      de: "Hauptfenster mit Installations-, Rettungs- und Hardwareinformationswerkzeugen"
-      es: "Ventana principal con herramientas de instalación, rescate e información de hardware"
-      fr: "Fenêtre principale avec outils d'installation, de secours et d'informations matérielles"
-      it: "Finestra principale con strumenti di installazione, recupero e informazioni hardware"
-      pt: "Janela principal com ferramentas de instalação, recuperação e informações de hardware"
-      ro: "Fereastra principală cu instrumente de instalare, recuperare și informații hardware"
-      ru: "Главное окно с инструментами установки, восстановления и сведений об оборудовании"
+      C: "Home: the edition, the hardware and the three things you can do"
+      de: "Start: die Edition, die Hardware und die drei Dinge, die du tun kannst"
+      es: "Inicio: la edición, el hardware y las tres cosas que puedes hacer"
+      fr: "Accueil : l'édition, le matériel et les trois choses que vous pouvez faire"
+      it: "Home: l'edizione, l'hardware e le tre cose che puoi fare"
+      pt: "Início: a edição, o hardware e as três coisas que pode fazer"
+      ro: "Acasă: ediția, hardware-ul și cele trei lucruri pe care le poți face"
+      ru: "Главная: выпуск, оборудование и три действия на выбор"
     source-image:
-      url: "soplos-welcome-live/screenshots/screenshot1.png"
-      width: 854
-      height: 732
+      url: "soplos-welcome-live/screenshots/screenshot01.png"
+      width: 1000
+      height: 760
   - caption:
-      C: "Disk selection for System Rescue"
-      de: "Datenträgerauswahl für die Systemwiederherstellung"
-      es: "Selección de disco para Rescate del Sistema"
-      fr: "Sélection du disque pour le secours système"
-      it: "Selezione del disco per il recupero del sistema"
-      pt: "Seleção de disco para Recuperação do Sistema"
-      ro: "Selectarea discului pentru recuperarea sistemului"
-      ru: "Выбор диска для восстановления системы"
+      C: "Language and keyboard: the language, the region and the layout of the session"
+      de: "Sprache und Tastatur: die Sprache, die Region und das Layout der Sitzung"
+      es: "Idioma y teclado: el idioma, la región y la distribución de la sesión"
+      fr: "Langue et clavier : la langue, la région et la disposition de la session"
+      it: "Lingua e tastiera: la lingua, la regione e la disposizione della sessione"
+      pt: "Idioma e teclado: o idioma, a região e a disposição da sessão"
+      ro: "Limbă și tastatură: limba, regiunea și aranjarea sesiunii"
+      ru: "Язык и клавиатура: язык, регион и раскладка сессии"
     source-image:
-      url: "soplos-welcome-live/screenshots/screenshot2.png"
-      width: 654
-      height: 486
+      url: "soplos-welcome-live/screenshots/screenshot02.png"
+      width: 1000
+      height: 760
   - caption:
-      C: "Partition mount point assignment"
-      de: "Zuordnung von Einhängepunkten zu Partitionen"
-      es: "Asignación de puntos de montaje a particiones"
-      fr: "Affectation des points de montage aux partitions"
-      it: "Assegnazione dei punti di montaggio alle partizioni"
-      pt: "Atribuição de pontos de montagem às partições"
-      ro: "Atribuirea punctelor de montare partițiilor"
-      ru: "Назначение точек монтирования разделам"
+      C: "Install: what to check before starting the installer"
+      de: "Installieren: was vor dem Start des Installationsprogramms zu prüfen ist"
+      es: "Instalar: qué comprobar antes de iniciar el instalador"
+      fr: "Installer : ce qu'il faut vérifier avant de lancer l'installateur"
+      it: "Installa: cosa controllare prima di avviare il programma di installazione"
+      pt: "Instalar: o que verificar antes de iniciar o instalador"
+      ro: "Instalare: ce să verifici înainte de a porni programul de instalare"
+      ru: "Установка: что проверить перед запуском установщика"
     source-image:
-      url: "soplos-welcome-live/screenshots/screenshot3.png"
-      width: 454
-      height: 341
+      url: "soplos-welcome-live/screenshots/screenshot03.png"
+      width: 1000
+      height: 760
   - caption:
-      C: "Guided Rescue Operations window"
-      de: "Fenster für geführte Rettungsoperationen"
-      es: "Ventana de Operaciones de Rescate guiadas"
-      fr: "Fenêtre des opérations de secours guidées"
-      it: "Finestra delle operazioni di recupero guidate"
-      pt: "Janela de Operações de Recuperação guiadas"
-      ro: "Fereastra operațiilor de salvare ghidate"
-      ru: "Окно пошаговых операций восстановления"
+      C: "Rescue: say what happened, in plain words"
+      de: "Rettung: sag, was passiert ist, in einfachen Worten"
+      es: "Rescate: di qué ha pasado, con palabras normales"
+      fr: "Secours : dites ce qui s'est passé, avec des mots simples"
+      it: "Ripristino: di' cosa è successo, con parole semplici"
+      pt: "Resgate: diga o que aconteceu, em palavras simples"
+      ro: "Salvare: spune ce s-a întâmplat, în cuvinte simple"
+      ru: "Восстановление: опишите, что случилось, простыми словами"
     source-image:
-      url: "soplos-welcome-live/screenshots/screenshot4.png"
-      width: 584
-      height: 445
+      url: "soplos-welcome-live/screenshots/screenshot04.png"
+      width: 1000
+      height: 760
   - caption:
-      C: "Interactive CHROOT terminal session"
-      de: "Interaktive CHROOT-Terminalsitzung"
-      es: "Sesión de terminal CHROOT interactiva"
-      fr: "Session de terminal CHROOT interactive"
-      it: "Sessione terminale CHROOT interattiva"
-      pt: "Sessão de terminal CHROOT interativa"
-      ro: "Sesiune interactivă de terminal CHROOT"
-      ru: "Интерактивная сессия терминала CHROOT"
+      C: "Rescue: the installed system found by itself"
+      de: "Rettung: das installierte System selbst gefunden"
+      es: "Rescate: el sistema instalado encontrado por sí solo"
+      fr: "Secours : le système installé trouvé tout seul"
+      it: "Ripristino: il sistema installato trovato da solo"
+      pt: "Resgate: o sistema instalado encontrado sozinho"
+      ro: "Salvare: sistemul instalat găsit singur"
+      ru: "Восстановление: установленная система найдена сама"
     source-image:
-      url: "soplos-welcome-live/screenshots/screenshot5.png"
-      width: 845
-      height: 615
+      url: "soplos-welcome-live/screenshots/screenshot05.png"
+      width: 1000
+      height: 760
+  - caption:
+      C: "Rescue: the repair, step by step"
+      de: "Rettung: die Reparatur, Schritt für Schritt"
+      es: "Rescate: la reparación, paso a paso"
+      fr: "Secours : la réparation, étape par étape"
+      it: "Ripristino: la riparazione, passo dopo passo"
+      pt: "Resgate: a reparação, passo a passo"
+      ro: "Salvare: repararea, pas cu pas"
+      ru: "Восстановление: починка шаг за шагом"
+    source-image:
+      url: "soplos-welcome-live/screenshots/screenshot06.png"
+      width: 1000
+      height: 760
+  - caption:
+      C: "Rescue: done, and the computer can start again"
+      de: "Rettung: fertig, und der Rechner kann wieder starten"
+      es: "Rescate: listo, y el equipo puede arrancar de nuevo"
+      fr: "Secours : terminé, et l'ordinateur peut redémarrer"
+      it: "Ripristino: fatto, e il computer può riavviarsi"
+      pt: "Resgate: concluído, e o computador pode arrancar de novo"
+      ro: "Salvare: gata, iar calculatorul poate porni din nou"
+      ru: "Восстановление: готово, компьютер снова загрузится"
+    source-image:
+      url: "soplos-welcome-live/screenshots/screenshot07.png"
+      width: 1000
+      height: 760
+  - caption:
+      C: "Tools: GParted, the hardware, the screen resolution and NumLock"
+      de: "Werkzeuge: GParted, die Hardware, die Bildschirmauflösung und NumLock"
+      es: "Herramientas: GParted, el hardware, la resolución de pantalla y NumLock"
+      fr: "Outils : GParted, le matériel, la résolution de l'écran et NumLock"
+      it: "Strumenti: GParted, l'hardware, la risoluzione dello schermo e NumLock"
+      pt: "Ferramentas: GParted, o hardware, a resolução do ecrã e NumLock"
+      ro: "Instrumente: GParted, hardware-ul, rezoluția ecranului și NumLock"
+      ru: "Инструменты: GParted, оборудование, разрешение экрана и NumLock"
+    source-image:
+      url: "soplos-welcome-live/screenshots/screenshot08.png"
+      width: 1000
+      height: 760
 Releases:
-  - version: "2.0.2-8"
+  - version: "3.0.0"
     type: stable
-    unix-timestamp: 1784937600
+    unix-timestamp: 1794873600
     description:
-      C: "<p>Donate link updated.</p><ul><li>Donate link now points to soplos.org/community/donate/ instead of PayPal.</li></ul><ul><li>El enlace de donación ahora apunta a soplos.org/community/donate/ en lugar de PayPal.</li></ul><ul><li>Le lien de don pointe désormais vers soplos.org/community/donate/ au lieu de PayPal.</li></ul><ul><li>O link de doação agora aponta para soplos.org/community/donate/ em vez do PayPal.</li></ul><ul><li>Der Spenden-Link verweist jetzt auf soplos.org/community/donate/ anstelle von PayPal.</li></ul><ul><li>Il link per le donazioni ora punta a soplos.org/community/donate/ invece di PayPal.</li></ul><ul><li>Ссылка для пожертвований теперь ведёт на soplos.org/community/donate/ вместо PayPal.</li></ul><ul><li>Linkul de donații indică acum către soplos.org/community/donate/ în loc de PayPal.</li></ul>"
-      de: "<p>Spenden-Link aktualisiert.</p>"
-      es: "<p>Enlace de donación actualizado.</p>"
-      fr: "<p>Lien de don mis à jour.</p>"
-      it: "<p>Link per le donazioni aggiornato.</p>"
-      pt: "<p>Link de doação atualizado.</p>"
-      ro: "<p>Link de donații actualizat.</p>"
-      ru: "<p>Обновлена ссылка для пожертвований.</p>"
-  - version: "2.0.2-7"
+      C: "<p>First stable release. The Language page comes right after Home in the sidebar.</p>"
+  - version: "3.0.0-3-beta"
     type: stable
-    unix-timestamp: 1783468800
+    unix-timestamp: 1794614400
     description:
-      C: "<p>Qt6 migration: qdbus replaced with qdbus6.</p><ul><li>All qdbus calls replaced with qdbus6 following Qt5 removal from base system. Affects language changer and session manager on KDE.</li></ul><ul><li>Todas las llamadas a qdbus sustituidas por qdbus6 tras la eliminación de Qt5 del sistema base. Afecta al cambiador de idioma y al gestor de sesión en KDE.</li></ul><ul><li>Tous les appels qdbus remplacés par qdbus6 suite à la suppression de Qt5 du système de base. Concerne le changeur de langue et le gestionnaire de session sous KDE.</li></ul><ul><li>Todas as chamadas qdbus substituídas por qdbus6 após a remoção do Qt5 do sistema base. Afeta o trocador de idioma e o gestor de sessão no KDE.</li></ul><ul><li>Alle qdbus-Aufrufe wurden nach der Entfernung von Qt5 aus dem Basissystem durch qdbus6 ersetzt. Betrifft den Sprachumschalter und den Sitzungsmanager unter KDE.</li></ul><ul><li>Tutte le chiamate qdbus sostituite con qdbus6 dopo la rimozione di Qt5 dal sistema base. Riguarda il selettore di lingua e il gestore di sessione su KDE.</li></ul><ul><li>Все вызовы qdbus заменены на qdbus6 после удаления Qt5 из базовой системы. Затрагивает переключатель языка и менеджер сессий в KDE.</li></ul><ul><li>Toate apelurile qdbus înlocuite cu qdbus6 după eliminarea Qt5 din sistemul de bază. Afectează schimbătorul de limbă și managerul de sesiune pe KDE.</li></ul>"
-      de: "<p>Qt6-Migration: qdbus durch qdbus6 ersetzt.</p>"
-      es: "<p>Migración a Qt6: qdbus sustituido por qdbus6.</p>"
-      fr: "<p>Migration Qt6 : qdbus remplacé par qdbus6.</p>"
-      it: "<p>Migrazione Qt6: qdbus sostituito con qdbus6.</p>"
-      pt: "<p>Migração Qt6: qdbus substituído por qdbus6.</p>"
-      ro: "<p>Migrare Qt6: qdbus înlocuit cu qdbus6.</p>"
-      ru: "<p>Миграция на Qt6: qdbus заменён на qdbus6.</p>"
-  - version: "2.0.2-6"
+      C: "<p>The language switcher at the bottom of the sidebar changes the language of the system, as the Language page does, after a confirmation, and not only the language of the window.</p>"
+  - version: "3.0.0-2-beta"
     type: stable
-    unix-timestamp: 1783382400
+    unix-timestamp: 1794614400
     description:
-      C: "<p>Build dependency update.</p><ul><li>Build dependency python3-all replaced with python3.</li></ul><ul><li>Se ha sustituido la dependencia de compilación python3-all por python3.</li></ul><ul><li>La dépendance de compilation python3-all a été remplacée par python3.</li></ul><ul><li>A dependência de compilação python3-all foi substituída por python3.</li></ul><ul><li>Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.</li></ul><ul><li>La dipendenza di compilazione python3-all è stata sostituita con python3.</li></ul><ul><li>Зависимость сборки python3-all заменена на python3.</li></ul><ul><li>Dependența de compilare python3-all a fost înlocuită cu python3.</li></ul>"
-      de: "<p>Aktualisierung der Build-Abhängigkeit.</p>"
-      es: "<p>Actualización de dependencia de compilación.</p>"
-      fr: "<p>Mise à jour de la dépendance de compilation.</p>"
-      it: "<p>Aggiornamento della dipendenza di compilazione.</p>"
-      pt: "<p>Atualização da dependência de compilação.</p>"
-      ro: "<p>Actualizare a dependenței de compilare.</p>"
-      ru: "<p>Обновление зависимости сборки.</p>"
-  - version: "2.0.2-5"
+      C: "<p>Install launches Soplos Linux Installer, the new installer of Soplos, instead of Calamares. The rescue repairs the boot loader the system has, GRUB, Limine or systemd-boot, and rebuilds the start files so systemd-boot gets them too. Turning NumLock off in the tools works with the new installer.</p>"
+  - version: "3.0.0-1-beta"
     type: stable
-    unix-timestamp: 1783296000
+    unix-timestamp: 1794096000
     description:
-      C: "<p>Calamares launcher fix for KDE Plasma.</p><ul><li>Calamares is now launched with QT_STYLE_OVERRIDE=fusion on KDE Plasma to ensure correct rendering.</li></ul><ul><li>Calamares ahora se lanza con QT_STYLE_OVERRIDE=fusion en KDE Plasma para garantizar un renderizado correcto.</li></ul><ul><li>Calamares est maintenant lancé avec QT_STYLE_OVERRIDE=fusion sur KDE Plasma pour garantir un rendu correct.</li></ul><ul><li>O Calamares agora é lançado com QT_STYLE_OVERRIDE=fusion no KDE Plasma para garantir uma renderização correta.</li></ul><ul><li>Calamares wird jetzt mit QT_STYLE_OVERRIDE=fusion unter KDE Plasma gestartet, um eine korrekte Darstellung sicherzustellen.</li></ul><ul><li>Calamares viene ora avviato con QT_STYLE_OVERRIDE=fusion su KDE Plasma per garantire una resa corretta.</li></ul><ul><li>Calamares теперь запускается с QT_STYLE_OVERRIDE=fusion в KDE Plasma для корректного отображения.</li></ul><ul><li>Calamares este acum lansat cu QT_STYLE_OVERRIDE=fusion pe KDE Plasma pentru a asigura o randare corectă.</li></ul>"
-      de: "<p>Korrektur des Calamares-Starters für KDE Plasma.</p>"
-      es: "<p>Corrección del lanzador de Calamares en KDE Plasma.</p>"
-      fr: "<p>Correction du lanceur Calamares pour KDE Plasma.</p>"
-      it: "<p>Correzione del launcher di Calamares per KDE Plasma.</p>"
-      pt: "<p>Correção do lançador do Calamares no KDE Plasma.</p>"
-      ro: "<p>Corectarea lansatorului Calamares pentru KDE Plasma.</p>"
-      ru: "<p>Исправление запуска Calamares для KDE Plasma.</p>"
-  - version: "2.0.2-4"
+      C: "<p>The Install page checks the connection to the Soplos servers and the clock of the computer before the installer starts, because a missing connection or a wrong clock make it stop with error 100, and offers to fix the time. The Language and keyboard page has regions (Spain and Latin America, Brazil, Belgium, Austria, Australia and more) and keyboards for them. The Rescue page has a Help button that explains each option, and every page has a banner.</p>"
+  - version: "3.0.0-beta"
     type: stable
-    unix-timestamp: 1782259200
+    unix-timestamp: 1793836800
     description:
-      C: "<p>Display manager detection fix for language changer on KDE.</p><ul><li>Language changer now detects the active display manager with systemctl is-active and restarts it directly: plasmalogin on Tyson RC1, sddm on beta ISOs, display-manager.service as last resort.</li><li>Resolves Breeze wallpaper shown on plasmalogin and ksplashqml crash cascade on VirtualBox after a hot language change.</li></ul><ul><li>El cambiador de idioma ahora detecta el gestor de pantalla activo con systemctl is-active y lo reinicia directamente: plasmalogin en Tyson RC1, sddm en ISOs beta, display-manager.service como último recurso.</li><li>Resuelve el wallpaper de Breeze en plasmalogin y el crash en cascada de ksplashqml en VirtualBox tras un cambio de idioma en caliente.</li></ul><ul><li>Le changeur de langue détecte maintenant le gestionnaire d'affichage actif avec systemctl is-active et le redémarre directement : plasmalogin sur Tyson RC1, sddm sur les ISO bêta, display-manager.service en dernier recours.</li><li>Résout le fond d'écran Breeze sur plasmalogin et le crash en cascade de ksplashqml sur VirtualBox après un changement de langue à chaud.</li></ul><ul><li>O trocador de idioma deteta agora o gestor de ecrã ativo com systemctl is-active e reinicia-o diretamente: plasmalogin no Tyson RC1, sddm nas ISOs beta, display-manager.service como último recurso.</li><li>Resolve o wallpaper Breeze no plasmalogin e o crash em cascata do ksplashqml no VirtualBox após uma mudança de idioma a quente.</li></ul><ul><li>Der Sprachumschalter erkennt jetzt den aktiven Display-Manager mit systemctl is-active und startet ihn direkt neu: plasmalogin auf Tyson RC1, sddm auf Beta-ISOs, display-manager.service als letzter Ausweg.</li><li>Behebt das Breeze-Hintergrundbild auf plasmalogin und den ksplashqml-Absturz-Kaskadeneffekt auf VirtualBox nach einem Live-Sprachwechsel.</li></ul><ul><li>Il selettore di lingua ora rileva il display manager attivo con systemctl is-active e lo riavvia direttamente: plasmalogin su Tyson RC1, sddm sulle ISO beta, display-manager.service come ultima risorsa.</li><li>Risolve lo sfondo Breeze su plasmalogin e il crash a cascata di ksplashqml su VirtualBox dopo un cambio di lingua a caldo.</li></ul><ul><li>Переключатель языка теперь определяет активный менеджер экрана через systemctl is-active и перезапускает его напрямую: plasmalogin на Tyson RC1, sddm на бета-ISO, display-manager.service как последний вариант.</li><li>Устраняет фон Breeze на plasmalogin и каскадный сбой ksplashqml на VirtualBox после горячей смены языка.</li></ul><ul><li>Schimbătorul de limbă detectează acum managerul de afișare activ cu systemctl is-active și îl repornește direct: plasmalogin pe Tyson RC1, sddm pe ISO-urile beta, display-manager.service ca ultimă soluție.</li><li>Rezolvă wallpaper-ul Breeze pe plasmalogin și cascada de crash-uri ksplashqml pe VirtualBox după o schimbare de limbă la cald.</li></ul>"
-      de: "<p>Korrektur der Erkennung des Display-Managers im Sprachumschalter unter KDE.</p>"
-      es: "<p>Corrección de detección del gestor de pantalla en el cambiador de idioma en KDE.</p>"
-      fr: "<p>Correction de la détection du gestionnaire d'affichage dans le changeur de langue sous KDE.</p>"
-      it: "<p>Correzione del rilevamento del display manager nel selettore di lingua su KDE.</p>"
-      pt: "<p>Correção da deteção do gestor de ecrã no trocador de idioma no KDE.</p>"
-      ro: "<p>Corectarea detecției managerului de afișare în schimbătorul de limbă pe KDE.</p>"
-      ru: "<p>Исправление определения менеджера экрана в переключателе языка для KDE.</p>"
-  - version: "2.0.2-3"
+      C: "<p>First beta. The system rescue, the password change and the repair of the initramfs and GRUB work in a live session of Soplos Linux Tyson.</p>"
+  - version: "3.0.0-2-alpha"
     type: stable
-    unix-timestamp: 1782172800
+    unix-timestamp: 1793836800
     description:
-      C: "<p>Ghostty set as default terminal for CHROOT recovery across all three distros.</p><ul><li>Ghostty is now the first-priority terminal in the CHROOT recovery launcher for XFCE (Tyron), KDE (Tyson) and GNOME (Boro), reflecting the new default terminal across all three distros.</li><li>All 8 locale files updated to mention ghostty in the terminal hint error message.</li></ul><ul><li>Ghostty es ahora la terminal de primera prioridad en el lanzador de recuperación CHROOT para XFCE (Tyron), KDE (Tyson) y GNOME (Boro), reflejando la nueva terminal predeterminada en las tres distros.</li><li>Los 8 archivos de idioma actualizados para mencionar ghostty en el mensaje de error de terminal.</li></ul><ul><li>Ghostty est maintenant le terminal prioritaire dans le lanceur de récupération CHROOT pour XFCE (Tyron), KDE (Tyson) et GNOME (Boro), reflétant le nouveau terminal par défaut sur les trois distros.</li><li>Les 8 fichiers de locale mis à jour pour mentionner ghostty dans le message d'erreur de terminal.</li></ul><ul><li>Ghostty é agora o terminal de primeira prioridade no lançador de recuperação CHROOT para XFCE (Tyron), KDE (Tyson) e GNOME (Boro), refletindo o novo terminal padrão nas três distros.</li><li>Os 8 ficheiros de locale atualizados para mencionar ghostty na mensagem de erro de terminal.</li></ul><ul><li>Ghostty ist jetzt das Terminal mit der höchsten Priorität im CHROOT-Wiederherstellungs-Launcher für XFCE (Tyron), KDE (Tyson) und GNOME (Boro), entsprechend dem neuen Standard-Terminal aller drei Distros.</li><li>Alle 8 Locale-Dateien aktualisiert, um ghostty in der Terminal-Fehlermeldung zu erwähnen.</li></ul><ul><li>Ghostty è ora il terminale di prima priorità nel launcher di recupero CHROOT per XFCE (Tyron), KDE (Tyson) e GNOME (Boro), riflettendo il nuovo terminale predefinito su tutte e tre le distros.</li><li>Tutti gli 8 file locale aggiornati per menzionare ghostty nel messaggio di errore del terminale.</li></ul><ul><li>Ghostty теперь является приоритетным терминалом в лаунчере восстановления CHROOT для XFCE (Tyron), KDE (Tyson) и GNOME (Boro), отражая новый терминал по умолчанию во всех трёх дистрибутивах.</li><li>Все 8 файлов локализации обновлены для упоминания ghostty в сообщении об ошибке терминала.</li></ul><ul><li>Ghostty este acum terminalul cu prioritate maximă în lansatorul de recuperare CHROOT pentru XFCE (Tyron), KDE (Tyson) și GNOME (Boro), reflectând noul terminal implicit pe toate cele trei distros.</li><li>Toate cele 8 fișiere locale actualizate pentru a menționa ghostty în mesajul de eroare al terminalului.</li></ul>"
-      de: "<p>Ghostty als Standard-Terminal für die CHROOT-Wiederherstellung auf allen drei Distros festgelegt.</p>"
-      es: "<p>Ghostty establecido como terminal predeterminada para la recuperación CHROOT en las tres distros.</p>"
-      fr: "<p>Ghostty défini comme terminal par défaut pour la récupération CHROOT sur les trois distros.</p>"
-      it: "<p>Ghostty impostato come terminale predefinito per il recupero CHROOT su tutte e tre le distros.</p>"
-      pt: "<p>Ghostty definido como terminal padrão para a recuperação CHROOT nas três distros.</p>"
-      ro: "<p>Ghostty setat ca terminal implicit pentru recuperarea CHROOT pe toate cele trei distros.</p>"
-      ru: "<p>Ghostty установлен терминалом по умолчанию для восстановления CHROOT во всех трёх дистрибутивах.</p>"
-  - version: "2.0.2-2"
+      C: "<p>System rescue mounts the /boot, /boot/efi and /home partitions of the installed system again, and stops instead of repairing the wrong folder when /boot is not mounted.</p>"
+  - version: "3.0.0-1-alpha"
     type: stable
-    unix-timestamp: 1782086400
+    unix-timestamp: 1793750400
     description:
-      C: "<p>Display manager restart fix for KDE: tries plasmalogin before sddm as fallback.</p><ul><li>Language changer now tries plasmalogin first on KDE, then sddm for beta users still on the old display manager.</li></ul><ul><li>El cambiador de idioma ahora intenta plasmalogin primero en KDE, luego sddm para usuarios beta con el gestor de pantalla anterior.</li></ul><ul><li>Le changeur de langue essaie maintenant plasmalogin en premier sous KDE, puis sddm pour les utilisateurs bêta.</li></ul><ul><li>O trocador de idioma agora tenta plasmalogin primeiro no KDE, depois sddm para utilizadores beta.</li></ul><ul><li>Der Sprachwechsler versucht unter KDE jetzt zuerst plasmalogin, dann sddm für Beta-Nutzer.</li></ul><ul><li>Il selettore di lingua ora prova plasmalogin per primo su KDE, poi sddm per gli utenti beta.</li></ul><ul><li>Переключатель языка теперь пробует plasmalogin первым в KDE, затем sddm для бета-пользователей.</li></ul><ul><li>Schimbatorul de limba incearca acum plasmalogin mai intai pe KDE, apoi sddm pentru utilizatorii beta.</li></ul>"
-      de: "<p>Korrektur des Display-Manager-Neustarts unter KDE: versucht zuerst plasmalogin, dann sddm als Fallback.</p>"
-      es: "<p>Corrección del reinicio del gestor de pantalla en KDE: intenta plasmalogin antes que sddm como alternativa.</p>"
-      fr: "<p>Correction du redémarrage du gestionnaire d'affichage sous KDE : essaie plasmalogin avant sddm en repli.</p>"
-      it: "<p>Correzione del riavvio del display manager su KDE: prova plasmalogin prima di sddm come fallback.</p>"
-      pt: "<p>Correção do reinício do gestor de ecrã no KDE: tenta plasmalogin antes de sddm como alternativa.</p>"
-      ro: "<p>Corectarea repornirii managerului de afișare pe KDE: incearca plasmalogin inainte de sddm ca rezerva.</p>"
-      ru: "<p>Исправление перезапуска менеджера экрана в KDE: сначала пробует plasmalogin, затем sddm как запасной вариант.</p>"
-  - version: "2.0.2"
+      C: "<p>The application metadata points to the installed launcher, and the manual page is the same in the project and in the package.</p>"
+  - version: "3.0.0-alpha"
     type: stable
-    unix-timestamp: 1774915200
+    unix-timestamp: 1793404800
     description:
-      C: "<p>New features, guided rescue operations and interface improvements.</p><ul><li>Fade-in animation on startup.</li><li>Tooltips on all interactive elements.</li><li>Internet connectivity indicator in the status bar (green/red dot, refreshed every 15 s).</li><li>Hardware Info button: shows CPU, RAM and storage.</li><li>GParted button in the main window action bar.</li><li>Guided Rescue Operations window: Reset Password, Repair GRUB (UEFI/BIOS), Update GRUB, Regenerate initramfs, interactive terminal.</li><li>Fixed dark strip in partition selection dialog.</li><li>Removed wrong positional partition auto-assignment fallback.</li><li>All 8 translations updated and compiled.</li></ul><ul><li>Animación de fundido al abrir la ventana.</li><li>Tooltips en todos los elementos interactivos.</li><li>Indicador de conectividad a internet en la barra de estado (punto verde/rojo, actualizado cada 15 s).</li><li>Botón Información de hardware: muestra CPU, RAM y almacenamiento.</li><li>Botón GParted en la barra de acciones de la ventana principal.</li><li>Ventana de Operaciones de Rescate guiadas: Restablecer contraseña, Reparar GRUB (UEFI/BIOS), Actualizar GRUB, Regenerar initramfs, terminal interactiva.</li><li>Corregida la franja oscura en el diálogo de selección de particiones.</li><li>Eliminada la asignación automática de particiones por posición.</li><li>Traducciones en 8 idiomas actualizadas y compiladas.</li></ul><ul><li>Animation de fondu au démarrage.</li><li>Infobulles sur tous les éléments interactifs.</li><li>Indicateur de connectivité internet dans la barre d'état (point vert/rouge, actualisé toutes les 15 s).</li><li>Bouton Informations matérielles : affiche le CPU, la RAM et le stockage.</li><li>Bouton GParted dans la barre d'actions de la fenêtre principale.</li><li>Fenêtre d'Opérations de Secours guidées : Réinitialiser le mot de passe, Réparer GRUB (UEFI/BIOS), Mettre à jour GRUB, Régénérer initramfs, terminal interactif.</li><li>Correction de la bande sombre dans le dialogue de sélection des partitions.</li><li>Suppression de l'affectation automatique des partitions par position.</li><li>Traductions en 8 langues mises à jour et compilées.</li></ul><ul><li>Animação de fade-in no arranque.</li><li>Tooltips em todos os elementos interativos.</li><li>Indicador de conectividade à internet na barra de estado (ponto verde/vermelho, atualizado de 15 em 15 s).</li><li>Botão Informações de hardware: mostra CPU, RAM e armazenamento.</li><li>Botão GParted na barra de ações da janela principal.</li><li>Janela de Operações de Recuperação guiadas: Redefinir palavra-passe, Reparar GRUB (UEFI/BIOS), Atualizar GRUB, Regenerar initramfs, terminal interativo.</li><li>Corrigida a faixa escura no diálogo de seleção de partições.</li><li>Removida a atribuição automática de partições por posição.</li><li>Traduções em 8 idiomas atualizadas e compiladas.</li></ul><ul><li>Einblendanimation beim Start.</li><li>Tooltips auf allen interaktiven Elementen.</li><li>Internetverbindungsanzeige in der Statusleiste (grüner/roter Punkt, alle 15 s aktualisiert).</li><li>Schaltfläche Hardwareinformationen: zeigt CPU, RAM und Speicher.</li><li>GParted-Schaltfläche in der Aktionsleiste des Hauptfensters.</li><li>Fenster für geführte Rettungsoperationen: Passwort zurücksetzen, GRUB reparieren (UEFI/BIOS), GRUB aktualisieren, Initramfs neu generieren, interaktives Terminal.</li><li>Dunkler Streifen im Partitionsauswahl-Dialog behoben.</li><li>Falsche automatische Partitionszuweisung nach Position entfernt.</li><li>Alle 8 Übersetzungen aktualisiert und kompiliert.</li></ul><ul><li>Animazione di dissolvenza all'avvio.</li><li>Tooltip su tutti gli elementi interattivi.</li><li>Indicatore di connettività internet nella barra di stato (punto verde/rosso, aggiornato ogni 15 s).</li><li>Pulsante Informazioni hardware: mostra CPU, RAM e storage.</li><li>Pulsante GParted nella barra delle azioni della finestra principale.</li><li>Finestra Operazioni di Recupero guidate: Reimposta password, Ripara GRUB (UEFI/BIOS), Aggiorna GRUB, Rigenera initramfs, terminale interattivo.</li><li>Corretta la banda scura nel dialogo di selezione delle partizioni.</li><li>Rimossa l'assegnazione automatica delle partizioni per posizione.</li><li>Tutte le 8 traduzioni aggiornate e compilate.</li></ul><ul><li>Анимация появления при запуске.</li><li>Подсказки на всех интерактивных элементах.</li><li>Индикатор подключения к интернету в строке состояния (зелёная/красная точка, обновляется каждые 15 с).</li><li>Кнопка «Сведения об оборудовании»: показывает CPU, ОЗУ и накопители.</li><li>Кнопка GParted на панели действий главного окна.</li><li>Окно пошаговых операций восстановления: сброс пароля, ремонт GRUB (UEFI/BIOS), обновление GRUB, пересборка initramfs, интерактивный терминал.</li><li>Исправлена тёмная полоса в диалоге выбора разделов.</li><li>Удалено автоматическое назначение разделов по позиции.</li><li>Все 8 переводов обновлены и скомпилированы.</li></ul><ul><li>Animație de estompare la pornire.</li><li>Tooltipuri pe toate elementele interactive.</li><li>Indicator de conectivitate la internet în bara de stare (punct verde/roșu, actualizat la 15 s).</li><li>Buton Informații hardware: afișează CPU, RAM și stocare.</li><li>Buton GParted în bara de acțiuni a ferestrei principale.</li><li>Fereastră de Operații de Salvare ghidate: Resetare parolă, Reparare GRUB (UEFI/BIOS), Actualizare GRUB, Regenerare initramfs, terminal interactiv.</li><li>Corectată banda întunecată din dialogul de selectare a partițiilor.</li><li>Eliminată atribuirea automată a partițiilor pe baza poziției.</li><li>Toate cele 8 traduceri actualizate și compilate.</li></ul>"
-      de: "<p>Neue Funktionen, geführte Rettungsoperationen und Verbesserungen der Benutzeroberfläche.</p>"
-      es: "<p>Nuevas funciones, operaciones de rescate guiadas y mejoras de interfaz.</p>"
-      fr: "<p>Nouvelles fonctionnalités, opérations de secours guidées et améliorations de l'interface.</p>"
-      it: "<p>Nuove funzionalità, operazioni di recupero guidate e miglioramenti dell'interfaccia.</p>"
-      pt: "<p>Novas funcionalidades, operações de recuperação guiadas e melhorias de interface.</p>"
-      ro: "<p>Funcții noi, operații de salvare ghidate și îmbunătățiri ale interfeței.</p>"
-      ru: "<p>Новые функции, пошаговые операции восстановления и улучшения интерфейса.</p>"
-  - version: "2.0.1-1"
-    type: stable
-    unix-timestamp: 1774051200
-    description:
-      C: "<p>Added About dialog and code quality improvements.</p>"
-      de: "<p>Info-Dialog hinzugefügt und Code-Qualitätsverbesserungen.</p>"
-      es: "<p>Añadido diálogo Acerca de y mejoras de calidad de código.</p>"
-      fr: "<p>Ajout de la boîte de dialogue À propos et améliorations de la qualité du code.</p>"
-      it: "<p>Aggiunta finestra di dialogo Informazioni e miglioramenti della qualità del codice.</p>"
-      pt: "<p>Adicionado diálogo Sobre e melhorias de qualidade de código.</p>"
-      ro: "<p>Adăugat dialogul Despre și îmbunătățiri ale calității codului.</p>"
-      ru: "<p>Добавлено диалоговое окно «О программе» и улучшения качества кода.</p>"
-  - version: "2.0.1"
-    type: stable
-    unix-timestamp: 1767916800
-    description:
-      C: "<p>Documentation release: added manual page and Debian copyright file.</p>"
-      de: "<p>Dokumentations-Release: Handbuchseite und Debian-Copyright-Datei hinzugefügt.</p>"
-      es: "<p>Release de documentación: añadida página de manual y archivo copyright de Debian.</p>"
-      fr: "<p>Version de documentation: ajout de la page de manuel et du fichier copyright Debian.</p>"
-      it: "<p>Rilascio documentazione: aggiunta pagina di manuale e file copyright Debian.</p>"
-      pt: "<p>Lançamento de documentação: adicionada página de manual e arquivo copyright Debian.</p>"
-      ro: "<p>Versiune documentație: adăugată pagina de manual și fișierul copyright Debian.</p>"
-      ru: "<p>Релиз документации: добавлена страница руководства и файл авторских прав Debian.</p>"
-  - version: "2.0.0"
-    type: stable
-    unix-timestamp: 1765065600
-    description:
-      C: "<p>Major rewrite with modern architecture:</p><ul><li>Complete rewrite matching Soplos Welcome 2.0 architecture</li><li>Universal desktop support: XFCE, KDE Plasma, GNOME</li><li>Complete X11 and Wayland compatibility</li><li>GNU Gettext internationalization (8 languages at 100%)</li><li>Enhanced CHROOT recovery with improved partition detection</li><li>Full BTRFS subvolume support</li></ul><p>Patch (2025-12-08): Fixed application switch styling so widgets render consistently across desktop themes; added focused CSS overrides and prepared updated screenshots for the welcome flow.</p><p>Patch (2025-12-09): Removed KDE bookmark remapping logic from the language changer; the language switcher now deletes ~/.local/share/user-places.xbel before restarting the session so KDE/Dolphin regenerates localized bookmarks. This simplifies behavior in live images and avoids incorrect localized paths.</p><p>Patch (2025-12-09): GNOME / Wayland display improvements: robust GNOME Wayland resolution handling with GDK-first detection and a defensive D-Bus fallback; selects best refresh rate and applies temporary monitor changes suitable for Live ISOs.</p><p>Patch (2025-12-10): Restored legacy Chroot functionality with robust unmount script and exact mount sequencing; implemented cross-DE terminal support (XFCE, Plasma, GNOME) with specific priority lists; restored detailed progress UI and window footer.</p><p>Patch (2025-12-10 - Final): Complete quality review of all translations (ES, EN, DE, FR, PT, IT, RO, RU) ensuring 100% coverage, natural phrasing, and UI conciseness.</p>"
-      de: "<p>Patch (2025-12-08): Fehler im Stil der Anwendungsschalter behoben, sodass Widgets in verschiedenen Desktop-Themen konsistent dargestellt werden; gezielte CSS-Overrides hinzugefügt und aktualisierte Screenshots für den Willkommensablauf vorbereitet.</p><p>Patch (2025-12-09): Entfernen der KDE-Lesezeichen-Remapping-Logik im Sprachumschalter; der Umschalter löscht jetzt ~/.local/share/user-places.xbel vor dem Neustart der Sitzung, damit KDE/Dolphin lokalisierte Lesezeichen regeneriert. Dies vereinfacht das Verhalten in Live-Images und vermeidet falsche lokalisierte Pfade.</p><p>Patch (2025-12-09): GNOME / Wayland Verbesserungen: robuster Umgang mit Auflösungen unter GNOME Wayland mit GDK-vorrangiger Erkennung und defensivem D-Bus-Fallback; wählt die beste Bildwiederholrate und wendet temporäre Monitoränderungen an, geeignet für Live-ISOs.</p><p>Patch (2025-12-10): Wiederherstellung der Legacy-Chroot-Funktionalität mit robustem Unmount-Skript und exakter Mount-Sequenz; Implementierung von Cross-DE-Terminal-Unterstützung (XFCE, Plasma, GNOME) mit spezifischen Prioritätslisten; Wiederherstellung der detaillierten Fortschritts-UI und der Fensterfußzeile.</p><p>Patch (2025-12-10 - Final): Vollständige Qualitätsprüfung aller Übersetzungen (ES, EN, DE, FR, PT, IT, RO, RU), Sicherstellung von 100% Abdeckung, natürlicher Formulierung und UI-Prägnanz.</p>"
-      es: "<p>Parche (2025-12-08): Corregido el estilo de los interruptores de la aplicación para que los widgets se muestren de forma coherente en todos los temas de escritorio; añadidos overrides CSS focalizados y preparadas capturas actualizadas del flujo de bienvenida.</p><p>Parche (2025-12-09): Eliminada la lógica de remapeo de marcadores de KDE en el cambiador de idioma; el cambiador ahora borra ~/.local/share/user-places.xbel antes de reiniciar la sesión para que KDE/Dolphin regenere marcadores localizados. Esto simplifica el comportamiento en imágenes live y evita rutas localizadas incorrectas.</p><p>Parche (2025-12-09): Mejoras en GNOME / Wayland: manejo robusto de resoluciones en GNOME Wayland con detección prioritaria por GDK y respaldo defensivo vía D-Bus; selecciona la mejor tasa de refresco y aplica cambios temporales de monitor adecuados para ISOs Live.</p><p>Parche (2025-12-10): Restaurada la funcionalidad Chroot legacy con script de desmontaje robusto y secuencia de montaje exacta; implementado soporte de terminal multi-entorno (XFCE, Plasma, GNOME) con listas de prioridad específicas; restaurada la UI de progreso detallada y el pie de página de la ventana.</p><p>Parche (2025-12-10 - Final): Completada la revisión de calidad de todas las traducciones (ES, EN, DE, FR, PT, IT, RO, RU) asegurando cobertura del 100%, fraseo natural y concisión en la interfaz.</p>"
-      fr: "<p>Correctif (2025-12-08) : Correction du style des commutateurs de l'application afin que les widgets s'affichent de manière cohérente sur tous les thèmes de bureau ; ajouts d'overrides CSS ciblés et captures d'écran mises à jour préparées pour le flux d'accueil.</p><p>Correctif (2025-12-09) : Suppression de la logique de remappage des favoris KDE dans le changeur de langue ; le changeur supprime désormais ~/.local/share/user-places.xbel avant de redémarrer la session afin que KDE/Dolphin régénère les favoris localisés. Cela simplifie le comportement sur les images live et évite des chemins localisés incorrects.</p><p>Correctif (2025-12-09) : Améliorations GNOME / Wayland : gestion robuste des résolutions sur GNOME Wayland avec détection prioritaire GDK et repli défensif via D-Bus ; sélection de la meilleure fréquence de rafraîchissement et application de changements temporaires d'écran adaptés aux Live ISO.</p><p>Correctif (2025-12-10) : Restauration de la fonctionnalité Chroot héritée avec un script de démontage robuste et une séquence de montage exacte ; prise en charge des terminaux multi-environnements (XFCE, Plasma, GNOME) avec des listes de priorité spécifiques ; restauration de l'interface de progression détaillée et du pied de page de la fenêtre.</p><p>Correctif (2025-12-10 - Final) : Révision complète de la qualité de toutes les traductions (ES, EN, DE, FR, PT, IT, RO, RU) assurant une couverture à 100 %, un phrasé naturel et la concision de l'interface.</p>"
-      it: "<p>Patch (2025-12-08): Corretto lo stile degli interruttori dell'applicazione in modo che i widget vengano visualizzati in modo coerente tra i temi del desktop; aggiunti override CSS mirati e preparati screenshot aggiornati per il flusso di benvenuto.</p><p>Patch (2025-12-09): Rimosso il comportamento di remappatura dei segnalibri di KDE nel selettore di lingua; il selettore ora elimina ~/.local/share/user-places.xbel prima di riavviare la sessione in modo che KDE/Dolphin rigeneri i segnalibri localizzati. Questo semplifica il comportamento nelle immagini live ed evita percorsi localizzati errati.</p><p>Patch (2025-12-09): Miglioramenti GNOME / Wayland: gestione robusta delle risoluzioni su GNOME Wayland con rilevamento prioritario GDK e fallback difensivo via D-Bus; seleziona la migliore frequenza di aggiornamento e applica modifiche temporanee del monitor adatte alle Live ISO.</p><p>Patch (2025-12-10): Ripristinata la funzionalità Chroot legacy con script di smontaggio robusto e sequenza di montaggio esatta; implementato il supporto terminale multi-ambiente (XFCE, Plasma, GNOME) con elenchi di priorità specifici; ripristinata l'interfaccia di avanzamento dettagliata e il piè di pagina della finestra.</p><p>Patch (2025-12-10 - Finale): Completata la revisione della qualità di tutte le traduzioni (ES, EN, DE, FR, PT, IT, RO, RU) garantendo copertura al 100%, fraseggio naturale e concisione dell'interfaccia.</p>"
-      pt: "<p>Patch (2025-12-08): Corrigido o estilo dos interruptores da aplicação para que os widgets sejam renderizados de forma consistente em todos os temas de ambiente de trabalho; adicionados overrides CSS e preparadas capturas atualizadas do fluxo de boas-vindas.</p><p>Patch (2025-12-09): Removida a lógica de remapeamento de marcadores do KDE no trocador de idioma; o trocador agora elimina ~/.local/share/user-places.xbel antes de reiniciar a sessão para que o KDE/Dolphin regenere marcadores localizados. Isso simplifica o comportamento em imagens live e evita caminhos localizados incorretos.</p><p>Patch (2025-12-09): Melhorias GNOME / Wayland: tratamento robusto de resoluções no GNOME Wayland com deteção prioritária via GDK e fallback defensivo via D-Bus; seleciona a melhor taxa de atualização e aplica alterações temporárias de monitor adequadas para ISOs Live.</p><p>Patch (2025-12-10): Restaurada a funcionalidade Chroot herdada com script de desmontagem robusto e sequência de montagem exata; implementado suporte de terminal multi-ambiente (XFCE, Plasma, GNOME) com listas de prioridade específicas; restaurada a UI de progresso detalhada e o rodapé da janela.</p><p>Patch (2025-12-10 - Final): Concluída a revisão de qualidade de todas as traduções (ES, EN, DE, FR, PT, IT, RO, RU) garantindo cobertura de 100%, fraseado natural e concisão da interface.</p>"
-      ro: "<p>Patch (2025-12-08): Corectat stilul comutatoarelor aplicației astfel încât widget-urile să se afișeze în mod consecvent în toate temele desktop; adăugate override-uri CSS focalizate și pregătite capturi de ecran actualizate pentru fluxul de bun venit.</p><p>Patch (2025-12-09): Eliminată logica de remapare a semnelor de carte KDE în schimbătorul de limbă; schimbătorul acum șterge ~/.local/share/user-places.xbel înainte de repornirea sesiunii astfel încât KDE/Dolphin să regenereze semnele localizate. Aceasta simplifică comportamentul în imaginile live și evită căi localizate incorecte.</p><p>Patch (2025-12-09): Îmbunătățiri GNOME / Wayland: gestionare robustă a rezoluțiilor în GNOME Wayland cu detectare prioritară GDK și fallback defensiv via D-Bus; selectează cea mai bună rată de reîmprospătare și aplică modificări temporare ale monitorului, potrivite pentru ISO-uri Live.</p><p>Patch (2025-12-10): Restaurată funcționalitatea Chroot moștenită cu script robust de demontare și secvență exactă de montare; implementat suport terminal multi-mediu (XFCE, Plasma, GNOME) cu liste de prioritate specifice; restaurată interfața de progres detaliată și subsolul ferestrei.</p><p>Patch (2025-12-10 - Final): Finalizată revizuirea calității tuturor traducerilor (ES, EN, DE, FR, PT, IT, RO, RU) asigurând acoperire 100%, formulare naturală și concizie a interfeței.</p>"
-      ru: "<p>Патч (2025-12-08): Исправлен стиль переключателей приложения, теперь виджеты отображаются одинаково во всех темах рабочего стола; добавлены целевые CSS-правки и подготовлены обновленные скриншоты приветственного интерфейса.</p><p>Патч (2025-12-09): Удалена логика переназначения закладок KDE в переключателе языка; переключатель теперь удаляет ~/.local/share/user-places.xbel перед перезапуском сессии, чтобы KDE/Dolphin регенерировал локализованные закладки. Это упрощает поведение в live-образах и избегает неверных локализованных путей.</p><p>Патч (2025-12-09): Улучшения GNOME / Wayland: надежная обработка разрешений в GNOME Wayland с приоритетной детекцией через GDK и защитным fallback через D-Bus; выбирает лучшую частоту обновления и применяет временные изменения монитора, подходящие для Live ISO.</p><p>Патч (2025-12-10): Восстановлена устаревшая функциональность Chroot с надежным скриптом размонтирования и точной последовательностью монтирования; реализована поддержка терминалов в разных DE (XFCE, Plasma, GNOME) со специальными списками приоритетов; восстановлен детальный интерфейс прогресса и \"футер\" окна.</p><p>Патч (2025-12-10 - Финал): Завершен полный аудит качества всех переводов (ES, EN, DE, FR, PT, IT, RO, RU), обеспечено 100% покрытие, естественность фраз и лаконичность интерфейса.</p>"
-  - version: "1.1.6"
-    type: stable
-    unix-timestamp: 1764374400
-    description:
-      C: "<p>Universal disk detection in CHROOT: removed restrictive lsblk filter; detects all types (MMC, NVMe, USB, loop, etc.). Partition parsing switched to JSON with text fallback. Improved BTRFS subvolume detection.</p>"
-      de: "<p>Universelle Datenträgererkennung in CHROOT: restriktiver lsblk-Filter entfernt; erkennt alle Typen (MMC, NVMe, USB, loop usw.). Partitionsauswertung auf JSON umgestellt mit Text-Fallback. Verbesserte BTRFS-Subvolume-Erkennung.</p>"
-      es: "<p>Detección universal de discos en CHROOT: eliminado el filtro restrictivo de lsblk; detecta todos los tipos (MMC, NVMe, USB, loop, etc.). Análisis de particiones cambiado a JSON con fallback de texto. Mejorada la detección de subvolúmenes BTRFS.</p>"
-      fr: "<p>Détection universelle des disques dans CHROOT : filtre lsblk restrictif supprimé ; détecte tous les types (MMC, NVMe, USB, loop, etc.). Analyse des partitions passée en JSON avec repli texte. Amélioration de la détection des sous-volumes BTRFS.</p>"
-      it: "<p>Rilevamento universale dei dischi in CHROOT: rimosso il filtro restrittivo di lsblk; rileva tutti i tipi (MMC, NVMe, USB, loop, ecc.). Analisi delle partizioni passata a JSON con fallback testo. Rilevamento subvolumi BTRFS migliorato.</p>"
-      pt: "<p>Deteção universal de discos em CHROOT: removido o filtro restritivo do lsblk; deteta todos os tipos (MMC, NVMe, USB, loop, etc.). Análise de partições alterada para JSON com fallback de texto. Melhorada a deteção de subvolumes BTRFS.</p>"
-      ro: "<p>Detectare universală a discurilor în CHROOT: eliminat filtrul restrictiv lsblk; detectează toate tipurile (MMC, NVMe, USB, loop etc.). Analiza partițiilor trecută la JSON cu fallback text. Detectare îmbunătățită a subvolumelor BTRFS.</p>"
-      ru: "<p>Универсальное обнаружение дисков в CHROOT: убран ограничивающий фильтр lsblk; обнаруживает все типы (MMC, NVMe, USB, loop и др.). Разбор разделов переведён на JSON с текстовым резервом. Улучшено обнаружение подтомов BTRFS.</p>"
-  - version: "1.1.5"
-    type: stable
-    unix-timestamp: 1757289600
-    description:
-      C: "<p>Welcome tab URLs updated to soplos.org.</p>"
-      de: "<p>Willkommens-Tab-URLs auf soplos.org aktualisiert.</p>"
-      es: "<p>URLs de la pestaña de bienvenida actualizadas a soplos.org.</p>"
-      fr: "<p>URLs de l'onglet d'accueil mises à jour vers soplos.org.</p>"
-      it: "<p>URL della scheda di benvenuto aggiornati a soplos.org.</p>"
-      pt: "<p>URLs do separador de boas-vindas atualizadas para soplos.org.</p>"
-      ro: "<p>URL-urile filei de bun venit actualizate la soplos.org.</p>"
-      ru: "<p>Ссылки вкладки приветствия обновлены на soplos.org.</p>"
-  - version: "1.1.4"
-    type: stable
-    unix-timestamp: 1754092800
-    description:
-      C: "<p>Dictionary issues fixed and full i18n completed across all 8 languages. CHROOT function improved for BTRFS subvolumes.</p>"
-      de: "<p>Wörterbuchprobleme behoben und vollständige i18n in 8 Sprachen. CHROOT-Funktion für BTRFS-Subvolumes verbessert.</p>"
-      es: "<p>Problemas del diccionario corregidos e i18n completo en los 8 idiomas. Función CHROOT mejorada para subvolúmenes BTRFS.</p>"
-      fr: "<p>Problèmes de dictionnaire corrigés et i18n complété dans les 8 langues. Fonction CHROOT améliorée pour les sous-volumes BTRFS.</p>"
-      it: "<p>Problemi del dizionario corretti e i18n completato in tutte le 8 lingue. Funzione CHROOT migliorata per i subvolumi BTRFS.</p>"
-      pt: "<p>Problemas de dicionário corrigidos e i18n completo nos 8 idiomas. Função CHROOT melhorada para subvolumes BTRFS.</p>"
-      ro: "<p>Probleme de dicționar remediate și i18n complet în toate cele 8 limbi. Funcție CHROOT îmbunătățită pentru subvolumele BTRFS.</p>"
-      ru: "<p>Исправлены проблемы со словарями и завершена полная локализация на 8 языков. Улучшена функция CHROOT для подтомов BTRFS.</p>"
-  - version: "1.1.3"
-    type: stable
-    unix-timestamp: 1754092800
-    description:
-      C: "<p>Program icon updated to new design. Maintainer changed to Sergi Perich.</p>"
-      de: "<p>Programmsymbol auf neues Design aktualisiert. Betreuer auf Sergi Perich geändert.</p>"
-      es: "<p>Icono del programa actualizado al nuevo diseño. Mantenedor cambiado a Sergi Perich.</p>"
-      fr: "<p>Icône du programme mise à jour avec le nouveau design. Mainteneur changé en Sergi Perich.</p>"
-      it: "<p>Icona del programma aggiornata al nuovo design. Manutentore cambiato in Sergi Perich.</p>"
-      pt: "<p>Ícone do programa atualizado para o novo design. Mantenedor alterado para Sergi Perich.</p>"
-      ro: "<p>Pictograma programului actualizată la noul design. Menținătorul schimbat în Sergi Perich.</p>"
-      ru: "<p>Иконка программы обновлена до нового дизайна. Сопровождающий изменён на Sergi Perich.</p>"
-  - version: "1.1.2"
-    type: stable
-    unix-timestamp: 1753574400
-    description:
-      C: "<p>Advanced partition and BTRFS subvolume detection in CHROOT. Full /home mounting support as partition or BTRFS subvolume. Universal disk detection for all hardware and VM types.</p>"
-      de: "<p>Erweiterte Partitions- und BTRFS-Subvolume-Erkennung in CHROOT. Vollständige /home-Einbindungsunterstützung als Partition oder BTRFS-Subvolume. Universelle Datenträgererkennung für alle Hardware- und VM-Typen.</p>"
-      es: "<p>Detección avanzada de particiones y subvolúmenes BTRFS en CHROOT. Soporte completo de montaje de /home como partición o subvolumen BTRFS. Detección universal de discos para todo tipo de hardware y VMs.</p>"
-      fr: "<p>Détection avancée des partitions et des sous-volumes BTRFS dans CHROOT. Prise en charge complète du montage de /home en tant que partition ou sous-volume BTRFS. Détection universelle des disques pour tous les matériels et VM.</p>"
-      it: "<p>Rilevamento avanzato di partizioni e subvolumi BTRFS in CHROOT. Supporto completo al montaggio di /home come partizione o subvolume BTRFS. Rilevamento universale dei dischi per tutti i tipi di hardware e VM.</p>"
-      pt: "<p>Deteção avançada de partições e subvolumes BTRFS em CHROOT. Suporte completo de montagem de /home como partição ou subvolume BTRFS. Deteção universal de discos para todo o hardware e VMs.</p>"
-      ro: "<p>Detectare avansată a partițiilor și subvolumelor BTRFS în CHROOT. Suport complet pentru montarea /home ca partiție sau subvolum BTRFS. Detectare universală a discurilor pentru orice hardware și VM.</p>"
-      ru: "<p>Расширенное обнаружение разделов и подтомов BTRFS в CHROOT. Полная поддержка монтирования /home как раздела или подтома BTRFS. Универсальное обнаружение дисков для любого оборудования и VM.</p>"
-  - version: "1.1.1"
-    type: stable
-    unix-timestamp: 1752796800
-    description:
-      C: "<p>Language detection and startup robustness improvements. Welcome tab URLs updated to soplos.org. Minor translation fixes.</p>"
-      de: "<p>Verbesserungen bei der Spracherkennung und Startrobustheit. Willkommens-Tab-URLs auf soplos.org aktualisiert. Kleinere Übersetzungskorrekturen.</p>"
-      es: "<p>Mejoras en la detección de idioma y robustez al inicio. URLs de la pestaña de bienvenida actualizadas a soplos.org. Correcciones menores de traducción.</p>"
-      fr: "<p>Améliorations de la détection de langue et de la robustesse au démarrage. URLs de l'onglet d'accueil mises à jour vers soplos.org. Corrections mineures de traduction.</p>"
-      it: "<p>Miglioramenti al rilevamento della lingua e alla robustezza all'avvio. URL della scheda di benvenuto aggiornati a soplos.org. Correzioni minori alle traduzioni.</p>"
-      pt: "<p>Melhorias na deteção de idioma e robustez no arranque. URLs do separador de boas-vindas atualizadas para soplos.org. Pequenas correções de tradução.</p>"
-      ro: "<p>Îmbunătățiri la detectarea limbii și robustețea la pornire. URL-urile filei de bun venit actualizate la soplos.org. Corecții minore de traducere.</p>"
-      ru: "<p>Улучшения обнаружения языка и надёжности запуска. Ссылки вкладки приветствия обновлены на soplos.org. Незначительные исправления переводов.</p>"
-  - version: "1.1.0"
-    type: stable
-    unix-timestamp: 1752796800
-    description:
-      C: "<p>Complete i18n refactor: translation dictionaries split into 8 separate language files. Metainfo finalized to AppStream/DEP-11 standard. Fixed all known BTRFS subvolume mounting issues in CHROOT.</p>"
-      de: "<p>Vollständige i18n-Überarbeitung: Übersetzungswörterbücher in 8 separate Sprachdateien aufgeteilt. Metainfo nach AppStream/DEP-11-Standard finalisiert. Alle bekannten BTRFS-Subvolume-Einbindungsprobleme in CHROOT behoben.</p>"
-      es: "<p>Refactorización completa de i18n: diccionarios de traducción divididos en 8 archivos de idioma separados. Metainfo finalizado al estándar AppStream/DEP-11. Corregidos todos los problemas conocidos de montaje de subvolúmenes BTRFS en CHROOT.</p>"
-      fr: "<p>Refactorisation complète de l'i18n : dictionnaires de traduction divisés en 8 fichiers de langue distincts. Métainfo finalisé selon la norme AppStream/DEP-11. Tous les problèmes connus de montage des sous-volumes BTRFS dans CHROOT corrigés.</p>"
-      it: "<p>Refactoring completo dell'i18n: dizionari di traduzione suddivisi in 8 file di lingua separati. Metainfo finalizzato secondo lo standard AppStream/DEP-11. Corretti tutti i problemi noti di montaggio dei subvolumi BTRFS in CHROOT.</p>"
-      pt: "<p>Refatoração completa do i18n: dicionários de tradução divididos em 8 ficheiros de idioma separados. Metainfo finalizado segundo o padrão AppStream/DEP-11. Corrigidos todos os problemas conhecidos de montagem de subvolumes BTRFS em CHROOT.</p>"
-      ro: "<p>Refactorizare completă i18n: dicționarele de traducere împărțite în 8 fișiere de limbă separate. Metainfo finalizat conform standardului AppStream/DEP-11. Toate problemele cunoscute de montare a subvolumelor BTRFS în CHROOT rezolvate.</p>"
-      ru: "<p>Полный рефакторинг i18n: словари переводов разделены на 8 отдельных файлов. Метаинформация приведена в соответствие со стандартом AppStream/DEP-11. Исправлены все известные проблемы монтирования подтомов BTRFS в CHROOT.</p>"
-  - version: "1.0.9"
-    type: stable
-    unix-timestamp: 1752537600
-    description:
-      C: "<p>Program icon updated to new design. Metainfo corrections for proper appearance in software centers.</p>"
-      de: "<p>Programmsymbol auf neues Design aktualisiert. Metainfo-Korrekturen für korrekte Darstellung in Software-Centern.</p>"
-      es: "<p>Icono del programa actualizado al nuevo diseño. Correcciones de metainfo para correcta visualización en centros de software.</p>"
-      fr: "<p>Icône du programme mise à jour avec le nouveau design. Corrections des métadonnées pour un affichage correct dans les centres de logiciels.</p>"
-      it: "<p>Icona del programma aggiornata al nuovo design. Correzioni al metainfo per la corretta visualizzazione nei centri software.</p>"
-      pt: "<p>Ícone do programa atualizado para o novo design. Correções de metainfo para correta visualização nos centros de software.</p>"
-      ro: "<p>Pictograma programului actualizată la noul design. Corecții metainfo pentru afișare corectă în centrele de software.</p>"
-      ru: "<p>Иконка программы обновлена до нового дизайна. Исправления метаинформации для корректного отображения в центрах приложений.</p>"
-  - version: "1.0.8"
-    type: stable
-    unix-timestamp: 1746662400
-    description:
-      C: "<p>Advanced partition and BTRFS subvolume detection in CHROOT. Full /home mounting support. GParted integration and robust filesystem validation.</p>"
-      de: "<p>Erweiterte Partitions- und BTRFS-Subvolume-Erkennung in CHROOT. Vollständige /home-Einbindungsunterstützung. GParted-Integration und robuste Dateisystemvalidierung.</p>"
-      es: "<p>Detección avanzada de particiones y subvolúmenes BTRFS en CHROOT. Soporte completo de montaje de /home. Integración con GParted y validación robusta del sistema de archivos.</p>"
-      fr: "<p>Détection avancée des partitions et sous-volumes BTRFS dans CHROOT. Prise en charge complète du montage de /home. Intégration de GParted et validation robuste du système de fichiers.</p>"
-      it: "<p>Rilevamento avanzato di partizioni e subvolumi BTRFS in CHROOT. Supporto completo al montaggio di /home. Integrazione con GParted e robusta validazione del filesystem.</p>"
-      pt: "<p>Deteção avançada de partições e subvolumes BTRFS em CHROOT. Suporte completo de montagem de /home. Integração com GParted e validação robusta do sistema de ficheiros.</p>"
-      ro: "<p>Detectare avansată a partițiilor și subvolumelor BTRFS în CHROOT. Suport complet pentru montarea /home. Integrare GParted și validare robustă a sistemului de fișiere.</p>"
-      ru: "<p>Расширенное обнаружение разделов и подтомов BTRFS в CHROOT. Полная поддержка монтирования /home. Интеграция GParted и надёжная проверка файловых систем.</p>"
-  - version: "1.0.7"
-    type: stable
-    unix-timestamp: 1746662400
-    description:
-      C: "<p>Full BTRFS subvolume support in CHROOT recovery. Dictionary string corrections across all languages. NumLockX removed (not applicable to KDE Plasma).</p>"
-      de: "<p>Vollständige BTRFS-Subvolume-Unterstützung in der CHROOT-Wiederherstellung. Wörterbuch-String-Korrekturen in allen Sprachen. NumLockX entfernt (nicht auf KDE Plasma anwendbar).</p>"
-      es: "<p>Soporte completo de subvolúmenes BTRFS en la recuperación CHROOT. Correcciones de cadenas en los diccionarios de todos los idiomas. NumLockX eliminado (no aplica en KDE Plasma).</p>"
-      fr: "<p>Prise en charge complète des sous-volumes BTRFS dans la récupération CHROOT. Corrections de chaînes dans les dictionnaires de toutes les langues. NumLockX supprimé (non applicable à KDE Plasma).</p>"
-      it: "<p>Supporto completo ai subvolumi BTRFS nel recupero CHROOT. Correzioni di stringhe nei dizionari di tutte le lingue. NumLockX rimosso (non applicabile a KDE Plasma).</p>"
-      pt: "<p>Suporte completo a subvolumes BTRFS na recuperação CHROOT. Correções de strings nos dicionários de todos os idiomas. NumLockX removido (não aplicável ao KDE Plasma).</p>"
-      ro: "<p>Suport complet pentru subvolumele BTRFS în recuperarea CHROOT. Corecții de șiruri în dicționarele tuturor limbilor. NumLockX eliminat (nu se aplică la KDE Plasma).</p>"
-      ru: "<p>Полная поддержка подтомов BTRFS в восстановлении CHROOT. Исправления строк в словарях всех языков. NumLockX удалён (не применимо в KDE Plasma).</p>"
-  - version: "1.0.6"
-    type: stable
-    unix-timestamp: 1746662400
-    description:
-      C: "<p>Metainfo updated for AppStream/DEP-11 compliance. AppStream integration: application now visible in KDE Discover.</p>"
-      de: "<p>Metainfo für AppStream/DEP-11-Konformität aktualisiert. AppStream-Integration: Anwendung jetzt in KDE Discover sichtbar.</p>"
-      es: "<p>Metainfo actualizado para cumplir con AppStream/DEP-11. Integración AppStream: la aplicación ahora es visible en KDE Discover.</p>"
-      fr: "<p>Métadonnées mises à jour pour la conformité AppStream/DEP-11. Intégration AppStream : l'application est maintenant visible dans KDE Discover.</p>"
-      it: "<p>Metainfo aggiornato per la conformità AppStream/DEP-11. Integrazione AppStream: l'applicazione è ora visibile in KDE Discover.</p>"
-      pt: "<p>Metainfo atualizado para conformidade com AppStream/DEP-11. Integração AppStream: a aplicação agora é visível no KDE Discover.</p>"
-      ro: "<p>Metainfo actualizat pentru conformitatea AppStream/DEP-11. Integrare AppStream: aplicația este acum vizibilă în KDE Discover.</p>"
-      ru: "<p>Метаинформация обновлена для соответствия AppStream/DEP-11. Интеграция AppStream: приложение теперь отображается в KDE Discover.</p>"
-  - version: "1.0.5"
-    type: stable
-    unix-timestamp: 1746576000
-    description:
-      C: "<p>Full BTRFS subvolume support in CHROOT recovery. Complete i18n in 8 languages with keyboard mnemonics. Program internationalization completed.</p>"
-      de: "<p>Vollständige BTRFS-Subvolume-Unterstützung in der CHROOT-Wiederherstellung. Vollständige i18n in 8 Sprachen mit Tastaturmnemoniken. Programmübersetzung abgeschlossen.</p>"
-      es: "<p>Soporte completo de subvolúmenes BTRFS en la recuperación CHROOT. i18n completo en 8 idiomas con mnemónicos de teclado. Internacionalización del programa completada.</p>"
-      fr: "<p>Prise en charge complète des sous-volumes BTRFS dans la récupération CHROOT. i18n complet en 8 langues avec mnémoniques clavier. Internationalisation du programme complétée.</p>"
-      it: "<p>Supporto completo ai subvolumi BTRFS nel recupero CHROOT. i18n completo in 8 lingue con mnemonici da tastiera. Internazionalizzazione del programma completata.</p>"
-      pt: "<p>Suporte completo a subvolumes BTRFS na recuperação CHROOT. i18n completo em 8 idiomas com mnemónicos de teclado. Internacionalização do programa concluída.</p>"
-      ro: "<p>Suport complet pentru subvolumele BTRFS în recuperarea CHROOT. i18n complet în 8 limbi cu mnemonice de tastatură. Internaționalizarea programului finalizată.</p>"
-      ru: "<p>Полная поддержка подтомов BTRFS в восстановлении CHROOT. Полная локализация на 8 языков с клавиатурными мнемониками. Интернационализация программы завершена.</p>"
-  - version: "1.0.4"
-    type: stable
-    unix-timestamp: 1746576000
-    description:
-      C: "<p>Intelligent partition detection in CHROOT. NumLock management integration. Automatic XDG folder migration on language change. GParted integration. Complete i18n in 8 languages.</p>"
-      de: "<p>Intelligente Partitionserkennung in CHROOT. Integration der NumLock-Verwaltung. Automatische XDG-Ordnermigration beim Sprachwechsel. GParted-Integration. Vollständige i18n in 8 Sprachen.</p>"
-      es: "<p>Detección inteligente de particiones en CHROOT. Integración de gestión de NumLock. Migración automática de carpetas XDG al cambiar de idioma. Integración con GParted. i18n completo en 8 idiomas.</p>"
-      fr: "<p>Détection intelligente des partitions dans CHROOT. Intégration de la gestion de NumLock. Migration automatique des dossiers XDG lors du changement de langue. Intégration de GParted. i18n complet en 8 langues.</p>"
-      it: "<p>Rilevamento intelligente delle partizioni in CHROOT. Integrazione della gestione NumLock. Migrazione automatica delle cartelle XDG al cambio di lingua. Integrazione con GParted. i18n completo in 8 lingue.</p>"
-      pt: "<p>Deteção inteligente de partições em CHROOT. Integração da gestão de NumLock. Migração automática de pastas XDG ao mudar de idioma. Integração com GParted. i18n completo em 8 idiomas.</p>"
-      ro: "<p>Detectare inteligentă a partițiilor în CHROOT. Integrarea gestionării NumLock. Migrare automată a folderelor XDG la schimbarea limbii. Integrare GParted. i18n complet în 8 limbi.</p>"
-      ru: "<p>Интеллектуальное обнаружение разделов в CHROOT. Интеграция управления NumLock. Автоматическая миграция папок XDG при смене языка. Интеграция GParted. Полная локализация на 8 языков.</p>"
-  - version: "1.0.3"
-    type: stable
-    unix-timestamp: 1746489600
-    description:
-      C: "<p>Locale configuration fixes and interface optimizations.</p>"
-      de: "<p>Korrekturen der Locale-Konfiguration und Interface-Optimierungen.</p>"
-      es: "<p>Correcciones en la configuración de localización y optimizaciones de interfaz.</p>"
-      fr: "<p>Corrections de la configuration des paramètres régionaux et optimisations de l'interface.</p>"
-      it: "<p>Correzioni alla configurazione della lingua e ottimizzazioni dell'interfaccia.</p>"
-      pt: "<p>Correções na configuração de locale e otimizações de interface.</p>"
-      ro: "<p>Corecții la configurarea localizării și optimizări de interfață.</p>"
-      ru: "<p>Исправления конфигурации локали и оптимизации интерфейса.</p>"
-  - version: "1.0.2"
-    type: stable
-    unix-timestamp: 1746403200
-    description:
-      C: "<p>CHROOT operation fixes and general stability improvements. Hardware detection improvements.</p>"
-      de: "<p>Korrekturen bei CHROOT-Operationen und allgemeine Stabilitätsverbesserungen. Verbesserungen bei der Hardware-Erkennung.</p>"
-      es: "<p>Correcciones en las operaciones CHROOT y mejoras generales de estabilidad. Mejoras en la detección de hardware.</p>"
-      fr: "<p>Corrections des opérations CHROOT et améliorations générales de la stabilité. Améliorations de la détection matérielle.</p>"
-      it: "<p>Correzioni alle operazioni CHROOT e miglioramenti generali della stabilità. Miglioramenti al rilevamento hardware.</p>"
-      pt: "<p>Correções nas operações CHROOT e melhorias gerais de estabilidade. Melhorias na deteção de hardware.</p>"
-      ro: "<p>Corecții la operațiunile CHROOT și îmbunătățiri generale ale stabilității. Îmbunătățiri la detectarea hardware.</p>"
-      ru: "<p>Исправления операций CHROOT и общие улучшения стабильности. Улучшения обнаружения оборудования.</p>"
-  - version: "1.0.1"
-    type: stable
-    unix-timestamp: 1747353600
-    description:
-      C: "<p>User interface improvements and configuration optimizations.</p>"
-      de: "<p>Verbesserungen der Benutzeroberfläche und Konfigurationsoptimierungen.</p>"
-      es: "<p>Mejoras en la interfaz de usuario y optimizaciones de configuración.</p>"
-      fr: "<p>Améliorations de l'interface utilisateur et optimisations de configuration.</p>"
-      it: "<p>Miglioramenti all'interfaccia utente e ottimizzazioni della configurazione.</p>"
-      pt: "<p>Melhorias na interface do utilizador e otimizações de configuração.</p>"
-      ro: "<p>Îmbunătățiri ale interfeței utilizator și optimizări de configurare.</p>"
-      ru: "<p>Улучшения пользовательского интерфейса и оптимизации конфигурации.</p>"
-  - version: "1.0.0"
-    type: stable
-    unix-timestamp: 1746748800
-    description:
-      C: "<p>Initial release with basic welcome interface for Soplos Linux Live, CHROOT functionality for system recovery, and initial multi-language support.</p>"
-      de: "<p>Erstversion mit einfacher Willkommensoberfläche für Soplos Linux Live, CHROOT-Funktionalität für die Systemwiederherstellung und grundlegender Mehrsprachenunterstützung.</p>"
-      es: "<p>Versión inicial con interfaz de bienvenida básica para Soplos Linux Live, funcionalidad CHROOT para recuperación del sistema y soporte inicial multiidioma.</p>"
-      fr: "<p>Version initiale avec interface d'accueil de base pour Soplos Linux Live, fonctionnalité CHROOT pour la récupération système et support multilingue initial.</p>"
-      it: "<p>Versione iniziale con interfaccia di benvenuto di base per Soplos Linux Live, funzionalità CHROOT per il recupero del sistema e supporto multilingue iniziale.</p>"
-      pt: "<p>Versão inicial com interface de boas-vindas básica para Soplos Linux Live, funcionalidade CHROOT para recuperação do sistema e suporte multilingue inicial.</p>"
-      ro: "<p>Versiunea inițială cu interfața de bun venit de bază pentru Soplos Linux Live, funcționalitate CHROOT pentru recuperarea sistemului și suport inițial multilingv.</p>"
-      ru: "<p>Первый выпуск с базовым приветственным интерфейсом для Soplos Linux Live, функциональностью CHROOT для восстановления системы и начальной поддержкой нескольких языков.</p>"
+      C: "<p>First alpha of the rewrite of Soplos Welcome Live, from Python 3 and GTK3 to Tauri 2 with a Rust backend and a Svelte frontend, with the layout of Soplos Welcome 3.0 and a simpler rescue. It has not yet been tested on real hardware.</p>"
 ContentRating:
   oars-1.1: {}

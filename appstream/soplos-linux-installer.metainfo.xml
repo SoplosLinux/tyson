@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.soplos.linuxinstaller</id>
+  <pkgname>soplos-linux-installer</pkgname>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <project_group>org.soplos</project_group>
+
+  <name>Soplos Linux Installer</name>
+  <name xml:lang="es">Instalador de Soplos Linux</name>
+  <name xml:lang="fr">Installateur de Soplos Linux</name>
+  <name xml:lang="de">Soplos Linux Installationsprogramm</name>
+  <name xml:lang="pt">Instalador do Soplos Linux</name>
+  <name xml:lang="it">Installazione di Soplos Linux</name>
+  <name xml:lang="ro">Programul de instalare Soplos Linux</name>
+  <name xml:lang="ru">Установщик Soplos Linux</name>
+
+  <summary>Installer of Soplos Linux for Tyron, Tyson and Boro</summary>
+  <summary xml:lang="es">Instalador de Soplos Linux para Tyron, Tyson y Boro</summary>
+  <summary xml:lang="fr">Installateur de Soplos Linux pour Tyron, Tyson et Boro</summary>
+  <summary xml:lang="de">Installationsprogramm von Soplos Linux für Tyron, Tyson und Boro</summary>
+  <summary xml:lang="pt">Instalador do Soplos Linux para Tyron, Tyson e Boro</summary>
+  <summary xml:lang="it">Programma di installazione di Soplos Linux per Tyron, Tyson e Boro</summary>
+  <summary xml:lang="ro">Programul de instalare Soplos Linux pentru Tyron, Tyson și Boro</summary>
+  <summary xml:lang="ru">Установщик Soplos Linux для Tyron, Tyson и Boro</summary>
+
+  <description>
+    <p>Soplos Linux Installer installs Tyron (Xfce), Tyson (Plasma) and Boro (GNOME) from the live session. It replaces Calamares and can be used with the keyboard only.</p>
+    <p xml:lang="es">El Instalador de Soplos Linux instala Tyron (Xfce), Tyson (Plasma) y Boro (GNOME) desde la sesión Live. Sustituye a Calamares y se puede usar solo con el teclado.</p>
+    <p xml:lang="fr">L'installateur de Soplos Linux installe Tyron (Xfce), Tyson (Plasma) et Boro (GNOME) depuis la session live. Il remplace Calamares et peut s'utiliser uniquement au clavier.</p>
+    <p xml:lang="de">Das Soplos Linux Installationsprogramm installiert Tyron (Xfce), Tyson (Plasma) und Boro (GNOME) aus der Live-Sitzung. Es ersetzt Calamares und lässt sich nur mit der Tastatur bedienen.</p>
+    <p xml:lang="pt">O Instalador do Soplos Linux instala o Tyron (Xfce), o Tyson (Plasma) e o Boro (GNOME) a partir da sessão live. Substitui o Calamares e pode ser usado apenas com o teclado.</p>
+    <p xml:lang="it">Il programma di installazione di Soplos Linux installa Tyron (Xfce), Tyson (Plasma) e Boro (GNOME) dalla sessione live. Sostituisce Calamares e si può usare solo con la tastiera.</p>
+    <p xml:lang="ro">Programul de instalare Soplos Linux instalează Tyron (Xfce), Tyson (Plasma) și Boro (GNOME) din sesiunea live. Înlocuiește Calamares și poate fi folosit doar cu tastatura.</p>
+    <p xml:lang="ru">Установщик Soplos Linux ставит Tyron (Xfce), Tyson (Plasma) и Boro (GNOME) из live-сессии. Он заменяет Calamares и работает только с клавиатуры.</p>
+    <p>It chooses the boot loader, the kind of installation and the kernel for the processor, prepares the disk before touching it and shows a summary of everything that will be done.</p>
+    <p xml:lang="es">Elige el cargador de arranque, el tipo de instalación y el kernel para el procesador, prepara el disco antes de tocarlo y muestra un resumen de todo lo que hará.</p>
+    <p xml:lang="fr">Il choisit le chargeur d'amorçage, le type d'installation et le noyau pour le processeur, prépare le disque avant d'y toucher et affiche un résumé de tout ce qui sera fait.</p>
+    <p xml:lang="de">Es wählt den Bootloader, die Art der Installation und den Kernel für den Prozessor, bereitet den Datenträger vor, bevor er angefasst wird, und zeigt eine Zusammenfassung von allem, was geschehen wird.</p>
+    <p xml:lang="pt">Escolhe o carregador de arranque, o tipo de instalação e o kernel para o processador, prepara o disco antes de lhe tocar e mostra um resumo de tudo o que vai ser feito.</p>
+    <p xml:lang="it">Sceglie il caricatore di avvio, il tipo di installazione e il kernel per il processore, prepara il disco prima di toccarlo e mostra un riepilogo di tutto ciò che verrà fatto.</p>
+    <p xml:lang="ro">Alege bootloaderul, tipul de instalare și kernelul pentru procesor, pregătește discul înainte de a-l atinge și arată un rezumat al tot ce se va face.</p>
+    <p xml:lang="ru">Он выбирает загрузчик, тип установки и ядро для процессора, готовит диск, прежде чем что-то тронуть, и показывает сводку всего, что будет сделано.</p>
+    <ul>
+      <li>Boot loader of your choice: GRUB, systemd-boot or Limine on UEFI; GRUB or Limine on BIOS</li>
+      <li xml:lang="es">Cargador de arranque a elegir: GRUB, systemd-boot o Limine en UEFI; GRUB o Limine en BIOS</li>
+      <li xml:lang="fr">Chargeur d'amorçage au choix : GRUB, systemd-boot ou Limine en UEFI ; GRUB ou Limine en BIOS</li>
+      <li xml:lang="de">Bootloader nach Wahl: GRUB, systemd-boot oder Limine auf UEFI; GRUB oder Limine auf BIOS</li>
+      <li xml:lang="pt">Carregador de arranque à escolha: GRUB, systemd-boot ou Limine em UEFI; GRUB ou Limine em BIOS</li>
+      <li xml:lang="it">Caricatore di avvio a scelta: GRUB, systemd-boot o Limine su UEFI; GRUB o Limine su BIOS</li>
+      <li xml:lang="ro">Bootloader la alegere: GRUB, systemd-boot sau Limine pe UEFI; GRUB sau Limine pe BIOS</li>
+      <li xml:lang="ru">Загрузчик на выбор: GRUB, systemd-boot или Limine на UEFI; GRUB или Limine на BIOS</li>
+      <li>Minimal, standard or complete installation, with the Soplos kernel for the processor: stock, BORE + NTsync, Zen, RT or X3D, latest or LTS</li>
+      <li xml:lang="es">Instalación mínima, estándar o completa, con el kernel Soplos para el procesador: stock, BORE + NTsync, Zen, RT o X3D, última versión o LTS</li>
+      <li xml:lang="fr">Installation minimale, standard ou complète, avec le noyau Soplos pour le processeur : stock, BORE + NTsync, Zen, RT ou X3D, dernière version ou LTS</li>
+      <li xml:lang="de">Minimale, Standard- oder vollständige Installation, mit dem Soplos-Kernel für den Prozessor: stock, BORE + NTsync, Zen, RT oder X3D, neueste Version oder LTS</li>
+      <li xml:lang="pt">Instalação mínima, padrão ou completa, com o kernel Soplos para o processador: stock, BORE + NTsync, Zen, RT ou X3D, mais recente ou LTS</li>
+      <li xml:lang="it">Installazione minima, standard o completa, con il kernel Soplos per il processore: stock, BORE + NTsync, Zen, RT o X3D, ultima versione o LTS</li>
+      <li xml:lang="ro">Instalare minimă, standard sau completă, cu kernelul Soplos pentru procesor: stock, BORE + NTsync, Zen, RT sau X3D, cea mai recentă sau LTS</li>
+      <li xml:lang="ru">Минимальная, стандартная или полная установка, с ядром Soplos для процессора: stock, BORE + NTsync, Zen, RT или X3D, последняя версия или LTS</li>
+      <li>Erase the disk, install alongside another system or partition by hand: btrfs with the @ and @home subvolumes, ext4, xfs, F2FS or JFS, optional encryption and swap</li>
+      <li xml:lang="es">Borrar el disco, instalar junto a otro sistema o particionar a mano: btrfs con los subvolúmenes @ y @home, ext4, xfs, F2FS o JFS, cifrado y swap opcionales</li>
+      <li xml:lang="fr">Effacer le disque, installer à côté d'un autre système ou partitionner à la main : btrfs avec les sous-volumes @ et @home, ext4, xfs, F2FS ou JFS, chiffrement et swap en option</li>
+      <li xml:lang="de">Datenträger löschen, neben einem anderen System installieren oder von Hand partitionieren: btrfs mit den Subvolumes @ und @home, ext4, xfs, F2FS oder JFS, optionale Verschlüsselung und Swap</li>
+      <li xml:lang="pt">Apagar o disco, instalar ao lado de outro sistema ou particionar à mão: btrfs com os subvolumes @ e @home, ext4, xfs, F2FS ou JFS, encriptação e swap opcionais</li>
+      <li xml:lang="it">Cancellare il disco, installare accanto a un altro sistema o partizionare a mano: btrfs con i sottovolumi @ e @home, ext4, xfs, F2FS o JFS, cifratura e swap opzionali</li>
+      <li xml:lang="ro">Șterge discul, instalează lângă alt sistem sau partiționează manual: btrfs cu subvolumele @ și @home, ext4, xfs, F2FS sau JFS, criptare și swap opționale</li>
+      <li xml:lang="ru">Стереть диск, установить рядом с другой системой или разметить вручную: btrfs с подтомами @ и @home, ext4, xfs, F2FS или JFS, необязательные шифрование и swap</li>
+      <li>Partitions of data kept as they are, with exFAT, NTFS or FAT32, mounted with nofail</li>
+      <li xml:lang="es">Particiones de datos que se conservan tal cual, con exFAT, NTFS o FAT32, montadas con nofail</li>
+      <li xml:lang="fr">Des partitions de données conservées telles quelles, avec exFAT, NTFS ou FAT32, montées avec nofail</li>
+      <li xml:lang="de">Datenpartitionen bleiben, wie sie sind, mit exFAT, NTFS oder FAT32, eingebunden mit nofail</li>
+      <li xml:lang="pt">Partições de dados mantidas como estão, com exFAT, NTFS ou FAT32, montadas com nofail</li>
+      <li xml:lang="it">Partizioni di dati mantenute così come sono, con exFAT, NTFS o FAT32, montate con nofail</li>
+      <li xml:lang="ro">Partiții de date păstrate așa cum sunt, cu exFAT, NTFS sau FAT32, montate cu nofail</li>
+      <li xml:lang="ru">Разделы данных сохраняются как есть, с exFAT, NTFS или FAT32, монтируются с nofail</li>
+      <li>The drivers of the hardware are detected and installed during the installation</li>
+      <li xml:lang="es">Los controladores del hardware se detectan y se instalan durante la instalación</li>
+      <li xml:lang="fr">Les pilotes du matériel sont détectés et installés pendant l'installation</li>
+      <li xml:lang="de">Die Treiber der Hardware werden erkannt und während der Installation eingerichtet</li>
+      <li xml:lang="pt">Os controladores do hardware são detetados e instalados durante a instalação</li>
+      <li xml:lang="it">I driver dell'hardware vengono rilevati e installati durante l'installazione</li>
+      <li xml:lang="ro">Driverele hardware sunt detectate și instalate în timpul instalării</li>
+      <li xml:lang="ru">Драйверы оборудования определяются и устанавливаются во время установки</li>
+      <li>A presentation of Soplos Linux while the system is installed</li>
+      <li xml:lang="es">Una presentación de Soplos Linux mientras se instala el sistema</li>
+      <li xml:lang="fr">Une présentation de Soplos Linux pendant l'installation du système</li>
+      <li xml:lang="de">Eine Vorstellung von Soplos Linux, während das System installiert wird</li>
+      <li xml:lang="pt">Uma apresentação do Soplos Linux enquanto o sistema é instalado</li>
+      <li xml:lang="it">Una presentazione di Soplos Linux mentre il sistema viene installato</li>
+      <li xml:lang="ro">O prezentare a Soplos Linux în timp ce sistemul este instalat</li>
+      <li xml:lang="ru">Показывается презентация Soplos Linux, пока идёт установка</li>
+      <li>Usable with the keyboard only: Alt + the underlined letter, Alt+Left and Alt+Right, Alt+1 to Alt+7</li>
+      <li xml:lang="es">Se puede usar solo con el teclado: Alt + la letra subrayada, Alt+Izquierda y Alt+Derecha, Alt+1 a Alt+7</li>
+      <li xml:lang="fr">Utilisable uniquement au clavier : Alt + la lettre soulignée, Alt+Gauche et Alt+Droite, Alt+1 à Alt+7</li>
+      <li xml:lang="de">Nur mit der Tastatur bedienbar: Alt + der unterstrichene Buchstabe, Alt+Links und Alt+Rechts, Alt+1 bis Alt+7</li>
+      <li xml:lang="pt">Pode ser usado apenas com o teclado: Alt + a letra sublinhada, Alt+Esquerda e Alt+Direita, Alt+1 a Alt+7</li>
+      <li xml:lang="it">Si può usare solo con la tastiera: Alt + la lettera sottolineata, Alt+Sinistra e Alt+Destra, Alt+1 fino a Alt+7</li>
+      <li xml:lang="ro">Poate fi folosit doar cu tastatura: Alt + litera subliniată, Alt+Stânga și Alt+Dreapta, Alt+1 până la Alt+7</li>
+      <li xml:lang="ru">Управление только с клавиатуры: Alt + подчёркнутая буква, Alt+Влево и Alt+Вправо, Alt+1 до Alt+7</li>
+      <li>Available in 8 languages (ES, EN, FR, PT, DE, IT, RO, RU)</li>
+      <li xml:lang="es">Disponible en 8 idiomas (ES, EN, FR, PT, DE, IT, RO, RU)</li>
+      <li xml:lang="fr">Disponible en 8 langues (ES, EN, FR, PT, DE, IT, RO, RU)</li>
+      <li xml:lang="de">In 8 Sprachen verfügbar (ES, EN, FR, PT, DE, IT, RO, RU)</li>
+      <li xml:lang="pt">Disponível em 8 idiomas (ES, EN, FR, PT, DE, IT, RO, RU)</li>
+      <li xml:lang="it">Disponibile in 8 lingue (ES, EN, FR, PT, DE, IT, RO, RU)</li>
+      <li xml:lang="ro">Disponibil în 8 limbi (ES, EN, FR, PT, DE, IT, RO, RU)</li>
+      <li xml:lang="ru">Доступно на 8 языках (ES, EN, FR, PT, DE, IT, RO, RU)</li>
+    </ul>
+  </description>
+
+  <categories>
+    <category>System</category>
+    <category>Utility</category>
+  </categories>
+
+  <keywords>
+    <keyword>installer</keyword>
+    <keyword>install</keyword>
+    <keyword>partitioning</keyword>
+    <keyword>boot loader</keyword>
+    <keyword>kernel</keyword>
+    <keyword>soplos</keyword>
+    <keyword xml:lang="es">instalador</keyword>
+    <keyword xml:lang="es">instalar</keyword>
+    <keyword xml:lang="es">particiones</keyword>
+    <keyword xml:lang="es">cargador de arranque</keyword>
+    <keyword xml:lang="es">kernel</keyword>
+    <keyword xml:lang="fr">installateur</keyword>
+    <keyword xml:lang="fr">installer</keyword>
+    <keyword xml:lang="fr">partitionnement</keyword>
+    <keyword xml:lang="fr">chargeur d'amorçage</keyword>
+    <keyword xml:lang="fr">noyau</keyword>
+    <keyword xml:lang="de">installationsprogramm</keyword>
+    <keyword xml:lang="de">installieren</keyword>
+    <keyword xml:lang="de">partitionierung</keyword>
+    <keyword xml:lang="de">bootloader</keyword>
+    <keyword xml:lang="de">kernel</keyword>
+    <keyword xml:lang="pt">instalador</keyword>
+    <keyword xml:lang="pt">instalar</keyword>
+    <keyword xml:lang="pt">particionamento</keyword>
+    <keyword xml:lang="pt">carregador de arranque</keyword>
+    <keyword xml:lang="pt">kernel</keyword>
+    <keyword xml:lang="it">installazione</keyword>
+    <keyword xml:lang="it">installare</keyword>
+    <keyword xml:lang="it">partizionamento</keyword>
+    <keyword xml:lang="it">caricatore di avvio</keyword>
+    <keyword xml:lang="it">kernel</keyword>
+    <keyword xml:lang="ro">instalare</keyword>
+    <keyword xml:lang="ro">partiționare</keyword>
+    <keyword xml:lang="ro">bootloader</keyword>
+    <keyword xml:lang="ro">kernel</keyword>
+    <keyword xml:lang="ru">установщик</keyword>
+    <keyword xml:lang="ru">установка</keyword>
+    <keyword xml:lang="ru">разметка диска</keyword>
+    <keyword xml:lang="ru">загрузчик</keyword>
+    <keyword xml:lang="ru">ядро</keyword>
+  </keywords>
+
+  <launchable type="desktop-id">soplos-linux-installer.desktop</launchable>
+
+  <provides>
+    <binary>soplos-linux-installer</binary>
+  </provides>
+
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-linux-installer-3.0/issues</url>
+  <url type="donation">https://soplos.org/community/donate/</url>
+  <url type="contact">https://soplos.org/wiki/contact/</url>
+
+  <developer id="org.soplos">
+    <name>Sergi Perich</name>
+    <url type="homepage">https://soplos.org</url>
+  </developer>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-linux-installer-3.0/main/src-tauri/resources/screenshots/screenshot01.png</image>
+      <caption>Welcome: the language of the installer and the requirements of the edition</caption>
+      <caption xml:lang="es">Bienvenida: el idioma del instalador y los requisitos de la edición</caption>
+      <caption xml:lang="fr">Bienvenue : la langue de l'installateur et les prérequis de l'édition</caption>
+      <caption xml:lang="de">Willkommen: die Sprache des Installationsprogramms und die Anforderungen der Edition</caption>
+      <caption xml:lang="pt">Boas-vindas: o idioma do instalador e os requisitos da edição</caption>
+      <caption xml:lang="it">Benvenuto: la lingua del programma di installazione e i requisiti dell'edizione</caption>
+      <caption xml:lang="ro">Bun venit: limba programului de instalare și cerințele ediției</caption>
+      <caption xml:lang="ru">Приветствие: язык установщика и требования выпуска</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-linux-installer-3.0/main/src-tauri/resources/screenshots/screenshot02.png</image>
+      <caption>Location: the map, the language, the formats and the keyboard</caption>
+      <caption xml:lang="es">Ubicación: el mapa, el idioma, los formatos y el teclado</caption>
+      <caption xml:lang="fr">Emplacement : la carte, la langue, les formats et le clavier</caption>
+      <caption xml:lang="de">Ort: die Karte, die Sprache, die Formate und die Tastatur</caption>
+      <caption xml:lang="pt">Localização: o mapa, o idioma, os formatos e o teclado</caption>
+      <caption xml:lang="it">Posizione: la mappa, la lingua, i formati e la tastiera</caption>
+      <caption xml:lang="ro">Locație: harta, limba, formatele și tastatura</caption>
+      <caption xml:lang="ru">Местоположение: карта, язык, форматы и клавиатура</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-linux-installer-3.0/main/src-tauri/resources/screenshots/screenshot03.png</image>
+      <caption>Boot loader: GRUB, systemd-boot or Limine</caption>
+      <caption xml:lang="es">Cargador de arranque: GRUB, systemd-boot o Limine</caption>
+      <caption xml:lang="fr">Chargeur d'amorçage : GRUB, systemd-boot ou Limine</caption>
+      <caption xml:lang="de">Bootloader: GRUB, systemd-boot oder Limine</caption>
+      <caption xml:lang="pt">Carregador de arranque: GRUB, systemd-boot ou Limine</caption>
+      <caption xml:lang="it">Caricatore di avvio: GRUB, systemd-boot o Limine</caption>
+      <caption xml:lang="ro">Bootloader: GRUB, systemd-boot sau Limine</caption>
+      <caption xml:lang="ru">Загрузчик: GRUB, systemd-boot или Limine</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-linux-installer-3.0/main/src-tauri/resources/screenshots/screenshot04.png</image>
+      <caption>Kernel: the kind of installation and the Soplos kernel for the processor</caption>
+      <caption xml:lang="es">Kernel: el tipo de instalación y el kernel Soplos para el procesador</caption>
+      <caption xml:lang="fr">Noyau : le type d'installation et le noyau Soplos pour le processeur</caption>
+      <caption xml:lang="de">Kernel: die Art der Installation und der Soplos-Kernel für den Prozessor</caption>
+      <caption xml:lang="pt">Kernel: o tipo de instalação e o kernel Soplos para o processador</caption>
+      <caption xml:lang="it">Kernel: il tipo di installazione e il kernel Soplos per il processore</caption>
+      <caption xml:lang="ro">Kernel: tipul de instalare și kernelul Soplos pentru procesor</caption>
+      <caption xml:lang="ru">Ядро: тип установки и ядро Soplos для процессора</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-linux-installer-3.0/main/src-tauri/resources/screenshots/screenshot05.png</image>
+      <caption>Disk: the disk as it will be, before anything is touched</caption>
+      <caption xml:lang="es">Disco: el disco tal como quedará, antes de tocar nada</caption>
+      <caption xml:lang="fr">Disque : le disque tel qu'il sera, avant de toucher à quoi que ce soit</caption>
+      <caption xml:lang="de">Datenträger: der Datenträger, wie er sein wird, bevor etwas angefasst wird</caption>
+      <caption xml:lang="pt">Disco: o disco tal como ficará, antes de tocar em nada</caption>
+      <caption xml:lang="it">Disco: il disco come sarà, prima di toccare qualsiasi cosa</caption>
+      <caption xml:lang="ro">Disc: discul așa cum va fi, înainte de a atinge ceva</caption>
+      <caption xml:lang="ru">Диск: диск таким, каким он будет, прежде чем что-то трогать</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-linux-installer-3.0/main/src-tauri/resources/screenshots/screenshot06.png</image>
+      <caption>User: the account, the computer name and the passwords</caption>
+      <caption xml:lang="es">Usuario: la cuenta, el nombre del equipo y las contraseñas</caption>
+      <caption xml:lang="fr">Utilisateur : le compte, le nom de l'ordinateur et les mots de passe</caption>
+      <caption xml:lang="de">Benutzer: das Konto, der Computername und die Passwörter</caption>
+      <caption xml:lang="pt">Utilizador: a conta, o nome do computador e as palavras-passe</caption>
+      <caption xml:lang="it">Utente: l'account, il nome del computer e le password</caption>
+      <caption xml:lang="ro">Utilizator: contul, numele calculatorului și parolele</caption>
+      <caption xml:lang="ru">Пользователь: учётная запись, имя компьютера и пароли</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-linux-installer-3.0/main/src-tauri/resources/screenshots/screenshot07.png</image>
+      <caption>Summary: everything chosen, and what will be done to the disk</caption>
+      <caption xml:lang="es">Resumen: todo lo elegido y lo que se hará con el disco</caption>
+      <caption xml:lang="fr">Résumé : tout ce qui a été choisi et ce qui sera fait du disque</caption>
+      <caption xml:lang="de">Zusammenfassung: alles Gewählte und was mit dem Datenträger geschieht</caption>
+      <caption xml:lang="pt">Resumo: tudo o que foi escolhido e o que será feito no disco</caption>
+      <caption xml:lang="it">Riepilogo: tutto ciò che è stato scelto e cosa sarà fatto al disco</caption>
+      <caption xml:lang="ro">Rezumat: tot ce s-a ales și ce se va face cu discul</caption>
+      <caption xml:lang="ru">Сводка: всё выбранное и что будет сделано с диском</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-linux-installer-3.0/main/src-tauri/resources/screenshots/screenshot08.png</image>
+      <caption>Installation: the presentation of the three editions</caption>
+      <caption xml:lang="es">Instalación: la presentación de las tres ediciones</caption>
+      <caption xml:lang="fr">Installation : la présentation des trois éditions</caption>
+      <caption xml:lang="de">Installation: die Vorstellung der drei Editionen</caption>
+      <caption xml:lang="pt">Instalação: a apresentação das três edições</caption>
+      <caption xml:lang="it">Installazione: la presentazione delle tre edizioni</caption>
+      <caption xml:lang="ro">Instalare: prezentarea celor trei ediții</caption>
+      <caption xml:lang="ru">Установка: представление трёх выпусков</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-linux-installer-3.0/main/src-tauri/resources/screenshots/screenshot09.png</image>
+      <caption>Finished: install done, and the computer can restart</caption>
+      <caption xml:lang="es">Terminado: instalación hecha, y el equipo puede reiniciar</caption>
+      <caption xml:lang="fr">Terminé : installation terminée, et l'ordinateur peut redémarrer</caption>
+      <caption xml:lang="de">Fertig: Installation abgeschlossen, und der Rechner kann neu starten</caption>
+      <caption xml:lang="pt">Concluído: instalação feita, e o computador pode reiniciar</caption>
+      <caption xml:lang="it">Finito: installazione fatta, e il computer può riavviarsi</caption>
+      <caption xml:lang="ro">Terminat: instalarea e gata, iar calculatorul poate reporni</caption>
+      <caption xml:lang="ru">Готово: установка завершена, компьютер может перезагрузиться</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="3.0.0" date="2026-11-17">
+      <description>
+        <p>First stable release. It installs Tyron, Tyson and Boro with the boot loader you choose, the kernel for the level of the processor and the drivers the hardware needs, and it replaces Calamares.</p>
+        <p>Manual partitioning covers every mount point of Calamares and partitions of data of your own, with F2FS and JFS for the system and exFAT, NTFS and FAT32 for data.</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1" />
+</component>
