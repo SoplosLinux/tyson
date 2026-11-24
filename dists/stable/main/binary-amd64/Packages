@@ -354,18 +354,22 @@ Description: sched_ext schedulers and tools
  Gaming Panel uses.
 
 Package: soplos-appimage-manager
-Version: 1.0.1-2
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3, python3-gi, python3-gi-cairo, python3-setuptools
-Maintainer: Sergi Perich <info@sergiperich.es>
+Version: 3.0.0
+Architecture: amd64
+Installed-Size: 8238
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://soplos.org
+Depends: libwebkit2gtk-4.1-0, libgtk-3-0
+Recommends: p7zip-full, binutils, desktop-file-utils, libgtk-3-bin
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-appimage-manager/soplos-appimage-manager_1.0.1-2_all.deb
-Size: 660568
-SHA256: 293b072098e10003bf331e9e11d8c6d4d4cf083aa4f6e230a3c4dc7ccd6d5758
-SHA1: 9d540dfa10fc3dc34291389f3092191f23a12bd5
-MD5sum: 887ff2a767b107324eec9d97d759e567
-Description: Manage AppImage applications on Soplos Linux
+Filename: pool/main/s/soplos-appimage-manager/soplos-appimage-manager_3.0.0_amd64.deb
+Size: 4069810
+SHA256: ded2fc82aa8de8dc97713afa679fd373ade1e3d67515267a7f94ae21c4173b28
+SHA1: f1188ffdd0237c83550238128722e8f5a84ef529
+MD5sum: cda5f214a0727918fc6225edfa3c2f0e
+Description: Manage and integrate AppImage applications
+ Integrates AppImage applications into the Soplos Linux desktop. Moves AppImages to ~/AppImages/, extracts icons and metadata, creates .desktop entries, and checks GitHub, GitLab and Codeberg for updates.
 
 Package: soplos-debug
 Version: 1.0.0-3
@@ -754,18 +758,21 @@ Description: Soplos Wallpapers Pack 02.
  Build date: 2025-07-27
 
 Package: soplos-webapp-manager
-Version: 1.0.0-5
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3, python3-gi, python3-gi-cairo, python3-setuptools
-Maintainer: Sergi Perich <info@sergiperich.es>
+Version: 3.0.0
+Architecture: amd64
+Installed-Size: 8050
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://soplos.org
+Depends: libwebkit2gtk-4.1-0, libgtk-3-0
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-webapp-manager/soplos-webapp-manager_1.0.0-5_all.deb
-Size: 542540
-SHA256: 21def305c61ecea08c18d614e92b35b725df2c93797bec35a103509d147650ae
-SHA1: 30651433c658d5261cc1b27ffdf397b6a660949a
-MD5sum: 256cdd00a4b79cdd5025b5208eaffed4
+Filename: pool/main/s/soplos-webapp-manager/soplos-webapp-manager_3.0.0_amd64.deb
+Size: 3901934
+SHA256: d590dcbd4766851b9716f8e6af3e8afd31a81a3e4c03c38eaca9705838c6c9cb
+SHA1: bf5c91862f4c3408948c0e8278c494cd3fc58000
+MD5sum: 426c902d4b7d4894bd5fb4e195a3ae8a
 Description: Create and manage isolated Web Applications
+ A lightweight Site Specific Browser (SSB) manager for Soplos Linux. Creates isolated, desktop-integrated web applications with support for multiple browsers.
 
 Package: soplos-welcome
 Version: 3.0.0-2

@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: "SoplosLinux"
 MediaBaseUrl: "https://raw.githubusercontent.com/SoplosLinux/tyson/main/media"
-Time: 20261122T024403
+Time: 20261124T182022
 ---
 Type: desktop-application
 ID: "com.mitchellh.ghostty"
@@ -568,222 +568,252 @@ Package: "soplos-appimage-manager"
 Name:
   C: "Soplos AppImage Manager"
   de: "Soplos AppImage-Verwaltung"
+  en: "Soplos AppImage Manager"
   es: "Gestor de AppImage de Soplos"
-  fr: "Gestionnaire AppImage Soplos"
-  it: "Gestore AppImage Soplos"
-  pt: "Gestor de AppImage Soplos"
+  fr: "Gestionnaire d'AppImage de Soplos"
+  it: "Gestore AppImage di Soplos"
+  pt: "Gestor de AppImage do Soplos"
   ro: "Manager AppImage Soplos"
   ru: "Менеджер AppImage Soplos"
 Summary:
-  C: "Manage AppImage applications on Soplos Linux"
-  de: "Verwalten Sie AppImage-Anwendungen unter Soplos Linux"
-  es: "Gestiona aplicaciones AppImage en Soplos Linux"
-  fr: "Gérez les applications AppImage sur Soplos Linux"
-  it: "Gestisci le applicazioni AppImage su Soplos Linux"
-  pt: "Gerencie aplicativos AppImage no Soplos Linux"
-  ro: "Gestionați aplicațiile AppImage pe Soplos Linux"
-  ru: "Управляйте приложениями AppImage в Soplos Linux"
+  C: "Manage and integrate AppImage applications"
+  de: "AppImage-Anwendungen auf dem Desktop verwalten und integrieren"
+  en: "Manage and integrate AppImage applications"
+  es: "Gestionar e integrar aplicaciones AppImage en el escritorio"
+  fr: "Gérer et intégrer les applications AppImage sur le bureau"
+  it: "Gestisci e integra le applicazioni AppImage nel desktop"
+  pt: "Gerir e integrar aplicações AppImage no ambiente de trabalho"
+  ro: "Gestionați și integrați aplicațiile AppImage pe desktop"
+  ru: "Управление и интеграция приложений AppImage на рабочий стол"
 Description:
-  C: "<p>Soplos AppImage Manager lets you easily integrate AppImage applications into your Soplos Linux desktop. Select any AppImage file, and the manager will move it to your ~/AppImages folder, extract its icon and metadata, and create a desktop entry so the app appears in your application menu.</p>"
-  es: "<p>Soplos AppImage Manager le permite integrar fácilmente aplicaciones AppImage en su escritorio Soplos Linux. Seleccione cualquier archivo AppImage y el gestor lo moverá a su carpeta ~/AppImages, extraerá su icono y metadatos, y creará una entrada de escritorio para que la aplicación aparezca en su menú de aplicaciones.</p>"
-ProjectLicense: "GPL-3.0+"
+  C: "<p>Soplos AppImage Manager integrates AppImage applications into the Soplos Linux desktop. It moves AppImages to ~/AppImages/, extracts their icon and metadata, creates menu entries for them, and checks GitHub, GitLab and Codeberg for updates.</p>"
+  de: "<p>Die Soplos AppImage-Verwaltung integriert AppImage-Anwendungen in den Soplos Linux Desktop. Sie verschiebt Dateien nach ~/AppImages/, extrahiert Icons und Metadaten, erstellt Menüeinträge und prüft GitHub, GitLab und Codeberg auf Aktualisierungen.</p>"
+  es: "<p>El Gestor de AppImage de Soplos integra aplicaciones AppImage en el escritorio de Soplos Linux. Mueve los paquetes a ~/AppImages/, extrae sus iconos y metadatos, crea accesos en el menú de aplicaciones y comprueba actualizaciones en GitHub, GitLab y Codeberg.</p>"
+  fr: "<p>Le gestionnaire d'AppImage de Soplos intègre les applications AppImage sur le bureau Soplos Linux. Il déplace les fichiers vers ~/AppImages/, extrait leurs icônes et métadonnées, crée des entrées de menu et vérifie les mises à jour sur GitHub, GitLab et Codeberg.</p>"
+  it: "<p>Il Gestore AppImage di Soplos integra le applicazioni AppImage nel desktop di Soplos Linux. Sposta i file in ~/AppImages/, estrae icone e metadati, crea voci di menu e controlla gli aggiornamenti su GitHub, GitLab e Codeberg.</p>"
+  pt: "<p>O Gestor de AppImage do Soplos integra aplicações AppImage no ambiente de trabalho do Soplos Linux. Move os ficheiros para ~/AppImages/, extrai ícones e metadados, cria entradas de menu e verifica atualizações no GitHub, GitLab e Codeberg.</p>"
+  ro: "<p>Managerul AppImage Soplos integrează aplicațiile AppImage pe desktopul Soplos Linux. Mută fișierele în ~/AppImages/, extrage pictogramele și metadatele, creează intrări în meniu și verifică actualizările pe GitHub, GitLab și Codeberg.</p>"
+  ru: "<p>Менеджер AppImage Soplos интегрирует приложения AppImage в рабочий стол Soplos Linux. Перемещает файлы в ~/AppImages/, извлекает значки и метаданные, создаёт пункты меню и проверяет обновления на GitHub, GitLab и Codeberg.</p>"
+ProjectLicense: "GPL-3.0-or-later"
+Developer:
+  id: "org.soplos"
+  name:
+    C: "Sergi Perich"
 Url:
   homepage: "https://soplos.org"
-  bugtracker: "https://github.com/SoplosLinux/soplos-appimage-manager/issues"
+Categories:
+  - "System"
+  - "Utility"
+Keywords:
+  C:
+    - "appimage"
+    - "app"
+    - "install"
+    - "integration"
+    - "package"
+    - "manager"
+    - "soplos"
+  de:
+    - "appimage"
+    - "anwendung"
+    - "installieren"
+    - "integration"
+    - "paket"
+    - "verwaltung"
+    - "soplos"
+  es:
+    - "appimage"
+    - "aplicación"
+    - "instalar"
+    - "integración"
+    - "paquete"
+    - "gestor"
+    - "soplos"
+  fr:
+    - "appimage"
+    - "application"
+    - "installer"
+    - "intégration"
+    - "paquet"
+    - "gestionnaire"
+    - "soplos"
+  it:
+    - "appimage"
+    - "applicazione"
+    - "installare"
+    - "integrazione"
+    - "pacchetto"
+    - "gestore"
+    - "soplos"
+  pt:
+    - "appimage"
+    - "aplicação"
+    - "instalar"
+    - "integração"
+    - "pacote"
+    - "gestor"
+    - "soplos"
+  ro:
+    - "appimage"
+    - "aplicație"
+    - "instalare"
+    - "integrare"
+    - "pachet"
+    - "manager"
+    - "soplos"
+  ru:
+    - "appimage"
+    - "приложение"
+    - "установка"
+    - "интеграция"
+    - "пакет"
+    - "менеджер"
+    - "soplos"
 Icon:
   cached:
-    - name: "org.soplos.appimagemanager.png"
+    - name: "soplos-appimage-manager.png"
       width: 48
       height: 48
-    - name: "org.soplos.appimagemanager.png"
+    - name: "soplos-appimage-manager.png"
       width: 64
       height: 64
-    - name: "org.soplos.appimagemanager.png"
+    - name: "soplos-appimage-manager.png"
       width: 128
       height: 128
   remote:
-    - url: "soplos-appimage-manager/icons/48x48/org.soplos.appimagemanager.png"
+    - url: "soplos-appimage-manager/icons/48x48/soplos-appimage-manager.png"
       width: 48
       height: 48
-    - url: "soplos-appimage-manager/icons/64x64/org.soplos.appimagemanager.png"
+    - url: "soplos-appimage-manager/icons/64x64/soplos-appimage-manager.png"
       width: 64
       height: 64
-    - url: "soplos-appimage-manager/icons/128x128/org.soplos.appimagemanager.png"
+    - url: "soplos-appimage-manager/icons/128x128/soplos-appimage-manager.png"
       width: 128
       height: 128
 Launchable:
   desktop-id:
-    - "org.soplos.appimagemanager.desktop"
+    - "soplos-appimage-manager.desktop"
 Provides:
   binaries:
     - "soplos-appimage-manager"
 Screenshots:
   - default: true
     caption:
-      C: "Empty state showing the welcome screen"
-      de: "Leerer Zustand mit dem Willkommensbildschirm"
-      es: "Estado vacío mostrando la pantalla de bienvenida"
-      fr: "État vide affichant l'écran d'accueil"
-      it: "Stato vuoto con la schermata di benvenuto"
-      pt: "Estado vazio com o ecrã de boas-vindas"
-      ro: "Stare goală cu ecranul de bun venit"
-      ru: "Пустое состояние с экраном приветствия"
+      C: "Main window with the hero banner and an integrated AppImage"
+      de: "Hauptfenster mit Hero-Banner und einer integrierten AppImage"
+      en: "Main window with the hero banner and an integrated AppImage"
+      es: "Ventana principal con el panel superior y una AppImage integrada"
+      fr: "Fenêtre principale avec la bannière et une AppImage intégrée"
+      it: "Finestra principale con banner superiore e un'AppImage integrata"
+      pt: "Janela principal com o painel superior e uma AppImage integrada"
+      ro: "Fereastra principală cu panoul superior și o AppImage integrată"
+      ru: "Главное окно с верхним баннером и интегрированным AppImage"
     source-image:
-      url: "soplos-appimage-manager/screenshots/screenshot1.png"
-      width: 652
-      height: 542
+      url: "soplos-appimage-manager/screenshots/screenshot01.png"
+      width: 720
+      height: 572
   - caption:
-      C: "AppImage detected and ready to integrate"
-      de: "AppImage erkannt und bereit zur Integration"
-      es: "AppImage detectado y listo para integrar"
-      fr: "AppImage détecté et prêt à être intégré"
-      it: "AppImage rilevato e pronto per l'integrazione"
-      pt: "AppImage detetado e pronto para integrar"
-      ro: "AppImage detectat și gata de integrare"
-      ru: "AppImage обнаружен и готов к интеграции"
+      C: "Editing an AppImage's name, version, description and categories"
+      de: "Bearbeiten von Name, Version, Beschreibung und Kategorien"
+      en: "Editing an AppImage's name, version, description and categories"
+      es: "Edición del nombre, versión, descripción y categorías de una AppImage"
+      fr: "Édition du nom, de la version, de la description et des catégories"
+      it: "Modifica di nome, versione, descrizione e categorie di un'AppImage"
+      pt: "Edição de nome, versão, descrição e categorias de uma AppImage"
+      ro: "Editarea numelui, versiunii, descrierii și categoriilor unei AppImage"
+      ru: "Редактирование названия, версии, описания и категорий AppImage"
     source-image:
-      url: "soplos-appimage-manager/screenshots/screenshot2.png"
-      width: 652
-      height: 542
+      url: "soplos-appimage-manager/screenshots/screenshot02.png"
+      width: 720
+      height: 572
   - caption:
-      C: "List with integrated and non-integrated AppImages"
-      de: "Liste mit integrierten und nicht integrierten AppImages"
-      es: "Lista con AppImages integrados y sin integrar"
-      fr: "Liste avec AppImages intégrés et non intégrés"
-      it: "Elenco con AppImages integrati e non integrati"
-      pt: "Lista com AppImages integrados e não integrados"
-      ro: "Listă cu AppImages integrate și neintegrate"
-      ru: "Список с интегрированными и неинтегрированными AppImages"
+      C: "Choosing whether to move the original file or keep a copy when adding"
+      de: "Auswahl zwischen Verschieben der Originaldatei oder Behalten einer Kopie"
+      en: "Choosing whether to move the original file or keep a copy when adding"
+      es: "Elección entre mover el archivo original o conservar una copia al añadir"
+      fr: "Choix entre déplacer le fichier original ou conserver une copie"
+      it: "Scelta tra spostare il file originale o mantenerne una copia"
+      pt: "Escolha entre mover o ficheiro original ou manter uma cópia ao adicionar"
+      ro: "Alegerea între mutarea fișierului original sau păstrarea unei copii"
+      ru: "Выбор между перемещением исходного файла или сохранением копии"
     source-image:
-      url: "soplos-appimage-manager/screenshots/screenshot3.png"
-      width: 652
-      height: 542
+      url: "soplos-appimage-manager/screenshots/screenshot03.png"
+      width: 720
+      height: 572
   - caption:
-      C: "Fully integrated AppImages with icons and controls"
-      de: "Vollständig integrierte AppImages mit Symbolen und Steuerelementen"
-      es: "AppImages totalmente integrados con iconos y controles"
-      fr: "AppImages entièrement intégrés avec icônes et contrôles"
-      it: "AppImages completamente integrati con icone e controlli"
-      pt: "AppImages totalmente integrados com ícones e controlos"
-      ro: "AppImages complet integrate cu pictograme și controale"
-      ru: "Полностью интегрированные AppImages с иконками и элементами управления"
+      C: "Several AppImages integrated, each with its own icon, size and version"
+      de: "Mehrere integrierte AppImages mit jeweils eigenem Icon, Größe und Version"
+      en: "Several AppImages integrated, each with its own icon, size and version"
+      es: "Varias AppImages integradas con icono, tamaño y versión individuales"
+      fr: "Plusieurs AppImages intégrées avec icône, taille et version"
+      it: "Diverse AppImage integrate ciascuna con icona, dimensione e versione"
+      pt: "Várias AppImages integradas com ícone, tamanho e versão individuais"
+      ro: "Mai multe AppImage integrate cu pictogramă, dimensiune și versiune"
+      ru: "Несколько интегрированных AppImage со значком, размером и версией"
     source-image:
-      url: "soplos-appimage-manager/screenshots/screenshot4.png"
-      width: 652
-      height: 542
+      url: "soplos-appimage-manager/screenshots/screenshot04.png"
+      width: 720
+      height: 572
   - caption:
-      C: "Properties dialog — edit name, version, description and update URL"
-      de: "Eigenschaften-Dialog — Name, Version, Beschreibung und Update-URL bearbeiten"
-      es: "Diálogo de propiedades — edita nombre, versión, descripción y URL de actualización"
-      fr: "Boîte de dialogue Propriétés — modifiez le nom, la version, la description et l'URL de mise à jour"
-      it: "Finestra Proprietà — modifica nome, versione, descrizione e URL di aggiornamento"
-      pt: "Diálogo de Propriedades — edite nome, versão, descrição e URL de atualização"
-      ro: "Dialogul Proprietăți — editați numele, versiunea, descrierea și URL-ul de actualizare"
-      ru: "Диалог свойств — редактирование имени, версии, описания и URL обновления"
+      C: "Trying to add an AppImage that's already installed"
+      de: "Warnung beim Versuch, ein bereits installiertes AppImage hinzuzufügen"
+      en: "Trying to add an AppImage that's already installed"
+      es: "Aviso al intentar añadir una AppImage que ya se encuentra instalada"
+      fr: "Avertissement lors de l'ajout d'une AppImage déjà installée"
+      it: "Avviso quando si tenta di aggiungere un'AppImage già installata"
+      pt: "Aviso ao tentar adicionar uma AppImage que já está instalada"
+      ro: "Avertisment la încercarea de a adăuga o AppImage deja instalată"
+      ru: "Предупреждение при попытке добавить уже установленный AppImage"
     source-image:
-      url: "soplos-appimage-manager/screenshots/screenshot5.png"
-      width: 484
-      height: 599
-  - caption:
-      C: "Checking for updates via GitHub, GitLab, Codeberg or direct URL"
-      de: "Nach Updates suchen über GitHub, GitLab, Codeberg oder direkte URL"
-      es: "Buscando actualizaciones mediante GitHub, GitLab, Codeberg o URL directa"
-      fr: "Recherche de mises à jour via GitHub, GitLab, Codeberg ou URL directe"
-      it: "Ricerca aggiornamenti tramite GitHub, GitLab, Codeberg o URL diretto"
-      pt: "A verificar atualizações via GitHub, GitLab, Codeberg ou URL direta"
-      ro: "Verificarea actualizărilor prin GitHub, GitLab, Codeberg sau URL direct"
-      ru: "Проверка обновлений через GitHub, GitLab, Codeberg или прямой URL"
-    source-image:
-      url: "soplos-appimage-manager/screenshots/screenshot6.png"
-      width: 484
-      height: 599
-  - caption:
-      C: "Check All Updates — inspect and update all AppImages at once"
-      de: "Alle Updates prüfen — alle AppImages auf einmal prüfen und aktualisieren"
-      es: "Comprobar todas las actualizaciones — revisa y actualiza todos los AppImages a la vez"
-      fr: "Vérifier toutes les mises à jour — inspectez et mettez à jour tous les AppImages en une fois"
-      it: "Controlla tutti gli aggiornamenti — verifica e aggiorna tutti gli AppImages in una volta"
-      pt: "Verificar todas as atualizações — inspecione e atualize todos os AppImages de uma vez"
-      ro: "Verificare toate actualizările — inspectați și actualizați toate AppImages dintr-o dată"
-      ru: "Проверить все обновления — проверка и обновление всех AppImages сразу"
-    source-image:
-      url: "soplos-appimage-manager/screenshots/screenshot7.png"
-      width: 524
-      height: 169
-  - caption:
-      C: "Update available — download and install the new version in one click"
-      de: "Update verfügbar — neue Version mit einem Klick herunterladen und installieren"
-      es: "Actualización disponible — descarga e instala la nueva versión con un clic"
-      fr: "Mise à jour disponible — téléchargez et installez la nouvelle version en un clic"
-      it: "Aggiornamento disponibile — scarica e installa la nuova versione in un clic"
-      pt: "Atualização disponível — transfira e instale a nova versão com um clique"
-      ro: "Actualizare disponibilă — descărcați și instalați noua versiune cu un singur clic"
-      ru: "Доступно обновление — загрузите и установите новую версию одним кликом"
-    source-image:
-      url: "soplos-appimage-manager/screenshots/screenshot8.png"
-      width: 544
-      height: 456
+      url: "soplos-appimage-manager/screenshots/screenshot05.png"
+      width: 720
+      height: 572
 Releases:
-  - version: "1.0.1-2"
+  - version: "3.0.0"
     type: stable
-    unix-timestamp: 1784505600
+    unix-timestamp: 1794873600
     description:
-      de: "<p>Option hinzugefügt, die Originaldatei zu behalten und beim Hinzufügen eines AppImage über die Dateiauswahl oder per Drag-and-Drop zu kopieren statt zu verschieben.</p>"
-      en: "<p>Added the option to keep the original file and copy it instead of moving it when adding an AppImage, via the file chooser or drag and drop.</p>"
-      es: "<p>Añadida la opción de conservar el archivo original y copiarlo en vez de moverlo al añadir un AppImage, mediante el selector de archivos o arrastrar y soltar.</p>"
-      fr: "<p>Ajout de l'option permettant de conserver le fichier original et de le copier au lieu de le déplacer lors de l'ajout d'un AppImage, via le sélecteur de fichiers ou le glisser-déposer.</p>"
-      it: "<p>Aggiunta l'opzione di mantenere il file originale e copiarlo invece di spostarlo durante l'aggiunta di un AppImage, tramite il selettore file o il trascinamento.</p>"
-      pt: "<p>Adicionada a opção de manter o ficheiro original e copiá-lo em vez de o mover ao adicionar um AppImage, através do seletor de ficheiros ou de arrastar e largar.</p>"
-      ro: "<p>Adăugată opțiunea de a păstra fișierul original și de a-l copia în loc să-l muți la adăugarea unui AppImage, prin selectorul de fișiere sau prin glisare și plasare.</p>"
-      ru: "<p>Добавлена возможность сохранить исходный файл и скопировать его вместо перемещения при добавлении AppImage через диалог выбора файла или перетаскивание.</p>"
-  - version: "1.0.1-1"
+      C: "<p>First stable release.</p>"
+  - version: "3.0.0-6-beta"
     type: stable
-    unix-timestamp: 1783382400
+    unix-timestamp: 1793750400
     description:
-      de: "<p>Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.</p>"
-      en: "<p>Build dependency python3-all replaced with python3.</p>"
-      es: "<p>Se ha sustituido la dependencia de compilación python3-all por python3.</p>"
-      fr: "<p>La dépendance de compilation python3-all a été remplacée par python3.</p>"
-      it: "<p>La dipendenza di compilazione python3-all è stata sostituita con python3.</p>"
-      pt: "<p>A dependência de compilação python3-all foi substituída por python3.</p>"
-      ro: "<p>Dependența de compilare python3-all a fost înlocuită cu python3.</p>"
-      ru: "<p>Зависимость сборки python3-all заменена на python3.</p>"
-  - version: "1.0.1"
+      C: "<p>The application metadata points to the installed launcher, and there is a new screenshot of the list of AppImages.</p>"
+  - version: "3.0.0-5-beta"
     type: stable
-    unix-timestamp: 1774828800
+    unix-timestamp: 1793232000
     description:
-      C: "<p>Added Properties dialog to view and edit each AppImage's name, version, description, categories and update URL. New Run as root toggle in Properties launches any AppImage with pkexec, showing a PolicyKit authentication dialog on launch. Automatic update checking via GitHub, GitLab and Codeberg release APIs, direct URL comparison, or embedded appimageupdatetool info. New Check All Updates button in the header bar replaces Refresh and lets you inspect and update all AppImages at once. Improved icon extraction and full translation coverage across all 8 languages. The application now seamlessly respects the system's light or dark GTK theme preference.</p>"
-      de: "<p>Eigenschaften-Dialog hinzugefügt, um Name, Version, Beschreibung, Kategorien und Update-URL jedes AppImage anzuzeigen und zu bearbeiten. Neue Umschaltoption Als Root ausführen in den Eigenschaften startet jeden AppImage mit pkexec und zeigt beim Start einen PolicyKit-Authentifizierungsdialog an. Automatische Update-Prüfung über GitHub-, GitLab- und Codeberg-Release-APIs, direkte URL-Vergleich oder eingebettete appimageupdatetool-Informationen. Neue Schaltfläche Alle Updates prüfen in der Kopfleiste ersetzt Aktualisieren und ermöglicht die Prüfung und Aktualisierung aller AppImages auf einmal. Verbesserte Icon-Extraktion und vollständige Übersetzungsabdeckung in allen 8 Sprachen. Die Anwendung respektiert nun nahtlos die Einstellung für das helle oder dunkle GTK-Design des Systems.</p>"
-      es: "<p>Añadido diálogo de Propiedades para ver y editar nombre, versión, descripción, categorías y URL de actualización de cada AppImage. Nuevo interruptor Ejecutar como root en Propiedades lanza cualquier AppImage con pkexec mostrando un diálogo de autenticación de PolicyKit al iniciarlo. Comprobación automática de actualizaciones mediante las APIs de GitHub, GitLab y Codeberg, comparación de URL directa o información de appimageupdatetool integrada. Nuevo botón Comprobar todas las actualizaciones en la barra de cabecera que sustituye a Actualizar y permite revisar y actualizar todos los AppImages a la vez. Mejora en la extracción de iconos y cobertura de traducción completa en los 8 idiomas. La aplicación ahora respeta perfectamente la preferencia de tema GTK claro u oscuro del sistema.</p>"
-      fr: "<p>Ajout de la boîte de dialogue Propriétés pour afficher et modifier le nom, la version, la description, les catégories et l'URL de mise à jour de chaque AppImage. Nouveau bouton Exécuter en tant que root dans Propriétés pour lancer n'importe quel AppImage avec pkexec, affichant une boîte de dialogue d'authentification PolicyKit au lancement. Vérification automatique des mises à jour via les API GitHub, GitLab et Codeberg, comparaison d'URL directe ou informations appimageupdatetool intégrées. Nouveau bouton Vérifier toutes les mises à jour dans la barre d'en-tête, remplaçant Actualiser, pour inspecter et mettre à jour tous les AppImages en une fois. Extraction d'icônes améliorée et couverture de traduction complète dans les 8 langues. L'application respecte désormais parfaitement la préférence de thème GTK clair ou sombre du système.</p>"
-      it: "<p>Aggiunta la finestra Proprietà per visualizzare e modificare nome, versione, descrizione, categorie e URL di aggiornamento di ogni AppImage. Nuovo interruttore Esegui come root in Proprietà per avviare qualsiasi AppImage con pkexec, mostrando una finestra di autenticazione PolicyKit all'avvio. Verifica automatica degli aggiornamenti tramite le API di GitHub, GitLab e Codeberg, confronto URL diretto o informazioni appimageupdatetool integrate. Nuovo pulsante Controlla tutti gli aggiornamenti nella barra dell'intestazione che sostituisce Aggiorna e consente di ispezionare e aggiornare tutti gli AppImages in una volta. Estrazione icone migliorata e copertura di traduzione completa in tutte e 8 le lingue. L'applicazione rispetta ora perfettamente la preferenza per il tema GTK chiaro o scuro del sistema.</p>"
-      pt: "<p>Adicionado diálogo de Propriedades para ver e editar o nome, versão, descrição, categorias e URL de atualização de cada AppImage. Novo interruptor Executar como root em Propriedades para lançar qualquer AppImage com pkexec, mostrando um diálogo de autenticação PolicyKit ao iniciar. Verificação automática de atualizações através das APIs do GitHub, GitLab e Codeberg, comparação de URL direta ou informações appimageupdatetool integradas. Novo botão Verificar todas as atualizações na barra de cabeçalho substitui Atualizar e permite inspecionar e atualizar todos os AppImages de uma vez. Extração de ícones melhorada e cobertura de tradução completa em todos os 8 idiomas. A aplicação agora respeita perfeitamente a preferência do tema GTK claro ou escuro do sistema.</p>"
-      ro: "<p>Adăugat dialogul Proprietăți pentru a vizualiza și edita numele, versiunea, descrierea, categoriile și URL-ul de actualizare al fiecărui AppImage. Noul comutator Rulează ca root din Proprietăți lansează orice AppImage cu pkexec, afișând un dialog de autentificare PolicyKit la pornire. Verificare automată a actualizărilor prin API-urile GitHub, GitLab și Codeberg, compararea URL-urilor directe sau informații appimageupdatetool integrate. Noul buton Verificare toate actualizările din bara de antet înlocuiește Reîmprospătare și permite inspectarea și actualizarea tuturor AppImages dintr-o dată. Extracție îmbunătățită a pictogramelor și acoperire completă a traducerilor în toate cele 8 limbi. Aplicația respectă acum perfect preferința de temă GTK deschisă sau închisă a sistemului.</p>"
-      ru: "<p>Добавлен диалог Свойства для просмотра и редактирования имени, версии, описания, категорий и URL обновления каждого AppImage. Новый переключатель Запустить от имени root в Свойствах запускает любой AppImage через pkexec, отображая диалог аутентификации PolicyKit при запуске. Автоматическая проверка обновлений через API GitHub, GitLab и Codeberg, сравнение прямых URL или встроенную информацию appimageupdatetool. Новая кнопка Проверить все обновления в заголовке заменяет Обновить и позволяет проверять и обновлять все AppImages сразу. Улучшено извлечение иконок и обеспечено полное покрытие перевода на все 8 языков. Теперь приложение полностью учитывает системные настройки светлой или темной темы GTK.</p>"
-  - version: "1.0.0-1"
+      C: "<p>The window no longer has the frame of the system: it is a card with rounded corners and its own minimize, maximize and close buttons.</p>"
+  - version: "3.0.0-4-beta"
     type: stable
-    unix-timestamp: 1774137600
+    unix-timestamp: 1793145600
     description:
-      C: "<p>Fixed background color inconsistency in the main window.</p>"
-      de: "<p>Inkonsistenz der Hintergrundfarbe im Hauptfenster behoben.</p>"
-      es: "<p>Corregida la inconsistencia del color de fondo en la ventana principal.</p>"
-      fr: "<p>Correction de l'incohérence de couleur de fond dans la fenêtre principale.</p>"
-      it: "<p>Corretta l'incongruenza del colore di sfondo nella finestra principale.</p>"
-      pt: "<p>Corrigida a inconsistência da cor de fundo na janela principal.</p>"
-      ro: "<p>Corectată inconsistența culorii de fundal în fereastra principală.</p>"
-      ru: "<p>Исправлена несоответствие цвета фона в главном окне.</p>"
-  - version: "1.0.0"
+      C: "<p>New application icon, new hero image and new screenshots, taken with the interface in English.</p>"
+  - version: "3.0.0-3-beta"
     type: stable
-    unix-timestamp: 1774137600
+    unix-timestamp: 1792713600
     description:
-      C: "<p>Initial release of Soplos AppImage Manager. Add AppImages via file chooser or drag and drop, integrate manually placed AppImages with one click, auto-refresh via file monitor, update URL detection from embedded AppImage binary, and full internationalisation in 8 languages.</p>"
-      de: "<p>Erstveröffentlichung des Soplos AppImage-Managers. AppImages per Dateiauswahl oder Drag-and-Drop hinzufügen, manuell platzierte AppImages mit einem Klick integrieren, automatische Aktualisierung über den Dateimonitor, Update-URL-Erkennung aus dem AppImage-Binary und vollständige Internationalisierung in 8 Sprachen.</p>"
-      es: "<p>Lanzamiento inicial del Gestor de AppImage de Soplos. Añade AppImages mediante selector de archivos o arrastrar y soltar, integra AppImages colocados manualmente con un clic, refresco automático mediante monitor de archivos, detección de URL de actualización desde el binario AppImage, e internacionalización completa en 8 idiomas.</p>"
-      fr: "<p>Version initiale du Gestionnaire AppImage Soplos. Ajoutez des AppImages via le sélecteur de fichiers ou le glisser-déposer, intégrez les AppImages placés manuellement en un clic, actualisation automatique via le moniteur de fichiers, détection d'URL de mise à jour depuis le binaire AppImage, et internationalisation complète en 8 langues.</p>"
-      it: "<p>Versione iniziale del Gestore AppImage Soplos. Aggiungi AppImages tramite selettore file o trascinamento, integra AppImages posizionati manualmente con un clic, aggiornamento automatico tramite monitor file, rilevamento URL di aggiornamento dal binario AppImage e internazionalizzazione completa in 8 lingue.</p>"
-      pt: "<p>Lançamento inicial do Gestor de AppImage Soplos. Adicione AppImages através do seletor de ficheiros ou arrastar e largar, integre AppImages colocados manualmente com um clique, atualização automática via monitor de ficheiros, deteção de URL de atualização a partir do binário AppImage e internacionalização completa em 8 idiomas.</p>"
-      ro: "<p>Lansarea inițială a Managerului AppImage Soplos. Adăugați AppImages prin selectorul de fișiere sau prin glisare și plasare, integrați AppImages plasate manual cu un singur clic, reîmprospătare automată prin monitorul de fișiere, detectarea URL-ului de actualizare din binarul AppImage și internaționalizare completă în 8 limbi.</p>"
-      ru: "<p>Первый выпуск Менеджера AppImage Soplos. Добавляйте AppImages через диалог выбора файлов или перетаскивание, интегрируйте вручную размещённые AppImages одним кликом, автообновление через файловый монитор, определение URL обновления из бинарного файла AppImage и полная интернационализация на 8 языках.</p>"
+      C: "<p>The window follows the light or dark theme of the desktop (Xfce, Plasma and GNOME); the button of the window still lets you choose.</p>"
+  - version: "3.0.0-2-beta"
+    type: stable
+    unix-timestamp: 1792627200
+    description:
+      C: "<p>Documentation and packaging fixes.</p><ul><li>Manual page rewritten and installed compressed</li><li>AppStream categories and keywords in 8 languages; developer and project group identifiers now org.soplos; screenshots use web addresses</li><li>Changelog installed to /usr/share/doc/soplos-appimage-manager/</li><li>Debian copyright declares Lucide (ISC), used for the interface icons</li></ul>"
+  - version: "3.0.0-1-beta"
+    type: stable
+    unix-timestamp: 1792368000
+    description:
+      C: "<p>Full 8-language internationalization across desktop launchers and AppStream metadata.</p><p>Added Unix manual page documentation (soplos-appimage-manager.1) installed to /usr/share/man/man1/.</p><p>Registered MIME type handlers for AppImage files and updated Debian packaging metadata.</p>"
+  - version: "3.0.0-beta"
+    type: stable
+    unix-timestamp: 1790985600
+    description:
+      C: "<p>First beta of Soplos AppImage Manager 3.0. Detects already-installed AppImages instead of creating duplicates, shows errors in a visible dialog, and fixes a memory exhaustion bug in metadata extraction along with several process-isolation issues when launching AppImages.</p><ul><li>Fixed downloading an update failing on any AppImage larger than 10MB</li><li>New app icon</li></ul>"
+  - version: "3.0.0-alpha"
+    type: stable
+    unix-timestamp: 1790985600
+    description:
+      C: "<p>Full architecture rewrite of Soplos AppImage Manager, from Python 3 and GTK3 to Tauri 2 with a Rust backend and a Svelte frontend.</p>"
 ContentRating:
   oars-1.1: {}
 ---
@@ -3795,176 +3825,234 @@ Type: desktop-application
 ID: "org.soplos.webappmanager"
 Package: "soplos-webapp-manager"
 Name:
-  C: "WebApp Manager"
+  C: "Soplos WebApp Manager"
+  de: "Soplos WebApp Manager"
+  es: "Soplos WebApp Manager"
+  fr: "Soplos WebApp Manager"
+  it: "Soplos WebApp Manager"
+  pt: "Soplos WebApp Manager"
+  ro: "Soplos WebApp Manager"
+  ru: "Soplos WebApp Manager"
 Summary:
   C: "Create and manage isolated Web Applications"
-  de: "Isolierte Webanwendungen erstellen und verwalten"
-  es: "Crea y gestiona Aplicaciones Web aisladas"
-  fr: "Créer et gérer des applications Web isolées"
+  de: "Isolierte Web-Applikationen erstellen und verwalten"
+  es: "Crea y gestiona aplicaciones web aisladas"
+  fr: "Créez et gérez des applications web isolées"
   it: "Crea e gestisci applicazioni web isolate"
-  pt: "Criar e gerir aplicações Web isoladas"
-  ro: "Creați și gestionați aplicații Web izolate"
+  pt: "Crie e gira aplicações web isoladas"
+  ro: "Creați și gestionați aplicații web izolate"
   ru: "Создание и управление изолированными веб-приложениями"
 Description:
-  C: "<p>Soplos WebApp Manager allows you to run websites as native desktop applications. It creates isolated browsing environments (SSBs) to ensure your webapps can't interact with the cookies or tabs from your main browsing sessions, increasing productivity and privacy.</p><p>Features:</p><ul><li>Supports multiple browsers out-of-the-box (Firefox, Chrome, Brave, Epiphany, Vivaldi, etc).</li><li>Full WebApp editing (Name, URL, Icon, Browser, and Navbar).</li><li>Extra browser parameters support (e.g. --start-maximized, --kiosk).</li><li>Improved Wayland/Plasma 6 icon mapping and window association.</li><li>Smart Flatpak compatibility tracking.</li><li>Auto-download of high quality 128px favicons natively.</li><li>Custom userChrome.css injection for pristine Firefox instances.</li></ul>"
-  de: "<p>Soplos WebApp Manager ermöglicht es Ihnen, Websites als native Desktop-Anwendungen auszuführen. Er erstellt isolierte Browserumgebungen (SSBs), um sicherzustellen, dass Ihre Web-Apps nicht mit den Cookies oder Tabs Ihrer Haupt-Browsersitzungen interagieren können, was die Produktivität und den Datenschutz erhöht.</p><p>Funktionen:</p><ul><li>Unterstützt mehrere Browser (Firefox, Chrome, Brave, Epiphany, Vivaldi, etc).</li><li>Vollständige WebApp-Bearbeitung (Name, URL, Symbol, Browser und Leiste).</li><li>Zusätzliche Browser-Parameter (z.B. --start-maximized, --kiosk).</li><li>Verbesserte Symbol-Zuordnung für Wayland und Plasma 6.</li><li>Intelligentes Tracking der Flatpak-Kompatibilität.</li><li>Automatischer Download von hochwertigen 128px-Favicons auf native Weise.</li><li>Injektion von benutzerdefiniertem userChrome.css für saubere Firefox-Instanzen.</li></ul>"
-  es: "<p>Soplos WebApp Manager le permite ejecutar sitios web como aplicaciones de escritorio nativas. Crea entornos de navegación aislados (SSBs) para asegurar que sus aplicaciones web no puedan interactuar con las cookies o pestañas de sus sesiones de navegación principales, aumentando la productividad y la privacidad.</p><p>Características:</p><ul><li>Soporta múltiples navegadores (Firefox, Chrome, Brave, Epiphany, Vivaldi, etc).</li><li>Edición completa de WebApps (Nombre, URL, Icono, Navegador y Barra).</li><li>Soporte para parámetros extra del navegador (ej. --start-maximized, --kiosk).</li><li>Mapeo de iconos mejorado para Wayland y Plasma 6.</li><li>Seguimiento inteligente de compatibilidad con Flatpak.</li><li>Descarga automática de favicons de alta calidad (128px) de forma nativa.</li><li>Inyección de userChrome.css personalizado para instancias de Firefox integradas.</li></ul>"
-  fr: "<p>Soplos WebApp Manager vous permet d'exécuter des sites Web en tant qu'applications de bureau natives. Il crée des environnements de navigation isolés (SSB) pour garantir que vos applications Web ne puissent pas interagir avec les cookies ou les onglets de vos sessions de navigation principales, augmentant ainsi la productivité et la confidentialité.</p><p>Fonctionnalités :</p><ul><li>Prend en charge plusieurs navigateurs (Firefox, Chrome, Brave, Epiphany, Vivaldi, etc).</li><li>Édition complète des WebApps (Nom, URL, Icône, Navigateur et Barre).</li><li>Paramètres supplémentaires du navigateur (ex. --start-maximized, --kiosk).</li><li>Amélioration du mappage des icônes pour Wayland et Plasma 6.</li><li>Suivi intelligent de la compatibilité Flatpak.</li><li>Téléchargement automatique de favicons 128px de haute qualité en mode natif.</li><li>Injection de userChrome.css personnalisé pour des instances Firefox épurées.</li></ul>"
-  it: "<p>Soplos WebApp Manager ti permette di eseguire siti web come applicazioni desktop native. Crea ambienti di navigazione isolati (SSB) per garantire que le tue webapp non possano interagire con i cookie o le schede delle tue sessioni di navigazione principali, aumentando la produttività e la privacy.</p><p>Caratteristiche:</p><ul><li>Supporta più browser (Firefox, Chrome, Brave, Epiphany, Vivaldi, etc).</li><li>Modifica completa delle WebApp (Nome, URL, Icona, Browser e Barra).</li><li>Supporto per parametri aggiuntivi del browser (es. --start-maximized, --kiosk).</li><li>Mappatura delle icone migliorata per Wayland e Plasma 6.</li><li>Monitoraggio intelligente della compatibilità Flatpak.</li><li>Download automatico di favicon a 128px di alta qualità in modo nativo.</li><li>Iniezione di userChrome.css personalizzato per istanze di Firefox pulite.</li></ul>"
-  pt: "<p>O Soplos WebApp Manager permite executar sites como aplicações de desktop nativas. Cria ambientes de navegação isolados (SSBs) para garantir que as suas aplicações Web não possam interagir com os cookies ou separadores das suas sessões de navegação principais, aumentando a produtividade e a privacidade.</p><p>Características:</p><ul><li>Suporta vários navegadores (Firefox, Chrome, Brave, Epiphany, Vivaldi, etc).</li><li>Edição completa de WebApps (Nome, URL, Ícone, Navegador e Barra).</li><li>Suporte para parâmetros extras do navegador (ex. --start-maximized, --kiosk).</li><li>Mapeamento de ícones aprimorado para Wayland e Plasma 6.</li><li>Rastreamento inteligente de compatibilidade Flatpak.</li><li>Download automático de favicons de 128px de alta qualidade nativamente.</li><li>Injeção de userChrome.css personalizado para instâncias integradas do Firefox.</li></ul>"
-  ro: "<p>Soplos WebApp Manager vă permite să rulați site-uri web ca aplicații desktop native. Acesta creează medii de navigare izolate (SSB) pentru a se asigura că aplicațiile dumneavoastră web nu pot interacționa cu modulele cookie sau filele din sesiunile principale de navigare, crescând productivitatea și confidențialitatea.</p><p>Caracteristici:</p><ul><li>Suportă mai multe browsere (Firefox, Chrome, Brave, Epiphany, Vivaldi etc).</li><li>Editare completă a aplicațiilor Web (Nume, URL, Pictogramă, Browser și Bară).</li><li>Suport pentru parametri suplimentari ai browserului (de ex. --start-maximized, --kiosk).</li><li>Mapare îmbunătățită a pictogramelor pentru Wayland și Plasma 6.</li><li>Urmărirea inteligentă a compatibilității Flatpak.</li><li>Descărcarea automată a faviconurilor de 128px de înaltă calitate în mod nativ.</li><li>Injectarea de userChrome.css personalizat pentru instanțe de Firefox integrate.</li></ul>"
-  ru: "<p>Soplos WebApp Manager позволяет запускать веб-сайты как нативные настольные приложения. Он создает изолированные среды просмотра (SSB), чтобы ваши веб-приложения не могли взаимодействовать с файлами cookie или вкладками ваших основных сеансов просмотра, повышая производительность и конфиденциальность.</p><p>Возможности:</p><ul><li>Поддержка нескольких браузеров (Firefox, Chrome, Brave, Epiphany, Vivaldi и др.).</li><li>Полное редактирование веб-приложений (имя, URL, значок, браузер и панель).</li><li>Поддержка дополнительных параметров браузера (напр. --start-maximized, --kiosk).</li><li>Улучшенное сопоставление значков для Wayland и Plasma 6.</li><li>Интеллектуальное отслеживание совместимости с Flatpak.</li><li>Автоматическая загрузка высококачественных фавиконов (128px) нативным способом.</li><li>Внедрение пользовательского userChrome.css для чистых экземпляров Firefox.</li></ul>"
-ProjectLicense: "GPL-3.0+"
-DeveloperName:
-  C: "Sergi Perich"
+  C: "<p>Soplos WebApp Manager lets you run websites as native desktop applications. It creates isolated browsing profiles (Site Specific Browsers) so a webapp never shares cookies or open tabs with your main browsing session, using whichever browser you already have installed.</p>"
+  de: "<p>Soplos WebApp Manager ermöglicht es, Websites als native Desktop-Anwendungen auszuführen. Es erstellt isolierte Browser-Profile (Site Specific Browsers), sodass eine Web-App niemals Cookies oder offene Tabs mit der Hauptbrowser-Sitzung teilt, und verwendet dafür den bereits installierten Browser.</p>"
+  es: "<p>Soplos WebApp Manager permite ejecutar sitios web como aplicaciones de escritorio nativas. Crea perfiles de navegación aislados (navegadores específicos del sitio) para que una aplicación web nunca comparta cookies ni pestañas abiertas con tu sesión de navegación principal, usando el navegador que ya tengas instalado.</p>"
+  fr: "<p>Soplos WebApp Manager vous permet d'exécuter des sites web comme des applications de bureau natives. Il crée des profils de navigation isolés (navigateurs spécifiques au site) afin qu'une application web ne partage jamais les cookies ni les onglets ouverts avec votre session de navigation principale, en utilisant le navigateur déjà installé.</p>"
+  it: "<p>Soplos WebApp Manager consente di eseguire siti web come applicazioni desktop native. Crea profili di navigazione isolati (browser specifici del sito) in modo che una web app non condivida mai cookie o schede aperte con la sessione di navigazione principale, utilizzando il browser già installato.</p>"
+  pt: "<p>O Soplos WebApp Manager permite executar sites como aplicações de desktop nativas. Cria perfis de navegação isolados (navegadores específicos do site) para que uma aplicação web nunca partilhe cookies nem separadores abertos com a sessão de navegação principal, usando o navegador que já tem instalado.</p>"
+  ro: "<p>Soplos WebApp Manager vă permite să rulați site-uri web ca aplicații desktop native. Creează profiluri de navigare izolate (browsere specifice site-ului) astfel încât o aplicație web să nu partajeze niciodată cookie-uri sau file deschise cu sesiunea principală de navigare, folosind browserul deja instalat.</p>"
+  ru: "<p>Soplos WebApp Manager позволяет запускать веб-сайты как нативные настольные приложения. Он создаёт изолированные профили браузера (браузеры для конкретного сайта), чтобы веб-приложение никогда не делило куки или открытые вкладки с основной сессией браузера, используя любой уже установленный браузер.</p>"
+ProjectLicense: "GPL-3.0-or-later"
+Developer:
+  id: "org.soplos"
+  name:
+    C: "Sergi Perich"
 Url:
   homepage: "https://soplos.org"
-  bugtracker: "https://github.com/SoplosLinux/soplos-webapp-manager/issues"
 Categories:
   - "System"
-  - "Utility"
+  - "Settings"
+  - "Network"
+Keywords:
+  C:
+    - "webapp"
+    - "ssb"
+    - "browser"
+    - "pwa"
+    - "site specific browser"
+    - "soplos"
+  de:
+    - "WebApp"
+    - "SSB"
+    - "Browser"
+    - "PWA"
+    - "Site-Specific-Browser"
+    - "soplos"
+  es:
+    - "webapp"
+    - "ssb"
+    - "navegador"
+    - "pwa"
+    - "navegador específico del sitio"
+    - "soplos"
+  fr:
+    - "webapp"
+    - "ssb"
+    - "navigateur"
+    - "pwa"
+    - "navigateur spécifique au site"
+    - "soplos"
+  it:
+    - "webapp"
+    - "ssb"
+    - "browser"
+    - "pwa"
+    - "browser specifico del sito"
+    - "soplos"
+  pt:
+    - "webapp"
+    - "ssb"
+    - "navegador"
+    - "pwa"
+    - "navegador específico do site"
+    - "soplos"
+  ro:
+    - "webapp"
+    - "ssb"
+    - "browser"
+    - "pwa"
+    - "browser specific site"
+    - "soplos"
+  ru:
+    - "веб-приложение"
+    - "ssb"
+    - "браузер"
+    - "pwa"
+    - "браузер для сайта"
+    - "soplos"
 Icon:
   cached:
-    - name: "org.soplos.webappmanager.png"
+    - name: "soplos-webapp-manager.png"
       width: 48
       height: 48
-    - name: "org.soplos.webappmanager.png"
+    - name: "soplos-webapp-manager.png"
       width: 64
       height: 64
-    - name: "org.soplos.webappmanager.png"
+    - name: "soplos-webapp-manager.png"
       width: 128
       height: 128
   remote:
-    - url: "soplos-webapp-manager/icons/48x48/org.soplos.webappmanager.png"
+    - url: "soplos-webapp-manager/icons/48x48/soplos-webapp-manager.png"
       width: 48
       height: 48
-    - url: "soplos-webapp-manager/icons/64x64/org.soplos.webappmanager.png"
+    - url: "soplos-webapp-manager/icons/64x64/soplos-webapp-manager.png"
       width: 64
       height: 64
-    - url: "soplos-webapp-manager/icons/128x128/org.soplos.webappmanager.png"
+    - url: "soplos-webapp-manager/icons/128x128/soplos-webapp-manager.png"
       width: 128
       height: 128
 Launchable:
   desktop-id:
-    - "org.soplos.webappmanager.desktop"
+    - "soplos-webapp-manager.desktop"
 Provides:
   binaries:
     - "soplos-webapp-manager"
 Screenshots:
   - default: true
     caption:
-      C: "Main dashboard showing installed WebApps"
-      de: "Haupt-Dashboard mit den installierten WebApps"
-      es: "Panel principal mostrando las WebApps instaladas"
-      fr: "Tableau de bord principal présentant les WebApps installées"
-      it: "Dashboard principale con le WebApp installate"
-      pt: "Painel principal mostrando os WebApps instalados"
-      ro: "Panoul central care afișează aplicațiile Web instalate"
-      ru: "Главная панель со списком установленных веб-приложений"
+      C: "Main window with the hero banner and the list of WebApps"
+      de: "Hauptfenster mit dem Banner und der Liste der Web-Apps"
+      es: "Ventana principal con el banner y la lista de aplicaciones web"
+      fr: "Fenêtre principale avec la bannière et la liste des applications web"
+      it: "Finestra principale con il banner e l'elenco delle applicazioni web"
+      pt: "Janela principal com o banner e a lista de aplicações web"
+      ro: "Fereastra principală cu bannerul și lista aplicațiilor web"
+      ru: "Главное окно с баннером и списком веб-приложений"
     source-image:
-      url: "soplos-webapp-manager/screenshots/screenshot1.png"
-      width: 602
-      height: 492
+      url: "soplos-webapp-manager/screenshots/screenshot01.png"
+      width: 720
+      height: 572
   - caption:
-      C: "WebApp creation dialog with browser selection"
-      de: "WebApp-Erstellungsdialog mit Browser-Auswahl"
-      es: "Diálogo de creación de WebApp con selección de navegador"
-      fr: "Dialogue de création WebApp avec sélection du navigateur"
-      it: "Finestra di creazione WebApp con selezione del browser"
-      pt: "Diálogo de criação de WebApp com selección de navegador"
-      ro: "Dialog pentru crearea aplicațiilor Web cu selectarea browserului"
-      ru: "Диалог создания веб-приложения с выбором браузера"
+      C: "Editing a WebApp's name, address, icon and browser"
+      de: "Name, Adresse, Symbol und Browser einer Web-App bearbeiten"
+      es: "Editando el nombre, dirección, icono y navegador de una aplicación web"
+      fr: "Modification du nom, de l'adresse, de l'icône et du navigateur d'une application web"
+      it: "Modifica del nome, indirizzo, icona e browser di una web app"
+      pt: "Editando o nome, endereço, ícone e navegador de uma aplicação web"
+      ro: "Editarea numelui, adresei, pictogramei și browserului unei aplicații web"
+      ru: "Редактирование имени, адреса, значка и браузера веб-приложения"
     source-image:
-      url: "soplos-webapp-manager/screenshots/screenshot2.png"
-      width: 404
-      height: 447
+      url: "soplos-webapp-manager/screenshots/screenshot02.png"
+      width: 720
+      height: 572
   - caption:
-      C: "Web App window natively integrated into the system"
-      de: "Nativ in das System integriertes Web-App-Fenster"
-      es: "Ventana de Web App integrada nativamente en el sistema"
-      fr: "Fenêtre de Web App intégrée nativement dans le système"
-      it: "Finestra della Web App integrata nativamente nel sistema"
-      pt: "Janela de Web App integrada nativamente ao sistema"
-      ro: "Fereastră Web App integrată nativ în sistem"
-      ru: "Окно веб-приложения, нативно интегрированное в систему"
+      C: "Help for the extra browser launch parameters"
+      de: "Hilfe zu den zusätzlichen Browser-Startparametern"
+      es: "Ayuda para los parámetros de lanzamiento del navegador"
+      fr: "Aide pour les paramètres de lancement supplémentaires du navigateur"
+      it: "Guida ai parametri di avvio extra del browser"
+      pt: "Ajuda para os parâmetros de lançamento extra do navegador"
+      ro: "Ajutor pentru parametrii suplimentari de lansare a browserului"
+      ru: "Справка по дополнительным параметрам запуска браузера"
     source-image:
-      url: "soplos-webapp-manager/screenshots/screenshot3.png"
-      width: 602
-      height: 492
+      url: "soplos-webapp-manager/screenshots/screenshot03.png"
+      width: 720
+      height: 572
+  - caption:
+      C: "Adding a new WebApp with automatic favicon lookup"
+      de: "Neue Web-App hinzufügen mit automatischer Favicon-Suche"
+      es: "Añadiendo una nueva aplicación web con búsqueda automática de favicon"
+      fr: "Ajout d'une nouvelle application web avec recherche automatique de favicon"
+      it: "Aggiunta di una nuova web app con ricerca automatica del favicon"
+      pt: "Adicionando uma nova aplicação web com pesquisa automática de favicon"
+      ro: "Adăugarea unei noi aplicații web cu căutare automată a favicon-ului"
+      ru: "Добавление нового веб-приложения с автоматическим поиском favicon"
+    source-image:
+      url: "soplos-webapp-manager/screenshots/screenshot04.png"
+      width: 720
+      height: 572
 Releases:
-  - version: "1.0.0-5"
+  - version: "3.0.0"
     type: stable
-    unix-timestamp: 1783382400
+    unix-timestamp: 1794873600
     description:
-      de: "<p>Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.</p>"
-      en: "<p>Build dependency python3-all replaced with python3.</p>"
-      es: "<p>Se ha sustituido la dependencia de compilación python3-all por python3.</p>"
-      fr: "<p>La dépendance de compilation python3-all a été remplacée par python3.</p>"
-      it: "<p>La dipendenza di compilazione python3-all è stata sostituita con python3.</p>"
-      pt: "<p>A dependência de compilação python3-all foi substituída por python3.</p>"
-      ro: "<p>Dependența de compilare python3-all a fost înlocuită cu python3.</p>"
-      ru: "<p>Зависимость сборки python3-all заменена на python3.</p>"
-  - version: "1.0.0-4"
+      C: "<p>First stable release.</p>"
+  - version: "3.0.0-7-beta"
     type: stable
-    unix-timestamp: 1777507200
+    unix-timestamp: 1793750400
     description:
-      C: "<p>Simplified the footer UI text to match the modern Soplos standard layout. Added icon persistence and fixed theme support.</p><ul><li>WebApp icons are now saved permanently in the local data folder instead of the cache folder.</li><li>The application now correctly respects the system's light or dark GTK theme preference.</li></ul>"
-      de: "<p>Der Text der Statusleiste wurde vereinfacht. Symbolpersistenz hinzugefügt und Unterstützung für helles/dunkles Systemdesign korrigiert.</p><ul><li>WebApp-Symbole werden nun dauerhaft im lokalen Datenordner anstatt im Cache gespeichert.</li><li>Die Anwendung respektiert nun korrekt die Systemeinstellung für ein helles oder dunkles GTK-Design.</li></ul>"
-      en: "<p>Simplified the footer UI text to match the modern Soplos standard layout. Added icon persistence and fixed theme support.</p>"
-      es: "<p>Se ha simplificado el texto de la barra de estado. Añadida persistencia de iconos y soporte corregido para el tema claro/oscuro del sistema.</p><ul><li>Los iconos de las WebApps se guardan de forma permanente en la carpeta local de datos en lugar de la caché.</li><li>La aplicación ahora respeta correctamente la preferencia del tema GTK claro u oscuro del sistema.</li></ul>"
-      fr: "<p>Le texte de la barre d'état a été simplifié. Ajout de la persistance des icônes et correction de la prise en charge du thème clair/sombre du système.</p><ul><li>Les icônes WebApp sont désormais enregistrées de manière permanente dans le dossier de données local au lieu du cache.</li><li>L'application respecte désormais correctement la préférence de thème clair ou sombre du système.</li></ul>"
-      it: "<p>Il testo della barra di stato è stato semplificato. Aggiunta la persistenza delle icone e corretto il supporto per il tema chiaro/scuro del sistema.</p><ul><li>Le icone delle WebApp vengono ora salvate in modo permanente nella cartella dati locale anziché nella cache.</li><li>L'applicazione ora rispetta correttamente la preferenza per il tema GTK chiaro o scuro del sistema.</li></ul>"
-      pt: "<p>O texto da barra de status foi simplificado. Adicionada persistência de ícones e suporte corrigido para o tema claro/escuro do sistema.</p><ul><li>Os ícones dos WebApps agora são salvos permanentemente na pasta de dados local em vez do cache.</li><li>O aplicativo agora respeita corretamente a preferência do tema claro ou escuro do sistema.</li></ul>"
-      ro: "<p>Textul barei de stare a fost simplificat. S-a adăugat persistența pictogramelor și s-a corectat suportul pentru tema deschisă/închisă a sistemului.</p><ul><li>Pictogramele WebApp sunt acum salvate permanent în folderul de date local în loc de memoria cache.</li><li>Aplicația respectă acum în mod corect preferința de temă deschisă sau închisă a sistemului.</li></ul>"
-      ru: "<p>Текст строки состояния был упрощен. Добавлено сохранение значков и исправлена поддержка светлой/темной темы системы.</p><ul><li>Значки WebApp теперь сохраняются постоянно в локальной папке данных, а не в кеше.</li><li>Теперь приложение корректно учитывает системные настройки светлой или темной темы GTK.</li></ul>"
-  - version: "1.0.0-3"
+      C: "<p>The application metadata points to the installed launcher, and the manual page is the same in the project and in the package.</p>"
+  - version: "3.0.0-6-beta"
     type: stable
-    unix-timestamp: 1774137600
+    unix-timestamp: 1793232000
     description:
-      C: "<p>Fixed background color inconsistency in the main window.</p>"
-      de: "<p>Inkonsistenz der Hintergrundfarbe im Hauptfenster behoben.</p>"
-      es: "<p>Corregida la inconsistencia del color de fondo en la ventana principal.</p>"
-      fr: "<p>Correction de l'incohérence de couleur de fond dans la fenêtre principale.</p>"
-      it: "<p>Corretta l'incongruenza del colore di sfondo nella finestra principale.</p>"
-      pt: "<p>Corrigida a inconsistência da cor de fundo na janela principal.</p>"
-      ro: "<p>Corectată inconsistența culorii de fundal în fereastra principală.</p>"
-      ru: "<p>Исправлена несоответствие цвета фона в главном окне.</p>"
-  - version: "1.0.0-2"
+      C: "<p>The window no longer has the frame of the system: it is a card with rounded corners and its own minimize, maximize and close buttons.</p>"
+  - version: "3.0.0-5-beta"
     type: stable
-    unix-timestamp: 1774051200
+    unix-timestamp: 1793145600
     description:
-      C: "<p>About dialog added with F1 shortcut and GNOME application menu action.</p>"
-      de: "<p>Über-Dialog hinzugefügt mit F1-Tastenkürzel und GNOME-Anwendungsmenü-Aktion.</p>"
-      es: "<p>Diálogo Acerca de añadido con atajo F1 y acción en el menú de aplicación GNOME.</p>"
-      fr: "<p>Dialogue À propos ajouté avec raccourci F1 et action dans le menu application GNOME.</p>"
-      it: "<p>Finestra di dialogo Informazioni aggiunta con scorciatoia F1 e azione nel menu applicazione GNOME.</p>"
-      pt: "<p>Diálogo Sobre adicionado com atalho F1 e ação no menu de aplicação GNOME.</p>"
-      ro: "<p>Dialog Despre adăugat cu scurtătură F1 și acțiune în meniul aplicației GNOME.</p>"
-      ru: "<p>Добавлен диалог «О программе» с горячей клавишей F1 и действием в меню приложения GNOME.</p>"
-  - version: "1.0.0-1"
+      C: "<p>New application icon, new hero image and new screenshots, taken with the interface in English. Fixed a WebApp showing twice in the application menu because of a leftover link from earlier versions.</p>"
+  - version: "3.0.0-4-beta"
     type: stable
-    unix-timestamp: 1773100800
+    unix-timestamp: 1792800000
     description:
-      C: "<p>Standardized Soplos UI with official footer and environment detection. Added Incognito mode and expanded browser flags help.</p><ul><li>Official Soplos footer with system info and app version.</li><li>Real-time desktop environment and display protocol detection.</li><li>Incognito mode support for isolated private sessions.</li><li>Enhanced browser flags help dialog with key parameters guide.</li></ul>"
-      de: "<p>Standardisierte Soplos-Benutzeroberfläche mit offizieller Fußzeile und Umgebungserkennung. Inkognito-Modus hinzugefügt und erweiterte Hilfe für Browser-Parameter.</p><ul><li>Offizielle Soplos-Fußzeile mit Systeminfo und App-Version.</li><li>Echtzeit-Erkennung von Desktop-Umgebung und Display-Protokoll.</li><li>Unterstützung des Inkognito-Modus für isolierte private Sitzungen.</li><li>Verbesserter Hilfe-Dialog für Browser-Parameter mit Leitfaden für Schlüsselparameter.</li></ul>"
-      es: "<p>UI de Soplos estandarizada con footer oficial y detección de entorno. Añadido modo incógnito y ayuda de parámetros de navegación ampliada.</p><ul><li>Footer oficial de Soplos con info del sistema y versión de la app.</li><li>Detección en tiempo real del escritorio y protocolo de pantalla.</li><li>Soporte para modo incógnito en sesiones privadas aisladas.</li><li>Diálogo de ayuda de parámetros de navegador mejorado con guía de parámetros clave.</li></ul>"
-      fr: "<p>Interface Soplos standardisée avec footer officiel et détection d'environnement. Ajout du mode incognito et aide aux paramètres de navigation étendue.</p><ul><li>Footer officiel de Soplos avec info système et version de l'application.</li><li>Détection en temps réel de l'environnement de bureau et du protocole d'affichage.</li><li>Prise en charge du mode incognito pour les sessions privées isolées.</li><li>Dialogue d'aide aux paramètres du navigateur amélioré avec guide des paramètres clés.</li></ul>"
-      it: "<p>Interfaccia Soplos standardizzata con footer ufficiale e rilevamento dell'ambiente. Aggiunta modalità in incognito e guida ai parametri del browser espansa.</p><ul><li>Footer ufficiale di Soplos con info di sistema e versione dell'app.</li><li>Rilevamento in tempo reale dell'ambiente desktop e del protocollo di visualizzazione.</li><li>Supporto per la modalità in incognito per sessioni private isolate.</li><li>Finestra di aiuto ai parametri del browser migliorata con guida ai parametri chiave.</li></ul>"
-      pt: "<p>Interface Soplos padronizada com rodapé oficial e deteção de ambiente. Adicionado modo de navegação anônima e ajuda de parâmetros de navegador expandida.</p><ul><li>Rodapé oficial da Soplos com info do sistema e versão da aplicação.</li><li>Deteção em tempo real de ambiente de desktop e protocolo de exibição.</li><li>Suporte para modo de navegação anônima para sessões privadas isoladas.</li><li>Diálogo de ajuda de parâmetros de navegador aprimorado com guia de parâmetros principais.</li></ul>"
-      ro: "<p>Interfață Soplos standardizată cu subsol oficial și detectarea mediului. S-a adăugat modul incognito și ajutor extins pentru parametrii browserului.</p><ul><li>Subsol oficial Soplos cu informații despre sistem și versiunea aplicației.</li><li>Detectarea în timp real a mediului de desktop și a protocolului de afișare.</li><li>Suport pentru modul incognito pentru sesiuni private izolate.</li><li>Dialog de ajutor pentru parametrii browserului îmbunătățit cu ghid de parametri cheie.</li></ul>"
-      ru: "<p>Стандартизированный интерфейс Soplos с официальным футером и определением окружения. Добавлен режим инкогнито и расширенная справка по параметрам браузера.</p><ul><li>Официальный футер Soplos с информацией о системе и версии приложения.</li><li>Определение окружения рабочего стола и протокола отображения в реальном времени.</li><li>Поддержка режима инкогнито для изолированных приватных сессий.</li><li>Улучшенный диалог справки по параметрам браузера с руководством по ключевым параметрам.</li></ul>"
-  - version: "1.0.0"
+      C: "<p>Extensions, launch parameters, categories and Flatpak browsers.</p><ul><li>Extensions for each WebApp: searched by name in addons.mozilla.org for Firefox-based browsers, and installed from the store of the browser for the ones based on Chrome</li><li>Launch parameters as checkboxes for the browsers based on Chrome, linked with the text field</li><li>All the sections of the application menu as categories, also when editing a WebApp</li><li>WebApps of Flatpak browsers open again, and the browser of a WebApp is found correctly; Brave Origin is detected and Midori is launched correctly</li></ul>"
+  - version: "3.0.0-3-beta"
     type: stable
-    unix-timestamp: 1772582400
+    unix-timestamp: 1792713600
     description:
-      C: "<p>Initial release with advanced management features.</p><ul><li>Full WebApp editing (Name, URL, Icon, Browser, and Navbar).</li><li>Extra browser parameters support (e.g. --start-maximized, --kiosk).</li><li>KDE Plasma 6 Wayland and XFCE icon mapping fixes.</li><li>Auto favicon loading and GTK3 native integration.</li></ul>"
-      de: "<p>Erste Veröffentlichung mit erweiterten Verwaltungsfunktionen.</p><ul><li>Vollständige WebApp-Bearbeitung (Name, URL, Symbol, Browser und Leiste).</li><li>Zusätzliche Browser-Parameter (z.B. --start-maximized, --kiosk).</li><li>Fehlerbehebungen bei der Symbol-Zuordnung für KDE Plasma 6 Wayland und XFCE.</li><li>Automatisches Laden von Favicons und native GTK3-Integration.</li></ul>"
-      es: "<p>Lanzamiento inicial con funciones de gestión avanzadas.</p><ul><li>Edición completa de WebApps (Nombre, URL, Icono, Navegador y Barra).</li><li>Soporte para parámetros extra del navegador (ej. --start-maximized, --kiosk).</li><li>Correcciones de mapeo de iconos para KDE Plasma 6 Wayland y XFCE.</li><li>Carga automática de favicons e integración nativa con GTK3.</li></ul>"
-      fr: "<p>Sortie initiale avec des fonctions de gestion avancées.</p><ul><li>Édition complète des WebApps (Nom, URL, Icône, Navigateur et Barre).</li><li>Paramètres supplémentaires du navigateur (ex. --start-maximized, --kiosk).</li><li>Corrections du mappage des icônes pour KDE Plasma 6 Wayland et XFCE.</li><li>Chargement automatique des favicons et intégration native GTK3.</li></ul>"
-      it: "<p>Versione iniziale con funzioni di gestione avanzate.</p><ul><li>Modifica completa delle WebApp (Nome, URL, Icona, Browser e Barra).</li><li>Supporto per parametri aggiuntivi del browser (es. --start-maximized, --kiosk).</li><li>Correzioni della mappatura delle icone per KDE Plasma 6 Wayland e XFCE.</li><li>Caricamento automatico delle favicon e integrazione nativa GTK3.</li></ul>"
-      pt: "<p>Lançamento inicial com recursos avançados de gerenciamento.</p><ul><li>Edição completa de WebApps (Nome, URL, Ícone, Navegador e Barra).</li><li>Suporte para parâmetros extras do navegador (ex. --start-maximized, --kiosk).</li><li>Correções de mapeamento de ícones para KDE Plasma 6 Wayland e XFCE.</li><li>Carregamento automático de favicons e integração nativa GTK3.</li></ul>"
-      ro: "<p>Lansare inițială cu funcții de gestionare avansate.</p><ul><li>Editare completă a aplicațiilor Web (Nume, URL, Pictogramă, Browser și Bară).</li><li>Suport pentru parametri suplimentari ai browserului (de ex. --start-maximized, --kiosk).</li><li>Corecții de mapare a pictogramelor pentru KDE Plasma 6 Wayland și XFCE.</li><li>Încărcarea automată a faviconurilor și integrarea nativă GTK3.</li></ul>"
-      ru: "<p>Первый выпуск с расширенными функциями управления.</p><ul><li>Полное редактирование веб-приложений (имя, URL, значок, браузер и панель).</li><li>Поддержка дополнительных параметров браузера (напр. --start-maximized, --kiosk).</li><li>Исправления сопоставления значков для KDE Plasma 6 Wayland и XFCE.</li><li>Автоматическая загрузка фавиконов и нативная интеграция с GTK3.</li></ul>"
+      C: "<p>The window follows the light or dark theme of the desktop (Xfce, Plasma and GNOME); the button of the window still lets you choose.</p>"
+  - version: "3.0.0-2-beta"
+    type: stable
+    unix-timestamp: 1792627200
+    description:
+      C: "<p>Packaging and metadata fixes.</p><ul><li>Changelog installed to /usr/share/doc/soplos-webapp-manager/</li><li>AppStream categories and keywords in 8 languages; developer and project group identifiers now org.soplos</li><li>Manual page installed compressed, and an invalid character in it fixed</li><li>Debian copyright declares Lucide (ISC), used for the interface icons</li></ul>"
+  - version: "3.0.0-1-beta"
+    type: stable
+    unix-timestamp: 1792368000
+    description:
+      C: "<p>Packaging and documentation standardisation.</p><ul><li>Unix manual page added (soplos-webapp-manager(1))</li><li>Desktop entry and AppStream metainfo translated to 8 languages</li><li>README updated with badges, architecture, shortcuts and build instructions</li></ul>"
+  - version: "3.0.0-beta"
+    type: stable
+    unix-timestamp: 1790899200
+    description:
+      C: "<p>First beta of the Tauri-based rewrite of Soplos WebApp Manager.</p><ul><li>New hero banner with the language switcher and the Add/Remove controls</li><li>Keyboard shortcuts for every common action</li><li>Drag and drop a link from the browser to create a WebApp</li><li>Many more browsers detected, including LibreWolf, Zen Browser and Opera</li><li>Automatic fix for a blank window in virtual machines</li><li>Fixed the app freezing when selecting a custom icon</li><li>Fixed favicon download being able to hang indefinitely with no timeout</li><li>New app icon</li></ul>"
+  - version: "3.0.0-alpha"
+    type: stable
+    unix-timestamp: 1790640000
+    description:
+      C: "<p>First alpha of the Tauri-based rewrite of Soplos WebApp Manager.</p>"
+ContentRating:
+  oars-1.1: {}
 ---
 Type: desktop-application
 ID: "org.soplos.welcome"
