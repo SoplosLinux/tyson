@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: "SoplosLinux"
 MediaBaseUrl: "https://raw.githubusercontent.com/SoplosLinux/tyson/main/media"
-Time: 20261125T065907
+Time: 20261125T114227
 ---
 Type: desktop-application
 ID: "com.mitchellh.ghostty"
@@ -1400,11 +1400,30 @@ Provides:
   binaries:
     - "soplos-linux-installer"
 Releases:
+  - version: "3.0.0-1"
+    type: stable
+    unix-timestamp: 1795564800
+    description:
+      C: "<p>From the live session the installer looks for a newer version of itself in the Soplos repository and offers to update: it updates, closes and opens again.</p><p>The kernel of the image no longer comes back next to the chosen one: its metapackage is removed with it, so a newer stock kernel in the repository is not installed.</p>"
+      de: "<p>In der Live-Sitzung sucht das Installationsprogramm im Soplos-Repository nach einer neueren Version von sich selbst und bietet die Aktualisierung an: Es aktualisiert sich, schließt sich und öffnet sich erneut.</p><p>Der Kernel des Images kommt nicht mehr neben dem gewählten zurück: Sein Metapaket wird mit ihm entfernt, sodass kein neuerer Standard-Kernel aus dem Repository installiert wird.</p>"
+      es: "<p>Desde la sesión Live, el instalador busca una versión más nueva de sí mismo en el repositorio de Soplos y ofrece actualizarse: se actualiza, se cierra y se abre de nuevo.</p><p>El kernel de la imagen ya no vuelve junto al elegido: su metapaquete se quita con él, así que no se instala un kernel de serie más nuevo del repositorio.</p>"
+      fr: "<p>Depuis la session live, l'installateur cherche une version plus récente de lui-même dans le dépôt Soplos et propose de se mettre à jour : il se met à jour, se ferme et s'ouvre à nouveau.</p><p>Le noyau de l'image ne revient plus à côté de celui choisi : son métapaquet est retiré avec lui, donc un noyau standard plus récent du dépôt n'est pas installé.</p>"
+      it: "<p>Dalla sessione live, il programma di installazione cerca una versione più recente di sé nel repository Soplos e propone di aggiornarsi: si aggiorna, si chiude e si riapre.</p><p>Il kernel dell'immagine non torna più accanto a quello scelto: il suo metapacchetto viene rimosso insieme, quindi non viene installato un kernel standard più recente del repository.</p>"
+      pt: "<p>A partir da sessão live, o instalador procura uma versão mais recente de si mesmo no repositório Soplos e oferece-se para atualizar: atualiza-se, fecha e abre de novo.</p><p>O kernel da imagem já não volta ao lado do escolhido: o seu metapacote é removido com ele, por isso não é instalado um kernel padrão mais recente do repositório.</p>"
+      ro: "<p>Din sesiunea live, programul de instalare caută o versiune mai nouă a sa în depozitul Soplos și oferă actualizarea: se actualizează, se închide și se deschide din nou.</p><p>Kernelul imaginii nu mai revine lângă cel ales: metapachetul său este eliminat odată cu el, așa că nu se instalează un kernel standard mai nou din depozit.</p>"
+      ru: "<p>В live-сессии установщик ищет более новую версию самого себя в репозитории Soplos и предлагает обновиться: он обновляется, закрывается и открывается снова.</p><p>Ядро образа больше не возвращается рядом с выбранным: его метапакет удаляется вместе с ним, поэтому более новое стандартное ядро из репозитория не устанавливается.</p>"
   - version: "3.0.0"
     type: stable
     unix-timestamp: 1794873600
     description:
       C: "<p>First stable release. It installs Tyron, Tyson and Boro with the boot loader you choose, the kernel for the level of the processor and the drivers the hardware needs, and it replaces Calamares.</p><p>Manual partitioning covers every mount point of Calamares and partitions of data of your own, with F2FS and JFS for the system and exFAT, NTFS and FAT32 for data.</p>"
+      de: "<p>Erste stabile Version. Es installiert Tyron, Tyson und Boro mit dem gewählten Bootloader, dem Kernel für die Stufe des Prozessors und den Treibern, die die Hardware braucht, und ersetzt Calamares.</p><p>Die manuelle Partitionierung deckt alle Einhängepunkte von Calamares und eigene Datenpartitionen ab, mit F2FS und JFS für das System und exFAT, NTFS und FAT32 für Daten.</p>"
+      es: "<p>Primera versión estable. Instala Tyron, Tyson y Boro con el gestor de arranque que elijas, el kernel para el nivel del procesador y los controladores que necesita el hardware, y sustituye a Calamares.</p><p>El particionado manual cubre todos los puntos de montaje de Calamares y particiones de datos propias, con F2FS y JFS para el sistema y exFAT, NTFS y FAT32 para datos.</p>"
+      fr: "<p>Première version stable. Il installe Tyron, Tyson et Boro avec le chargeur d'amorçage de votre choix, le noyau adapté au niveau du processeur et les pilotes dont le matériel a besoin, et il remplace Calamares.</p><p>Le partitionnement manuel couvre tous les points de montage de Calamares et vos propres partitions de données, avec F2FS et JFS pour le système et exFAT, NTFS et FAT32 pour les données.</p>"
+      it: "<p>Prima versione stabile. Installa Tyron, Tyson e Boro con il boot loader che scegli, il kernel per il livello del processore e i driver di cui l'hardware ha bisogno, e sostituisce Calamares.</p><p>Il partizionamento manuale copre tutti i punti di montaggio di Calamares e partizioni di dati proprie, con F2FS e JFS per il sistema ed exFAT, NTFS e FAT32 per i dati.</p>"
+      pt: "<p>Primeira versão estável. Instala o Tyron, o Tyson e o Boro com o gestor de arranque que escolher, o kernel para o nível do processador e os controladores de que o hardware precisa, e substitui o Calamares.</p><p>O particionamento manual cobre todos os pontos de montagem do Calamares e partições de dados próprias, com F2FS e JFS para o sistema e exFAT, NTFS e FAT32 para dados.</p>"
+      ro: "<p>Prima versiune stabilă. Instalează Tyron, Tyson și Boro cu încărcătorul de pornire ales, kernelul pentru nivelul procesorului și driverele de care are nevoie hardware-ul, și înlocuiește Calamares.</p><p>Partiționarea manuală acoperă toate punctele de montare din Calamares și partiții de date proprii, cu F2FS și JFS pentru sistem și exFAT, NTFS și FAT32 pentru date.</p>"
+      ru: "<p>Первая стабильная версия. Устанавливает Tyron, Tyson и Boro с выбранным загрузчиком, ядром для уровня процессора и драйверами, нужными оборудованию, и заменяет Calamares.</p><p>Ручная разметка охватывает все точки монтирования Calamares и собственные разделы данных, с F2FS и JFS для системы и exFAT, NTFS и FAT32 для данных.</p>"
 ContentRating:
   oars-1.1: {}
 ---

@@ -517,19 +517,19 @@ Description: Soplos Linux look for the Limine boot menu
  and copies the background to the FAT partition Limine boots from.
 
 Package: soplos-linux-installer
-Version: 3.0.0
+Version: 3.0.0-1
 Architecture: amd64
-Installed-Size: 15472
+Installed-Size: 15496
 Maintainer: Sergi Perich <info@soploslinux.com>
 Homepage: https://soplos.org
 Depends: sudo, curl, util-linux, parted, dosfstools, e2fsprogs, btrfs-progs, xfsprogs, f2fs-tools, jfsutils, exfatprogs, squashfs-tools, cryptsetup, ntfs-3g, efibootmgr, libwebkit2gtk-4.1-0, libgtk-3-0
 Priority: optional
 Section: admin
-Filename: pool/main/s/soplos-linux-installer/soplos-linux-installer_3.0.0_amd64.deb
-Size: 11706162
-SHA256: 1c8c12ead77d9e538c0e5e888a6826ec88e855c150d003ad948b5c49709a61e6
-SHA1: 9d0672d2696e7d57b4934bf87f93a4270f35f9db
-MD5sum: 1465f5734467cbe663345412be5f961d
+Filename: pool/main/s/soplos-linux-installer/soplos-linux-installer_3.0.0-1_amd64.deb
+Size: 11718086
+SHA256: 5c29179a356f3c2ab510bec369d89c0c3e1e45af729043e232eb23b43e54811e
+SHA1: e046b8e166945a45dae95721ed22e8b44ad47f9a
+MD5sum: 46dffdaa0771bebb03df086328f9efa5
 Description: Installer of Soplos Linux
  The installer of Soplos Linux. It copies the system to the disk, lets you choose GRUB, systemd-boot or Limine as the boot loader, and installs the drivers the hardware needs.
 
