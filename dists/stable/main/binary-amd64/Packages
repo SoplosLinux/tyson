@@ -430,6 +430,24 @@ Description: Reject WOFF/WOFF2 web fonts in fontconfig
  protects Flatpak applications, which do not read the host fontconfig
  configuration, and restores Type1 fonts.
 
+Package: soplos-gaming-panel
+Version: 3.0.0
+Architecture: amd64
+Installed-Size: 9863
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://soplos.org
+Depends: pciutils, x11-utils, xdotool, wmctrl, libgtk-layer-shell0, scx-loader, scx-scheds, libayatana-appindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
+Recommends: gamemode, mangohud, pkexec
+Priority: optional
+Section: utils
+Filename: pool/main/s/soplos-gaming-panel/soplos-gaming-panel_3.0.0_amd64.deb
+Size: 5215608
+SHA256: eadfb2ecedc9c42f42ad1e03e04e1d4b0b8052a2a327b79e850153c87f617862
+SHA1: 2a1bcf8156e6d144ec6afc18e76b32cef3bbc89b
+MD5sum: c308ac688d58b229adf8bf9856d240fe
+Description: Live gaming companion for Soplos Linux
+ Control GameMode while playing, read and write the configuration of MangoHud, watch the use of the machine and open the games of Steam, Lutris and Heroic, from a small overlay drawn over the game.
+
 Package: soplos-grub-editor
 Version: 3.0.0
 Architecture: amd64
@@ -464,18 +482,22 @@ Description: GRUB theme package for Soplos Linux Tyson.
  Build date: 2026-09-28
 
 Package: soplos-kernel-installer
-Version: 1.0.3-6
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, bc, binutils, bison, build-essential, coreutils, cpio, curl, debhelper-compat, dkms, dracut, fakeroot, flex, g++, gettext, gir1.2-gtk-3.0, git, grub-common, kmod, libelf-dev, libncurses-dev, libssl-dev, linux-libc-dev, mokutil, pahole | dwarves, patch, pciutils, pkg-config, pkgconf, python3, python3-gi, python3-gi-cairo, python3-setuptools, rsync, sbsigntool, tar, wget, xz-utils, zstd
-Maintainer: Sergi Perich <info@sergiperich.es>
+Version: 3.0.0
+Architecture: amd64
+Installed-Size: 7375
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://soplos.org
+Depends: pkexec, apt, curl, gpg, pciutils, util-linux, libwebkit2gtk-4.1-0, libgtk-3-0
+Recommends: mokutil, openssl, sbsigntool, efibootmgr
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-kernel-installer/soplos-kernel-installer_1.0.3-6_all.deb
-Size: 985100
-SHA256: a3aedb366f5335f3279f1a615cedd2baddaeac0f08c10ae1d0d1fb9f79a1eac1
-SHA1: ca2e8b2a6da5dc547e3d342331e58ad90f5a1550
-MD5sum: d0da54cb763dab8c1213d4e3aa112ac8
-Description: Advanced graphical kernel manager for Soplos Linux
+Filename: pool/main/s/soplos-kernel-installer/soplos-kernel-installer_3.0.0_amd64.deb
+Size: 3477912
+SHA256: 655b5ad055b354ac1a51948465edc14b7804d90d2c698a50377197ef4db7f2d3
+SHA1: 08e18e60f7cb59965180aa57eb15e0f08b8b99b0
+MD5sum: de39e0b710324b5f2a4143ac1483123e
+Description: Build and install Linux kernels on Soplos Linux
+ Build your own Linux kernel with an assistant, install ready-made kernels from Soplos, Debian, XanMod and Liquorix, see and remove the installed ones, and set up Secure Boot step by step for GRUB, systemd-boot and Limine.
 
 Package: soplos-limine-theme
 Version: 1.0.0
@@ -647,18 +669,22 @@ Replaces: base-files
 Recommends: branding-soplos, soplos-grub-theme, soplos-plasma-classic-black-theme, soplos-plasma-classic-white-theme, soplos-plasma-modern-black-themes, soplos-plasma-modern-white-themes, soplos-plymouth-theme, soplos-wallpapers01, soplos-wallpapers02, fastfetch-soplos
 
 Package: soplos-repo-selector
-Version: 2.0.3-1
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, curl, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3, python3-apt, python3-gi, python3-gi-cairo, python3-pillow, python3-psutil, python3-setuptools, python3-xdg, wget
-Maintainer: Sergi Perich <info@sergiperich.es>
+Version: 3.0.0
+Architecture: amd64
+Installed-Size: 8569
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://soplos.org
+Depends: pkexec, gnupg, libwebkit2gtk-4.1-0, libgtk-3-0
+Recommends: curl, wget
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-repo-selector/soplos-repo-selector_2.0.3-1_all.deb
-Size: 1199368
-SHA256: 932ad35ea1ba67b37a4d7e8aaeb1e9a1048c40255d66df4d810c2a1b2c739e72
-SHA1: f53920e2f335dd58cf5793cc79b16ab13de8c1b1
-MD5sum: a3aef252642a88f8a6cf8cf8eea53484
+Filename: pool/main/s/soplos-repo-selector/soplos-repo-selector_3.0.0_amd64.deb
+Size: 4378938
+SHA256: 0fe9d85c8a66a469078d559810e4549f30117389b711f7146164257f841f8f48
+SHA1: 5cf98e63ae2f047392360797e051a32bc55b9218
+MD5sum: 86cd8342136ffdd2eae1f043f144ff54
 Description: Advanced APT repository manager for Soplos Linux
+ Manage, optimize and configure APT software repositories for Soplos Linux: enable/disable repos, modernize legacy .list files to DEB822 .sources, find the fastest mirrors, and manage GPG signing keys.
 
 Package: soplos-store
 Version: 3.0.0
@@ -678,32 +704,39 @@ Description: Software store for Soplos Linux
  Find, install, update and remove applications from APT, Flatpak, Snap and AppImages in one place.
 
 Package: soplos-sys-cleaner
-Version: 1.0.3-4
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, python3, python3-gi, python3-gi-cairo, python3-psutil, python3-setuptools
-Maintainer: Sergi Perich <info@sergiperich.es>
+Version: 3.0.0
+Architecture: amd64
+Installed-Size: 15316
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://soplos.org
+Depends: pkexec, apt, dpkg, systemd, pciutils, usbutils, kmod, dracut | initramfs-tools, libwebkit2gtk-4.1-0, libgtk-3-0
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-sys-cleaner/soplos-sys-cleaner_1.0.3-4_all.deb
-Size: 1124324
-SHA256: 5c657e327188f77989104b1a420a7099dc7120bcea831da43508c5eb234db276
-SHA1: b9ea6b52a5558ee1a5a99c16ff34ee5f003dc236
-MD5sum: 7c36ad4e7cdc7cc6bc165eb090141a37
-Description: System cleaner and optimizer for Soplos Linux
+Filename: pool/main/s/soplos-sys-cleaner/soplos-sys-cleaner_3.0.0_amd64.deb
+Size: 7399928
+SHA256: 15e8a0a6c081e50ef3f7400ab4e521341a9de666d4614899e9c0b68ba6027778
+SHA1: 696d9edc9dc75e8cf0ca03c27c540c7955c68e78
+MD5sum: f8daf1750e6dbb2456997b9cf0d42551
+Description: System cleaner and maintenance tool for Soplos Linux
+ Scans and cleans APT cache, old kernels, unused drivers and firmware, orphaned packages, logs, temporary files, Flatpak/Snap leftovers and more, with a clear preview before anything is removed.
 
 Package: soplos-system-service
-Version: 1.0.0-6
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-gtk-3.0, pkexec, policykit-1 | polkitd, python3, python3-gi, python3-gi-cairo, systemd
-Maintainer: Sergi Perich <info@sergiperich.es>
+Version: 3.0.0
+Architecture: amd64
+Installed-Size: 7757
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://soplos.org
+Depends: pkexec, systemd, apt, dpkg, libwebkit2gtk-4.1-0, libgtk-3-0
+Recommends: logcheck-database
 Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-system-service/soplos-system-service_1.0.0-6_all.deb
-Size: 698132
-SHA256: 2574ae88cd2756697bee46a5ec65bba519908490b72ad15bcf3f98fd3857a790
-SHA1: 067d327b34eedb5d60102cd59df6c811ba022033
-MD5sum: c9c644b1fa6cfbe56bba5ca43d5ec985
-Description: Graphical manager for systemd services on Soplos Linux
+Section: admin
+Filename: pool/main/s/soplos-system-service/soplos-system-service_3.0.0_amd64.deb
+Size: 4398404
+SHA256: 9a76ec3864df854160d6e8abe2baa730e0a98327bec77d47f67985c52e340088
+SHA1: 1626194b3c801f5b2feb218bca4d3759bb206248
+MD5sum: bee2d6576e341019cf3836d7a746f92d
+Description: Systemd service manager for Soplos Linux
+ Control, enable and inspect the systemd services and timers of the computer, read the system and per-service logs, see what slows the boot down, and diagnose and repair what is broken, with a history of every change that can be undone.
 
 Package: soplos-vmware-modules
 Version: 1.0.0

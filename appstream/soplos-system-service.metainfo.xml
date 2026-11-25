@@ -1,333 +1,347 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
   <id>org.soplos.systemservice</id>
-  <pkgname>soplos-system-services</pkgname>
+  <pkgname>soplos-system-service</pkgname>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0+</project_license>
+  <project_license>GPL-3.0-or-later</project_license>
   <project_group>org.soplos</project_group>
 
-  <name>Soplos System Services</name>
-  <name xml:lang="de">Soplos Systemdienste</name>
-  <name xml:lang="es">Soplos Servicios del sistema</name>
-  <name xml:lang="fr">Soplos Services systeme</name>
-  <name xml:lang="it">Soplos Servizi di sistema</name>
-  <name xml:lang="pt">Soplos Servicos do sistema</name>
-  <name xml:lang="ro">Soplos Servicii de sistem</name>
-  <name xml:lang="ru">Soplos Системные службы</name>
+  <name>Soplos System Service</name>
+  <name xml:lang="es">Soplos System Service</name>
+  <name xml:lang="fr">Soplos System Service</name>
+  <name xml:lang="de">Soplos System Service</name>
+  <name xml:lang="pt">Soplos System Service</name>
+  <name xml:lang="it">Soplos System Service</name>
+  <name xml:lang="ro">Soplos System Service</name>
+  <name xml:lang="ru">Soplos System Service</name>
 
-  <summary>Graphical manager for systemd services on Soplos Linux</summary>
-  <summary xml:lang="de">Grafischer Manager fur systemd-Dienste unter Soplos Linux</summary>
-  <summary xml:lang="es">Gestor grafico de servicios systemd para Soplos Linux</summary>
-  <summary xml:lang="fr">Gestionnaire graphique des services systemd pour Soplos Linux</summary>
-  <summary xml:lang="it">Gestore grafico dei servizi systemd per Soplos Linux</summary>
-  <summary xml:lang="pt">Gestor grafico de servicos systemd para Soplos Linux</summary>
-  <summary xml:lang="ro">Manager grafic al serviciilor systemd pentru Soplos Linux</summary>
-  <summary xml:lang="ru">Графический менеджер служб systemd для Soplos Linux</summary>
+  <summary>Systemd service manager for Soplos Linux</summary>
+  <summary xml:lang="es">Gestor de servicios systemd para Soplos Linux</summary>
+  <summary xml:lang="fr">Gestionnaire de services systemd pour Soplos Linux</summary>
+  <summary xml:lang="de">Systemd-Dienstverwaltung für Soplos Linux</summary>
+  <summary xml:lang="pt">Gestor de serviços systemd para Soplos Linux</summary>
+  <summary xml:lang="it">Gestore dei servizi systemd per Soplos Linux</summary>
+  <summary xml:lang="ro">Manager de servicii systemd pentru Soplos Linux</summary>
+  <summary xml:lang="ru">Менеджер служб systemd для Soplos Linux</summary>
 
   <description>
     <p>
-      Soplos System Services is a graphical tool for viewing, controlling and monitoring all systemd services on Soplos Linux Boro, Tyron and Tyson.
-      It provides a clean GTK3 tabbed interface with a sortable service list, a scrollable details panel and a log viewer, with start, stop, restart, enable and disable controls that adapt to the current service state.
-      Compatible with GNOME, XFCE and KDE desktop environments, on both X11 and Wayland, with automatic dark and light theme detection.
-      Complete internationalization support for 8 languages.
-    </p>
-    <p xml:lang="de">
-      Soplos Systemdienste ist ein grafisches Werkzeug zum Anzeigen, Steuern und Uberwachen aller systemd-Dienste unter Soplos Linux Boro, Tyron und Tyson.
-      Es bietet eine saubere GTK3-Registerkartenoberflache mit einer sortierbaren Dienstliste, einem scrollbaren Detailbereich und einem Protokollbetrachter sowie Steuerelementen zum Starten, Stoppen, Neustarten, Aktivieren und Deaktivieren, die sich dem aktuellen Dienstzustand anpassen.
-      Kompatibel mit GNOME-, XFCE- und KDE-Desktop-Umgebungen, unter X11 und Wayland, mit automatischer Erkennung von dunklen und hellen Themen.
-      Vollstandige Internationalisierungsunterstutzung fur 8 Sprachen.
+      Soplos System Service shows what the systemd services of the computer are
+      doing and lets you control them: start, stop, restart, enable and disable
+      services and timers, read the system and per-service logs, see how long the
+      system takes to boot and what slows it down, and get suggestions about what
+      this computer does not need. Every change is recorded in a history and can
+      be undone. A diagnosis page tells what is broken, based on what systemd and
+      the package system report, and repairs it with apt, dpkg or systemctl after
+      showing what will change.
     </p>
     <p xml:lang="es">
-      Soplos Servicios del sistema es una herramienta grafica para ver, controlar y monitorizar todos los servicios systemd en Soplos Linux Boro, Tyron y Tyson.
-      Ofrece una interfaz GTK3 limpia con pestanas, una lista de servicios ordenable, un panel de detalles con scroll y un visor de registros, con controles para iniciar, detener, reiniciar, activar y desactivar servicios que se adaptan al estado actual del servicio.
-      Compatible con los entornos de escritorio GNOME, XFCE y KDE, tanto en X11 como en Wayland, con deteccion automatica del tema oscuro o claro.
-      Soporte completo de internacionalizacion para 8 idiomas.
+      Soplos System Service muestra el estado de los servicios systemd del equipo
+      y permite controlarlos: iniciar, detener, reiniciar, habilitar y deshabilitar
+      servicios y temporizadores, leer el registro del sistema y de cada servicio,
+      ver cuánto tarda el arranque y qué lo ralentiza, y obtener sugerencias sobre
+      lo que este equipo no necesita. Cada cambio queda registrado en el historial
+      y puede deshacerse. Una página de diagnóstico indica qué está roto, basándose
+      en lo que informan systemd y el sistema de paquetes, y lo repara con apt,
+      dpkg o systemctl mostrando primero qué cambiará.
     </p>
     <p xml:lang="fr">
-      Soplos Services systeme est un outil graphique pour afficher, controler et surveiller tous les services systemd sous Soplos Linux Boro, Tyron et Tyson.
-      Il offre une interface GTK3 propre avec des onglets, une liste de services triable, un panneau de details defilant et un visualiseur de journaux, avec des commandes pour demarrer, arreter, redemarrer, activer et desactiver les services qui s'adaptent a l'etat actuel du service.
-      Compatible avec les environnements de bureau GNOME, XFCE et KDE, sous X11 et Wayland, avec detection automatique du theme sombre ou clair.
-      Support complet de l'internationalisation pour 8 langues.
+      Soplos System Service affiche l'état des services systemd de l'ordinateur et
+      permet de les contrôler : démarrer, arrêter, redémarrer, activer et désactiver
+      les services et minuteries, lire les journaux du système et par service, voir
+      la durée du démarrage et ce qui le ralentit, et obtenir des suggestions sur ce
+      dont cet ordinateur n'a pas besoin. Chaque modification est enregistrée dans
+      un historique et peut être annulée. Une page de diagnostic indique ce qui est
+      cassé et le répare avec apt, dpkg ou systemctl après avoir montré ce qui changera.
     </p>
-    <p xml:lang="it">
-      Soplos Servizi di sistema e uno strumento grafico per visualizzare, controllare e monitorare tutti i servizi systemd su Soplos Linux Boro, Tyron e Tyson.
-      Offre un'interfaccia GTK3 pulita a schede con un elenco di servizi ordinabile, un pannello dei dettagli scorrevole e un visualizzatore di log, con controlli per avviare, fermare, riavviare, abilitare e disabilitare i servizi che si adattano allo stato attuale del servizio.
-      Compatibile con gli ambienti desktop GNOME, XFCE e KDE, su X11 e Wayland, con rilevamento automatico del tema scuro o chiaro.
-      Supporto completo all'internazionalizzazione per 8 lingue.
+    <p xml:lang="de">
+      Soplos System Service zeigt den Zustand der systemd-Dienste des Computers und
+      erlaubt deren Steuerung: Starten, Stoppen, Neustarten, Aktivieren und Deaktivieren
+      von Diensten und Timern, Lesen der System- und Dienstprotokolle, Anzeigen der
+      Bootdauer und was sie verlangsamt, sowie Vorschläge, was dieser Computer nicht
+      benötigt. Jede Änderung wird im Verlauf gespeichert und kann rückgängig gemacht
+      werden. Eine Diagnoseseite zeigt, was defekt ist, und repariert es mit apt,
+      dpkg oder systemctl.
     </p>
     <p xml:lang="pt">
-      Soplos Servicos do sistema e uma ferramenta grafica para ver, controlar e monitorizar todos os servicos systemd no Soplos Linux Boro, Tyron e Tyson.
-      Oferece uma interface GTK3 limpa com separadores, uma lista de servicos ordenavel, um painel de detalhes com scroll e um visualizador de registos, com controlos para iniciar, parar, reiniciar, ativar e desativar servicos que se adaptam ao estado atual do servico.
-      Compativel com os ambientes de trabalho GNOME, XFCE e KDE, em X11 e Wayland, com detecao automatica do tema escuro ou claro.
-      Suporte completo de internacionalizacao para 8 idiomas.
+      Soplos System Service mostra o estado dos serviços systemd do computador e
+      permite controlá-los: iniciar, parar, reiniciar, ativar e desativar serviços
+      e temporizadores, ler os registos do sistema e por serviço, ver quanto tempo
+      demora o arranque e o que o atrasa, e obter sugestões sobre o que este computador
+      não precisa. Cada alteração fica registada no histórico e pode ser desfeita.
+      Uma página de diagnóstico indica o que está avariado e repara-o com apt,
+      dpkg ou systemctl mostrando primeiro o que vai mudar.
+    </p>
+    <p xml:lang="it">
+      Soplos System Service mostra lo stato dei servizi systemd del computer e
+      consente di controllarli: avviare, fermare, riavviare, abilitare e disabilitare
+      servizi e timer, leggere i log di sistema e per servizio, vedere quanto impiega
+      l'avvio e cosa lo rallenta, e ottenere suggerimenti su ciò di cui questo computer
+      non ha bisogno. Ogni modifica viene registrata nella cronologia e può essere
+      annullata. Una pagina di diagnosi indica cosa è rotto e lo ripara con apt,
+      dpkg o systemctl mostrando prima cosa cambierà.
     </p>
     <p xml:lang="ro">
-      Soplos Servicii de sistem este un instrument grafic pentru a vizualiza, controla si monitoriza toate serviciile systemd pe Soplos Linux Boro, Tyron si Tyson.
-      Ofera o interfata GTK3 curata cu file, o lista de servicii sortabila, un panou de detalii derulabil si un vizualizator de jurnale, cu controale pentru pornire, oprire, repornire, activare si dezactivare a serviciilor care se adapteaza la starea curenta a serviciului.
-      Compatibil cu mediile de birou GNOME, XFCE si KDE, pe X11 si Wayland, cu detectie automata a temei inchise sau deschise.
-      Suport complet de internationalizare pentru 8 limbi.
+      Soplos System Service arată starea serviciilor systemd ale computerului și
+      permite controlul lor: pornire, oprire, repornire, activare și dezactivare
+      a serviciilor și timerelor, citirea jurnalelor de sistem și per serviciu,
+      vizualizarea duratei de pornire și a cauzelor întârzierii, și sugestii despre
+      ce nu are nevoie acest computer. Fiecare modificare este înregistrată în
+      istoric și poate fi anulată. O pagină de diagnostic arată ce este defect și
+      îl repară cu apt, dpkg sau systemctl după ce arată ce se va schimba.
     </p>
     <p xml:lang="ru">
-      Soplos Системные службы — это графический инструмент для просмотра, управления и мониторинга всех служб systemd в Soplos Linux Boro, Tyron и Tyson.
-      Предлагает чистый интерфейс GTK3 с вкладками, сортируемый список служб, прокручиваемую панель сведений и просмотрщик журналов, с кнопками запуска, остановки, перезапуска, включения и отключения, адаптирующимися к текущему состоянию службы.
-      Совместим с рабочими средами GNOME, XFCE и KDE, на X11 и Wayland, с автоматическим определением тёмной или светлой темы.
-      Полная поддержка интернационализации на 8 языков.
+      Soplos System Service показывает состояние служб systemd компьютера и позволяет
+      управлять ими: запускать, останавливать, перезапускать, включать и отключать
+      службы и таймеры, читать системные журналы и журналы отдельных служб, видеть
+      время загрузки и что её замедляет, а также получать рекомендации о том, что
+      этому компьютеру не нужно. Каждое изменение записывается в историю и может
+      быть отменено. Страница диагностики показывает, что сломано, и исправляет
+      это с помощью apt, dpkg или systemctl, предварительно показывая, что изменится.
     </p>
   </description>
 
-  <screenshots>
-    <screenshot type="default">
-      <image>https://soplos.org/assets/screenshots/system-service/screenshot01.png</image>
-      <caption>Service list overview with color-coded active and load states</caption>
-      <caption xml:lang="es">Vista general de la lista de servicios con estados activo y de carga codificados por color</caption>
-      <caption xml:lang="fr">Vue d'ensemble de la liste des services avec etats actif et de chargement codes par couleur</caption>
-      <caption xml:lang="de">Dienstlisten-Ubersicht mit farbcodierten Aktiv- und Ladezustanden</caption>
-      <caption xml:lang="it">Panoramica elenco servizi con stati attivo e di caricamento codificati per colore</caption>
-      <caption xml:lang="pt">Vista geral da lista de servicos com estados ativo e de carregamento codificados por cor</caption>
-      <caption xml:lang="ro">Prezentare generala a listei de servicii cu stari active si de incarcare codificate prin culoare</caption>
-      <caption xml:lang="ru">Обзор списка служб с цветовым кодированием активного состояния и состояния загрузки</caption>
-    </screenshot>
-    <screenshot>
-      <image>https://soplos.org/assets/screenshots/system-service/screenshot02.png</image>
-      <caption>Service details panel showing full systemctl status output</caption>
-      <caption xml:lang="es">Panel de detalles del servicio con la salida completa de systemctl status</caption>
-      <caption xml:lang="fr">Panneau de details du service affichant la sortie complete de systemctl status</caption>
-      <caption xml:lang="de">Dienstdetailbereich mit vollstandiger systemctl-Status-Ausgabe</caption>
-      <caption xml:lang="it">Pannello dettagli servizio con output completo di systemctl status</caption>
-      <caption xml:lang="pt">Painel de detalhes do servico com saida completa de systemctl status</caption>
-      <caption xml:lang="ro">Panoul de detalii al serviciului cu iesirea completa a comenzii systemctl status</caption>
-      <caption xml:lang="ru">Панель сведений о службе с полным выводом systemctl status</caption>
-    </screenshot>
-    <screenshot>
-      <image>https://soplos.org/assets/screenshots/system-service/screenshot03.png</image>
-      <caption>Logs tab with real-time journalctl output for the selected service</caption>
-      <caption xml:lang="es">Pestana de registros con salida en tiempo real de journalctl para el servicio seleccionado</caption>
-      <caption xml:lang="fr">Onglet journaux avec sortie journalctl en temps reel pour le service selectionne</caption>
-      <caption xml:lang="de">Protokoll-Reiter mit journalctl-Echtzeitausgabe fur den ausgewahlten Dienst</caption>
-      <caption xml:lang="it">Scheda log con output journalctl in tempo reale per il servizio selezionato</caption>
-      <caption xml:lang="pt">Separador de registos com saida journalctl em tempo real para o servico selecionado</caption>
-      <caption xml:lang="ro">Fila jurnale cu iesire journalctl in timp real pentru serviciul selectat</caption>
-      <caption xml:lang="ru">Вкладка журналов с выводом journalctl в реальном времени для выбранной службы</caption>
-    </screenshot>
-  </screenshots>
-
-  <url type="homepage">https://soplos.org</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/soplos-system-service/issues</url>
-
-  <launchable type="desktop-id">org.soplos.systemservice.desktop</launchable>
-
-  <developer_name>Sergi Perich</developer_name>
-
-  <content_rating type="oars-1.1" />
-
   <categories>
-    <category>Settings</category>
     <category>System</category>
-    <category>Utility</category>
-    <category>GTK</category>
+    <category>Settings</category>
   </categories>
-
-  <requires>
-    <display_length compare="ge">800</display_length>
-    <memory compare="ge">512</memory>
-  </requires>
-
-  <recommends>
-    <control>pointing</control>
-    <control>keyboard</control>
-  </recommends>
 
   <keywords>
     <keyword>systemd</keyword>
     <keyword>services</keyword>
-    <keyword>manager</keyword>
-    <keyword>system</keyword>
-    <keyword>soplos</keyword>
+    <keyword>timers</keyword>
+    <keyword>journal</keyword>
+    <keyword>boot</keyword>
+    <keyword>diagnosis</keyword>
+    <keyword xml:lang="es">systemd</keyword>
     <keyword xml:lang="es">servicios</keyword>
-    <keyword xml:lang="es">gestor</keyword>
-    <keyword xml:lang="es">sistema</keyword>
+    <keyword xml:lang="es">temporizadores</keyword>
+    <keyword xml:lang="es">registro</keyword>
+    <keyword xml:lang="es">arranque</keyword>
+    <keyword xml:lang="es">diagnóstico</keyword>
+    <keyword xml:lang="fr">systemd</keyword>
     <keyword xml:lang="fr">services</keyword>
-    <keyword xml:lang="fr">gestionnaire</keyword>
-    <keyword xml:lang="fr">systeme</keyword>
-    <keyword xml:lang="de">dienste</keyword>
-    <keyword xml:lang="de">manager</keyword>
-    <keyword xml:lang="de">system</keyword>
-    <keyword xml:lang="pt">servicos</keyword>
-    <keyword xml:lang="pt">gestor</keyword>
-    <keyword xml:lang="pt">sistema</keyword>
+    <keyword xml:lang="fr">minuteries</keyword>
+    <keyword xml:lang="fr">journal</keyword>
+    <keyword xml:lang="fr">démarrage</keyword>
+    <keyword xml:lang="fr">diagnostic</keyword>
+    <keyword xml:lang="de">systemd</keyword>
+    <keyword xml:lang="de">Dienste</keyword>
+    <keyword xml:lang="de">Timer</keyword>
+    <keyword xml:lang="de">Journal</keyword>
+    <keyword xml:lang="de">Boot</keyword>
+    <keyword xml:lang="de">Diagnose</keyword>
+    <keyword xml:lang="pt">systemd</keyword>
+    <keyword xml:lang="pt">serviços</keyword>
+    <keyword xml:lang="pt">temporizadores</keyword>
+    <keyword xml:lang="pt">registo</keyword>
+    <keyword xml:lang="pt">arranque</keyword>
+    <keyword xml:lang="pt">diagnóstico</keyword>
+    <keyword xml:lang="it">systemd</keyword>
     <keyword xml:lang="it">servizi</keyword>
-    <keyword xml:lang="it">gestore</keyword>
-    <keyword xml:lang="it">sistema</keyword>
+    <keyword xml:lang="it">timer</keyword>
+    <keyword xml:lang="it">journal</keyword>
+    <keyword xml:lang="it">avvio</keyword>
+    <keyword xml:lang="it">diagnosi</keyword>
+    <keyword xml:lang="ro">systemd</keyword>
     <keyword xml:lang="ro">servicii</keyword>
-    <keyword xml:lang="ro">manager</keyword>
-    <keyword xml:lang="ro">sistem</keyword>
+    <keyword xml:lang="ro">timere</keyword>
+    <keyword xml:lang="ro">jurnal</keyword>
+    <keyword xml:lang="ro">pornire</keyword>
+    <keyword xml:lang="ro">diagnostic</keyword>
+    <keyword xml:lang="ru">systemd</keyword>
     <keyword xml:lang="ru">службы</keyword>
-    <keyword xml:lang="ru">менеджер</keyword>
-    <keyword xml:lang="ru">система</keyword>
+    <keyword xml:lang="ru">таймеры</keyword>
+    <keyword xml:lang="ru">журнал</keyword>
+    <keyword xml:lang="ru">загрузка</keyword>
+    <keyword xml:lang="ru">диагностика</keyword>
   </keywords>
 
+  <launchable type="desktop-id">soplos-system-service.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-system-service-3.0/main/src-tauri/resources/screenshots/screenshot01.png</image>
+      <caption>Overview: the state of the services at a glance</caption>
+      <caption xml:lang="es">Vista general: el estado de los servicios de un vistazo</caption>
+      <caption xml:lang="fr">Vue d'ensemble : l'état des services en un coup d'œil</caption>
+      <caption xml:lang="de">Übersicht: der Zustand der Dienste auf einen Blick</caption>
+      <caption xml:lang="pt">Visão geral: o estado dos serviços de relance</caption>
+      <caption xml:lang="it">Panoramica: lo stato dei servizi a colpo d'occhio</caption>
+      <caption xml:lang="ro">Prezentare generală: starea serviciilor dintr-o privire</caption>
+      <caption xml:lang="ru">Обзор: состояние служб с первого взгляда</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-system-service-3.0/main/src-tauri/resources/screenshots/screenshot02.png</image>
+      <caption>Services: control, enable and inspect each one</caption>
+      <caption xml:lang="es">Servicios: controlar, habilitar e inspeccionar cada uno</caption>
+      <caption xml:lang="fr">Services : contrôler, activer et inspecter chacun</caption>
+      <caption xml:lang="de">Dienste: jeden einzelnen steuern, aktivieren und prüfen</caption>
+      <caption xml:lang="pt">Serviços: controlar, ativar e inspecionar cada um</caption>
+      <caption xml:lang="it">Servizi: controllare, abilitare e ispezionare ognuno</caption>
+      <caption xml:lang="ro">Servicii: controlează, activează și inspectează fiecare</caption>
+      <caption xml:lang="ru">Службы: управление, включение и проверка каждой</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-system-service-3.0/main/src-tauri/resources/screenshots/screenshot03.png</image>
+      <caption>Timers: the scheduled tasks, when they run and how often</caption>
+      <caption xml:lang="es">Temporizadores: las tareas programadas, cuándo se ejecutan y con qué frecuencia</caption>
+      <caption xml:lang="fr">Minuteurs : les tâches planifiées, quand et à quelle fréquence</caption>
+      <caption xml:lang="de">Timer: die geplanten Aufgaben, wann und wie oft sie laufen</caption>
+      <caption xml:lang="pt">Temporizadores: as tarefas agendadas, quando e com que frequência são executadas</caption>
+      <caption xml:lang="it">Timer: le attività pianificate, quando e con quale frequenza vengono eseguite</caption>
+      <caption xml:lang="ro">Temporizatoare: sarcinile programate, când și cât de des rulează</caption>
+      <caption xml:lang="ru">Таймеры: запланированные задачи, когда и как часто они выполняются</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-system-service-3.0/main/src-tauri/resources/screenshots/screenshot04.png</image>
+      <caption>Logs: the journal of the whole system or of one service, with search and export</caption>
+      <caption xml:lang="es">Registros: el diario de todo el sistema o de un servicio, con búsqueda y exportación</caption>
+      <caption xml:lang="fr">Journaux : le journal de tout le système ou d'un service, avec recherche et export</caption>
+      <caption xml:lang="de">Protokolle: das Journal des ganzen Systems oder eines Dienstes, mit Suche und Export</caption>
+      <caption xml:lang="pt">Registos: o diário de todo o sistema ou de um serviço, com pesquisa e exportação</caption>
+      <caption xml:lang="it">Registri: il journal di tutto il sistema o di un servizio, con ricerca ed esportazione</caption>
+      <caption xml:lang="ro">Jurnale: jurnalul întregului sistem sau al unui serviciu, cu căutare și export</caption>
+      <caption xml:lang="ru">Журналы: журнал всей системы или одной службы, с поиском и экспортом</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-system-service-3.0/main/src-tauri/resources/screenshots/screenshot05.png</image>
+      <caption>Diagnosis: what is broken and what can be repaired</caption>
+      <caption xml:lang="es">Diagnóstico: qué está roto y qué se puede reparar</caption>
+      <caption xml:lang="fr">Diagnostic : ce qui est cassé et ce qui peut être réparé</caption>
+      <caption xml:lang="de">Diagnose: was defekt ist und was repariert werden kann</caption>
+      <caption xml:lang="pt">Diagnóstico: o que está avariado e o que pode ser reparado</caption>
+      <caption xml:lang="it">Diagnosi: cosa è rotto e cosa può essere riparato</caption>
+      <caption xml:lang="ro">Diagnostic: ce este defect și ce poate fi reparat</caption>
+      <caption xml:lang="ru">Диагностика: что сломано и что можно починить</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-system-service-3.0/main/src-tauri/resources/screenshots/screenshot06.png</image>
+      <caption>Optimization: suggestions to turn off what this computer does not need</caption>
+      <caption xml:lang="es">Optimización: sugerencias para desactivar lo que este equipo no necesita</caption>
+      <caption xml:lang="fr">Optimisation : suggestions pour désactiver ce dont cet ordinateur n'a pas besoin</caption>
+      <caption xml:lang="de">Optimierung: Vorschläge, was dieser Computer nicht braucht und abgeschaltet werden kann</caption>
+      <caption xml:lang="pt">Otimização: sugestões para desativar o que este computador não precisa</caption>
+      <caption xml:lang="it">Ottimizzazione: suggerimenti per disattivare ciò che questo computer non usa</caption>
+      <caption xml:lang="ro">Optimizare: sugestii pentru a opri ce nu îi trebuie acestui calculator</caption>
+      <caption xml:lang="ru">Оптимизация: предложения отключить то, что этому компьютеру не нужно</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-system-service-3.0/main/src-tauri/resources/screenshots/screenshot07.png</image>
+      <caption>Boot analysis: how long the system takes to boot and what slows it down</caption>
+      <caption xml:lang="es">Análisis de arranque: cuánto tarda en arrancar el sistema y qué lo retrasa</caption>
+      <caption xml:lang="fr">Analyse du démarrage : la durée du démarrage du système et ce qui le ralentit</caption>
+      <caption xml:lang="de">Startanalyse: wie lange der Systemstart dauert und was ihn bremst</caption>
+      <caption xml:lang="pt">Análise de arranque: quanto tempo o sistema demora a arrancar e o que o atrasa</caption>
+      <caption xml:lang="it">Analisi dell'avvio: quanto impiega il sistema ad avviarsi e cosa lo rallenta</caption>
+      <caption xml:lang="ro">Analiza pornirii: cât durează pornirea sistemului și ce o încetinește</caption>
+      <caption xml:lang="ru">Анализ загрузки: сколько времени грузится система и что её замедляет</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-system-service-3.0/main/src-tauri/resources/screenshots/screenshot08.png</image>
+      <caption>History of every change, with undo</caption>
+      <caption xml:lang="es">Historial de cada cambio, con deshacer</caption>
+      <caption xml:lang="fr">Historique de chaque modification, avec annulation</caption>
+      <caption xml:lang="de">Verlauf jeder Änderung, mit Rückgängig</caption>
+      <caption xml:lang="pt">Histórico de cada alteração, com desfazer</caption>
+      <caption xml:lang="it">Cronologia di ogni modifica, con annulla</caption>
+      <caption xml:lang="ro">Istoricul fiecărei modificări, cu anulare</caption>
+      <caption xml:lang="ru">История каждого изменения с возможностью отмены</caption>
+    </screenshot>
+  </screenshots>
+
+  <provides>
+    <binary>soplos-system-service</binary>
+  </provides>
+
+  <url type="homepage">https://soplos.org</url>
+
+  <developer id="org.soplos">
+    <name>Sergi Perich</name>
+  </developer>
+
   <releases>
-    <release version="1.0.0-6" date="2026-09-07">
+    <release version="3.0.0" date="2026-11-16">
       <description>
-        <p>New Optimization tab: suggests systemd services to disable or enable to optimize RAM, boot time, power and disk.</p>
-        <p xml:lang="es">Nueva pestana Optimizacion: sugiere servicios systemd para deshabilitar o activar y optimizar RAM, arranque, energia y disco.</p>
-        <p xml:lang="fr">Nouvel onglet Optimisation : suggere des services systemd a desactiver ou activer pour optimiser la RAM, le demarrage, l'energie et le disque.</p>
-        <p xml:lang="de">Neuer Optimierungs-Tab: schlagt systemd-Dienste zum Deaktivieren oder Aktivieren vor, um RAM, Startzeit, Energie und Festplatte zu optimieren.</p>
-        <p xml:lang="it">Nuova scheda Ottimizzazione: suggerisce servizi systemd da disabilitare o abilitare per ottimizzare RAM, avvio, energia e disco.</p>
-        <p xml:lang="pt">Novo separador Otimizacao: sugere servicos systemd para desativar ou ativar para otimizar RAM, arranque, energia e disco.</p>
-        <p xml:lang="ro">Fila noua Optimizare: sugereaza servicii systemd de dezactivat sau activat pentru a optimiza RAM, pornirea, energia si discul.</p>
-        <p xml:lang="ru">Новая вкладка «Оптимизация»: предлагает включить или отключить службы systemd для оптимизации ОЗУ, времени загрузки, энергии и диска.</p>
+        <p>First stable release. Boot analysis can add the user to the systemd-journal group, so the history of the earlier boots is shown after restarting the session.</p>
+      </description>
+    </release>
+    <release version="3.0.0-8-beta" date="2026-11-04">
+      <description>
+        <p>The application metadata points to the installed launcher, and the manual page is the same in the project and in the package.</p>
+      </description>
+    </release>
+    <release version="3.0.0-7-beta" date="2026-10-29">
+      <description>
+        <p>The window no longer has the frame of the system: it is a card with rounded corners and its own minimize, maximize and close buttons.</p>
+      </description>
+    </release>
+    <release version="3.0.0-6-beta" date="2026-10-28">
+      <description>
+        <p>New application icon, new hero image and new screenshots, taken with the interface in English.</p>
+      </description>
+    </release>
+    <release version="3.0.0-5-beta" date="2026-10-23">
+      <description>
+        <p>The window follows the light or dark theme of the desktop (Xfce, Plasma and GNOME); the button of the sidebar still lets you choose.</p>
+      </description>
+    </release>
+    <release version="3.0.0-4-beta" date="2026-10-22">
+      <description>
+        <p>Documentation and packaging fixes.</p>
         <ul>
-          <li>Detects virtualization guest tools, Bluetooth/Wi-Fi services with no matching hardware, and a redundant PulseAudio service when PipeWire is active</li>
-          <li>Detects dangling systemd enablement symlinks and orphaned services left behind by uninstalled packages, showing the exact symlink path being removed</li>
-          <li>Suggests enabling fstrim.timer on SSD/NVMe systems and disabling NetworkManager-wait-online.service to speed up boot</li>
-          <li>Informational panel listing the slowest-starting services/timers at boot and timers that wake the system frequently</li>
-          <li>Orphan/huerfano scan batched into a handful of subprocess calls instead of one per service, fixing a slow scan on systems with hundreds of services</li>
+          <li>Four more screenshots (Diagnosis, Optimization, Boot analysis and History); the captions of the Timers and Logs screenshots corrected</li>
+          <li>AppStream categories and keywords in 8 languages; developer and project group identifiers now org.soplos</li>
+          <li>Manual page installed compressed; changelog installed to /usr/share/doc/soplos-system-service/</li>
+          <li>Debian copyright declares Lucide (ISC), used for the interface icons</li>
         </ul>
       </description>
     </release>
-    <release version="1.0.0-5" date="2026-06-21">
+    <release version="3.0.0-3-beta" date="2026-10-19">
       <description>
-        <p>GNOME crash fix (gdk-pixbuf SVG sandbox).</p>
-        <p xml:lang="es">Correccion de fallo en GNOME (sandbox SVG de gdk-pixbuf).</p>
-        <p xml:lang="fr">Correction du crash GNOME (bac a sable SVG gdk-pixbuf).</p>
-        <p xml:lang="de">GNOME-Absturzkorrektur (gdk-pixbuf SVG-Sandbox).</p>
-        <p xml:lang="it">Correzione crash GNOME (sandbox SVG gdk-pixbuf).</p>
-        <p xml:lang="pt">Correcao de falha no GNOME (sandbox SVG do gdk-pixbuf).</p>
-        <p xml:lang="ro">Corectare eroare GNOME (sandbox SVG gdk-pixbuf).</p>
-        <p xml:lang="ru">Исправление сбоя в GNOME (песочница SVG gdk-pixbuf).</p>
+        <p>Packaging and documentation standardisation.</p>
         <ul>
-          <li>Wrapper now passes HOME=/root to the root process; gdk-pixbuf's bubblewrap SVG sandbox fails when the parent is root but HOME points to a regular user directory</li>
+          <li>Unix manual page added (soplos-system-service(1))</li>
+          <li>Screenshots packaged in /usr/share/doc/soplos-system-service/</li>
+          <li>Desktop entry and AppStream metainfo translated to 8 languages</li>
+          <li>README updated with architecture, shortcuts and build instructions</li>
         </ul>
       </description>
     </release>
-    <release version="1.0.0-4" date="2026-06-14">
+    <release version="3.0.0-2-beta" date="2026-10-16">
       <description>
-        <p>GNOME crash fix.</p>
-        <p xml:lang="es">Correccion de fallo en GNOME.</p>
-        <p xml:lang="fr">Correction du crash sous GNOME.</p>
-        <p xml:lang="de">GNOME-Absturzkorrektur.</p>
-        <p xml:lang="it">Correzione crash in GNOME.</p>
-        <p xml:lang="pt">Correcao de falha no GNOME.</p>
-        <p xml:lang="ro">Corectare eroare in GNOME.</p>
-        <p xml:lang="ru">Исправление сбоя в GNOME.</p>
+        <p>Orphaned services can now be found and removed.</p>
         <ul>
-          <li>Wrapper now specifies gi.require_version('Gdk', '3.0') before importing Gdk, preventing a crash in GNOME sessions where GTK4 is already loaded</li>
+          <li>A service made from an autostart entry whose program is gone (for example an uninstalled Flatpak) is found and can be deleted, from Diagnosis and from the Services page</li>
+          <li>Links of systemd that point to nothing are found and deleted</li>
+          <li>A graphical system without its display manager link is found and repaired</li>
+          <li>Diagnosis also looks at the user's failed services</li>
+          <li>Diagnosis no longer reports a package as damaged because its translations were removed</li>
         </ul>
       </description>
     </release>
-    <release version="1.0.0-3" date="2026-06-14">
+    <release version="3.0.0-1-beta" date="2026-10-15">
       <description>
-        <p>Titlebar fix for XFCE and KDE.</p>
-        <p xml:lang="es">Correccion de la barra de titulo en XFCE y KDE.</p>
-        <p xml:lang="fr">Correction de la barre de titre sous XFCE et KDE.</p>
-        <p xml:lang="de">Titelleistenkorrektur fur XFCE und KDE.</p>
-        <p xml:lang="it">Correzione della barra del titolo in XFCE e KDE.</p>
-        <p xml:lang="pt">Correcao da barra de titulo em XFCE e KDE.</p>
-        <p xml:lang="ro">Corectare bara de titlu in XFCE si KDE.</p>
-        <p xml:lang="ru">Исправление строки заголовка в XFCE и KDE.</p>
+        <p>Applying a selection on the Optimization page works again.</p>
         <ul>
-          <li>Native window decorations used in XFCE and KDE/Plasma, matching the rest of the Soplos applications; CSD HeaderBar only in GNOME</li>
+          <li>Services that come with a socket or a path (such as the print service) can be turned off together with it</li>
+          <li>The sockets of units the system needs are protected like the units themselves</li>
         </ul>
       </description>
     </release>
-    <release version="1.0.0-2" date="2026-06-14">
+    <release version="3.0.0-beta" date="2026-10-15">
       <description>
-        <p>Packaging and usability fixes.</p>
-        <p xml:lang="es">Correcciones de empaquetado y usabilidad.</p>
-        <p xml:lang="fr">Corrections d'empaquetage et d'ergonomie.</p>
-        <p xml:lang="de">Paketierungs- und Benutzbarkeitskorrekturen.</p>
-        <p xml:lang="it">Correzioni di packaging e usabilita.</p>
-        <p xml:lang="pt">Correcoes de empacotamento e usabilidade.</p>
-        <p xml:lang="ro">Corectii de ambalare si utilizabilitate.</p>
-        <p xml:lang="ru">Исправления упаковки и удобства использования.</p>
+        <p>The Diagnosis page was rebuilt from scratch: it starts from what systemd and the package system report, not from the text of the log.</p>
         <ul>
-          <li>Wrapper renamed to match project name; follows the Soplos pkexec pattern (python3 -c inline, no recursive wrapper invocation)</li>
-          <li>Silent exit on launch fixed: Gtk.Application now uses HANDLES_COMMAND_LINE with a do_command_line handler</li>
-          <li>Package install failure fixed: postinst had a wrong path that caused set -e to abort the post-installation script</li>
-          <li>Duplicate GLib.set_application_name warning eliminated: names now set once in the wrapper before importing main</li>
-          <li>pkexec handling moved to the bash wrapper; removed from main.py</li>
-          <li>Details panel now scrollable using Gtk.TextView inside Gtk.ScrolledWindow</li>
-          <li>Smart action buttons adapting to current service state</li>
-          <li>Progress bar position and minimum display time fixed</li>
-          <li>Color-coded Loaded column (not-found in red)</li>
-          <li>Suppressed ibus warnings when running as root</li>
-        </ul>
-      </description>
-    </release>
-    <release version="1.0.0-1" date="2026-06-14">
-      <description>
-        <p>Complete rewrite of the application after almost a year on hold. Full GTK3 tabbed interface with service list, scrollable details panel, log viewer and smart service controls, with automatic dark/light theme detection and support for GNOME, XFCE and KDE.</p>
-        <p xml:lang="de">Vollstandige Uberarbeitung der Anwendung nach fast einem Jahr Pause. Vollstandige GTK3-Registerkartenoberflache mit Dienstliste, scrollbarem Detailbereich, Protokollbetrachter und intelligenter Dienststeuerung, mit automatischer Dunkel-/Hell-Themenerkennung und Unterstutzung fur GNOME, XFCE und KDE.</p>
-        <p xml:lang="es">Reescritura completa de la aplicacion tras casi un ano en espera. Interfaz GTK3 completa con pestanas, lista de servicios, panel de detalles con scroll, visor de registros y controles inteligentes de servicios, con deteccion automatica de tema oscuro/claro y soporte para GNOME, XFCE y KDE.</p>
-        <p xml:lang="fr">Reecriture complete de l'application apres pres d'un an en attente. Interface GTK3 complete avec onglets, liste de services, panneau de details defilant, visualiseur de journaux et commandes intelligentes des services, avec detection automatique du theme sombre/clair et support pour GNOME, XFCE et KDE.</p>
-        <p xml:lang="it">Riscrittura completa dell'applicazione dopo quasi un anno in attesa. Interfaccia GTK3 completa a schede con elenco servizi, pannello dettagli scorrevole, visualizzatore log e controlli intelligenti dei servizi, con rilevamento automatico del tema scuro/chiaro e supporto per GNOME, XFCE e KDE.</p>
-        <p xml:lang="pt">Reescrita completa da aplicacao apos quase um ano em espera. Interface GTK3 completa com separadores, lista de servicos, painel de detalhes com scroll, visualizador de registos e controlos inteligentes de servicos, com detecao automatica do tema escuro/claro e suporte para GNOME, XFCE e KDE.</p>
-        <p xml:lang="ro">Rescriere completa a aplicatiei dupa aproape un an de pauza. Interfata GTK3 completa cu file, lista de servicii, panou de detalii derulabil, vizualizator de jurnale si controale inteligente ale serviciilor, cu detectie automata a temei inchise/deschise si suport pentru GNOME, XFCE si KDE.</p>
-        <p xml:lang="ru">Полная переработка приложения после почти года простоя. Полный интерфейс GTK3 с вкладками, списком служб, прокручиваемой панелью сведений, просмотрщиком журналов и умным управлением службами, с автоматическим определением тёмной/светлой темы и поддержкой GNOME, XFCE и KDE.</p>
-        <ul>
-          <li>Gtk.Notebook tab interface: Services tab and Logs tab with Soplos orange active tab accent</li>
-          <li>Sortable service list with color-coded active state (green/red) and load state (not-found in red)</li>
-          <li>Smart action buttons: Start, Stop and Restart adapt to the current service state</li>
-          <li>Scrollable details panel using Gtk.TextView inside Gtk.ScrolledWindow</li>
-          <li>Log viewer with real-time journalctl output for the selected service</li>
-          <li>Progress bar with Gtk.Revealer and pulse animation during loading and service operations, with minimum display time</li>
-          <li>CSD HeaderBar always active with operation status in subtitle</li>
-          <li>Static Soplos footer showing DE, protocol and base version</li>
-          <li>Dark/light theme pre-detected as regular user before pkexec elevation via SOPLOS_COLOR_SCHEME</li>
-          <li>Two-provider CSS loading: dark.css or light.css plus base.css</li>
-          <li>Polkit policy, desktop launcher, bash wrapper and Debian packaging</li>
-          <li>Icons at 48x48, 64x64 and 128x128</li>
-        </ul>
-      </description>
-    </release>
-    <release version="1.0.0" date="2025-07-31">
-      <description>
-        <p>Initial project creation with base GTK3 structure, systemd service listing and basic service control functions.</p>
-        <p xml:lang="de">Erste Projekterstellung mit grundlegender GTK3-Struktur, systemd-Dienstauflistung und grundlegenden Dienststeuerungsfunktionen.</p>
-        <p xml:lang="es">Creacion inicial del proyecto con estructura GTK3 base, listado de servicios systemd y funciones basicas de control de servicios.</p>
-        <p xml:lang="fr">Creation initiale du projet avec la structure GTK3 de base, la liste des services systemd et les fonctions de controle de base.</p>
-        <p xml:lang="it">Creazione iniziale del progetto con struttura GTK3 di base, elenco dei servizi systemd e funzioni di controllo base.</p>
-        <p xml:lang="pt">Criacao inicial do projeto com estrutura GTK3 base, listagem de servicos systemd e funcoes de controlo basicas.</p>
-        <p xml:lang="ro">Creare initiala a proiectului cu structura GTK3 de baza, listarea serviciilor systemd si functii de control de baza.</p>
-        <p xml:lang="ru">Первоначальное создание проекта с базовой структурой GTK3, списком служб systemd и основными функциями управления службами.</p>
-        <ul>
-          <li>Initial GTK3 application skeleton with pkexec privilege elevation</li>
-          <li>systemd service listing via systemctl list-units</li>
-          <li>Basic service control: start, stop, restart, enable, disable</li>
-          <li>8-language string system with dict-based translations</li>
-          <li xml:lang="de">Initiales GTK3-Anwendungsgerippe mit pkexec-Rechteerweiterung</li>
-          <li xml:lang="de">systemd-Dienstauflistung uber systemctl list-units</li>
-          <li xml:lang="de">Grundlegende Dienststeuerung: Starten, Stoppen, Neustarten, Aktivieren, Deaktivieren</li>
-          <li xml:lang="de">8-Sprachen-Stringystem mit worterbuchbasierten Ubersetzungen</li>
-          <li xml:lang="es">Esqueleto de aplicacion GTK3 inicial con elevacion de privilegios pkexec</li>
-          <li xml:lang="es">Listado de servicios systemd via systemctl list-units</li>
-          <li xml:lang="es">Control basico de servicios: iniciar, detener, reiniciar, activar, desactivar</li>
-          <li xml:lang="es">Sistema de cadenas en 8 idiomas con traducciones basadas en diccionarios</li>
-          <li xml:lang="fr">Squelette d'application GTK3 initial avec elevation des privileges pkexec</li>
-          <li xml:lang="fr">Liste des services systemd via systemctl list-units</li>
-          <li xml:lang="fr">Controle de base des services: demarrer, arreter, redemarrer, activer, desactiver</li>
-          <li xml:lang="fr">Systeme de chaines en 8 langues avec traductions basees sur des dictionnaires</li>
-          <li xml:lang="it">Scheletro di applicazione GTK3 iniziale con elevazione dei privilegi pkexec</li>
-          <li xml:lang="it">Elenco dei servizi systemd tramite systemctl list-units</li>
-          <li xml:lang="it">Controllo di base dei servizi: avvia, ferma, riavvia, abilita, disabilita</li>
-          <li xml:lang="it">Sistema di stringhe in 8 lingue con traduzioni basate su dizionari</li>
-          <li xml:lang="pt">Esqueleto de aplicacao GTK3 inicial com elevacao de privilegios pkexec</li>
-          <li xml:lang="pt">Listagem de servicos systemd via systemctl list-units</li>
-          <li xml:lang="pt">Controlo basico de servicos: iniciar, parar, reiniciar, ativar, desativar</li>
-          <li xml:lang="pt">Sistema de cadeias em 8 idiomas com traducoes baseadas em dicionarios</li>
-          <li xml:lang="ro">Schelet de aplicatie GTK3 initial cu elevare privilegii pkexec</li>
-          <li xml:lang="ro">Listarea serviciilor systemd prin systemctl list-units</li>
-          <li xml:lang="ro">Control de baza al serviciilor: pornire, oprire, repornire, activare, dezactivare</li>
-          <li xml:lang="ro">Sistem de siruri in 8 limbi cu traduceri bazate pe dictionare</li>
-          <li xml:lang="ru">Начальный каркас приложения GTK3 с повышением привилегий через pkexec</li>
-          <li xml:lang="ru">Список служб systemd через systemctl list-units</li>
-          <li xml:lang="ru">Базовое управление службами: запуск, остановка, перезапуск, включение, отключение</li>
-          <li xml:lang="ru">Система строк на 8 языках с переводами на основе словарей</li>
+          <li>Diagnosis says the system is working when no service has failed and no package is half-installed or has broken dependencies</li>
+          <li>Errors in the log with nothing wrong behind them are only counted, in a folded block</li>
+          <li>What is broken is explained with data measured on the computer: unit state, whether the program it starts exists, and whether the package that owns it is damaged</li>
+          <li>Repairs use Debian's own tools: reinstall a package, finish configuring packages, fix broken dependencies, restart or disable a unit</li>
+          <li>Messages Debian's logcheck lists as normal are recognized when logcheck-database is installed</li>
         </ul>
       </description>
     </release>
   </releases>
 
-  <content_rating type="oars-1.1"/>
+  <content_rating type="oars-1.1" />
 </component>

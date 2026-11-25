@@ -1,470 +1,284 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>org.soplos.reposelector.desktop</id>
+  <id>org.soplos.reposelector</id>
   <pkgname>soplos-repo-selector</pkgname>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0+</project_license>
-  <project_group>org.soploslinux</project_group>
+  <project_license>GPL-3.0-or-later</project_license>
+  <project_group>org.soplos</project_group>
 
   <name>Soplos Repo Selector</name>
   <name xml:lang="en">Soplos Repo Selector</name>
-  <name xml:lang="es">Selector de Repositorios Soplos</name>
-  <name xml:lang="fr">Sélecteur de dépôts Soplos</name>
-  <name xml:lang="pt">Seletor de Repositórios Soplos</name>
-  <name xml:lang="de">Soplos Repository-Selektor</name>
-  <name xml:lang="it">Selettore Repository Soplos</name>
-  <name xml:lang="ru">Селектор репозиториев Soplos</name>
-  <name xml:lang="ro">Selector de depozite Soplos</name>
+  <name xml:lang="es">Selector de Repositorios de Soplos</name>
+  <name xml:lang="fr">Sélecteur de Dépôts de Soplos</name>
+  <name xml:lang="de">Soplos Paketquellen-Auswahl</name>
+  <name xml:lang="pt">Seletor de Repositórios do Soplos</name>
+  <name xml:lang="it">Selettore di Repository di Soplos</name>
+  <name xml:lang="ro">Selector Depozite Soplos</name>
+  <name xml:lang="ru">Выбор репозиториев Soplos</name>
 
   <summary>Advanced APT repository manager for Soplos Linux</summary>
   <summary xml:lang="en">Advanced APT repository manager for Soplos Linux</summary>
   <summary xml:lang="es">Gestor avanzado de repositorios APT para Soplos Linux</summary>
   <summary xml:lang="fr">Gestionnaire avancé de dépôts APT pour Soplos Linux</summary>
-  <summary xml:lang="pt">Gerenciador avançado de repositórios APT para Soplos Linux</summary>
-  <summary xml:lang="de">Erweiterte APT-Repository-Verwaltung für Soplos Linux</summary>
+  <summary xml:lang="de">Erweiterte APT-Paketquellen-Verwaltung für Soplos Linux</summary>
+  <summary xml:lang="pt">Gestor avançado de repositórios APT para o Soplos Linux</summary>
   <summary xml:lang="it">Gestore avanzato di repository APT per Soplos Linux</summary>
-  <summary xml:lang="ru">Продвинутый менеджер APT-репозиториев для Soplos Linux</summary>
   <summary xml:lang="ro">Manager avansat de depozite APT pentru Soplos Linux</summary>
+  <summary xml:lang="ru">Расширенный менеджер репозиториев APT для Soplos Linux</summary>
 
   <description>
-    <p>Soplos Repo Selector is a comprehensive repository management tool designed for Soplos Linux. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p>
-    <p xml:lang="en">Soplos Repo Selector is a comprehensive repository management tool designed for Soplos Linux. It provides an intuitive graphical interface for managing APT repositories, GPG keys, and system software sources with automatic theme detection and multi-language support.</p>
-    <p xml:lang="es">Soplos Repo Selector es una herramienta integral de gestión de repositorios diseñada para Soplos Linux. Proporciona una interfaz gráfica intuitiva para gestionar repositorios APT, claves GPG y fuentes de software del sistema con detección automática de tema y soporte multiidioma.</p>
-    <p xml:lang="fr">Soplos Repo Selector est un outil complet de gestion de dépôts conçu pour Soplos Linux. Il fournit une interface graphique intuitive pour gérer les dépôts APT, les clés GPG et les sources logicielles du système avec détection automatique de thème et support multilingue.</p>
-    <p xml:lang="pt">Soplos Repo Selector é uma ferramenta abrangente de gerenciamento de repositórios projetada para o Soplos Linux. Fornece uma interface gráfica intuitiva para gerenciar repositórios APT, chaves GPG e fontes de software do sistema com detecção automática de tema e suporte multilíngue.</p>
-    <p xml:lang="de">Soplos Repo Selector ist ein umfassendes Repository-Verwaltungstool für Soplos Linux. Es bietet eine intuitive grafische Benutzeroberfläche für die Verwaltung von APT-Repositories, GPG-Schlüsseln und System-Software-Quellen mit automatischer Theme-Erkennung und mehrsprachiger Unterstützung.</p>
-    <p xml:lang="it">Soplos Repo Selector è uno strumento completo di gestione repository progettato per Soplos Linux. Fornisce un'interfaccia grafica intuitiva per gestire repository APT, chiavi GPG e sorgenti software di sistema con rilevamento automatico del tema e supporto multilingue.</p>
-    <p xml:lang="ru">Soplos Repo Selector — комплексный инструмент управления репозиториями, разработанный для Soplos Linux. Предоставляет интуитивный графический интерфейс для управления APT-репозиториями, GPG-ключами и источниками программного обеспечения системы с автоматическим обнаружением темы и многоязычной поддержкой.</p>
-    <p xml:lang="ro">Soplos Repo Selector este un instrument cuprinzător de gestionare a depozitelor proiectat pentru Soplos Linux. Oferă o interfață grafică intuitivă pentru gestionarea depozitelor APT, cheilor GPG și surselor software de sistem cu detectare automată a temei și suport multilingv.</p>
-    <ul>
-      <li>Complete APT repository management with modern DEB822 format support</li>
-      <li xml:lang="es">Gestión completa de repositorios APT con soporte para formato DEB822 moderno</li>
-      <li xml:lang="fr">Gestion complète des dépôts APT avec support du format DEB822 moderne</li>
-      <li xml:lang="pt">Gerenciamento completo de repositórios APT com suporte ao formato DEB822 moderno</li>
-      <li xml:lang="de">Vollständige APT-Repository-Verwaltung mit moderner DEB822-Format-Unterstützung</li>
-      <li xml:lang="it">Gestione completa dei repository APT con supporto per il formato DEB822 moderno</li>
-      <li xml:lang="ru">Полное управление APT-репозиториями с поддержкой современного формата DEB822</li>
-      <li xml:lang="ro">Gestionarea completă a depozitelor APT cu suport pentru formatul DEB822 modern</li>
-      <li>Automatic fastest mirror detection and speed testing</li>
-      <li xml:lang="es">Detección automática de mirrors más rápidos y pruebas de velocidad</li>
-      <li xml:lang="fr">Détection automatique des miroirs les plus rapides et tests de vitesse</li>
-      <li xml:lang="pt">Detecção automática de espelhos mais rápidos e testes de velocidade</li>
-      <li xml:lang="de">Automatische Erkennung der schnellsten Spiegel und Geschwindigkeitstests</li>
-      <li xml:lang="it">Rilevamento automatico dei mirror più veloci e test di velocità</li>
-      <li xml:lang="ru">Автоматическое обнаружение самых быстрых зеркал и тестирование скорости</li>
-      <li xml:lang="ro">Detectarea automată a oglinzilor cele mai rapide și teste de viteză</li>
-      <li>GPG key management with import and download capabilities</li>
-      <li xml:lang="es">Gestión de claves GPG con capacidades de importación y descarga</li>
-      <li xml:lang="fr">Gestion des clés GPG avec capacités d'importation et de téléchargement</li>
-      <li xml:lang="pt">Gerenciamento de chaves GPG com capacidades de importação e download</li>
-      <li xml:lang="de">GPG-Schlüsselverwaltung mit Import- und Download-Funktionen</li>
-      <li xml:lang="it">Gestione delle chiavi GPG con capacità di importazione e download</li>
-      <li xml:lang="ru">Управление GPG-ключами с возможностями импорта и загрузки</li>
-      <li xml:lang="ro">Gestionarea cheilor GPG cu capacități de import și descărcare</li>
-      <li>Automatic dark/light theme detection for KDE, GNOME and XFCE</li>
-      <li xml:lang="es">Detección automática de tema oscuro/claro para KDE, GNOME y XFCE</li>
-      <li xml:lang="fr">Détection automatique du thème sombre/clair pour KDE, GNOME et XFCE</li>
-      <li xml:lang="pt">Detecção automática de tema escuro/claro para KDE, GNOME e XFCE</li>
-      <li xml:lang="de">Automatische Erkennung dunkler/heller Themen für KDE, GNOME und XFCE</li>
-      <li xml:lang="it">Rilevamento automatico del tema scuro/chiaro per KDE, GNOME e XFCE</li>
-      <li xml:lang="ru">Автоматическое обнаружение тёмной/светлой темы для KDE, GNOME и XFCE</li>
-      <li xml:lang="ro">Detectarea automată a temei întunecate/deschise pentru KDE, GNOME și XFCE</li>
-      <li>Multi-language support (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-      <li xml:lang="es">Soporte multiidioma (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-      <li xml:lang="fr">Support multilingue (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-      <li xml:lang="pt">Suporte multilíngue (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-      <li xml:lang="de">Mehrsprachige Unterstützung (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-      <li xml:lang="it">Supporto multilingue (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-      <li xml:lang="ru">Многоязычная поддержка (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-      <li xml:lang="ro">Suport multilingv (ES, EN, FR, PT, DE, IT, RU, RO)</li>
-      <li>Wayland and X11 compatibility with proper session detection</li>
-      <li xml:lang="es">Compatibilidad con Wayland y X11 con detección adecuada de sesión</li>
-      <li xml:lang="fr">Compatibilité Wayland et X11 avec détection de session appropriée</li>
-      <li xml:lang="pt">Compatibilidade com Wayland e X11 com detecção adequada de sessão</li>
-      <li xml:lang="de">Wayland- und X11-Kompatibilität mit ordnungsgemäßer Sitzungserkennung</li>
-      <li xml:lang="it">Compatibilità Wayland e X11 con rilevamento di sessione appropriato</li>
-      <li xml:lang="ru">Совместимость с Wayland и X11 с правильным обнаружением сеанса</li>
-      <li xml:lang="ro">Compatibilitate Wayland și X11 cu detectarea adecvată a sesiunii</li>
-      <li>Predefined repository templates for popular software</li>
-      <li xml:lang="es">Plantillas de repositorio predefinidas para software popular</li>
-      <li xml:lang="fr">Modèles de dépôts prédéfinis pour les logiciels populaires</li>
-      <li xml:lang="pt">Modelos de repositório predefinidos para software popular</li>
-      <li xml:lang="de">Vordefinierte Repository-Vorlagen für beliebte Software</li>
-      <li xml:lang="it">Modelli di repository predefiniti per software popolari</li>
-      <li xml:lang="ru">Предопределённые шаблоны репозиториев для популярного ПО</li>
-      <li xml:lang="ro">Șabloane de depozit predefinite pentru software popular</li>
-    </ul>
+    <p>
+      Soplos Repo Selector manages APT software repositories for Soplos
+      Linux: enable or disable repositories, modernize legacy .list files to
+      DEB822 .sources, find the fastest mirrors with a real speed test, and
+      manage GPG signing keys.
+    </p>
+    <p xml:lang="es">
+      El Selector de Repositorios de Soplos gestiona los repositorios de software
+      APT para Soplos Linux: activar o desactivar repositorios, modernizar archivos
+      .list al formato DEB822 .sources, encontrar los espejos más rápidos con test
+      de velocidad real y gestionar claves de firma GPG.
+    </p>
+    <p xml:lang="fr">
+      Le sélecteur de dépôts Soplos gère les dépôts logiciels APT pour Soplos Linux :
+      activer ou désactiver des dépôts, convertir les anciens fichiers .list au format
+      DEB822 .sources, trouver les miroirs les plus rapides et gérer les clés GPG.
+    </p>
+    <p xml:lang="de">
+      Die Soplos Paketquellen-Auswahl verwaltet APT-Softwarequellen für Soplos Linux:
+      Aktivieren oder Deaktivieren von Paketquellen, Modernisieren alter .list-Dateien
+      in das DEB822 .sources-Format, Ermitteln der schnellsten Spiegelserver und Verwalten
+      von GPG-Signaturschlüsseln.
+    </p>
+    <p xml:lang="pt">
+      O Seletor de Repositórios do Soplos gere os repositórios de software APT para o
+      Soplos Linux: ativar ou desativar repositórios, modernizar ficheiros .list antigos
+      para o formato DEB822 .sources, encontrar os espelhos mais rápidos e gerir chaves GPG.
+    </p>
+    <p xml:lang="it">
+      Il Selettore di Repository di Soplos gestisce i repository software APT per Soplos
+      Linux: attiva o disattiva repository, aggiorna i vecchi file .list al formato
+      DEB822 .sources, trova i mirror più veloci e gestisce le chiavi di firma GPG.
+    </p>
+    <p xml:lang="ro">
+      Selectorul de depozite Soplos gestionează depozitele de software APT pentru Soplos
+      Linux: activați sau dezactivați depozite, modernizați fișierele .list vechi în format
+      DEB822 .sources, găsiți cele mai rapide oglinzi și gestionați cheile GPG.
+    </p>
+    <p xml:lang="ru">
+      Выбор репозиториев Soplos управляет репозиториями программ APT для Soplos Linux:
+      включение и отключение репозиториев, перевод старых файлов .list в формат DEB822 .sources,
+      поиск быстрейших зеркал с тестом скорости и управление ключами подписи GPG.
+    </p>
   </description>
 
   <categories>
-    <category>Settings</category>
     <category>System</category>
-    <category>Utility</category>
+    <category>Settings</category>
+    <category>PackageManager</category>
   </categories>
 
   <keywords>
     <keyword>repository</keyword>
     <keyword>apt</keyword>
-    <keyword>sources</keyword>
+    <keyword>software</keyword>
+    <keyword>gpg</keyword>
     <keyword>debian</keyword>
     <keyword>soplos</keyword>
-    <keyword>package</keyword>
-    <keyword>manager</keyword>
-    <keyword>gpg</keyword>
-    <keyword>theme</keyword>
-    <keyword>wayland</keyword>
-    <keyword>template</keyword>
     <keyword>mirror</keyword>
-    <keyword>system</keyword>
-    <keyword>utility</keyword>
-    <keyword>settings</keyword>
+    <keyword>sources</keyword>
     <keyword xml:lang="es">repositorio</keyword>
+    <keyword xml:lang="es">apt</keyword>
+    <keyword xml:lang="es">software</keyword>
+    <keyword xml:lang="es">gpg</keyword>
+    <keyword xml:lang="es">debian</keyword>
+    <keyword xml:lang="es">soplos</keyword>
+    <keyword xml:lang="es">espejos</keyword>
     <keyword xml:lang="es">fuentes</keyword>
-    <keyword xml:lang="es">paquete</keyword>
-    <keyword xml:lang="es">gestor</keyword>
-    <keyword xml:lang="es">claves</keyword>
-    <keyword xml:lang="es">tema</keyword>
-    <keyword xml:lang="es">plantilla</keyword>
-    <keyword xml:lang="es">espejo</keyword>
-    <keyword xml:lang="es">sistema</keyword>
-    <keyword xml:lang="es">utilidad</keyword>
-    <keyword xml:lang="es">ajustes</keyword>
+    <keyword xml:lang="es">paquetes</keyword>
     <keyword xml:lang="fr">dépôt</keyword>
+    <keyword xml:lang="fr">apt</keyword>
+    <keyword xml:lang="fr">logiciel</keyword>
+    <keyword xml:lang="fr">gpg</keyword>
+    <keyword xml:lang="fr">debian</keyword>
+    <keyword xml:lang="fr">soplos</keyword>
+    <keyword xml:lang="fr">miroirs</keyword>
     <keyword xml:lang="fr">sources</keyword>
-    <keyword xml:lang="fr">paquet</keyword>
-    <keyword xml:lang="fr">gestionnaire</keyword>
-    <keyword xml:lang="fr">clé</keyword>
-    <keyword xml:lang="fr">thème</keyword>
-    <keyword xml:lang="fr">modèle</keyword>
-    <keyword xml:lang="fr">miroir</keyword>
-    <keyword xml:lang="fr">système</keyword>
-    <keyword xml:lang="fr">utilitaire</keyword>
-    <keyword xml:lang="fr">paramètres</keyword>
-    <keyword xml:lang="pt">repositório</keyword>
-    <keyword xml:lang="pt">fontes</keyword>
-    <keyword xml:lang="pt">pacote</keyword>
-    <keyword xml:lang="pt">gerenciador</keyword>
-    <keyword xml:lang="pt">chave</keyword>
-    <keyword xml:lang="pt">tema</keyword>
-    <keyword xml:lang="pt">modelo</keyword>
-    <keyword xml:lang="pt">espelho</keyword>
-    <keyword xml:lang="pt">sistema</keyword>
-    <keyword xml:lang="pt">utilitário</keyword>
-    <keyword xml:lang="pt">definições</keyword>
+    <keyword xml:lang="fr">paquets</keyword>
+    <keyword xml:lang="de">paketquelle</keyword>
     <keyword xml:lang="de">repository</keyword>
-    <keyword xml:lang="de">quelle</keyword>
-    <keyword xml:lang="de">paket</keyword>
-    <keyword xml:lang="de">manager</keyword>
-    <keyword xml:lang="de">schlüssel</keyword>
-    <keyword xml:lang="de">thema</keyword>
-    <keyword xml:lang="de">vorlage</keyword>
-    <keyword xml:lang="de">spiegel</keyword>
-    <keyword xml:lang="de">system</keyword>
-    <keyword xml:lang="de">dienstprogramm</keyword>
-    <keyword xml:lang="de">einstellungen</keyword>
+    <keyword xml:lang="de">apt</keyword>
+    <keyword xml:lang="de">software</keyword>
+    <keyword xml:lang="de">gpg</keyword>
+    <keyword xml:lang="de">debian</keyword>
+    <keyword xml:lang="de">soplos</keyword>
+    <keyword xml:lang="de">spiegelserver</keyword>
+    <keyword xml:lang="de">quellen</keyword>
+    <keyword xml:lang="pt">repositório</keyword>
+    <keyword xml:lang="pt">apt</keyword>
+    <keyword xml:lang="pt">software</keyword>
+    <keyword xml:lang="pt">gpg</keyword>
+    <keyword xml:lang="pt">debian</keyword>
+    <keyword xml:lang="pt">soplos</keyword>
+    <keyword xml:lang="pt">espelhos</keyword>
+    <keyword xml:lang="pt">fontes</keyword>
+    <keyword xml:lang="pt">pacotes</keyword>
     <keyword xml:lang="it">repository</keyword>
-    <keyword xml:lang="it">sorgenti</keyword>
-    <keyword xml:lang="it">pacchetto</keyword>
-    <keyword xml:lang="it">gestore</keyword>
-    <keyword xml:lang="it">chiave</keyword>
-    <keyword xml:lang="it">tema</keyword>
-    <keyword xml:lang="it">modello</keyword>
+    <keyword xml:lang="it">apt</keyword>
+    <keyword xml:lang="it">software</keyword>
+    <keyword xml:lang="it">gpg</keyword>
+    <keyword xml:lang="it">debian</keyword>
+    <keyword xml:lang="it">soplos</keyword>
     <keyword xml:lang="it">mirror</keyword>
-    <keyword xml:lang="it">sistema</keyword>
-    <keyword xml:lang="it">utilità</keyword>
-    <keyword xml:lang="it">impostazioni</keyword>
-    <keyword xml:lang="ru">репозиторий</keyword>
-    <keyword xml:lang="ru">источники</keyword>
-    <keyword xml:lang="ru">пакет</keyword>
-    <keyword xml:lang="ru">менеджер</keyword>
-    <keyword xml:lang="ru">ключ</keyword>
-    <keyword xml:lang="ru">тема</keyword>
-    <keyword xml:lang="ru">шаблон</keyword>
-    <keyword xml:lang="ru">зеркало</keyword>
-    <keyword xml:lang="ru">система</keyword>
-    <keyword xml:lang="ru">утилита</keyword>
-    <keyword xml:lang="ru">настройки</keyword>
+    <keyword xml:lang="it">sorgenti</keyword>
+    <keyword xml:lang="it">pacchetti</keyword>
     <keyword xml:lang="ro">depozit</keyword>
+    <keyword xml:lang="ro">apt</keyword>
+    <keyword xml:lang="ro">software</keyword>
+    <keyword xml:lang="ro">gpg</keyword>
+    <keyword xml:lang="ro">debian</keyword>
+    <keyword xml:lang="ro">soplos</keyword>
+    <keyword xml:lang="ro">oglinzi</keyword>
     <keyword xml:lang="ro">surse</keyword>
-    <keyword xml:lang="ro">pachet</keyword>
-    <keyword xml:lang="ro">manager</keyword>
-    <keyword xml:lang="ro">cheie</keyword>
-    <keyword xml:lang="ro">temă</keyword>
-    <keyword xml:lang="ro">șablon</keyword>
-    <keyword xml:lang="ro">oglindă</keyword>
-    <keyword xml:lang="ro">sistem</keyword>
-    <keyword xml:lang="ro">utilitar</keyword>
-    <keyword xml:lang="ro">setări</keyword>
+    <keyword xml:lang="ro">pachete</keyword>
+    <keyword xml:lang="ru">репозиторий</keyword>
+    <keyword xml:lang="ru">apt</keyword>
+    <keyword xml:lang="ru">программы</keyword>
+    <keyword xml:lang="ru">gpg</keyword>
+    <keyword xml:lang="ru">debian</keyword>
+    <keyword xml:lang="ru">soplos</keyword>
+    <keyword xml:lang="ru">зеркала</keyword>
+    <keyword xml:lang="ru">источники</keyword>
+    <keyword xml:lang="ru">пакеты</keyword>
   </keywords>
 
-  <translation type="gettext">soplos-repo-selector</translation>
-
-  <launchable type="desktop-id">org.soplos.reposelector.desktop</launchable>
-
-  <icon type="stock">org.soplos.reposelector</icon>
-  <icon type="remote" width="128" height="128">
-    <url>https://raw.githubusercontent.com/SoplosLinux/tyron/main/media/soplos-repo-selector/icons/org.soplos.reposelector.png</url>
-  </icon>
+  <launchable type="desktop-id">soplos-repo-selector.desktop</launchable>
 
   <screenshots>
     <screenshot type="default">
-      <caption>Soplos Repository Manager</caption>
-      <caption xml:lang="es">Gestor de Repositorios Soplos</caption>
-      <caption xml:lang="fr">Gestionnaire de dépôts Soplos</caption>
-      <caption xml:lang="pt">Gerenciador de Repositórios Soplos</caption>
-      <caption xml:lang="de">Soplos Repository-Manager</caption>
-      <caption xml:lang="it">Gestore dei repository Soplos</caption>
-      <caption xml:lang="ru">Менеджер репозиториев Soplos</caption>
-      <caption xml:lang="ro">Manager de depozite Soplos</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/assets/screenshots/screenshot1.png</image>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector-3.0/main/src-tauri/resources/screenshots/screenshot01.png</image>
+      <caption>Repositories list, with repos enabled or disabled per source</caption>
+      <caption xml:lang="es">Lista de repositorios con activación y desactivación por fuente</caption>
+      <caption xml:lang="en">Repositories list, with repos enabled or disabled per source</caption>
+      <caption xml:lang="fr">Liste des dépôts avec activation ou désactivation par source</caption>
+      <caption xml:lang="de">Paketquellen-Liste mit Aktivierung oder Deaktivierung pro Quelle</caption>
+      <caption xml:lang="pt">Lista de repositórios com ativação ou desativação por fonte</caption>
+      <caption xml:lang="it">Elenco dei repository con attivazione o disattivazione per sorgente</caption>
+      <caption xml:lang="ro">Lista depozitelor cu activare sau dezactivare per sursă</caption>
+      <caption xml:lang="ru">Список репозиториев с включением и отключением по источникам</caption>
     </screenshot>
-    <screenshot type="normal">
-      <caption>Repositories tab</caption>
-      <caption xml:lang="es">Pestaña de Repositorios</caption>
-      <caption xml:lang="fr">Onglet Dépôts</caption>
-      <caption xml:lang="pt">Aba de Repositórios</caption>
-      <caption xml:lang="de">Registerkarte Repositories</caption>
-      <caption xml:lang="it">Scheda Repository</caption>
-      <caption xml:lang="ru">Вкладка Репозитории</caption>
-      <caption xml:lang="ro">Fila Depozite</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/assets/screenshots/screenshot2.png</image>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector-3.0/main/src-tauri/resources/screenshots/screenshot02.png</image>
+      <caption>Sources Generator: choosing distribution, components and mirror</caption>
+      <caption xml:lang="es">Generador de fuentes: selección de distribución, componentes y espejo</caption>
+      <caption xml:lang="en">Sources Generator: choosing distribution, components and mirror</caption>
+      <caption xml:lang="fr">Générateur de sources : choix de la distribution, des composants et du miroir</caption>
+      <caption xml:lang="de">Quellengenerator: Auswahl von Distribution, Komponenten und Spiegelserver</caption>
+      <caption xml:lang="pt">Gerador de fontes: escolha de distribuição, componentes e espelho</caption>
+      <caption xml:lang="it">Generatore di sorgenti: selezione di distribuzione, componenti e mirror</caption>
+      <caption xml:lang="ro">Generator de surse: alegerea distribuției, componentelor și oglinzii</caption>
+      <caption xml:lang="ru">Генератор источников: выбор дистрибутива, компонентов и зеркала</caption>
     </screenshot>
-    <screenshot type="normal">
-      <caption>Sources Generator with integrated speed test</caption>
-      <caption xml:lang="es">Generador de Sources con test de velocidad integrado</caption>
-      <caption xml:lang="fr">Générateur de Sources avec test de vitesse intégré</caption>
-      <caption xml:lang="pt">Gerador de Sources com teste de velocidade integrado</caption>
-      <caption xml:lang="de">Sources-Generator mit integriertem Geschwindigkeitstest</caption>
-      <caption xml:lang="it">Generatore di Sources con test di velocità integrato</caption>
-      <caption xml:lang="ru">Генератор Sources со встроенным тестом скорости</caption>
-      <caption xml:lang="ro">Generator Sources cu test de viteză integrat</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/assets/screenshots/screenshot3.png</image>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector-3.0/main/src-tauri/resources/screenshots/screenshot03.png</image>
+      <caption>Sources Generator: live mirror speed test</caption>
+      <caption xml:lang="es">Generador de fuentes: prueba de velocidad de espejos en tiempo real</caption>
+      <caption xml:lang="en">Sources Generator: live mirror speed test</caption>
+      <caption xml:lang="fr">Générateur de sources : test de vitesse des miroirs en direct</caption>
+      <caption xml:lang="de">Quellengenerator: Live-Geschwindigkeitstest der Spiegelserver</caption>
+      <caption xml:lang="pt">Gerador de fontes: teste de velocidade de espelhos em tempo real</caption>
+      <caption xml:lang="it">Generatore di sorgenti: test di velocità dei mirror in tempo reale</caption>
+      <caption xml:lang="ro">Generator de surse: test de viteză a oglinzilor în timp real</caption>
+      <caption xml:lang="ru">Генератор источников: проверка скорости зеркал в реальном времени</caption>
     </screenshot>
-    <screenshot type="normal">
-      <caption>GPG Key Manager</caption>
-      <caption xml:lang="es">Gestor de Claves GPG</caption>
-      <caption xml:lang="fr">Gestionnaire de clés GPG</caption>
-      <caption xml:lang="pt">Gerenciador de Chaves GPG</caption>
-      <caption xml:lang="de">GPG-Schlüsselverwaltung</caption>
-      <caption xml:lang="it">Gestore chiavi GPG</caption>
-      <caption xml:lang="ru">Менеджер ключей GPG</caption>
-      <caption xml:lang="ro">Manager de chei GPG</caption>
-      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector/main/assets/screenshots/screenshot4.png</image>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-repo-selector-3.0/main/src-tauri/resources/screenshots/screenshot04.png</image>
+      <caption>GPG Keys: imported Debian and third-party signing keys</caption>
+      <caption xml:lang="es">Claves GPG: claves de firma de Debian y de terceros importadas</caption>
+      <caption xml:lang="en">GPG Keys: imported Debian and third-party signing keys</caption>
+      <caption xml:lang="fr">Clés GPG : clés de signature Debian et tierces importées</caption>
+      <caption xml:lang="de">GPG-Schlüssel: importierte Debian- und Drittanbieter-Signaturschlüssel</caption>
+      <caption xml:lang="pt">Chaves GPG: chaves de assinatura do Debian e de terceiros importadas</caption>
+      <caption xml:lang="it">Chiavi GPG: chiavi di firma Debian e di terze parti importate</caption>
+      <caption xml:lang="ro">Chei GPG: chei de semnare Debian și terțe importate</caption>
+      <caption xml:lang="ru">Ключи GPG: импортированные ключи подписи Debian и сторонних репозиториев</caption>
     </screenshot>
   </screenshots>
-
-  <url type="homepage">https://soplos.org</url>
-  <url type="bugtracker">https://github.com/SoplosLinux/soplos-repo-selector/issues</url>
-  <url type="donation">https://paypal.me/soploslinux</url>
-  <url type="contact">https://soplos.org/wiki/contact/</url>
-
-  <developer id="org.soploslinux">
-    <name>Sergi Perich</name>
-    <url type="homepage">https://soplos.org</url>
-  </developer>
 
   <provides>
     <binary>soplos-repo-selector</binary>
   </provides>
 
+  <url type="homepage">https://soplos.org</url>
+
+  <developer id="org.soplos">
+    <name>Sergi Perich</name>
+  </developer>
+
   <releases>
-
-    <release version="2.0.3-1" date="2026-09-16">
+    <release version="3.0.0" date="2026-11-17">
       <description>
-        <p xml:lang="en">Fixed GPG key resolution when modernizing a .list to .sources: a generic keyword like "debian" could match an unrelated official Debian keyring before the repository's own key file, breaking signature verification. Fixed DEB822 stanzas with a leading header comment being shown as disabled. Fixed a duplicate full re-read of all source files on startup. Fixed GPG key listing aborting on keyrings with non-UTF-8 encoded UIDs.</p>
-        <p xml:lang="es">Corregida la resolución de claves GPG al modernizar un .list a .sources: una palabra clave genérica como "debian" podía coincidir con un llavero oficial de Debian sin relación antes que con la clave propia del repositorio, rompiendo la verificación de firma. Corregidas las secciones DEB822 con un comentario de cabecera que se mostraban como desactivadas. Corregida una relectura duplicada de todos los archivos de fuentes al iniciar. Corregido el listado de claves GPG que fallaba con llaveros con UID codificados en un formato distinto a UTF-8.</p>
-        <p xml:lang="fr">Correction de la résolution des clés GPG lors de la modernisation d'un .list en .sources : un mot-clé générique comme « debian » pouvait correspondre à un trousseau Debian officiel sans rapport avant la propre clé du dépôt, cassant la vérification de signature. Correction des sections DEB822 avec un commentaire d'en-tête affichées comme désactivées. Correction d'une double relecture complète des fichiers de sources au démarrage. Correction du listage des clés GPG qui échouait sur des trousseaux contenant des UID non encodés en UTF-8.</p>
-        <p xml:lang="pt">Corrigida a resolução de chaves GPG ao modernizar um .list para .sources: uma palavra-chave genérica como "debian" podia corresponder a um chaveiro oficial do Debian sem relação antes da própria chave do repositório, quebrando a verificação de assinatura. Corrigidas seções DEB822 com um comentário de cabeçalho exibidas como desativadas. Corrigida uma releitura completa duplicada de todos os arquivos de fontes ao iniciar. Corrigida a listagem de chaves GPG que falhava em chaveiros com UIDs não codificados em UTF-8.</p>
-        <p xml:lang="de">GPG-Schlüsselauflösung beim Modernisieren einer .list zu .sources korrigiert: ein generisches Schlüsselwort wie „debian" konnte vor der eigentlichen Repository-Schlüsseldatei einen nicht verwandten offiziellen Debian-Schlüsselbund treffen und die Signaturprüfung brechen. DEB822-Blöcke mit einem einleitenden Kopfkommentar, die fälschlich als deaktiviert angezeigt wurden, korrigiert. Ein doppeltes vollständiges erneutes Einlesen aller Quelldateien beim Start behoben. GPG-Schlüssellisting, das bei Schlüsselbunden mit nicht UTF-8-kodierten UIDs abbrach, behoben.</p>
-        <p xml:lang="it">Risolta la risoluzione delle chiavi GPG durante la modernizzazione di un .list in .sources: una parola chiave generica come "debian" poteva corrispondere a un portachiavi Debian ufficiale non correlato prima della chiave effettiva del repository, interrompendo la verifica della firma. Risolte le sezioni DEB822 con un commento di intestazione mostrate come disattivate. Risolta una doppia rilettura completa di tutti i file sorgente all'avvio. Risolto l'elenco delle chiavi GPG che si interrompeva con portachiavi contenenti UID non codificati in UTF-8.</p>
-        <p xml:lang="ru">Исправлено разрешение ключей GPG при модернизации .list в .sources: общее ключевое слово, например «debian», могло совпасть с несвязанной официальной связкой ключей Debian раньше, чем с собственным ключом репозитория, нарушая проверку подписи. Исправлены блоки DEB822 с заголовочным комментарием, ошибочно отображавшиеся как отключённые. Исправлено дублирующее полное перечитывание всех файлов источников при запуске. Исправлен список ключей GPG, прерывавшийся на связках ключей с UID, закодированными не в UTF-8.</p>
-        <p xml:lang="ro">Corectată rezolvarea cheilor GPG la modernizarea unui .list în .sources: un cuvânt cheie generic precum „debian” putea coincide cu un inel de chei oficial Debian fără legătură înaintea cheii proprii a depozitului, întrerupând verificarea semnăturii. Corectate blocurile DEB822 cu un comentariu de antet afișate ca dezactivate. Corectată o recitire completă duplicată a tuturor fișierelor sursă la pornire. Corectată listarea cheilor GPG care eșua pe inele de chei cu UID-uri necodate UTF-8.</p>
+        <p>First stable release.</p>
       </description>
     </release>
-
-    <release version="2.0.3" date="2026-07-07">
+    <release version="3.0.0-8-beta" date="2026-11-04">
       <description>
-        <p xml:lang="en">Build dependency python3-all replaced with python3.</p>
-        <p xml:lang="es">Se ha sustituido la dependencia de compilación python3-all por python3.</p>
-        <p xml:lang="fr">La dépendance de compilation python3-all a été remplacée par python3.</p>
-        <p xml:lang="pt">A dependência de compilação python3-all foi substituída por python3.</p>
-        <p xml:lang="de">Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.</p>
-        <p xml:lang="it">La dipendenza di compilazione python3-all è stata sostituita con python3.</p>
-        <p xml:lang="ru">Зависимость сборки python3-all заменена на python3.</p>
-        <p xml:lang="ro">Dependența de compilare python3-all a fost înlocuită cu python3.</p>
+        <p>The application metadata points to the installed launcher.</p>
       </description>
     </release>
-
-    <release version="2.0.2-9" date="2026-06-23">
+    <release version="3.0.0-7-beta" date="2026-10-29">
       <description>
-        <p>New option in Sources Generator to include source packages (deb-src). Auto-detected from existing system repositories on startup.</p>
-        <p xml:lang="en">New option in Sources Generator to include source packages (deb-src). Auto-detected from existing system repositories on startup.</p>
-        <p xml:lang="es">Nueva opción en el Generador de fuentes para incluir paquetes fuente (deb-src). Se detecta automáticamente a partir de los repositorios del sistema al iniciar.</p>
-        <p xml:lang="fr">Nouvelle option dans le Générateur de sources pour inclure les paquets source (deb-src). Détection automatique à partir des dépôts système au démarrage.</p>
-        <p xml:lang="pt">Nova opção no Gerador de fontes para incluir pacotes fonte (deb-src). Detectado automaticamente a partir dos repositórios do sistema ao iniciar.</p>
-        <p xml:lang="de">Neue Option im Quellen-Generator zum Einbeziehen von Quellpaketen (deb-src). Wird beim Start automatisch aus den System-Repositories erkannt.</p>
-        <p xml:lang="it">Nuova opzione nel Generatore di sorgenti per includere i pacchetti sorgente (deb-src). Rilevamento automatico dai repository di sistema all'avvio.</p>
-        <p xml:lang="ru">Новая опция в генераторе источников для включения пакетов с исходным кодом (deb-src). Автоматически определяется из системных репозиториев при запуске.</p>
-        <p xml:lang="ro">Opțiune nouă în Generatorul de surse pentru a include pachete sursă (deb-src). Detectat automat din depozitele sistemului la pornire.</p>
+        <p>The window no longer has the frame of the system: it is a card with rounded corners and its own minimize, maximize and close buttons.</p>
       </description>
     </release>
-
-    <release version="2.0.2-8" date="2026-05-19">
+    <release version="3.0.0-6-beta" date="2026-10-28">
       <description>
-        <p>Documentation-only release: version history corrected across the release page, CHANGELOG and metainfo. All 1.0.x timestamps updated to match the dates extracted from the internal CHANGELOG of each official package.</p>
-        <p xml:lang="en">Documentation-only release: version history corrected across the release page, CHANGELOG and metainfo. All 1.0.x timestamps updated to match the dates extracted from the internal CHANGELOG of each official package.</p>
-        <p xml:lang="es">Publicación solo de documentación: historial de versiones corregido en la página de lanzamientos, CHANGELOG y metainfo. Todas las fechas de la serie 1.0.x actualizadas para coincidir con las fechas extraídas del CHANGELOG interno de cada paquete oficial.</p>
-        <p xml:lang="fr">Version documentation uniquement : historique des versions corrigé dans la page des versions, CHANGELOG et metainfo. Toutes les dates de la série 1.0.x mises à jour pour correspondre aux dates extraites du CHANGELOG interne de chaque paquet officiel.</p>
-        <p xml:lang="pt">Versão apenas de documentação: histórico de versões corrigido na página de lançamentos, CHANGELOG e metainfo. Todas as datas da série 1.0.x atualizadas para corresponder às datas extraídas do CHANGELOG interno de cada pacote oficial.</p>
-        <p xml:lang="de">Nur-Dokumentations-Release: Versionshistorie auf der Releases-Seite, im CHANGELOG und Metainfo korrigiert. Alle Zeitstempel der 1.0.x-Serie entsprechend den Daten aus dem internen CHANGELOG jedes offiziellen Pakets aktualisiert.</p>
-        <p xml:lang="it">Versione solo documentazione: cronologia delle versioni corretta nella pagina delle versioni, CHANGELOG e metainfo. Tutti i timestamp della serie 1.0.x aggiornati per corrispondere alle date estratte dal CHANGELOG interno di ogni pacchetto ufficiale.</p>
-        <p xml:lang="ru">Только документационный выпуск: история версий исправлена на странице релизов, в CHANGELOG и metainfo. Все временные метки серии 1.0.x обновлены в соответствии с датами, извлечёнными из внутреннего CHANGELOG каждого официального пакета.</p>
-        <p xml:lang="ro">Lansare doar de documentație: istoricul versiunilor corectat în pagina de lansări, CHANGELOG și metainfo. Toate marcajele temporale ale seriei 1.0.x actualizate pentru a corespunde datelor extrase din CHANGELOG-ul intern al fiecărui pachet oficial.</p>
+        <p>New application icon, new hero image and new screenshots, taken with the interface in English.</p>
       </description>
     </release>
-
-    <release version="2.0.2-7" date="2026-04-30">
+    <release version="3.0.0-5-beta" date="2026-10-24">
       <description>
-        <p>Simplified the footer UI text to match the modern Soplos standard layout.</p>
-        <p xml:lang="en">Simplified the footer UI text to match the modern Soplos standard layout.</p>
-        <p xml:lang="es">Se ha simplificado el texto de la barra de estado para coincidir con el diseño estándar de Soplos.</p>
-        <p xml:lang="fr">Le texte de la barre d'état a été simplifié pour correspondre à la disposition standard moderne de Soplos.</p>
-        <p xml:lang="pt">O texto da barra de status foi simplificado para corresponder ao layout padrão moderno do Soplos.</p>
-        <p xml:lang="de">Der Text der Statusleiste wurde vereinfacht, um dem modernen Soplos-Standardlayout zu entsprechen.</p>
-        <p xml:lang="it">Il testo della barra di stato è stato semplificato per corrispondere al layout standard moderno di Soplos.</p>
-        <p xml:lang="ru">Текст строки состояния был упрощён, чтобы соответствовать современному стандартному макету Soplos.</p>
-        <p xml:lang="ro">Textul barei de stare a fost simplificat pentru a se potrivi cu aspectul standard modern Soplos.</p>
+        <p>The list of mirrors of the speed test no longer fights with the scroll of the page: the wheel stays inside the list.</p>
       </description>
     </release>
-
-    <release version="2.0.2-6" date="2026-03-24">
+    <release version="3.0.0-4-beta" date="2026-10-23">
       <description>
-        <p xml:lang="en">Fixed refresh button always returning stale cached data. Repositories tab now refreshes immediately after generating new sources. Each suite now gets its own independent .sources file for individual toggle control per suite.</p>
-        <p xml:lang="es">Corregido el botón de refrescar que devolvía datos cacheados. La pestaña Repositorios ahora se actualiza inmediatamente tras generar fuentes. Cada suite tiene ahora su propio archivo .sources independiente para control individual por suite.</p>
-        <p xml:lang="fr">Correction du bouton Actualiser. L'onglet Dépôts se rafraîchit immédiatement après la génération. Chaque suite dispose désormais de son propre fichier .sources indépendant pour un contrôle individuel par suite.</p>
-        <p xml:lang="pt">Corrigido o botão Atualizar. A aba Repositórios atualiza imediatamente após gerar fontes. Cada suite tem agora o seu próprio ficheiro .sources independente para controlo individual por suite.</p>
-        <p xml:lang="de">Aktualisieren-Schaltfläche behoben. Repositories-Tab aktualisiert sich sofort nach der Generierung. Jede Suite erhält nun eine eigene unabhängige .sources-Datei für individuelle Suite-Steuerung.</p>
-        <p xml:lang="it">Corretto il pulsante Aggiorna. La scheda Archivi si aggiorna immediatamente dopo la generazione. Ogni suite ora ha il proprio file .sources indipendente per il controllo individuale per suite.</p>
-        <p xml:lang="ru">Исправлена кнопка обновления. Вкладка Репозитории обновляется сразу после генерации. Каждый suite теперь имеет собственный независимый файл .sources для индивидуального управления.</p>
-        <p xml:lang="ro">Remediat butonul Reîmprospătare. Fila Depozite se actualizează imediat după generare. Fiecare suite are acum propriul fișier .sources independent pentru control individual pe suite.</p>
+        <p>The window follows the light or dark theme of the desktop (Xfce, Plasma and GNOME); the button of the sidebar still lets you choose.</p>
       </description>
     </release>
-
-    <release version="2.0.2-5" date="2026-03-20">
+    <release version="3.0.0-3-beta" date="2026-10-22">
       <description>
-        <p xml:lang="en">Standardized the About dialog across XFCE, GNOME, and KDE: dark background, button heights, and pill button styling are now identical to all other Soplos apps. App icon standardized to 48×48 pixels. Removed gtk-application-prefer-dark-theme setting that caused subtle color differences.</p>
-        <p xml:lang="es">Estandarizado el diálogo Acerca de en XFCE, GNOME y KDE: fondo oscuro, alturas de botones y estilo de botones píldora son ahora idénticos a las demás aplicaciones Soplos. Icono de la aplicación estandarizado a 48×48 píxeles. Eliminado el parámetro gtk-application-prefer-dark-theme que causaba diferencias de color sutiles.</p>
-        <p xml:lang="fr">Standardisation du dialogue À propos sous XFCE, GNOME et KDE : fond sombre, hauteurs des boutons et style des boutons pilule sont désormais identiques aux autres applications Soplos. Icône standardisée à 48×48 pixels. Suppression du paramètre gtk-application-prefer-dark-theme qui causait de légères différences de couleur.</p>
-        <p xml:lang="pt">Padronizado o diálogo Sobre no XFCE, GNOME e KDE: fundo escuro, alturas de botões e estilo de botões pílula são agora idênticos às demais aplicações Soplos. Ícone padronizado para 48×48 pixels. Removida a configuração gtk-application-prefer-dark-theme que causava diferenças de cor sutis.</p>
-        <p xml:lang="de">Standardisierter Über-Dialog unter XFCE, GNOME und KDE: dunkler Hintergrund, Schaltflächenhöhen und Pill-Button-Stil sind jetzt identisch mit anderen Soplos-Apps. App-Symbol auf 48×48 Pixel standardisiert. Einstellung gtk-application-prefer-dark-theme entfernt, die subtile Farbunterschiede verursachte.</p>
-        <p xml:lang="it">Finestra Info standardizzata su XFCE, GNOME e KDE: sfondo scuro, altezze dei pulsanti e stile dei pulsanti pill sono ora identici alle altre app Soplos. Icona standardizzata a 48×48 pixel. Rimossa l'impostazione gtk-application-prefer-dark-theme che causava differenze di colore.</p>
-        <p xml:lang="ru">Диалог «О программе» стандартизирован в XFCE, GNOME и KDE: тёмный фон, высота кнопок и стиль кнопок-таблеток теперь идентичны другим приложениям Soplos. Значок стандартизирован до 48×48 пикселей. Удалена настройка gtk-application-prefer-dark-theme, вызывавшая незначительные различия цветов.</p>
-        <p xml:lang="ro">Dialogul Despre standardizat în XFCE, GNOME și KDE: fundal întunecat, înălțimi ale butoanelor și stilul butoanelor pill sunt acum identice cu alte aplicații Soplos. Pictogramă standardizată la 48×48 pixeli. Eliminată setarea gtk-application-prefer-dark-theme care cauza diferențe de culoare.</p>
+        <p>Documentation and packaging fixes.</p>
+        <ul>
+          <li>Manual page rewritten for the three views (Repositories, Sources Generator and GPG Keys) and installed compressed</li>
+          <li>AppStream categories and keywords in 8 languages; developer and project group identifiers now org.soplos; screenshots use web addresses</li>
+          <li>Changelog installed to /usr/share/doc/soplos-repo-selector/</li>
+          <li>Debian copyright declares Lucide (ISC), used for the interface icons</li>
+        </ul>
       </description>
     </release>
-
-    <release version="2.0.2-4" date="2026-03-20">
+    <release version="3.0.0-2-beta" date="2026-10-19">
       <description>
-        <p xml:lang="en">Added Ctrl+Shift+Tab reverse tab navigation, F1 About dialog, GNOME application menu About action, and GPG key search across all standard directories. Fixed HeaderBar CSS on GNOME, double repository reads on startup, bare except clauses, and removed dead code.</p>
-        <p xml:lang="es">Añadida navegación inversa con Ctrl+Shift+Tab, diálogo Acerca de con F1, acción Acerca de del menú GNOME y búsqueda de clave GPG en todos los directorios estándar. Corregido el CSS del HeaderBar en GNOME, la doble lectura de repositorios al inicio, excepciones desnudas y eliminado código muerto.</p>
-        <p xml:lang="fr">Ajout de la navigation inverse Ctrl+Shift+Tab, du dialogue À propos avec F1, de l'action À propos du menu GNOME et de la recherche de clé GPG dans tous les répertoires standard. Correction du CSS HeaderBar sur GNOME, des lectures doubles de dépôts au démarrage, des clauses except nues et suppression du code mort.</p>
-        <p xml:lang="pt">Adicionada navegação inversa Ctrl+Shift+Tab, diálogo Sobre com F1, ação Sobre do menu GNOME e busca de chave GPG em todos os diretórios padrão. Corrigido CSS do HeaderBar no GNOME, leituras duplas de repositórios na inicialização, cláusulas except sem tipo e removido código morto.</p>
-        <p xml:lang="de">Hinzugefügt: umgekehrte Tab-Navigation Strg+Umschalt+Tab, Über-Dialog mit F1, GNOME-Menü-Über-Aktion und GPG-Schlüsselsuche in allen Standardverzeichnissen. Behoben: HeaderBar-CSS auf GNOME, doppeltes Lesen von Repositories beim Start, nackte except-Klauseln und toter Code entfernt.</p>
-        <p xml:lang="it">Aggiunta navigazione inversa Ctrl+Shift+Tab, finestra Info con F1, azione Info del menu GNOME e ricerca chiave GPG in tutte le directory standard. Corretti CSS HeaderBar su GNOME, doppia lettura dei repository all'avvio, clausole except nude e rimosso codice morto.</p>
-        <p xml:lang="ru">Добавлена обратная навигация Ctrl+Shift+Tab, диалог «О программе» по F1, действие «О программе» в меню GNOME и поиск GPG-ключей во всех стандартных директориях. Исправлены CSS HeaderBar в GNOME, двойное чтение репозиториев при запуске, голые except-клаузулы и удалён мёртвый код.</p>
-        <p xml:lang="ro">Adăugată navigare inversă Ctrl+Shift+Tab, dialog Despre cu F1, acțiunea Despre din meniul GNOME și căutarea cheii GPG în toate directoarele standard. Corectate CSS HeaderBar pe GNOME, citiri duble ale depozitelor la pornire, clauze except goale și eliminat codul mort.</p>
+        <p>Full 8-language internationalization across desktop launchers and AppStream metadata.</p>
+        <p>Added Unix manual page documentation (soplos-repo-selector.1) installed to /usr/share/man/man1/.</p>
+        <p>Updated Debian packaging and application documentation.</p>
       </description>
     </release>
-
-    <release version="2.0.2-3" date="2026-03-13">
+    <release version="3.0.0-1-beta" date="2026-10-08">
       <description>
-        <p xml:lang="en">Integrated repository search, DEB822 modernization with automatic backups, unified privilege management, and complete manual internationalization across 8 languages.</p>
-        <p xml:lang="es">Búsqueda integrada de repositorios, modernización a DEB822 con backups automáticos, gestión unificada de privilegios e internacionalización manual completa en 8 idiomas.</p>
-        <p xml:lang="fr">Recherche de dépôts intégrée, modernisation en DEB822 avec sauvegardes automatiques, gestion unifiée des privilèges et internationalisation manuelle complète en 8 langues.</p>
-        <p xml:lang="pt">Pesquisa integrada de repositórios, modernização para DEB822 com backups automáticos, gestão unitária de privilégios e internacionalização manual completa em 8 idiomas.</p>
-        <p xml:lang="de">Integrierte Repository-Suche, DEB822-Modernisierung mit automatischen Backups, einheitliche Rechteverwaltung und vollständige manuelle Internationalisierung in 8 Sprachen.</p>
-        <p xml:lang="it">Ricerca integrata dei repository, modernizzazione in DEB822 con backup automatici, gestione unificata dei privilegi e internazionalizzazione manuale completa in 8 lingue.</p>
-        <p xml:lang="ru">Интегрированный поиск репозиториев, модернизация в DEB822 с автоматическим резервным копированием, унифицированное управление привилегиями и полная ручная интернационализация на 8 языках.</p>
-        <p xml:lang="ro">Căutare integrată a depozitelor, modernizare la DEB822 cu copii de rezervă automate, gestionarea unificată a privilegiilor și internaționalizare manuală completă în 8 limbi.</p>
+        <p>Unused GPG key detection and an updated sidebar icon.</p>
+        <ul>
+          <li>GPG Keys now flags keys no repository references anymore and that don't belong to any installed package</li>
+          <li>Updated sidebar icon</li>
+        </ul>
       </description>
     </release>
-
-    <release version="2.0.2-2" date="2026-03-12">
+    <release version="3.0.0-alpha" date="2026-10-03">
       <description>
-        <p xml:lang="en">Fixed duplicated components in DEB822 sources files and improved repository list UI.</p>
-        <p xml:lang="es">Corregida la duplicación de componentes en archivos sources DEB822 y mejorada la interfaz de lista de repositorios.</p>
-        <p xml:lang="fr">Correction de la duplication des composants dans les fichiers sources DEB822 et amélioration de l'interface de la liste des dépôts.</p>
-        <p xml:lang="pt">Corrigida a duplicação de componentes em arquivos sources DEB822 e melhorada a interface da lista de repositórios.</p>
-        <p xml:lang="de">Duplizierte Komponenten in DEB822-Quelldateien behoben und die Repository-Listendarstellung verbessert.</p>
-        <p xml:lang="it">Corretta la duplicazione dei componenti nei file sources DEB822 e migliorata l'interfaccia dell'elenco repository.</p>
-        <p xml:lang="ru">Исправлено дублирование компонентов в файлах sources DEB822 и улучшен интерфейс списка репозиториев.</p>
-        <p xml:lang="ro">Corectată duplicarea componentelor în fișierele sources DEB822 și îmbunătățită interfața listei de depozite.</p>
+        <p>Full architecture rewrite of Soplos Repo Selector, from Python 3 and GTK3 to Tauri 2 with a Rust backend and a Svelte frontend.</p>
       </description>
     </release>
-
-    <release version="2.0.2-1" date="2026-03-10">
-      <description>
-        <p xml:lang="en">Fixed repository detection for mirrors and regional repositories. Fixed legacy parser to correctly detect commented-out repositories. Optimized pkexec calls to reduce password prompts.</p>
-        <p xml:lang="es">Corregida la detección de repositorios en mirrors y repositorios regionales. Corregido el parser legado para detectar correctamente repositorios comentados. Optimizadas las llamadas a pkexec para reducir solicitudes de contraseña.</p>
-        <p xml:lang="fr">Correction de la détection des dépôts pour les miroirs et dépôts régionaux. Correction du parseur hérité pour détecter correctement les dépôts commentés. Optimisation des appels pkexec pour réduire les demandes de mot de passe.</p>
-        <p xml:lang="pt">Corrigida a detecção de repositórios para espelhos e repositórios regionais. Corrigido o parser legado para detectar corretamente repositórios comentados. Otimizadas as chamadas pkexec para reduzir solicitações de senha.</p>
-        <p xml:lang="de">Repository-Erkennung für Spiegel und regionale Repositories korrigiert. Legacy-Parser korrigiert, um auskommentierte Repositories korrekt zu erkennen. pkexec-Aufrufe optimiert, um Passwortabfragen zu reduzieren.</p>
-        <p xml:lang="it">Corretta la rilevazione dei repository per mirror e repository regionali. Corretto il parser legacy per rilevare correttamente i repository commentati. Ottimizzate le chiamate pkexec per ridurre le richieste di password.</p>
-        <p xml:lang="ru">Исправлено обнаружение репозиториев для зеркал и региональных репозиториев. Исправлен устаревший парсер для корректного обнаружения закомментированных репозиториев. Оптимизированы вызовы pkexec для уменьшения запросов пароля.</p>
-        <p xml:lang="ro">Corectată detectarea depozitelor pentru oglinzi și depozite regionale. Corectat parserul legacy pentru detectarea corectă a depozitelor comentate. Optimizate apelurile pkexec pentru reducerea solicitărilor de parolă.</p>
-      </description>
-    </release>
-
-    <release version="2.0.2" date="2026-01-09">
-      <description>
-        <p xml:lang="en">Documentation release: added complete manual page and Debian copyright file.</p>
-        <p xml:lang="es">Versión de documentación: añadida página de manual completa y archivo copyright de Debian.</p>
-        <p xml:lang="fr">Version de documentation : ajout de la page de manuel complète et du fichier copyright Debian.</p>
-        <p xml:lang="pt">Versão de documentação: adicionada página de manual completa e arquivo copyright Debian.</p>
-        <p xml:lang="de">Dokumentations-Release: vollständige Handbuchseite und Debian-Copyright-Datei hinzugefügt.</p>
-        <p xml:lang="it">Rilascio documentazione: aggiunta pagina di manuale completa e file copyright Debian.</p>
-        <p xml:lang="ru">Релиз документации: добавлена полная страница руководства и файл авторских прав Debian.</p>
-        <p xml:lang="ro">Versiune documentație: adăugată pagina de manual completă și fișierul copyright Debian.</p>
-      </description>
-    </release>
-
-    <release version="2.0.1" date="2026-01-02">
-      <description>
-        <p xml:lang="en">Complete speed test rewrite with real TCP latency measurement, larger downloads (2-10 MB), increased parallelism (6 workers) and dynamic real-time progress bars. Sources Generator now detects real system state. Fixed backports file removal when disabled. Fixed translation function error in file manager.</p>
-        <p xml:lang="es">Reescritura completa del test de velocidad con medición real de latencia TCP, descargas más grandes (2-10 MB), mayor paralelismo (6 workers) y barras de progreso dinámicas en tiempo real. El Generador de Sources ahora detecta el estado real del sistema. Corregida la eliminación del archivo de backports al desactivarlo. Corregido error de función de traducción en el gestor de archivos.</p>
-        <p xml:lang="fr">Réécriture complète du test de vitesse avec mesure réelle de la latence TCP, téléchargements plus importants (2-10 Mo), parallélisme accru (6 workers) et barres de progression dynamiques en temps réel. Le Générateur de Sources détecte désormais l'état réel du système. Correction de la suppression du fichier backports. Correction de l'erreur de fonction de traduction dans le gestionnaire de fichiers.</p>
-        <p xml:lang="pt">Reescrita completa do teste de velocidade com medição real de latência TCP, downloads maiores (2-10 MB), maior paralelismo (6 workers) e barras de progresso dinâmicas em tempo real. O Gerador de Sources agora detecta o estado real do sistema. Corrigida a remoção do arquivo de backports ao desativá-lo. Corrigido erro de função de tradução no gerenciador de arquivos.</p>
-        <p xml:lang="de">Vollständige Neufassung des Geschwindigkeitstests mit echter TCP-Latenzmessung, größeren Downloads (2-10 MB), erhöhtem Parallelismus (6 Worker) und dynamischen Echtzeit-Fortschrittsbalken. Sources Generator erkennt jetzt den echten Systemstatus. Backports-Datei-Entfernung beim Deaktivieren korrigiert. Übersetzungsfunktionsfehler im Dateimanager behoben.</p>
-        <p xml:lang="it">Riscrittura completa del test di velocità con misurazione reale della latenza TCP, download più grandi (2-10 MB), maggior parallelismo (6 worker) e barre di avanzamento dinamiche in tempo reale. Il Generatore di Sources ora rileva lo stato reale del sistema. Corretta la rimozione del file backports. Corretto errore della funzione di traduzione nel gestore file.</p>
-        <p xml:lang="ru">Полная переработка теста скорости с реальным измерением задержки TCP, более крупными загрузками (2-10 МБ), увеличенным параллелизмом (6 воркеров) и динамическими индикаторами прогресса в реальном времени. Генератор Sources теперь определяет реальное состояние системы. Исправлено удаление файла backports. Исправлена ошибка функции перевода в файловом менеджере.</p>
-        <p xml:lang="ro">Rescrierea completă a testului de viteză cu măsurarea reală a latenței TCP, descărcări mai mari (2-10 MB), paralelism crescut (6 workeri) și bare de progres dinamice în timp real. Generatorul Sources detectează acum starea reală a sistemului. Corectată eliminarea fișierului backports. Corectată eroarea funcției de traducere în managerul de fișiere.</p>
-      </description>
-    </release>
-
-    <!-- Three former 2.0.0 patch entries merged into one; date is the final patch date -->
-    <release version="2.0.0" date="2025-12-13">
-      <description>
-        <p xml:lang="en">Major rewrite with modern, modular architecture for cross-desktop compatibility (GNOME, KDE Plasma, XFCE). Unified branch replacing the former Tyson (KDE) and Tyron (XFCE) separate releases. Includes complete internationalization for 8 languages, CSS-based theming engine, improved GPG key management, enhanced DEB822 format support, mirror speed test integrated into the Sources Generator tab, and full Wayland/X11 compatibility.</p>
-        <p xml:lang="es">Reescritura mayor con arquitectura moderna y modular para compatibilidad multiescritor (GNOME, KDE Plasma, XFCE). Rama unificada que reemplaza las anteriores versiones separadas Tyson (KDE) y Tyron (XFCE). Incluye internacionalización completa para 8 idiomas, motor de temas CSS, gestión de claves GPG mejorada, mejor soporte DEB822, test de velocidad integrado en la pestaña Generador de Sources y compatibilidad total Wayland/X11.</p>
-        <p xml:lang="fr">Réécriture majeure avec une architecture moderne et modulaire pour la compatibilité multi-bureau (GNOME, KDE Plasma, XFCE). Branche unifiée remplaçant les anciennes versions séparées Tyson (KDE) et Tyron (XFCE). Comprend une internationalisation complète pour 8 langues, un moteur de thèmes CSS, une gestion améliorée des clés GPG, un meilleur support DEB822, un test de vitesse intégré dans l'onglet Générateur de Sources et une compatibilité totale Wayland/X11.</p>
-        <p xml:lang="pt">Reescrita maior com arquitetura moderna e modular para compatibilidade multi-desktop (GNOME, KDE Plasma, XFCE). Ramo unificado que substitui as anteriores versões separadas Tyson (KDE) e Tyron (XFCE). Inclui internacionalização completa para 8 idiomas, motor de temas CSS, gestão de chaves GPG melhorada, melhor suporte DEB822, teste de velocidade integrado na aba Gerador de Sources e compatibilidade total Wayland/X11.</p>
-        <p xml:lang="de">Größere Neufassung mit moderner, modularer Architektur für Desktop-übergreifende Kompatibilität (GNOME, KDE Plasma, XFCE). Einheitlicher Branch, der die früheren separaten Versionen Tyson (KDE) und Tyron (XFCE) ersetzt. Enthält vollständige Internationalisierung für 8 Sprachen, CSS-basierte Theme-Engine, verbesserte GPG-Schlüsselverwaltung, bessere DEB822-Unterstützung, in den Sources-Generator integrierten Geschwindigkeitstest und vollständige Wayland/X11-Kompatibilität.</p>
-        <p xml:lang="it">Riscrittura maggiore con architettura moderna e modulare per compatibilità multi-desktop (GNOME, KDE Plasma, XFCE). Branch unificato che sostituisce le precedenti versioni separate Tyson (KDE) e Tyron (XFCE). Include internazionalizzazione completa per 8 lingue, motore temi CSS, gestione chiavi GPG migliorata, migliore supporto DEB822, test di velocità integrato nella scheda Generatore di Sources e compatibilità totale Wayland/X11.</p>
-        <p xml:lang="ru">Крупная переработка с современной модульной архитектурой для кросс-десктопной совместимости (GNOME, KDE Plasma, XFCE). Единая ветка, заменяющая раздельные версии Tyson (KDE) и Tyron (XFCE). Включает полную интернационализацию для 8 языков, CSS-движок тем, улучшенное управление GPG-ключами, расширенную поддержку DEB822, тест скорости зеркал в генераторе Sources и полную совместимость с Wayland/X11.</p>
-        <p xml:lang="ro">Rescrierea majoră cu arhitectură modernă și modulară pentru compatibilitate multi-desktop (GNOME, KDE Plasma, XFCE). Ramură unificată care înlocuiește versiunile separate anterioare Tyson (KDE) și Tyron (XFCE). Include internaționalizare completă pentru 8 limbi, motor de teme CSS, gestionare îmbunătățită a cheilor GPG, suport DEB822 extins, test de viteză integrat în fila Generator Sources și compatibilitate totală Wayland/X11.</p>
-      </description>
-    </release>
-
   </releases>
 
-  <content_rating type="oars-1.1">
-    <content_attribute id="violence-cartoon">none</content_attribute>
-    <content_attribute id="sex-nudity">none</content_attribute>
-    <content_attribute id="language-profanity">none</content_attribute>
-    <content_attribute id="drugs-alcohol">none</content_attribute>
-    <content_attribute id="money-gambling">none</content_attribute>
-    <content_attribute id="money-purchasing">none</content_attribute>
-    <content_attribute id="social-chat">none</content_attribute>
-  </content_rating>
-
+  <content_rating type="oars-1.1" />
 </component>

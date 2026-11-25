@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.soplos.gamingpanel</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Soplos Gaming Panel</name>
+  <summary>Live gaming companion for Soplos Linux</summary>
+  <description>
+    <p>
+      Soplos Gaming Panel is the visual surface of the machine while a game
+      runs: it controls GameMode, reads and writes the configuration of
+      MangoHud, watches the use of the processor, the graphics card, the
+      memory, the temperatures, the fans and the voltages, and opens the games
+      that are already installed, both from the menu of the desktop and from
+      Steam.
+    </p>
+    <p>
+      A small overlay can be drawn over the game, with the cells the player
+      ticks: frames per second, frametime, use and temperature of the processor
+      and the graphics card, watts, clocks, VRAM, memory and network.
+    </p>
+    <p>
+      The tools it controls are the ones that Soplos Welcome installs in its
+      Gaming Center. The panel does not install them again: it offers the
+      same installation as a fallback when they are missing.
+    </p>
+  </description>
+  <launchable type="desktop-id">soplos-gaming-panel.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-gaming-panel-3.0/main/src-tauri/resources/screenshots/screenshot01.png</image>
+      <caption>Monitor with the use of the processor, the graphics card and the memory</caption>
+      <caption xml:lang="es">Monitor con el uso del procesador, de la tarjeta gráfica y de la memoria</caption>
+      <caption xml:lang="en">Monitor with the use of the processor, the graphics card and the memory</caption>
+      <caption xml:lang="fr">Moniteur avec l'utilisation du processeur, de la carte graphique et de la mémoire</caption>
+      <caption xml:lang="de">Monitor mit der Auslastung von Prozessor, Grafikkarte und Arbeitsspeicher</caption>
+      <caption xml:lang="pt">Monitor com o uso do processador, da placa gráfica e da memória</caption>
+      <caption xml:lang="it">Monitor con l'uso del processore, della scheda grafica e della memoria</caption>
+      <caption xml:lang="ro">Monitor cu utilizarea procesorului, a plăcii grafice și a memoriei</caption>
+      <caption xml:lang="ru">Монитор с загрузкой процессора, видеокарты и памяти</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-gaming-panel-3.0/main/src-tauri/resources/screenshots/screenshot02.png</image>
+      <caption>GameMode with the state of the mode, the profile and the optimizations of the system</caption>
+      <caption xml:lang="es">GameMode con el estado del modo, el perfil y las optimizaciones del sistema</caption>
+      <caption xml:lang="en">GameMode with the state of the mode, the profile and the optimizations of the system</caption>
+      <caption xml:lang="fr">GameMode avec l'état du mode, le profil et les optimisations du système</caption>
+      <caption xml:lang="de">GameMode mit Zustand des Modus, Profil und Systemoptimierungen</caption>
+      <caption xml:lang="pt">GameMode com o estado do modo, o perfil e as otimizações do sistema</caption>
+      <caption xml:lang="it">GameMode con lo stato della modalità, il profilo e le ottimizzazioni di sistema</caption>
+      <caption xml:lang="ro">GameMode cu starea modului, profilul și optimizările sistemului</caption>
+      <caption xml:lang="ru">GameMode с состоянием режима, профилем и оптимизациями системы</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-gaming-panel-3.0/main/src-tauri/resources/screenshots/screenshot03.png</image>
+      <caption>The keys of the MangoHud file as boxes, grouped in sections</caption>
+      <caption xml:lang="es">Las claves del archivo de MangoHud como casillas, agrupadas en secciones</caption>
+      <caption xml:lang="en">The keys of the MangoHud file as boxes, grouped in sections</caption>
+      <caption xml:lang="fr">Les clés du fichier de MangoHud sous forme de cases, groupées en sections</caption>
+      <caption xml:lang="de">Die Schlüssel der MangoHud-Datei als Kästchen, in Abschnitten gruppiert</caption>
+      <caption xml:lang="pt">As chaves do ficheiro do MangoHud como caixas, agrupadas em secções</caption>
+      <caption xml:lang="it">Le chiavi del file di MangoHud come caselle, raggruppate in sezioni</caption>
+      <caption xml:lang="ro">Cheile fișierului MangoHud ca bifă, grupate în secțiuni</caption>
+      <caption xml:lang="ru">Ключи файла MangoHud в виде флажков, сгруппированные по разделам</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-gaming-panel-3.0/main/src-tauri/resources/screenshots/screenshot04.png</image>
+      <caption>The library, with the games of the desktop menu and of Steam</caption>
+      <caption xml:lang="es">La biblioteca, con los juegos del menú del escritorio y de Steam</caption>
+      <caption xml:lang="en">The library, with the games of the desktop menu and of Steam</caption>
+      <caption xml:lang="fr">La bibliothèque, avec les jeux du menu du bureau et de Steam</caption>
+      <caption xml:lang="de">Die Bibliothek mit den Spielen aus dem Desktop-Menü und aus Steam</caption>
+      <caption xml:lang="pt">A biblioteca, com os jogos do menu do ambiente de trabalho e do Steam</caption>
+      <caption xml:lang="it">La libreria, con i giochi del menu del desktop e di Steam</caption>
+      <caption xml:lang="ro">Biblioteca, cu jocurile din meniul desktopului și din Steam</caption>
+      <caption xml:lang="ru">Библиотека с играми из меню рабочего стола и Steam</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/SoplosLinux/soplos-gaming-panel-3.0/main/src-tauri/resources/screenshots/screenshot05.png</image>
+      <caption>Settings with the shortcuts, the overlay and the start with the session</caption>
+      <caption xml:lang="es">Ajustes con los atajos, la superposición y el inicio con la sesión</caption>
+      <caption xml:lang="en">Settings with the shortcuts, the overlay and the start with the session</caption>
+      <caption xml:lang="fr">Réglages avec les raccourcis, la superposition et le démarrage avec la session</caption>
+      <caption xml:lang="de">Einstellungen mit Tastenkürzeln, Overlay und Start mit der Sitzung</caption>
+      <caption xml:lang="pt">Definições com os atalhos, a sobreposição e o arranque com a sessão</caption>
+      <caption xml:lang="it">Impostazioni con le scorciatoie, la sovrapposizione e l'avvio con la sessione</caption>
+      <caption xml:lang="ro">Setări cu scurtăturile, suprapunerea și pornirea cu sesiunea</caption>
+      <caption xml:lang="ru">Настройки с сочетаниями клавиш, оверлеем и запуском с сеансом</caption>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://soplos.org</url>
+  <url type="bugtracker">https://github.com/SoplosLinux/soplos-gaming-panel-3.0/issues</url>
+  <developer id="org.soplos">
+    <name>Sergi Perich</name>
+  </developer>
+  <content_rating type="oars-1.1"/>
+  <categories>
+    <category>Utility</category>
+    <category>Game</category>
+  </categories>
+  <releases>
+    <release version="3.0.0" date="2026-11-18">
+      <description>
+        <p>First stable release, in the 3.0 stack of Soplos Linux.</p>
+        <p>Control of GameMode and of the sched_ext schedulers, one profile and
+        one scheduler per game, the levers of the kernel with their value while
+        a game runs, and the history of the games played.</p>
+        <p>Monitor of the machine with the temperatures, the fans, the voltages
+        and the watts of every sensor, the processes with the most load and a
+        chart of the last hour.</p>
+        <p>Overlay whose cells the user ticks, and MangoHud configuration with
+        the keys of its file as boxes, a key added by hand and the log the panel
+        reads the frames per second from.</p>
+        <p>Library of the installed games, taken from the desktop menu and from
+        the manifests of Steam, with the cover of each one.</p>
+      </description>
+    </release>
+  </releases>
+</component>
