@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: "SoplosLinux"
 MediaBaseUrl: "https://raw.githubusercontent.com/SoplosLinux/tyson/main/media"
-Time: 20261124T182022
+Time: 20261125T065313
 ---
 Type: desktop-application
 ID: "com.mitchellh.ghostty"
@@ -830,311 +830,183 @@ Name:
   ro: "Editor GRUB Soplos"
   ru: "Редактор GRUB Soplos"
 Summary:
-  C: "Advanced GRUB configuration editor with complete internationalization"
-  de: "Erweiterte GRUB-Konfigurationseditor mit vollständiger Internationalisierung"
-  es: "Editor avanzado de configuración GRUB con internacionalización completa"
-  fr: "Éditeur de configuration GRUB avancé avec internationalisation complète"
-  it: "Editor avanzato di configurazione GRUB con internazionalizzazione completa"
-  pt: "Editor avançado de configuração GRUB com internacionalização completa"
-  ro: "Editor avansat de configurare GRUB cu internaționalizare completă"
-  ru: "Расширенный редактор конфигурации GRUB с полной интернационализацией"
+  C: "Graphical editor for the GRUB boot loader of Soplos Linux"
+  de: "Grafischer Editor für den GRUB-Bootloader von Soplos Linux"
+  es: "Editor gráfico del gestor de arranque GRUB de Soplos Linux"
+  fr: "Éditeur graphique du chargeur de démarrage GRUB de Soplos Linux"
+  it: "Editor grafico del bootloader GRUB di Soplos Linux"
+  pt: "Editor gráfico do gestor de arranque GRUB do Soplos Linux"
+  ro: "Editor grafic pentru încărcătorul de boot GRUB al Soplos Linux"
+  ru: "Графический редактор загрузчика GRUB для Soplos Linux"
 Description:
-  C: "<p>Soplos GRUB Editor is a comprehensive graphical tool for configuring and customizing the GRUB2 bootloader. With complete internationalization support for 8 languages, it provides an intuitive interface for managing boot settings, themes, fonts, and custom entries.</p><p>Key Features:</p><ul><li>Complete internationalization - 8 languages supported</li><li>Intuitive GTK3 interface with keyboard shortcuts</li><li>Theme management and installation</li><li>Custom font conversion and application</li><li>Background image configuration</li><li>Custom boot entry management</li><li>Advanced kernel parameter configuration</li><li>Automatic backup and restore functionality</li><li>Safe update-grub integration</li><li>Multi-OS detection support</li></ul>"
-  de: "<p>Soplos GRUB Editor ist ein umfassendes grafisches Tool zur Konfiguration und Anpassung des GRUB2-Bootloaders. Mit vollständiger Internationalisierungsunterstützung für 8 Sprachen bietet es eine intuitive Benutzeroberfläche zur Verwaltung von Boot-Einstellungen, Themes, Schriftarten und benutzerdefinierten Einträgen.</p>"
-  es: "<p>Soplos GRUB Editor es una herramienta gráfica integral para configurar y personalizar el gestor de arranque GRUB2. Con soporte completo de internacionalización para 8 idiomas, proporciona una interfaz intuitiva para gestionar configuraciones de arranque, temas, fuentes y entradas personalizadas.</p>"
-  fr: "<p>Soplos GRUB Editor est un outil graphique complet pour configurer et personnaliser le chargeur de démarrage GRUB2. Avec un support complet d'internationalisation pour 8 langues, il fournit une interface intuitive pour gérer les paramètres de démarrage, les thèmes, les polices et les entrées personnalisées.</p>"
-  it: "<p>Soplos GRUB Editor è uno strumento grafico completo per configurare e personalizzare il bootloader GRUB2. Con supporto completo per l'internazionalizzazione in 8 lingue, fornisce un'interfaccia intuitiva per gestire impostazioni di avvio, temi, font ed entrate personalizzate.</p>"
-  pt: "<p>Soplos GRUB Editor é uma ferramenta gráfica abrangente para configurar e personalizar o gerenciador de inicialização GRUB2. Com suporte completo de internacionalização para 8 idiomas, fornece uma interface intuitiva para gerenciar configurações de inicialização, temas, fontes e entradas personalizadas.</p>"
-  ro: "<p>Soplos GRUB Editor este un instrument grafic cuprinzător pentru configurarea și personalizarea încărcătorului de sistem GRUB2. Cu suport complet de internaționalizare pentru 8 limbi, oferă o interfață intuitivă pentru gestionarea setărilor de pornire, temelor, fonturilor și intrărilor personalizate.</p>"
-  ru: "<p>Soplos GRUB Editor - это комплексный графический инструмент для настройки и персонализации загрузчика GRUB2. С полной поддержкой интернационализации для 8 языков, он предоставляет интуитивный интерфейс для управления настройками загрузки, темами, шрифтами и пользовательскими записями.</p>"
+  C: "<p>Soplos GRUB Editor configures the GRUB2 boot loader of Soplos Linux: the default entry and the timeout, the kernel parameters, custom boot entries, themes, backgrounds, colors and fonts. Every change goes through a Polkit-authenticated helper, the window never runs as root, and a copy of the settings can be saved before the first change.</p>"
+  de: "<p>Der Soplos GRUB Editor konfiguriert den GRUB2-Bootloader von Soplos Linux: den Standardeintrag und die Wartezeit, die Kernel-Parameter, eigene Booteinträge, Themes, Hintergründe, Farben und Schriften. Jede Änderung läuft über einen per Polkit authentifizierten Helfer, das Fenster läuft nie als root, und vor der ersten Änderung kann eine Kopie der Einstellungen gespeichert werden.</p>"
+  es: "<p>El Editor GRUB de Soplos configura el gestor de arranque GRUB2 de Soplos Linux: la entrada por defecto y el tiempo de espera, los parámetros del kernel, entradas de arranque propias, temas, fondos, colores y fuentes. Cada cambio pasa por un ayudante autenticado con Polkit, la ventana nunca se ejecuta como root y se puede guardar una copia de la configuración antes del primer cambio.</p>"
+  fr: "<p>L'éditeur GRUB Soplos configure le chargeur de démarrage GRUB2 de Soplos Linux : l'entrée par défaut et le délai, les paramètres du noyau, les entrées de démarrage personnalisées, les thèmes, les fonds, les couleurs et les polices. Chaque modification passe par un assistant authentifié par Polkit, la fenêtre ne s'exécute jamais en root et une copie des réglages peut être enregistrée avant la première modification.</p>"
+  it: "<p>L'Editor GRUB di Soplos configura il bootloader GRUB2 di Soplos Linux: la voce predefinita e il timeout, i parametri del kernel, voci di avvio personalizzate, temi, sfondi, colori e font. Ogni modifica passa da un helper autenticato con Polkit, la finestra non gira mai come root e prima della prima modifica si può salvare una copia delle impostazioni.</p>"
+  pt: "<p>O Editor GRUB Soplos configura o gestor de arranque GRUB2 do Soplos Linux: a entrada por defeito e o tempo de espera, os parâmetros do kernel, entradas de arranque próprias, temas, fundos, cores e tipos de letra. Cada alteração passa por um auxiliar autenticado com o Polkit, a janela nunca corre como root e pode guardar-se uma cópia das definições antes da primeira alteração.</p>"
+  ro: "<p>Editorul GRUB Soplos configurează încărcătorul de boot GRUB2 al Soplos Linux: intrarea implicită și timpul de așteptare, parametrii kernelului, intrări de boot proprii, teme, fundaluri, culori și fonturi. Fiecare modificare trece printr-un ajutor autentificat cu Polkit, fereastra nu rulează niciodată ca root și se poate salva o copie a setărilor înainte de prima modificare.</p>"
+  ru: "<p>Редактор GRUB Soplos настраивает загрузчик GRUB2 в Soplos Linux: запись по умолчанию и время ожидания, параметры ядра, собственные пункты загрузки, темы, фоны, цвета и шрифты. Каждое изменение проходит через помощник с аутентификацией Polkit, окно никогда не работает от root, а копию настроек можно сохранить перед первым изменением.</p>"
 ProjectLicense: "GPL-3.0-or-later"
 Developer:
-  id: "org.soploslinux"
+  id: "org.soplos"
   name:
     C: "Sergi Perich"
-    de: "Sergi Perich"
-    en: "Sergi Perich"
-    es: "Sergi Perich"
-    fr: "Sergi Perich"
-    it: "Sergi Perich"
-    pt: "Sergi Perich"
-    ro: "Sergi Perich"
-    ru: "Серги Перич"
 Url:
   homepage: "https://soplos.org"
-  bugtracker: "https://github.com/SoplosLinux/soplos-grub-editor/issues"
-  donation: "https://paypal.me/isubdes"
-  contact: "https://forums.soplos.org"
-  vcs-browser: "https://github.com/SoplosLinux/tyron"
 Categories:
   - "System"
   - "Settings"
-  - "Utility"
 Keywords:
   C:
     - "grub"
-    - "bootloader"
     - "boot"
-    - "system"
-    - "configure"
-    - "settings"
-    - "customize"
+    - "bootloader"
     - "theme"
+    - "kernel"
     - "soplos"
   de:
-    - "start"
-    - "konfiguration"
-    - "thema"
+    - "bootloader"
+    - "theme"
+    - "kernel"
   es:
     - "arranque"
-    - "configurar"
     - "tema"
+    - "kernel"
   fr:
     - "démarrage"
-    - "configurer"
     - "thème"
+    - "noyau"
   it:
     - "avvio"
-    - "configurare"
     - "tema"
+    - "kernel"
   pt:
-    - "inicialização"
-    - "configurar"
+    - "arranque"
     - "tema"
+    - "kernel"
   ro:
-    - "pornire"
-    - "configurare"
+    - "boot"
     - "temă"
+    - "kernel"
   ru:
     - "загрузка"
-    - "настройка"
     - "тема"
+    - "ядро"
 Icon:
   cached:
-    - name: "org.soplos.grubeditor.png"
+    - name: "soplos-grub-editor.png"
       width: 48
       height: 48
-    - name: "org.soplos.grubeditor.png"
+    - name: "soplos-grub-editor.png"
       width: 64
       height: 64
-    - name: "org.soplos.grubeditor.png"
+    - name: "soplos-grub-editor.png"
       width: 128
       height: 128
   remote:
-    - url: "soplos-grub-editor/icons/48x48/org.soplos.grubeditor.png"
+    - url: "soplos-grub-editor/icons/48x48/soplos-grub-editor.png"
       width: 48
       height: 48
-    - url: "soplos-grub-editor/icons/64x64/org.soplos.grubeditor.png"
+    - url: "soplos-grub-editor/icons/64x64/soplos-grub-editor.png"
       width: 64
       height: 64
-    - url: "soplos-grub-editor/icons/128x128/org.soplos.grubeditor.png"
+    - url: "soplos-grub-editor/icons/128x128/soplos-grub-editor.png"
       width: 128
       height: 128
 Launchable:
   desktop-id:
-    - "org.soplos.grubeditor.desktop"
+    - "soplos-grub-editor.desktop"
 Provides:
   binaries:
     - "soplos-grub-editor"
 Screenshots:
   - default: true
     caption:
-      C: "General configuration"
-      de: "Allgemeine Konfiguration"
-      es: "Configuración general"
-      fr: "Configuration générale"
-      it: "Configurazione generale"
-      pt: "Configuração geral"
-      ro: "Configurare generală"
-      ru: "Общая конфигурация"
+      C: "General settings: the default boot mode, the timeout and the screen resolution"
     source-image:
-      url: "soplos-grub-editor/screenshots/screenshot1.png"
-      width: 904
-      height: 647
+      url: "soplos-grub-editor/screenshots/screenshot01.png"
+      width: 1000
+      height: 712
   - caption:
-      C: "Boot entries"
-      de: "Boot-Einträge"
-      es: "Entradas de arranque"
-      fr: "Entrées de démarrage"
-      it: "Voci di avvio"
-      pt: "Entradas de inicialização"
-      ro: "Intrări de pornire"
-      ru: "Записи загрузки"
+      C: "General settings: menu options and kernel parameters"
     source-image:
-      url: "soplos-grub-editor/screenshots/screenshot2.png"
-      width: 904
-      height: 647
+      url: "soplos-grub-editor/screenshots/screenshot02.png"
+      width: 1000
+      height: 712
   - caption:
-      C: "Theme, background and color selector"
-      de: "Themen-, Hintergrund- und Farbauswahl"
-      es: "Selector de temas, fondos y colores"
-      fr: "Sélecteur de thèmes, arrière-plans et couleurs"
-      it: "Selettore di temi, sfondi e colori"
-      pt: "Seletor de temas, fundos e cores"
-      ro: "Selector de teme, fundaluri și culori"
-      ru: "Селектор тем, фонов и цветов"
+      C: "Boot entries: kernels, memtest and firmware, with a switch for each one that can be changed"
     source-image:
-      url: "soplos-grub-editor/screenshots/screenshot3.png"
-      width: 904
-      height: 647
+      url: "soplos-grub-editor/screenshots/screenshot03.png"
+      width: 1000
+      height: 712
   - caption:
-      C: "Typographic font converter"
-      de: "Typografische Schriftarten-Konverter"
-      es: "Conversor de fuentes tipográficas"
-      fr: "Convertisseur de polices typographiques"
-      it: "Convertitore di caratteri tipografici"
-      pt: "Conversor de fontes tipográficas"
-      ro: "Convertor de fonturi tipografice"
-      ru: "Конвертер типографических шрифтов"
+      C: "Appearance: the installed themes, with the one in use marked"
     source-image:
-      url: "soplos-grub-editor/screenshots/screenshot4.png"
-      width: 904
-      height: 647
+      url: "soplos-grub-editor/screenshots/screenshot04.png"
+      width: 1000
+      height: 712
+  - caption:
+      C: "Appearance: how the menu will look with the chosen background and colors"
+    source-image:
+      url: "soplos-grub-editor/screenshots/screenshot05.png"
+      width: 1000
+      height: 712
+  - caption:
+      C: "Appearance: the background image and the colors of the menu"
+    source-image:
+      url: "soplos-grub-editor/screenshots/screenshot06.png"
+      width: 1000
+      height: 712
+  - caption:
+      C: "Appearance: converting a font to GRUB's format and choosing the installed ones"
+    source-image:
+      url: "soplos-grub-editor/screenshots/screenshot07.png"
+      width: 1000
+      height: 712
 Releases:
-  - version: "2.0.2-8"
+  - version: "3.0.0"
     type: stable
-    unix-timestamp: 1785542400
+    unix-timestamp: 1794873600
     description:
-      de: "<p>Die neue Auswahl „Standard-Boot-Modus“ erlaubt die Wahl zwischen einem festen Eintrag, dem zuletzt installierten Kernel oder dem zuletzt gestarteten Kernel. Das Anwenden von Änderungen in den allgemeinen Einstellungen legt den Boot-Eintrag nicht mehr auf den aktuellen Kernel fest, wodurch ein neu installierter Kernel nie gestartet wurde.</p>"
-      en: "<p>New \"Default Boot Mode\" selector lets you choose between a fixed entry, the last installed kernel or the last booted kernel. Applying changes in General settings no longer pins the boot entry to the current kernel, which prevented newly installed kernels from ever being booted.</p>"
-      es: "<p>El nuevo selector \"Modo de arranque predeterminado\" permite elegir entre una entrada fija, el último kernel instalado o el último kernel arrancado. Aplicar cambios en la configuración general ya no fija la entrada de arranque al kernel actual, lo que impedía que se arrancara nunca un kernel recién instalado.</p>"
-      fr: "<p>Le nouveau sélecteur « Mode de démarrage par défaut » permet de choisir entre une entrée fixe, le dernier noyau installé ou le dernier noyau démarré. L'application des modifications dans les paramètres généraux ne fige plus l'entrée de démarrage sur le noyau actuel, ce qui empêchait tout noyau nouvellement installé d'être démarré.</p>"
-      it: "<p>Il nuovo selettore \"Modalità di avvio predefinita\" permette di scegliere tra una voce fissa, l'ultimo kernel installato o l'ultimo kernel avviato. Applicare le modifiche nelle impostazioni generali non fissa più la voce di avvio sul kernel attuale, il che impediva l'avvio di qualsiasi kernel appena installato.</p>"
-      pt: "<p>O novo seletor \"Modo de Arranque Padrão\" permite escolher entre uma entrada fixa, o último kernel instalado ou o último kernel arrancado. Aplicar alterações nas definições gerais já não fixa a entrada de arranque no kernel atual, o que impedia que um kernel recém-instalado fosse arrancado.</p>"
-      ro: "<p>Noul selector „Mod de boot implicit” permite alegerea între o intrare fixă, ultimul kernel instalat sau ultimul kernel pornit. Aplicarea modificărilor în setările generale nu mai fixează intrarea de pornire pe kernelul curent, ceea ce împiedica pornirea oricărui kernel nou instalat.</p>"
-      ru: "<p>Новый селектор «Режим загрузки по умолчанию» позволяет выбрать фиксированную запись, последнее установленное ядро или последнее загруженное ядро. Применение изменений в общих настройках больше не закрепляет загрузочную запись за текущим ядром, из-за чего только что установленное ядро никогда не загружалось.</p>"
-  - version: "2.0.2-7"
+      C: "<p>First stable release.</p>"
+  - version: "3.0.0-5-beta"
     type: stable
-    unix-timestamp: 1785283200
+    unix-timestamp: 1794700800
     description:
-      de: "<p>Die Bildschirmauflösung wird nicht mehr mit ihrer übersetzten Bezeichnung gespeichert, benutzerdefinierte Boot-Einträge können jetzt aktiviert, deaktiviert und gelöscht werden, und der Starter registriert das Fenster unter derselben Kennung wie die Desktop-Datei.</p>"
-      en: "<p>Screen resolution is no longer saved using its translated label, custom boot entries can now be enabled, disabled and deleted, and the launcher wrapper registers the window under the same identifier as the desktop file.</p>"
-      es: "<p>La resolución de pantalla ya no se guarda con su etiqueta traducida, las entradas de arranque personalizadas ahora se pueden activar, desactivar y eliminar, y el lanzador registra la ventana con el mismo identificador que el archivo de escritorio.</p>"
-      fr: "<p>La résolution d'écran n'est plus enregistrée avec son libellé traduit, les entrées de démarrage personnalisées peuvent maintenant être activées, désactivées et supprimées, et le lanceur enregistre la fenêtre sous le même identifiant que le fichier de bureau.</p>"
-      it: "<p>La risoluzione dello schermo non viene più salvata con la sua etichetta tradotta, le voci di avvio personalizzate ora possono essere attivate, disattivate ed eliminate, e il lanciatore registra la finestra con lo stesso identificatore del file desktop.</p>"
-      pt: "<p>A resolução de ecrã já não é guardada com o seu rótulo traduzido, as entradas de arranque personalizadas podem agora ser ativadas, desativadas e eliminadas, e o lançador regista a janela com o mesmo identificador do ficheiro de ambiente de trabalho.</p>"
-      ro: "<p>Rezoluția ecranului nu mai este salvată cu eticheta sa tradusă, intrările de pornire personalizate pot fi acum activate, dezactivate și șterse, iar lansatorul înregistrează fereastra cu același identificator ca fișierul desktop.</p>"
-      ru: "<p>Разрешение экрана больше не сохраняется с переведённой подписью, пользовательские загрузочные записи теперь можно включать, отключать и удалять, а лаунчер регистрирует окно с тем же идентификатором, что и файл рабочего стола.</p>"
-  - version: "2.0.2-6"
+      C: "<p>Detecting other operating systems shows its real state when the setting is not in the GRUB configuration, and turning it on takes effect the first time.</p>"
+  - version: "3.0.0-4-beta"
     type: stable
-    unix-timestamp: 1784764800
+    unix-timestamp: 1793750400
     description:
-      de: "<p>Der Tab „Boot-Einträge\" funktioniert jetzt wirklich: Memtest-Einträge können deaktiviert oder entfernt werden, benutzerdefinierte Einträge können hinzugefügt werden, und doppelte oder falsch beschriftete Einträge wurden behoben.</p>"
-      en: "<p>Boot Entries tab now works for real: memtest entries can be disabled or removed, custom entries can be added, and duplicate/mislabeled entries were fixed.</p>"
-      es: "<p>La pestaña de Entradas de arranque ahora funciona de verdad: las entradas de memtest se pueden desactivar o eliminar, se pueden añadir entradas personalizadas, y se corrigieron entradas duplicadas o mal etiquetadas.</p>"
-      fr: "<p>L'onglet Entrées de démarrage fonctionne enfin réellement : les entrées memtest peuvent être désactivées ou supprimées, des entrées personnalisées peuvent être ajoutées, et les entrées dupliquées ou mal étiquetées ont été corrigées.</p>"
-      it: "<p>La scheda Voci di avvio ora funziona davvero: le voci memtest possono essere disattivate o rimosse, si possono aggiungere voci personalizzate, e sono state corrette voci duplicate o etichettate male.</p>"
-      pt: "<p>A aba Entradas de arranque agora funciona de verdade: as entradas de memtest podem ser desativadas ou removidas, entradas personalizadas podem ser adicionadas, e entradas duplicadas ou mal rotuladas foram corrigidas.</p>"
-      ro: "<p>Fila Intrări de pornire funcționează acum cu adevărat: intrările memtest pot fi dezactivate sau eliminate, se pot adăuga intrări personalizate, iar intrările duplicate sau etichetate greșit au fost corectate.</p>"
-      ru: "<p>Вкладка загрузочных записей теперь действительно работает: записи memtest можно отключать или удалять, можно добавлять пользовательские записи, исправлены дублирующиеся или неверно подписанные записи.</p>"
-  - version: "2.0.2-5"
+      C: "<p>The application metadata points to the installed launcher, and the manual page is the same in the project and in the package.</p>"
+  - version: "3.0.0-3-beta"
     type: stable
-    unix-timestamp: 1783382400
+    unix-timestamp: 1793232000
     description:
-      de: "<p>Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.</p>"
-      en: "<p>Build dependency python3-all replaced with python3.</p>"
-      es: "<p>Se ha sustituido la dependencia de compilación python3-all por python3.</p>"
-      fr: "<p>La dépendance de compilation python3-all a été remplacée par python3.</p>"
-      it: "<p>La dipendenza di compilazione python3-all è stata sostituita con python3.</p>"
-      pt: "<p>A dependência de compilação python3-all foi substituída por python3.</p>"
-      ro: "<p>Dependența de compilare python3-all a fost înlocuită cu python3.</p>"
-      ru: "<p>Зависимость сборки python3-all заменена на python3.</p>"
-  - version: "2.0.2-4"
+      C: "<p>The window no longer has the frame of the system: it is a card with rounded corners and its own minimize, maximize and close buttons.</p>"
+  - version: "3.0.0-2-beta"
     type: stable
-    unix-timestamp: 1779408000
+    unix-timestamp: 1793145600
     description:
-      de: "<p>Tyson Legacy 1.x Veröffentlichungs-Zeitachse an korrekte Juli 2025 Zeitstempel angepasst und veraltete Metadaten-Tags in metainfo.xml bereinigt.</p>"
-      en: "<p>Aligned Tyson legacy 1.x release timeline to correct July 2025 timestamps and cleaned up obsolete metadata tags in metainfo.xml.</p>"
-      es: "<p>Se ha alineado el cronograma de la rama legacy Tyson 1.x a las fechas correctas de julio de 2025 y se han eliminado elementos obsoletos de metainfo.xml.</p>"
-      fr: "<p>Alignement de la chronologie des versions Tyson legacy 1.x sur les horodatages corrects de juillet 2025 et nettoyage des balises de métadonnées obsolètes dans metainfo.xml.</p>"
-      it: "<p>Allineata la cronologia di rilascio legacy Tyson 1.x alle date corrette di luglio 2025 e ripuliti i tag di metadati obsoleti in metainfo.xml.</p>"
-      pt: "<p>Alinhamento do cronograma de lançamento legacy Tyson 1.x para corrigir datas de julho de 2025 e limpeza de tags metainfo obsoletas em metainfo.xml.</p>"
-      ro: "<p>S-a aliniat cronologia de lansare legacy Tyson 1.x la marcajele temporale corecte din iulie 2025 și s-au curățat etichetele de metadate învechite în metainfo.xml.</p>"
-      ru: "<p>Выровнена временная шкала релизов Tyson legacy 1.x до правильных меток июля 2025 года и очищены устаревшие теги метаданных в metainfo.xml.</p>"
-  - version: "2.0.2-3"
+      C: "<p>New application icon, new hero image and new screenshots, taken with the interface in English.</p>"
+  - version: "3.0.0-1-beta"
     type: stable
-    unix-timestamp: 1779062400
+    unix-timestamp: 1792886400
     description:
-      C: "<p>Historical correction of Tyron legacy versioning: the August 2025 package mislabelled as 1.0.4 is now correctly documented as 1.0.9; the original Tyron 1.0.4 from May 2025 has been restored to the changelog.</p>"
-      de: "<p>Historische Korrektur der Legacy-Versionierung von Tyron: Das August-2025-Paket, das fälschlicherweise als 1.0.4 gekennzeichnet war, ist nun korrekt als 1.0.9 dokumentiert; das ursprüngliche Tyron 1.0.4 vom Mai 2025 wurde im Changelog wiederhergestellt.</p>"
-      en: "<p>Historical correction of Tyron legacy versioning: the August 2025 package mislabelled as 1.0.4 is now correctly documented as 1.0.9; the original Tyron 1.0.4 from May 2025 has been restored to the changelog.</p>"
-      es: "<p>Corrección histórica del versionado legacy de Tyron: el paquete de agosto 2025 etiquetado incorrectamente como 1.0.4 queda documentado como 1.0.9; la 1.0.4 original de mayo 2025 ha sido restaurada en el changelog.</p>"
-      fr: "<p>Correction historique du versionnage legacy de Tyron : le paquet d'août 2025 mal étiqueté 1.0.4 est maintenant correctement documenté comme 1.0.9 ; le 1.0.4 original de mai 2025 a été restauré dans le changelog.</p>"
-      it: "<p>Correzione storica del versioning legacy di Tyron: il pacchetto di agosto 2025 etichettato erroneamente come 1.0.4 è ora correttamente documentato come 1.0.9; il 1.0.4 originale di maggio 2025 è stato ripristinato nel changelog.</p>"
-      pt: "<p>Correção histórica do versionamento legacy do Tyron: o pacote de agosto 2025 erroneamente etiquetado como 1.0.4 está agora corretamente documentado como 1.0.9; o 1.0.4 original de maio 2025 foi restaurado no changelog.</p>"
-      ro: "<p>Corecție istorică a versionării legacy Tyron: pachetul din august 2025 etichetat greșit ca 1.0.4 este acum documentat corect ca 1.0.9; versiunea originală 1.0.4 din mai 2025 a fost restaurată în changelog.</p>"
-      ru: "<p>Историческая коррекция устаревшей нумерации версий Tyron: пакет августа 2025 года, ошибочно обозначенный как 1.0.4, теперь правильно задокументирован как 1.0.9; оригинальная версия 1.0.4 от мая 2025 года восстановлена в changelog.</p>"
-  - version: "2.0.2-2"
+      C: "<p>The theme cards now show which theme will be used, turned off or removed once the pending changes are applied. Fixed Apply all doing nothing after a finished run, and the layout of the buttons of the backup dialog.</p>"
+  - version: "3.0.0-beta"
     type: stable
-    unix-timestamp: 1777507200
+    unix-timestamp: 1792800000
     description:
-      C: "<p>Simplified the footer UI text to match the modern Soplos standard layout.</p>"
-      de: "<p>Der Text der Statusleiste wurde vereinfacht, um dem modernen Soplos-Standardlayout zu entsprechen.</p>"
-      en: "<p>Simplified the footer UI text to match the modern Soplos standard layout.</p>"
-      es: "<p>Se ha simplificado el texto de la barra de estado para coincidir con el diseño estándar de Soplos.</p>"
-      fr: "<p>Le texte de la barre d'état a été simplifié pour correspondre à la disposition standard moderne de Soplos.</p>"
-      it: "<p>Il testo della barra di stato è stato semplificato per corrispondere al layout standard moderno di Soplos.</p>"
-      pt: "<p>O texto da barra de status foi simplificado para corresponder ao layout padrão moderno do Soplos.</p>"
-      ro: "<p>Textul barei de stare a fost simplificat pentru a se potrivi cu aspectul standard modern Soplos.</p>"
-      ru: "<p>Текст строки состояния был упрощен, чтобы соответствовать современному стандартному макету Soplos.</p>"
-  - version: "2.0.2-1"
+      C: "<p>Changes from every page now wait in a bar at the bottom and are applied together with a single password and a single update-grub, with a progress bar and a log of what is happening.</p>"
+  - version: "3.0.0-alpha"
     type: stable
-    unix-timestamp: 1774051200
+    unix-timestamp: 1792800000
     description:
-      C: "<p>About dialog, F1 shortcut, CSS architecture refactor, icon renaming and minor fixes.</p><ul><li>F1 shortcut and GNOME menu About action open the About dialog</li><li>Ctrl+Shift+Tab to navigate to previous tab</li><li>Notebook tab labels no longer appear orange in inactive tabs</li><li>CSS split into base.css (structural) and dark/light.css (color variables only)</li><li>Icon files renamed from com.soplos to org.soplos for naming consistency</li></ul>"
-      de: "<p>Über-Dialog, F1-Tastenkürzel, CSS-Refactoring, Umbenennung von Icons und kleinere Korrekturen.</p><ul><li>F1-Tastenkürzel und GNOME-Menü-Aktion „Über\" öffnen den Über-Dialog</li><li>Strg+Umschalt+Tab zum Navigieren zur vorherigen Registerkarte</li><li>Notebook-Tab-Labels erscheinen nicht mehr orange in inaktiven Tabs</li><li>CSS aufgeteilt in base.css (strukturell) und dark/light.css (nur Farbvariablen)</li><li>Icon-Dateien von com.soplos in org.soplos umbenannt für Namenskonsistenz</li></ul>"
-      es: "<p>Diálogo Acerca de, atajo F1, refactorización CSS, renombrado de iconos y correcciones menores.</p><ul><li>El atajo F1 y la acción Acerca de del menú GNOME abren el diálogo Acerca de</li><li>Ctrl+Mayús+Tab para navegar a la pestaña anterior</li><li>Las etiquetas de las pestañas del notebook ya no aparecen en naranja en pestañas inactivas</li><li>CSS dividido en base.css (estructural) y dark/light.css (solo variables de color)</li><li>Archivos de iconos renombrados de com.soplos a org.soplos para coherencia de nomenclatura</li></ul>"
-      fr: "<p>Dialogue À propos, raccourci F1, refactorisation CSS, renommage des icônes et corrections mineures.</p><ul><li>Le raccourci F1 et l'action À propos du menu GNOME ouvrent le dialogue À propos</li><li>Ctrl+Maj+Tab pour naviguer vers l'onglet précédent</li><li>Les étiquettes des onglets du notebook n'apparaissent plus en orange dans les onglets inactifs</li><li>CSS divisé en base.css (structurel) et dark/light.css (variables de couleur uniquement)</li><li>Fichiers d'icônes renommés de com.soplos à org.soplos pour la cohérence des noms</li></ul>"
-      it: "<p>Finestra di dialogo Informazioni, scorciatoia F1, refactoring CSS, rinominazione icone e correzioni minori.</p><ul><li>La scorciatoia F1 e l'azione Informazioni del menu GNOME aprono il dialogo Informazioni</li><li>Ctrl+Maiusc+Tab per navigare alla scheda precedente</li><li>Le etichette delle schede del notebook non appaiono più arancioni nelle schede inattive</li><li>CSS diviso in base.css (strutturale) e dark/light.css (solo variabili colore)</li><li>File icone rinominati da com.soplos a org.soplos per coerenza di denominazione</li></ul>"
-      pt: "<p>Diálogo Sobre, atalho F1, refatoração CSS, renomeação de ícones e pequenas correções.</p><ul><li>O atalho F1 e a ação Sobre do menu GNOME abrem o diálogo Sobre</li><li>Ctrl+Shift+Tab para navegar para a aba anterior</li><li>Os rótulos das abas do notebook não aparecem mais em laranja nas abas inativas</li><li>CSS dividido em base.css (estrutural) e dark/light.css (apenas variáveis de cor)</li><li>Arquivos de ícones renomeados de com.soplos para org.soplos para consistência de nomenclatura</li></ul>"
-      ro: "<p>Dialog Despre, scurtătură F1, refactorizare CSS, redenumire icoane și corecții minore.</p><ul><li>Scurtătura F1 și acțiunea Despre din meniul GNOME deschid dialogul Despre</li><li>Ctrl+Shift+Tab pentru navigarea la tab-ul anterior</li><li>Etichetele tab-urilor notebook nu mai apar portocalii în tab-urile inactive</li><li>CSS împărțit în base.css (structural) și dark/light.css (doar variabile de culoare)</li><li>Fișierele de icoane redenumite de la com.soplos la org.soplos pentru coerența denumirii</li></ul>"
-      ru: "<p>Диалог «О программе», горячая клавиша F1, рефакторинг CSS, переименование иконок и незначительные исправления.</p><ul><li>Горячая клавиша F1 и действие «О программе» в меню GNOME открывают диалог «О программе»</li><li>Ctrl+Shift+Tab для перехода к предыдущей вкладке</li><li>Метки вкладок notebook больше не отображаются оранжевыми в неактивных вкладках</li><li>CSS разделён на base.css (структурный) и dark/light.css (только переменные цвета)</li><li>Файлы иконок переименованы с com.soplos на org.soplos для единообразия именования</li></ul>"
-  - version: "2.0.2"
-    type: stable
-    unix-timestamp: 1773187200
-    description:
-      C: "<p>Support for hierarchical submenus, option to enable/disable them (GRUB_DISABLE_SUBMENU), silent update on startup and visual optimizations.</p><ul><li>Full parsing of GRUB submenus</li><li>Option to enable/disable submenus (GRUB_DISABLE_SUBMENU)</li><li>Silent update-grub on application launch</li><li>Compact UI for boot entries table</li><li>Hierarchical path display in selectors</li></ul>"
-      de: "<p>Unterstützung für hierarchische Untermenüs, Option zum Aktivieren/Deaktivieren (GRUB_DISABLE_SUBMENU), stille Aktualisierung beim Start und visuelle Optimierungen.</p><ul><li>Vollständige Analyse von GRUB-Untermenüs</li><li>Option zum Aktivieren/Deaktivieren von Untermenüs (GRUB_DISABLE_SUBMENU)</li><li>Stille Ausführung von update-grub beim Start</li><li>Kompakte Benutzeroberfläche für die Boot-Eintragstabelle</li><li>Hierarchische Pfadanzeige in Selektoren</li></ul>"
-      es: "<p>Soporte para submenús jerárquicos, opción para activarlos/desactivarlos (GRUB_DISABLE_SUBMENU), actualización silenciosa al inicio y optimizaciones visuales.</p><ul><li>Análisis completo de submenús de GRUB</li><li>Opción para activar/desactivar submenús (GRUB_DISABLE_SUBMENU)</li><li>Ejecución silenciosa de update-grub al inicio</li><li>Interfaz compacta para la tabla de entradas de arranque</li><li>Visualización de rutas jerárquicas en los selectores</li></ul>"
-      fr: "<p>Support des sous-menus hiérarchiques, option pour les activer/désactiver (GRUB_DISABLE_SUBMENU), mise à jour silencieuse au démarrage et optimisations visuelles.</p><ul><li>Analyse complète des sous-menus GRUB</li><li>Option pour activer/désactiver les sous-menus (GRUB_DISABLE_SUBMENU)</li><li>Mise à jour silencieuse de update-grub au démarrage</li><li>Interface compacte pour le tableau des entrées de démarrage</li><li>Affichage des chemins hiérarchiques dans les sélecteurs</li></ul>"
-      it: "<p>Supporto per sottomenu gerarchici, opzione per abilitarli/disabilitarli (GRUB_DISABLE_SUBMENU), aggiornamento silenzioso all'avvio e ottimizzazioni visuali.</p><ul><li>Analisi completa dei sottomenu GRUB</li><li>Opzione per abilitare/disabilitare i sottomenu (GRUB_DISABLE_SUBMENU)</li><li>Esecuzione silenziosa di update-grub all'avvio</li><li>Interfaccia compatta per la tabella delle voci di avvio</li><li>Visualizzazione gerarchica dei percorsi nei selettori</li></ul>"
-      pt: "<p>Suporte para submenus hierárquicos, opção para ativá-los/desativá-los (GRUB_DISABLE_SUBMENU), atualização silenciosa na inicialização e otimizações visuais.</p><ul><li>Análise completa de submenus do GRUB</li><li>Opção para ativar/desativar submenus (GRUB_DISABLE_SUBMENU)</li><li>Execução silenciosa do update-grub na inicialização</li><li>Interface compacta para a tabela de entradas de inicialização</li><li>Exibição de caminhos hierárquicos nos seletores</li></ul>"
-      ro: "<p>Suport pentru submeniuri ierarhice, opțiune pentru activarea/dezactivarea acestora (GRUB_DISABLE_SUBMENU), actualizare silențioasă la pornire și optimizări vizuale.</p><ul><li>Analiză completă a submeniurilor GRUB</li><li>Opțiune pentru activarea/dezactivarea submeniurilor (GRUB_DISABLE_SUBMENU)</li><li>Actualizare silențioasă update-grub la pornire</li><li>Interfață compactă pentru tabelul intrărilor de pornire</li><li>Afișare ierarhică a căilor în selectoare</li></ul>"
-      ru: "<p>Поддержка иерархических подменю, возможность их включения/отключения (GRUB_DISABLE_SUBMENU), тихое обновление при запуске и визуальные оптимизации.</p><ul><li>Полный анализ подменю GRUB</li><li>Возможность включения/отключения подменю (GRUB_DISABLE_SUBMENU)</li><li>Тихое обновление update-grub при запуске</li><li>Компактный интерфейс для таблицы записей загрузки</li><li>Иерархическое отображение путей в селекторах</li></ul>"
-  - version: "2.0.1"
-    type: stable
-    unix-timestamp: 1772841600
-    description:
-      C: "<p>Fixes for GRUB boot failures, cache conflicts, and UX improvements for timeout settings.</p><ul><li>Robust Theme Management: Reliably disables Debian and Soplos script defaults.</li><li>Cache Cleanup: Prevents \"invalid argument\" crashes deleting stale `.background_cache` files.</li><li>Smart UI: Auto-disables \"Show boot menu\" when Timeout is 0.</li></ul>"
-      de: "<p>Korrekturen für GRUB-Startfehler, Cache-Konflikte und UX-Verbesserungen für Timeout-Einstellungen.</p><ul><li>Robuste Themenverwaltung: Deaktiviert zuverlässig die Standard-Skripte von Debian und Soplos.</li><li>Cache-Bereinigung: Verhindert Abstürze durch \"ungültiges Argument\" beim Löschen veralteter `.background_cache`-Dateien.</li><li>Intelligente Benutzeroberfläche: Deaktiviert automatisch \"Boot-Menü anzeigen\", wenn der Timeout 0 ist.</li></ul>"
-      es: "<p>Correcciones para fallos de arranque de GRUB, conflictos de caché y mejoras de experiencia de usuario para el tiempo de espera (timeout).</p><ul><li>Gestión de temas robusta: Desactiva de forma fiable los scripts predeterminados de Debian y Soplos.</li><li>Limpieza de caché: Evita cierres por \"invalid argument\" eliminando archivos `.background_cache` obsoletos.</li><li>Interfaz inteligente: Desactiva automáticamente \"Mostrar menú de arranque\" cuando el tiempo de espera es 0.</li></ul>"
-      fr: "<p>Corrections de pannes de démarrage GRUB, de conflits de cache et améliorations de l'expérience utilisateur pour les paramètres de délai.</p><ul><li>Gestion robuste des thèmes: Désactive de manière fiable les scripts par défaut de Debian et Soplos.</li><li>Nettoyage du cache: Prévient les plantages \"argument invalide\" lors de la suppression des fichiers `.background_cache` obsolètes.</li><li>Interface intelligente: Désactive automatiquement \"Afficher le menu de démarrage\" lorsque le délai est de 0.</li></ul>"
-      it: "<p>Correzioni per errori di avvio di GRUB, conflitti di cache e miglioramenti dell'esperienza utente per le impostazioni di timeout.</p><ul><li>Gestione robusta dei temi: Disabilita in modo affidabile i valori predefiniti degli script Debian e Soplos.</li><li>Pulizia della cache: Previene i crash \"argomento non valido\" eliminando i file `.background_cache` obsoleti.</li><li>Interfaccia intelligente: Disabilita automaticamente \"Mostra menu di avvio\" quando il Timeout è 0.</li></ul>"
-      pt: "<p>Correções para falhas de inicialização do GRUB, conflitos de cache e melhorias de UX para configurações de tempo limite.</p><ul><li>Gerenciamento robusto de temas: Desativa de forma confiável os padrões de script Debian e Soplos.</li><li>Limpeza de cache: Evita falhas de \"argumento inválido\" ao excluir arquivos `.background_cache` obsoletos.</li><li>Interface inteligente: Desativa automaticamente \"Mostrar menu de inicialização\" quando o tempo limite é 0.</li></ul>"
-      ro: "<p>Remedieri pentru erorile de pornire GRUB, conflictele cache și îmbunătățiri UX pentru setările timeout.</p><ul><li>Gestionare robustă a temelor: Dezactivează în mod fiabil scripturile implicite Debian și Soplos.</li><li>Curățare cache: Previne erorile de tip \"argument invalid\" la ștergerea fișierelor `.background_cache` vechi.</li><li>Interfață inteligentă: Dezactivează automat \"Afișare meniu de pornire\" când Timeout este 0.</li></ul>"
-      ru: "<p>Исправления сбоев загрузки GRUB, конфликтов кэша и улучшения UX для настроек времени ожидания.</p><ul><li>Надежное управление темами: Надежно отключает скрипты Debian и Soplos по умолчанию.</li><li>Очистка кэша: Предотвращает сбои \"неверный аргумент\" при удалении устаревших файлов `.background_cache`.</li><li>Умный интерфейс: Автоматически отключает \"Показать меню загрузки\", когда таймаут равен 0.</li></ul>"
-  - version: "2.0.0"
-    type: stable
-    unix-timestamp: 1768003200
-    description:
-      C: "<p>Major Release - Complete Rewrite. Complete Internationalization (8 languages). Smart theme detection, GRUB theme manager, new resolutions, refined UI and improved desktop detection.</p><ul><li>Smart light/dark theme detection (GNOME, KDE, XFCE)</li><li>Improved desktop &amp; environment detection</li><li>Refined UI layout with compact view</li><li>GRUB theme installer and remover</li><li>Expanded resolution support (16:9, 16:10, 4:3, 4K)</li><li>UUID control option</li></ul>"
-      de: "<p>Hauptversion - Komplette Neuschreibung. Vollständige Internationalisierung (8 Sprachen). Intelligente Themenerkennung, GRUB-Themenmanager, neue Auflösungen, verfeinerte Benutzeroberfläche und verbesserte Desktoperkennung.</p><ul><li>Intelligente Erkennung von hellen/dunklen Themen (GNOME, KDE, XFCE)</li><li>Verbesserte Desktop- und Umgebungserkennung</li><li>Verfeinertes UI-Layout mit kompakter Ansicht</li><li>GRUB-Themen-Installer und -Entferner</li><li>Erweiterte Auflösungsunterstützung (16:9, 16:10, 4:3, 4K)</li><li>UUID-Kontrolloption</li></ul>"
-      en: "<p>Major Release - Complete Rewrite. Complete Internationalization (8 languages). Smart theme detection, GRUB theme manager, new resolutions, refined UI and improved desktop detection.</p>"
-      es: "<p>Versión Mayor - Reescritura Completa. Internacionalización Completa (8 idiomas). Detección inteligente de temas, gestor de temas GRUB, nuevas resoluciones, interfaz refinada y detección de escritorio mejorada.</p><ul><li>Detección inteligente de temas claros/oscuros (GNOME, KDE, XFCE)</li><li>Detección mejorada de escritorio y entorno</li><li>Diseño de interfaz de usuario refinado con vista compacta</li><li>Instalador y desinstalador de temas GRUB</li><li>Soporte de resolución expandido (16:9, 16:10, 4:3, 4K)</li><li>Opción de control UUID</li></ul>"
-      fr: "<p>Version Majeure - Réécriture Complète. Internationalisation Complète (8 langues). Détection intelligente de thème, gestionnaire de thèmes GRUB, nouvelles résolutions, interface raffinée et détection de bureau améliorée.</p><ul><li>Détection intelligente des thèmes clairs/sombres (GNOME, KDE, XFCE)</li><li>Détection améliorée du bureau et de l'environnement</li><li>Disposition de l'interface utilisateur raffinée avec vue compacte</li><li>Installateur et désinstallateur de thèmes GRUB</li><li>Prise en charge étendue des résolutions (16:9, 16:10, 4:3, 4K)</li><li>Option de contrôle UUID</li></ul>"
-      it: "<p>Versione Principale - Riscrittura Completa. Internazionalizzazione Completa (8 lingue). Rilevamento intelligente del tema, gestore temi GRUB, nuove risoluzioni, interfaccia raffinata e rilevamento desktop migliorato.</p><ul><li>Rilevamento intelligente del tema chiaro/scuro (GNOME, KDE, XFCE)</li><li>Rilevamento migliorato di desktop e ambiente</li><li>Layout UI raffinato con vista compatta</li><li>Installatore e rimozione di temi GRUB</li><li>Supporto risoluzione esteso (16:9, 16:10, 4:3, 4K)</li><li>Opzione di controllo UUID</li></ul>"
-      pt: "<p>Versão Maior - Reescrita Completa. Internacionalização Completa (8 idiomas). Detecção inteligente de temas, gerenciador de temas GRUB, novas resoluções, interface refinada e detecção de desktop aprimorada.</p><ul><li>Detecção inteligente de temas claros/escuros (GNOME, KDE, XFCE)</li><li>Detecção aprimorada de desktop e ambiente</li><li>Layout de UI refinado com visualização compacta</li><li>Instalador e removedor de temas GRUB</li><li>Suporte de resolução expandido (16:9, 16:10, 4:3, 4K)</li><li>Opção de controle UUID</li></ul>"
-      ro: "<p>Versiune Majoră - Rescriere Completă. Internaționalizare Completă (8 limbi). Detectare inteligentă a temei, manager de teme GRUB, rezoluții noi, interfață rafinată și detectare desktop îmbunătățită.</p><ul><li>Detectare inteligentă a temelor deschise/întunecate (GNOME, KDE, XFCE)</li><li>Detectare îmbunătățită a desktopului și a mediului</li><li>Aspect UI rafinat cu vizualizare compactă</li><li>Instalator și eliminator de teme GRUB</li><li>Suport extins pentru rezoluții (16:9, 16:10, 4:3, 4K)</li><li>Opțiune de control UUID</li></ul>"
-      ru: "<p>Основная версия - Полная переработка. Полная интернационализация (8 языков). Умное определение темы, менеджер тем GRUB, новые разрешения, улучшенный интерфейс и определение рабочего стола.</p><ul><li>Интеллектуальное определение светлых/темных тем (GNOME, KDE, XFCE)</li><li>Улучшенное определение рабочего стола и среды</li><li>Улучшенный макет пользовательского интерфейса с компактным видом</li><li>Установщик и удаление тем GRUB</li><li>Расширенная поддержка разрешений (16:9, 16:10, 4:3, 4K)</li><li>Опция управления UUID</li></ul>"
+      C: "<p>Full rewrite of Soplos GRUB Editor, from Python 3 and GTK3 to Tauri 2 with a Rust backend and a Svelte frontend. The window no longer runs as root.</p>"
 ContentRating:
-  oars-1.1:
-    violence-cartoon: "none"
-    sex-nudity: "none"
-    language-profanity: "none"
-    drugs-alcohol: "none"
-    money-gambling: "none"
-    money-purchasing: "none"
-    social-chat: "none"
+  oars-1.1: {}
 ---
 Type: desktop-application
 ID: "org.soplos.kernel-installer"
@@ -2032,51 +1904,37 @@ Name:
   es: "Gestor Plymouth Soplos"
   fr: "Gestionnaire Plymouth Soplos"
   it: "Gestore Plymouth Soplos"
-  pt: "Gerenciador Plymouth Soplos"
+  pt: "Gestor Plymouth Soplos"
   ro: "Manager Plymouth Soplos"
   ru: "Менеджер Plymouth Soplos"
 Summary:
   C: "Plymouth boot splash theme manager for Soplos Linux"
-  de: "Plymouth Boot-Splash Theme Manager für Soplos Linux"
+  de: "Plymouth-Manager für die Startbildschirm-Themes von Soplos Linux"
   es: "Gestor de temas de arranque Plymouth para Soplos Linux"
   fr: "Gestionnaire de thèmes de démarrage Plymouth pour Soplos Linux"
   it: "Gestore dei temi di avvio Plymouth per Soplos Linux"
-  pt: "Gerenciador de temas de inicialização Plymouth para Soplos Linux"
-  ro: "Manager de teme Plymouth pentru Soplos Linux"
+  pt: "Gestor de temas de arranque Plymouth para o Soplos Linux"
+  ro: "Manager de teme de pornire Plymouth pentru Soplos Linux"
   ru: "Менеджер тем загрузочного экрана Plymouth для Soplos Linux"
 Description:
-  C: "<p>A simple and intuitive Plymouth theme manager that allows you to preview, install, and apply boot splash themes easily. Fully compatible with X11 and Wayland environments.</p>"
-  de: "<p>Ein einfacher und intuitiver Plymouth-Theme-Manager, mit dem Sie Boot-Splash-Themes einfach vorschauen, installieren und anwenden können.</p>"
-  es: "<p>Un gestor de temas Plymouth simple e intuitivo que te permite previsualizar, instalar y aplicar temas de arranque fácilmente. Totalmente compatible con entornos X11 y Wayland.</p>"
-  fr: "<p>Un gestionnaire de thèmes Plymouth simple et intuitif qui vous permet de prévisualiser, installer et appliquer des thèmes de démarrage facilement.</p>"
-  it: "<p>Un gestore di temi Plymouth semplice e intuitivo che ti permette di visualizzare, installare e applicare temi di avvio facilmente.</p>"
-  pt: "<p>Um gerenciador de temas Plymouth simples e intuitivo que permite visualizar, instalar e aplicar temas de inicialização facilmente.</p>"
-  ro: "<p>Un manager de teme Plymouth simplu și intuitiv care vă permite să previzualizați, instalați și aplicați teme de pornire cu ușurință.</p>"
-  ru: "<p>Простой и интуитивно понятный менеджер тем Plymouth, который позволяет легко просматривать, устанавливать и применять темы загрузочного экрана.</p>"
-ProjectLicense: "GPL-3.0+"
+  C: "<p>Soplos Plymouth Manager chooses, previews, installs and removes the Plymouth boot splash themes of Soplos Linux. It works on Xfce, Plasma and GNOME, with X11 or Wayland, and rebuilds the initramfs with dracut or with initramfs-tools, whichever the system uses. Every change to the system goes through a Polkit-authenticated helper and the window never runs as root.</p>"
+  de: "<p>Der Soplos Plymouth-Manager wählt die Plymouth-Themes des Startbildschirms von Soplos Linux aus, zeigt sie in der Vorschau, installiert und entfernt sie. Er läuft unter Xfce, Plasma und GNOME, mit X11 oder Wayland, und erzeugt das Initramfs mit dracut oder initramfs-tools neu, je nachdem, was das System verwendet. Jede Änderung am System läuft über einen per Polkit authentifizierten Helfer, und das Fenster läuft nie als root.</p>"
+  es: "<p>El Gestor Plymouth Soplos elige, previsualiza, instala y quita los temas de arranque Plymouth de Soplos Linux. Funciona en Xfce, Plasma y GNOME, con X11 o Wayland, y reconstruye el initramfs con dracut o con initramfs-tools, el que use el sistema. Cada cambio en el sistema pasa por un ayudante autenticado con Polkit y la ventana nunca se ejecuta como root.</p>"
+  fr: "<p>Le Gestionnaire Plymouth Soplos choisit, prévisualise, installe et supprime les thèmes de démarrage Plymouth de Soplos Linux. Il fonctionne sur Xfce, Plasma et GNOME, avec X11 ou Wayland, et reconstruit l'initramfs avec dracut ou initramfs-tools, selon le système. Chaque modification du système passe par un assistant authentifié par Polkit et la fenêtre ne s'exécute jamais en root.</p>"
+  it: "<p>Il Gestore Plymouth Soplos sceglie, visualizza in anteprima, installa e rimuove i temi di avvio Plymouth di Soplos Linux. Funziona su Xfce, Plasma e GNOME, con X11 o Wayland, e ricostruisce l'initramfs con dracut o con initramfs-tools, a seconda di ciò che usa il sistema. Ogni modifica al sistema passa da un helper autenticato con Polkit e la finestra non gira mai come root.</p>"
+  pt: "<p>O Gestor Plymouth Soplos escolhe, pré-visualiza, instala e remove os temas de arranque Plymouth do Soplos Linux. Funciona no Xfce, Plasma e GNOME, com X11 ou Wayland, e reconstrói o initramfs com o dracut ou com o initramfs-tools, consoante o que o sistema usa. Cada alteração ao sistema passa por um auxiliar autenticado com o Polkit e a janela nunca corre como root.</p>"
+  ro: "<p>Managerul Plymouth Soplos alege, previzualizează, instalează și elimină temele de pornire Plymouth ale Soplos Linux. Funcționează pe Xfce, Plasma și GNOME, cu X11 sau Wayland, și reconstruiește initramfs cu dracut sau cu initramfs-tools, după cum folosește sistemul. Fiecare modificare a sistemului trece printr-un ajutor autentificat cu Polkit, iar fereastra nu rulează niciodată ca root.</p>"
+  ru: "<p>Менеджер Plymouth Soplos выбирает, показывает в предпросмотре, устанавливает и удаляет темы загрузочного экрана Plymouth в Soplos Linux. Он работает в Xfce, Plasma и GNOME с X11 или Wayland и пересобирает initramfs с помощью dracut или initramfs-tools, в зависимости от системы. Каждое изменение системы проходит через помощник с аутентификацией Polkit, а окно никогда не работает от root.</p>"
+ProjectLicense: "GPL-3.0-or-later"
 Developer:
   id: "org.soplos"
   name:
     C: "Sergi Perich"
-    de: "Sergi Perich"
-    en: "Sergi Perich"
-    es: "Sergi Perich"
-    fr: "Sergi Perich"
-    it: "Sergi Perich"
-    pt: "Sergi Perich"
-    ro: "Sergi Perich"
-    ru: "Sergi Perich"
 Url:
-  homepage: "https://soplos.org/"
-  bugtracker: "https://github.com/SoplosLinux/soplos-plymouth-manager/issues"
-  help: "https://soplos.org/wiki"
-  donation: "https://www.paypal.com/paypalme/isubdes"
-  contact: "https://soplos.org/"
+  homepage: "https://soplos.org"
 Categories:
   - "System"
   - "Settings"
-  - "DesktopSettings"
-  - "Utility"
 Keywords:
   C:
     - "plymouth"
@@ -2084,222 +1942,139 @@ Keywords:
     - "splash"
     - "theme"
     - "themes"
-    - "boot-splash"
-    - "customize"
     - "soplos"
   de:
-    - "plymouth"
-    - "start"
-    - "thema"
-    - "anpassen"
+    - "theme"
+    - "themes"
   es:
-    - "plymouth"
     - "arranque"
     - "tema"
     - "temas"
-    - "personalizar"
   fr:
-    - "plymouth"
     - "démarrage"
     - "thème"
-    - "personnaliser"
+    - "thèmes"
   it:
-    - "plymouth"
     - "avvio"
     - "tema"
     - "temi"
-    - "personalizzare"
   pt:
-    - "plymouth"
-    - "inicialização"
+    - "arranque"
     - "tema"
     - "temas"
-    - "personalizar"
   ro:
-    - "plymouth"
-    - "pornire"
     - "temă"
     - "teme"
-    - "personalizare"
   ru:
-    - "plymouth"
     - "загрузка"
     - "тема"
     - "темы"
-    - "настройка"
 Icon:
   cached:
-    - name: "org.soplos.plymouthmanager.png"
+    - name: "soplos-plymouth-manager.png"
       width: 48
       height: 48
-    - name: "org.soplos.plymouthmanager.png"
+    - name: "soplos-plymouth-manager.png"
       width: 64
       height: 64
-    - name: "org.soplos.plymouthmanager.png"
+    - name: "soplos-plymouth-manager.png"
       width: 128
       height: 128
   remote:
-    - url: "soplos-plymouth-manager/icons/48x48/org.soplos.plymouthmanager.png"
+    - url: "soplos-plymouth-manager/icons/48x48/soplos-plymouth-manager.png"
       width: 48
       height: 48
-    - url: "soplos-plymouth-manager/icons/64x64/org.soplos.plymouthmanager.png"
+    - url: "soplos-plymouth-manager/icons/64x64/soplos-plymouth-manager.png"
       width: 64
       height: 64
-    - url: "soplos-plymouth-manager/icons/128x128/org.soplos.plymouthmanager.png"
+    - url: "soplos-plymouth-manager/icons/128x128/soplos-plymouth-manager.png"
       width: 128
       height: 128
 Launchable:
   desktop-id:
-    - "org.soplos.plymouthmanager.desktop"
+    - "soplos-plymouth-manager.desktop"
 Provides:
   binaries:
     - "soplos-plymouth-manager"
 Screenshots:
   - default: true
     caption:
-      C: "Interface and theme selector"
-      de: "Benutzeroberfläche und Themenauswahl"
-      es: "Interfaz y selector de temas"
-      fr: "Interface et sélecteur de thèmes"
-      it: "Interfaccia e selettore di temi"
-      pt: "Interface e seletor de temas"
-      ro: "Interfață și selector de teme"
-      ru: "Интерфейс и селектор тем"
+      C: "The gallery of boot screen themes, with the one in use marked"
+      de: "Die Galerie der Startbildschirm-Themes, das verwendete Theme ist markiert"
+      es: "La galería de temas de arranque, con el tema en uso marcado"
+      fr: "La galerie des thèmes de démarrage, avec le thème utilisé marqué"
+      it: "La galleria dei temi di avvio, con il tema in uso evidenziato"
+      pt: "A galeria de temas de arranque, com o tema em uso marcado"
+      ro: "Galeria temelor de pornire, cu tema în uz marcată"
+      ru: "Галерея тем загрузочного экрана с отмеченной используемой темой"
     source-image:
-      url: "soplos-plymouth-manager/screenshots/screenshot1.png"
-      width: 904
-      height: 536
+      url: "soplos-plymouth-manager/screenshots/screenshot01.png"
+      width: 900
+      height: 652
   - caption:
-      C: "Applying and previewing theme"
-      de: "Theme anwenden und vorschauen"
-      es: "Aplicando y previsualizando tema"
-      fr: "Application et aperçu du thème"
-      it: "Applicazione e anteprima del tema"
-      pt: "Aplicando e visualizando tema"
-      ro: "Aplicarea și previzualizarea temei"
-      ru: "Применение и просмотр темы"
+      C: "Removing several selected themes at once"
+      de: "Mehrere ausgewählte Themes gleichzeitig entfernen"
+      es: "Quitar varios temas seleccionados a la vez"
+      fr: "Suppression de plusieurs thèmes sélectionnés en une fois"
+      it: "Rimozione di più temi selezionati in una volta"
+      pt: "Remover vários temas selecionados de uma só vez"
+      ro: "Eliminarea mai multor teme selectate deodată"
+      ru: "Удаление нескольких выбранных тем одновременно"
     source-image:
-      url: "soplos-plymouth-manager/screenshots/screenshot2.png"
+      url: "soplos-plymouth-manager/screenshots/screenshot02.png"
+      width: 900
+      height: 652
+  - caption:
+      C: "A theme shown by the preview before applying it"
+      de: "Ein Theme in der Vorschau, bevor es angewendet wird"
+      es: "Un tema mostrado por la previsualización antes de aplicarlo"
+      fr: "Un thème affiché par la prévisualisation avant de l'appliquer"
+      it: "Un tema mostrato dall'anteprima prima di applicarlo"
+      pt: "Um tema mostrado pela pré-visualização antes de o aplicar"
+      ro: "O temă afișată de previzualizare înainte de a fi aplicată"
+      ru: "Тема в предпросмотре перед применением"
+    source-image:
+      url: "soplos-plymouth-manager/screenshots/screenshot03.png"
       width: 1920
       height: 1080
 Releases:
-  - version: "2.0.0-8"
+  - version: "3.0.0"
     type: stable
-    unix-timestamp: 1783382400
+    unix-timestamp: 1794873600
     description:
-      de: "<p>Die Build-Abhängigkeit python3-all wurde durch python3 ersetzt.</p>"
-      en: "<p>Build dependency python3-all replaced with python3.</p>"
-      es: "<p>Se ha sustituido la dependencia de compilación python3-all por python3.</p>"
-      fr: "<p>La dépendance de compilation python3-all a été remplacée par python3.</p>"
-      it: "<p>La dipendenza di compilazione python3-all è stata sostituita con python3.</p>"
-      pt: "<p>A dependência de compilação python3-all foi substituída por python3.</p>"
-      ro: "<p>Dependența de compilare python3-all a fost înlocuită cu python3.</p>"
-      ru: "<p>Зависимость сборки python3-all заменена на python3.</p>"
-  - version: "2.0.0-7"
+      C: "<p>First stable release.</p>"
+  - version: "3.0.0-4-beta"
     type: stable
-    unix-timestamp: 1782000000
+    unix-timestamp: 1794614400
     description:
-      de: "<p>Behoben: polkit-Abhangigkeiten auf nur polkit reduziert. Veraltete Alternativen policykit-1-gnome und policykit-1 entfernt, die im aktuellen Debian nicht mehr existieren.</p>"
-      en: "<p>Fixed: polkit dependency updated to polkitd, the correct package name in current Debian. Removed obsolete policykit-1-gnome, polkit and policykit-1 alternatives.</p>"
-      es: "<p>Corregido: dependencias polkit reducidas a solo polkit. Eliminadas las alternativas obsoletas policykit-1-gnome y policykit-1 que ya no existen en Debian actual.</p>"
-      fr: "<p>Correction: dependances polkit reduites au seul polkit. Suppression des alternatives obsoletes policykit-1-gnome et policykit-1 qui n'existent plus dans Debian actuel.</p>"
-      it: "<p>Corretto: dipendenze polkit ridotte al solo polkit. Rimosse le alternative obsolete policykit-1-gnome e policykit-1 che non esistono piu nel Debian attuale.</p>"
-      pt: "<p>Corrigido: dependencias polkit reduzidas apenas a polkit. Removidas as alternativas obsoletas policykit-1-gnome e policykit-1 que ja nao existem no Debian atual.</p>"
-      ro: "<p>Corectat: dependentele polkit reduse doar la polkit. Eliminate alternativele obsolete policykit-1-gnome si policykit-1 care nu mai exista in Debian actual.</p>"
-      ru: "<p>Исправлено: зависимости polkit сокращены только до polkit. Удалены устаревшие альтернативы policykit-1-gnome и policykit-1, которых больше нет в текущем Debian.</p>"
-  - version: "2.0.0-6"
+      C: "<p>Applying a theme rebuilds the initramfs of every kernel with update-initramfs, which also copies it to the EFI partition when the system boots with systemd-boot, so the new theme is seen with the three boot loaders of Soplos Linux Installer.</p>"
+  - version: "3.0.0-3-beta"
     type: stable
-    unix-timestamp: 1781136000
+    unix-timestamp: 1793750400
     description:
-      de: "<p>Verfeinerter Theme-Auswahlstil: dünnerer 1px-Rahmen, Leuchteffekt entfernt und oranger FlowBoxChild-Hintergrund bei Auswahl behoben.</p>"
-      en: "<p>Refined theme selection style: thinner 1px border, removed glow effect, and fixed FlowBoxChild orange background on selection for a cleaner look.</p>"
-      es: "<p>Refinado el estilo de selección de temas: borde más fino de 1px, eliminado el efecto de brillo y corregido el fondo naranja del FlowBoxChild al seleccionar, para un aspecto más limpio.</p>"
-      fr: "<p>Style de sélection de thème raffiné : bordure plus fine d'1px, suppression de l'effet de lueur et correction du fond orange du FlowBoxChild à la sélection.</p>"
-      it: "<p>Stile di selezione tema raffinato: bordo più sottile da 1px, effetto bagliore rimosso e sfondo arancione FlowBoxChild corretto alla selezione.</p>"
-      pt: "<p>Estilo de seleção de tema refinado: borda mais fina de 1px, efeito de brilho removido e fundo laranja do FlowBoxChild corrigido na seleção.</p>"
-      ro: "<p>Stil de selecție a temei rafinat: chenar mai subțire de 1px, efect de strălucire eliminat și fundal portocaliu FlowBoxChild corectat la selecție.</p>"
-      ru: "<p>Улучшен стиль выделения темы: более тонкая рамка 1px, убран эффект свечения, исправлен оранжевый фон FlowBoxChild при выделении.</p>"
-  - version: "2.0.0-5"
+      C: "<p>The screenshots are installed with the package, the application metadata points to the installed launcher, and the manual page is the same in the project and in the package.</p>"
+  - version: "3.0.0-2-beta"
     type: stable
-    unix-timestamp: 1779408000
+    unix-timestamp: 1793232000
     description:
-      de: "<p>Umfangreiche historische Dokumentation für Legacy 1.x-Zweige (Tyron und Tyson) im CHANGELOG und in der README hinzugefügt. Veraltete AppStream-Metadatenelemente in metainfo.xml bereinigt.</p>"
-      en: "<p>Added comprehensive historical documentation for Legacy 1.x branches (Tyron and Tyson) in CHANGELOG and README. Cleaned up obsolete AppStream metadata elements in metainfo.xml.</p>"
-      es: "<p>Se ha añadido documentación histórica completa para las ramas Legacy 1.x (Tyron y Tyson) en CHANGELOG y README. Se han limpiado los elementos obsoletos de metainfo.xml para AppStream.</p>"
-      fr: "<p>Ajout d'une documentation historique complète pour les branches Legacy 1.x (Tyron et Tyson) dans CHANGELOG et README. Nettoyage des éléments obsolètes de metainfo.xml pour AppStream.</p>"
-      it: "<p>Aggiunta documentazione storica completa per i rami Legacy 1.x (Tyron e Tyson) in CHANGELOG e README. Puliti gli elementi di metadati AppStream obsoleti in metainfo.xml.</p>"
-      pt: "<p>Adicionada documentação histórica abrangente para os ramos Legacy 1.x (Tyron e Tyson) em CHANGELOG e README. Limpeza de elementos metainfo obsoletos no metainfo.xml.</p>"
-      ro: "<p>S-a adăugat o documentație istorică completă pentru ramurile Legacy 1.x (Tyron și Tyson) în CHANGELOG și README. S-au curățat elementele de metadate AppStream învechite în metainfo.xml.</p>"
-      ru: "<p>Добавлена полная историческая документация для веток Legacy 1.x (Tyron и Tyson) в CHANGELOG и README. Очищены устаревшие элементы метаданных AppStream в metainfo.xml.</p>"
-  - version: "2.0.0-4"
+      C: "<p>The window no longer has the frame of the system: it is a card with rounded corners and its own minimize, maximize and close buttons.</p>"
+  - version: "3.0.0-1-beta"
     type: stable
-    unix-timestamp: 1779062400
+    unix-timestamp: 1793145600
     description:
-      de: "<p>Nur-Dokumentations-Release: Versionshistorie auf der Releases-Seite, im CHANGELOG, README und Metainfo korrigiert. Alle Zeitstempel entsprechend der forensischen Prüfung des offiziellen Paketarchivs aktualisiert.</p>"
-      en: "<p>Documentation-only release: version history corrected across the release page, CHANGELOG, README and metainfo. All timestamps updated to match the forensic audit of the official package archive.</p>"
-      es: "<p>Publicación solo de documentación: historial de versiones corregido en la página de lanzamientos, CHANGELOG, README y metainfo. Todas las fechas actualizadas para coincidir con la auditoría forense del archivo oficial de paquetes.</p>"
-      fr: "<p>Version documentation uniquement : historique des versions corrigé dans la page des versions, CHANGELOG, README et metainfo. Toutes les dates mises à jour pour correspondre à l'audit forensique de l'archive officielle des paquets.</p>"
-      it: "<p>Versione solo documentazione: cronologia delle versioni corretta nella pagina delle versioni, CHANGELOG, README e metainfo. Tutti i timestamp aggiornati per corrispondere all'audit forense dell'archivio ufficiale dei pacchetti.</p>"
-      pt: "<p>Versão apenas de documentação: histórico de versões corrigido na página de lançamentos, CHANGELOG, README e metainfo. Todas as datas atualizadas para corresponder à auditoria forense do arquivo oficial de pacotes.</p>"
-      ro: "<p>Lansare doar de documentație: istoricul versiunilor corectat în pagina de lansări, CHANGELOG, README și metainfo. Toate marcajele temporale actualizate pentru a corespunde auditului criminalistic al arhivei oficiale de pachete.</p>"
-      ru: "<p>Только документационный выпуск: история версий исправлена на странице релизов, в CHANGELOG, README и metainfo. Все временные метки обновлены в соответствии с криминалистической проверкой официального архива пакетов.</p>"
-  - version: "2.0.0-3"
+      C: "<p>New application icon, new hero image and new screenshots, taken with the interface in English.</p>"
+  - version: "3.0.0-beta"
     type: stable
-    unix-timestamp: 1778889600
+    unix-timestamp: 1792886400
     description:
-      de: "<p>Der Text der Statusleiste wurde vereinfacht, um dem modernen Soplos-Standardlayout zu entsprechen.</p>"
-      en: "<p>Simplified the footer UI text to match the modern Soplos standard layout.</p>"
-      es: "<p>Se ha simplificado el texto de la barra de estado para coincidir con el diseño estándar de Soplos.</p>"
-      fr: "<p>Le texte de la barre d'état a été simplifié pour correspondre à la disposition standard moderne de Soplos.</p>"
-      it: "<p>Il testo della barra di stato è stato semplificato per corrispondere al layout standard moderno di Soplos.</p>"
-      pt: "<p>O texto da barra de status foi simplificado para corresponder ao layout padrão moderno do Soplos.</p>"
-      ro: "<p>Textul barei de stare a fost simplificat pentru a se potrivi cu aspectul standard modern Soplos.</p>"
-      ru: "<p>Текст строки состояния был упрощен, чтобы соответствовать современному стандартному макету Soplos.</p>"
-  - version: "2.0.0-2"
+      C: "<p>First beta of the rewrite of Soplos Plymouth Manager, after the alpha was tested on real hardware.</p>"
+  - version: "3.0.0-alpha"
     type: stable
-    unix-timestamp: 1776729600
+    unix-timestamp: 1792800000
     description:
-      de: "<p>Korrektur des Kredit-Panels im Über-Dialog unter KDE: Der Kredit-Bereich wird jetzt mit opakem dunklem Hintergrund dargestellt, anstatt transparent zu sein. App-Symbol auf 48×48 Pixel standardisiert.</p>"
-      en: "<p>Fixed About dialog credits panel on KDE: the credits area now displays with an opaque dark background instead of being transparent. App icon standardized to 48×48 pixels.</p>"
-      es: "<p>Corregido el panel de créditos del diálogo Acerca de en KDE: el área de créditos ahora se muestra con fondo oscuro opaco en lugar de ser transparente. Icono estandarizado a 48×48 píxeles.</p>"
-      fr: "<p>Correction du panneau de crédits du dialogue À propos sous KDE : la zone de crédits s'affiche maintenant avec un fond sombre opaque au lieu d'être transparente. Icône standardisée à 48×48 pixels.</p>"
-      it: "<p>Corretto il pannello crediti della finestra Info su KDE: l'area dei crediti ora mostra uno sfondo scuro opaco invece di essere trasparente. Icona standardizzata a 48×48 pixel.</p>"
-      pt: "<p>Corrigido o painel de créditos do diálogo Sobre no KDE: a área de créditos agora é exibida com fundo escuro opaco em vez de ser transparente. Ícone padronizado para 48×48 pixels.</p>"
-      ro: "<p>Corectat panoul de credite din dialogul Despre pe KDE: zona de credite se afișează acum cu fundal întunecat opac în loc să fie transparentă. Pictogramă standardizată la 48×48 pixeli.</p>"
-      ru: "<p>Исправлена панель авторов в диалоге «О программе» в KDE: область авторов теперь отображается с непрозрачным тёмным фоном вместо прозрачного. Значок стандартизирован до 48×48 пикселей.</p>"
-  - version: "2.0.0-1"
-    type: stable
-    unix-timestamp: 1773964800
-    description:
-      de: "<p>Über-Dialog mit F1 hinzugefügt. HeaderBar-CSS auf GNOME korrigiert, damit CSD-Fenstersteuerelemente nicht mehr von der globalen Schaltflächenregel betroffen sind. Versions-Untertitel aus der HeaderBar entfernt.</p>"
-      en: "<p>Added F1 About dialog. Fixed HeaderBar CSS on GNOME so CSD window controls are no longer affected by the global button rule. Removed version subtitle from the HeaderBar.</p>"
-      es: "<p>Añadido diálogo Acerca de con F1. Corregido el CSS del HeaderBar en GNOME para que los controles CSD no sean afectados por la regla global de botones. Eliminado el subtítulo de versión del HeaderBar.</p>"
-      fr: "<p>Ajout du dialogue À propos avec F1. Correction du CSS HeaderBar sur GNOME pour que les contrôles CSD ne soient plus affectés par la règle globale des boutons. Suppression du sous-titre de version du HeaderBar.</p>"
-      it: "<p>Aggiunta finestra Info con F1. Corretto CSS HeaderBar su GNOME in modo che i controlli CSD non siano più influenzati dalla regola globale dei pulsanti. Rimosso il sottotitolo di versione dall'HeaderBar.</p>"
-      pt: "<p>Adicionado diálogo Sobre com F1. Corrigido CSS do HeaderBar no GNOME para que os controles CSD não sejam afetados pela regra global de botões. Removido o subtítulo de versão do HeaderBar.</p>"
-      ro: "<p>Adăugat dialog Despre cu F1. Corectat CSS HeaderBar pe GNOME pentru ca elementele de control CSD să nu mai fie afectate de regula globală a butoanelor. Eliminat subtitlul versiunii din HeaderBar.</p>"
-      ru: "<p>Добавлен диалог «О программе» по F1. Исправлен CSS HeaderBar в GNOME, чтобы элементы управления CSD больше не зависели от глобального правила кнопок. Убран подзаголовок версии из HeaderBar.</p>"
-  - version: "2.0.0"
-    type: stable
-    unix-timestamp: 1773792000
-    description:
-      C: "<p>Version 2.0.0 - Complete modular architecture refactor with dynamic theme detection (no hardcoded lists), robust installer for nested archives, enhanced progress reporting, and full Wayland support. Includes unified environment sensing, robust KDE dark theme detection, unified single-password prompts for TTY, advanced GNOME and KDE previews (Wayland/TTY), and standard-compliant logging.</p>"
-      de: "<p>Version 2.0.0 - Vollständige modulare Refaktorierung mit dynamischer Themenerkennung (keine hardcodierten Listen), robuster Installer für verschachtelte Archive, verbesserte Fortschrittsanzeige und volle Wayland-Unterstützung. Enthält eine einheitliche Umgebungserkennung, robuste KDE-Dark-Theme-Erkennung, einheitliche Passwortabfragen für TTY, erweiterte GNOME- und KDE-Vorschauen (Wayland/TTY) und eine standardkonforme Protokollierung.</p>"
-      es: "<p>Versión 2.0.0 - Refactorización modular completa con detección dinámica de temas (sin listas fijas), instalador robusto para archivos anidados, reporte de progreso mejorado y soporte total para Wayland. Incluye detección unificada de entorno, detección robusta del tema oscuro en KDE, prompts de una sola contraseña para TTY, vistas previas avanzadas en GNOME y KDE (Wayland/TTY) y registro de logs estandarizado.</p>"
-      fr: "<p>Version 2.0.0 - Refonte modulaire complète avec détection dynamique des thèmes (pas de listes codées en dur), installateur robuste pour les archives imbriquées, rapport de progression amélioré et support Wayland complet. Comprend la détection d'environnement unifiée, une détection robuste du thème sombre KDE, des invites à mot de passe unique pour TTY, des aperçus GNOME et KDE avancés (Wayland/TTY) et des journaux conformes.</p>"
-      it: "<p>Versione 2.0.0 - Refactoring modulare completo con rilevamento dinamico dei temi (senza liste fisse), installatore robusto per archivi nidificati, report di avanzamento migliorato e supporto Wayland completo. Include il rilevamento dell'ambiente unificato, il rilevamento robusto del tema scuro KDE, prompt a password singola per TTY, anteprime GNOME e KDE avanzate (Wayland/TTY) e log conformi agli standard.</p>"
-      pt: "<p>Versão 2.0.0 - Refatoração modular completa com detecção dinâmica de temas (sem listas fixas), instalador robusto para arquivos aninhados, relatório de progresso aprimorado e suporte total para Wayland. Inclui detecção de ambiente unificada, detecção robusta do tema escuro do KDE, prompts de senha única para TTY, visualizações avançadas do GNOME e KDE (Wayland/TTY) e logs padronizados.</p>"
-      ro: "<p>Versiunea 2.0.0 - Refactorizare modulară completă cu detecție dinamică a temelor (fără liste fixe), instalator robust pentru arhive imbricate, raportare îmbunătățită a progresului și suport complet pentru Wayland. Include detecția unificată a mediului, detecția robustă a temei întunecate KDE, solicitări cu o singură parolă pentru TTY, previzualizări GNOME și KDE avansate (Wayland/TTY) și jurnalizare standardizată.</p>"
-      ru: "<p>Версия 2.0.0 - Полный модульный рефакторинг с динамическим обнаружением тем (без захардкорженных списков), надежным установщиком для вложенных архивов, улучшенным отображением прогресса и полной поддержкой Wayland. Включает унифицированное обнаружение среды, надежное определение темной темы KDE, единые запросы пароля для TTY, расширенные превью GNOME и KDE (Wayland/TTY) и стандартные логи.</p>"
+      C: "<p>First alpha of the rewrite of Soplos Plymouth Manager, from Python 3 and GTK3 to Tauri 2 with a Rust backend and a Svelte frontend. It applies, previews, installs and removes themes for real, with dracut or initramfs-tools, on X11 and Wayland. It has not yet been tested on real hardware.</p>"
 ContentRating:
-  oars-1.1:
-    violence-cartoon: "none"
-    sex-nudity: "none"
-    language-profanity: "none"
-    drugs-alcohol: "none"
-    money-gambling: "none"
-    money-purchasing: "none"
-    social-chat: "none"
+  oars-1.1: {}
 ---
 Type: desktop-application
 ID: "org.soplos.reposelector.desktop"

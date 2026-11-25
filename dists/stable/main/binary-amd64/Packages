@@ -431,18 +431,22 @@ Description: Reject WOFF/WOFF2 web fonts in fontconfig
  configuration, and restores Type1 fonts.
 
 Package: soplos-grub-editor
-Version: 2.0.2-8
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, gir1.2-polkit-1.0, grub2-common | grub2, imagemagick, pkexec, polkitd, python3, python3-cairo, python3-dbus, python3-gi, python3-pil, python3-polib, python3-setuptools, python3-xlib
-Maintainer: Sergi Perich <info@sergiperich.es>
+Version: 3.0.0
+Architecture: amd64
+Installed-Size: 7375
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://soplos.org
+Depends: pkexec, grub-common | grub2-common, tar, unzip, libwebkit2gtk-4.1-0, libgtk-3-0
+Recommends: os-prober
 Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_2.0.2-8_all.deb
-Size: 1197856
-SHA256: b1bfd9f4f0ffaa703a6777cfc49c8bdf6fd6601e0e2a2f480ace9412ffb471c1
-SHA1: ae9297b78318533e79eb6e66071b0f0943f60ec7
-MD5sum: eae0ca25e8702faa824e13dae73d13bd
-Description: Advanced GRUB configuration editor with complete internationalization
+Section: admin
+Filename: pool/main/s/soplos-grub-editor/soplos-grub-editor_3.0.0_amd64.deb
+Size: 3789444
+SHA256: 86902b7e0111b5b379a15801504904399e33367b1abcd48bc74c3af4d6d1d997
+SHA1: ecd64b5257cdaee253c8b4527668ba40fa4e8523
+MD5sum: 51805f663c2a36cc92de7b9983f4b7dd
+Description: Graphical editor for the GRUB boot loader of Soplos Linux
+ Configure the GRUB2 boot loader of Soplos Linux: default entry and timeout, kernel parameters, custom boot entries, themes, backgrounds, colors and fonts.
 
 Package: soplos-grub-theme
 Version: 0.0.7-1
@@ -590,18 +594,21 @@ Description: Soplos Modern White global theme for KDE Plasma 6.
  Build date: 2026-11-14
 
 Package: soplos-plymouth-manager
-Version: 2.0.0-8
-Architecture: all
-Depends: python3 (>= 3.8), python3-gi, debhelper-compat, dh-python, gir1.2-gtk-3.0, plymouth, plymouth-x11, polkitd, procps, python3, python3-dbus, python3-gi, python3-pil | python3-pillow, python3-psutil, python3-setuptools, python3-xdg, scrot | imagemagick, tar, unzip, x11-utils, xdotool, xserver-xephyr, xterm
-Maintainer: Sergi Perich <info@sergiperich.es>
+Version: 3.0.0
+Architecture: amd64
+Installed-Size: 6853
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://soplos.org
+Depends: pkexec, plymouth, plymouth-x11, dracut | initramfs-tools, xserver-xephyr, xterm, xdotool, x11-xserver-utils, scrot | imagemagick, tar, unzip, libwebkit2gtk-4.1-0, libgtk-3-0
 Priority: optional
-Section: utils
-Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_2.0.0-8_all.deb
-Size: 951428
-SHA256: a783d29a9f92c0be1e899c637f4723f2069c22dae6890d6f71e1db7d8cf66b10
-SHA1: 20c34b03a27b2cde192b4ebd8a3256c7720561d0
-MD5sum: e06fcb5dd42e3242c51d39e85dce1cbf
+Section: admin
+Filename: pool/main/s/soplos-plymouth-manager/soplos-plymouth-manager_3.0.0_amd64.deb
+Size: 3256952
+SHA256: 9091bd72747566de02b2fa78a96848c5f3e3dd9d3dd8fc8cd2638190119108f6
+SHA1: a379bd8b113083d4d96811817e43d6dfb8d2cf07
+MD5sum: a0baac313181e66d57708ae29c7c9674
 Description: Plymouth boot splash theme manager for Soplos Linux
+ Choose, preview, install and remove the Plymouth boot splash themes of Soplos Linux, on Xfce, Plasma and GNOME, with X11 or Wayland, with dracut or initramfs-tools.
 
 Package: soplos-plymouth-theme
 Version: 0.0.2
