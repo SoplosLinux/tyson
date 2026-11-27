@@ -435,20 +435,20 @@ Description: Reject WOFF/WOFF2 web fonts in fontconfig
  configuration, and restores Type1 fonts.
 
 Package: soplos-gaming-panel
-Version: 3.0.0
+Version: 3.0.0-1
 Architecture: amd64
-Installed-Size: 9863
+Installed-Size: 9874
 Maintainer: Sergi Perich <info@soploslinux.com>
 Homepage: https://soplos.org
 Depends: pciutils, x11-utils, xdotool, wmctrl, libgtk-layer-shell0, scx-loader, scx-scheds, libayatana-appindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0
 Recommends: gamemode, mangohud, pkexec
 Priority: optional
 Section: utils
-Filename: pool/main/s/soplos-gaming-panel/soplos-gaming-panel_3.0.0_amd64.deb
-Size: 5215608
-SHA256: eadfb2ecedc9c42f42ad1e03e04e1d4b0b8052a2a327b79e850153c87f617862
-SHA1: 2a1bcf8156e6d144ec6afc18e76b32cef3bbc89b
-MD5sum: c308ac688d58b229adf8bf9856d240fe
+Filename: pool/main/s/soplos-gaming-panel/soplos-gaming-panel_3.0.0-1_amd64.deb
+Size: 5218886
+SHA256: 98cbe714c1133b138e0feeea69211ed3b9de19537ba636e2706899b219054c99
+SHA1: f5cf868e002bad77be111f9a45fd91a93d763ffb
+MD5sum: 8640465456a9eabc29e6f06a526c4c8b
 Description: Live gaming companion for Soplos Linux
  Control GameMode while playing, read and write the configuration of MangoHud, watch the use of the machine and open the games of Steam, Lutris and Heroic, from a small overlay drawn over the game.
 
