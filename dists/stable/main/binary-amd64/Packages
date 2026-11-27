@@ -181,7 +181,7 @@ Description: Kora Soplos icon themes (dark and light) for Soplos Linux.
  Build date: 2026-11-16
 
 Package: kuteditor
-Version: 2.74-1
+Version: 2.75-1
 Architecture: amd64
 Maintainer: Sergi Perich <info@soploslinux.com>
 Installed-Size: 16802
@@ -189,11 +189,11 @@ Depends: libc6 (>= 2.43), libgcc-s1 (>= 4.2), libqt6core6t64 (>= 6.11.2), libqt6
 Homepage: https://github.com/ernestoacostame/kuteditor
 Priority: optional
 Section: sound
-Filename: pool/main/k/kuteditor/kuteditor_2.74-1_amd64.deb
-Size: 3912564
-SHA256: 6ab5b91d25f70a4120ed35b6503a83586ccb4fe28c9b35c4d9dacb56c8da14ab
-SHA1: 3d4569e1d50c5b278a37a04d935963d91409b6c3
-MD5sum: 6f7e7f21ab754a2c1109aee2897eef7f
+Filename: pool/main/k/kuteditor/kuteditor_2.75-1_amd64.deb
+Size: 3912088
+SHA256: c5a51b190553d425fdc759bc26d4354e36112f7c22fe5fe54be7b2138097f8bf
+SHA1: 00c2c540e0203bbdbc95b2144ad9dc80b2be9de9
+MD5sum: 2404e9d4cd48eca4b9cac4413e75ee26
 Description: Native podcast editor with multitrack audio and chapters
  KutEditor is a Qt6/QML podcast editor with multitrack recording and
  editing, a per-track effects chain (compressor, limiter, equaliser,
