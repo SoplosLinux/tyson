@@ -71,6 +71,30 @@ Description: Fish shell configuration for SopLOS
  This package provides the SopLOS theme and prompt for the Fish shell,
  applied to both new and existing users. Sets Fish as the default shell.
 
+Package: future-soplos-cursors
+Version: 1.0.0
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Homepage: https://github.com/SoplosLinux/future-soplos
+Priority: optional
+Section: x11
+Filename: pool/main/f/future-soplos-cursors/future-soplos-cursors_1.0.0_all.deb
+Size: 161460
+SHA256: bd87bbbf00107b94a6a06fc74855694f4c62c62d72b7f194b01fcfd71e30137f
+SHA1: 0f856ca69aacb054988974881c3ba4f48dc939f1
+MD5sum: 7a89584ec65fcbb395db25ec775fcec4
+Description: Future cursor theme in the Soplos Linux colors
+ The Future cursors recolored with the Soplos palette, installed in
+ /usr/share/icons/Future-Soplos. The theme has a scalable SVG version, which
+ GNOME 51 needs, and the XCursor files for every other desktop.
+ .
+ It replaces the Future cursors of Soplos Linux: the folder Future-cursors
+ becomes a link to this theme.
+ .
+ Based on Future cursors by yeyushengfan258, which is based on Capitaine
+ cursors.
+ Build date: 2026-11-27
+
 Package: ghostty
 Version: 1.4.0-1
 Architecture: amd64
