@@ -206,19 +206,19 @@ Description: Native podcast editor with multitrack audio and chapters
  system.
 
 Package: limine
-Version: 12.10.0-0soplos1
+Version: 12.11.1-0soplos1
 Architecture: amd64
 Maintainer: Sergi Perich <info@soploslinux.com>
-Installed-Size: 1297
+Installed-Size: 1308
 Depends: libc6 (>= 2.34)
 Homepage: https://github.com/Limine-Bootloader/Limine
 Priority: optional
 Section: admin
-Filename: pool/main/l/limine/limine_12.10.0-0soplos1_amd64.deb
-Size: 541952
-SHA256: c90817df1d3c6cdd540d77162792bc1b07674bc09bc872dc48194960542a4e88
-SHA1: 3807528592020f56656024fc5d977eb4d6e796b5
-MD5sum: c5164265088be308e82dda6b9a3522ec
+Filename: pool/main/l/limine/limine_12.11.1-0soplos1_amd64.deb
+Size: 543240
+SHA256: 51d9088a0eedd6c658e324273fa483001a44125bad282a49f911422ff989e968
+SHA1: 1bef5838690616644aab99d79f6ae4e097d13cb3
+MD5sum: ab5f4f22b70e51cea8863851a42a373c
 Description: modern, advanced, portable, multiprotocol bootloader
  Limine is a modern, advanced, portable, multiprotocol bootloader and boot
  manager. It boots Linux and other kernels on UEFI and legacy BIOS systems
