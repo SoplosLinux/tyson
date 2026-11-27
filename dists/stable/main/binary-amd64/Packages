@@ -888,18 +888,18 @@ Description: Tela Soplos icon themes (default, dark and light) for Soplos Linux.
  Build date: 2026-11-16
 
 Package: telegram-desktop
-Version: 7.4.4-1
+Version: 7.4.7-1
 Architecture: amd64
 Maintainer: Sergi Perich <info@soploslinux.com>
-Installed-Size: 266400
+Installed-Size: 278328
 Depends: libc6, libatomic1, libblkid1, libbrotli1, libbz2-1.0, libcairo2, libdatrie1, libexpat1, libffi8, libfontconfig1, libfreetype6, libfribidi0, libglib2.0-0t64, libgraphite2-3, libharfbuzz0b, libmount1, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpcre2-8-0, libpixman-1-0, libpng16-16t64, libselinux1, libsystemd0, libthai0, libx11-6, libxau6, libxcb1, libxcb-render0, libxcb-shm0, libxdmcp6, libxext6, libxrender1, zlib1g
 Priority: optional
 Section: net
-Filename: pool/main/t/telegram-desktop/telegram-desktop_7.4.4-1_amd64.deb
-Size: 90699268
-SHA256: c9bfaf9da634c4fd17fbf3e6352fdd3a93c46e84fca14dce73cbb870202f45f5
-SHA1: d547d15c5d9f12e942cfbc5996afa1b3301f6009
-MD5sum: c9108c2821b30e94d12cf9d957e11763
+Filename: pool/main/t/telegram-desktop/telegram-desktop_7.4.7-1_amd64.deb
+Size: 94055572
+SHA256: 19f65f5941357efd04123f8172b84774f2957a179f98e8b49a2ecb28fd80e41d
+SHA1: 64f54610ff50d1123fa3c5c27fa8bf8e795137e3
+MD5sum: 0742fac6f7278119ba71649c0c01c588
 Description: Telegram Desktop
  Official Telegram Desktop client for Linux.
 
