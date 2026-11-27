@@ -485,6 +485,27 @@ Description: GRUB theme package for Soplos Linux Tyson.
  This package provides the official GRUB theme and related assets for Soplos Linux Tyson.
  Build date: 2026-09-28
 
+Package: soplos-icons
+Version: 1.0.0
+Architecture: all
+Maintainer: Sergi Perich <info@soploslinux.com>
+Recommends: adwaita-icon-theme, breeze-icon-theme, hicolor-icon-theme
+Homepage: https://github.com/SoplosLinux/soplos-icons
+Priority: optional
+Section: x11
+Filename: pool/main/s/soplos-icons/soplos-icons_1.0.0_all.deb
+Size: 61888
+SHA256: ce6eae11097f1bca89b1089bca020d4a5c0986114c7c042d8d9fe38330c12d00
+SHA1: 14d4b583a54628a5068ea486bb88c0dda4439bae
+MD5sum: 133076d985f2f778fbd2a2634e1710f2
+Description: Soplos Icons, the original icon theme of Soplos Linux
+ An original SVG icon theme in amber, orange, red and graphite, installed in
+ /usr/share/icons/Soplos. Icons it does not have come from the Adwaita,
+ Breeze and hicolor themes.
+ .
+ Artwork by Sergi Perich and Juanjo Menent.
+ Build date: 2026-11-27
+
 Package: soplos-kernel-installer
 Version: 3.0.0
 Architecture: amd64
