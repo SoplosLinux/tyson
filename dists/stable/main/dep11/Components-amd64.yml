@@ -3,7 +3,7 @@ File: DEP-11
 Version: '1.0'
 Origin: "SoplosLinux"
 MediaBaseUrl: "https://raw.githubusercontent.com/SoplosLinux/tyson/main/media"
-Time: 20261127T125041
+Time: 20261127T132943
 ---
 Type: desktop-application
 ID: "com.mitchellh.ghostty"
@@ -1419,6 +1419,18 @@ Provides:
   binaries:
     - "soplos-linux-installer"
 Releases:
+  - version: "3.0.0-2"
+    type: stable
+    unix-timestamp: 1795737600
+    description:
+      C: "<p>Manual partitioning now resizes existing NTFS, ext and btrfs partitions: the data is kept and the space freed takes new partitions.</p><p>Alongside another system, the slider no longer leaves the Next button disabled on disks with unaligned partitions, and it never goes past the size of the partition being shrunk.</p>"
+      de: "<p>Die manuelle Partitionierung ändert jetzt die Größe vorhandener NTFS-, ext- und btrfs-Partitionen: Die Daten bleiben erhalten, und im frei gewordenen Platz lassen sich neue Partitionen anlegen.</p><p>Neben einem anderen System lässt der Schieberegler die Schaltfläche „Weiter“ auf Datenträgern mit nicht ausgerichteten Partitionen nicht mehr deaktiviert, und er geht nie über die Größe der zu verkleinernden Partition hinaus.</p>"
+      es: "<p>El particionado manual ahora redimensiona particiones NTFS, ext y btrfs existentes: los datos se conservan y en el espacio liberado se pueden crear particiones nuevas.</p><p>Junto a otro sistema, la barra ya no deja el botón Siguiente desactivado en discos con particiones sin alinear, y nunca supera el tamaño de la partición que se reduce.</p>"
+      fr: "<p>Le partitionnement manuel redimensionne désormais les partitions NTFS, ext et btrfs existantes : les données sont conservées et l’espace libéré accueille de nouvelles partitions.</p><p>À côté d’un autre système, le curseur ne laisse plus le bouton Suivant désactivé sur les disques aux partitions non alignées, et il ne dépasse jamais la taille de la partition réduite.</p>"
+      it: "<p>Il partizionamento manuale ora ridimensiona le partizioni NTFS, ext e btrfs esistenti: i dati vengono conservati e nello spazio liberato si possono creare nuove partizioni.</p><p>Accanto a un altro sistema, il cursore non lascia più disattivato il pulsante Avanti sui dischi con partizioni non allineate e non supera mai la dimensione della partizione da ridurre.</p>"
+      pt: "<p>O particionamento manual passa a redimensionar partições NTFS, ext e btrfs existentes: os dados são mantidos e o espaço libertado recebe partições novas.</p><p>Ao lado de outro sistema, a barra já não deixa o botão Seguinte desativado em discos com partições desalinhadas, e nunca ultrapassa o tamanho da partição a reduzir.</p>"
+      ro: "<p>Partiționarea manuală redimensionează acum partițiile NTFS, ext și btrfs existente: datele se păstrează, iar în spațiul eliberat se pot crea partiții noi.</p><p>Lângă alt sistem, glisorul nu mai lasă butonul Înainte dezactivat pe discurile cu partiții nealiniate și nu depășește niciodată dimensiunea partiției care se micșorează.</p>"
+      ru: "<p>Ручная разметка теперь изменяет размер существующих разделов NTFS, ext и btrfs: данные сохраняются, а в освободившемся месте можно создать новые разделы.</p><p>При установке рядом с другой системой ползунок больше не оставляет кнопку «Далее» неактивной на дисках с невыровненными разделами и никогда не превышает размер уменьшаемого раздела.</p>"
   - version: "3.0.0-1"
     type: stable
     unix-timestamp: 1795564800

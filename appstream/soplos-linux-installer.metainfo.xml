@@ -276,6 +276,26 @@
   </screenshots>
 
   <releases>
+    <release version="3.0.0-2" date="2026-11-27">
+      <description>
+        <p>Manual partitioning now resizes existing NTFS, ext and btrfs partitions: the data is kept and the space freed takes new partitions.</p>
+        <p xml:lang="es">El particionado manual ahora redimensiona particiones NTFS, ext y btrfs existentes: los datos se conservan y en el espacio liberado se pueden crear particiones nuevas.</p>
+        <p xml:lang="fr">Le partitionnement manuel redimensionne désormais les partitions NTFS, ext et btrfs existantes : les données sont conservées et l’espace libéré accueille de nouvelles partitions.</p>
+        <p xml:lang="de">Die manuelle Partitionierung ändert jetzt die Größe vorhandener NTFS-, ext- und btrfs-Partitionen: Die Daten bleiben erhalten, und im frei gewordenen Platz lassen sich neue Partitionen anlegen.</p>
+        <p xml:lang="pt">O particionamento manual passa a redimensionar partições NTFS, ext e btrfs existentes: os dados são mantidos e o espaço libertado recebe partições novas.</p>
+        <p xml:lang="it">Il partizionamento manuale ora ridimensiona le partizioni NTFS, ext e btrfs esistenti: i dati vengono conservati e nello spazio liberato si possono creare nuove partizioni.</p>
+        <p xml:lang="ro">Partiționarea manuală redimensionează acum partițiile NTFS, ext și btrfs existente: datele se păstrează, iar în spațiul eliberat se pot crea partiții noi.</p>
+        <p xml:lang="ru">Ручная разметка теперь изменяет размер существующих разделов NTFS, ext и btrfs: данные сохраняются, а в освободившемся месте можно создать новые разделы.</p>
+        <p>Alongside another system, the slider no longer leaves the Next button disabled on disks with unaligned partitions, and it never goes past the size of the partition being shrunk.</p>
+        <p xml:lang="es">Junto a otro sistema, la barra ya no deja el botón Siguiente desactivado en discos con particiones sin alinear, y nunca supera el tamaño de la partición que se reduce.</p>
+        <p xml:lang="fr">À côté d’un autre système, le curseur ne laisse plus le bouton Suivant désactivé sur les disques aux partitions non alignées, et il ne dépasse jamais la taille de la partition réduite.</p>
+        <p xml:lang="de">Neben einem anderen System lässt der Schieberegler die Schaltfläche „Weiter“ auf Datenträgern mit nicht ausgerichteten Partitionen nicht mehr deaktiviert, und er geht nie über die Größe der zu verkleinernden Partition hinaus.</p>
+        <p xml:lang="pt">Ao lado de outro sistema, a barra já não deixa o botão Seguinte desativado em discos com partições desalinhadas, e nunca ultrapassa o tamanho da partição a reduzir.</p>
+        <p xml:lang="it">Accanto a un altro sistema, il cursore non lascia più disattivato il pulsante Avanti sui dischi con partizioni non allineate e non supera mai la dimensione della partizione da ridurre.</p>
+        <p xml:lang="ro">Lângă alt sistem, glisorul nu mai lasă butonul Înainte dezactivat pe discurile cu partiții nealiniate și nu depășește niciodată dimensiunea partiției care se micșorează.</p>
+        <p xml:lang="ru">При установке рядом с другой системой ползунок больше не оставляет кнопку «Далее» неактивной на дисках с невыровненными разделами и никогда не превышает размер уменьшаемого раздела.</p>
+      </description>
+    </release>
     <release version="3.0.0-1" date="2026-11-25">
       <description>
         <p>From the live session the installer looks for a newer version of itself in the Soplos repository and offers to update: it updates, closes and opens again.</p>
